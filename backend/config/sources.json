@@ -6,7 +6,7 @@
       "territory_ids": ["piacenza"],
       "feed_url": null,
       "enabled": false,
-      "status": "candidate_unverified"
+      "status": "candidate_feed_not_found"
     },
     {
       "id": "piacenzasera",
@@ -14,7 +14,7 @@
       "territory_ids": ["piacenza"],
       "feed_url": null,
       "enabled": false,
-      "status": "candidate_unverified"
+      "status": "candidate_feed_not_verified"
     },
     {
       "id": "ilpiacenza",
@@ -22,31 +22,55 @@
       "territory_ids": ["piacenza"],
       "feed_url": null,
       "enabled": false,
-      "status": "candidate_unverified"
+      "status": "candidate_feed_not_verified"
     },
     {
       "id": "laprovinciacomo",
       "name": "La Provincia di Como",
       "territory_ids": ["como"],
-      "feed_url": null,
+      "feed_url": "https://www.laprovinciadicomo.it/feed/",
       "enabled": false,
-      "status": "candidate_unverified"
+      "status": "candidate_url_reported_unverified"
     },
     {
-      "id": "comozero",
-      "name": "ComoZero",
+      "id": "ilgiorno_como",
+      "name": "Il Giorno - Como",
       "territory_ids": ["como"],
-      "feed_url": null,
+      "feed_url": "https://www.ilgiorno.it/como/feed",
       "enabled": false,
-      "status": "candidate_unverified"
+      "status": "candidate_url_reported_unverified"
+    },
+    {
+      "id": "ciaocomo",
+      "name": "CiaoComo",
+      "territory_ids": ["como"],
+      "feed_url": "https://www.ciaocomo.it/feed/",
+      "enabled": false,
+      "status": "candidate_url_reported_unverified"
     },
     {
       "id": "quicomo",
       "name": "QuiComo",
       "territory_ids": ["como"],
-      "feed_url": null,
+      "feed_url": "https://www.quicomo.it/feed/",
       "enabled": false,
-      "status": "candidate_unverified"
+      "status": "candidate_url_reported_unverified"
+    },
+    {
+      "id": "comozero",
+      "name": "ComoZero",
+      "territory_ids": ["como"],
+      "feed_url": "https://comozero.it/feed/",
+      "enabled": false,
+      "status": "candidate_url_reported_unverified"
+    },
+    {
+      "id": "primacomo",
+      "name": "Prima Como",
+      "territory_ids": ["como"],
+      "feed_url": "https://primacomo.it/feed/",
+      "enabled": false,
+      "status": "candidate_url_reported_unverified"
     }
   ]
 }
