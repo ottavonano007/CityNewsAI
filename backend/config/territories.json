@@ -1,0 +1,18 @@
+{
+  "territories": [
+    {
+      "id": "piacenza",
+      "name": "Piacenza e provincia",
+      "region": "Emilia-Romagna",
+      "province_code": "PC",
+      "aliases": ["Piacenza", "provincia di Piacenza", "piacentino", "piacentina"]
+    },
+    {
+      "id": "como",
+      "name": "Como e provincia",
+      "region": "Lombardia",
+      "province_code": "CO",
+      "aliases": ["Como", "provincia di Como", "comasco", "comasca"]
+    }
+  ]
+}
