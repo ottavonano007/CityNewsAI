@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "id": "liberta",
+      "name": "Libertà",
+      "territory_ids": ["piacenza"],
+      "feed_url": null,
+      "enabled": false,
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "piacenzasera",
+      "name": "PiacenzaSera",
+      "territory_ids": ["piacenza"],
+      "feed_url": null,
+      "enabled": false,
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "ilpiacenza",
+      "name": "IlPiacenza",
+      "territory_ids": ["piacenza"],
+      "feed_url": null,
+      "enabled": false,
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "laprovinciacomo",
+      "name": "La Provincia di Como",
+      "territory_ids": ["como"],
+      "feed_url": null,
+      "enabled": false,
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "comozero",
+      "name": "ComoZero",
+      "territory_ids": ["como"],
+      "feed_url": null,
+      "enabled": false,
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "quicomo",
+      "name": "QuiComo",
+      "territory_ids": ["como"],
+      "feed_url": null,
+      "enabled": false,
+      "status": "candidate_unverified"
+    }
+  ]
+}
