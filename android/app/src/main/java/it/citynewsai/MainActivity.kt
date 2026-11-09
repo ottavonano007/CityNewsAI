@@ -17,12 +17,16 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.LocationOn
+import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilterChip
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExposedDropdownMenuBox
+import androidx.compose.material3.ExposedDropdownMenu
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.menuAnchor
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -116,22 +120,51 @@ private fun CityNewsApp() {
                 modifier = Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp)
             ) {
                 Spacer(Modifier.height(16.dp))
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(10.dp)
+                var territoryMenuExpanded by remember { mutableStateOf(false) }
+                Text(
+                    "Seleziona il territorio",
+                    style = MaterialTheme.typography.labelLarge,
+                    color = Color(0xFF52636D)
+                )
+                Spacer(Modifier.height(6.dp))
+                ExposedDropdownMenuBox(
+                    expanded = territoryMenuExpanded,
+                    onExpandedChange = { territoryMenuExpanded = !territoryMenuExpanded },
+                    modifier = Modifier.fillMaxWidth()
                 ) {
-                    FilterChip(
-                        selected = selectedTerritory == "Piacenza",
-                        onClick = { selectedTerritory = "Piacenza" },
-                        label = { Text("Piacenza e provincia") },
-                        leadingIcon = { Icon(Icons.Default.LocationOn, contentDescription = null) }
+                    OutlinedTextField(
+                        value = if (selectedTerritory == "Piacenza") "Piacenza e provincia" else "Como e provincia",
+                        onValueChange = {},
+                        readOnly = true,
+                        singleLine = true,
+                        trailingIcon = {
+                            Icon(Icons.Default.ArrowDropDown, contentDescription = "Apri elenco territori")
+                        },
+                        modifier = Modifier.menuAnchor().fillMaxWidth(),
+                        colors = androidx.compose.material3.OutlinedTextFieldDefaults.colors(
+                            focusedContainerColor = Color.White,
+                            unfocusedContainerColor = Color.White
+                        )
                     )
-                    FilterChip(
-                        selected = selectedTerritory == "Como",
-                        onClick = { selectedTerritory = "Como" },
-                        label = { Text("Como e provincia") },
-                        leadingIcon = { Icon(Icons.Default.LocationOn, contentDescription = null) }
-                    )
+                    ExposedDropdownMenu(
+                        expanded = territoryMenuExpanded,
+                        onDismissRequest = { territoryMenuExpanded = false }
+                    ) {
+                        DropdownMenuItem(
+                            text = { Text("Piacenza e provincia") },
+                            onClick = {
+                                selectedTerritory = "Piacenza"
+                                territoryMenuExpanded = false
+                            }
+                        )
+                        DropdownMenuItem(
+                            text = { Text("Como e provincia") },
+                            onClick = {
+                                selectedTerritory = "Como"
+                                territoryMenuExpanded = false
+                            }
+                        )
+                    }
                 }
 
                 Spacer(Modifier.height(12.dp))
