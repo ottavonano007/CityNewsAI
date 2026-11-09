@@ -15,6 +15,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -45,6 +46,9 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
 import java.util.Locale
+import java.util.Date
+import java.text.SimpleDateFormat
+import java.util.TimeZone
 import java.net.HttpURLConnection
 import java.net.URL
 import org.json.JSONObject
@@ -176,6 +180,53 @@ private data class NewsArticle(
     val territoryCodes: Set<String>
 )
 
+
+private fun parseNewsDate(value: String): Date? {
+    if (value.isBlank()) return null
+    val patterns = listOf(
+        "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+        "yyyy-MM-dd'T'HH:mm:ssXXX",
+        "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+        "yyyy-MM-dd'T'HH:mm:ss'Z'",
+        "yyyy-MM-dd"
+    )
+    for (pattern in patterns) {
+        try {
+            val parser = SimpleDateFormat(pattern, Locale.ROOT).apply {
+                isLenient = false
+                if (pattern.endsWith("'Z'")) timeZone = TimeZone.getTimeZone("UTC")
+            }
+            val parsed = parser.parse(value)
+            if (parsed != null) return parsed
+        } catch (_: Exception) { }
+    }
+    return null
+}
+
+private data class NewsPeriod(val id: String, val label: String, val amount: Int, val unit: Int)
+
+private val newsPeriods = listOf(
+    NewsPeriod("24h", "24 ore", 24, java.util.Calendar.HOUR),
+    NewsPeriod("week", "1 settimana", 7, java.util.Calendar.DATE),
+    NewsPeriod("month", "1 mese", 1, java.util.Calendar.MONTH),
+    NewsPeriod("6months", "6 mesi", 6, java.util.Calendar.MONTH),
+    NewsPeriod("year", "1 anno", 1, java.util.Calendar.YEAR)
+)
+
+private fun filterNewsByPeriod(articles: List<NewsArticle>, periodId: String): List<NewsArticle> {
+    val period = newsPeriods.firstOrNull { it.id == periodId } ?: newsPeriods.first()
+    val now = Date()
+    val cutoffCalendar = java.util.Calendar.getInstance().apply {
+        time = now
+        add(period.unit, -period.amount)
+    }
+    val cutoff = cutoffCalendar.time
+    return articles.mapNotNull { article ->
+        val date = parseNewsDate(article.publishedAt) ?: return@mapNotNull null
+        if (date.before(cutoff) || date.after(now)) null else article to date
+    }.sortedByDescending { it.second }.map { it.first }
+}
+
 private suspend fun fetchPublishedNews(): Pair<List<NewsArticle>, String> = withContext(Dispatchers.IO) {
     val connection = (URL("https://raw.githubusercontent.com/ottavonano007/CityNewsAI/main/docs/data/news.json").openConnection() as HttpURLConnection)
     try {
@@ -290,6 +341,7 @@ private fun CityNewsApp() {
     var newsUpdatedAt by remember { mutableStateOf("") }
     var newsLoading by remember { mutableStateOf(false) }
     var newsError by remember { mutableStateOf("") }
+    var selectedNewsPeriod by remember { mutableStateOf("24h") }
 
     val refreshNews: suspend () -> Unit = {
         newsLoading = true
@@ -357,7 +409,8 @@ private fun CityNewsApp() {
     )
 
     MaterialTheme(colorScheme = colors) {
-        val articles = liveArticles.filter { selectedProvince.code in it.territoryCodes }
+        val provinceArticles = liveArticles.filter { selectedProvince.code in it.territoryCodes }
+        val articles = filterNewsByPeriod(provinceArticles, selectedNewsPeriod)
         Scaffold(
             containerColor = MaterialTheme.colorScheme.background,
             snackbarHost = { SnackbarHost(snackbarHostState) },
@@ -503,11 +556,26 @@ private fun CityNewsApp() {
                         )
                     }
                 }
-                Spacer(Modifier.height(14.dp))
+                Spacer(Modifier.height(12.dp))
+                Text("Periodo delle notizie", style = MaterialTheme.typography.labelLarge)
+                Spacer(Modifier.height(6.dp))
+                Row(
+                    modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    newsPeriods.forEach { period ->
+                        FilterChip(
+                            selected = selectedNewsPeriod == period.id,
+                            onClick = { selectedNewsPeriod = period.id },
+                            label = { Text(period.label) }
+                        )
+                    }
+                }
+                Spacer(Modifier.height(12.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(selectedProvince.name, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                     Spacer(Modifier.weight(1f))
-                    Text("${articles.size} notizie", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelMedium)
+                    Text("${articles.size} notizie • ${newsPeriods.first { it.id == selectedNewsPeriod }.label}", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelMedium)
                 }
                 Spacer(Modifier.height(10.dp))
                 LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxSize()) {
