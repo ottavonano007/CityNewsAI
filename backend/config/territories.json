@@ -1,18 +1,1234 @@
 {
+  "data_source": "ISTAT SITUAS-derived current territorial units; registry snapshot 2026-10-07",
   "territories": [
     {
-      "id": "piacenza",
-      "name": "Piacenza e provincia",
+      "id": "ag",
+      "name": "Agrigento e territorio",
+      "region": "Sicilia",
+      "province_code": "AG",
+      "administrative_type": "free_municipal_consortium",
+      "aliases": [
+        "Agrigento",
+        "provincia di Agrigento"
+      ]
+    },
+    {
+      "id": "al",
+      "name": "Alessandria e territorio",
+      "region": "Piemonte",
+      "province_code": "AL",
+      "administrative_type": "province",
+      "aliases": [
+        "Alessandria",
+        "provincia di Alessandria"
+      ]
+    },
+    {
+      "id": "an",
+      "name": "Ancona e territorio",
+      "region": "Marche",
+      "province_code": "AN",
+      "administrative_type": "province",
+      "aliases": [
+        "Ancona",
+        "provincia di Ancona"
+      ]
+    },
+    {
+      "id": "ar",
+      "name": "Arezzo e territorio",
+      "region": "Toscana",
+      "province_code": "AR",
+      "administrative_type": "province",
+      "aliases": [
+        "Arezzo",
+        "provincia di Arezzo"
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Ascoli Piceno e territorio",
+      "region": "Marche",
+      "province_code": "AP",
+      "administrative_type": "province",
+      "aliases": [
+        "Ascoli Piceno",
+        "provincia di Ascoli Piceno"
+      ]
+    },
+    {
+      "id": "at",
+      "name": "Asti e territorio",
+      "region": "Piemonte",
+      "province_code": "AT",
+      "administrative_type": "province",
+      "aliases": [
+        "Asti",
+        "provincia di Asti"
+      ]
+    },
+    {
+      "id": "av",
+      "name": "Avellino e territorio",
+      "region": "Campania",
+      "province_code": "AV",
+      "administrative_type": "province",
+      "aliases": [
+        "Avellino",
+        "provincia di Avellino"
+      ]
+    },
+    {
+      "id": "ba",
+      "name": "Bari e territorio",
+      "region": "Puglia",
+      "province_code": "BA",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Bari",
+        "provincia di Bari"
+      ]
+    },
+    {
+      "id": "bt",
+      "name": "Barletta-Andria-Trani e territorio",
+      "region": "Puglia",
+      "province_code": "BT",
+      "administrative_type": "province",
+      "aliases": [
+        "Barletta-Andria-Trani",
+        "provincia di Barletta-Andria-Trani"
+      ]
+    },
+    {
+      "id": "bl",
+      "name": "Belluno e territorio",
+      "region": "Veneto",
+      "province_code": "BL",
+      "administrative_type": "province",
+      "aliases": [
+        "Belluno",
+        "provincia di Belluno"
+      ]
+    },
+    {
+      "id": "bn",
+      "name": "Benevento e territorio",
+      "region": "Campania",
+      "province_code": "BN",
+      "administrative_type": "province",
+      "aliases": [
+        "Benevento",
+        "provincia di Benevento"
+      ]
+    },
+    {
+      "id": "bg",
+      "name": "Bergamo e territorio",
+      "region": "Lombardia",
+      "province_code": "BG",
+      "administrative_type": "province",
+      "aliases": [
+        "Bergamo",
+        "provincia di Bergamo"
+      ]
+    },
+    {
+      "id": "bi",
+      "name": "Biella e territorio",
+      "region": "Piemonte",
+      "province_code": "BI",
+      "administrative_type": "province",
+      "aliases": [
+        "Biella",
+        "provincia di Biella"
+      ]
+    },
+    {
+      "id": "bo",
+      "name": "Bologna e territorio",
       "region": "Emilia-Romagna",
-      "province_code": "PC",
-      "aliases": ["Piacenza", "provincia di Piacenza", "piacentino", "piacentina"]
+      "province_code": "BO",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Bologna",
+        "provincia di Bologna"
+      ]
+    },
+    {
+      "id": "bz",
+      "name": "Bolzano e territorio",
+      "region": "Trentino-Alto Adige",
+      "province_code": "BZ",
+      "administrative_type": "autonomous_province",
+      "aliases": [
+        "Bolzano",
+        "provincia di Bolzano",
+        "Bolzano/Bozen",
+        "Alto Adige",
+        "Provincia autonoma di Bolzano"
+      ]
+    },
+    {
+      "id": "bs",
+      "name": "Brescia e territorio",
+      "region": "Lombardia",
+      "province_code": "BS",
+      "administrative_type": "province",
+      "aliases": [
+        "Brescia",
+        "provincia di Brescia"
+      ]
+    },
+    {
+      "id": "br",
+      "name": "Brindisi e territorio",
+      "region": "Puglia",
+      "province_code": "BR",
+      "administrative_type": "province",
+      "aliases": [
+        "Brindisi",
+        "provincia di Brindisi"
+      ]
+    },
+    {
+      "id": "ca",
+      "name": "Cagliari e territorio",
+      "region": "Sardegna",
+      "province_code": "CA",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Cagliari",
+        "provincia di Cagliari"
+      ]
+    },
+    {
+      "id": "cl",
+      "name": "Caltanissetta e territorio",
+      "region": "Sicilia",
+      "province_code": "CL",
+      "administrative_type": "free_municipal_consortium",
+      "aliases": [
+        "Caltanissetta",
+        "provincia di Caltanissetta"
+      ]
+    },
+    {
+      "id": "cb",
+      "name": "Campobasso e territorio",
+      "region": "Molise",
+      "province_code": "CB",
+      "administrative_type": "province",
+      "aliases": [
+        "Campobasso",
+        "provincia di Campobasso"
+      ]
+    },
+    {
+      "id": "ce",
+      "name": "Caserta e territorio",
+      "region": "Campania",
+      "province_code": "CE",
+      "administrative_type": "province",
+      "aliases": [
+        "Caserta",
+        "provincia di Caserta"
+      ]
+    },
+    {
+      "id": "ct",
+      "name": "Catania e territorio",
+      "region": "Sicilia",
+      "province_code": "CT",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Catania",
+        "provincia di Catania"
+      ]
+    },
+    {
+      "id": "cz",
+      "name": "Catanzaro e territorio",
+      "region": "Calabria",
+      "province_code": "CZ",
+      "administrative_type": "province",
+      "aliases": [
+        "Catanzaro",
+        "provincia di Catanzaro"
+      ]
+    },
+    {
+      "id": "ch",
+      "name": "Chieti e territorio",
+      "region": "Abruzzo",
+      "province_code": "CH",
+      "administrative_type": "province",
+      "aliases": [
+        "Chieti",
+        "provincia di Chieti"
+      ]
     },
     {
       "id": "como",
-      "name": "Como e provincia",
+      "name": "Como e territorio",
       "region": "Lombardia",
       "province_code": "CO",
-      "aliases": ["Como", "provincia di Como", "comasco", "comasca"]
+      "administrative_type": "province",
+      "aliases": [
+        "Como",
+        "provincia di Como",
+        "comasco",
+        "comasca"
+      ]
+    },
+    {
+      "id": "cs",
+      "name": "Cosenza e territorio",
+      "region": "Calabria",
+      "province_code": "CS",
+      "administrative_type": "province",
+      "aliases": [
+        "Cosenza",
+        "provincia di Cosenza"
+      ]
+    },
+    {
+      "id": "cr",
+      "name": "Cremona e territorio",
+      "region": "Lombardia",
+      "province_code": "CR",
+      "administrative_type": "province",
+      "aliases": [
+        "Cremona",
+        "provincia di Cremona"
+      ]
+    },
+    {
+      "id": "kr",
+      "name": "Crotone e territorio",
+      "region": "Calabria",
+      "province_code": "KR",
+      "administrative_type": "province",
+      "aliases": [
+        "Crotone",
+        "provincia di Crotone"
+      ]
+    },
+    {
+      "id": "cn",
+      "name": "Cuneo e territorio",
+      "region": "Piemonte",
+      "province_code": "CN",
+      "administrative_type": "province",
+      "aliases": [
+        "Cuneo",
+        "provincia di Cuneo"
+      ]
+    },
+    {
+      "id": "en",
+      "name": "Enna e territorio",
+      "region": "Sicilia",
+      "province_code": "EN",
+      "administrative_type": "free_municipal_consortium",
+      "aliases": [
+        "Enna",
+        "provincia di Enna"
+      ]
+    },
+    {
+      "id": "fm",
+      "name": "Fermo e territorio",
+      "region": "Marche",
+      "province_code": "FM",
+      "administrative_type": "province",
+      "aliases": [
+        "Fermo",
+        "provincia di Fermo"
+      ]
+    },
+    {
+      "id": "fe",
+      "name": "Ferrara e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "FE",
+      "administrative_type": "province",
+      "aliases": [
+        "Ferrara",
+        "provincia di Ferrara"
+      ]
+    },
+    {
+      "id": "fi",
+      "name": "Firenze e territorio",
+      "region": "Toscana",
+      "province_code": "FI",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Firenze",
+        "provincia di Firenze"
+      ]
+    },
+    {
+      "id": "fg",
+      "name": "Foggia e territorio",
+      "region": "Puglia",
+      "province_code": "FG",
+      "administrative_type": "province",
+      "aliases": [
+        "Foggia",
+        "provincia di Foggia"
+      ]
+    },
+    {
+      "id": "fc",
+      "name": "Forlì-Cesena e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "FC",
+      "administrative_type": "province",
+      "aliases": [
+        "Forlì-Cesena",
+        "provincia di Forlì-Cesena",
+        "Forli-Cesena"
+      ]
+    },
+    {
+      "id": "fr",
+      "name": "Frosinone e territorio",
+      "region": "Lazio",
+      "province_code": "FR",
+      "administrative_type": "province",
+      "aliases": [
+        "Frosinone",
+        "provincia di Frosinone"
+      ]
+    },
+    {
+      "id": "ot",
+      "name": "Gallura Nord-Est Sardegna e territorio",
+      "region": "Sardegna",
+      "province_code": "OT",
+      "administrative_type": "province",
+      "aliases": [
+        "Gallura Nord-Est Sardegna",
+        "provincia di Gallura Nord-Est Sardegna",
+        "Gallura"
+      ]
+    },
+    {
+      "id": "ge",
+      "name": "Genova e territorio",
+      "region": "Liguria",
+      "province_code": "GE",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Genova",
+        "provincia di Genova"
+      ]
+    },
+    {
+      "id": "go",
+      "name": "Gorizia e territorio",
+      "region": "Friuli-Venezia Giulia",
+      "province_code": "GO",
+      "administrative_type": "non_administrative_unit",
+      "aliases": [
+        "Gorizia",
+        "provincia di Gorizia"
+      ]
+    },
+    {
+      "id": "gr",
+      "name": "Grosseto e territorio",
+      "region": "Toscana",
+      "province_code": "GR",
+      "administrative_type": "province",
+      "aliases": [
+        "Grosseto",
+        "provincia di Grosseto"
+      ]
+    },
+    {
+      "id": "im",
+      "name": "Imperia e territorio",
+      "region": "Liguria",
+      "province_code": "IM",
+      "administrative_type": "province",
+      "aliases": [
+        "Imperia",
+        "provincia di Imperia"
+      ]
+    },
+    {
+      "id": "is",
+      "name": "Isernia e territorio",
+      "region": "Molise",
+      "province_code": "IS",
+      "administrative_type": "province",
+      "aliases": [
+        "Isernia",
+        "provincia di Isernia"
+      ]
+    },
+    {
+      "id": "aq",
+      "name": "L'Aquila e territorio",
+      "region": "Abruzzo",
+      "province_code": "AQ",
+      "administrative_type": "province",
+      "aliases": [
+        "L'Aquila",
+        "provincia di L'Aquila",
+        "Aquila"
+      ]
+    },
+    {
+      "id": "sp",
+      "name": "La Spezia e territorio",
+      "region": "Liguria",
+      "province_code": "SP",
+      "administrative_type": "province",
+      "aliases": [
+        "La Spezia",
+        "provincia di La Spezia"
+      ]
+    },
+    {
+      "id": "lt",
+      "name": "Latina e territorio",
+      "region": "Lazio",
+      "province_code": "LT",
+      "administrative_type": "province",
+      "aliases": [
+        "Latina",
+        "provincia di Latina"
+      ]
+    },
+    {
+      "id": "le",
+      "name": "Lecce e territorio",
+      "region": "Puglia",
+      "province_code": "LE",
+      "administrative_type": "province",
+      "aliases": [
+        "Lecce",
+        "provincia di Lecce"
+      ]
+    },
+    {
+      "id": "lc",
+      "name": "Lecco e territorio",
+      "region": "Lombardia",
+      "province_code": "LC",
+      "administrative_type": "province",
+      "aliases": [
+        "Lecco",
+        "provincia di Lecco"
+      ]
+    },
+    {
+      "id": "li",
+      "name": "Livorno e territorio",
+      "region": "Toscana",
+      "province_code": "LI",
+      "administrative_type": "province",
+      "aliases": [
+        "Livorno",
+        "provincia di Livorno"
+      ]
+    },
+    {
+      "id": "lo",
+      "name": "Lodi e territorio",
+      "region": "Lombardia",
+      "province_code": "LO",
+      "administrative_type": "province",
+      "aliases": [
+        "Lodi",
+        "provincia di Lodi"
+      ]
+    },
+    {
+      "id": "lu",
+      "name": "Lucca e territorio",
+      "region": "Toscana",
+      "province_code": "LU",
+      "administrative_type": "province",
+      "aliases": [
+        "Lucca",
+        "provincia di Lucca"
+      ]
+    },
+    {
+      "id": "mc",
+      "name": "Macerata e territorio",
+      "region": "Marche",
+      "province_code": "MC",
+      "administrative_type": "province",
+      "aliases": [
+        "Macerata",
+        "provincia di Macerata"
+      ]
+    },
+    {
+      "id": "mn",
+      "name": "Mantova e territorio",
+      "region": "Lombardia",
+      "province_code": "MN",
+      "administrative_type": "province",
+      "aliases": [
+        "Mantova",
+        "provincia di Mantova"
+      ]
+    },
+    {
+      "id": "ms",
+      "name": "Massa-Carrara e territorio",
+      "region": "Toscana",
+      "province_code": "MS",
+      "administrative_type": "province",
+      "aliases": [
+        "Massa-Carrara",
+        "provincia di Massa-Carrara",
+        "Massa Carrara"
+      ]
+    },
+    {
+      "id": "mt",
+      "name": "Matera e territorio",
+      "region": "Basilicata",
+      "province_code": "MT",
+      "administrative_type": "province",
+      "aliases": [
+        "Matera",
+        "provincia di Matera"
+      ]
+    },
+    {
+      "id": "vs",
+      "name": "Medio Campidano e territorio",
+      "region": "Sardegna",
+      "province_code": "VS",
+      "administrative_type": "province",
+      "aliases": [
+        "Medio Campidano",
+        "provincia di Medio Campidano",
+        "Campidano"
+      ]
+    },
+    {
+      "id": "me",
+      "name": "Messina e territorio",
+      "region": "Sicilia",
+      "province_code": "ME",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Messina",
+        "provincia di Messina"
+      ]
+    },
+    {
+      "id": "mi",
+      "name": "Milano e territorio",
+      "region": "Lombardia",
+      "province_code": "MI",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Milano",
+        "provincia di Milano"
+      ]
+    },
+    {
+      "id": "mo",
+      "name": "Modena e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "MO",
+      "administrative_type": "province",
+      "aliases": [
+        "Modena",
+        "provincia di Modena"
+      ]
+    },
+    {
+      "id": "mb",
+      "name": "Monza e della Brianza e territorio",
+      "region": "Lombardia",
+      "province_code": "MB",
+      "administrative_type": "province",
+      "aliases": [
+        "Monza e della Brianza",
+        "provincia di Monza e della Brianza"
+      ]
+    },
+    {
+      "id": "na",
+      "name": "Napoli e territorio",
+      "region": "Campania",
+      "province_code": "NA",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Napoli",
+        "provincia di Napoli"
+      ]
+    },
+    {
+      "id": "no",
+      "name": "Novara e territorio",
+      "region": "Piemonte",
+      "province_code": "NO",
+      "administrative_type": "province",
+      "aliases": [
+        "Novara",
+        "provincia di Novara"
+      ]
+    },
+    {
+      "id": "nu",
+      "name": "Nuoro e territorio",
+      "region": "Sardegna",
+      "province_code": "NU",
+      "administrative_type": "province",
+      "aliases": [
+        "Nuoro",
+        "provincia di Nuoro"
+      ]
+    },
+    {
+      "id": "og",
+      "name": "Ogliastra e territorio",
+      "region": "Sardegna",
+      "province_code": "OG",
+      "administrative_type": "province",
+      "aliases": [
+        "Ogliastra",
+        "provincia di Ogliastra"
+      ]
+    },
+    {
+      "id": "or",
+      "name": "Oristano e territorio",
+      "region": "Sardegna",
+      "province_code": "OR",
+      "administrative_type": "province",
+      "aliases": [
+        "Oristano",
+        "provincia di Oristano"
+      ]
+    },
+    {
+      "id": "pd",
+      "name": "Padova e territorio",
+      "region": "Veneto",
+      "province_code": "PD",
+      "administrative_type": "province",
+      "aliases": [
+        "Padova",
+        "provincia di Padova"
+      ]
+    },
+    {
+      "id": "pa",
+      "name": "Palermo e territorio",
+      "region": "Sicilia",
+      "province_code": "PA",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Palermo",
+        "provincia di Palermo"
+      ]
+    },
+    {
+      "id": "pr",
+      "name": "Parma e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "PR",
+      "administrative_type": "province",
+      "aliases": [
+        "Parma",
+        "provincia di Parma"
+      ]
+    },
+    {
+      "id": "pv",
+      "name": "Pavia e territorio",
+      "region": "Lombardia",
+      "province_code": "PV",
+      "administrative_type": "province",
+      "aliases": [
+        "Pavia",
+        "provincia di Pavia"
+      ]
+    },
+    {
+      "id": "pg",
+      "name": "Perugia e territorio",
+      "region": "Umbria",
+      "province_code": "PG",
+      "administrative_type": "province",
+      "aliases": [
+        "Perugia",
+        "provincia di Perugia"
+      ]
+    },
+    {
+      "id": "pu",
+      "name": "Pesaro e Urbino e territorio",
+      "region": "Marche",
+      "province_code": "PU",
+      "administrative_type": "province",
+      "aliases": [
+        "Pesaro e Urbino",
+        "provincia di Pesaro e Urbino"
+      ]
+    },
+    {
+      "id": "pe",
+      "name": "Pescara e territorio",
+      "region": "Abruzzo",
+      "province_code": "PE",
+      "administrative_type": "province",
+      "aliases": [
+        "Pescara",
+        "provincia di Pescara"
+      ]
+    },
+    {
+      "id": "piacenza",
+      "name": "Piacenza e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "PC",
+      "administrative_type": "province",
+      "aliases": [
+        "Piacenza",
+        "provincia di Piacenza",
+        "piacentino",
+        "piacentina"
+      ]
+    },
+    {
+      "id": "pi",
+      "name": "Pisa e territorio",
+      "region": "Toscana",
+      "province_code": "PI",
+      "administrative_type": "province",
+      "aliases": [
+        "Pisa",
+        "provincia di Pisa"
+      ]
+    },
+    {
+      "id": "pt",
+      "name": "Pistoia e territorio",
+      "region": "Toscana",
+      "province_code": "PT",
+      "administrative_type": "province",
+      "aliases": [
+        "Pistoia",
+        "provincia di Pistoia"
+      ]
+    },
+    {
+      "id": "pn",
+      "name": "Pordenone e territorio",
+      "region": "Friuli-Venezia Giulia",
+      "province_code": "PN",
+      "administrative_type": "non_administrative_unit",
+      "aliases": [
+        "Pordenone",
+        "provincia di Pordenone"
+      ]
+    },
+    {
+      "id": "pz",
+      "name": "Potenza e territorio",
+      "region": "Basilicata",
+      "province_code": "PZ",
+      "administrative_type": "province",
+      "aliases": [
+        "Potenza",
+        "provincia di Potenza"
+      ]
+    },
+    {
+      "id": "po",
+      "name": "Prato e territorio",
+      "region": "Toscana",
+      "province_code": "PO",
+      "administrative_type": "province",
+      "aliases": [
+        "Prato",
+        "provincia di Prato"
+      ]
+    },
+    {
+      "id": "rg",
+      "name": "Ragusa e territorio",
+      "region": "Sicilia",
+      "province_code": "RG",
+      "administrative_type": "free_municipal_consortium",
+      "aliases": [
+        "Ragusa",
+        "provincia di Ragusa"
+      ]
+    },
+    {
+      "id": "ra",
+      "name": "Ravenna e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "RA",
+      "administrative_type": "province",
+      "aliases": [
+        "Ravenna",
+        "provincia di Ravenna"
+      ]
+    },
+    {
+      "id": "rc",
+      "name": "Reggio Calabria e territorio",
+      "region": "Calabria",
+      "province_code": "RC",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Reggio Calabria",
+        "provincia di Reggio Calabria"
+      ]
+    },
+    {
+      "id": "re",
+      "name": "Reggio nell'Emilia e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "RE",
+      "administrative_type": "province",
+      "aliases": [
+        "Reggio nell'Emilia",
+        "provincia di Reggio nell'Emilia",
+        "Reggio Emilia",
+        "Reggiano",
+        "Reggiana"
+      ]
+    },
+    {
+      "id": "ri",
+      "name": "Rieti e territorio",
+      "region": "Lazio",
+      "province_code": "RI",
+      "administrative_type": "province",
+      "aliases": [
+        "Rieti",
+        "provincia di Rieti"
+      ]
+    },
+    {
+      "id": "rn",
+      "name": "Rimini e territorio",
+      "region": "Emilia-Romagna",
+      "province_code": "RN",
+      "administrative_type": "province",
+      "aliases": [
+        "Rimini",
+        "provincia di Rimini"
+      ]
+    },
+    {
+      "id": "rm",
+      "name": "Roma e territorio",
+      "region": "Lazio",
+      "province_code": "RM",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Roma",
+        "provincia di Roma"
+      ]
+    },
+    {
+      "id": "ro",
+      "name": "Rovigo e territorio",
+      "region": "Veneto",
+      "province_code": "RO",
+      "administrative_type": "province",
+      "aliases": [
+        "Rovigo",
+        "provincia di Rovigo"
+      ]
+    },
+    {
+      "id": "sa",
+      "name": "Salerno e territorio",
+      "region": "Campania",
+      "province_code": "SA",
+      "administrative_type": "province",
+      "aliases": [
+        "Salerno",
+        "provincia di Salerno"
+      ]
+    },
+    {
+      "id": "ss",
+      "name": "Sassari e territorio",
+      "region": "Sardegna",
+      "province_code": "SS",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Sassari",
+        "provincia di Sassari"
+      ]
+    },
+    {
+      "id": "sv",
+      "name": "Savona e territorio",
+      "region": "Liguria",
+      "province_code": "SV",
+      "administrative_type": "province",
+      "aliases": [
+        "Savona",
+        "provincia di Savona"
+      ]
+    },
+    {
+      "id": "si",
+      "name": "Siena e territorio",
+      "region": "Toscana",
+      "province_code": "SI",
+      "administrative_type": "province",
+      "aliases": [
+        "Siena",
+        "provincia di Siena"
+      ]
+    },
+    {
+      "id": "sr",
+      "name": "Siracusa e territorio",
+      "region": "Sicilia",
+      "province_code": "SR",
+      "administrative_type": "free_municipal_consortium",
+      "aliases": [
+        "Siracusa",
+        "provincia di Siracusa"
+      ]
+    },
+    {
+      "id": "so",
+      "name": "Sondrio e territorio",
+      "region": "Lombardia",
+      "province_code": "SO",
+      "administrative_type": "province",
+      "aliases": [
+        "Sondrio",
+        "provincia di Sondrio"
+      ]
+    },
+    {
+      "id": "su",
+      "name": "Sulcis Iglesiente e territorio",
+      "region": "Sardegna",
+      "province_code": "SU",
+      "administrative_type": "province",
+      "aliases": [
+        "Sulcis Iglesiente",
+        "provincia di Sulcis Iglesiente",
+        "Sulcis-Iglesiente"
+      ]
+    },
+    {
+      "id": "ta",
+      "name": "Taranto e territorio",
+      "region": "Puglia",
+      "province_code": "TA",
+      "administrative_type": "province",
+      "aliases": [
+        "Taranto",
+        "provincia di Taranto"
+      ]
+    },
+    {
+      "id": "te",
+      "name": "Teramo e territorio",
+      "region": "Abruzzo",
+      "province_code": "TE",
+      "administrative_type": "province",
+      "aliases": [
+        "Teramo",
+        "provincia di Teramo"
+      ]
+    },
+    {
+      "id": "tr",
+      "name": "Terni e territorio",
+      "region": "Umbria",
+      "province_code": "TR",
+      "administrative_type": "province",
+      "aliases": [
+        "Terni",
+        "provincia di Terni"
+      ]
+    },
+    {
+      "id": "to",
+      "name": "Torino e territorio",
+      "region": "Piemonte",
+      "province_code": "TO",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Torino",
+        "provincia di Torino"
+      ]
+    },
+    {
+      "id": "tp",
+      "name": "Trapani e territorio",
+      "region": "Sicilia",
+      "province_code": "TP",
+      "administrative_type": "free_municipal_consortium",
+      "aliases": [
+        "Trapani",
+        "provincia di Trapani"
+      ]
+    },
+    {
+      "id": "tn",
+      "name": "Trento e territorio",
+      "region": "Trentino-Alto Adige",
+      "province_code": "TN",
+      "administrative_type": "autonomous_province",
+      "aliases": [
+        "Trento",
+        "provincia di Trento",
+        "Provincia autonoma di Trento"
+      ]
+    },
+    {
+      "id": "tv",
+      "name": "Treviso e territorio",
+      "region": "Veneto",
+      "province_code": "TV",
+      "administrative_type": "province",
+      "aliases": [
+        "Treviso",
+        "provincia di Treviso"
+      ]
+    },
+    {
+      "id": "ts",
+      "name": "Trieste e territorio",
+      "region": "Friuli-Venezia Giulia",
+      "province_code": "TS",
+      "administrative_type": "non_administrative_unit",
+      "aliases": [
+        "Trieste",
+        "provincia di Trieste"
+      ]
+    },
+    {
+      "id": "ud",
+      "name": "Udine e territorio",
+      "region": "Friuli-Venezia Giulia",
+      "province_code": "UD",
+      "administrative_type": "non_administrative_unit",
+      "aliases": [
+        "Udine",
+        "provincia di Udine"
+      ]
+    },
+    {
+      "id": "ao",
+      "name": "Valle d'Aosta e territorio",
+      "region": "Valle d'Aosta",
+      "province_code": "AO",
+      "administrative_type": "province",
+      "aliases": [
+        "Valle d'Aosta",
+        "provincia di Valle d'Aosta",
+        "Aosta",
+        "Valle d'Aosta/Vallée d'Aoste"
+      ]
+    },
+    {
+      "id": "va",
+      "name": "Varese e territorio",
+      "region": "Lombardia",
+      "province_code": "VA",
+      "administrative_type": "province",
+      "aliases": [
+        "Varese",
+        "provincia di Varese"
+      ]
+    },
+    {
+      "id": "ve",
+      "name": "Venezia e territorio",
+      "region": "Veneto",
+      "province_code": "VE",
+      "administrative_type": "metropolitan_city",
+      "aliases": [
+        "Venezia",
+        "provincia di Venezia"
+      ]
+    },
+    {
+      "id": "vb",
+      "name": "Verbano-Cusio-Ossola e territorio",
+      "region": "Piemonte",
+      "province_code": "VB",
+      "administrative_type": "province",
+      "aliases": [
+        "Verbano-Cusio-Ossola",
+        "provincia di Verbano-Cusio-Ossola"
+      ]
+    },
+    {
+      "id": "vc",
+      "name": "Vercelli e territorio",
+      "region": "Piemonte",
+      "province_code": "VC",
+      "administrative_type": "province",
+      "aliases": [
+        "Vercelli",
+        "provincia di Vercelli"
+      ]
+    },
+    {
+      "id": "vr",
+      "name": "Verona e territorio",
+      "region": "Veneto",
+      "province_code": "VR",
+      "administrative_type": "province",
+      "aliases": [
+        "Verona",
+        "provincia di Verona"
+      ]
+    },
+    {
+      "id": "vv",
+      "name": "Vibo Valentia e territorio",
+      "region": "Calabria",
+      "province_code": "VV",
+      "administrative_type": "province",
+      "aliases": [
+        "Vibo Valentia",
+        "provincia di Vibo Valentia"
+      ]
+    },
+    {
+      "id": "vi",
+      "name": "Vicenza e territorio",
+      "region": "Veneto",
+      "province_code": "VI",
+      "administrative_type": "province",
+      "aliases": [
+        "Vicenza",
+        "provincia di Vicenza"
+      ]
+    },
+    {
+      "id": "vt",
+      "name": "Viterbo e territorio",
+      "region": "Lazio",
+      "province_code": "VT",
+      "administrative_type": "province",
+      "aliases": [
+        "Viterbo",
+        "provincia di Viterbo"
+      ]
     }
   ]
 }
