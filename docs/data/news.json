@@ -1,0 +1,687 @@
+{
+  "generated_at": "2026-11-09T21:24:44.340474+00:00",
+  "source_status": [
+    {
+      "source": "PiacenzaSera",
+      "parsed": 3,
+      "inserted": 3,
+      "ok": true
+    },
+    {
+      "source": "CiaoComo",
+      "parsed": 7,
+      "inserted": 7,
+      "ok": true
+    },
+    {
+      "source": "ComoZero",
+      "parsed": 11,
+      "inserted": 11,
+      "ok": true
+    },
+    {
+      "source": "Prima Como",
+      "parsed": 25,
+      "inserted": 25,
+      "ok": true
+    }
+  ],
+  "articles": [
+    {
+      "title": "Como 2046: città per residenti o per turisti? I cinque pezzi (non facili) di Lorenzo Spallino",
+      "url": "https://comozero.it/punti-di-vista/como-2046-citta-per-residenti-o-per-turisti-i-cinque-pezzi-non-facili-di-lorenzo-spallino",
+      "summary": "[Foto di Copertina: Lorenzo Spallino. E ci perdoni, ovunque si trovi, il gigante Feynman per il mezzo furto del titolo] Che città sarà Como tra vent’anni? Una città ancora coi suoi residenti o sempre più orientata a soddisfare le esigenze di chi la visita? Sono le (giuste) domande da cui parte Lorenzo Spallino, ex assessore […] L'articolo Como 2046: città per residenti o per turisti? I cinque pezzi (non facili) di Lorenzo Spallino proviene da ComoZero .",
+      "published_at": "2026-11-09T19:00:57+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lombardia, così si salvano vite: ecco le immagini della gigantesca esercitazione, sono spettacolari",
+      "url": "https://comozero.it/attualita/lombardia-cosi-si-salvano-vite-ecco-le-immagini-della-gigantesca-esercitazione-sono-spettacolari",
+      "summary": "Tre giorni di esercitazioni, dal 6 all’8 novembre 2026, nel territorio della provincia di Verbano-Cusio-Ossola per la squadra forra regionale del CNSAS Lombardo, insieme con il Soccorso Alpino e Speleologico Piemonte. Regione lombardia dispone di tecnici specializzati e quando si verificano interventi alluvionali oppure operazioni di soccorso in zone di confine, i tecnici collaborano con […] L'articolo Lombardia, così si salvano vite: ecco le immagini della gigantesca esercitazione, sono spettacolari proviene da ComoZero .",
+      "published_at": "2026-11-09T18:59:31+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "vb"
+      ],
+      "territory_codes": [
+        "VB"
+      ]
+    },
+    {
+      "title": "“Sentieri di Foglie”, ultimo appuntamento per Le 4 Stagioni di Villa Erba",
+      "url": "https://www.ciaocomo.it/2026/11/09/sentieri-di-foglie-ultimo-appuntamento-per-le-4-stagioni-di-villa-erba/347555",
+      "summary": "Domenica 15 novembre la Villa Antica e Villa Bernasconi ospitano il quarto e ultimo evento ideato dal Teatro Sociale di Como The post “Sentieri di Foglie”, ultimo appuntamento per Le 4 Stagioni di Villa Erba appeared first on CiaoComo .",
+      "published_at": "2026-11-09T17:30:39+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Miriam che svela i segreti dei parchi: una grandissima ricerca tra Como, Varese e Svizzera",
+      "url": "https://comozero.it/scuola/miriam-che-svela-i-segreti-dei-parchi-una-grandissima-ricerca-tra-como-varese-e-svizzera",
+      "summary": "Trenta aree umide esaminate, 69 rilievi floristico-vegetazionali e una mappatura delle principali tipologie di vegetazione. Sono i numeri frutto della ricerca sul campo dei naturalisti incaricati dal Parco Pineta a cui ha partecipato anche la studentessa del corso di Laurea in Scienze Biologiche dell’Università degli Studi dell’Insubria, Miriam Mauri (comasca di Cantù), che ha dedicato […] L'articolo Miriam che svela i segreti dei parchi: una grandissima ricerca tra Como, Varese e Svizzera proviene da ComoZero .",
+      "published_at": "2026-11-09T17:28:07+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
+    {
+      "title": "Urtata da un furgone mentre attraversa la strada, grave un’anziana",
+      "url": "https://www.piacenzasera.it/2026/11/urtata-da-un-furgone-mentre-attraversa-la-strada-grave-unanziana/669671",
+      "summary": "L'incidente in via Poggi a Piacenza nella tarda mattinata del 9 novembre The post Urtata da un furgone mentre attraversa la strada, grave un’anziana appeared first on piacenzasera.it .",
+      "published_at": "2026-11-09T16:54:30+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Brugneto, Albasi (Pd): “Ricorso di Genova rimette in discussione un’intesa equilibrata”",
+      "url": "https://www.piacenzasera.it/2026/11/brugneto-albasi-pd-ricorso-di-genova-rimette-in-discussione-unintesa-equilibrata/669663",
+      "summary": "Per il consigliere regionale piacentino \"la strada è il dialogo tra istituzioni, non un contenzioso che rischia di compromettere i risultati raggiunti” The post Brugneto, Albasi (Pd): “Ricorso di Genova rimette in discussione un’intesa equilibrata” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-09T16:34:29+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "ge",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "GE",
+        "PC"
+      ]
+    },
+    {
+      "title": "Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como",
+      "url": "https://www.ciaocomo.it/2026/11/09/villa-deste-inaugura-la-sua-quinta-stagione-invernale-sul-lago-di-como/347616",
+      "summary": "Esperienze gastronomiche, appuntamenti musicali e tradizioni natalizie si intrecciano in un programma pensato per vivere il Lago di Como nella sua stagione più suggestiva. The post Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como appeared first on CiaoComo .",
+      "published_at": "2026-11-09T16:25:59+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Ospedale Valduce, 240 antenne per migliorare la copertura telefonica: presentata la nuova rete digitale",
+      "url": "https://www.ciaocomo.it/2026/11/09/ospedale-valduce-240-antenne-per-migliorare-la-copertura-telefonica-presentata-la-nuova-rete-digitale/347607",
+      "summary": "La tecnologia di INWIT supera le difficoltà di connessione all'interno della struttura e apre la strada all'utilizzo di sensori e intelligenza artificiale. Intervento anche a Villa Beretta: coinvolti complessivamente sei ospedali tra Como e Lecco The post Ospedale Valduce, 240 antenne per migliorare la copertura telefonica: presentata la nuova rete digitale appeared first on CiaoComo .",
+      "published_at": "2026-11-09T16:00:40+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "lc"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC"
+      ]
+    },
+    {
+      "title": "Ospedale di Menaggio dopo il piano regionale l’esultanza è bipartisan",
+      "url": "https://comozero.it/attualita/ospedale-di-menaggio-dopo-il-piano-regionale-lesultanza-e-bipartisan",
+      "summary": "Poche ore fa la notizia: Ospedale di Menaggio, arriva il progetto per salvarlo: Pronto soccorso ad Areu e rete con sei grandi strutture. E inevitabili arrivano le reazioni politiche: Anna Dotti, consigliere regionale FdI «Il rafforzamento dell’Ospedale Erba-Renaldi di Menaggio rappresenta un risultato importante per tutto il territorio del Medio e Alto Lago di Como. […] L'articolo Ospedale di Menaggio dopo il piano regionale l’esultanza è bipartisan proviene da ComoZero .",
+      "published_at": "2026-11-09T15:48:27+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Restare, crescere, intraprendere”: a Metal Materia il Modello Piacenza che punta su giovani, competenze e lavoro",
+      "url": "https://www.piacenzasera.it/2026/11/restare-crescere-intraprendere-a-metal-materia-il-modello-piacenza-che-punta-su-giovani-competenze-e-lavoro/669642",
+      "summary": "Coraggio, curiosità e capacità di fare sistema: da Piacenza Expo un messaggio concreto sul futuro dei giovani e del territorio. Ordine e Unione Giovani Commercialisti insieme per costruire nuove opportunità e rafforzare il dialogo tra istituzioni, università, professioni e imprese The post “Restare, crescere, intraprendere”: a Metal Materia il Modello Piacenza che punta su giovani, competenze e lavoro appeared first on piacenzasera.it .",
+      "published_at": "2026-11-09T15:39:44+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "La grande stagione invernale di Villa d’Este è partita: GreenHouse, benessere, Thanksgiving, jazz e un grande Natale",
+      "url": "https://comozero.it/attualita/la-grande-stagione-invernale-di-villa-deste-e-partita-greenhouse-benessere-thanksgiving-jazz-e-un-grande-natale",
+      "summary": "Ieri, 8 novembre, Villa d’Este ha inaugurato la sua quinta stagione invernale, confermando una visione che negli anni ha contribuito a trasformare il Lago di Como in una destinazione da vivere tutto l’anno. Dopo essere stata tra le prime realtà del territorio a credere nel potenziale dei mesi autunnali e invernali, Villa d’Este torna ad […] L'articolo La grande stagione invernale di Villa d’Este è partita: GreenHouse, benessere, Thanksgiving, jazz e un grande Natale proviene da ComoZero .",
+      "published_at": "2026-11-09T15:39:09+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il cinema Astra per il cinema Gloria: l’incasso del film “Per silenzio e vento” devoluto alla sala di Camerlata",
+      "url": "https://www.ciaocomo.it/2026/11/09/il-cinema-astra-per-il-cinema-gloria-lincasso-del-film-per-silenzio-e-vento-devoluto-alla-sala-di-camerlata/347621",
+      "summary": "Il Cinema Astra tende la mano allo Spazio Gloria. Giovedì 12 novembre alle 21, la sala comasca proietterà il documentario \"Per silenzio e vento\" e devolverà l’incasso della serata alla raccolta fondi per completare i lavori di messa a norma del cinema di Camerlata. The post Il cinema Astra per il cinema Gloria: l’incasso del film “Per silenzio e vento” devoluto alla sala di Camerlata appeared first on CiaoComo .",
+      "published_at": "2026-11-09T15:30:45+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lombardia, da oggi c’è una nuova strada a scorrimento veloce che rivoluziona tutto e salva il piccolo comune",
+      "url": "https://comozero.it/attualita/lombardia-da-oggi-ce-una-nuova-strada-a-scorrimento-veloce-che-rivoluziona-tutto-e-salva-il-piccolo-comune",
+      "summary": "Inaugurato il tratto mancante della ‘Cassanese Moderna’, la strada a scorrimento veloce che collega in modo diretto l’area della Martesana, le autostrade Bre.Be.Mi e Tangenziale Esterna con la Tangenziale Est di Milano. L’opera, realizzata nei territori di Segrate e Pioltello, rappresenta un intervento strategico per decongestionare il quadrante orientale della Città metropolitana. La nuova arteria, […] L'articolo Lombardia, da oggi c’è una nuova strada a scorrimento veloce che rivoluziona tutto e salva il piccolo comune proviene da ComoZero .",
+      "published_at": "2026-11-09T14:30:49+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Avviati i lavori di manutenzione degli organi monumentali della cattedrale",
+      "url": "https://primacomo.it/attualita/avviati-i-lavori-di-manutenzione-degli-organi-monumentali-della-cattedrale",
+      "summary": "Avviati i lavori di manutenzione degli organi monumentali del duomo di Como. La manutenzione di uno dei più importanti complessi organari della Lombardia E’ stato raggiunto a settembre l’obiettivo di raccogliere 70.000 euro grazie al sostegno di privati, associazioni, aziende e Fondazione della Comunità Comasca. Gli interventi sono iniziati a fine ottobre e restituiranno piena […] Continua la lettura di Avviati i lavori di manutenzione degli organi monumentali della cattedrale sul portale Prima Como .",
+      "published_at": "2026-11-09T14:05:08+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Federico Petroni presenta “Fiamme americane” per l’Osservatorio di Geopolitica di Confindustria Como",
+      "url": "https://www.ciaocomo.it/2026/11/09/federico-petroni-presenta-fiamme-americane-per-losservatorio-di-geopolitica-di-confindustria-como/347609",
+      "summary": "Mercoledì 11 novembre 2026 alle ore 18, nella sede di Via Raimondi, un nuovo appuntamento dell’Osservatorio di Geopolitica di Confindustria Como in collaborazione con Limes Club Como - Canton Ticino e Intesa Sanpaolo The post Federico Petroni presenta “Fiamme americane” per l’Osservatorio di Geopolitica di Confindustria Como appeared first on CiaoComo .",
+      "published_at": "2026-11-09T14:00:05+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Andolfi e Menchini dominano il 45° Trofeo Villa d’Este ACI Como",
+      "url": "https://primacomo.it/attualita/andolfi-e-menchini-dominano-il-45-trofeo-villa-deste-aci-como",
+      "summary": "Il 45° Trofeo Villa d’Este ACI Como si chiude nel segno di Fabio Andolfi e Marco Menchini, vincitori assoluti al volante della Lancia Ypsilon HF Rally2 Integrale preparata da D-Max e gommata Pirelli. L’equipaggio ligure ha dominato l’edizione 2026 della manifestazione organizzata dall’Automobile Club Como, imponendosi con un vantaggio di 1’39;27.8 sui primi inseguitori, al […] Continua la lettura di Andolfi e Menchini dominano il 45° Trofeo Villa d’Este ACI Como sul portale Prima Como .",
+      "published_at": "2026-11-09T13:57:11+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Duomo di Como, raccolti 70mila euro per il restauro degli organi monumentali: lavori già iniziati",
+      "url": "https://www.ciaocomo.it/2026/11/09/duomo-di-como-raccolti-70mila-euro-per-il-restauro-degli-organi-monumentali-lavori-gia-iniziati/347588",
+      "summary": "Grazie alle donazioni di cittadini, associazioni, aziende e Fondazione della Comunità Comasca è partita la manutenzione dello storico complesso con oltre 6.500 canne. I tecnici al lavoro sugli impianti elettrici e sulle componenti interne The post Duomo di Como, raccolti 70mila euro per il restauro degli organi monumentali: lavori già iniziati appeared first on CiaoComo .",
+      "published_at": "2026-11-09T13:33:51+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Al Valduce e a Villa Beretta le 320 antenne per una copertura totale del segnale e nuove frontiere nella cura",
+      "url": "https://comozero.it/sanita/al-valduce-e-a-villa-beretta-le-320-antenne-per-una-copertura-totale-del-segnale-e-nuove-frontiere-nella-cura",
+      "summary": "Presentati oggi all’Ospedale Valduce di Como i nuovi servizi di copertura ad alta capacità per voce e dati indoor (DAS – Distributed Antenna System) attivati presso la struttura sanitaria. Al centro dell’incontro la realizzazione del nuovo sistema DAS (Distributed Antenna System) di INWIT per la copertura mobile multi-operatore e l’integrazione tra sensoristica indossabile – ovvero […] L'articolo Al Valduce e a Villa Beretta le 320 antenne per una copertura totale del segnale e nuove frontiere nella cura proviene da ComoZero .",
+      "published_at": "2026-11-09T13:33:43+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il grande cuore di Como: grazie alle donazioni non smetteranno di suonare gli organi monumentali del Duomo",
+      "url": "https://comozero.it/attualita/il-grande-cuore-di-como-grazie-alle-donazioni-non-smetteranno-di-suonare-gli-organi-monumentali-del-duomo",
+      "summary": "Lo scorso mese di settembre è stato raggiunto l’obiettivo di 70.000 euro grazie al sostegno di privati, associazioni, aziende e Fondazione della Comunità Comasca. Poi, a ottobre, sono partiti gli interventi. Alla fine, sarà restituita piena efficienza a uno dei più importanti complessi organari della Lombardia. I Grandi Organi Monumentali del Duomo di Como si […] L'articolo Il grande cuore di Como: grazie alle donazioni non smetteranno di suonare gli organi monumentali del Duomo proviene da ComoZero .",
+      "published_at": "2026-11-09T13:32:48+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lago di Como: “Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”, la protesta cambia e sceglie il sorriso che graffia",
+      "url": "https://comozero.it/attualita/lago-di-como-ma-tu-verresti-a-sciare-sul-monte-san-primo-la-neve-ce-la-mette-la-regione-la-protesta-cambia-e-sceglie-il-sorriso-che-graffia",
+      "summary": "“Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”. E’ questo lo slogan – tra l’ironico e il sarcastico – della nuova campagna social sul progetto che vorrebbe riportare lo sci sulle pendici del Monte San Primo. Una serie di foto e un breve video realizzati dall’associazione Simbio […] L'articolo Lago di Como: “Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”, la protesta cambia e sceglie il sorriso che graffia proviene da ComoZero .",
+      "published_at": "2026-11-09T13:20:52+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Giornata Mondiale del Diabete, da Como a Varese e Tradate: incontri, camminate e musica per la prevenzione",
+      "url": "https://www.ciaocomo.it/2026/11/09/giornata-mondiale-del-diabete-da-como-a-varese-e-tradate-incontri-camminate-e-musica-per-la-prevenzione/347568",
+      "summary": "Mercoledì 11 novembre appuntamento nella Sala Stemmi del Comune di Como, poi il 14 iniziative dedicate alla salute con medici e infermieri. Il direttore di ATS Insubria Gioia: «La prevenzione deve entrare nei luoghi di vita delle persone» The post Giornata Mondiale del Diabete, da Como a Varese e Tradate: incontri, camminate e musica per la prevenzione appeared first on CiaoComo .",
+      "published_at": "2026-11-09T13:15:09+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
+    {
+      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
+      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
+      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
+      "published_at": "2026-11-09T13:08:18+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lombardia, con 46 milioni di euro la rivoluzione dello storico trasporto su tram",
+      "url": "https://comozero.it/attualita/lombardia-con-46-milioni-di-euro-la-rivoluzione-dello-storico-trasporto-su-tram",
+      "summary": "Regione Lombardia stanzia 6,5 milioni di euro per adeguare e potenziare la rete tranviaria bergamasca, favorendo l’integrazione tra la linea T1 Bergamo-Albino e la nuova T2 Bergamo-Villa d’Almè. È quanto prevede la delibera approvata dalla Giunta regionale, su proposta dell’assessore alle Infrastrutture e Opere pubbliche, Claudia Maria Terzi, che dà il via libera allo schema […] L'articolo Lombardia, con 46 milioni di euro la rivoluzione dello storico trasporto su tram proviene da ComoZero .",
+      "published_at": "2026-11-09T12:40:03+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "bg"
+      ],
+      "territory_codes": [
+        "BG"
+      ]
+    },
+    {
+      "title": "Ospedale di Menaggio: “Più specialisti e servizi”",
+      "url": "https://primacomo.it/sanita/ospedale-di-menaggio-piu-specialisti-e-servizi",
+      "summary": "La Giunta regionale della Lombardia ha approvato il progetto ‘Menaggio Ospedale in Rete’, un nuovo modello di collaborazione tra aziende sanitarie per rafforzare l’ospedale Erba-Renaldi e garantire maggiore continuità dei servizi ai cittadini del Medio e Alto Lario. La delibera, approvata su proposta dell’assessore al Welfare Guido Bertolaso, e di concerto con l’assessore all’Università, Ricerca […] Continua la lettura di Ospedale di Menaggio: “Più specialisti e servizi” sul portale Prima Como .",
+      "published_at": "2026-11-09T12:13:22+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Vinti 125mila euro a Cernobbio con il Lotto",
+      "url": "https://primacomo.it/attualita/vinti-125mila-euro-a-cernobbio-con-il-lotto",
+      "summary": "Il Lotto premia la Lombardia con vincite per oltre 200mila euro distribuiti nei concorsi di venerdì 6 e sabato 7 novembre 2026. La vincita Nel concorso di sabato, in via V Giornate a Cernobbio, è stata registrata la vincita più alta di giornata dal valore di 125.250 euro: il premio è stato realizzato grazie a […] Continua la lettura di Vinti 125mila euro a Cernobbio con il Lotto sul portale Prima Como .",
+      "published_at": "2026-11-09T11:26:49+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Un viaggio sonoro senza confini per sostenere la mensa di solidarietà",
+      "url": "https://primacomo.it/attualita/un-viaggio-sonoro-senza-confini-per-sostenere-la-mensa-di-solidarieta",
+      "summary": "Un viaggio sonoro senza confini: il Gruppo Mandolinistico Eliante di Mendrisio in concerto a Como per sostenere la mensa di solidarietà. Un viaggio sonoro e solidale Un nuovo spettacolo, in programma sabato 14 novembre alle 21 per sostenere la mensa di solidarietà di Casa Nazareth. Protagonista dell’atteso concerto è il Gruppo Mandolinistico Eliante di Mendrisio […] Continua la lettura di Un viaggio sonoro senza confini per sostenere la mensa di solidarietà sul portale Prima Como .",
+      "published_at": "2026-11-09T10:03:51+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Pallacanestro Cantù: lutto per la scomparsa di Carluccio Cattaneo",
+      "url": "https://primacomo.it/cronaca/pallacanestro-cantu-lutto-per-la-scomparsa-di-carluccio-cattaneo",
+      "summary": "Pallacanestro Cantù piange la scomparsa di Carluccio Cattaneo, per tutti “Carlino”. Il cordoglio La Pallacanestro Cantù ha diramato un comunicato in ricordo do Cattaneo: “Uomo di sport, grande appassionato di pallacanestro e dirigente del club per oltre un decennio, la società è vicina alla famiglia in questo triste momento. Per oltre 55 anni istituzione del […] Continua la lettura di Pallacanestro Cantù: lutto per la scomparsa di Carluccio Cattaneo sul portale Prima Como .",
+      "published_at": "2026-11-09T09:40:11+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Nuova rotatoria da 600mila euro: accordo tra Amministrazione provinciale e Comune",
+      "url": "https://primacomo.it/altro/nuova-rotatoria-da-600mila-euro-accordo-tra-amministrazione-provinciale-e-comune",
+      "summary": "Bulgarograsso, 600.000 euro per la nuova rotatoria sulla Sp 27: accordo tra Amministrazione provinciale e Comune. Nuova rotatoria, c’è l’accordo La Provincia di Como e il Comune di Bulgarograsso hanno sottoscritto un accordo di programma per la realizzazione di una nuova rotatoria all’intersezione tra la strada provinciale 27, via per Appiano, e via Buratti. L’intervento, […] Continua la lettura di Nuova rotatoria da 600mila euro: accordo tra Amministrazione provinciale e Comune sul portale Prima Como .",
+      "published_at": "2026-11-09T09:04:50+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il Como Women sconfitto di misura col Parma",
+      "url": "https://primacomo.it/sport/il-como-women-sconfitto-di-misura-col-parma",
+      "summary": "Al campo sportivo “Il Noce” di Noceto, nella sesta giornata di Serie A Women Athora, il Como Women esce sconfitto di misura contro il Parma, che si impone per 1-0 grazie alla rete di Distefano al 61’. I comment “Come le ragazze sanno, si vince e si perde tutte insieme – ha detto mister Paolo […] Continua la lettura di Il Como Women sconfitto di misura col Parma sul portale Prima Como .",
+      "published_at": "2026-11-09T08:12:20+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "pr"
+      ],
+      "territory_codes": [
+        "CO",
+        "PR"
+      ]
+    },
+    {
+      "title": "Ristorante multato per oltre 14mila euro",
+      "url": "https://primacomo.it/cronaca/ristorante-multato-per-oltre-14mila-euro",
+      "summary": "I Carabinieri delle Stazioni di Cernobbio e Pognana Lario, insieme ai militari del Nucleo Carabinieri Ispettorato del Lavoro di Como, hanno effettuato un’ispezione presso un’attività di ristorazione a Cernobbio, nell’ambito dei controlli sul rispetto delle norme in materia di lavoro e sicurezza. E sono scattate sanzioni pesanti Il controllo Nel corso dell’ispezione, i militari hanno […] Continua la lettura di Ristorante multato per oltre 14mila euro sul portale Prima Como .",
+      "published_at": "2026-11-09T07:27:59+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Campi Reali Cantù vince la maratona contro Sarroch",
+      "url": "https://primacomo.it/sport/la-campi-reali-cantu-vince-la-maratona-contro-sarroch",
+      "summary": "Sono state necessarie più di due ore di gioco alla Campi Reali Cantù per battere 3-2 la Sarlux Sarroch, alla quale non sono bastati i 28 punti di Andrea Schiro. Coach Tommaso Invernici pesca dalla panchina, e trova in Francesco Gianotti e in un Gabriele Pertoldi da 21 palloni a terra (ex aequo con il […] Continua la lettura di La Campi Reali Cantù vince la maratona contro Sarroch sul portale Prima Como .",
+      "published_at": "2026-11-09T07:18:05+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "L’Inter ferma la corsa del Como: Esposito e Thuram decidono il 2-0 a San Siro",
+      "url": "https://primacomo.it/sport/linter-ferma-la-corsa-del-como-esposito-e-thuram-decidono-il-2-0-a-san-siro",
+      "summary": "Si interrompe a San Siro la straordinaria serie positiva del Como. Dopo la leggendaria notte di Lens, la squadra di Cesc Fàbregas cade per 2-0 contro l’Inter di Cristian Chivu, nell’undicesima giornata di Serie A. A decidere la sfida sono le reti di Pio Esposito e Marcus Thuram, entrambe realizzate nei primi venti minuti. Una […] Continua la lettura di L’Inter ferma la corsa del Como: Esposito e Thuram decidono il 2-0 a San Siro sul portale Prima Como .",
+      "published_at": "2026-11-08T19:04:54+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cantù non si schioda da quota 0",
+      "url": "https://primacomo.it/sport/cantu-non-si-schioda-da-quota-0",
+      "summary": "E anche questa occasione è andata. Al PalaTiziano la Maxima Roma si impone sull’Acqua S.Bernardo e dopo sette giornate di campionato Cantù resta desolatamente in fondo alla classifica a quota 0 La gara Le triple di Moraschini e Holiday, una per parte, inaugurano la partita. Bilan regala il primo vantaggio di giornata a Roma, ma Cantù, […] Continua la lettura di Cantù non si schioda da quota 0 sul portale Prima Como .",
+      "published_at": "2026-11-08T18:03:28+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "RM"
+      ]
+    },
+    {
+      "title": "Aso, campioni di fair play: la società sarà premiata da Panathlon",
+      "url": "https://primacomo.it/attualita/aso-campioni-di-fair-play-la-societa-sara-premiata-da-panathlon",
+      "summary": "Aso Alzate, campioni di fair play: la società sarà premiata il prossimo 21 novembre da Panathlon International Club di Como a Villa del Grumello, in occasione della Giornata internazionale del fair play, per il suo impegno nel sensibilizzare bambini e ragazzi a uno sport rispettoso, corretto e onesto. “Un riconoscimento che spinge a fare sempre […] Continua la lettura di Aso, campioni di fair play: la società sarà premiata da Panathlon sul portale Prima Como .",
+      "published_at": "2026-11-08T15:00:49+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Nozze di diamante per Salvatora e Bruno",
+      "url": "https://primacomo.it/attualita/nozze-di-diamante-per-salvatora-e-bruno",
+      "summary": "Sessant’anni d’amore per Salvatora Labolina e Bruno Viadana : il prossimo 12 novembre, la coppia festeggerà le nozze di diamante. “Il segreto? L’affetto reciproco e la certezza di esserci” I due si conosciuti nel 1965, quando lui aveva 18 anni, mentre lei 17 anni. Da quel momento iniziò qualcosa di magico destinato a durare per tutta […] Continua la lettura di Nozze di diamante per Salvatora e Bruno sul portale Prima Como .",
+      "published_at": "2026-11-08T14:30:13+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Stefano Panzeri in scena al Medioevo con “Terra Matta”",
+      "url": "https://primacomo.it/cultura/stefano-panzeri-in-scena-al-medioevo-con-terra-matta",
+      "summary": "Stefano Panzeri a Olgiate Comasco col suo spettacolo “Terra Matta”. “Terra Matta”, in scena al Medioevo Oggi, domenica 8 novembre, alle 16, l’auditorium del centro congressi Medioevo ospita “Terra Matta (1899–1918)”, narrazione teatrale di Stefano Panzeri, organizzata dall’Università degli Adulti di Olgiate Comasco e dall’assessorato alla Cultura del Comune di Olgiate Comasco. Ingresso libero. Una […] Continua la lettura di Stefano Panzeri in scena al Medioevo con “Terra Matta” sul portale Prima Como .",
+      "published_at": "2026-11-08T14:00:32+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "All’hospice entra Teodoro: i malati curati con le coccole di un cane",
+      "url": "https://primacomo.it/attualita/allhospice-entra-teodoro-i-malati-curati-con-le-coccole-di-un-cane",
+      "summary": "A guidare l’annata 2026/2027 del club erbese è la presidente Angela Ciceri, che ha scelto di mettere anima, cuore e fondi in interventi assistiti con gli animali Stabilire un legame con l’animale: scambio di emozioni e sentimenti Il progetto “Un’impronta nel cuore” ha preso il via questo giovedì, 5 novembre, all’hospice Il Gelso di Casa […] Continua la lettura di All’hospice entra Teodoro: i malati curati con le coccole di un cane sul portale Prima Como .",
+      "published_at": "2026-11-08T11:00:25+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Consulta giovanile apre le porte: un centro di aggregazione in sede",
+      "url": "https://primacomo.it/altro/la-consulta-giovanile-apre-le-porte-un-centro-di-aggregazione-in-sede",
+      "summary": "Un centro di aggregazione nella sede della Consulta giovanile di Lurate Caccivio. Consulta giovanile, centro di aggregazione in sede Proseguono spediti i lavori organizzativi del sodalizio presieduto da Camilla Vigo e che vede come vice Daniele Armellini e come segretario Abdalla Imam. Nel pomeriggio di lunedì 2 novembre si è riunito il Consiglio direttivo per […] Continua la lettura di La Consulta giovanile apre le porte: un centro di aggregazione in sede sul portale Prima Como .",
+      "published_at": "2026-11-08T09:00:14+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Carattere Unipol, vittoria a Giulianova",
+      "url": "https://primacomo.it/sport/carattere-unipol-vittoria-a-giulianova",
+      "summary": "Terza vittoria di fila su altrettante gare dall’inizio della stagione: la Unipol Briantea84 Cantù ha vinto a Giulianova contro la Deco Amicacci Abruzzo 46 a 81. Nel pomeriggio del PalaCastrum sono i padroni di casa ad iniziare meglio e ritrovarsi dopo 5’ sul +7 (15-8). Un time-out chiamato da coach Gomez ha cambiato i successivi […] Continua la lettura di Carattere Unipol, vittoria a Giulianova sul portale Prima Como .",
+      "published_at": "2026-11-08T08:07:44+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La segnaletica si rifà il look, previste anche nuove asfaltature",
+      "url": "https://primacomo.it/cronaca/la-segnaletica-si-rifa-il-look-previste-anche-nuove-asfaltature",
+      "summary": "Ad Asso interventi alla segnaletica stradale. Previsti anche lavori di asfaltatura. Lavori in paese Con un primo intervento realizzato a inizio mese e con i lavori completati lo scorso fine settimana l’Amministrazione ha provveduto al ripristino della segnaletica stradale in diverse zone del centro storico e nelle aree limitrofe. Sono stati eseguiti intervenuti in punti […] Continua la lettura di La segnaletica si rifà il look, previste anche nuove asfaltature sul portale Prima Como .",
+      "published_at": "2026-11-07T16:00:24+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Svolta «green» nel servizio di trasporto scolastico: il Comune punta all’utilizzo di bus elettrici",
+      "url": "https://primacomo.it/attualita/svolta-green-nel-servizio-di-trasporto-scolastico-il-comune-punta-allutilizzo-di-bus-elettrici",
+      "summary": "Svolta «green» nel servizio di trasporto scolastico: il Comune punta all’utilizzo di bus elettrici. “Una scelta che va incontro a esigenze di risparmio energetico ma anche a livello economico” In vista della scadenza del contratto per l’affidamento del trasporto scolastico, il prossimo 31 dicembre, sarà presto avviata la gara per appaltare il servizio a un’azienda […] Continua la lettura di Svolta «green» nel servizio di trasporto scolastico: il Comune punta all’utilizzo di bus elettrici sul portale Prima Como .",
+      "published_at": "2026-11-07T15:00:33+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Meeting diocesano dei cantori: 400 a raduno",
+      "url": "https://primacomo.it/attualita/meeting-diocesano-dei-cantori-400-a-raduno",
+      "summary": "Circa 400 iscritti al meeting dei cantori della diocesi di Como. Il meeting dei cantori Si tratta di un appuntamento formativo rivolto a chiunque, nelle parrocchie, anima abitualmente il canto durante le celebrazioni. A spiegarlo è don Nicholas Negrini. Presenti direttori e rappresentanti dei cori, ma anche singoli cantori, persone che sostengono il canto dell’assemblea […] Continua la lettura di Meeting diocesano dei cantori: 400 a raduno sul portale Prima Como .",
+      "published_at": "2026-11-07T14:00:27+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Nuovo corso per imparare ad usare il defibrillatore con Volontari Soccorso Odv Bellagio",
+      "url": "https://primacomo.it/attualita/nuovo-corso-per-imparare-ad-usare-il-defibrillatore-con-volontari-soccorso-odv-bellagio",
+      "summary": "Per il mese di novembre l’associazione Volontari del Soccorso Odv Bellagio organizza il corso di abilitazione all’uso del defibrillatore per la popolazione. Imparare ad usare il defibrillatore “Imparare a intervenire nei primi minuti di un’emergenza può fare la differenza. Il corso Blsd (Basic Life Support and Defibrillation) insegna come riconoscere un arresto cardiaco, eseguire correttamente […] Continua la lettura di Nuovo corso per imparare ad usare il defibrillatore con Volontari Soccorso Odv Bellagio sul portale Prima Como .",
+      "published_at": "2026-11-07T13:00:28+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Nel borgo si accende il Natale",
+      "url": "https://primacomo.it/attualita/nel-borgo-si-accende-il-natale",
+      "summary": "Il Natale torna ad accendersi a Carimate: dopo il successo delle prime due edizioni, i mercatini natalizi quest’anno offriranno un programma ancora più ricco. Organizzati dalla Pro loco: A organizzarli, con il supporto del Comune e della biblioteca, la Pro loco. Afferma la presidente Marina Domenichelli: «Siamo partiti in sordina due anni fa, con la […] Continua la lettura di Nel borgo si accende il Natale sul portale Prima Como .",
+      "published_at": "2026-11-07T12:00:37+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Addio a Vittorio Garibaldi, questa mattina l’ultimo saluto",
+      "url": "https://primacomo.it/altro/addio-a-vittorio-garibaldi-questa-mattina-lultimo-saluto",
+      "summary": "Si è spento a 82 anni Vittorio Garibaldi, dopo che il fratello Angelo lo aveva già preceduto nel 2019. Erano stati loro a raccogliere l’eredità dei genitori, in particolare di mamma Irene Gussoni in Garibaldi, che nel 1964, trasferita da Pontremoli in Toscana, aveva fortemente voluto coronare il suo sogno di aprire un piccolo negozio di […] Continua la lettura di Addio a Vittorio Garibaldi, questa mattina l’ultimo saluto sul portale Prima Como .",
+      "published_at": "2026-11-07T11:00:21+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "In bicicletta alla  memoria di Adele: il ciclocross omaggia la volontaria",
+      "url": "https://primacomo.it/altro/in-bicicletta-alla-memoria-di-adele-il-ciclocross-omaggia-la-volontaria",
+      "summary": "In bicicletta alla memoria di un’amica, di una volontaria preziosa: il “Ciclocross di San Martino” omaggia Adele Patuelli. In bici col ciclocross Domani, domenica 8 novembre, ci sarebbe dovuta essere anche lei, in cucina, a dare supporto al Gs Castello. Purtroppo, Adele è venuta a mancare giovedì primo ottobre ma sarà comunque presente nei pensieri […] Continua la lettura di In bicicletta alla memoria di Adele: il ciclocross omaggia la volontaria sul portale Prima Como .",
+      "published_at": "2026-11-07T09:00:50+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    }
+  ]
+}
