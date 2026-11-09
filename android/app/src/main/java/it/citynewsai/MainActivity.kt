@@ -2,6 +2,8 @@ package it.citynewsai
 
 import android.Manifest
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.content.pm.PackageManager
 import android.location.Geocoder
 import android.os.Bundle
@@ -10,6 +12,7 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -42,6 +45,9 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
 import java.util.Locale
+import java.net.HttpURLConnection
+import java.net.URL
+import org.json.JSONObject
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
@@ -161,6 +167,47 @@ private val italianProvinces = listOf(
     Province("Viterbo", "VT", "Lazio")
 )
 
+private data class NewsArticle(
+    val title: String,
+    val summary: String,
+    val source: String,
+    val url: String,
+    val publishedAt: String,
+    val territoryCodes: Set<String>
+)
+
+private suspend fun fetchPublishedNews(): Pair<List<NewsArticle>, String> = withContext(Dispatchers.IO) {
+    val connection = (URL("https://raw.githubusercontent.com/ottavonano007/CityNewsAI/main/docs/data/news.json").openConnection() as HttpURLConnection)
+    try {
+        connection.connectTimeout = 12000
+        connection.readTimeout = 15000
+        connection.requestMethod = "GET"
+        connection.setRequestProperty("Accept", "application/json")
+        connection.setRequestProperty("User-Agent", "CityNewsAI-Android")
+        if (connection.responseCode !in 200..299) throw IllegalStateException("Servizio notizie non disponibile (\${connection.responseCode})")
+        val payload = connection.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val root = JSONObject(payload)
+        val list = root.optJSONArray("articles")
+        val articles = buildList {
+            if (list != null) for (i in 0 until list.length()) {
+                val item = list.optJSONObject(i) ?: continue
+                val url = item.optString("url")
+                val title = item.optString("title")
+                if (title.isBlank() || !url.startsWith("https://")) continue
+                val codesJson = item.optJSONArray("territory_codes")
+                val codes = buildSet {
+                    if (codesJson != null) for (j in 0 until codesJson.length()) add(codesJson.optString(j).uppercase(Locale.ROOT))
+                }
+                add(NewsArticle(title, item.optString("summary"), item.optString("source_name"), url,
+                    item.optString("published_at"), codes))
+            }
+        }
+        articles to root.optString("generated_at")
+    } finally {
+        connection.disconnect()
+    }
+}
+
 private data class DemoArticle(
     val territory: String,
     val category: String,
@@ -239,6 +286,25 @@ private fun CityNewsApp() {
     var startupMode by remember { mutableStateOf(prefs.getString(KEY_STARTUP_MODE, "preferred") ?: "preferred") }
     var themeMode by remember { mutableStateOf(prefs.getString(KEY_THEME, "system") ?: "system") }
     var locationBusy by remember { mutableStateOf(false) }
+    var liveArticles by remember { mutableStateOf(emptyList<NewsArticle>()) }
+    var newsUpdatedAt by remember { mutableStateOf("") }
+    var newsLoading by remember { mutableStateOf(false) }
+    var newsError by remember { mutableStateOf("") }
+
+    val refreshNews: suspend () -> Unit = {
+        newsLoading = true
+        newsError = ""
+        try {
+            val result = fetchPublishedNews()
+            liveArticles = result.first
+            newsUpdatedAt = result.second
+        } catch (error: Exception) {
+            newsError = error.message ?: "Impossibile aggiornare le notizie."
+        } finally {
+            newsLoading = false
+        }
+    }
+
 
     val applyDetectedProvince: suspend () -> Unit = {
         locationBusy = true
@@ -271,6 +337,7 @@ private fun CityNewsApp() {
         }
     }
     LaunchedEffect(Unit) {
+        refreshNews()
         if (startupMode == "location" &&
             ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED
         ) applyDetectedProvince()
@@ -290,7 +357,7 @@ private fun CityNewsApp() {
     )
 
     MaterialTheme(colorScheme = colors) {
-        val articles = demoArticles.filter { it.territory == selectedProvince.name }
+        val articles = liveArticles.filter { selectedProvince.code in it.territoryCodes }
         Scaffold(
             containerColor = MaterialTheme.colorScheme.background,
             snackbarHost = { SnackbarHost(snackbarHostState) },
@@ -307,11 +374,9 @@ private fun CityNewsApp() {
                         titleContentColor = MaterialTheme.colorScheme.onSurface
                     ),
                     actions = {
-                        TextButton(onClick = {
-                            scope.launch { snackbarHostState.showSnackbar("Versione dimostrativa: le notizie live saranno collegate in una fase successiva.") }
-                        }) {
+                        TextButton(enabled = !newsLoading, onClick = { scope.launch { refreshNews() } }) {
                             Icon(Icons.Default.Refresh, contentDescription = "Aggiorna")
-                            Text(" Aggiorna")
+                            Text(if (newsLoading) " Aggiorno…" else " Aggiorna")
                         }
                     }
                 )
@@ -418,24 +483,52 @@ private fun CityNewsApp() {
                 }
                 Spacer(Modifier.height(12.dp))
                 Surface(
-                    color = if (isDark) Color(0xFF493A20) else Color(0xFFFFF3D8),
+                    color = if (newsError.isNotBlank()) MaterialTheme.colorScheme.errorContainer else MaterialTheme.colorScheme.secondaryContainer,
                     shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth()
                 ) {
                     Column(Modifier.padding(12.dp)) {
-                        Text("VERSIONE DIMOSTRATIVA • 0.3.0", color = if (isDark) Color(0xFFFFD78A) else Color(0xFF79551A), fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelMedium)
+                        Text(
+                            if (newsError.isNotBlank()) "AGGIORNAMENTO NON RIUSCITO" else "NOTIZIE LOCALI",
+                            fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelMedium
+                        )
                         Spacer(Modifier.height(4.dp))
-                        Text("Le schede qui sotto sono esempi grafici, non notizie reali.")
+                        Text(
+                            when {
+                                newsError.isNotBlank() -> newsError
+                                newsLoading && liveArticles.isEmpty() -> "Sto caricando le notizie più recenti…"
+                                newsUpdatedAt.isNotBlank() -> "Ultimo aggiornamento del notiziario: $newsUpdatedAt"
+                                else -> "Le notizie vengono aggiornate automaticamente durante la giornata."
+                            },
+                            style = MaterialTheme.typography.bodySmall
+                        )
                     }
                 }
                 Spacer(Modifier.height(14.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(selectedProvince.name, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                     Spacer(Modifier.weight(1f))
-                    Text("${articles.size} esempi", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelMedium)
+                    Text("${articles.size} notizie", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelMedium)
                 }
                 Spacer(Modifier.height(10.dp))
                 LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxSize()) {
-                    items(articles) { ArticleCard(it) }
+                    items(articles) { article ->
+                        NewsArticleCard(article) {
+                            runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(article.url))) }
+                        }
+                    }
+                    if (articles.isEmpty()) {
+                        item {
+                            Card(modifier = Modifier.fillMaxWidth()) {
+                                Column(Modifier.padding(18.dp)) {
+                                    Text(if (newsLoading) "Caricamento notizie…" else "Nessuna notizia disponibile per \${selectedProvince.name}.",
+                                        fontWeight = FontWeight.SemiBold)
+                                    Spacer(Modifier.height(6.dp))
+                                    Text("La copertura viene ampliata man mano che vengono verificate nuove testate locali.",
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
+                            }
+                        }
+                    }
                     item {
                         Spacer(Modifier.height(8.dp))
                         Text("City News AI • Prima versione di prova", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelSmall, modifier = Modifier.fillMaxWidth().padding(bottom = 18.dp))
@@ -447,29 +540,32 @@ private fun CityNewsApp() {
 }
 
 @Composable
-private fun ArticleCard(article: DemoArticle) {
+private fun NewsArticleCard(article: NewsArticle, onClick: () -> Unit) {
     Card(
-        modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp),
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        shape = RoundedCornerShape(16.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
     ) {
         Column(Modifier.padding(16.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Box(Modifier.background(MaterialTheme.colorScheme.secondaryContainer, RoundedCornerShape(6.dp)).padding(horizontal = 8.dp, vertical = 4.dp)) {
-                    Text(article.category, color = MaterialTheme.colorScheme.onSecondaryContainer, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
+                    Text("NOTIZIE", color = MaterialTheme.colorScheme.onSecondaryContainer, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
                 }
                 Spacer(Modifier.weight(1f))
-                Text("ESEMPIO", color = MaterialTheme.colorScheme.tertiary, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
+                Text("LEGGI", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
             }
             Spacer(Modifier.height(10.dp))
             Text(article.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-            Spacer(Modifier.height(7.dp))
-            Text(article.summary, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (article.summary.isNotBlank()) {
+                Spacer(Modifier.height(7.dp))
+                Text(article.summary, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
             Spacer(Modifier.height(12.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(article.source, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.SemiBold)
                 Spacer(Modifier.weight(1f))
-                Text("Data non applicabile", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(article.publishedAt.take(10), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }
