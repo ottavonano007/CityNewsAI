@@ -26,6 +26,17 @@ pip install -r requirements.txt
 python -m citynews.cli --help
 ```
 
+## Copertura territoriale e fonti
+
+Il catalogo territoriale contiene 110 unità provinciali e territoriali equivalenti, basate sul registro ISTAT SITUAS e aggiornabili nel tempo. La selezione della provincia nell'app è ricercabile per nome, sigla o regione.
+
+Le fonti sono valutate con priorità per:
+- quotidiani locali storici e registrati, con redazione identificabile;
+- testate giornalistiche professionali e gruppi editoriali riconosciuti;
+- editori con informazioni legali, responsabilità editoriale e contatti verificabili.
+
+L'affidabilità editoriale viene valutata separatamente dalla disponibilità tecnica: una testata autorevole può essere approvata come fonte anche se il suo RSS non è ancora disponibile. In quel caso si cerca un canale tecnico alternativo, senza attivare scraping non verificato o aggirare paywall e restrizioni. Libertà è registrata come fonte ad alta affidabilità per Piacenza; il feed resta in attesa di verifica tecnica.
+
 ## Principi
 - Non copiare o ripubblicare integralmente gli articoli.
 - Conservare sempre URL e attribuzione della testata.
