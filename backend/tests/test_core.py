@@ -54,7 +54,7 @@ def test_parse_feed_filters_by_territory_and_keeps_source():
 
 
 def test_parse_atom_iso_date_and_html_summary():
-    xml = b"""<?xml version="1.0" encoding="utf-8"?>
+    xml = """<?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
       <title>Feed di prova</title>
       <entry>
@@ -63,7 +63,7 @@ def test_parse_atom_iso_date_and_html_summary():
         <updated>2026-11-09T12:34:56+01:00</updated>
         <summary type="html">&lt;p&gt;Un &lt;strong&gt;nuovo servizio&lt;/strong&gt; per la città.&lt;/p&gt;</summary>
       </entry>
-    </feed>"""
+    </feed>""".encode("utf-8")
     source = {"id": "atom-test", "name": "Feed Atom"}
     result = parse_feed(xml, source, TERRITORIES)
     assert len(result) == 1
