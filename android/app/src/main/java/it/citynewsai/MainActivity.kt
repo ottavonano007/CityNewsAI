@@ -48,6 +48,121 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 
+private data class Province(val name: String, val code: String, val region: String)
+
+private val italianProvinces = listOf(
+    Province("Agrigento", "AG", "Sicilia"),
+    Province("Alessandria", "AL", "Piemonte"),
+    Province("Ancona", "AN", "Marche"),
+    Province("Arezzo", "AR", "Toscana"),
+    Province("Ascoli Piceno", "AP", "Marche"),
+    Province("Asti", "AT", "Piemonte"),
+    Province("Avellino", "AV", "Campania"),
+    Province("Bari", "BA", "Puglia"),
+    Province("Barletta-Andria-Trani", "BT", "Puglia"),
+    Province("Belluno", "BL", "Veneto"),
+    Province("Benevento", "BN", "Campania"),
+    Province("Bergamo", "BG", "Lombardia"),
+    Province("Biella", "BI", "Piemonte"),
+    Province("Bologna", "BO", "Emilia-Romagna"),
+    Province("Bolzano", "BZ", "Trentino-Alto Adige"),
+    Province("Brescia", "BS", "Lombardia"),
+    Province("Brindisi", "BR", "Puglia"),
+    Province("Cagliari", "CA", "Sardegna"),
+    Province("Caltanissetta", "CL", "Sicilia"),
+    Province("Campobasso", "CB", "Molise"),
+    Province("Caserta", "CE", "Campania"),
+    Province("Catania", "CT", "Sicilia"),
+    Province("Catanzaro", "CZ", "Calabria"),
+    Province("Chieti", "CH", "Abruzzo"),
+    Province("Como", "CO", "Lombardia"),
+    Province("Cosenza", "CS", "Calabria"),
+    Province("Cremona", "CR", "Lombardia"),
+    Province("Crotone", "KR", "Calabria"),
+    Province("Cuneo", "CN", "Piemonte"),
+    Province("Enna", "EN", "Sicilia"),
+    Province("Fermo", "FM", "Marche"),
+    Province("Ferrara", "FE", "Emilia-Romagna"),
+    Province("Firenze", "FI", "Toscana"),
+    Province("Foggia", "FG", "Puglia"),
+    Province("Forlì-Cesena", "FC", "Emilia-Romagna"),
+    Province("Frosinone", "FR", "Lazio"),
+    Province("Gallura Nord-Est Sardegna", "OT", "Sardegna"),
+    Province("Genova", "GE", "Liguria"),
+    Province("Gorizia", "GO", "Friuli-Venezia Giulia"),
+    Province("Grosseto", "GR", "Toscana"),
+    Province("Imperia", "IM", "Liguria"),
+    Province("Isernia", "IS", "Molise"),
+    Province("L'Aquila", "AQ", "Abruzzo"),
+    Province("La Spezia", "SP", "Liguria"),
+    Province("Latina", "LT", "Lazio"),
+    Province("Lecce", "LE", "Puglia"),
+    Province("Lecco", "LC", "Lombardia"),
+    Province("Livorno", "LI", "Toscana"),
+    Province("Lodi", "LO", "Lombardia"),
+    Province("Lucca", "LU", "Toscana"),
+    Province("Macerata", "MC", "Marche"),
+    Province("Mantova", "MN", "Lombardia"),
+    Province("Massa-Carrara", "MS", "Toscana"),
+    Province("Matera", "MT", "Basilicata"),
+    Province("Medio Campidano", "VS", "Sardegna"),
+    Province("Messina", "ME", "Sicilia"),
+    Province("Milano", "MI", "Lombardia"),
+    Province("Modena", "MO", "Emilia-Romagna"),
+    Province("Monza e della Brianza", "MB", "Lombardia"),
+    Province("Napoli", "NA", "Campania"),
+    Province("Novara", "NO", "Piemonte"),
+    Province("Nuoro", "NU", "Sardegna"),
+    Province("Ogliastra", "OG", "Sardegna"),
+    Province("Oristano", "OR", "Sardegna"),
+    Province("Padova", "PD", "Veneto"),
+    Province("Palermo", "PA", "Sicilia"),
+    Province("Parma", "PR", "Emilia-Romagna"),
+    Province("Pavia", "PV", "Lombardia"),
+    Province("Perugia", "PG", "Umbria"),
+    Province("Pesaro e Urbino", "PU", "Marche"),
+    Province("Pescara", "PE", "Abruzzo"),
+    Province("Piacenza", "PC", "Emilia-Romagna"),
+    Province("Pisa", "PI", "Toscana"),
+    Province("Pistoia", "PT", "Toscana"),
+    Province("Pordenone", "PN", "Friuli-Venezia Giulia"),
+    Province("Potenza", "PZ", "Basilicata"),
+    Province("Prato", "PO", "Toscana"),
+    Province("Ragusa", "RG", "Sicilia"),
+    Province("Ravenna", "RA", "Emilia-Romagna"),
+    Province("Reggio Calabria", "RC", "Calabria"),
+    Province("Reggio nell'Emilia", "RE", "Emilia-Romagna"),
+    Province("Rieti", "RI", "Lazio"),
+    Province("Rimini", "RN", "Emilia-Romagna"),
+    Province("Roma", "RM", "Lazio"),
+    Province("Rovigo", "RO", "Veneto"),
+    Province("Salerno", "SA", "Campania"),
+    Province("Sassari", "SS", "Sardegna"),
+    Province("Savona", "SV", "Liguria"),
+    Province("Siena", "SI", "Toscana"),
+    Province("Siracusa", "SR", "Sicilia"),
+    Province("Sondrio", "SO", "Lombardia"),
+    Province("Sulcis Iglesiente", "SU", "Sardegna"),
+    Province("Taranto", "TA", "Puglia"),
+    Province("Teramo", "TE", "Abruzzo"),
+    Province("Terni", "TR", "Umbria"),
+    Province("Torino", "TO", "Piemonte"),
+    Province("Trapani", "TP", "Sicilia"),
+    Province("Trento", "TN", "Trentino-Alto Adige"),
+    Province("Treviso", "TV", "Veneto"),
+    Province("Trieste", "TS", "Friuli-Venezia Giulia"),
+    Province("Udine", "UD", "Friuli-Venezia Giulia"),
+    Province("Valle d'Aosta", "AO", "Valle d'Aosta"),
+    Province("Varese", "VA", "Lombardia"),
+    Province("Venezia", "VE", "Veneto"),
+    Province("Verbano-Cusio-Ossola", "VB", "Piemonte"),
+    Province("Vercelli", "VC", "Piemonte"),
+    Province("Verona", "VR", "Veneto"),
+    Province("Vibo Valentia", "VV", "Calabria"),
+    Province("Vicenza", "VI", "Veneto"),
+    Province("Viterbo", "VT", "Lazio")
+)
+
 private data class DemoArticle(
     val territory: String,
     val category: String,
@@ -73,10 +188,12 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun CityNewsApp() {
-    var selectedTerritory by remember { mutableStateOf("Piacenza") }
+    var selectedProvince by remember { mutableStateOf(italianProvinces.first { it.code == "PC" }) }
+    var provinceQuery by remember { mutableStateOf("") }
+    var territoryMenuExpanded by remember { mutableStateOf(false) }
     val snackbarHostState = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
-    val articles = demoArticles.filter { it.territory == selectedTerritory }
+    val articles = demoArticles.filter { it.territory == selectedProvince.name }
 
     MaterialTheme(
         colorScheme = androidx.compose.material3.lightColorScheme(
@@ -118,25 +235,30 @@ private fun CityNewsApp() {
                 modifier = Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp)
             ) {
                 Spacer(Modifier.height(16.dp))
-                var territoryMenuExpanded by remember { mutableStateOf(false) }
                 Text(
-                    "Seleziona il territorio",
+                    "Seleziona la provincia",
                     style = MaterialTheme.typography.labelLarge,
                     color = Color(0xFF52636D)
                 )
                 Spacer(Modifier.height(6.dp))
                 ExposedDropdownMenuBox(
                     expanded = territoryMenuExpanded,
-                    onExpandedChange = { territoryMenuExpanded = !territoryMenuExpanded },
+                    onExpandedChange = { expanded ->
+                        territoryMenuExpanded = expanded
+                        if (expanded) provinceQuery = ""
+                    },
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     OutlinedTextField(
-                        value = if (selectedTerritory == "Piacenza") "Piacenza e provincia" else "Como e provincia",
-                        onValueChange = {},
-                        readOnly = true,
+                        value = if (territoryMenuExpanded) provinceQuery else selectedProvince.name,
+                        onValueChange = { value ->
+                            provinceQuery = value
+                            territoryMenuExpanded = true
+                        },
+                        singleLine = true,
                         singleLine = true,
                         trailingIcon = {
-                            Icon(Icons.Default.ArrowDropDown, contentDescription = "Apri elenco territori")
+                            Icon(Icons.Default.ArrowDropDown, contentDescription = "Cerca e seleziona una provincia")
                         },
                         modifier = Modifier.menuAnchor().fillMaxWidth(),
                         colors = androidx.compose.material3.OutlinedTextFieldDefaults.colors(
@@ -146,22 +268,43 @@ private fun CityNewsApp() {
                     )
                     ExposedDropdownMenu(
                         expanded = territoryMenuExpanded,
-                        onDismissRequest = { territoryMenuExpanded = false }
+                        onDismissRequest = {
+                            territoryMenuExpanded = false
+                            provinceQuery = ""
+                        }
                     ) {
-                        DropdownMenuItem(
-                            text = { Text("Piacenza e provincia") },
-                            onClick = {
-                                selectedTerritory = "Piacenza"
-                                territoryMenuExpanded = false
+                        val filteredProvinces = italianProvinces.filter { province ->
+                            province.name.contains(provinceQuery, ignoreCase = true) ||
+                                province.code.contains(provinceQuery, ignoreCase = true) ||
+                                province.region.contains(provinceQuery, ignoreCase = true)
+                        }
+                        if (filteredProvinces.isEmpty()) {
+                            DropdownMenuItem(
+                                text = { Text("Nessuna provincia trovata") },
+                                enabled = false,
+                                onClick = {}
+                            )
+                        } else {
+                            filteredProvinces.forEach { province ->
+                                DropdownMenuItem(
+                                    text = {
+                                        Column {
+                                            Text(province.name)
+                                            Text(
+                                                "${province.region} • ${province.code}",
+                                                style = MaterialTheme.typography.labelSmall,
+                                                color = Color(0xFF71818A)
+                                            )
+                                        }
+                                    },
+                                    onClick = {
+                                        selectedProvince = province
+                                        provinceQuery = ""
+                                        territoryMenuExpanded = false
+                                    }
+                                )
                             }
-                        )
-                        DropdownMenuItem(
-                            text = { Text("Como e provincia") },
-                            onClick = {
-                                selectedTerritory = "Como"
-                                territoryMenuExpanded = false
-                            }
-                        )
+                        }
                     }
                 }
 
@@ -179,7 +322,7 @@ private fun CityNewsApp() {
                 }
                 Spacer(Modifier.height(16.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(selectedTerritory, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Text(selectedProvince.name, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                     Spacer(Modifier.weight(1f))
                     Text("${articles.size} esempi", color = Color(0xFF647783), style = MaterialTheme.typography.labelMedium)
                 }
