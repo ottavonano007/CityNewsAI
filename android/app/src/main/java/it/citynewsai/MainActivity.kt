@@ -256,7 +256,6 @@ private fun CityNewsApp() {
                             territoryMenuExpanded = true
                         },
                         singleLine = true,
-                        singleLine = true,
                         trailingIcon = {
                             Icon(Icons.Default.ArrowDropDown, contentDescription = "Cerca e seleziona una provincia")
                         },
