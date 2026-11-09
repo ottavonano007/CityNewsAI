@@ -270,7 +270,7 @@ private fun CityNewsApp() {
             keyboardController?.show()
         }
     }
-    LaunchedEffect(startupMode) {
+    LaunchedEffect(Unit) {
         if (startupMode == "location" &&
             ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED
         ) applyDetectedProvince()
@@ -324,8 +324,10 @@ private fun CityNewsApp() {
                 ExposedDropdownMenuBox(
                     expanded = territoryMenuExpanded,
                     onExpandedChange = { expanded ->
-                        territoryMenuExpanded = expanded
-                        if (expanded) provinceQuery = ""
+                        if (expanded) {
+                            territoryMenuExpanded = true
+                            provinceQuery = ""
+                        }
                     },
                     modifier = Modifier.fillMaxWidth()
                 ) {
