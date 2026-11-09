@@ -261,7 +261,7 @@ private fun CityNewsApp() {
             startupMode = "location"
             prefs.edit().putString(KEY_STARTUP_MODE, "location").apply()
             scope.launch { applyDetectedProvince() }
-        } else snackbarHostState.showSnackbar("Permesso negato: resterà attiva la provincia preferita.")
+        } else scope.launch { snackbarHostState.showSnackbar("Permesso negato: resterà attiva la provincia preferita.") }
     }
 
     LaunchedEffect(territoryMenuExpanded) {
