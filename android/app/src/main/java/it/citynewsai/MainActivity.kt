@@ -186,6 +186,8 @@ private fun parseNewsDate(value: String): Date? {
     val patterns = listOf(
         "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
         "yyyy-MM-dd'T'HH:mm:ssXXX",
+        "yyyy-MM-dd'T'HH:mm:ss.SSSXX",
+        "yyyy-MM-dd'T'HH:mm:ssXX",
         "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
         "yyyy-MM-dd'T'HH:mm:ss'Z'",
         "yyyy-MM-dd"
@@ -206,7 +208,7 @@ private fun parseNewsDate(value: String): Date? {
 private data class NewsPeriod(val id: String, val label: String, val amount: Int, val unit: Int)
 
 private val newsPeriods = listOf(
-    NewsPeriod("24h", "24 ore", 24, java.util.Calendar.HOUR),
+    NewsPeriod("24h", "24 ore", 24, java.util.Calendar.HOUR_OF_DAY),
     NewsPeriod("week", "1 settimana", 7, java.util.Calendar.DATE),
     NewsPeriod("month", "1 mese", 1, java.util.Calendar.MONTH),
     NewsPeriod("6months", "6 mesi", 6, java.util.Calendar.MONTH),
