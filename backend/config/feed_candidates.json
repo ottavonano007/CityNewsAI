@@ -11,7 +11,8 @@
             "https://www.liberta.it/feed/",
             "https://www.liberta.it/rss/",
             "https://www.liberta.it/feed",
-            "https://www.liberta.it/rss"
+            "https://www.liberta.it/rss",
+            "https://news.google.com/rss/search?q=site%3Aliberta.it&hl=it&gl=IT&ceid=IT%3Ait"
           ]
         },
         {
