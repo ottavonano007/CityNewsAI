@@ -12,8 +12,8 @@ android {
         applicationId = "it.citynewsai"
         minSdk = 24
         targetSdk = 35
-        versionCode = 5
-        versionName = "0.4.1"
+        versionCode = 6
+        versionName = "0.5.0"
     }
 
     buildTypes {
