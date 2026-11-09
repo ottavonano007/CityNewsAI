@@ -1,0 +1,85 @@
+{
+  "description": "Endpoint candidati da verificare prima dell'attivazione in sources.json.",
+  "territories": [
+    {
+      "id": "piacenza",
+      "sources": [
+        {
+          "id": "liberta",
+          "name": "Libertà",
+          "urls": [
+            "https://www.liberta.it/feed/",
+            "https://www.liberta.it/rss/",
+            "https://www.liberta.it/feed",
+            "https://www.liberta.it/rss"
+          ]
+        },
+        {
+          "id": "piacenzasera",
+          "name": "PiacenzaSera",
+          "urls": [
+            "https://www.piacenzasera.it/feed/",
+            "https://www.piacenzasera.it/feed",
+            "https://www.piacenzasera.it/rss/"
+          ]
+        },
+        {
+          "id": "ilpiacenza",
+          "name": "IlPiacenza",
+          "urls": [
+            "https://www.ilpiacenza.it/feed/",
+            "https://www.ilpiacenza.it/feed",
+            "https://www.ilpiacenza.it/rss/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "como",
+      "sources": [
+        {
+          "id": "laprovinciacomo",
+          "name": "La Provincia di Como",
+          "urls": [
+            "https://www.laprovinciadicomo.it/feed/"
+          ]
+        },
+        {
+          "id": "ilgiorno_como",
+          "name": "Il Giorno - Como",
+          "urls": [
+            "https://www.ilgiorno.it/como/feed"
+          ]
+        },
+        {
+          "id": "ciaocomo",
+          "name": "CiaoComo",
+          "urls": [
+            "https://www.ciaocomo.it/feed/"
+          ]
+        },
+        {
+          "id": "quicomo",
+          "name": "QuiComo",
+          "urls": [
+            "https://www.quicomo.it/feed/"
+          ]
+        },
+        {
+          "id": "comozero",
+          "name": "ComoZero",
+          "urls": [
+            "https://comozero.it/feed/"
+          ]
+        },
+        {
+          "id": "primacomo",
+          "name": "Prima Como",
+          "urls": [
+            "https://primacomo.it/feed/"
+          ]
+        }
+      ]
+    }
+  ]
+}
