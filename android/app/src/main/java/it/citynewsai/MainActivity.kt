@@ -1,52 +1,50 @@
 package it.citynewsai
 
+import android.Manifest
+import android.content.Context
+import android.content.pm.PackageManager
+import android.location.Geocoder
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.MyLocation
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.DropdownMenuItem
-import androidx.compose.material3.ExposedDropdownMenuBox
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SnackbarHost
-import androidx.compose.material3.SnackbarHostState
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
-import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat
+import com.google.android.gms.location.LocationServices
+import com.google.android.gms.location.Priority
+import com.google.android.gms.tasks.CancellationTokenSource
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlinx.coroutines.withContext
+import java.util.Locale
+import kotlin.coroutines.resume
+import kotlin.coroutines.resumeWithException
+
 
 private data class Province(val name: String, val code: String, val region: String)
 
@@ -178,6 +176,45 @@ private val demoArticles = listOf(
     DemoArticle("Como", "CULTURA", "Le iniziative locali in primo piano", "Esempio dimostrativo: i contenuti reali saranno mostrati solo dopo la verifica delle fonti giornalistiche.", "Contenuto di prova")
 )
 
+private const val PREFS_NAME = "citynews_preferences"
+private const val KEY_PREFERRED_PROVINCE = "preferred_province"
+private const val KEY_STARTUP_MODE = "startup_mode"
+private const val KEY_THEME = "theme_mode"
+
+private suspend fun detectProvince(context: Context): Province? {
+    val client = LocationServices.getFusedLocationProviderClient(context)
+    val token = CancellationTokenSource()
+    val location = suspendCancellableCoroutine<android.location.Location?> { continuation ->
+        continuation.invokeOnCancellation { token.cancel() }
+        client.getCurrentLocation(Priority.PRIORITY_BALANCED_POWER_ACCURACY, token.token)
+            .addOnSuccessListener { if (continuation.isActive) continuation.resume(it) }
+            .addOnFailureListener { if (continuation.isActive) continuation.resumeWithException(it) }
+    } ?: suspendCancellableCoroutine { continuation ->
+        client.lastLocation.addOnSuccessListener { if (continuation.isActive) continuation.resume(it) }
+            .addOnFailureListener { if (continuation.isActive) continuation.resumeWithException(it) }
+    }
+    if (location == null || !Geocoder.isPresent()) return null
+    val addresses = withContext(Dispatchers.IO) {
+        @Suppress("DEPRECATION")
+        Geocoder(context, Locale.ITALY).getFromLocation(location.latitude, location.longitude, 5)
+    } ?: return null
+    fun clean(value: String?): String = value.orEmpty().lowercase(Locale.ITALY)
+        .replace("provincia di ", "").replace("città metropolitana di ", "")
+        .replace("citta metropolitana di ", "").trim()
+    val candidates = addresses.flatMap { listOf(it.subAdminArea, it.locality, it.subLocality, it.adminArea) }
+        .filterNotNull().map(::clean)
+    return italianProvinces.firstOrNull { province ->
+        val name = clean(province.name)
+        candidates.any { candidate ->
+            candidate == name ||
+                (province.code == "BZ" && candidate in listOf("bolzano", "bozen", "alto adige", "südtirol")) ||
+                (province.code == "AO" && candidate in listOf("aosta", "valle d'aosta")) ||
+                (province.code == "FC" && candidate in listOf("forli", "forli cesena", "forli-cesena")) ||
+                (province.code == "RE" && candidate in listOf("reggio emilia", "reggio nell'emilia"))
+        }
+    }
+}
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -188,21 +225,72 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun CityNewsApp() {
-    var selectedProvince by remember { mutableStateOf(italianProvinces.first { it.code == "PC" }) }
+    val context = LocalContext.current
+    val prefs = remember { context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE) }
+    val scope = rememberCoroutineScope()
+    val snackbarHostState = remember { SnackbarHostState() }
+    val keyboardController = LocalSoftwareKeyboardController.current
+    val focusRequester = remember { FocusRequester() }
+    var selectedProvince by remember {
+        mutableStateOf(italianProvinces.firstOrNull { it.code == prefs.getString(KEY_PREFERRED_PROVINCE, "PC") } ?: italianProvinces.first { it.code == "PC" })
+    }
     var provinceQuery by remember { mutableStateOf("") }
     var territoryMenuExpanded by remember { mutableStateOf(false) }
-    val snackbarHostState = remember { SnackbarHostState() }
-    val scope = rememberCoroutineScope()
-    val articles = demoArticles.filter { it.territory == selectedProvince.name }
+    var startupMode by remember { mutableStateOf(prefs.getString(KEY_STARTUP_MODE, "preferred") ?: "preferred") }
+    var themeMode by remember { mutableStateOf(prefs.getString(KEY_THEME, "system") ?: "system") }
+    var locationBusy by remember { mutableStateOf(false) }
 
-    MaterialTheme(
-        colorScheme = androidx.compose.material3.lightColorScheme(
-            primary = Color(0xFF174B68),
-            secondary = Color(0xFF477D91),
-            background = Color(0xFFF3F6F8),
-            surface = Color.White
-        )
-    ) {
+    val applyDetectedProvince: suspend () -> Unit = {
+        locationBusy = true
+        try {
+            val detected = detectProvince(context)
+            if (detected != null) {
+                selectedProvince = detected
+                prefs.edit().putString(KEY_PREFERRED_PROVINCE, detected.code).apply()
+                snackbarHostState.showSnackbar("Provincia rilevata: ${detected.name}")
+            } else snackbarHostState.showSnackbar("Non è stato possibile riconoscere la provincia dalla posizione.")
+        } catch (_: SecurityException) {
+            snackbarHostState.showSnackbar("Permesso di posizione non disponibile.")
+        } catch (_: Exception) {
+            snackbarHostState.showSnackbar("Posizione non disponibile. Verifica GPS e connessione.")
+        } finally { locationBusy = false }
+    }
+
+    val permissionLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        if (granted) {
+            startupMode = "location"
+            prefs.edit().putString(KEY_STARTUP_MODE, "location").apply()
+            scope.launch { applyDetectedProvince() }
+        } else snackbarHostState.showSnackbar("Permesso negato: resterà attiva la provincia preferita.")
+    }
+
+    LaunchedEffect(territoryMenuExpanded) {
+        if (territoryMenuExpanded) {
+            focusRequester.requestFocus()
+            keyboardController?.show()
+        }
+    }
+    LaunchedEffect(startupMode) {
+        if (startupMode == "location" &&
+            ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED
+        ) applyDetectedProvince()
+    }
+
+    val isDark = when (themeMode) {
+        "dark" -> true
+        "light" -> false
+        else -> isSystemInDarkTheme()
+    }
+    val colors = if (isDark) darkColorScheme(
+        primary = Color(0xFF8CC9E5), secondary = Color(0xFF9CCBD9),
+        background = Color(0xFF101A20), surface = Color(0xFF19262E)
+    ) else lightColorScheme(
+        primary = Color(0xFF174B68), secondary = Color(0xFF477D91),
+        background = Color(0xFFF3F6F8), surface = Color.White
+    )
+
+    MaterialTheme(colorScheme = colors) {
+        val articles = demoArticles.filter { it.territory == selectedProvince.name }
         Scaffold(
             containerColor = MaterialTheme.colorScheme.background,
             snackbarHost = { SnackbarHost(snackbarHostState) },
@@ -210,19 +298,17 @@ private fun CityNewsApp() {
                 TopAppBar(
                     title = {
                         Column {
-                            Text("CityNewsAI", fontWeight = FontWeight.Bold)
+                            Text("City News AI", fontWeight = FontWeight.Bold)
                             Text("Notizie locali, vicino a te", style = MaterialTheme.typography.labelSmall)
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.White,
-                        titleContentColor = Color(0xFF17384A)
+                        containerColor = MaterialTheme.colorScheme.surface,
+                        titleContentColor = MaterialTheme.colorScheme.onSurface
                     ),
                     actions = {
                         TextButton(onClick = {
-                            scope.launch {
-                                snackbarHostState.showSnackbar("Versione dimostrativa: le notizie live saranno collegate in una fase successiva.")
-                            }
+                            scope.launch { snackbarHostState.showSnackbar("Versione dimostrativa: le notizie live saranno collegate in una fase successiva.") }
                         }) {
                             Icon(Icons.Default.Refresh, contentDescription = "Aggiorna")
                             Text(" Aggiorna")
@@ -231,15 +317,9 @@ private fun CityNewsApp() {
                 )
             }
         ) { padding ->
-            Column(
-                modifier = Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp)
-            ) {
-                Spacer(Modifier.height(16.dp))
-                Text(
-                    "Seleziona la provincia",
-                    style = MaterialTheme.typography.labelLarge,
-                    color = Color(0xFF52636D)
-                )
+            Column(Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp)) {
+                Spacer(Modifier.height(14.dp))
+                Text("Seleziona la provincia", style = MaterialTheme.typography.labelLarge)
                 Spacer(Modifier.height(6.dp))
                 ExposedDropdownMenuBox(
                     expanded = territoryMenuExpanded,
@@ -251,95 +331,112 @@ private fun CityNewsApp() {
                 ) {
                     OutlinedTextField(
                         value = if (territoryMenuExpanded) provinceQuery else selectedProvince.name,
-                        onValueChange = { value ->
-                            provinceQuery = value
-                            territoryMenuExpanded = true
-                        },
+                        onValueChange = { provinceQuery = it; territoryMenuExpanded = true },
+                        placeholder = { Text("Digita provincia, sigla o regione") },
                         singleLine = true,
-                        trailingIcon = {
-                            Icon(Icons.Default.ArrowDropDown, contentDescription = "Cerca e seleziona una provincia")
-                        },
-                        modifier = Modifier.menuAnchor().fillMaxWidth(),
-                        colors = androidx.compose.material3.OutlinedTextFieldDefaults.colors(
-                            focusedContainerColor = Color.White,
-                            unfocusedContainerColor = Color.White
-                        )
+                        trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Apri ricerca province") },
+                        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
+                        keyboardActions = KeyboardActions(onSearch = { keyboardController?.show() }),
+                        modifier = Modifier.menuAnchor().fillMaxWidth().focusRequester(focusRequester)
                     )
                     ExposedDropdownMenu(
                         expanded = territoryMenuExpanded,
-                        onDismissRequest = {
-                            territoryMenuExpanded = false
-                            provinceQuery = ""
-                        }
+                        onDismissRequest = { /* resta aperto fino alla selezione */ }
                     ) {
-                        val filteredProvinces = italianProvinces.filter { province ->
-                            province.name.contains(provinceQuery, ignoreCase = true) ||
-                                province.code.contains(provinceQuery, ignoreCase = true) ||
-                                province.region.contains(provinceQuery, ignoreCase = true)
+                        val filtered = italianProvinces.filter {
+                            it.name.contains(provinceQuery, true) || it.code.contains(provinceQuery, true) || it.region.contains(provinceQuery, true)
                         }
-                        if (filteredProvinces.isEmpty()) {
+                        if (filtered.isEmpty()) {
+                            DropdownMenuItem(text = { Text("Nessuna provincia trovata") }, enabled = false, onClick = {})
+                        } else filtered.forEach { province ->
                             DropdownMenuItem(
-                                text = { Text("Nessuna provincia trovata") },
-                                enabled = false,
-                                onClick = {}
-                            )
-                        } else {
-                            filteredProvinces.forEach { province ->
-                                DropdownMenuItem(
-                                    text = {
-                                        Column {
-                                            Text(province.name)
-                                            Text(
-                                                "${province.region} • ${province.code}",
-                                                style = MaterialTheme.typography.labelSmall,
-                                                color = Color(0xFF71818A)
-                                            )
-                                        }
-                                    },
-                                    onClick = {
-                                        selectedProvince = province
-                                        provinceQuery = ""
-                                        territoryMenuExpanded = false
+                                text = {
+                                    Column {
+                                        Text(province.name)
+                                        Text("${province.region} • ${province.code}", style = MaterialTheme.typography.labelSmall)
                                     }
-                                )
-                            }
+                                },
+                                onClick = {
+                                    selectedProvince = province
+                                    prefs.edit().putString(KEY_PREFERRED_PROVINCE, province.code).apply()
+                                    provinceQuery = ""
+                                    territoryMenuExpanded = false
+                                    keyboardController?.hide()
+                                }
+                            )
                         }
                     }
                 }
 
                 Spacer(Modifier.height(12.dp))
+                Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface), modifier = Modifier.fillMaxWidth()) {
+                    Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                        Text("Avvio dell'app", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            FilterChip(
+                                selected = startupMode == "preferred",
+                                onClick = {
+                                    startupMode = "preferred"
+                                    prefs.edit().putString(KEY_STARTUP_MODE, "preferred").putString(KEY_PREFERRED_PROVINCE, selectedProvince.code).apply()
+                                },
+                                label = { Text("Provincia preferita") }
+                            )
+                            FilterChip(
+                                selected = startupMode == "location",
+                                onClick = {
+                                    if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                                        startupMode = "location"
+                                        prefs.edit().putString(KEY_STARTUP_MODE, "location").apply()
+                                        scope.launch { applyDetectedProvince() }
+                                    } else permissionLauncher.launch(Manifest.permission.ACCESS_COARSE_LOCATION)
+                                },
+                                label = { Text("La mia posizione") },
+                                leadingIcon = { Icon(Icons.Default.MyLocation, contentDescription = null) }
+                            )
+                        }
+                        if (startupMode == "location") {
+                            TextButton(enabled = !locationBusy, onClick = { scope.launch { applyDetectedProvince() } }) {
+                                Icon(Icons.Default.MyLocation, contentDescription = null)
+                                Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
+                            }
+                        }
+                        Text("Tema", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            FilterChip(selected = themeMode == "system", onClick = {
+                                themeMode = "system"; prefs.edit().putString(KEY_THEME, "system").apply()
+                            }, label = { Text("Sistema") })
+                            FilterChip(selected = themeMode == "light", onClick = {
+                                themeMode = "light"; prefs.edit().putString(KEY_THEME, "light").apply()
+                            }, label = { Text("Chiaro") })
+                            FilterChip(selected = themeMode == "dark", onClick = {
+                                themeMode = "dark"; prefs.edit().putString(KEY_THEME, "dark").apply()
+                            }, label = { Text("Scuro") })
+                        }
+                    }
+                }
+                Spacer(Modifier.height(12.dp))
                 Surface(
-                    color = Color(0xFFFFF3D8),
-                    shape = RoundedCornerShape(12.dp),
-                    modifier = Modifier.fillMaxWidth()
+                    color = if (isDark) Color(0xFF493A20) else Color(0xFFFFF3D8),
+                    shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth()
                 ) {
                     Column(Modifier.padding(12.dp)) {
-                        Text("VERSIONE DIMOSTRATIVA  •  0.1.0", color = Color(0xFF79551A), fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelMedium)
+                        Text("VERSIONE DIMOSTRATIVA • 0.3.0", color = if (isDark) Color(0xFFFFD78A) else Color(0xFF79551A), fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelMedium)
                         Spacer(Modifier.height(4.dp))
-                        Text("Le schede qui sotto sono esempi grafici, non notizie reali. Le fonti saranno attivate solo dopo le verifiche.")
-                        }
+                        Text("Le schede qui sotto sono esempi grafici, non notizie reali.")
+                    }
                 }
-                Spacer(Modifier.height(16.dp))
+                Spacer(Modifier.height(14.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(selectedProvince.name, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                     Spacer(Modifier.weight(1f))
-                    Text("${articles.size} esempi", color = Color(0xFF647783), style = MaterialTheme.typography.labelMedium)
+                    Text("${articles.size} esempi", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelMedium)
                 }
                 Spacer(Modifier.height(10.dp))
-
-                LazyColumn(
-                    verticalArrangement = Arrangement.spacedBy(12.dp),
-                    modifier = Modifier.fillMaxSize()
-                ) {
-                    items(articles) { article -> ArticleCard(article) }
+                LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxSize()) {
+                    items(articles) { ArticleCard(it) }
                     item {
                         Spacer(Modifier.height(8.dp))
-                        Text(
-                            "CityNewsAI • Prima versione di prova",
-                            color = Color(0xFF71818A),
-                            style = MaterialTheme.typography.labelSmall,
-                            modifier = Modifier.fillMaxWidth().padding(bottom = 18.dp)
-                        )
+                        Text("City News AI • Prima versione di prova", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelSmall, modifier = Modifier.fillMaxWidth().padding(bottom = 18.dp))
                     }
                 }
             }
@@ -350,30 +447,27 @@ private fun CityNewsApp() {
 @Composable
 private fun ArticleCard(article: DemoArticle) {
     Card(
-        modifier = Modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(containerColor = Color.White),
+        modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
     ) {
         Column(Modifier.padding(16.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(
-                    modifier = Modifier.background(Color(0xFFE6F0F4), RoundedCornerShape(6.dp)).padding(horizontal = 8.dp, vertical = 4.dp)
-                ) {
-                    Text(article.category, color = Color(0xFF24566D), fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
+                Box(Modifier.background(MaterialTheme.colorScheme.secondaryContainer, RoundedCornerShape(6.dp)).padding(horizontal = 8.dp, vertical = 4.dp)) {
+                    Text(article.category, color = MaterialTheme.colorScheme.onSecondaryContainer, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
                 }
                 Spacer(Modifier.weight(1f))
-                Text("ESEMPIO", color = Color(0xFF9A6A1B), fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
+                Text("ESEMPIO", color = MaterialTheme.colorScheme.tertiary, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelSmall)
             }
             Spacer(Modifier.height(10.dp))
-            Text(article.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = Color(0xFF203744))
+            Text(article.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(7.dp))
-            Text(article.summary, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF52636D))
+            Text(article.summary, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             Spacer(Modifier.height(12.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(article.source, style = MaterialTheme.typography.labelMedium, color = Color(0xFF174B68), fontWeight = FontWeight.SemiBold)
+                Text(article.source, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.SemiBold)
                 Spacer(Modifier.weight(1f))
-                Text("Data non applicabile", style = MaterialTheme.typography.labelSmall, color = Color(0xFF7B898F))
+                Text("Data non applicabile", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }
