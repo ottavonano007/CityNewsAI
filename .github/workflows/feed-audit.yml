@@ -1,0 +1,32 @@
+name: Feed source audit
+
+on:
+  push:
+    paths:
+      - "backend/config/feed_candidates.json"
+      - "backend/citynews/feed_audit.py"
+      - ".github/workflows/feed-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Check candidate RSS and Atom feeds
+        run: python -m citynews.feed_audit
