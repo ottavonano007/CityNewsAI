@@ -184,7 +184,7 @@ private suspend fun fetchPublishedNews(): Pair<List<NewsArticle>, String> = with
         connection.requestMethod = "GET"
         connection.setRequestProperty("Accept", "application/json")
         connection.setRequestProperty("User-Agent", "CityNewsAI-Android")
-        if (connection.responseCode !in 200..299) throw IllegalStateException("Servizio notizie non disponibile (\${connection.responseCode})")
+        if (connection.responseCode !in 200..299) throw IllegalStateException("Servizio notizie non disponibile (${connection.responseCode})")
         val payload = connection.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() }
         val root = JSONObject(payload)
         val list = root.optJSONArray("articles")
@@ -520,7 +520,7 @@ private fun CityNewsApp() {
                         item {
                             Card(modifier = Modifier.fillMaxWidth()) {
                                 Column(Modifier.padding(18.dp)) {
-                                    Text(if (newsLoading) "Caricamento notizie…" else "Nessuna notizia disponibile per \${selectedProvince.name}.",
+                                    Text(if (newsLoading) "Caricamento notizie…" else "Nessuna notizia disponibile per ${selectedProvince.name}.",
                                         fontWeight = FontWeight.SemiBold)
                                     Spacer(Modifier.height(6.dp))
                                     Text("La copertura viene ampliata man mano che vengono verificate nuove testate locali.",
