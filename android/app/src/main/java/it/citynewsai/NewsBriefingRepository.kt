@@ -45,7 +45,7 @@ private fun googleNewsFeed(name:String, query:String):FeedSpec =
 
 private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  val window=when(period){"24h"->" when:1d";"3d"->" when:3d";"7d"->" when:7d";"1m"->" when:1m";"6m"->" when:6m";else->" when:1y"}
- val territory="\\""+p.name+"\\" OR \\"provincia di "+p.name+"\\""
+ val territory="\"" + p.name + "\" OR \"provincia di " + p.name + "\""
  val feeds= mutableListOf(googleNewsFeed("Google News",territory+window))
  val domains=regionalNewsDomains[p.region].orEmpty()
  if(domains.isNotEmpty()){
