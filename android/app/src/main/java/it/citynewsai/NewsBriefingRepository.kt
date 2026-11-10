@@ -56,10 +56,10 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  if(months>0) calendar.add(java.util.Calendar.MONTH,-months)
  val after=if(months>0) " after:"+java.text.SimpleDateFormat("yyyy-MM-dd",Locale.ROOT).format(calendar.time) else ""
  val cityTerms=when(p.code){
-  "AG"->listOf("\\"Agrigento\\"","\"agrigentino\"","\"provincia di Agrigento\"")
-  "PC"->listOf("\\"Piacenza\\"","\"piacentino\"","\"provincia di Piacenza\"")
-  "CO"->listOf("\\"Como\\"","\"comasco\"","\"provincia di Como\"")
-  else->listOf("\\""+p.name+"\\"","\"provincia di "+p.name+"\"")
+  "AG"->listOf("\"Agrigento\"","\"agrigentino\"","\"provincia di Agrigento\"")
+  "PC"->listOf("\"Piacenza\"","\"piacentino\"","\"provincia di Piacenza\"")
+  "CO"->listOf("\"Como\"","\"comasco\"","\"provincia di Como\"")
+  else->listOf("\""+p.name+"\"","\"provincia di "+p.name+"\"")
  }
  val territory=cityTerms.joinToString(" OR ")
  val feeds=mutableListOf<FeedSpec>()
