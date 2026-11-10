@@ -79,8 +79,9 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  val sections=filteredArticles.groupBy{it.category}
  val listState=rememberLazyListState()
  var showScrollThumb by remember { mutableStateOf(false) }
- LaunchedEffect(listState.isScrollInProgress) {
-  if(listState.isScrollInProgress) showScrollThumb=true else { delay(900); showScrollThumb=false }
+ var isThumbDragging by remember { mutableStateOf(false) }
+ LaunchedEffect(listState.isScrollInProgress,isThumbDragging) {
+  if(listState.isScrollInProgress || isThumbDragging) showScrollThumb=true else { delay(1400); showScrollThumb=false }
  }
  MaterialTheme(colorScheme=colors) {
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
@@ -156,12 +157,16 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
   }
   val totalItems=listState.layoutInfo.totalItemsCount
   val visibleItems=listState.layoutInfo.visibleItemsInfo.size
-  if(showScrollThumb && totalItems>visibleItems && totalItems>0) {
+  if((showScrollThumb || isThumbDragging) && totalItems>visibleItems && totalItems>0) {
    Canvas(
-    modifier=Modifier.align(Alignment.CenterEnd).fillMaxHeight().width(32.dp)
+    modifier=Modifier.align(Alignment.CenterEnd).fillMaxHeight().width(56.dp)
      .pointerInput(totalItems) {
       var dragRemainder=0f
-      detectDragGestures { change, dragAmount ->
+      detectDragGestures(
+       onDragStart={ isThumbDragging=true; showScrollThumb=true },
+       onDragEnd={ isThumbDragging=false; showScrollThumb=true },
+       onDragCancel={ isThumbDragging=false; showScrollThumb=true }
+      ) { change, dragAmount ->
        change.consumeAllChanges()
        dragRemainder += dragAmount.y / size.height.coerceAtLeast(1).toFloat() * totalItems
        val itemDelta=dragRemainder.toInt()
@@ -174,15 +179,15 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
       }
      }
    ) {
-    val thumbHeight=(size.height*visibleItems.toFloat()/totalItems.toFloat()).coerceAtLeast(72.dp.toPx()).coerceAtMost(size.height)
+    val thumbHeight=(size.height*visibleItems.toFloat()/totalItems.toFloat()).coerceAtLeast(128.dp.toPx()).coerceAtMost(size.height)
     val maxFirst=(totalItems-visibleItems).coerceAtLeast(1)
     val fraction=listState.firstVisibleItemIndex.coerceIn(0,maxFirst).toFloat()/maxFirst
     val top=(size.height-thumbHeight)*fraction
     drawRoundRect(
      color=Color.Black.copy(alpha=0.42f),
-     topLeft=Offset(size.width-20.dp.toPx(),top),
-     size=Size(14.dp.toPx(),thumbHeight),
-     cornerRadius=androidx.compose.ui.geometry.CornerRadius(8.dp.toPx())
+     topLeft=Offset(size.width-30.dp.toPx(),top),
+     size=Size(24.dp.toPx(),thumbHeight),
+     cornerRadius=androidx.compose.ui.geometry.CornerRadius(12.dp.toPx())
     )
    }
   }
