@@ -286,7 +286,23 @@ private const val PREFS_NAME = "citynews_preferences"
 private const val KEY_PREFERRED_PROVINCE = "preferred_province"
 private const val KEY_STARTUP_MODE = "startup_mode"
 private const val KEY_THEME = "theme_mode"
+private const val KEY_COLOR_PALETTE = "color_palette"
 private const val KEY_FAVORITE_PROVINCES = "favorite_provinces"
+
+
+internal fun cityNewsColorScheme(dark: Boolean, index: Int): androidx.compose.material3.ColorScheme {
+ val darkPalettes=listOf(
+ Triple(0xFF8CC9E5,0xFF9CCBD9,0xFF101A20),Triple(0xFFFFB4A2,0xFFFFD6A5,0xFF211715),Triple(0xFFB8C0FF,0xFFD7D9FF,0xFF17182A),Triple(0xFFA8DADC,0xFFBDE0FE,0xFF101F25),Triple(0xFFE6B8FF,0xFFD8C4F1,0xFF21172A),
+ Triple(0xFFC3F0CA,0xFFA8DDB5,0xFF142219),Triple(0xFFFFD166,0xFFFFE6A7,0xFF241E10),Triple(0xFFFFA6C1,0xFFFFC8DD,0xFF281720),Triple(0xFF9BF6FF,0xFFCAFFFF,0xFF102124),Triple(0xFFD0BFFF,0xFFE1D5FF,0xFF1D1930),
+ Triple(0xFFB7E4C7,0xFFD8F3DC,0xFF14231B),Triple(0xFFFFC6A5,0xFFFFE0CC,0xFF251A14),Triple(0xFFA0C4FF,0xFFC7DCFF,0xFF121D2B),Triple(0xFFE4C1F9,0xFFF1DDFB,0xFF21182A),Triple(0xFFB5EAD7,0xFFD2F5E8,0xFF12231D))
+ val lightPalettes=listOf(
+ Triple(0xFF174B68,0xFF477D91,0xFFF3F6F8),Triple(0xFF9B3D32,0xFFB96A55,0xFFFFF5F0),Triple(0xFF414A8A,0xFF7079B5,0xFFF4F4FF),Triple(0xFF176B68,0xFF4C9690,0xFFF0FAF8),Triple(0xFF704080,0xFF9A70AA,0xFFFAF4FC),
+ Triple(0xFF356B45,0xFF6D9B73,0xFFF3FAF3),Triple(0xFF805B10,0xFFB58A32,0xFFFFFAEA),Triple(0xFF9A4164,0xFFC16F91,0xFFFFF4F8),Triple(0xFF176477,0xFF4D91A3,0xFFF0FAFC),Triple(0xFF59458A,0xFF8975B7,0xFFF7F4FF),
+ Triple(0xFF39704D,0xFF75A482,0xFFF2FAF4),Triple(0xFF99552F,0xFFC27D54,0xFFFFF6F0),Triple(0xFF285B91,0xFF648DB9,0xFFF1F7FD),Triple(0xFF80518B,0xFFAA7CB2,0xFFFBF4FC),Triple(0xFF2D725D,0xFF66A08A,0xFFF1FAF6))
+ val p=(if(dark)darkPalettes else lightPalettes)[index.coerceIn(0,14)]
+ return if(dark) darkColorScheme(primary=Color(p.first),secondary=Color(p.second),background=Color(p.third),surface=Color(p.third).copy(red=(Color(p.third).red*1.12f).coerceAtMost(1f)))
+ else lightColorScheme(primary=Color(p.first),secondary=Color(p.second),background=Color(p.third),surface=Color.White)
+}
 
 private suspend fun detectProvince(context: Context): Province? {
     val client = LocationServices.getFusedLocationProviderClient(context)
@@ -346,6 +362,8 @@ private fun CityNewsApp() {
     var periodMenuExpanded by remember { mutableStateOf(false) }
     var startupMode by remember { mutableStateOf(prefs.getString(KEY_STARTUP_MODE, "preferred") ?: "preferred") }
     var themeMode by remember { mutableStateOf(prefs.getString(KEY_THEME, "system") ?: "system") }
+    var colorPalette by remember { mutableIntStateOf(prefs.getInt(KEY_COLOR_PALETTE, 0).coerceIn(0, 14)) }
+    var paletteMenuExpanded by remember { mutableStateOf(false) }
     var locationBusy by remember { mutableStateOf(false) }
     var liveArticles by remember { mutableStateOf(emptyList<NewsArticle>()) }
     var newsUpdatedAt by remember { mutableStateOf("") }
@@ -416,13 +434,7 @@ private fun CityNewsApp() {
         "light" -> false
         else -> isSystemInDarkTheme()
     }
-    val colors = if (isDark) darkColorScheme(
-        primary = Color(0xFF8CC9E5), secondary = Color(0xFF9CCBD9),
-        background = Color(0xFF101A20), surface = Color(0xFF19262E)
-    ) else lightColorScheme(
-        primary = Color(0xFF174B68), secondary = Color(0xFF477D91),
-        background = Color(0xFFF3F6F8), surface = Color.White
-    )
+    val colors = cityNewsColorScheme(isDark, colorPalette)
 
     MaterialTheme(colorScheme = colors) {
         val provinceArticles = liveArticles.filter { selectedProvince.code in it.territoryCodes }
@@ -600,6 +612,18 @@ private fun CityNewsApp() {
                                 themeMode = "dark"; prefs.edit().putString(KEY_THEME, "dark").apply()
                             }, label = { Text("Scuro") })
                         }
+                        Spacer(Modifier.height(8.dp))
+                        Text("Combinazione colori: ${colorPalette + 1} / 15", style = MaterialTheme.typography.labelMedium)
+                        ExposedDropdownMenuBox(expanded = paletteMenuExpanded, onExpandedChange = { paletteMenuExpanded = it }, modifier = Modifier.fillMaxWidth()) {
+                            OutlinedTextField(value = "Palette ${colorPalette + 1} di 15", onValueChange = {}, readOnly = true, singleLine = true,
+                                trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli combinazione colori") },
+                                modifier = Modifier.menuAnchor().fillMaxWidth())
+                            ExposedDropdownMenu(expanded = paletteMenuExpanded, onDismissRequest = { paletteMenuExpanded = false }) {
+                                (0..14).forEach { index -> DropdownMenuItem(text = { Text("Palette ${index + 1}") }, onClick = {
+                                    colorPalette = index; prefs.edit().putInt(KEY_COLOR_PALETTE, index).apply(); paletteMenuExpanded = false
+                                }) }
+                            }
+                        }
                     }
                 }
                 Spacer(Modifier.height(12.dp))
@@ -645,6 +669,7 @@ private fun CityNewsApp() {
                                     putExtra("province_region", selectedProvince.region)
                                     putExtra("period_id", selectedNewsPeriod)
                                     putExtra("theme_mode", themeMode)
+                                    putExtra("color_palette", colorPalette)
                                 }
                                 context.startActivity(briefingIntent)
                             },
