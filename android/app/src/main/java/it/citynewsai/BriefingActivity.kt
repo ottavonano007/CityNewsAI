@@ -6,9 +6,14 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.clickable
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Refresh
@@ -23,6 +28,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.delay
 import java.text.SimpleDateFormat
 import java.util.Locale
 
@@ -31,13 +37,15 @@ class BriefingActivity : ComponentActivity() {
   super.onCreate(savedInstanceState)
   val province=Province(intent.getStringExtra("province_name")?:"Provincia",intent.getStringExtra("province_code")?:"",intent.getStringExtra("province_region")?:"")
   val period=intent.getStringExtra("period_id")?:"24h"
-  val themeMode=intent.getStringExtra("theme_mode")?:getSharedPreferences("citynews_preferences",MODE_PRIVATE).getString("theme_mode","system")?:"system"
-  setContent { BriefingPage(province,period,themeMode,onBack={finish()}) }
+  val prefs=getSharedPreferences("citynews_preferences",MODE_PRIVATE)
+  val themeMode=intent.getStringExtra("theme_mode")?:prefs.getString("theme_mode","system")?:"system"
+  val palette=intent.getIntExtra("color_palette",prefs.getInt("color_palette",0))
+  setContent { BriefingPage(province,period,themeMode,palette,onBack={finish()}) }
  }
 }
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBack:()->Unit) {
+private fun BriefingPage(province:Province,periodId:String,themeMode:String,palette:Int,onBack:()->Unit) {
  val context=LocalContext.current
  val scope=rememberCoroutineScope()
  val labels=mapOf("24h" to "Ultime 24 ore","3d" to "Ultimi 3 giorni","7d" to "Ultima settimana","1m" to "Ultimo mese","6m" to "Ultimi 6 mesi","1y" to "Ultimo anno")
@@ -57,13 +65,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBa
  }
  LaunchedEffect(province.code,periodId){refresh()}
  val isDark=when(themeMode){"dark"->true;"light"->false;else->isSystemInDarkTheme()}
- val colors=if(isDark) darkColorScheme(
-  primary=Color(0xFF8CC9E5),secondary=Color(0xFF9CCBD9),
-  background=Color(0xFF101A20),surface=Color(0xFF19262E)
- ) else lightColorScheme(
-  primary=Color(0xFF174B68),secondary=Color(0xFF477D91),
-  background=Color(0xFFF3F6F8),surface=Color.White
- )
+ val colors=cityNewsColorScheme(isDark,palette)
  val filteredArticles=remember(articles,keywordQuery) {
   val terms=keywordQuery.trim().lowercase(Locale.ITALY).split(Regex("\\s+")).filter{it.isNotBlank()}
   if(terms.isEmpty()) articles else articles.filter { article ->
@@ -72,13 +74,29 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBa
   }
  }
  val sections=filteredArticles.groupBy{it.category}
+ val listState=rememberLazyListState()
+ var showScrollThumb by remember { mutableStateOf(false) }
+ LaunchedEffect(listState.isScrollInProgress) {
+  if(listState.isScrollInProgress) showScrollThumb=true else { delay(900); showScrollThumb=false }
+ }
  MaterialTheme(colorScheme=colors) {
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
   title={Column{Text(province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
   actions={IconButton(onClick=refresh,enabled=!loading){Icon(Icons.Default.Refresh,contentDescription="Aggiorna rassegna")}}
  )}){padding->
-  LazyColumn(Modifier.fillMaxSize().padding(padding).padding(horizontal=16.dp),verticalArrangement=Arrangement.spacedBy(10.dp)){
+  LazyColumn(state=listState,modifier=Modifier.fillMaxSize().padding(padding).padding(horizontal=16.dp).drawWithContent {
+   drawContent()
+   val total=listState.layoutInfo.totalItemsCount
+   val visible=listState.layoutInfo.visibleItemsInfo.size
+   if(showScrollThumb && total>visible && size.height>0f) {
+    val thumbHeight=(size.height*visible.toFloat()/total.toFloat()).coerceAtLeast(34.dp.toPx())
+    val maxScroll=(total-visible).coerceAtLeast(1)
+    val first=listState.firstVisibleItemIndex.coerceIn(0,maxScroll)
+    val top=(size.height-thumbHeight)*first.toFloat()/maxScroll.toFloat()
+    drawRoundRect(Color.Black.copy(alpha=0.38f),Offset(size.width-5.dp.toPx(),top),Size(3.dp.toPx(),thumbHeight),CornerRadius(4.dp.toPx()))
+   }
+  },verticalArrangement=Arrangement.spacedBy(15.dp)){
    item{Spacer(Modifier.height(2.dp))}
    item {
     OutlinedTextField(
@@ -121,12 +139,12 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBa
     }
    }
    sections.forEach{(category,categoryArticles)->
-    item(key="heading_"+category){Text(category,style=MaterialTheme.typography.titleSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)}
+    item(key="heading_"+category){Text(category,style=MaterialTheme.typography.titleLarge,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.ExtraBold)}
     items(categoryArticles,key={it.url}){article->
      Card(Modifier.fillMaxWidth().clickable{runCatching{context.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse(article.url)))}}){
-      Column(Modifier.padding(14.dp),verticalArrangement=Arrangement.spacedBy(6.dp)){
-       Text(article.title,style=MaterialTheme.typography.titleMedium,fontWeight=FontWeight.SemiBold)
-       if(article.summary.isNotBlank())Text(article.summary,style=MaterialTheme.typography.bodyMedium)
+      Column(Modifier.padding(17.dp),verticalArrangement=Arrangement.spacedBy(8.dp)){
+       Text(article.title,style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.SemiBold)
+       if(article.summary.isNotBlank())Text(article.summary,style=MaterialTheme.typography.bodyLarge)
        Row(verticalAlignment=Alignment.CenterVertically){
         Text(article.source,style=MaterialTheme.typography.labelMedium,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.SemiBold)
         if(article.corroborationCount>1)Text("  •  "+article.corroborationCount+" fonti",style=MaterialTheme.typography.labelSmall)
