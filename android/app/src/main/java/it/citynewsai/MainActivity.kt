@@ -30,6 +30,8 @@ import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.MyLocation
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -364,6 +366,7 @@ private fun CityNewsApp() {
     var themeMode by remember { mutableStateOf(prefs.getString(KEY_THEME, "system") ?: "system") }
     var colorPalette by remember { mutableIntStateOf(prefs.getInt(KEY_COLOR_PALETTE, 0).coerceIn(0, 14)) }
     var paletteMenuExpanded by remember { mutableStateOf(false) }
+    var showSettings by remember { mutableStateOf(false) }
     var locationBusy by remember { mutableStateOf(false) }
     var liveArticles by remember { mutableStateOf(emptyList<NewsArticle>()) }
     var newsUpdatedAt by remember { mutableStateOf("") }
@@ -437,6 +440,20 @@ private fun CityNewsApp() {
     val colors = cityNewsColorScheme(isDark, colorPalette)
 
     MaterialTheme(colorScheme = colors) {
+        if (showSettings) {
+            SettingsPage(
+                startupMode = startupMode, themeMode = themeMode, colorPalette = colorPalette,
+                locationBusy = locationBusy, onBack = { showSettings = false },
+                onStartupModeChange = { mode -> startupMode = mode; prefs.edit().putString(KEY_STARTUP_MODE, mode).apply() },
+                onThemeChange = { mode -> themeMode = mode; prefs.edit().putString(KEY_THEME, mode).apply() },
+                onPaletteChange = { index -> colorPalette = index; prefs.edit().putInt(KEY_COLOR_PALETTE, index).apply() },
+                onDetectLocation = {
+                    if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                        scope.launch { applyDetectedProvince() }
+                    } else permissionLauncher.launch(Manifest.permission.ACCESS_COARSE_LOCATION)
+                }
+            )
+        } else {
         val provinceArticles = liveArticles.filter { selectedProvince.code in it.territoryCodes }
         val articles = filterNewsByPeriod(provinceArticles, selectedNewsPeriod)
         Scaffold(
@@ -448,6 +465,11 @@ private fun CityNewsApp() {
                         Column {
                             Text("City News AI", fontWeight = FontWeight.Bold)
                             Text("Rassegna locale gratuita", style = MaterialTheme.typography.labelSmall)
+                        }
+                    },
+                    actions = {
+                        IconButton(onClick = { showSettings = true }) {
+                            Icon(Icons.Default.Settings, contentDescription = "Impostazioni")
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
@@ -552,6 +574,29 @@ private fun CityNewsApp() {
                     }
                 }
 
+                Text("Periodo della rassegna", style = MaterialTheme.typography.labelLarge)
+                ExposedDropdownMenuBox(
+                    expanded = periodMenuExpanded,
+                    onExpandedChange = { periodMenuExpanded = it },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    OutlinedTextField(
+                        value = newsPeriods.first { it.id == selectedNewsPeriod }.label,
+                        onValueChange = {},
+                        readOnly = true,
+                        singleLine = true,
+                        trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli il periodo") },
+                        modifier = Modifier.menuAnchor().fillMaxWidth()
+                    )
+                    ExposedDropdownMenu(expanded = periodMenuExpanded, onDismissRequest = { periodMenuExpanded = false }) {
+                        newsPeriods.forEach { period ->
+                            DropdownMenuItem(
+                                text = { Text(period.label) },
+                                onClick = { selectedNewsPeriod = period.id; periodMenuExpanded = false }
+                            )
+                        }
+                    }
+                }
                 Spacer(Modifier.height(8.dp))
                 OutlinedButton(
                     onClick = {
@@ -600,56 +645,10 @@ private fun CityNewsApp() {
                                 Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
                             }
                         }
-                        Text("Tema", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
-                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                            FilterChip(selected = themeMode == "system", onClick = {
-                                themeMode = "system"; prefs.edit().putString(KEY_THEME, "system").apply()
-                            }, label = { Text("Sistema") })
-                            FilterChip(selected = themeMode == "light", onClick = {
-                                themeMode = "light"; prefs.edit().putString(KEY_THEME, "light").apply()
-                            }, label = { Text("Chiaro") })
-                            FilterChip(selected = themeMode == "dark", onClick = {
-                                themeMode = "dark"; prefs.edit().putString(KEY_THEME, "dark").apply()
-                            }, label = { Text("Scuro") })
-                        }
-                        Spacer(Modifier.height(8.dp))
-                        Text("Combinazione colori: ${colorPalette + 1} / 15", style = MaterialTheme.typography.labelMedium)
-                        ExposedDropdownMenuBox(expanded = paletteMenuExpanded, onExpandedChange = { paletteMenuExpanded = it }, modifier = Modifier.fillMaxWidth()) {
-                            OutlinedTextField(value = "Palette ${colorPalette + 1} di 15", onValueChange = {}, readOnly = true, singleLine = true,
-                                trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli combinazione colori") },
-                                modifier = Modifier.menuAnchor().fillMaxWidth())
-                            ExposedDropdownMenu(expanded = paletteMenuExpanded, onDismissRequest = { paletteMenuExpanded = false }) {
-                                (0..14).forEach { index -> DropdownMenuItem(text = { Text("Palette ${index + 1}") }, onClick = {
-                                    colorPalette = index; prefs.edit().putInt(KEY_COLOR_PALETTE, index).apply(); paletteMenuExpanded = false
-                                }) }
-                            }
-                        }
+
                     }
                 }
                 Spacer(Modifier.height(12.dp))
-                Text("Periodo della rassegna", style = MaterialTheme.typography.labelLarge)
-                ExposedDropdownMenuBox(
-                    expanded = periodMenuExpanded,
-                    onExpandedChange = { periodMenuExpanded = it },
-                    modifier = Modifier.fillMaxWidth()
-                ) {
-                    OutlinedTextField(
-                        value = newsPeriods.first { it.id == selectedNewsPeriod }.label,
-                        onValueChange = {},
-                        readOnly = true,
-                        singleLine = true,
-                        trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli il periodo") },
-                        modifier = Modifier.menuAnchor().fillMaxWidth()
-                    )
-                    ExposedDropdownMenu(expanded = periodMenuExpanded, onDismissRequest = { periodMenuExpanded = false }) {
-                        newsPeriods.forEach { period ->
-                            DropdownMenuItem(
-                                text = { Text(period.label) },
-                                onClick = { selectedNewsPeriod = period.id; periodMenuExpanded = false }
-                            )
-                        }
-                    }
-                }
                 Card(
                     modifier = Modifier.fillMaxWidth(),
                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
@@ -678,6 +677,66 @@ private fun CityNewsApp() {
                     }
                 }
                 Spacer(Modifier.height(12.dp))
+                }
+            }
+        }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun SettingsPage(
+    startupMode: String, themeMode: String, colorPalette: Int, locationBusy: Boolean,
+    onBack: () -> Unit, onStartupModeChange: (String) -> Unit, onThemeChange: (String) -> Unit,
+    onPaletteChange: (Int) -> Unit, onDetectLocation: () -> Unit
+) {
+    var paletteMenuExpanded by remember { mutableStateOf(false) }
+    Scaffold(
+        containerColor = MaterialTheme.colorScheme.background,
+        topBar = {
+            TopAppBar(
+                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.Default.ArrowBack, contentDescription = "Indietro") } },
+                title = { Text("Impostazioni", fontWeight = FontWeight.Bold) }
+            )
+        }
+    ) { padding ->
+        Column(Modifier.fillMaxSize().padding(padding).padding(16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text("Aspetto", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Text("Tema dell'app", style = MaterialTheme.typography.titleMedium)
+                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                        FilterChip(selected = themeMode == "system", onClick = { onThemeChange("system") }, label = { Text("Sistema") })
+                        FilterChip(selected = themeMode == "light", onClick = { onThemeChange("light") }, label = { Text("Chiaro") })
+                        FilterChip(selected = themeMode == "dark", onClick = { onThemeChange("dark") }, label = { Text("Scuro") })
+                    }
+                    Text("Combinazione colori: ${colorPalette + 1} di 15", style = MaterialTheme.typography.titleMedium)
+                    ExposedDropdownMenuBox(expanded = paletteMenuExpanded, onExpandedChange = { paletteMenuExpanded = it }, modifier = Modifier.fillMaxWidth()) {
+                        OutlinedTextField(
+                            value = "Palette ${colorPalette + 1} di 15", onValueChange = {}, readOnly = true, singleLine = true,
+                            trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli combinazione colori") },
+                            modifier = Modifier.menuAnchor().fillMaxWidth()
+                        )
+                        ExposedDropdownMenu(expanded = paletteMenuExpanded, onDismissRequest = { paletteMenuExpanded = false }) {
+                            (0..14).forEach { index ->
+                                DropdownMenuItem(text = { Text("Palette ${index + 1}") }, onClick = { onPaletteChange(index); paletteMenuExpanded = false })
+                            }
+                        }
+                    }
+                }
+            }
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text("Avvio dell'app", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        FilterChip(selected = startupMode == "preferred", onClick = { onStartupModeChange("preferred") }, label = { Text("Provincia preferita") })
+                        FilterChip(selected = startupMode == "location", onClick = { onStartupModeChange("location"); onDetectLocation() }, label = { Text("La mia posizione") }, leadingIcon = { Icon(Icons.Default.MyLocation, contentDescription = null) })
+                    }
+                    if (startupMode == "location") TextButton(enabled = !locationBusy, onClick = onDetectLocation) {
+                        Icon(Icons.Default.MyLocation, contentDescription = null)
+                        Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
+                    }
                 }
             }
         }
