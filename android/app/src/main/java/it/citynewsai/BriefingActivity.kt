@@ -119,7 +119,10 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
     Column{Text("Sto raccogliendo le notizie…",fontWeight=FontWeight.SemiBold);Text("Consultazione delle fonti disponibili.",style=MaterialTheme.typography.bodySmall)}
    }}}
    if(error.isNotBlank())item{Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.errorContainer),modifier=Modifier.fillMaxWidth()){
-    Column(Modifier.padding(16.dp)){Text("Rassegna non disponibile",fontWeight=FontWeight.Bold);Spacer(Modifier.height(6.dp));Text(error);TextButton(onClick=refresh){Text("RIPROVA")}}
+    Column(Modifier.padding(16.dp)){Text("Rassegna non disponibile",fontWeight=FontWeight.Bold);Spacer(Modifier.height(6.dp));Text(error);TextButton(
+     onClick=refresh,
+     colors=TextButtonDefaults.textButtonColors(contentColor=MaterialTheme.colorScheme.primary)
+    ){Text("RIPROVA")}}
    }}
    if(!loading&&error.isBlank()&&articles.isEmpty())item{Card(Modifier.fillMaxWidth()){
     Column(Modifier.padding(16.dp)){Text("Nessuna notizia trovata nel periodo selezionato.",fontWeight=FontWeight.SemiBold);Spacer(Modifier.height(6.dp));Text("I feed disponibili potrebbero non essere aggiornati oppure non contenere notizie per questo intervallo. Prova ad ampliare il periodo.",style=MaterialTheme.typography.bodySmall)}
