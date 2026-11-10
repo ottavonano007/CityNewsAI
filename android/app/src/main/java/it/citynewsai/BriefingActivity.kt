@@ -126,9 +126,12 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
      TextButton(onClick=refresh,colors=ButtonDefaults.textButtonColors(contentColor=MaterialTheme.colorScheme.primary)){Text("RIPROVA")}
     }
    }
-   if(!loading&&error.isBlank()&&articles.isEmpty())item{Card(Modifier.fillMaxWidth()){
-    Column(Modifier.padding(16.dp)){Text("Nessuna notizia trovata nel periodo selezionato.",fontWeight=FontWeight.SemiBold);Spacer(Modifier.height(6.dp));Text("I feed disponibili potrebbero non essere aggiornati oppure non contenere notizie per questo intervallo. Prova ad ampliare il periodo.",style=MaterialTheme.typography.bodySmall)}
-   }}
+   if(!loading&&error.isBlank()&&articles.isEmpty())item{
+    Column(Modifier.fillMaxWidth().padding(vertical=22.dp)){
+     Text("Nessuna notizia trovata nel periodo selezionato.",fontWeight=FontWeight.SemiBold)
+     Spacer(Modifier.height(6.dp));Text("I feed disponibili potrebbero non essere aggiornati oppure non contenere notizie per questo intervallo. Prova ad ampliare il periodo.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+   }
    if(!loading&&error.isBlank()&&articles.isNotEmpty()&&filteredArticles.isEmpty())item {
     Column(Modifier.fillMaxWidth().padding(vertical=22.dp)) {
      Text("Nessun risultato",fontWeight=FontWeight.SemiBold)
