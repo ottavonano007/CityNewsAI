@@ -16,6 +16,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -28,12 +30,13 @@ class BriefingActivity : ComponentActivity() {
   super.onCreate(savedInstanceState)
   val province=Province(intent.getStringExtra("province_name")?:"Provincia",intent.getStringExtra("province_code")?:"",intent.getStringExtra("province_region")?:"")
   val period=intent.getStringExtra("period_id")?:"24h"
-  setContent { BriefingPage(province,period,onBack={finish()}) }
+  val themeMode=intent.getStringExtra("theme_mode")?:getSharedPreferences("citynews_preferences",MODE_PRIVATE).getString("theme_mode","system")?:"system"
+  setContent { BriefingPage(province,period,themeMode,onBack={finish()}) }
  }
 }
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun BriefingPage(province:Province,periodId:String,onBack:()->Unit) {
+private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBack:()->Unit) {
  val context=LocalContext.current
  val scope=rememberCoroutineScope()
  val labels=mapOf("24h" to "Ultime 24 ore","3d" to "Ultimi 3 giorni","7d" to "Ultima settimana","1m" to "Ultimo mese","6m" to "Ultimi 6 mesi","1y" to "Ultimo anno")
@@ -51,8 +54,17 @@ private fun BriefingPage(province:Province,periodId:String,onBack:()->Unit) {
   }
  }
  LaunchedEffect(province.code,periodId){refresh()}
+ val isDark=when(themeMode){"dark"->true;"light"->false;else->isSystemInDarkTheme()}
+ val colors=if(isDark) darkColorScheme(
+  primary=Color(0xFF8CC9E5),secondary=Color(0xFF9CCBD9),
+  background=Color(0xFF101A20),surface=Color(0xFF19262E)
+ ) else lightColorScheme(
+  primary=Color(0xFF174B68),secondary=Color(0xFF477D91),
+  background=Color(0xFFF3F6F8),surface=Color.White
+ )
  val sections=articles.groupBy{it.category}
- Scaffold(topBar={TopAppBar(
+ MaterialTheme(colorScheme=colors) {
+ Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
   title={Column{Text(province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
   actions={IconButton(onClick=refresh,enabled=!loading){Icon(Icons.Default.Refresh,contentDescription="Aggiorna rassegna")}}
@@ -92,5 +104,6 @@ private fun BriefingPage(province:Province,periodId:String,onBack:()->Unit) {
     Spacer(Modifier.height(20.dp))
    }
   }
+ }
  }
 }
