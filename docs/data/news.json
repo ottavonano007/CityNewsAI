@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T08:59:37.753070+00:00",
+  "generated_at": "2026-11-10T10:00:14.261469+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Provincia di Como, non comunica le generalità degli ospiti e mancano le dotazioni di sicurezza: 11mila euro di multa",
+      "url": "https://comozero.it/attualita/provincia-di-como-non-comunica-le-generalita-degli-ospiti-e-mancano-le-dotazioni-di-sicurezza-11mila-euro-di-multa",
+      "summary": "Si intensificano i controlli della Compagnia Carabinieri di Como sulle strutture ricettive dei comuni rivieraschi del Lario. Nell’ambito di questa attività, i Carabinieri della Stazione Carabinieri di Pognana Lario hanno denunciato, in stato di libertà, il titolare di un’attività del settore per omessa comunicazione all’Autorità di Pubblica Sicurezza delle generalità degli ospiti. Le verifiche hanno […] L'articolo Provincia di Como, non comunica le generalità degli ospiti e mancano le dotazioni di sicurezza: 11mila euro di multa proviene da ComoZero .",
+      "published_at": "2026-11-10T09:29:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La società comasca è “Campione della Crescita” 2027",
+      "url": "https://comozero.it/attualita/la-societa-comasca-e-campione-della-crescita-2027",
+      "summary": "Centottantasette posizioni guadagnate in un anno: La Mercurio, società di consulenza ingegneristica di Como, passa dal 221° al 34° posto nella classifica nazionale Campioni della Crescita 2027. Un avanzamento che porta la società anche al primo posto nella categoria Servizi generali. Un risultato che la colloca tra le 329 aziende italiane selezionate dall’Istituto Tedesco Qualità […] L'articolo La società comasca è “Campione della Crescita” 2027 proviene da ComoZero .",
+      "published_at": "2026-11-10T09:21:39+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il lungolago di Como non finisce mai di imbruttire: “E quei blocchi di cemento messì lì…”",
+      "url": "https://comozero.it/punti-di-vista/il-lungolago-di-como-non-finisce-mai-di-imbruttire-ora-pure-i-blocchi-di-cemento-messi-li",
+      "summary": "Nel tormentatissimo, lunghissimo e costosissimo iter per arrivare finalmente al lungolago di Como completo e in veste definitiva si aggiunge un nuovo piccolo capitolo. Il tema è quello delle protezioni, in attesa dei parapetti definitivi che la città ancora attende dopo la bocciatura del primo prototipo. Di seguito la segnalazione (per lettere, foto e video […] L'articolo Il lungolago di Como non finisce mai di imbruttire: “E quei blocchi di cemento messì lì…” proviene da ComoZero .",
+      "published_at": "2026-11-10T09:12:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth",
       "url": "https://primacomo.it/attualita/un-nuovo-spettacolo-per-sostenere-la-mensa-di-solidarieta-di-casa-nazareth",
@@ -282,20 +324,6 @@
       ]
     },
     {
-      "title": "Urtata da un furgone mentre attraversa la strada, grave un’anziana",
-      "url": "https://www.piacenzasera.it/2026/11/urtata-da-un-furgone-mentre-attraversa-la-strada-grave-unanziana/669671",
-      "summary": "L'incidente in via Poggi a Piacenza nella tarda mattinata del 9 novembre The post Urtata da un furgone mentre attraversa la strada, grave un’anziana appeared first on piacenzasera.it .",
-      "published_at": "2026-11-09T16:54:30+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como",
       "url": "https://www.ciaocomo.it/2026/11/09/villa-deste-inaugura-la-sua-quinta-stagione-invernale-sul-lago-di-como/347616",
       "summary": "Esperienze gastronomiche, appuntamenti musicali e tradizioni natalizie si intrecciano in un programma pensato per vivere il Lago di Como nella sua stagione più suggestiva. The post Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como appeared first on CiaoComo .",
@@ -340,20 +368,6 @@
       ]
     },
     {
-      "title": "La grande stagione invernale di Villa d’Este è partita: GreenHouse, benessere, Thanksgiving, jazz e un grande Natale",
-      "url": "https://comozero.it/attualita/la-grande-stagione-invernale-di-villa-deste-e-partita-greenhouse-benessere-thanksgiving-jazz-e-un-grande-natale",
-      "summary": "Ieri, 8 novembre, Villa d’Este ha inaugurato la sua quinta stagione invernale, confermando una visione che negli anni ha contribuito a trasformare il Lago di Como in una destinazione da vivere tutto l’anno. Dopo essere stata tra le prime realtà del territorio a credere nel potenziale dei mesi autunnali e invernali, Villa d’Este torna ad […] L'articolo La grande stagione invernale di Villa d’Este è partita: GreenHouse, benessere, Thanksgiving, jazz e un grande Natale proviene da ComoZero .",
-      "published_at": "2026-11-09T15:39:09+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "L’Elmore Quartet al Tempio Voltiano: Beethoven e Ravel per un viaggio tra musica e scienza",
       "url": "https://www.ciaocomo.it/2026/11/09/lelmore-quartet-al-tempio-voltiano-beethoven-e-ravel-per-un-viaggio-tra-musica-e-scienza/347550",
       "summary": "Mercoledì 11 novembre il quartetto britannico protagonista della rassegna “Musica e Energia nel segno di Volta”. Un concerto a ingresso gratuito che anticipa le celebrazioni del bicentenario della morte dello scienziato comasco The post L’Elmore Quartet al Tempio Voltiano: Beethoven e Ravel per un viaggio tra musica e scienza appeared first on CiaoComo .",
@@ -365,20 +379,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Lombardia, da oggi c’è una nuova strada a scorrimento veloce che rivoluziona tutto e salva il piccolo comune",
-      "url": "https://comozero.it/attualita/lombardia-da-oggi-ce-una-nuova-strada-a-scorrimento-veloce-che-rivoluziona-tutto-e-salva-il-piccolo-comune",
-      "summary": "Inaugurato il tratto mancante della ‘Cassanese Moderna’, la strada a scorrimento veloce che collega in modo diretto l’area della Martesana, le autostrade Bre.Be.Mi e Tangenziale Esterna con la Tangenziale Est di Milano. L’opera, realizzata nei territori di Segrate e Pioltello, rappresenta un intervento strategico per decongestionare il quadrante orientale della Città metropolitana. La nuova arteria, […] L'articolo Lombardia, da oggi c’è una nuova strada a scorrimento veloce che rivoluziona tutto e salva il piccolo comune proviene da ComoZero .",
-      "published_at": "2026-11-09T14:30:49+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
       ]
     },
     {
@@ -402,20 +402,6 @@
       "published_at": "2026-11-09T13:57:11+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Al Valduce e a Villa Beretta le 320 antenne per una copertura totale del segnale e nuove frontiere nella cura",
-      "url": "https://comozero.it/sanita/al-valduce-e-a-villa-beretta-le-320-antenne-per-una-copertura-totale-del-segnale-e-nuove-frontiere-nella-cura",
-      "summary": "Presentati oggi all’Ospedale Valduce di Como i nuovi servizi di copertura ad alta capacità per voce e dati indoor (DAS – Distributed Antenna System) attivati presso la struttura sanitaria. Al centro dell’incontro la realizzazione del nuovo sistema DAS (Distributed Antenna System) di INWIT per la copertura mobile multi-operatore e l’integrazione tra sensoristica indossabile – ovvero […] L'articolo Al Valduce e a Villa Beretta le 320 antenne per una copertura totale del segnale e nuove frontiere nella cura proviene da ComoZero .",
-      "published_at": "2026-11-09T13:33:43+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
