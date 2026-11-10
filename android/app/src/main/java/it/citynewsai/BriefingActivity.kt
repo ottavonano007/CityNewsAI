@@ -20,147 +20,77 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
+import java.text.SimpleDateFormat
+import java.util.Locale
 
 class BriefingActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        val province = Province(
-            intent.getStringExtra("province_name") ?: "Provincia",
-            intent.getStringExtra("province_code") ?: "",
-            intent.getStringExtra("province_region") ?: ""
-        )
-        val period = intent.getStringExtra("period_id") ?: "24h"
-        setContent { BriefingPage(province, period, onBack = { finish() }) }
-    }
+ override fun onCreate(savedInstanceState: Bundle?) {
+  super.onCreate(savedInstanceState)
+  val province=Province(intent.getStringExtra("province_name")?:"Provincia",intent.getStringExtra("province_code")?:"",intent.getStringExtra("province_region")?:"")
+  val period=intent.getStringExtra("period_id")?:"24h"
+  setContent { BriefingPage(province,period,onBack={finish()}) }
+ }
 }
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun BriefingPage(province: Province, periodId: String, onBack: () -> Unit) {
-    val context = LocalContext.current
-    val scope = rememberCoroutineScope()
-    val labels = mapOf(
-        "24h" to "Ultime 24 ore",
-        "3d" to "Ultimi 3 giorni",
-        "7d" to "Ultima settimana",
-        "1m" to "Ultimo mese",
-        "6m" to "Ultimi 6 mesi",
-        "1y" to "Ultimo anno"
-    )
-    var text by remember { mutableStateOf("") }
-    var sources by remember { mutableStateOf(emptyList<BriefingSource>()) }
-    var loading by remember { mutableStateOf(true) }
-    var error by remember { mutableStateOf("") }
-    var updatedAt by remember { mutableStateOf("") }
-
-    val refresh: () -> Unit = {
-        scope.launch {
-            loading = true
-            error = ""
-            text = ""
-            sources = emptyList()
-            try {
-                val result = fetchAiBriefing(province, periodId)
-                text = result.text
-                sources = result.sources
-                updatedAt = result.generatedAt
-            } catch (e: Exception) {
-                error = e.message ?: "Impossibile generare la rassegna."
-            } finally {
-                loading = false
-            }
-        }
+private fun BriefingPage(province:Province,periodId:String,onBack:()->Unit) {
+ val context=LocalContext.current
+ val scope=rememberCoroutineScope()
+ val labels=mapOf("24h" to "Ultime 24 ore","3d" to "Ultimi 3 giorni","7d" to "Ultima settimana","1m" to "Ultimo mese","6m" to "Ultimi 6 mesi","1y" to "Ultimo anno")
+ var articles by remember { mutableStateOf(emptyList<BriefingArticle>()) }
+ var loading by remember { mutableStateOf(true) }
+ var error by remember { mutableStateOf("") }
+ var updatedAt by remember { mutableStateOf("") }
+ var feedsRead by remember { mutableIntStateOf(0) }
+ val refresh:()->Unit={
+  scope.launch {
+   loading=true;error=""
+   try { val result=fetchFreeBriefing(province,periodId);articles=result.articles;updatedAt=result.generatedAt;feedsRead=result.feedsRead }
+   catch(e:Exception){error=e.message?:"Impossibile aggiornare la rassegna."}
+   finally{loading=false}
+  }
+ }
+ LaunchedEffect(province.code,periodId){refresh()}
+ val sections=articles.groupBy{it.category}
+ Scaffold(topBar={TopAppBar(
+  navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
+  title={Column{Text(province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
+  actions={IconButton(onClick=refresh,enabled=!loading){Icon(Icons.Default.Refresh,contentDescription="Aggiorna rassegna")}}
+ )}){padding->
+  LazyColumn(Modifier.fillMaxSize().padding(padding).padding(horizontal=16.dp),verticalArrangement=Arrangement.spacedBy(10.dp)){
+   item{Spacer(Modifier.height(2.dp))}
+   if(loading)item{Card(Modifier.fillMaxWidth()){Row(Modifier.padding(18.dp),verticalAlignment=Alignment.CenterVertically){
+    CircularProgressIndicator(Modifier.size(26.dp),strokeWidth=3.dp);Spacer(Modifier.width(14.dp))
+    Column{Text("Sto raccogliendo le notizie…",fontWeight=FontWeight.SemiBold);Text("Consultazione delle fonti disponibili.",style=MaterialTheme.typography.bodySmall)}
+   }}}
+   if(error.isNotBlank())item{Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.errorContainer),modifier=Modifier.fillMaxWidth()){
+    Column(Modifier.padding(16.dp)){Text("Rassegna non disponibile",fontWeight=FontWeight.Bold);Spacer(Modifier.height(6.dp));Text(error);TextButton(onClick=refresh){Text("RIPROVA")}}
+   }}
+   if(!loading&&error.isBlank()&&articles.isEmpty())item{Card(Modifier.fillMaxWidth()){
+    Column(Modifier.padding(16.dp)){Text("Nessuna notizia trovata nel periodo selezionato.",fontWeight=FontWeight.SemiBold);Spacer(Modifier.height(6.dp));Text("I feed disponibili potrebbero non essere aggiornati oppure non contenere notizie per questo intervallo. Prova ad ampliare il periodo.",style=MaterialTheme.typography.bodySmall)}
+   }}
+   sections.forEach{(category,categoryArticles)->
+    item(key="heading_"+category){Text(category,style=MaterialTheme.typography.titleSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)}
+    items(categoryArticles,key={it.url}){article->
+     Card(Modifier.fillMaxWidth().clickable{runCatching{context.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse(article.url)))}}){
+      Column(Modifier.padding(14.dp),verticalArrangement=Arrangement.spacedBy(6.dp)){
+       Text(article.title,style=MaterialTheme.typography.titleMedium,fontWeight=FontWeight.SemiBold)
+       if(article.summary.isNotBlank())Text(article.summary,style=MaterialTheme.typography.bodyMedium)
+       Row(verticalAlignment=Alignment.CenterVertically){
+        Text(article.source,style=MaterialTheme.typography.labelMedium,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.SemiBold)
+        if(article.corroborationCount>1)Text("  •  "+article.corroborationCount+" fonti",style=MaterialTheme.typography.labelSmall)
+       }
+       Text(SimpleDateFormat("dd/MM/yyyy HH:mm",Locale.ITALY).format(article.publishedAt),style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+       Text("APRI ARTICOLO  ›",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)
+      }
+     }
     }
-    LaunchedEffect(province.code, periodId) { refresh() }
-
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Torna alla selezione")
-                    }
-                },
-                title = {
-                    Column {
-                        Text(province.name, fontWeight = FontWeight.Bold)
-                        Text("Rassegna AI • " + (labels[periodId] ?: labels.getValue("24h")),
-                            style = MaterialTheme.typography.labelSmall)
-                    }
-                },
-                actions = {
-                    IconButton(onClick = refresh, enabled = !loading) {
-                        Icon(Icons.Default.Refresh, contentDescription = "Aggiorna rassegna")
-                    }
-                }
-            )
-        }
-    ) { padding ->
-        LazyColumn(
-            modifier = Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
-        ) {
-            item { Spacer(Modifier.height(2.dp)) }
-            if (loading) {
-                item {
-                    Card(Modifier.fillMaxWidth()) {
-                        Row(Modifier.padding(18.dp), verticalAlignment = Alignment.CenterVertically) {
-                            CircularProgressIndicator(Modifier.size(28.dp), strokeWidth = 3.dp)
-                            Spacer(Modifier.width(14.dp))
-                            Column {
-                                Text("Sto preparando la rassegna…", fontWeight = FontWeight.SemiBold)
-                                Text("Ricerca delle fonti e verifica delle notizie.", style = MaterialTheme.typography.bodySmall)
-                            }
-                        }
-                    }
-                }
-            }
-            if (error.isNotBlank()) {
-                item {
-                    Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer),
-                        modifier = Modifier.fillMaxWidth()) {
-                        Column(Modifier.padding(16.dp)) {
-                            Text("Rassegna non disponibile", fontWeight = FontWeight.Bold)
-                            Spacer(Modifier.height(6.dp))
-                            Text(error)
-                            TextButton(onClick = refresh) { Text("RIPROVA") }
-                        }
-                    }
-                }
-            }
-            if (text.isNotBlank()) {
-                item {
-                    Card(Modifier.fillMaxWidth()) {
-                        Column(Modifier.padding(16.dp)) {
-                            Text("LE NOTIZIE PRINCIPALI", style = MaterialTheme.typography.labelMedium,
-                                color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
-                            Spacer(Modifier.height(10.dp))
-                            Text(text, style = MaterialTheme.typography.bodyLarge)
-                        }
-                    }
-                }
-                item {
-                    Text("Fonti e approfondimenti", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                }
-                items(sources) { source ->
-                    Card(Modifier.fillMaxWidth().clickable {
-                        runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(source.url))) }
-                    }) {
-                        Column(Modifier.padding(14.dp)) {
-                            Text(source.title, fontWeight = FontWeight.SemiBold)
-                            Text(source.url, style = MaterialTheme.typography.labelSmall,
-                                color = MaterialTheme.colorScheme.primary)
-                        }
-                    }
-                }
-                item {
-                    Text("Aggiornata: " + updatedAt.take(16).replace("T", " ") + " UTC",
-                        style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    Text("Le fonti sono riportate per consentire la verifica. Consulta sempre gli articoli originali: una rassegna AI non può garantire l'assenza assoluta di errori.",
-                        style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    Spacer(Modifier.height(20.dp))
-                }
-            }
-        }
-    }
+   }
+   if(articles.isNotEmpty())item{
+    Text("Aggiornata: "+updatedAt+" • Feed con risultati: "+feedsRead,style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+    Text("Rassegna automatica basata su feed e fonti pubbliche. Le notizie non sono verificate da una redazione: apri gli articoli originali per controllare i dettagli.",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+    Spacer(Modifier.height(20.dp))
+   }
+  }
+ }
 }
