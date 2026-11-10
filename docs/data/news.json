@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-10T10:00:14.261469+00:00",
+  "generated_at": "2026-11-10T10:58:05.275913+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Al Jolly 2 la proiezione del docufilm Arandora Star, con la giovane attrice piacentina Martina Fanfani",
+      "url": "https://www.piacenzasera.it/2026/11/al-jolly-2-la-proiezione-del-docufilm-arandora-star-con-la-giovane-attrice-piacentina-martina-fanfani/669713",
+      "summary": "L’evento si terrà sabato 17 novembre 2026 alle ore 21, nel disastro dell'Arandora Star del 1940 morirono 20 piacentini The post Al Jolly 2 la proiezione del docufilm Arandora Star, con la giovane attrice piacentina Martina Fanfani appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T10:25:34+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Lavoro, clima ed economia sociale: il 16 l’incontro Pd con Vincenzo Colla",
+      "url": "https://www.piacenzasera.it/2026/11/lavoro-clima-ed-economia-sociale-il-16-lincontro-pd-con-vincenzo-colla/669705",
+      "summary": "Il Partito Democratico provinciale e cittadino di Piacenza promuove per lunedì 16 novembre, alle ore 21, presso l'ex chiesetta della Cooperativa Il Germoglio The post Lavoro, clima ed economia sociale: il 16 l’incontro Pd con Vincenzo Colla appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T10:15:07+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale",
+      "url": "https://primacomo.it/altro/addio-a-luigi-capiaghi-presidente-della-cooperativa-intesa-sociale",
+      "summary": "Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale di Bizzarone. Addio a Luigi Capiaghi E’ venuto a mancare a 76 anni nel pomeriggio di ieri, lunedì 9 novembre, a causa dell’aggravarsi di alcuni problemi di salute. E’ stato vicesindaco del Comune di Bizzarone dal 1975 al 1978; sindaco dall’agosto 1978 fino al 20 aprile […] Continua la lettura di Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale sul portale Prima Como .",
+      "published_at": "2026-11-10T10:08:54+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, ennesimo colpo di scena: stop al taglio dei ciliegi di via XX Settembre. La lettera",
+      "url": "https://comozero.it/attualita/como-ennesimo-colpo-di-scena-stop-al-taglio-dei-ciliegi-di-via-xx-settembre-la-lettera",
+      "summary": "Nuovo colpo di scena nel braccio di ferro tra il Comitato per i ciliegi di via XX Settembre e il sindaco di Como, Alessandro Rapinese, che li vuole abbattere (“li sego” nello specifico, la sua ultima dichiarazione pubblica). E’ il Comitato (composto da Teresa Minniti, Giorgia Merlini e Sergio Gaddi) a far sapere le novità: […] L'articolo Como, ennesimo colpo di scena: stop al taglio dei ciliegi di via XX Settembre. La lettera proviene da ComoZero .",
+      "published_at": "2026-11-10T10:08:02+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Provincia di Como, non comunica le generalità degli ospiti e mancano le dotazioni di sicurezza: 11mila euro di multa",
       "url": "https://comozero.it/attualita/provincia-di-como-non-comunica-le-generalita-degli-ospiti-e-mancano-le-dotazioni-di-sicurezza-11mila-euro-di-multa",
@@ -338,9 +394,9 @@
       ]
     },
     {
-      "title": "Ospedale Valduce, 240 antenne per migliorare la copertura telefonica: presentata la nuova rete digitale",
+      "title": "Valduce, 240 antenne per migliorare la copertura telefonica: presentata dal sottosegretario Butti la nuova rete digitale",
       "url": "https://www.ciaocomo.it/2026/11/09/ospedale-valduce-240-antenne-per-migliorare-la-copertura-telefonica-presentata-la-nuova-rete-digitale/347607",
-      "summary": "La tecnologia di INWIT supera le difficoltà di connessione all'interno della struttura e apre la strada all'utilizzo di sensori e intelligenza artificiale. Intervento anche a Villa Beretta: coinvolti complessivamente sei ospedali tra Como e Lecco The post Ospedale Valduce, 240 antenne per migliorare la copertura telefonica: presentata la nuova rete digitale appeared first on CiaoComo .",
+      "summary": "La tecnologia di INWIT supera le difficoltà di connessione all'interno della struttura e apre la strada all'utilizzo di sensori e intelligenza artificiale. Intervento anche a Villa Beretta: coinvolti complessivamente sei ospedali tra Como e Lecco The post Valduce, 240 antenne per migliorare la copertura telefonica: presentata dal sottosegretario Butti la nuova rete digitale appeared first on CiaoComo .",
       "published_at": "2026-11-09T16:00:40+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -351,34 +407,6 @@
       "territory_codes": [
         "CO",
         "LC"
-      ]
-    },
-    {
-      "title": "Ospedale di Menaggio dopo il piano regionale l’esultanza è bipartisan",
-      "url": "https://comozero.it/attualita/ospedale-di-menaggio-dopo-il-piano-regionale-lesultanza-e-bipartisan",
-      "summary": "Poche ore fa la notizia: Ospedale di Menaggio, arriva il progetto per salvarlo: Pronto soccorso ad Areu e rete con sei grandi strutture. E inevitabili arrivano le reazioni politiche: Anna Dotti, consigliere regionale FdI «Il rafforzamento dell’Ospedale Erba-Renaldi di Menaggio rappresenta un risultato importante per tutto il territorio del Medio e Alto Lago di Como. […] L'articolo Ospedale di Menaggio dopo il piano regionale l’esultanza è bipartisan proviene da ComoZero .",
-      "published_at": "2026-11-09T15:48:27+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "L’Elmore Quartet al Tempio Voltiano: Beethoven e Ravel per un viaggio tra musica e scienza",
-      "url": "https://www.ciaocomo.it/2026/11/09/lelmore-quartet-al-tempio-voltiano-beethoven-e-ravel-per-un-viaggio-tra-musica-e-scienza/347550",
-      "summary": "Mercoledì 11 novembre il quartetto britannico protagonista della rassegna “Musica e Energia nel segno di Volta”. Un concerto a ingresso gratuito che anticipa le celebrazioni del bicentenario della morte dello scienziato comasco The post L’Elmore Quartet al Tempio Voltiano: Beethoven e Ravel per un viaggio tra musica e scienza appeared first on CiaoComo .",
-      "published_at": "2026-11-09T15:30:35+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -628,20 +656,6 @@
       "url": "https://primacomo.it/sport/carattere-unipol-vittoria-a-giulianova",
       "summary": "Terza vittoria di fila su altrettante gare dall’inizio della stagione: la Unipol Briantea84 Cantù ha vinto a Giulianova contro la Deco Amicacci Abruzzo 46 a 81. Nel pomeriggio del PalaCastrum sono i padroni di casa ad iniziare meglio e ritrovarsi dopo 5’ sul +7 (15-8). Un time-out chiamato da coach Gomez ha cambiato i successivi […] Continua la lettura di Carattere Unipol, vittoria a Giulianova sul portale Prima Como .",
       "published_at": "2026-11-08T08:07:44+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La segnaletica si rifà il look, previste anche nuove asfaltature",
-      "url": "https://primacomo.it/cronaca/la-segnaletica-si-rifa-il-look-previste-anche-nuove-asfaltature",
-      "summary": "Ad Asso interventi alla segnaletica stradale. Previsti anche lavori di asfaltatura. Lavori in paese Con un primo intervento realizzato a inizio mese e con i lavori completati lo scorso fine settimana l’Amministrazione ha provveduto al ripristino della segnaletica stradale in diverse zone del centro storico e nelle aree limitrofe. Sono stati eseguiti intervenuti in punti […] Continua la lettura di La segnaletica si rifà il look, previste anche nuove asfaltature sul portale Prima Como .",
-      "published_at": "2026-11-07T16:00:24+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
