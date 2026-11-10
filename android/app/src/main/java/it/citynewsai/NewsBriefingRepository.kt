@@ -22,7 +22,7 @@ private val regionalNewsDomains = mapOf(
  "Valle d'Aosta" to listOf("aostasera.it", "aostacronaca.it"),
  "Lombardia" to listOf("ilgiorno.it", "giornaledibrescia.it", "ecodibergamo.it", "varesenews.it", "cremonaoggi.it"),
  "Trentino-Alto Adige" to listOf("altoadige.it", "giornaletrentino.it"),
- "Veneto" to listOf("ilgazzettino.it", "larena.it", "mattinopadova.it", "ilgornaledivicenza.it", "tribunatreviso.it", "nuovavenezia.it", "corrierealpi.it", "lavoce-nuova.it"),
+ "Veneto" to listOf("ilgazzettino.it", "larena.it", "mattinopadova.it", "ilgiornaledivicenza.it", "tribunatreviso.it", "nuovavenezia.it", "corrierealpi.it", "lavoce-nuova.it"),
  "Friuli-Venezia Giulia" to listOf("messaggeroveneto.it", "ilpiccolo.it", "pordenoneoggi.it"),
  "Liguria" to listOf("ilsecoloxix.it", "genova24.it", "ivg.it"),
  "Emilia-Romagna" to listOf("ilrestodelcarlino.it", "gazzettadiparma.it", "gazzettadimodena.it", "gazzettadireggio.it", "liberta.it", "ravennanotizie.it", "corriereromagna.it"),
