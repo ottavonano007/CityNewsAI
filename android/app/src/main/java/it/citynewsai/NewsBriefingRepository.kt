@@ -183,14 +183,49 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
   return out
  }finally{c.disconnect()}
 }
+
+private fun titleTokens(article:BriefingArticle):Set<String> =
+ article.title.lowercase(Locale.ITALY).replace(Regex("[^\\p{L}\\p{N}]+")," ")
+  .split(Regex("\\s+")).filter{it.length>2}.toSet()
+
+private fun sameNewsEvent(a:BriefingArticle,b:BriefingArticle):Boolean {
+ val first=titleTokens(a);val second=titleTokens(b)
+ if(first.isEmpty()||second.isEmpty())return false
+ val overlap=first.intersect(second).size.toDouble()/first.union(second).size.toDouble()
+ return overlap>=0.62
+}
+
+private fun articleDetailScore(article:BriefingArticle):Int {
+ val summary=article.summary.trim()
+ val title=article.title.trim()
+ val detailWords=summary.split(Regex("\\s+")).count{it.length>3}
+ val sentenceCount=summary.count{it=='.'||it=='!'||it=='?'}
+ return (summary.length.coerceAtMost(2400)*2)+
+  (detailWords.coerceAtMost(180)*8)+(sentenceCount.coerceAtMost(8)*35)+
+  title.length.coerceAtMost(180)
+}
+
 internal suspend fun fetchFreeBriefing(province:Province,periodId:String):BriefingResult=withContext(Dispatchers.IO){
  val feeds=feedSpecs(province,periodId);val all=mutableListOf<BriefingArticle>();var read=0
  feeds.forEach{try{val items=parseFeed(it);if(items.isNotEmpty())read++;all+=items}catch(_:Exception){}}
  val now=System.currentTimeMillis()
  val cutoff=periodStartMillis(periodId,now)
  val filtered=all.filter{it.publishedAt.time in cutoff..now}
- val articles=filtered.groupBy{it.title.lowercase(Locale.ITALY).replace(Regex("[^a-z0-9]+")," ").trim()}.map{(_,copies)->
-  val best=copies.maxByOrNull{it.summary.length}!!;best.copy(corroborationCount=copies.map{it.source}.distinct().size)
- }.sortedWith(compareBy<BriefingArticle>{rank(it.category)}.thenByDescending{it.publishedAt.time}).take(60)
+ val remaining=filtered.sortedByDescending{articleDetailScore(it)}
+ val merged=mutableListOf<BriefingArticle>()
+ val consumed=BooleanArray(remaining.size)
+ for(i in remaining.indices){
+  if(consumed[i]) continue
+  val group=mutableListOf(remaining[i]);consumed[i]=true
+  for(j in i+1 until remaining.size){
+   if(consumed[j]) continue
+   val candidate=remaining[j]
+   if(kotlin.math.abs(group.first().publishedAt.time-candidate.publishedAt.time)>36L*60L*60L*1000L) continue
+   if(group.any{sameNewsEvent(it,candidate)}){group+=candidate;consumed[j]=true}
+  }
+  val best=group.maxByOrNull{articleDetailScore(it)}!!
+  merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size)
+ }
+ val articles=merged.sortedWith(compareBy<BriefingArticle>{rank(it.category)}.thenByDescending{it.publishedAt.time}).take(60)
  BriefingResult(articles,SimpleDateFormat("yyyy-MM-dd HH:mm",Locale.ITALY).format(Date()),read)
 }
