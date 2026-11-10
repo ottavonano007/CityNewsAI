@@ -163,7 +163,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
       Spacer(Modifier.height(10.dp))
       Text("LEGGI L'ARTICOLO  ›",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)
      }
-     item(key="separator_"+article.url){HorizontalDivider(color=MaterialTheme.colorScheme.outlineVariant,thickness=0.7.dp)}
+     HorizontalDivider(color=MaterialTheme.colorScheme.outlineVariant,thickness=0.7.dp)
     }
    }
    if(articles.isNotEmpty())item{
