@@ -508,7 +508,10 @@ private fun CityNewsApp() {
                                         Text(favorite.name, fontWeight = FontWeight.SemiBold)
                                         Text("${favorite.region} • ${favorite.code}", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                                     }
-                                    TextButton(onClick = { saveFavoriteCodes(favoriteCodes - favorite.code) }) {
+                                    TextButton(
+                            onClick = { saveFavoriteCodes(favoriteCodes - favorite.code) },
+                            colors = TextButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                        ) {
                                         Icon(Icons.Default.Delete, contentDescription = "Rimuovi ${favorite.name}")
                                         Text(" Rimuovi")
                                     }
@@ -598,6 +601,7 @@ private fun CityNewsApp() {
                 }
                 Spacer(Modifier.height(8.dp))
                 OutlinedButton(
+                    colors = OutlinedButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.primary),
                     onClick = {
                         if (selectedProvince.code in favoriteCodes) {
                             saveFavoriteCodes(favoriteCodes - selectedProvince.code)
@@ -639,7 +643,10 @@ private fun CityNewsApp() {
                             )
                         }
                         if (startupMode == "location") {
-                            TextButton(enabled = !locationBusy, onClick = { scope.launch { applyDetectedProvince() } }) {
+                            TextButton(
+                                enabled = !locationBusy, onClick = { scope.launch { applyDetectedProvince() } },
+                                colors = TextButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                            ) {
                                 Icon(Icons.Default.MyLocation, contentDescription = null)
                                 Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
                             }
@@ -660,6 +667,10 @@ private fun CityNewsApp() {
                             style = MaterialTheme.typography.bodyMedium
                         )
                         Button(
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = MaterialTheme.colorScheme.primary,
+                                contentColor = MaterialTheme.colorScheme.onPrimary
+                            ),
                             onClick = {
                                 val briefingIntent = Intent(context, BriefingActivity::class.java).apply {
                                     putExtra("province_name", selectedProvince.name)
@@ -732,7 +743,10 @@ private fun SettingsPage(
                         FilterChip(selected = startupMode == "preferred", onClick = { onStartupModeChange("preferred") }, label = { Text("Provincia preferita") })
                         FilterChip(selected = startupMode == "location", onClick = { onStartupModeChange("location"); onDetectLocation() }, label = { Text("La mia posizione") }, leadingIcon = { Icon(Icons.Default.MyLocation, contentDescription = null) })
                     }
-                    if (startupMode == "location") TextButton(enabled = !locationBusy, onClick = onDetectLocation) {
+                    if (startupMode == "location") TextButton(
+                        enabled = !locationBusy, onClick = onDetectLocation,
+                        colors = TextButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                    ) {
                         Icon(Icons.Default.MyLocation, contentDescription = null)
                         Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
                     }
