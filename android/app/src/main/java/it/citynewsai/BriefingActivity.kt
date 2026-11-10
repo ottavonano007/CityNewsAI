@@ -12,6 +12,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -45,6 +46,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBa
  var error by remember { mutableStateOf("") }
  var updatedAt by remember { mutableStateOf("") }
  var feedsRead by remember { mutableIntStateOf(0) }
+ var keywordQuery by remember { mutableStateOf("") }
  val refresh:()->Unit={
   scope.launch {
    loading=true;error=""
@@ -62,7 +64,14 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBa
   primary=Color(0xFF174B68),secondary=Color(0xFF477D91),
   background=Color(0xFFF3F6F8),surface=Color.White
  )
- val sections=articles.groupBy{it.category}
+ val filteredArticles=remember(articles,keywordQuery) {
+  val terms=keywordQuery.trim().lowercase(Locale.ITALY).split(Regex("\\s+")).filter{it.isNotBlank()}
+  if(terms.isEmpty()) articles else articles.filter { article ->
+   val searchable=listOf(article.title,article.summary,article.source,article.category).joinToString(" ").lowercase(Locale.ITALY)
+   terms.all { searchable.contains(it) }
+  }
+ }
+ val sections=filteredArticles.groupBy{it.category}
  MaterialTheme(colorScheme=colors) {
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
@@ -71,6 +80,28 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBa
  )}){padding->
   LazyColumn(Modifier.fillMaxSize().padding(padding).padding(horizontal=16.dp),verticalArrangement=Arrangement.spacedBy(10.dp)){
    item{Spacer(Modifier.height(2.dp))}
+   item {
+    OutlinedTextField(
+     value=keywordQuery,
+     onValueChange={keywordQuery=it},
+     modifier=Modifier.fillMaxWidth(),
+     label={Text("CERCA PAROLE CHIAVE")},
+     placeholder={Text("Es. viabilità, scuola, comune…")},
+     singleLine=true,
+     trailingIcon={
+      if(keywordQuery.isNotEmpty()) IconButton(onClick={keywordQuery=""}) {
+       Icon(Icons.Default.Close,contentDescription="Cancella ricerca")
+      }
+     }
+    )
+   }
+   if(keywordQuery.isNotBlank()&&!loading&&error.isBlank())item {
+    Text(
+     if(filteredArticles.isEmpty()) "Nessuna notizia corrisponde alla ricerca." else "Risultati: ${filteredArticles.size} notizie",
+     style=MaterialTheme.typography.labelMedium,
+     color=MaterialTheme.colorScheme.onSurfaceVariant
+    )
+   }
    if(loading)item{Card(Modifier.fillMaxWidth()){Row(Modifier.padding(18.dp),verticalAlignment=Alignment.CenterVertically){
     CircularProgressIndicator(Modifier.size(26.dp),strokeWidth=3.dp);Spacer(Modifier.width(14.dp))
     Column{Text("Sto raccogliendo le notizie…",fontWeight=FontWeight.SemiBold);Text("Consultazione delle fonti disponibili.",style=MaterialTheme.typography.bodySmall)}
@@ -81,6 +112,14 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,onBa
    if(!loading&&error.isBlank()&&articles.isEmpty())item{Card(Modifier.fillMaxWidth()){
     Column(Modifier.padding(16.dp)){Text("Nessuna notizia trovata nel periodo selezionato.",fontWeight=FontWeight.SemiBold);Spacer(Modifier.height(6.dp));Text("I feed disponibili potrebbero non essere aggiornati oppure non contenere notizie per questo intervallo. Prova ad ampliare il periodo.",style=MaterialTheme.typography.bodySmall)}
    }}
+   if(!loading&&error.isBlank()&&articles.isNotEmpty()&&filteredArticles.isEmpty())item {
+    Card(Modifier.fillMaxWidth()) {
+     Column(Modifier.padding(16.dp)) {
+      Text("Nessun risultato",fontWeight=FontWeight.SemiBold)
+      Text("Prova con un'altra parola chiave oppure cancella la ricerca.",style=MaterialTheme.typography.bodySmall)
+     }
+    }
+   }
    sections.forEach{(category,categoryArticles)->
     item(key="heading_"+category){Text(category,style=MaterialTheme.typography.titleSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)}
     items(categoryArticles,key={it.url}){article->
