@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T15:55:52.380876+00:00",
+  "generated_at": "2026-11-10T16:58:58.056565+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 0,
-      "inserted": 0,
+      "parsed": 1,
+      "inserted": 1,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, la rinascita del Gloria è più vicina: “Raccolti 28mila euro, ecco i nuovi eventi in programma”(E grandissimo bis con la sonada per Guccini)",
+      "url": "https://comozero.it/attualita/como-la-rinascita-del-gloria-e-piu-vicina-raccolti-28mila-euro-ecco-i-nuovi-eventi-in-programmae-grandissimo-bis-con-la-sonada-per-guccini",
+      "summary": "Come raccontavamo nei giorni scorsi, il Circolo Arci Xandù di via Varesina è stato chiuso dal Comune per mancanza del certificato antincendio come accertato dai Vigili del Fuoco. Situazione a cui aveva fatto seguito una chiara nota dei gestori: “Speriamo di sistemare entro fine anno o si rischia lo stop definitivo”. Un succedersi di eventi coronato dall’intervento […] L'articolo Como, la rinascita del Gloria è più vicina: “Raccolti 28mila euro, ecco i nuovi eventi in programma”(E grandissimo bis con la sonada per Guccini) proviene da ComoZero .",
+      "published_at": "2026-11-10T16:40:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Gerry Scotti premiato e il ricordo della giovinezza: “I sogni, Milano e quella casa popolare di viale Zara”",
+      "url": "https://comozero.it/attualita/gerri-scotti-premiato-e-il-ricordo-della-giovinezza-i-sogni-milano-e-quella-casa-popolare-di-viale-zara",
+      "summary": "GerriyScotti ha ricevuto oggi al Teatro alla Scala di Milano dal presidente Attilio Fontana la Rosa Camuna, la più alta onorificenza attribuita dalla Regione Lombardia. Nel suo discorso dal palco il popolarissimo presentatore tv ha ricordato episodi della sua giovinezza. “La Rosa Camuna – ha detto Jerri Scotti – per me è un simbolo molto […] L'articolo Gerry Scotti premiato e il ricordo della giovinezza: “I sogni, Milano e quella casa popolare di viale Zara” proviene da ComoZero .",
+      "published_at": "2026-11-10T16:15:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Giovedì al Teatro Municipale la presentazione della Guida Michelin: si svelano le nuove Stelle",
+      "url": "https://www.piacenzasera.it/2026/11/giovedi-al-teatro-municipale-la-presentazione-della-guida-michelin-si-svelano-le-nuove-stelle/669788",
+      "summary": "A Piacenza il lancio ufficiale della 72a edizione della versione italiana della celebre Guida, alla presenza di chef e operatori del settore The post Giovedì al Teatro Municipale la presentazione della Guida Michelin: si svelano le nuove Stelle appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T16:09:41+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Meteo a Como e provincia: giovedì pioggia intensa poi il freddo nel fine settimana",
       "url": "https://comozero.it/attualita/meteo-a-como-giovedi-pioggia-intensa-poi-il-freddo-nel-fine-settimana",
@@ -268,40 +310,12 @@
       ]
     },
     {
-      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
-      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
-      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
-      "published_at": "2026-11-10T09:08:18+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth",
       "url": "https://primacomo.it/attualita/un-nuovo-spettacolo-per-sostenere-la-mensa-di-solidarieta-di-casa-nazareth",
       "summary": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth è in programma per sabato 14 novembre. Ingresso a offerta libera Appuntamento alle 21 nella chiesa del Gesù in via Primo Tatti 14 a Como: protagonista sarà il Gruppo Mandolinistico Eliante di Mendrisio (nella foto), realtà nata nel 1982 da un gruppo di […] Continua la lettura di Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth sul portale Prima Como .",
       "published_at": "2026-11-10T08:56:37+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Moda, gusto e l’accensione delle luci di Natale: l’evento a Villa Flori con Cristina Parodi e Daniela Palazzi",
-      "url": "https://comozero.it/attualita/moda-gusto-e-laccensione-delle-luci-di-natale-levento-a-villa-flori-con-cristina-parodi-e-daniela-palazzi",
-      "summary": "Villa Flori celebra l’arrivo della stagione natalizia con Christmas Fashion Night, in programma sabato 28 novembre, a partire dalle ore 19:00. Un appuntamento che unisce moda, gusto e musica nella cornice della storica dimora affacciata sul Lago di Como. Realizzata in collaborazione con Giorgia Jenca, ideatrice del progetto Il Fascino della Moda sul Lago di […] L'articolo Moda, gusto e l’accensione delle luci di Natale: l’evento a Villa Flori con Cristina Parodi e Daniela Palazzi proviene da ComoZero .",
-      "published_at": "2026-11-10T08:35:11+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
