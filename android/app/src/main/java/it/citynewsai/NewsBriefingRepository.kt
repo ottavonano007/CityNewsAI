@@ -90,8 +90,8 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  val after=" after:"+SimpleDateFormat("yyyy-MM-dd",Locale.ROOT).format(Date(periodStartMillis(period)))
  val aliases=provincialSearchAliases[p.code].orEmpty()
  val terms=(listOf(p.name,"provincia di "+p.name)+aliases).distinct()
- val territory="("+terms.joinToString(" OR "){"\\\""+it+"\\\"" }+")"
- val region="\\\""+p.region+"\\\""
+ val territory="("+terms.joinToString(" OR "){"\""+it+"\"" }+")"
+ val region="\""+p.region+"\""
  val feeds=mutableListOf<FeedSpec>()
 
  // Ricerca generale: provincia e regione, senza dipendere da una singola testata.
