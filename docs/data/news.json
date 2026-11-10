@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T17:53:37.113203+00:00",
+  "generated_at": "2026-11-10T19:00:22.145806+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 1,
-      "inserted": 1,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
@@ -28,6 +28,48 @@
   ],
   "articles": [
     {
+      "title": "COMO CANTA e incanta: al Cinema Astra il pubblico diventa un grande coro per solidarietà",
+      "url": "https://www.ciaocomo.it/2026/11/10/como-canta-e-incanta-al-cinema-astra-il-pubblico-diventa-un-grande-coro-per-solidarieta/347645",
+      "summary": "Venerdì 13 novembre la prima esperienza comasca di Instant Choir, organizzata da Breva70. Nessuna preparazione musicale richiesta: ogni partecipante potrà cantare sotto la guida di una direttrice professionista, sostenendo un progetto dedicato alle persone con autismo e patologie neurodegenerative The post COMO CANTA e incanta: al Cinema Astra il pubblico diventa un grande coro per solidarietà appeared first on CiaoComo .",
+      "published_at": "2026-11-10T18:30:46+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lago di Como, paura in valle per il nuovo impianto e il Comitato stronca duro: “No al tavolo inutile. Opera deleteria, noi non facciamo da scudo”",
+      "url": "https://comozero.it/attualita/lago-di-como-paura-in-valle-per-il-nuovo-impianto-e-il-comitato-stronca-duro-no-al-tavolo-inutile-opera-deleteria-noi-non-facciamo-da-scudo",
+      "summary": "Da tempo raccontiamo i timori in Val d’Intelvi per l’ipotizzato impianto di betonaggio a Castiglione necessario per il cantiere della Variante della Tremezzina. Il comitato Intelvi Radar si oppone fermamente alla realizzazione, pur non contestando la Variante, e solleva numerosi dubbi, in primis sui rischi per la salute: qui tutte le cronache. Tra gli sviluppi […] L'articolo Lago di Como, paura in valle per il nuovo impianto e il Comitato stronca duro: “No al tavolo inutile. Opera deleteria, noi non facciamo da scudo” proviene da ComoZero .",
+      "published_at": "2026-11-10T17:56:52+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Nuovo Codice della Strada, anche Piacenza firma l’appello “Penalizza le città, va riscritto”",
+      "url": "https://www.piacenzasera.it/2026/11/nuovo-codice-della-strada-anche-piacenza-firma-lappello-penalizza-le-citta-va-riscritto/669818",
+      "summary": "L'assessora alla mobilità Adriana Fantini è tra i firmatari del documento sottoscritto da altri 26 capoluoghi di provincia, con il quale si chiede una \"profonda riscrittura\" della riforma governativa The post Nuovo Codice della Strada, anche Piacenza firma l’appello “Penalizza le città, va riscritto” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T17:34:44+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
       "title": "“Tante cazzate e niente da insegnare ma questa vita è stata maestra”, nel nuovo libro le mille esistenze di Beppe Guin. E quella ‘profezia’ sul Lago così vera e triste",
       "url": "https://comozero.it/cultura-e-spettacolo/tante-cazzate-e-niente-da-insegnare-ma-questa-vita-e-stata-maestra-nel-nuovo-libro-le-mille-esistenze-di-beppe-guin-e-quella-profezia-sul-lago-cosi-vera-e-triste",
       "summary": "“Visto che non arriverà un altro Giuseppe Guin a raccontare la mia vita, allora l’ho fatto da solo”. Non c’è neppure bisogno di chiedere allo scrittore e giornalista comasco Giuseppe Guin perché abbia deciso di scrivere questa sorta di autobiografia per racconti, il suo nuovo libro “La vita maestra” (Dominioni Editore), in uscita il 13 […] L'articolo “Tante cazzate e niente da insegnare ma questa vita è stata maestra”, nel nuovo libro le mille esistenze di Beppe Guin. E quella ‘profezia’ sul Lago così vera e triste proviene da ComoZero .",
@@ -42,10 +84,10 @@
       ]
     },
     {
-      "title": "COMO CANTA e incanta: al Cinema Astra il pubblico diventa un grande coro per solidarietà",
-      "url": "https://www.ciaocomo.it/2026/11/10/como-canta-e-incanta-al-cinema-astra-il-pubblico-diventa-un-grande-coro-per-solidarieta/347645",
-      "summary": "Venerdì 13 novembre la prima esperienza comasca di Instant Choir, organizzata da Breva70. Nessuna preparazione musicale richiesta: ogni partecipante potrà cantare sotto la guida di una direttrice professionista, sostenendo un progetto dedicato alle persone con autismo e patologie neurodegenerative The post COMO CANTA e incanta: al Cinema Astra il pubblico diventa un grande coro per solidarietà appeared first on CiaoComo .",
-      "published_at": "2026-11-10T17:00:46+00:00",
+      "title": "Tributi, concerti ed omaggi, tutti i live nei club",
+      "url": "https://www.ciaocomo.it/2026/11/10/tributi-concerti-ed-omaggi-tutti-i-live-nei-club/347514",
+      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Tributi, concerti ed omaggi, tutti i live nei club appeared first on CiaoComo .",
+      "published_at": "2026-11-10T17:00:50+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
@@ -126,6 +168,20 @@
       ]
     },
     {
+      "title": "Birney vine il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia",
+      "url": "https://primacomo.it/attualita/birney-vine-il-premio-lombardia-e-ricerca-e-porta-lintelligenza-artificiale-in-lombardia",
+      "summary": "Un’intelligenza artificiale in grado di riconoscere prima dei sintomi chi rischia l’aterosclerosi coronarica verrà sviluppata in Lombardia, grazie a Ewan Birney, direttore dell’European Bioinformatics Institute dell’EMBL e vincitore del Premio internazionale Lombardia è Ricerca 2026, che collaborerà con il Centro Cardiologico Monzino Irccs e con Human Technopole. L’annuncio è arrivato al Teatro alla Scala di […] Continua la lettura di Birney vine il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia sul portale Prima Como .",
+      "published_at": "2026-11-10T15:37:23+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Turismo a Como, a Spallino risponde Michelini: “La crisi abitativa non nasce con Airbnb. Il commercio di lusso ha espulso i ceti popolari”",
       "url": "https://comozero.it/punti-di-vista/turismo-a-como-a-spallino-risponde-michelini-la-crisi-abitativa-non-nasce-con-airbnb-il-commercio-di-lusso-ha-espulso-i-ceti-popolari",
       "summary": "Ieri abbiamo pubblicato un’ampia e articolata riflessione dell’ex assessore all’Urbanistica (giunta Lucini) l’avvocato Lorenzo Spallino: Como 2046: città per residenti o per turisti? I cinque pezzi (non facili) di Lorenzo Spallino. Parole cui risponde Luca Michelini, docente di Storia del pensiero economico all’Università di Pisa, comasco da sempre attento dalle dinamiche cittadine. Ecco quanto scrive: […] L'articolo Turismo a Como, a Spallino risponde Michelini: “La crisi abitativa non nasce con Airbnb. Il commercio di lusso ha espulso i ceti popolari” proviene da ComoZero .",
@@ -139,20 +195,6 @@
       "territory_codes": [
         "CO",
         "PI"
-      ]
-    },
-    {
-      "title": "Tributi, concerti ed omaggi, tutti i live nei club",
-      "url": "https://www.ciaocomo.it/2026/11/10/tributi-concerti-ed-omaggi-tutti-i-live-nei-club/347514",
-      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Tributi, concerti ed omaggi, tutti i live nei club appeared first on CiaoComo .",
-      "published_at": "2026-11-10T14:00:50+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -286,20 +328,6 @@
       "url": "https://comozero.it/attualita/provincia-di-como-non-comunica-le-generalita-degli-ospiti-e-mancano-le-dotazioni-di-sicurezza-11mila-euro-di-multa",
       "summary": "Si intensificano i controlli della Compagnia Carabinieri di Como sulle strutture ricettive dei comuni rivieraschi del Lario. Nell’ambito di questa attività, i Carabinieri della Stazione Carabinieri di Pognana Lario hanno denunciato, in stato di libertà, il titolare di un’attività del settore per omessa comunicazione all’Autorità di Pubblica Sicurezza delle generalità degli ospiti. Le verifiche hanno […] L'articolo Provincia di Como, non comunica le generalità degli ospiti e mancano le dotazioni di sicurezza: 11mila euro di multa proviene da ComoZero .",
       "published_at": "2026-11-10T09:31:30+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange",
-      "url": "https://comozero.it/pubbliredazionale/ragazze-alla-pari-lavoro-retribuito-tirocini-le-occasioni-per-imparare-le-lingue-in-tutta-europa-con-sunflower-exchange",
-      "summary": "Con l’arrivo dell’autunno e l’inizio del nuovo anno scolastico e lavorativo, cresce la voglia di pianificare le prossime tappe per il proprio futuro. Ed è proprio in questo momento che la storica agenzia comasca di intermediazione linguistica e scuola di lingue Sunflower Exchange, forte della sua esperienza ormai quasi trentennale, amplia le sue proposte rivolte […] L'articolo Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange proviene da ComoZero .",
-      "published_at": "2026-11-10T09:29:54+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -598,20 +626,6 @@
       "url": "https://primacomo.it/cultura/stefano-panzeri-in-scena-al-medioevo-con-terra-matta",
       "summary": "Stefano Panzeri a Olgiate Comasco col suo spettacolo “Terra Matta”. “Terra Matta”, in scena al Medioevo Oggi, domenica 8 novembre, alle 16, l’auditorium del centro congressi Medioevo ospita “Terra Matta (1899–1918)”, narrazione teatrale di Stefano Panzeri, organizzata dall’Università degli Adulti di Olgiate Comasco e dall’assessorato alla Cultura del Comune di Olgiate Comasco. Ingresso libero. Una […] Continua la lettura di Stefano Panzeri in scena al Medioevo con “Terra Matta” sul portale Prima Como .",
       "published_at": "2026-11-08T14:00:32+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "All’hospice entra Teodoro: i malati curati con le coccole di un cane",
-      "url": "https://primacomo.it/attualita/allhospice-entra-teodoro-i-malati-curati-con-le-coccole-di-un-cane",
-      "summary": "A guidare l’annata 2026/2027 del club erbese è la presidente Angela Ciceri, che ha scelto di mettere anima, cuore e fondi in interventi assistiti con gli animali Stabilire un legame con l’animale: scambio di emozioni e sentimenti Il progetto “Un’impronta nel cuore” ha preso il via questo giovedì, 5 novembre, all’hospice Il Gelso di Casa […] Continua la lettura di All’hospice entra Teodoro: i malati curati con le coccole di un cane sul portale Prima Como .",
-      "published_at": "2026-11-08T11:00:25+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
