@@ -4,8 +4,8 @@
     <application
         android:allowBackup="true"
         android:label="City News AI"
-        android:icon="@drawable/citynewsai_icon"
-        android:roundIcon="@drawable/citynewsai_icon"
+        android:icon="@drawable/citynewsai_launcher"
+        android:roundIcon="@drawable/citynewsai_launcher"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
         <activity android:name=".BriefingActivity" android:exported="false" />
