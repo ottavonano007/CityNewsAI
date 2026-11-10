@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T11:56:29.786850+00:00",
+  "generated_at": "2026-11-10T13:10:27.318617+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 10,
-      "inserted": 10,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "“Futuri possibili”, in Cattolica la facoltà di Scienze della Formazione si confronta con gli studenti",
+      "url": "https://www.piacenzasera.it/2026/11/futuri-possibili-in-cattolica-la-facolta-di-scienze-della-formazione-si-confronta-con-gli-studenti/669746",
+      "summary": "Presentate le richerche condotte tra gli studenti delle scuole superiori di Piacenza The post “Futuri possibili”, in Cattolica la facoltà di Scienze della Formazione si confronta con gli studenti appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T12:20:17+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Tentò di speronare i carabinieri con l’auto rubata, identificato il responsabile: ha 19 anni",
       "url": "https://www.piacenzasera.it/2026/11/tento-di-speronare-i-carabinieri-con-lauto-rubata-identificato-il-responsabile-ha-19-anni/669739",
@@ -70,6 +84,34 @@
       ]
     },
     {
+      "title": "Il lungolago di Como non finisce mai di imbruttire: “E quei blocchi di cemento messì lì…”",
+      "url": "https://comozero.it/punti-di-vista/il-lungolago-di-como-non-finisce-mai-di-imbruttire-ora-pure-i-blocchi-di-cemento-messi-li",
+      "summary": "Nel tormentatissimo, lunghissimo e costosissimo iter per arrivare finalmente al lungolago di Como completo e in veste definitiva si aggiunge un nuovo piccolo capitolo. Il tema è quello delle protezioni, in attesa dei parapetti definitivi che la città ancora attende dopo la bocciatura del primo prototipo. Di seguito la segnalazione (per lettere, foto e video […] L'articolo Il lungolago di Como non finisce mai di imbruttire: “E quei blocchi di cemento messì lì…” proviene da ComoZero .",
+      "published_at": "2026-11-10T11:12:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Incidente in provincia di Como, schianto contro la recinzione di una casa",
+      "url": "https://comozero.it/attualita/incidente-in-provincia-di-como-schianto-contro-la-recinzione-di-una-casa",
+      "summary": "Intervento di soccorso tecnico urgente nella mattinata di oggi, intorno alle 10:30, a Guanzate. I soccorsi sono scattati a seguito di un incidente stradale avvenuto lungo via Sanzio. Per cause ancora in corso di accertamento, un’autovettura è rimasta coinvolta in un incidente autonomo: non si registrano infatti altri veicoli impattati. Sul posto sono prontamente intervenuti […] L'articolo Incidente in provincia di Como, schianto contro la recinzione di una casa proviene da ComoZero .",
+      "published_at": "2026-11-10T11:10:49+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Como, danneggia un’auto in sosta per recuperare degli effetti personali: non era vero",
       "url": "https://comozero.it/attualita/como-danneggia-unauto-in-sosta-per-recuperare-degli-effetti-personali-non-era-vero",
       "summary": "La Polizia di Stato di Como ha arrestato un uomo 37enne, italiano con numerosi precedenti di Polizia per reati inerenti gli stupefacenti e reati contro la persona, ritenuto responsabile di detenzione di sostanze stupefacenti ai fini di spaccio. Intorno alle ore 20 di ieri, gli agenti della Squadra Volanti della Questura di Como sono intervenuti […] L'articolo Como, danneggia un’auto in sosta per recuperare degli effetti personali: non era vero proviene da ComoZero .",
@@ -84,9 +126,9 @@
       ]
     },
     {
-      "title": "Sfreccia ad alta velocità e svolta nella stradina: i finanzieri la inseguono e vedono che il giovane che butta via tutto",
+      "title": "Sfreccia ad alta velocità e svolta nella stradina: i finanzieri la inseguono e vedono che il giovane butta via tutto",
       "url": "https://comozero.it/attualita/sfreccia-ad-alta-velocita-e-svolta-nella-stradina-i-finanzieri-la-inseguono-e-vedono-che-il-giovane-che-butta-via-tutto",
-      "summary": "Nei giorni scorsi, i finanzieri del Comando Provinciale di Como hanno intensificato i controlli antidroga nel territorio del Lario Intelvese. Durante le operazioni, i militari della Compagnia di Menaggio hanno notato un’auto che sfrecciava a forte velocità e svoltava in una strada secondaria, decidendo di seguirla fino al suo arresto. Dal veicolo sono scesi cinque […] L'articolo Sfreccia ad alta velocità e svolta nella stradina: i finanzieri la inseguono e vedono che il giovane che butta via tutto proviene da ComoZero .",
+      "summary": "Nei giorni scorsi, i finanzieri del Comando Provinciale di Como hanno intensificato i controlli antidroga nel territorio del Lario Intelvese. Durante le operazioni, i militari della Compagnia di Menaggio hanno notato un’auto che sfrecciava a forte velocità e svoltava in una strada secondaria, decidendo di seguirla fino al suo arresto. Dal veicolo sono scesi cinque […] L'articolo Sfreccia ad alta velocità e svolta nella stradina: i finanzieri la inseguono e vedono che il giovane butta via tutto proviene da ComoZero .",
       "published_at": "2026-11-10T11:05:49+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -116,20 +158,6 @@
       "url": "https://www.piacenzasera.it/2026/11/al-jolly-2-la-proiezione-del-docufilm-arandora-star-con-la-giovane-attrice-piacentina-martina-fanfani/669713",
       "summary": "L’evento si terrà sabato 17 novembre 2026 alle ore 21, nel disastro dell'Arandora Star del 1940 morirono 20 piacentini The post Al Jolly 2 la proiezione del docufilm Arandora Star, con la giovane attrice piacentina Martina Fanfani appeared first on piacenzasera.it .",
       "published_at": "2026-11-10T10:25:34+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Lavoro, clima ed economia sociale: il 16 l’incontro Pd con Vincenzo Colla",
-      "url": "https://www.piacenzasera.it/2026/11/lavoro-clima-ed-economia-sociale-il-16-lincontro-pd-con-vincenzo-colla/669705",
-      "summary": "Il Partito Democratico provinciale e cittadino di Piacenza promuove per lunedì 16 novembre, alle ore 21, presso l'ex chiesetta della Cooperativa Il Germoglio The post Lavoro, clima ed economia sociale: il 16 l’incontro Pd con Vincenzo Colla appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T10:15:07+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -171,7 +199,21 @@
       "title": "Provincia di Como, non comunica le generalità degli ospiti e mancano le dotazioni di sicurezza: 11mila euro di multa",
       "url": "https://comozero.it/attualita/provincia-di-como-non-comunica-le-generalita-degli-ospiti-e-mancano-le-dotazioni-di-sicurezza-11mila-euro-di-multa",
       "summary": "Si intensificano i controlli della Compagnia Carabinieri di Como sulle strutture ricettive dei comuni rivieraschi del Lario. Nell’ambito di questa attività, i Carabinieri della Stazione Carabinieri di Pognana Lario hanno denunciato, in stato di libertà, il titolare di un’attività del settore per omessa comunicazione all’Autorità di Pubblica Sicurezza delle generalità degli ospiti. Le verifiche hanno […] L'articolo Provincia di Como, non comunica le generalità degli ospiti e mancano le dotazioni di sicurezza: 11mila euro di multa proviene da ComoZero .",
-      "published_at": "2026-11-10T09:29:30+00:00",
+      "published_at": "2026-11-10T09:31:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange",
+      "url": "https://comozero.it/pubbliredazionale/ragazze-alla-pari-lavoro-retribuito-tirocini-le-occasioni-per-imparare-le-lingue-in-tutta-europa-con-sunflower-exchange",
+      "summary": "Con l’arrivo dell’autunno e l’inizio del nuovo anno scolastico e lavorativo, cresce la voglia di pianificare le prossime tappe per il proprio futuro. Ed è proprio in questo momento che la storica agenzia comasca di intermediazione linguistica e scuola di lingue Sunflower Exchange, forte della sua esperienza ormai quasi trentennale, amplia le sue proposte rivolte […] L'articolo Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange proviene da ComoZero .",
+      "published_at": "2026-11-10T09:29:54+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -186,20 +228,6 @@
       "url": "https://comozero.it/attualita/la-societa-comasca-e-campione-della-crescita-2027",
       "summary": "Centottantasette posizioni guadagnate in un anno: La Mercurio, società di consulenza ingegneristica di Como, passa dal 221° al 34° posto nella classifica nazionale Campioni della Crescita 2027. Un avanzamento che porta la società anche al primo posto nella categoria Servizi generali. Un risultato che la colloca tra le 329 aziende italiane selezionate dall’Istituto Tedesco Qualità […] L'articolo La società comasca è “Campione della Crescita” 2027 proviene da ComoZero .",
       "published_at": "2026-11-10T09:21:39+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il lungolago di Como non finisce mai di imbruttire: “E quei blocchi di cemento messì lì…”",
-      "url": "https://comozero.it/punti-di-vista/il-lungolago-di-como-non-finisce-mai-di-imbruttire-ora-pure-i-blocchi-di-cemento-messi-li",
-      "summary": "Nel tormentatissimo, lunghissimo e costosissimo iter per arrivare finalmente al lungolago di Como completo e in veste definitiva si aggiunge un nuovo piccolo capitolo. Il tema è quello delle protezioni, in attesa dei parapetti definitivi che la città ancora attende dopo la bocciatura del primo prototipo. Di seguito la segnalazione (per lettere, foto e video […] L'articolo Il lungolago di Como non finisce mai di imbruttire: “E quei blocchi di cemento messì lì…” proviene da ComoZero .",
-      "published_at": "2026-11-10T09:12:44+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -280,6 +308,20 @@
       ]
     },
     {
+      "title": "Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan",
+      "url": "https://comozero.it/pubbliredazionale/pubbli-con-clerici-auto-il-colosso-cinese-dellauto-arriva-a-como-design-italiano-e-tecnologia-la-sfida-di-changan",
+      "summary": "Il panorama automobilistico italiano si arricchisce di un nuovo ed entusiasmante capitolo con l’arrivo ufficiale, sul mercato nazionale, di Changan, colosso globale dell’auto che ha fatto ufficialmente il suo ingresso sul mercato nazionale all’inizio del 2026. A raccogliere la sfida e a guidare questa novità sul territorio comasco e lombardo è Clerici Auto, storica realtà […] L'articolo Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan proviene da ComoZero .",
+      "published_at": "2026-11-10T08:25:04+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Ex SS 583 “Lariana”: conclusi i lavori di asfaltatura da 700mila euro",
       "url": "https://primacomo.it/attualita/ex-ss-583-lariana-conclusi-i-lavori-di-asfaltatura-da-700mila-euro",
       "summary": "Si sono conclusi i lavori di asfaltatura lungo la ex SS 583 “Lariana”, avviati lo scorso 12 ottobre e realizzati dalla Provincia di Como nei Comuni di Blevio, Torno, Faggeto Lario, Pognana Lario, Nesso e Lezzeno. Gli interventi hanno interessato diversi tratti della viabilità provinciale, per uno sviluppo complessivo di circa 4 chilometri, con un […] Continua la lettura di Ex SS 583 “Lariana”: conclusi i lavori di asfaltatura da 700mila euro sul portale Prima Como .",
@@ -328,48 +370,6 @@
       "published_at": "2026-11-10T07:12:05+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Le ville del Lago di Como nelle stampe del calendario 2027 di Sentiero dei Sogni",
-      "url": "https://www.ciaocomo.it/2026/11/10/le-ville-del-lago-di-como-nelle-stampe-del-calendario-2027-di-sentiero-dei-sogni/347637",
-      "summary": "Questa sera ka presentazione della quinta edizione del calendario da il via alla campagna associativa 2027 The post Le ville del Lago di Como nelle stampe del calendario 2027 di Sentiero dei Sogni appeared first on CiaoComo .",
-      "published_at": "2026-11-10T07:00:43+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A Como c’è un grandissimo cantastorie del cinema: Albanese esplora il genio di Sorogoyen",
-      "url": "https://comozero.it/cultura-e-spettacolo/a-como-ce-un-grandissimo-cantastorie-del-cinema-albanese-esplora-il-genio-di-sorogoyen",
-      "summary": "Dai film come “Il Regno” e “As bestas” alle serie “Antidisturbios” e “Dieci Capodanni”: Marco Albanese dedica un saggio al regista madrileno, ricostruendone il percorso artistico e la grammatica cinematografica. Il volume esce ovviamente per Stanze di Cinema nella collana dedicata ai grandi autori contemporanei Il conflitto come motore delle storie, ma soprattutto come strumento […] L'articolo A Como c’è un grandissimo cantastorie del cinema: Albanese esplora il genio di Sorogoyen proviene da ComoZero .",
-      "published_at": "2026-11-09T23:40:24+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como 2046: città per residenti o per turisti? I cinque pezzi (non facili) di Lorenzo Spallino",
-      "url": "https://comozero.it/punti-di-vista/como-2046-citta-per-residenti-o-per-turisti-i-cinque-pezzi-non-facili-di-lorenzo-spallino",
-      "summary": "[Foto di Copertina: Lorenzo Spallino. E ci perdoni, ovunque si trovi, il gigante Feynman per il mezzo furto del titolo] Che città sarà Como tra vent’anni? Una città ancora coi suoi residenti o sempre più orientata a soddisfare le esigenze di chi la visita? Sono le (giuste) domande da cui parte Lorenzo Spallino, ex assessore […] L'articolo Como 2046: città per residenti o per turisti? I cinque pezzi (non facili) di Lorenzo Spallino proviene da ComoZero .",
-      "published_at": "2026-11-09T19:00:57+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
