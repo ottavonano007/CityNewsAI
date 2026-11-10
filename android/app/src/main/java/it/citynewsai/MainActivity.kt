@@ -23,6 +23,9 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.MyLocation
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.*
@@ -281,6 +284,7 @@ private const val PREFS_NAME = "citynews_preferences"
 private const val KEY_PREFERRED_PROVINCE = "preferred_province"
 private const val KEY_STARTUP_MODE = "startup_mode"
 private const val KEY_THEME = "theme_mode"
+private const val KEY_FAVORITE_PROVINCES = "favorite_provinces"
 
 private suspend fun detectProvince(context: Context): Province? {
     val client = LocationServices.getFusedLocationProviderClient(context)
@@ -346,6 +350,13 @@ private fun CityNewsApp() {
     var newsLoading by remember { mutableStateOf(false) }
     var newsError by remember { mutableStateOf("") }
     var selectedNewsPeriod by remember { mutableStateOf("24h") }
+    var favoriteCodes by remember { mutableStateOf(prefs.getStringSet(KEY_FAVORITE_PROVINCES, emptySet())?.toSet() ?: emptySet()) }
+    var showFavorites by remember { mutableStateOf(false) }
+
+    fun saveFavoriteCodes(codes: Set<String>) {
+        favoriteCodes = codes.toSet()
+        prefs.edit().putStringSet(KEY_FAVORITE_PROVINCES, favoriteCodes).apply()
+    }
 
     val refreshNews: suspend () -> Unit = {
         newsLoading = true
@@ -434,6 +445,44 @@ private fun CityNewsApp() {
         ) { padding ->
             Column(Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp)) {
                 Spacer(Modifier.height(14.dp))
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    FilterChip(selected = !showFavorites, onClick = { showFavorites = false }, label = { Text("Province") })
+                    FilterChip(
+                        selected = showFavorites,
+                        onClick = { showFavorites = true },
+                        label = { Text("Preferiti (${favoriteCodes.size}/10)") },
+                        leadingIcon = { Icon(Icons.Default.Favorite, contentDescription = null) }
+                    )
+                }
+                if (showFavorites) {
+                    Text("Le tue città preferite", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                    Text("Puoi salvare fino a 10 province e riaprire rapidamente la relativa rassegna.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Spacer(Modifier.height(8.dp))
+                    if (favoriteCodes.isEmpty()) {
+                        Card(Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
+                            Text("Non hai ancora salvato città. Torna a Province e usa il pulsante Aggiungi ai preferiti.", Modifier.padding(16.dp))
+                        }
+                    } else {
+                        italianProvinces.filter { it.code in favoriteCodes }.forEach { favorite ->
+                            Card(Modifier.fillMaxWidth().clickable {
+                                selectedProvince = favorite
+                                showFavorites = false
+                            }, colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
+                                Row(Modifier.fillMaxWidth().padding(start = 14.dp, end = 6.dp, top = 8.dp, bottom = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                                    Column(Modifier.weight(1f)) {
+                                        Text(favorite.name, fontWeight = FontWeight.SemiBold)
+                                        Text("${favorite.region} • ${favorite.code}", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                    }
+                                    TextButton(onClick = { saveFavoriteCodes(favoriteCodes - favorite.code) }) {
+                                        Icon(Icons.Default.Delete, contentDescription = "Rimuovi ${favorite.name}")
+                                        Text(" Rimuovi")
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    Spacer(Modifier.height(12.dp))
+                } else {
                 Text("Seleziona la provincia", style = MaterialTheme.typography.labelLarge)
                 Spacer(Modifier.height(6.dp))
                 ExposedDropdownMenuBox(
@@ -485,7 +534,23 @@ private fun CityNewsApp() {
                     }
                 }
 
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(8.dp))
+                OutlinedButton(
+                    onClick = {
+                        if (selectedProvince.code in favoriteCodes) {
+                            saveFavoriteCodes(favoriteCodes - selectedProvince.code)
+                        } else if (favoriteCodes.size < 10) {
+                            saveFavoriteCodes(favoriteCodes + selectedProvince.code)
+                        } else {
+                            scope.launch { snackbarHostState.showSnackbar("Hai già raggiunto il limite di 10 città preferite. Rimuovine una per aggiungerne un'altra.") }
+                        }
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Icon(if (selectedProvince.code in favoriteCodes) Icons.Default.Favorite else Icons.Default.FavoriteBorder, contentDescription = null)
+                    Text(if (selectedProvince.code in favoriteCodes) "  RIMUOVI DAI PREFERITI" else "  AGGIUNGI AI PREFERITI")
+                }
+                Spacer(Modifier.height(8.dp))
                 Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface), modifier = Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(7.dp)) {
                         Text("Avvio dell'app", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
@@ -582,6 +647,7 @@ private fun CityNewsApp() {
                     }
                 }
                 Spacer(Modifier.height(12.dp))
+                }
             }
         }
     }
