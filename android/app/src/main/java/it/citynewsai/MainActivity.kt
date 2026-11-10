@@ -422,19 +422,13 @@ private fun CityNewsApp() {
                     title = {
                         Column {
                             Text("City News AI", fontWeight = FontWeight.Bold)
-                            Text("Notizie locali, vicino a te", style = MaterialTheme.typography.labelSmall)
+                            Text("Rassegna locale gratuita", style = MaterialTheme.typography.labelSmall)
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = MaterialTheme.colorScheme.surface,
                         titleContentColor = MaterialTheme.colorScheme.onSurface
                     ),
-                    actions = {
-                        TextButton(enabled = !newsLoading, onClick = { scope.launch { refreshNews() } }) {
-                            Icon(Icons.Default.Refresh, contentDescription = "Aggiorna")
-                            Text(if (newsLoading) " Aggiorno…" else " Aggiorna")
-                        }
-                    }
                 )
             }
         ) { padding ->
@@ -573,10 +567,10 @@ private fun CityNewsApp() {
                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
                 ) {
                     Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text("Rassegna giornalistica AI", fontWeight = FontWeight.Bold,
+                        Text("Rassegna automatica intelligente", fontWeight = FontWeight.Bold,
                             style = MaterialTheme.typography.titleMedium)
                         Text(
-                            "Seleziona una provincia per avviare una ricerca web e ricevere un riepilogo delle notizie più importanti, raggruppate per argomento e corredate dalle fonti.",
+                            "Seleziona una provincia per consultare le notizie raccolte da Google News e dalle fonti locali disponibili. Troverai brevi riepiloghi, categorie, date e collegamenti agli articoli originali.",
                             style = MaterialTheme.typography.bodyMedium
                         )
                         Button(
