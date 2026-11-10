@@ -6,8 +6,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.clickable
-import androidx.compose.ui.draw.drawWithContent
-import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.gestures.detectDragGestures
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.input.pointer.consumeAllChanges
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.foundation.layout.*
@@ -27,6 +29,7 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import kotlin.math.roundToInt
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.delay
 import java.text.SimpleDateFormat
@@ -85,18 +88,8 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
   title={Column{Text(province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
   actions={IconButton(onClick=refresh,enabled=!loading){Icon(Icons.Default.Refresh,contentDescription="Aggiorna rassegna")}}
  )}){padding->
-  LazyColumn(state=listState,modifier=Modifier.fillMaxSize().padding(padding).padding(horizontal=16.dp).drawWithContent {
-   drawContent()
-   val total=listState.layoutInfo.totalItemsCount
-   val visible=listState.layoutInfo.visibleItemsInfo.size
-   if(showScrollThumb && total>visible && size.height>0f) {
-    val thumbHeight=(size.height*visible.toFloat()/total.toFloat()).coerceAtLeast(34.dp.toPx())
-    val maxScroll=(total-visible).coerceAtLeast(1)
-    val first=listState.firstVisibleItemIndex.coerceIn(0,maxScroll)
-    val top=(size.height-thumbHeight)*first.toFloat()/maxScroll.toFloat()
-    drawRoundRect(Color.Black.copy(alpha=0.38f),Offset(size.width-5.dp.toPx(),top),Size(3.dp.toPx(),thumbHeight),CornerRadius(4.dp.toPx()))
-   }
-  },verticalArrangement=Arrangement.spacedBy(15.dp)){
+  Box(Modifier.fillMaxSize().padding(padding)) {
+  LazyColumn(state=listState,modifier=Modifier.fillMaxSize().padding(horizontal=16.dp),verticalArrangement=Arrangement.spacedBy(15.dp)){
    item{Spacer(Modifier.height(2.dp))}
    item {
     OutlinedTextField(
@@ -160,6 +153,39 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
     Text("Rassegna automatica basata su feed e fonti pubbliche. Le notizie non sono verificate da una redazione: apri gli articoli originali per controllare i dettagli.",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
     Spacer(Modifier.height(20.dp))
    }
+  }
+  val totalItems=listState.layoutInfo.totalItemsCount
+  val visibleItems=listState.layoutInfo.visibleItemsInfo.size
+  if(showScrollThumb && totalItems>visibleItems && totalItems>0) {
+   Canvas(
+    modifier=Modifier.align(Alignment.CenterEnd).fillMaxHeight().width(32.dp)
+     .pointerInput(totalItems) {
+      var dragRemainder=0f
+      detectDragGestures { change, dragAmount ->
+       change.consumeAllChanges()
+       dragRemainder += dragAmount.y / size.height.coerceAtLeast(1).toFloat() * totalItems
+       val itemDelta=dragRemainder.toInt()
+       if(itemDelta!=0) {
+        dragRemainder-=itemDelta
+        val maxFirst=(totalItems-visibleItems).coerceAtLeast(0)
+        val target=(listState.firstVisibleItemIndex+itemDelta).coerceIn(0,maxFirst)
+        scope.launch { listState.scrollToItem(target) }
+       }
+      }
+     }
+   ) {
+    val thumbHeight=(size.height*visibleItems.toFloat()/totalItems.toFloat()).coerceAtLeast(72.dp.toPx()).coerceAtMost(size.height)
+    val maxFirst=(totalItems-visibleItems).coerceAtLeast(1)
+    val fraction=listState.firstVisibleItemIndex.coerceIn(0,maxFirst).toFloat()/maxFirst
+    val top=(size.height-thumbHeight)*fraction
+    drawRoundRect(
+     color=Color.Black.copy(alpha=0.42f),
+     topLeft=Offset(size.width-20.dp.toPx(),top),
+     size=Size(14.dp.toPx(),thumbHeight),
+     cornerRadius=androidx.compose.ui.geometry.CornerRadius(8.dp.toPx())
+    )
+   }
+  }
   }
  }
  }
