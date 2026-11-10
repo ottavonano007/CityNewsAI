@@ -28,6 +28,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import kotlin.math.roundToInt
 import kotlinx.coroutines.launch
@@ -90,7 +91,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
   actions={IconButton(onClick=refresh,enabled=!loading){Icon(Icons.Default.Refresh,contentDescription="Aggiorna rassegna")}}
  )}){padding->
   Box(Modifier.fillMaxSize().padding(padding)) {
-  LazyColumn(state=listState,modifier=Modifier.fillMaxSize().padding(horizontal=16.dp),verticalArrangement=Arrangement.spacedBy(15.dp)){
+  LazyColumn(state=listState,modifier=Modifier.fillMaxSize().padding(horizontal=16.dp),verticalArrangement=Arrangement.spacedBy(0.dp)){
    item{Spacer(Modifier.height(2.dp))}
    item {
     OutlinedTextField(
@@ -114,42 +115,52 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
      color=MaterialTheme.colorScheme.onSurfaceVariant
     )
    }
-   if(loading)item{Card(Modifier.fillMaxWidth()){Row(Modifier.padding(18.dp),verticalAlignment=Alignment.CenterVertically){
-    CircularProgressIndicator(Modifier.size(26.dp),strokeWidth=3.dp);Spacer(Modifier.width(14.dp))
-    Column{Text("Sto raccogliendo le notizie…",fontWeight=FontWeight.SemiBold);Text("Consultazione delle fonti disponibili.",style=MaterialTheme.typography.bodySmall)}
-   }}}
-   if(error.isNotBlank())item{Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.errorContainer),modifier=Modifier.fillMaxWidth()){
-    Column(Modifier.padding(16.dp)){Text("Rassegna non disponibile",fontWeight=FontWeight.Bold);Spacer(Modifier.height(6.dp));Text(error);TextButton(
-     onClick=refresh,
-     colors=ButtonDefaults.textButtonColors(contentColor=MaterialTheme.colorScheme.primary)
-    ){Text("RIPROVA")}}
+   if(loading)item{Row(Modifier.fillMaxWidth().padding(vertical=24.dp),verticalAlignment=Alignment.CenterVertically){
+    CircularProgressIndicator(Modifier.size(24.dp),strokeWidth=2.dp);Spacer(Modifier.width(14.dp))
+    Column{Text("Sto raccogliendo le notizie…",fontWeight=FontWeight.SemiBold);Text("Consultazione delle fonti disponibili.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)}
    }}
+   if(error.isNotBlank())item{
+    Column(Modifier.fillMaxWidth().padding(vertical=22.dp)){
+     Text("Rassegna non disponibile",fontWeight=FontWeight.Bold)
+     Spacer(Modifier.height(6.dp));Text(error,color=MaterialTheme.colorScheme.onSurfaceVariant)
+     TextButton(onClick=refresh,colors=ButtonDefaults.textButtonColors(contentColor=MaterialTheme.colorScheme.primary)){Text("RIPROVA")}
+    }
+   }
    if(!loading&&error.isBlank()&&articles.isEmpty())item{Card(Modifier.fillMaxWidth()){
     Column(Modifier.padding(16.dp)){Text("Nessuna notizia trovata nel periodo selezionato.",fontWeight=FontWeight.SemiBold);Spacer(Modifier.height(6.dp));Text("I feed disponibili potrebbero non essere aggiornati oppure non contenere notizie per questo intervallo. Prova ad ampliare il periodo.",style=MaterialTheme.typography.bodySmall)}
    }}
    if(!loading&&error.isBlank()&&articles.isNotEmpty()&&filteredArticles.isEmpty())item {
-    Card(Modifier.fillMaxWidth()) {
-     Column(Modifier.padding(16.dp)) {
-      Text("Nessun risultato",fontWeight=FontWeight.SemiBold)
-      Text("Prova con un'altra parola chiave oppure cancella la ricerca.",style=MaterialTheme.typography.bodySmall)
-     }
+    Column(Modifier.fillMaxWidth().padding(vertical=22.dp)) {
+     Text("Nessun risultato",fontWeight=FontWeight.SemiBold)
+     Text("Prova con un'altra parola chiave oppure cancella la ricerca.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
     }
    }
    sections.forEach{(category,categoryArticles)->
-    item(key="heading_"+category){Text(category,style=MaterialTheme.typography.titleLarge,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.ExtraBold)}
-    items(categoryArticles,key={it.url}){article->
-     Card(Modifier.fillMaxWidth().clickable{runCatching{context.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse(article.url)))}}){
-      Column(Modifier.padding(17.dp),verticalArrangement=Arrangement.spacedBy(8.dp)){
-       Text(article.title,style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.SemiBold)
-       if(article.summary.isNotBlank())Text(article.summary,style=MaterialTheme.typography.bodyLarge)
-       Row(verticalAlignment=Alignment.CenterVertically){
-        Text(article.source,style=MaterialTheme.typography.labelMedium,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.SemiBold)
-        if(article.corroborationCount>1)Text("  •  "+article.corroborationCount+" fonti",style=MaterialTheme.typography.labelSmall)
-       }
-       Text(SimpleDateFormat("dd/MM/yyyy HH:mm",Locale.ITALY).format(article.publishedAt),style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
-       Text("APRI ARTICOLO  ›",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)
-      }
+    item(key="heading_"+category){
+     Column(Modifier.fillMaxWidth().padding(top=20.dp,bottom=4.dp)){
+      Text(category.uppercase(Locale.ITALY),style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.ExtraBold)
+      Spacer(Modifier.height(8.dp))
+      HorizontalDivider(color=MaterialTheme.colorScheme.outlineVariant,thickness=1.dp)
      }
+    }
+    items(categoryArticles,key={it.url}){article->
+     Column(Modifier.fillMaxWidth().clickable{runCatching{context.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse(article.url)))}}.padding(vertical=18.dp)){
+      Row(verticalAlignment=Alignment.CenterVertically){
+       Text(article.source.uppercase(Locale.ITALY),style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)
+       if(article.corroborationCount>1)Text("  •  "+article.corroborationCount+" FONTI",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant,fontWeight=FontWeight.Medium)
+       Spacer(Modifier.weight(1f))
+       Text(SimpleDateFormat("dd/MM/yyyy • HH:mm",Locale.ITALY).format(article.publishedAt),style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+      }
+      Spacer(Modifier.height(9.dp))
+      Text(article.title,style=MaterialTheme.typography.headlineSmall,fontFamily=FontFamily.Serif,fontWeight=FontWeight.Bold,lineHeight=MaterialTheme.typography.headlineSmall.lineHeight)
+      if(article.summary.isNotBlank()){
+       Spacer(Modifier.height(8.dp))
+       Text(article.summary,style=MaterialTheme.typography.bodyLarge,color=MaterialTheme.colorScheme.onSurface,lineHeight=MaterialTheme.typography.bodyLarge.lineHeight)
+      }
+      Spacer(Modifier.height(10.dp))
+      Text("LEGGI L'ARTICOLO  ›",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.primary,fontWeight=FontWeight.Bold)
+     }
+     item(key="separator_"+article.url){HorizontalDivider(color=MaterialTheme.colorScheme.outlineVariant,thickness=0.7.dp)}
     }
    }
    if(articles.isNotEmpty())item{
