@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-10T05:59:34.198796+00:00",
+  "generated_at": "2026-11-10T07:17:41.599376+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 8,
+      "inserted": 8,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Festa con i cimeli di Maradona per Piacenza Partenopea",
+      "url": "https://www.piacenzasera.it/2026/11/festa-con-i-cimeli-di-maradona-per-piacenza-partenopea/669699",
+      "summary": "Tra tifo e solidarietà torna la festa di Piacenza Partenopea: lotteria per sostenere l'unità del terapia del dolore dell'ospedale di Piacenza The post Festa con i cimeli di Maradona per Piacenza Partenopea appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T07:14:58+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Passaggio di testimone al Distretto del Medio Lario",
+      "url": "https://primacomo.it/sanita/passaggio-di-testimone-al-distretto-del-medio-lario",
+      "summary": "Dopo 40 anni di attività in Asst Lariana, la dottoressa Marica Carughi è andata in pensione lo scorso 30 ottobre. Dall’1 novembre, a seguito del concorso bandito, il ruolo di direttore del Distretto del Medio Lario è stato affidato al dottor Cristiano Casartelli. Il passaggio di testimone Laureata in farmacia ospedaliera, dopo due anni come […] Continua la lettura di Passaggio di testimone al Distretto del Medio Lario sul portale Prima Como .",
+      "published_at": "2026-11-10T07:12:05+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Le ville del Lago di Como nelle stampe del calendario 2027 di Sentiero dei Sogni",
+      "url": "https://www.ciaocomo.it/2026/11/10/le-ville-del-lago-di-como-nelle-stampe-del-calendario-2027-di-sentiero-dei-sogni/347637",
+      "summary": "Questa sera ka presentazione della quinta edizione del calendario da il via alla campagna associativa 2027 The post Le ville del Lago di Como nelle stampe del calendario 2027 di Sentiero dei Sogni appeared first on CiaoComo .",
+      "published_at": "2026-11-10T07:00:43+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Visite guidate, espositori, degustazioni: a Mulino Lentino torna la Festa dei Mugnai",
+      "url": "https://www.piacenzasera.it/2026/11/visite-guidate-espositori-degustazioni-a-mulino-lentino-torna-la-festa-dei-mugnai/669682",
+      "summary": "Domenica la tradizionale manifestazione che ricorda Santa Caterina d'Alessandria, protettrice dei mugnai The post Visite guidate, espositori, degustazioni: a Mulino Lentino torna la Festa dei Mugnai appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T06:00:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "al"
+      ],
+      "territory_codes": [
+        "AL"
+      ]
+    },
+    {
+      "title": "Gas Sales: via alla prevendita dei biglietti per la gara con Perugia del 22 novembre",
+      "url": "https://www.piacenzasera.it/2026/11/gas-sales-via-alla-prevendita-dei-biglietti-per-la-gara-con-perugia-del-22-novembre/669580",
+      "summary": "Settimana senza impegni di campionato. Via alla prevendita dei biglietti per la gara con Perugia del 22 novembre. The post Gas Sales: via alla prevendita dei biglietti per la gara con Perugia del 22 novembre appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T06:00:46+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pg"
+      ],
+      "territory_codes": [
+        "PG"
+      ]
+    },
     {
       "title": "A Como c’è un grandissimo cantastorie del cinema: Albanese esplora il genio di Sorogoyen",
       "url": "https://comozero.it/cultura-e-spettacolo/a-como-ce-un-grandissimo-cantastorie-del-cinema-albanese-esplora-il-genio-di-sorogoyen",
@@ -128,22 +198,6 @@
       ]
     },
     {
-      "title": "Brugneto, Albasi (Pd): “Ricorso di Genova rimette in discussione un’intesa equilibrata”",
-      "url": "https://www.piacenzasera.it/2026/11/brugneto-albasi-pd-ricorso-di-genova-rimette-in-discussione-unintesa-equilibrata/669663",
-      "summary": "Per il consigliere regionale piacentino \"la strada è il dialogo tra istituzioni, non un contenzioso che rischia di compromettere i risultati raggiunti” The post Brugneto, Albasi (Pd): “Ricorso di Genova rimette in discussione un’intesa equilibrata” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-09T16:34:29+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "ge",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "GE",
-        "PC"
-      ]
-    },
-    {
       "title": "Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como",
       "url": "https://www.ciaocomo.it/2026/11/09/villa-deste-inaugura-la-sua-quinta-stagione-invernale-sul-lago-di-como/347616",
       "summary": "Esperienze gastronomiche, appuntamenti musicali e tradizioni natalizie si intrecciano in un programma pensato per vivere il Lago di Como nella sua stagione più suggestiva. The post Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como appeared first on CiaoComo .",
@@ -185,20 +239,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Restare, crescere, intraprendere”: a Metal Materia il Modello Piacenza che punta su giovani, competenze e lavoro",
-      "url": "https://www.piacenzasera.it/2026/11/restare-crescere-intraprendere-a-metal-materia-il-modello-piacenza-che-punta-su-giovani-competenze-e-lavoro/669642",
-      "summary": "Coraggio, curiosità e capacità di fare sistema: da Piacenza Expo un messaggio concreto sul futuro dei giovani e del territorio. Ordine e Unione Giovani Commercialisti insieme per costruire nuove opportunità e rafforzare il dialogo tra istituzioni, università, professioni e imprese The post “Restare, crescere, intraprendere”: a Metal Materia il Modello Piacenza che punta su giovani, competenze e lavoro appeared first on piacenzasera.it .",
-      "published_at": "2026-11-09T15:39:44+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -413,7 +453,7 @@
     },
     {
       "title": "Nuova rotatoria da 600mila euro: accordo tra Amministrazione provinciale e Comune",
-      "url": "https://primacomo.it/altro/nuova-rotatoria-da-600mila-euro-accordo-tra-amministrazione-provinciale-e-comune",
+      "url": "https://primacomo.it/attualita/nuova-rotatoria-da-600mila-euro-accordo-tra-amministrazione-provinciale-e-comune",
       "summary": "Bulgarograsso, 600.000 euro per la nuova rotatoria sulla Sp 27: accordo tra Amministrazione provinciale e Comune. Nuova rotatoria, c’è l’accordo La Provincia di Como e il Comune di Bulgarograsso hanno sottoscritto un accordo di programma per la realizzazione di una nuova rotatoria all’intersezione tra la strada provinciale 27, via per Appiano, e via Buratti. L’intervento, […] Continua la lettura di Nuova rotatoria da 600mila euro: accordo tra Amministrazione provinciale e Comune sul portale Prima Como .",
       "published_at": "2026-11-09T09:04:50+00:00",
       "source_id": "primacomo",
@@ -658,20 +698,6 @@
       "url": "https://primacomo.it/altro/addio-a-vittorio-garibaldi-questa-mattina-lultimo-saluto",
       "summary": "Si è spento a 82 anni Vittorio Garibaldi, dopo che il fratello Angelo lo aveva già preceduto nel 2019. Erano stati loro a raccogliere l’eredità dei genitori, in particolare di mamma Irene Gussoni in Garibaldi, che nel 1964, trasferita da Pontremoli in Toscana, aveva fortemente voluto coronare il suo sogno di aprire un piccolo negozio di […] Continua la lettura di Addio a Vittorio Garibaldi, questa mattina l’ultimo saluto sul portale Prima Como .",
       "published_at": "2026-11-07T11:00:21+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "In bicicletta alla  memoria di Adele: il ciclocross omaggia la volontaria",
-      "url": "https://primacomo.it/altro/in-bicicletta-alla-memoria-di-adele-il-ciclocross-omaggia-la-volontaria",
-      "summary": "In bicicletta alla memoria di un’amica, di una volontaria preziosa: il “Ciclocross di San Martino” omaggia Adele Patuelli. In bici col ciclocross Domani, domenica 8 novembre, ci sarebbe dovuta essere anche lei, in cucina, a dare supporto al Gs Castello. Purtroppo, Adele è venuta a mancare giovedì primo ottobre ma sarà comunque presente nei pensieri […] Continua la lettura di In bicicletta alla memoria di Adele: il ciclocross omaggia la volontaria sul portale Prima Como .",
-      "published_at": "2026-11-07T09:00:50+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
