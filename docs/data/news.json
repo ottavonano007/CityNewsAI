@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-10T10:58:05.275913+00:00",
+  "generated_at": "2026-11-10T11:56:29.786850+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 9,
-      "inserted": 9,
+      "parsed": 10,
+      "inserted": 10,
       "ok": true
     },
     {
@@ -27,6 +27,90 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tentò di speronare i carabinieri con l’auto rubata, identificato il responsabile: ha 19 anni",
+      "url": "https://www.piacenzasera.it/2026/11/tento-di-speronare-i-carabinieri-con-lauto-rubata-identificato-il-responsabile-ha-19-anni/669739",
+      "summary": "I fatti risalgono al 25 settembre scorso: grazie ai Ris di Parma è stato identificato il responsabile. Si tratta di un 19enne straniero, irregolare sul territorio nazionale The post Tentò di speronare i carabinieri con l’auto rubata, identificato il responsabile: ha 19 anni appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T11:40:45+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pr"
+      ],
+      "territory_codes": [
+        "PR"
+      ]
+    },
+    {
+      "title": "Finisce di scontare la pena per evasione e furto aggravato, espulso",
+      "url": "https://www.piacenzasera.it/2026/11/finisce-di-scontare-la-pena-per-evasione-e-furto-aggravato-espulso/669732",
+      "summary": "Subito dopo la scarcerazione, è stata immediatamente disposta nei suoi confronti l’espulsione con accompagnamento alla frontiera aerea di Bologna con destinazione solo andata Chisinau The post Finisce di scontare la pena per evasione e furto aggravato, espulso appeared first on piacenzasera.it .",
+      "published_at": "2026-11-10T11:30:16+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "bo"
+      ],
+      "territory_codes": [
+        "BO"
+      ]
+    },
+    {
+      "title": "Auto fuori strada, due feriti in codice giallo",
+      "url": "https://primacomo.it/altro/auto-fuori-strada-due-feriti-in-codice-giallo",
+      "summary": "Auto fuori strada a Guanzate, due persone ferite. Auto fuori strada a Guanzate E’ accaduta nella mattinata di oggi, martedì 10 novembre, in via Raffaello Sanzio. Ancora da capire la dinamiche: una vettura è uscita di strada. Due persone, una donna di 82 anni e un uomo di 88, sono rimasti feriti e trasportati in […] Continua la lettura di Auto fuori strada, due feriti in codice giallo sul portale Prima Como .",
+      "published_at": "2026-11-10T11:21:32+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, danneggia un’auto in sosta per recuperare degli effetti personali: non era vero",
+      "url": "https://comozero.it/attualita/como-danneggia-unauto-in-sosta-per-recuperare-degli-effetti-personali-non-era-vero",
+      "summary": "La Polizia di Stato di Como ha arrestato un uomo 37enne, italiano con numerosi precedenti di Polizia per reati inerenti gli stupefacenti e reati contro la persona, ritenuto responsabile di detenzione di sostanze stupefacenti ai fini di spaccio. Intorno alle ore 20 di ieri, gli agenti della Squadra Volanti della Questura di Como sono intervenuti […] L'articolo Como, danneggia un’auto in sosta per recuperare degli effetti personali: non era vero proviene da ComoZero .",
+      "published_at": "2026-11-10T11:08:24+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Sfreccia ad alta velocità e svolta nella stradina: i finanzieri la inseguono e vedono che il giovane che butta via tutto",
+      "url": "https://comozero.it/attualita/sfreccia-ad-alta-velocita-e-svolta-nella-stradina-i-finanzieri-la-inseguono-e-vedono-che-il-giovane-che-butta-via-tutto",
+      "summary": "Nei giorni scorsi, i finanzieri del Comando Provinciale di Como hanno intensificato i controlli antidroga nel territorio del Lario Intelvese. Durante le operazioni, i militari della Compagnia di Menaggio hanno notato un’auto che sfrecciava a forte velocità e svoltava in una strada secondaria, decidendo di seguirla fino al suo arresto. Dal veicolo sono scesi cinque […] L'articolo Sfreccia ad alta velocità e svolta nella stradina: i finanzieri la inseguono e vedono che il giovane che butta via tutto proviene da ComoZero .",
+      "published_at": "2026-11-10T11:05:49+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, rompe il finestrino di un’auto a Ponte Chiasso: trovato con 40 grammi di droga, arrestato 37enne",
+      "url": "https://www.ciaocomo.it/2026/11/10/como-rompe-il-finestrino-di-unauto-a-ponte-chiasso-trovato-con-40-grammi-di-droga-arrestato-37enne/347668",
+      "summary": "Un passante lo sorprende e lo blocca in piazzale Anna Frank, poi chiama il 112. L’uomo, già noto alle forze dell’ordine, è stato denunciato anche per danneggiamento e inosservanza del foglio di via The post Como, rompe il finestrino di un’auto a Ponte Chiasso: trovato con 40 grammi di droga, arrestato 37enne appeared first on CiaoComo .",
+      "published_at": "2026-11-10T10:48:43+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Al Jolly 2 la proiezione del docufilm Arandora Star, con la giovane attrice piacentina Martina Fanfani",
       "url": "https://www.piacenzasera.it/2026/11/al-jolly-2-la-proiezione-del-docufilm-arandora-star-con-la-giovane-attrice-piacentina-martina-fanfani/669713",
@@ -116,6 +200,20 @@
       "url": "https://comozero.it/punti-di-vista/il-lungolago-di-como-non-finisce-mai-di-imbruttire-ora-pure-i-blocchi-di-cemento-messi-li",
       "summary": "Nel tormentatissimo, lunghissimo e costosissimo iter per arrivare finalmente al lungolago di Como completo e in veste definitiva si aggiunge un nuovo piccolo capitolo. Il tema è quello delle protezioni, in attesa dei parapetti definitivi che la città ancora attende dopo la bocciatura del primo prototipo. Di seguito la segnalazione (per lettere, foto e video […] L'articolo Il lungolago di Como non finisce mai di imbruttire: “E quei blocchi di cemento messì lì…” proviene da ComoZero .",
       "published_at": "2026-11-10T09:12:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
+      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
+      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
+      "published_at": "2026-11-10T09:08:18+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -224,20 +322,6 @@
       ]
     },
     {
-      "title": "Festa con i cimeli di Maradona per Piacenza Partenopea",
-      "url": "https://www.piacenzasera.it/2026/11/festa-con-i-cimeli-di-maradona-per-piacenza-partenopea/669699",
-      "summary": "Tra tifo e solidarietà torna la festa di Piacenza Partenopea: lotteria per sostenere l'unità del terapia del dolore dell'ospedale di Piacenza The post Festa con i cimeli di Maradona per Piacenza Partenopea appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T07:14:58+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Passaggio di testimone al Distretto del Medio Lario",
       "url": "https://primacomo.it/sanita/passaggio-di-testimone-al-distretto-del-medio-lario",
       "summary": "Dopo 40 anni di attività in Asst Lariana, la dottoressa Marica Carughi è andata in pensione lo scorso 30 ottobre. Dall’1 novembre, a seguito del concorso bandito, il ruolo di direttore del Distretto del Medio Lario è stato affidato al dottor Cristiano Casartelli. Il passaggio di testimone Laureata in farmacia ospedaliera, dopo due anni come […] Continua la lettura di Passaggio di testimone al Distretto del Medio Lario sul portale Prima Como .",
@@ -266,34 +350,6 @@
       ]
     },
     {
-      "title": "Visite guidate, espositori, degustazioni: a Mulino Lentino torna la Festa dei Mugnai",
-      "url": "https://www.piacenzasera.it/2026/11/visite-guidate-espositori-degustazioni-a-mulino-lentino-torna-la-festa-dei-mugnai/669682",
-      "summary": "Domenica la tradizionale manifestazione che ricorda Santa Caterina d'Alessandria, protettrice dei mugnai The post Visite guidate, espositori, degustazioni: a Mulino Lentino torna la Festa dei Mugnai appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T06:00:48+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "al"
-      ],
-      "territory_codes": [
-        "AL"
-      ]
-    },
-    {
-      "title": "Gas Sales: via alla prevendita dei biglietti per la gara con Perugia del 22 novembre",
-      "url": "https://www.piacenzasera.it/2026/11/gas-sales-via-alla-prevendita-dei-biglietti-per-la-gara-con-perugia-del-22-novembre/669580",
-      "summary": "Settimana senza impegni di campionato. Via alla prevendita dei biglietti per la gara con Perugia del 22 novembre. The post Gas Sales: via alla prevendita dei biglietti per la gara con Perugia del 22 novembre appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T06:00:46+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pg"
-      ],
-      "territory_codes": [
-        "PG"
-      ]
-    },
-    {
       "title": "A Como c’è un grandissimo cantastorie del cinema: Albanese esplora il genio di Sorogoyen",
       "url": "https://comozero.it/cultura-e-spettacolo/a-como-ce-un-grandissimo-cantastorie-del-cinema-albanese-esplora-il-genio-di-sorogoyen",
       "summary": "Dai film come “Il Regno” e “As bestas” alle serie “Antidisturbios” e “Dieci Capodanni”: Marco Albanese dedica un saggio al regista madrileno, ricostruendone il percorso artistico e la grammatica cinematografica. Il volume esce ovviamente per Stanze di Cinema nella collana dedicata ai grandi autori contemporanei Il conflitto come motore delle storie, ma soprattutto come strumento […] L'articolo A Como c’è un grandissimo cantastorie del cinema: Albanese esplora il genio di Sorogoyen proviene da ComoZero .",
@@ -319,94 +375,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Sentieri di Foglie”, ultimo appuntamento per Le 4 Stagioni di Villa Erba",
-      "url": "https://www.ciaocomo.it/2026/11/09/sentieri-di-foglie-ultimo-appuntamento-per-le-4-stagioni-di-villa-erba/347555",
-      "summary": "Domenica 15 novembre la Villa Antica e Villa Bernasconi ospitano il quarto e ultimo evento ideato dal Teatro Sociale di Como The post “Sentieri di Foglie”, ultimo appuntamento per Le 4 Stagioni di Villa Erba appeared first on CiaoComo .",
-      "published_at": "2026-11-09T19:00:39+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lombardia, così si salvano vite: ecco le immagini della gigantesca esercitazione, sono spettacolari",
-      "url": "https://comozero.it/attualita/lombardia-cosi-si-salvano-vite-ecco-le-immagini-della-gigantesca-esercitazione-sono-spettacolari",
-      "summary": "Tre giorni di esercitazioni, dal 6 all’8 novembre 2026, nel territorio della provincia di Verbano-Cusio-Ossola per la squadra forra regionale del CNSAS Lombardo, insieme con il Soccorso Alpino e Speleologico Piemonte. Regione lombardia dispone di tecnici specializzati e quando si verificano interventi alluvionali oppure operazioni di soccorso in zone di confine, i tecnici collaborano con […] L'articolo Lombardia, così si salvano vite: ecco le immagini della gigantesca esercitazione, sono spettacolari proviene da ComoZero .",
-      "published_at": "2026-11-09T18:59:31+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "vb"
-      ],
-      "territory_codes": [
-        "VB"
-      ]
-    },
-    {
-      "title": "Il cinema Astra per il cinema Gloria: l’incasso del film “Per silenzio e vento” devoluto alla sala di Camerlata",
-      "url": "https://www.ciaocomo.it/2026/11/09/il-cinema-astra-per-il-cinema-gloria-lincasso-del-film-per-silenzio-e-vento-devoluto-alla-sala-di-camerlata/347621",
-      "summary": "Il Cinema Astra tende la mano allo Spazio Gloria. Giovedì 12 novembre alle 21, la sala comasca proietterà il documentario \"Per silenzio e vento\" e devolverà l’incasso della serata alla raccolta fondi per completare i lavori di messa a norma del cinema di Camerlata. The post Il cinema Astra per il cinema Gloria: l’incasso del film “Per silenzio e vento” devoluto alla sala di Camerlata appeared first on CiaoComo .",
-      "published_at": "2026-11-09T17:30:45+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Miriam che svela i segreti dei parchi: una grandissima ricerca tra Como, Varese e Svizzera",
-      "url": "https://comozero.it/scuola/miriam-che-svela-i-segreti-dei-parchi-una-grandissima-ricerca-tra-como-varese-e-svizzera",
-      "summary": "Trenta aree umide esaminate, 69 rilievi floristico-vegetazionali e una mappatura delle principali tipologie di vegetazione. Sono i numeri frutto della ricerca sul campo dei naturalisti incaricati dal Parco Pineta a cui ha partecipato anche la studentessa del corso di Laurea in Scienze Biologiche dell’Università degli Studi dell’Insubria, Miriam Mauri (comasca di Cantù), che ha dedicato […] L'articolo Miriam che svela i segreti dei parchi: una grandissima ricerca tra Como, Varese e Svizzera proviene da ComoZero .",
-      "published_at": "2026-11-09T17:28:07+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "VA"
-      ]
-    },
-    {
-      "title": "Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como",
-      "url": "https://www.ciaocomo.it/2026/11/09/villa-deste-inaugura-la-sua-quinta-stagione-invernale-sul-lago-di-como/347616",
-      "summary": "Esperienze gastronomiche, appuntamenti musicali e tradizioni natalizie si intrecciano in un programma pensato per vivere il Lago di Como nella sua stagione più suggestiva. The post Villa d’Este inaugura la sua quinta stagione invernale sul Lago di Como appeared first on CiaoComo .",
-      "published_at": "2026-11-09T16:25:59+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Valduce, 240 antenne per migliorare la copertura telefonica: presentata dal sottosegretario Butti la nuova rete digitale",
-      "url": "https://www.ciaocomo.it/2026/11/09/ospedale-valduce-240-antenne-per-migliorare-la-copertura-telefonica-presentata-la-nuova-rete-digitale/347607",
-      "summary": "La tecnologia di INWIT supera le difficoltà di connessione all'interno della struttura e apre la strada all'utilizzo di sensori e intelligenza artificiale. Intervento anche a Villa Beretta: coinvolti complessivamente sei ospedali tra Como e Lecco The post Valduce, 240 antenne per migliorare la copertura telefonica: presentata dal sottosegretario Butti la nuova rete digitale appeared first on CiaoComo .",
-      "published_at": "2026-11-09T16:00:40+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como",
-        "lc"
-      ],
-      "territory_codes": [
-        "CO",
-        "LC"
       ]
     },
     {
@@ -642,20 +610,6 @@
       "url": "https://primacomo.it/altro/la-consulta-giovanile-apre-le-porte-un-centro-di-aggregazione-in-sede",
       "summary": "Un centro di aggregazione nella sede della Consulta giovanile di Lurate Caccivio. Consulta giovanile, centro di aggregazione in sede Proseguono spediti i lavori organizzativi del sodalizio presieduto da Camilla Vigo e che vede come vice Daniele Armellini e come segretario Abdalla Imam. Nel pomeriggio di lunedì 2 novembre si è riunito il Consiglio direttivo per […] Continua la lettura di La Consulta giovanile apre le porte: un centro di aggregazione in sede sul portale Prima Como .",
       "published_at": "2026-11-08T09:00:14+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Carattere Unipol, vittoria a Giulianova",
-      "url": "https://primacomo.it/sport/carattere-unipol-vittoria-a-giulianova",
-      "summary": "Terza vittoria di fila su altrettante gare dall’inizio della stagione: la Unipol Briantea84 Cantù ha vinto a Giulianova contro la Deco Amicacci Abruzzo 46 a 81. Nel pomeriggio del PalaCastrum sono i padroni di casa ad iniziare meglio e ritrovarsi dopo 5’ sul +7 (15-8). Un time-out chiamato da coach Gomez ha cambiato i successivi […] Continua la lettura di Carattere Unipol, vittoria a Giulianova sul portale Prima Como .",
-      "published_at": "2026-11-08T08:07:44+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
