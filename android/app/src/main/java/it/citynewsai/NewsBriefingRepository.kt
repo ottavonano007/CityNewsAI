@@ -49,26 +49,65 @@ private val provincialNewsDomains = mapOf(
  "CO" to listOf("ciaocomo.it", "comozero.it", "primacomo.it")
 )
 
-private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
- val calendar=java.util.Calendar.getInstance()
- val window=when(period){"24h"->" when:1d";"3d"->" when:3d";"7d"->" when:7d";"1m"->" when:1m";else->""}
- val months=when(period){"6m"->6;"1y"->12;else->0}
- if(months>0) calendar.add(java.util.Calendar.MONTH,-months)
- val after=if(months>0) " after:"+java.text.SimpleDateFormat("yyyy-MM-dd",Locale.ROOT).format(calendar.time) else ""
- val cityTerms=when(p.code){
-  "AG"->listOf("\"Agrigento\"","\"agrigentino\"","\"provincia di Agrigento\"")
-  "PC"->listOf("\"Piacenza\"","\"piacentino\"","\"provincia di Piacenza\"")
-  "CO"->listOf("\"Como\"","\"comasco\"","\"provincia di Como\"")
-  else->listOf("\""+p.name+"\"","\"provincia di "+p.name+"\"")
+private val provincialSearchAliases = mapOf(
+ "AG" to listOf("agrigentino", "agrigentina", "agrigentini", "agrigentine"),
+ "AO" to listOf("Aosta", "Valle d'Aosta", "Vallee d'Aoste"),
+ "AQ" to listOf("Aquila", "aquilano", "aquilana"),
+ "AP" to listOf("ascolano", "ascolana", "piceno"),
+ "BT" to listOf("Barletta", "Andria", "Trani"),
+ "BZ" to listOf("Bolzano", "Bozen", "Alto Adige", "Sudtirolo"),
+ "CO" to listOf("comasco", "comasca", "comaschi"),
+ "FC" to listOf("Forli", "Cesena", "forlivese", "cesenate"),
+ "FI" to listOf("Firenze", "fiorentino", "fiorentina"),
+ "GO" to listOf("Goriziano"),
+ "LC" to listOf("lecchese", "lecchesi"),
+ "MB" to listOf("Monza", "Brianza", "brianzolo", "brianzola"),
+ "MS" to listOf("Massa", "Carrara", "apuano", "apuana"),
+ "OT" to listOf("Gallura", "Olbia", "Tempio"),
+ "PU" to listOf("Pesaro", "Urbino", "pesarese", "urbinate"),
+ "RC" to listOf("Reggio Calabria", "reggino", "reggina"),
+ "RE" to listOf("Reggio Emilia", "reggiano", "reggiana"),
+ "SU" to listOf("Sulcis", "Iglesiente", "Carbonia", "Iglesias"),
+ "VB" to listOf("Verbano", "Cusio", "Ossola", "Verbania", "Domodossola"),
+ "VS" to listOf("Medio Campidano", "Villacidro", "Sanluri")
+)
+
+private fun periodStartMillis(period:String, now:Long=System.currentTimeMillis()):Long {
+ val calendar=java.util.Calendar.getInstance().apply{timeInMillis=now}
+ when(period){
+  "24h"->calendar.add(java.util.Calendar.HOUR_OF_DAY,-24)
+  "3d"->calendar.add(java.util.Calendar.DAY_OF_YEAR,-3)
+  "7d"->calendar.add(java.util.Calendar.DAY_OF_YEAR,-7)
+  "1m"->calendar.add(java.util.Calendar.MONTH,-1)
+  "6m"->calendar.add(java.util.Calendar.MONTH,-6)
+  "1y"->calendar.add(java.util.Calendar.YEAR,-1)
+  else->calendar.add(java.util.Calendar.HOUR_OF_DAY,-24)
  }
- val territory=cityTerms.joinToString(" OR ")
+ return calendar.timeInMillis
+}
+
+private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
+ val after=" after:"+SimpleDateFormat("yyyy-MM-dd",Locale.ROOT).format(Date(periodStartMillis(period)))
+ val aliases=provincialSearchAliases[p.code].orEmpty()
+ val terms=(listOf(p.name,"provincia di "+p.name)+aliases).distinct()
+ val territory="("+terms.joinToString(" OR "){"\\\""+it+"\\\"" }+")"
+ val region="\\\""+p.region+"\\\""
  val feeds=mutableListOf<FeedSpec>()
- feeds+=googleNewsFeed("Google News · "+p.name, "("+territory+")"+window+after)
+
+ // Ricerca generale: provincia e regione, senza dipendere da una singola testata.
+ feeds+=googleNewsFeed("Google News · "+p.name,territory+" "+region+after)
+
+ // Seconda query con termini locali: recupera articoli che non riportano la dicitura amministrativa.
+ val localTopics="(cronaca OR comune OR territorio OR viabilita OR sindaco OR provincia OR eventi)"
+ feeds+=googleNewsFeed("Notizie locali · "+p.name,territory+" "+localTopics+" "+region+after)
+
+ // Ricerca sulle testate regionali e provinciali, senza concatenare tutti i domini in un'unica OR.
  val domains=(provincialNewsDomains[p.code].orEmpty()+regionalNewsDomains[p.region].orEmpty()).distinct()
  if(domains.isNotEmpty()){
   val sites=domains.joinToString(" OR "){"site:"+it}
-  feeds+=googleNewsFeed("Testate locali selezionate · "+p.name,"("+territory+") ("+sites+")"+window+after)
+  feeds+=googleNewsFeed("Testate locali · "+p.name,territory+" ("+sites+")"+after)
  }
+
  when(p.code){
   "PC"->feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/")
   "CO"->{
@@ -146,8 +185,8 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
  val feeds=feedSpecs(province,periodId);val all=mutableListOf<BriefingArticle>();var read=0
  feeds.forEach{try{val items=parseFeed(it);if(items.isNotEmpty())read++;all+=items}catch(_:Exception){}}
  val now=System.currentTimeMillis()
- val window=when(periodId){"24h"->86400000L;"3d"->259200000L;"7d"->604800000L;"1m"->2678400000L;"6m"->15811200000L;else->31622400000L}
- val filtered=all.filter{now-it.publishedAt.time in 0..window}
+ val cutoff=periodStartMillis(periodId,now)
+ val filtered=all.filter{it.publishedAt.time in cutoff..now}
  val articles=filtered.groupBy{it.title.lowercase(Locale.ITALY).replace(Regex("[^a-z0-9]+")," ").trim()}.map{(_,copies)->
   val best=copies.maxByOrNull{it.summary.length}!!;best.copy(corroborationCount=copies.map{it.source}.distinct().size)
  }.sortedWith(compareBy<BriefingArticle>{rank(it.category)}.thenByDescending{it.publishedAt.time}).take(60)
