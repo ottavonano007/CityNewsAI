@@ -43,20 +43,34 @@ private val regionalNewsDomains = mapOf(
 private fun googleNewsFeed(name:String, query:String):FeedSpec =
  FeedSpec(name,"https://news.google.com/rss/search?q="+Uri.encode(query)+"&hl=it&gl=IT&ceid=IT%3Ait")
 
+private val provincialNewsDomains = mapOf(
+ "AG" to listOf("agrigentonotizie.it", "grandangoloagrigento.it", "siciliaonpress.com", "teleacras.it"),
+ "PC" to listOf("piacenzasera.it", "liberta.it"),
+ "CO" to listOf("ciaocomo.it", "comozero.it", "primacomo.it")
+)
+
 private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
- val window=when(period){"24h"->" when:1d";"3d"->" when:3d";"7d"->" when:7d";"1m"->" when:1m";"6m"->" when:6m";else->" when:1y"}
- val territory="\"" + p.name + "\" OR \"provincia di " + p.name + "\""
- val feeds= mutableListOf(googleNewsFeed("Google News",territory+window))
- val domains=regionalNewsDomains[p.region].orEmpty()
+ val calendar=java.util.Calendar.getInstance()
+ val window=when(period){"24h"->" when:1d";"3d"->" when:3d";"7d"->" when:7d";"1m"->" when:1m";else->""}
+ val months=when(period){"6m"->6;"1y"->12;else->0}
+ if(months>0) calendar.add(java.util.Calendar.MONTH,-months)
+ val after=if(months>0) " after:"+java.text.SimpleDateFormat("yyyy-MM-dd",Locale.ROOT).format(calendar.time) else ""
+ val cityTerms=when(p.code){
+  "AG"->listOf("\\"Agrigento\\"","\\\"agrigentino\\\"","\\\"provincia di Agrigento\\\"")
+  "PC"->listOf("\\"Piacenza\\"","\\\"piacentino\\\"","\\\"provincia di Piacenza\\\"")
+  "CO"->listOf("\\"Como\\"","\\\"comasco\\\"","\\\"provincia di Como\\\"")
+  else->listOf("\\""+p.name+"\\"","\\\"provincia di "+p.name+"\\\"")
+ }
+ val territory=cityTerms.joinToString(" OR ")
+ val feeds=mutableListOf<FeedSpec>()
+ feeds+=googleNewsFeed("Google News · "+p.name, "("+territory+")"+window+after)
+ val domains=(provincialNewsDomains[p.code].orEmpty()+regionalNewsDomains[p.region].orEmpty()).distinct()
  if(domains.isNotEmpty()){
   val sites=domains.joinToString(" OR "){"site:"+it}
-  feeds+=googleNewsFeed("Testate locali selezionate · "+p.region,"("+territory+") ("+sites+")"+window)
+  feeds+=googleNewsFeed("Testate locali selezionate · "+p.name,"("+territory+") ("+sites+")"+window+after)
  }
  when(p.code){
-  "PC"->{
-   feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/")
-   feeds+=googleNewsFeed("Google News · Libertà","site:liberta.it Piacenza"+window)
-  }
+  "PC"->feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/")
   "CO"->{
    feeds+=FeedSpec("CiaoComo","https://www.ciaocomo.it/feed/")
    feeds+=FeedSpec("ComoZero","https://comozero.it/feed/")
