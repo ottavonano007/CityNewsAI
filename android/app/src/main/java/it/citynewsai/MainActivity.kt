@@ -514,9 +514,13 @@ private fun CityNewsApp() {
                         val filtered = italianProvinces.filter {
                             it.name.contains(provinceQuery, true) || it.code.contains(provinceQuery, true) || it.region.contains(provinceQuery, true)
                         }
-                        if (filtered.isEmpty()) {
+                        val selectedIndex = filtered.indexOfFirst { it.code == selectedProvince.code }
+                        val menuProvinces = if (provinceQuery.isBlank() && selectedIndex > 0) {
+                            filtered.drop(selectedIndex) + filtered.take(selectedIndex)
+                        } else filtered
+                        if (menuProvinces.isEmpty()) {
                             DropdownMenuItem(text = { Text("Nessuna provincia trovata") }, enabled = false, onClick = {})
-                        } else filtered.forEach { province ->
+                        } else menuProvinces.forEach { province ->
                             DropdownMenuItem(
                                 text = {
                                     Column {
