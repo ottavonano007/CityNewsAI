@@ -510,7 +510,7 @@ private fun CityNewsApp() {
                                     }
                                     TextButton(
                             onClick = { saveFavoriteCodes(favoriteCodes - favorite.code) },
-                            colors = TextButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                            colors = ButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
                         ) {
                                         Icon(Icons.Default.Delete, contentDescription = "Rimuovi ${favorite.name}")
                                         Text(" Rimuovi")
@@ -601,7 +601,7 @@ private fun CityNewsApp() {
                 }
                 Spacer(Modifier.height(8.dp))
                 OutlinedButton(
-                    colors = OutlinedButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.primary),
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.primary),
                     onClick = {
                         if (selectedProvince.code in favoriteCodes) {
                             saveFavoriteCodes(favoriteCodes - selectedProvince.code)
@@ -645,7 +645,7 @@ private fun CityNewsApp() {
                         if (startupMode == "location") {
                             TextButton(
                                 enabled = !locationBusy, onClick = { scope.launch { applyDetectedProvince() } },
-                                colors = TextButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                                colors = ButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
                             ) {
                                 Icon(Icons.Default.MyLocation, contentDescription = null)
                                 Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
@@ -745,7 +745,7 @@ private fun SettingsPage(
                     }
                     if (startupMode == "location") TextButton(
                         enabled = !locationBusy, onClick = onDetectLocation,
-                        colors = TextButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                        colors = ButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
                     ) {
                         Icon(Icons.Default.MyLocation, contentDescription = null)
                         Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
