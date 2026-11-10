@@ -365,7 +365,6 @@ private fun CityNewsApp() {
     var startupMode by remember { mutableStateOf(prefs.getString(KEY_STARTUP_MODE, "preferred") ?: "preferred") }
     var themeMode by remember { mutableStateOf(prefs.getString(KEY_THEME, "system") ?: "system") }
     var colorPalette by remember { mutableIntStateOf(prefs.getInt(KEY_COLOR_PALETTE, 0).coerceIn(0, 14)) }
-    var paletteMenuExpanded by remember { mutableStateOf(false) }
     var showSettings by remember { mutableStateOf(false) }
     var locationBusy by remember { mutableStateOf(false) }
     var liveArticles by remember { mutableStateOf(emptyList<NewsArticle>()) }
