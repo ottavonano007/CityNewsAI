@@ -56,7 +56,7 @@ import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
 
-private data class Province(val name: String, val code: String, val region: String)
+internal data class Province(val name: String, val code: String, val region: String)
 
 private val italianProvinces = listOf(
     Province("Agrigento", "AG", "Sicilia"),
@@ -208,11 +208,12 @@ private fun parseNewsDate(value: String): Date? {
 private data class NewsPeriod(val id: String, val label: String, val amount: Int, val unit: Int)
 
 private val newsPeriods = listOf(
-    NewsPeriod("24h", "24 ore", 24, java.util.Calendar.HOUR_OF_DAY),
-    NewsPeriod("week", "1 settimana", 7, java.util.Calendar.DATE),
-    NewsPeriod("month", "1 mese", 1, java.util.Calendar.MONTH),
-    NewsPeriod("6months", "6 mesi", 6, java.util.Calendar.MONTH),
-    NewsPeriod("year", "1 anno", 1, java.util.Calendar.YEAR)
+    NewsPeriod("24h", "Ultime 24 ore", 24, java.util.Calendar.HOUR_OF_DAY),
+    NewsPeriod("3d", "Ultimi 3 giorni", 3, java.util.Calendar.DATE),
+    NewsPeriod("7d", "Ultima settimana", 7, java.util.Calendar.DATE),
+    NewsPeriod("1m", "Ultimo mese", 1, java.util.Calendar.MONTH),
+    NewsPeriod("6m", "Ultimi 6 mesi", 6, java.util.Calendar.MONTH),
+    NewsPeriod("1y", "Ultimo anno", 1, java.util.Calendar.YEAR)
 )
 
 private fun filterNewsByPeriod(articles: List<NewsArticle>, periodId: String): List<NewsArticle> {
@@ -484,6 +485,13 @@ private fun CityNewsApp() {
                                     provinceQuery = ""
                                     territoryMenuExpanded = false
                                     keyboardController?.hide()
+                                    val briefingIntent = Intent(context, BriefingActivity::class.java).apply {
+                                        putExtra("province_name", province.name)
+                                        putExtra("province_code", province.code)
+                                        putExtra("province_region", province.region)
+                                        putExtra("period_id", selectedNewsPeriod)
+                                    }
+                                    context.startActivity(briefingIntent)
                                 }
                             )
                         }
