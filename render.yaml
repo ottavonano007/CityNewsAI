@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: citynewsai-briefing-ottavonano007
+    runtime: docker
+    plan: free
+    dockerContext: ./ai_service
+    dockerfilePath: ./ai_service/Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-6.1-terra
