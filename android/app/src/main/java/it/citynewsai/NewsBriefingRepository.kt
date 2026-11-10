@@ -51,25 +51,27 @@ private val provincialNewsDomains = mapOf(
 
 private val provincialSearchAliases = mapOf(
  "AG" to listOf("agrigentino", "agrigentina", "agrigentini", "agrigentine"),
- "AO" to listOf("Aosta", "Valle d'Aosta", "Vallee d'Aoste"),
- "AQ" to listOf("Aquila", "aquilano", "aquilana"),
  "AP" to listOf("ascolano", "ascolana", "piceno"),
  "BT" to listOf("Barletta", "Andria", "Trani"),
- "BZ" to listOf("Bolzano", "Bozen", "Alto Adige", "Sudtirolo"),
+ "BZ" to listOf("Bolzano/Bozen", "Alto Adige", "Provincia autonoma di Bolzano", "Bolzano", "Bozen", "Sudtirolo"),
  "CO" to listOf("comasco", "comasca", "comaschi"),
- "FC" to listOf("Forli", "Cesena", "forlivese", "cesenate"),
  "FI" to listOf("Firenze", "fiorentino", "fiorentina"),
- "GO" to listOf("Goriziano"),
- "LC" to listOf("lecchese", "lecchesi"),
- "MB" to listOf("Monza", "Brianza", "brianzolo", "brianzola"),
- "MS" to listOf("Massa", "Carrara", "apuano", "apuana"),
+ "FC" to listOf("Forli-Cesena", "Forli", "Cesena", "forlivese", "cesenate"),
  "OT" to listOf("Gallura", "Olbia", "Tempio"),
+ "GO" to listOf("Goriziano"),
+ "AQ" to listOf("Aquila", "aquilano", "aquilana"),
+ "LC" to listOf("lecchese", "lecchesi"),
+ "MS" to listOf("Massa Carrara", "Massa", "Carrara", "apuano", "apuana"),
+ "VS" to listOf("Campidano", "Medio Campidano", "Villacidro", "Sanluri"),
+ "MB" to listOf("Monza", "Brianza", "brianzolo", "brianzola"),
  "PU" to listOf("Pesaro", "Urbino", "pesarese", "urbinate"),
+ "PC" to listOf("piacentino", "piacentina"),
  "RC" to listOf("Reggio Calabria", "reggino", "reggina"),
- "RE" to listOf("Reggio Emilia", "reggiano", "reggiana"),
- "SU" to listOf("Sulcis", "Iglesiente", "Carbonia", "Iglesias"),
- "VB" to listOf("Verbano", "Cusio", "Ossola", "Verbania", "Domodossola"),
- "VS" to listOf("Medio Campidano", "Villacidro", "Sanluri")
+ "RE" to listOf("Reggio Emilia", "Reggiano", "Reggiana", "reggiano", "reggiana"),
+ "SU" to listOf("Sulcis-Iglesiente", "Sulcis", "Iglesiente", "Carbonia", "Iglesias"),
+ "TN" to listOf("Provincia autonoma di Trento"),
+ "AO" to listOf("Aosta", "Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta", "Vallee d'Aoste"),
+ "VB" to listOf("Verbano", "Cusio", "Ossola", "Verbania", "Domodossola")
 )
 
 private fun periodStartMillis(period:String, now:Long=System.currentTimeMillis()):Long {
