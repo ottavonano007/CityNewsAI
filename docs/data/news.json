@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:17:41.599376+00:00",
+  "generated_at": "2026-11-10T08:59:37.753070+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 8,
-      "inserted": 8,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 9,
+      "inserted": 9,
       "ok": true
     },
     {
@@ -27,6 +27,104 @@
     }
   ],
   "articles": [
+    {
+      "title": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth",
+      "url": "https://primacomo.it/attualita/un-nuovo-spettacolo-per-sostenere-la-mensa-di-solidarieta-di-casa-nazareth",
+      "summary": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth è in programma per sabato 14 novembre. Ingresso a offerta libera Appuntamento alle 21 nella chiesa del Gesù in via Primo Tatti 14 a Como: protagonista sarà il Gruppo Mandolinistico Eliante di Mendrisio (nella foto), realtà nata nel 1982 da un gruppo di […] Continua la lettura di Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth sul portale Prima Como .",
+      "published_at": "2026-11-10T08:56:37+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Moda, gusto e l’accensione delle luci di Natale: l’evento a Villa Flori con Cristina Parodi e Daniela Palazzi",
+      "url": "https://comozero.it/attualita/moda-gusto-e-laccensione-delle-luci-di-natale-levento-a-villa-flori-con-cristina-parodi-e-daniela-palazzi",
+      "summary": "Villa Flori celebra l’arrivo della stagione natalizia con Christmas Fashion Night, in programma sabato 28 novembre, a partire dalle ore 19:00. Un appuntamento che unisce moda, gusto e musica nella cornice della storica dimora affacciata sul Lago di Como. Realizzata in collaborazione con Giorgia Jenca, ideatrice del progetto Il Fascino della Moda sul Lago di […] L'articolo Moda, gusto e l’accensione delle luci di Natale: l’evento a Villa Flori con Cristina Parodi e Daniela Palazzi proviene da ComoZero .",
+      "published_at": "2026-11-10T08:35:11+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "ImparA!: torna il Festival di giornalismo Glocal la formazione al centro della 15° edizione",
+      "url": "https://www.ciaocomo.it/2026/11/10/impara-torna-il-festival-di-giornalismo-glocal-la-formazione-al-centro-della-15-edizione/347631",
+      "summary": "Dal 12 al 15 novembre, tra Varese e Castronno, quattro giorni di incontri, corsi e laboratori pratici su intelligenza artificiale, dati, sicurezza digitale e nuovi modelli editoriali. Oltre cinquanta relatori a Glocal The post ImparA!: torna il Festival di giornalismo Glocal la formazione al centro della 15° edizione appeared first on CiaoComo .",
+      "published_at": "2026-11-10T08:30:55+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "va"
+      ],
+      "territory_codes": [
+        "VA"
+      ]
+    },
+    {
+      "title": "Quarto e ultimo appuntamento con “Le 4 Stagioni di Villa Erba”",
+      "url": "https://primacomo.it/cultura/quarto-e-ultimo-appuntamento-con-le-4-stagioni-di-villa-erba",
+      "summary": "Quarto e ultimo appuntamento dell’anno della rassegna “Le 4 Stagioni di Villa Erba”, a Cernobbio. “Le 4 Stagioni di Villa Erba” L’evento è promosso da Villa Erba in collaborazione con il Teatro Sociale di Como AsLiCo, con il contributo del Comune di Cernobbio e il patrocinio della Provincia di Como, del Comune di Como e […] Continua la lettura di Quarto e ultimo appuntamento con “Le 4 Stagioni di Villa Erba” sul portale Prima Como .",
+      "published_at": "2026-11-10T08:27:30+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Ex SS 583 “Lariana”: conclusi i lavori di asfaltatura da 700mila euro",
+      "url": "https://primacomo.it/attualita/ex-ss-583-lariana-conclusi-i-lavori-di-asfaltatura-da-700mila-euro",
+      "summary": "Si sono conclusi i lavori di asfaltatura lungo la ex SS 583 “Lariana”, avviati lo scorso 12 ottobre e realizzati dalla Provincia di Como nei Comuni di Blevio, Torno, Faggeto Lario, Pognana Lario, Nesso e Lezzeno. Gli interventi hanno interessato diversi tratti della viabilità provinciale, per uno sviluppo complessivo di circa 4 chilometri, con un […] Continua la lettura di Ex SS 583 “Lariana”: conclusi i lavori di asfaltatura da 700mila euro sul portale Prima Como .",
+      "published_at": "2026-11-10T07:37:48+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Da oggi l’Ospedale non avrà più la Maternità",
+      "url": "https://primacomo.it/attualita/da-oggi-lospedale-non-avra-piu-la-maternita",
+      "summary": "Sul territorio erbese continuerà a essere garantita la presa in carico delle donne durante la gravidanza, attraverso le attività ambulatoriali ostetriche e il raccordo tra ospedale, consultori familiari e servizi territoriali Sarà attivata una rete territoriale che accompagnerà le future mamme nel percorso Da oggi, martedì 10 novembre, l’Ospedale di Erba non avrà più un […] Continua la lettura di Da oggi l’Ospedale non avrà più la Maternità sul portale Prima Como .",
+      "published_at": "2026-11-10T07:33:48+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Arrestati dalla Polizia di Stato di Como due spacciatori",
+      "url": "https://primacomo.it/cronaca/arrestati-dalla-polizia-di-stato-di-como-due-spacciatori",
+      "summary": "Arrestati dalla Polizia di Stato di Como a Cermenate due spacciatori, uno di nazionalità spagnola e l’altro marocchina. Sequestrati oltre 35 grammi di cocaina. L’operazione La Polizia di Stato di Como, nel pomeriggio di ieri, lunedì 9 novembre, ha arrestato in flagranza di reato due soggetti; uno di nazionalità spagnola ed uno di nazionalità marocchina, […] Continua la lettura di Arrestati dalla Polizia di Stato di Como due spacciatori sul portale Prima Como .",
+      "published_at": "2026-11-10T07:32:03+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Festa con i cimeli di Maradona per Piacenza Partenopea",
       "url": "https://www.piacenzasera.it/2026/11/festa-con-i-cimeli-di-maradona-per-piacenza-partenopea/669699",
@@ -298,20 +396,6 @@
       ]
     },
     {
-      "title": "Federico Petroni presenta “Fiamme americane” per l’Osservatorio di Geopolitica di Confindustria Como",
-      "url": "https://www.ciaocomo.it/2026/11/09/federico-petroni-presenta-fiamme-americane-per-losservatorio-di-geopolitica-di-confindustria-como/347609",
-      "summary": "Mercoledì 11 novembre 2026 alle ore 18, nella sede di Via Raimondi, un nuovo appuntamento dell’Osservatorio di Geopolitica di Confindustria Como in collaborazione con Limes Club Como - Canton Ticino e Intesa Sanpaolo The post Federico Petroni presenta “Fiamme americane” per l’Osservatorio di Geopolitica di Confindustria Como appeared first on CiaoComo .",
-      "published_at": "2026-11-09T14:00:05+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Andolfi e Menchini dominano il 45° Trofeo Villa d’Este ACI Como",
       "url": "https://primacomo.it/attualita/andolfi-e-menchini-dominano-il-45-trofeo-villa-deste-aci-como",
       "summary": "Il 45° Trofeo Villa d’Este ACI Como si chiude nel segno di Fabio Andolfi e Marco Menchini, vincitori assoluti al volante della Lancia Ypsilon HF Rally2 Integrale preparata da D-Max e gommata Pirelli. L’equipaggio ligure ha dominato l’edizione 2026 della manifestazione organizzata dall’Automobile Club Como, imponendosi con un vantaggio di 1’39;27.8 sui primi inseguitori, al […] Continua la lettura di Andolfi e Menchini dominano il 45° Trofeo Villa d’Este ACI Como sul portale Prima Como .",
@@ -326,66 +410,10 @@
       ]
     },
     {
-      "title": "Duomo di Como, raccolti 70mila euro per il restauro degli organi monumentali: lavori già iniziati",
-      "url": "https://www.ciaocomo.it/2026/11/09/duomo-di-como-raccolti-70mila-euro-per-il-restauro-degli-organi-monumentali-lavori-gia-iniziati/347588",
-      "summary": "Grazie alle donazioni di cittadini, associazioni, aziende e Fondazione della Comunità Comasca è partita la manutenzione dello storico complesso con oltre 6.500 canne. I tecnici al lavoro sugli impianti elettrici e sulle componenti interne The post Duomo di Como, raccolti 70mila euro per il restauro degli organi monumentali: lavori già iniziati appeared first on CiaoComo .",
-      "published_at": "2026-11-09T13:33:51+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Al Valduce e a Villa Beretta le 320 antenne per una copertura totale del segnale e nuove frontiere nella cura",
       "url": "https://comozero.it/sanita/al-valduce-e-a-villa-beretta-le-320-antenne-per-una-copertura-totale-del-segnale-e-nuove-frontiere-nella-cura",
       "summary": "Presentati oggi all’Ospedale Valduce di Como i nuovi servizi di copertura ad alta capacità per voce e dati indoor (DAS – Distributed Antenna System) attivati presso la struttura sanitaria. Al centro dell’incontro la realizzazione del nuovo sistema DAS (Distributed Antenna System) di INWIT per la copertura mobile multi-operatore e l’integrazione tra sensoristica indossabile – ovvero […] L'articolo Al Valduce e a Villa Beretta le 320 antenne per una copertura totale del segnale e nuove frontiere nella cura proviene da ComoZero .",
       "published_at": "2026-11-09T13:33:43+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il grande cuore di Como: grazie alle donazioni non smetteranno di suonare gli organi monumentali del Duomo",
-      "url": "https://comozero.it/attualita/il-grande-cuore-di-como-grazie-alle-donazioni-non-smetteranno-di-suonare-gli-organi-monumentali-del-duomo",
-      "summary": "Lo scorso mese di settembre è stato raggiunto l’obiettivo di 70.000 euro grazie al sostegno di privati, associazioni, aziende e Fondazione della Comunità Comasca. Poi, a ottobre, sono partiti gli interventi. Alla fine, sarà restituita piena efficienza a uno dei più importanti complessi organari della Lombardia. I Grandi Organi Monumentali del Duomo di Como si […] L'articolo Il grande cuore di Como: grazie alle donazioni non smetteranno di suonare gli organi monumentali del Duomo proviene da ComoZero .",
-      "published_at": "2026-11-09T13:32:48+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lago di Como: “Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”, la protesta cambia e sceglie il sorriso che graffia",
-      "url": "https://comozero.it/attualita/lago-di-como-ma-tu-verresti-a-sciare-sul-monte-san-primo-la-neve-ce-la-mette-la-regione-la-protesta-cambia-e-sceglie-il-sorriso-che-graffia",
-      "summary": "“Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”. E’ questo lo slogan – tra l’ironico e il sarcastico – della nuova campagna social sul progetto che vorrebbe riportare lo sci sulle pendici del Monte San Primo. Una serie di foto e un breve video realizzati dall’associazione Simbio […] L'articolo Lago di Como: “Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”, la protesta cambia e sceglie il sorriso che graffia proviene da ComoZero .",
-      "published_at": "2026-11-09T13:20:52+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
-      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
-      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
-      "published_at": "2026-11-09T13:08:18+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -628,76 +656,6 @@
       "url": "https://primacomo.it/cronaca/la-segnaletica-si-rifa-il-look-previste-anche-nuove-asfaltature",
       "summary": "Ad Asso interventi alla segnaletica stradale. Previsti anche lavori di asfaltatura. Lavori in paese Con un primo intervento realizzato a inizio mese e con i lavori completati lo scorso fine settimana l’Amministrazione ha provveduto al ripristino della segnaletica stradale in diverse zone del centro storico e nelle aree limitrofe. Sono stati eseguiti intervenuti in punti […] Continua la lettura di La segnaletica si rifà il look, previste anche nuove asfaltature sul portale Prima Como .",
       "published_at": "2026-11-07T16:00:24+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Svolta «green» nel servizio di trasporto scolastico: il Comune punta all’utilizzo di bus elettrici",
-      "url": "https://primacomo.it/attualita/svolta-green-nel-servizio-di-trasporto-scolastico-il-comune-punta-allutilizzo-di-bus-elettrici",
-      "summary": "Svolta «green» nel servizio di trasporto scolastico: il Comune punta all’utilizzo di bus elettrici. “Una scelta che va incontro a esigenze di risparmio energetico ma anche a livello economico” In vista della scadenza del contratto per l’affidamento del trasporto scolastico, il prossimo 31 dicembre, sarà presto avviata la gara per appaltare il servizio a un’azienda […] Continua la lettura di Svolta «green» nel servizio di trasporto scolastico: il Comune punta all’utilizzo di bus elettrici sul portale Prima Como .",
-      "published_at": "2026-11-07T15:00:33+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Meeting diocesano dei cantori: 400 a raduno",
-      "url": "https://primacomo.it/attualita/meeting-diocesano-dei-cantori-400-a-raduno",
-      "summary": "Circa 400 iscritti al meeting dei cantori della diocesi di Como. Il meeting dei cantori Si tratta di un appuntamento formativo rivolto a chiunque, nelle parrocchie, anima abitualmente il canto durante le celebrazioni. A spiegarlo è don Nicholas Negrini. Presenti direttori e rappresentanti dei cori, ma anche singoli cantori, persone che sostengono il canto dell’assemblea […] Continua la lettura di Meeting diocesano dei cantori: 400 a raduno sul portale Prima Como .",
-      "published_at": "2026-11-07T14:00:27+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Nuovo corso per imparare ad usare il defibrillatore con Volontari Soccorso Odv Bellagio",
-      "url": "https://primacomo.it/attualita/nuovo-corso-per-imparare-ad-usare-il-defibrillatore-con-volontari-soccorso-odv-bellagio",
-      "summary": "Per il mese di novembre l’associazione Volontari del Soccorso Odv Bellagio organizza il corso di abilitazione all’uso del defibrillatore per la popolazione. Imparare ad usare il defibrillatore “Imparare a intervenire nei primi minuti di un’emergenza può fare la differenza. Il corso Blsd (Basic Life Support and Defibrillation) insegna come riconoscere un arresto cardiaco, eseguire correttamente […] Continua la lettura di Nuovo corso per imparare ad usare il defibrillatore con Volontari Soccorso Odv Bellagio sul portale Prima Como .",
-      "published_at": "2026-11-07T13:00:28+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Nel borgo si accende il Natale",
-      "url": "https://primacomo.it/attualita/nel-borgo-si-accende-il-natale",
-      "summary": "Il Natale torna ad accendersi a Carimate: dopo il successo delle prime due edizioni, i mercatini natalizi quest’anno offriranno un programma ancora più ricco. Organizzati dalla Pro loco: A organizzarli, con il supporto del Comune e della biblioteca, la Pro loco. Afferma la presidente Marina Domenichelli: «Siamo partiti in sordina due anni fa, con la […] Continua la lettura di Nel borgo si accende il Natale sul portale Prima Como .",
-      "published_at": "2026-11-07T12:00:37+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Addio a Vittorio Garibaldi, questa mattina l’ultimo saluto",
-      "url": "https://primacomo.it/altro/addio-a-vittorio-garibaldi-questa-mattina-lultimo-saluto",
-      "summary": "Si è spento a 82 anni Vittorio Garibaldi, dopo che il fratello Angelo lo aveva già preceduto nel 2019. Erano stati loro a raccogliere l’eredità dei genitori, in particolare di mamma Irene Gussoni in Garibaldi, che nel 1964, trasferita da Pontremoli in Toscana, aveva fortemente voluto coronare il suo sogno di aprire un piccolo negozio di […] Continua la lettura di Addio a Vittorio Garibaldi, questa mattina l’ultimo saluto sul portale Prima Como .",
-      "published_at": "2026-11-07T11:00:21+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
