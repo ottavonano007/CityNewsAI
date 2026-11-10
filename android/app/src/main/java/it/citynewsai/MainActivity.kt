@@ -479,13 +479,6 @@ private fun CityNewsApp() {
                                     provinceQuery = ""
                                     territoryMenuExpanded = false
                                     keyboardController?.hide()
-                                    val briefingIntent = Intent(context, BriefingActivity::class.java).apply {
-                                        putExtra("province_name", province.name)
-                                        putExtra("province_code", province.code)
-                                        putExtra("province_region", province.region)
-                                        putExtra("period_id", selectedNewsPeriod)
-                                    }
-                                    context.startActivity(briefingIntent)
                                 }
                             )
                         }
@@ -570,7 +563,7 @@ private fun CityNewsApp() {
                         Text("Rassegna automatica intelligente", fontWeight = FontWeight.Bold,
                             style = MaterialTheme.typography.titleMedium)
                         Text(
-                            "Seleziona una provincia per consultare le notizie raccolte da Google News e dalle fonti locali disponibili. Troverai brevi riepiloghi, categorie, date e collegamenti agli articoli originali.",
+                            "Seleziona una provincia e il periodo desiderato, poi premi RASSEGNA per avviare la ricerca. Troverai brevi riepiloghi, categorie, date e collegamenti agli articoli originali.",
                             style = MaterialTheme.typography.bodyMedium
                         )
                         Button(
@@ -580,11 +573,12 @@ private fun CityNewsApp() {
                                     putExtra("province_code", selectedProvince.code)
                                     putExtra("province_region", selectedProvince.region)
                                     putExtra("period_id", selectedNewsPeriod)
+                                    putExtra("theme_mode", themeMode)
                                 }
                                 context.startActivity(briefingIntent)
                             },
                             modifier = Modifier.fillMaxWidth()
-                        ) { Text("APRI RASSEGNA DI " + selectedProvince.name.uppercase(Locale.ITALY)) }
+                        ) { Text("RASSEGNA DI " + selectedProvince.name.uppercase(Locale.ITALY)) }
                     }
                 }
                 Spacer(Modifier.height(12.dp))
