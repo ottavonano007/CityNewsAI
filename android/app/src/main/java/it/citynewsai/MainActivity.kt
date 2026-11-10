@@ -337,6 +337,7 @@ private fun CityNewsApp() {
     }
     var provinceQuery by remember { mutableStateOf("") }
     var territoryMenuExpanded by remember { mutableStateOf(false) }
+    var periodMenuExpanded by remember { mutableStateOf(false) }
     var startupMode by remember { mutableStateOf(prefs.getString(KEY_STARTUP_MODE, "preferred") ?: "preferred") }
     var themeMode by remember { mutableStateOf(prefs.getString(KEY_THEME, "system") ?: "system") }
     var locationBusy by remember { mutableStateOf(false) }
@@ -392,7 +393,6 @@ private fun CityNewsApp() {
         }
     }
     LaunchedEffect(Unit) {
-        refreshNews()
         if (startupMode == "location" &&
             ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED
         ) applyDetectedProvince()
@@ -545,73 +545,55 @@ private fun CityNewsApp() {
                     }
                 }
                 Spacer(Modifier.height(12.dp))
-                Surface(
-                    color = if (newsError.isNotBlank()) MaterialTheme.colorScheme.errorContainer else MaterialTheme.colorScheme.secondaryContainer,
-                    shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth()
+                Text("Periodo della rassegna", style = MaterialTheme.typography.labelLarge)
+                ExposedDropdownMenuBox(
+                    expanded = periodMenuExpanded,
+                    onExpandedChange = { periodMenuExpanded = it },
+                    modifier = Modifier.fillMaxWidth()
                 ) {
-                    Column(Modifier.padding(12.dp)) {
-                        Text(
-                            if (newsError.isNotBlank()) "AGGIORNAMENTO NON RIUSCITO" else "NOTIZIE LOCALI",
-                            fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelMedium
-                        )
-                        Spacer(Modifier.height(4.dp))
-                        Text(
-                            when {
-                                newsError.isNotBlank() -> newsError
-                                newsLoading && liveArticles.isEmpty() -> "Sto caricando le notizie più recenti…"
-                                newsUpdatedAt.isNotBlank() -> "Ultimo aggiornamento del notiziario: $newsUpdatedAt"
-                                else -> "Le notizie vengono aggiornate automaticamente durante la giornata."
-                            },
-                            style = MaterialTheme.typography.bodySmall
-                        )
-                    }
-                }
-                Spacer(Modifier.height(12.dp))
-                Text("Periodo delle notizie", style = MaterialTheme.typography.labelLarge)
-                Spacer(Modifier.height(6.dp))
-                Row(
-                    modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
-                    horizontalArrangement = Arrangement.spacedBy(6.dp)
-                ) {
-                    newsPeriods.forEach { period ->
-                        FilterChip(
-                            selected = selectedNewsPeriod == period.id,
-                            onClick = { selectedNewsPeriod = period.id },
-                            label = { Text(period.label) }
-                        )
-                    }
-                }
-                Spacer(Modifier.height(12.dp))
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(selectedProvince.name, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                    Spacer(Modifier.weight(1f))
-                    Text("${articles.size} notizie • ${newsPeriods.first { it.id == selectedNewsPeriod }.label}", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelMedium)
-                }
-                Spacer(Modifier.height(10.dp))
-                LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxSize()) {
-                    items(articles) { article ->
-                        NewsArticleCard(article) {
-                            runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(article.url))) }
+                    OutlinedTextField(
+                        value = newsPeriods.first { it.id == selectedNewsPeriod }.label,
+                        onValueChange = {},
+                        readOnly = true,
+                        singleLine = true,
+                        trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli il periodo") },
+                        modifier = Modifier.menuAnchor().fillMaxWidth()
+                    )
+                    ExposedDropdownMenu(expanded = periodMenuExpanded, onDismissRequest = { periodMenuExpanded = false }) {
+                        newsPeriods.forEach { period ->
+                            DropdownMenuItem(
+                                text = { Text(period.label) },
+                                onClick = { selectedNewsPeriod = period.id; periodMenuExpanded = false }
+                            )
                         }
                     }
-                    if (articles.isEmpty()) {
-                        item {
-                            Card(modifier = Modifier.fillMaxWidth()) {
-                                Column(Modifier.padding(18.dp)) {
-                                    Text(if (newsLoading) "Caricamento notizie…" else "Nessuna notizia disponibile per ${selectedProvince.name}.",
-                                        fontWeight = FontWeight.SemiBold)
-                                    Spacer(Modifier.height(6.dp))
-                                    Text("La copertura viene ampliata man mano che vengono verificate nuove testate locali.",
-                                        color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
+                ) {
+                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Text("Rassegna giornalistica AI", fontWeight = FontWeight.Bold,
+                            style = MaterialTheme.typography.titleMedium)
+                        Text(
+                            "Seleziona una provincia per avviare una ricerca web e ricevere un riepilogo delle notizie più importanti, raggruppate per argomento e corredate dalle fonti.",
+                            style = MaterialTheme.typography.bodyMedium
+                        )
+                        Button(
+                            onClick = {
+                                val briefingIntent = Intent(context, BriefingActivity::class.java).apply {
+                                    putExtra("province_name", selectedProvince.name)
+                                    putExtra("province_code", selectedProvince.code)
+                                    putExtra("province_region", selectedProvince.region)
+                                    putExtra("period_id", selectedNewsPeriod)
                                 }
-                            }
-                        }
-                    }
-                    item {
-                        Spacer(Modifier.height(8.dp))
-                        Text("City News AI • Prima versione di prova", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelSmall, modifier = Modifier.fillMaxWidth().padding(bottom = 18.dp))
+                                context.startActivity(briefingIntent)
+                            },
+                            modifier = Modifier.fillMaxWidth()
+                        ) { Text("APRI RASSEGNA DI " + selectedProvince.name.uppercase(Locale.ITALY)) }
                     }
                 }
+                Spacer(Modifier.height(12.dp))
             }
         }
     }
