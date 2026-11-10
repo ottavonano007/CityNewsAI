@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:53:08.777809+00:00",
+  "generated_at": "2026-11-10T21:49:07.052570+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, nuova luce su viale Varese: ok al progetto da 80mila euro (e pagano tanto i fondi dei frontalieri)",
+      "url": "https://comozero.it/attualita/como-nuova-luce-sara-su-viale-varese-ok-al-progetto-da-80mila-euro-e-pagano-tanto-i-fondi-dei-frontalieri",
+      "summary": "Il Comune di Como ha ufficialmente dato il via al progetto per rinnovare l’illuminazione pubblica lungo due tratti di viale Varese. La giunta del sindaco Alessandro Rapinese ha approvato il documento d’indirizzo per la progettazione dell’intervento, dichiarando l’atto immediatamente eseguibile. L’obiettivo è superare i frequenti guasti e disagi che lasciano spesso al buio automobilisti e […] L'articolo Como, nuova luce su viale Varese: ok al progetto da 80mila euro (e pagano tanto i fondi dei frontalieri) proviene da ComoZero .",
+      "published_at": "2026-11-10T21:01:28+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
     {
       "title": "Il grande segreto sottoterra del paesino meraviglioso e amato sul Lago di Como si svela. Con un regalo speciale",
       "url": "https://comozero.it/attualita/il-grande-segreto-sottoterra-del-paesino-meraviglioso-e-amato-del-lago-di-como-si-svela-con-un-regalo-speciale",
@@ -316,20 +332,6 @@
       "published_at": "2026-11-10T10:08:54+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, ennesimo colpo di scena: stop al taglio dei ciliegi di via XX Settembre. La lettera",
-      "url": "https://comozero.it/attualita/como-ennesimo-colpo-di-scena-stop-al-taglio-dei-ciliegi-di-via-xx-settembre-la-lettera",
-      "summary": "Nuovo colpo di scena nel braccio di ferro tra il Comitato per i ciliegi di via XX Settembre e il sindaco di Como, Alessandro Rapinese, che li vuole abbattere (“li sego” nello specifico, la sua ultima dichiarazione pubblica). E’ il Comitato (composto da Teresa Minniti, Giorgia Merlini e Sergio Gaddi) a far sapere le novità: […] L'articolo Como, ennesimo colpo di scena: stop al taglio dei ciliegi di via XX Settembre. La lettera proviene da ComoZero .",
-      "published_at": "2026-11-10T10:08:02+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
