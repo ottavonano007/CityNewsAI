@@ -17,13 +17,51 @@ internal data class BriefingArticle(val title:String,val summary:String,val sour
 internal data class BriefingResult(val articles:List<BriefingArticle>,val generatedAt:String,val feedsRead:Int)
 private data class FeedSpec(val name:String,val url:String)
 
+private val regionalNewsDomains = mapOf(
+ "Piemonte" to listOf("quotidianopiemontese.it", "lastampa.it"),
+ "Valle d'Aosta" to listOf("aostasera.it", "aostacronaca.it"),
+ "Lombardia" to listOf("ilgiorno.it", "giornaledibrescia.it", "ecodibergamo.it", "varesenews.it", "cremonaoggi.it"),
+ "Trentino-Alto Adige" to listOf("altoadige.it", "giornaletrentino.it"),
+ "Veneto" to listOf("ilgazzettino.it", "larena.it", "mattinopadova.it", "ilgornaledivicenza.it", "tribunatreviso.it", "nuovavenezia.it", "corrierealpi.it", "lavoce-nuova.it"),
+ "Friuli-Venezia Giulia" to listOf("messaggeroveneto.it", "ilpiccolo.it", "pordenoneoggi.it"),
+ "Liguria" to listOf("ilsecoloxix.it", "genova24.it", "ivg.it"),
+ "Emilia-Romagna" to listOf("ilrestodelcarlino.it", "gazzettadiparma.it", "gazzettadimodena.it", "gazzettadireggio.it", "liberta.it", "ravennanotizie.it", "corriereromagna.it"),
+ "Toscana" to listOf("lanazione.it", "gonews.it", "firenzetoday.it", "pisatoday.it", "arezzonotizie.it", "ilgiunco.net"),
+ "Umbria" to listOf("tuttoggi.info", "umbriadomani.it", "perugiatoday.it"),
+ "Marche" to listOf("corriereadriatico.it", "anconatoday.it", "vivereancona.it"),
+ "Lazio" to listOf("ilmessaggero.it", "romatoday.it", "latinatoday.it", "viterbotoday.it"),
+ "Abruzzo" to listOf("ilcentro.it", "chietitoday.it", "ilpescara.it", "cityrumors.it", "emmelle.it"),
+ "Molise" to listOf("primonumero.it", "isnews.it", "termolionline.it"),
+ "Campania" to listOf("ilmattino.it", "napolitoday.it", "salernotoday.it", "casertanews.it", "avellinotoday.it", "beneventonews24.it"),
+ "Puglia" to listOf("lagazzettadelmezzogiorno.it", "quotidianodipuglia.it", "baritoday.it", "lecceprima.it"),
+ "Basilicata" to listOf("lasiritide.it", "sassilive.it", "potenzanews.net"),
+ "Calabria" to listOf("gazzettadelsud.it", "corrieredellacalabria.it", "catanzaroinforma.it", "cosenzachannel.it", "reggiotoday.it"),
+ "Sicilia" to listOf("gds.it", "lasicilia.it", "palermotoday.it", "cataniaoggi.it"),
+ "Sardegna" to listOf("unionesarda.it", "lanuovasardegna.it", "cagliaritoday.it", "sassarinotizie.com")
+)
+
+private fun googleNewsFeed(name:String, query:String):FeedSpec =
+ FeedSpec(name,"https://news.google.com/rss/search?q="+Uri.encode(query)+"&hl=it&gl=IT&ceid=IT%3Ait")
+
 private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  val window=when(period){"24h"->" when:1d";"3d"->" when:3d";"7d"->" when:7d";"1m"->" when:1m";"6m"->" when:6m";else->" when:1y"}
- val q="\"" + p.name + "\" OR \"provincia di " + p.name + "\""
- val feeds= mutableListOf(FeedSpec("Google News","https://news.google.com/rss/search?q="+Uri.encode(q+window)+"&hl=it&gl=IT&ceid=IT%3Ait"))
+ val territory="\\""+p.name+"\\" OR \\"provincia di "+p.name+"\\""
+ val feeds= mutableListOf(googleNewsFeed("Google News",territory+window))
+ val domains=regionalNewsDomains[p.region].orEmpty()
+ if(domains.isNotEmpty()){
+  val sites=domains.joinToString(" OR "){"site:"+it}
+  feeds+=googleNewsFeed("Testate locali selezionate · "+p.region,"("+territory+") ("+sites+")"+window)
+ }
  when(p.code){
-  "PC"->{feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/");feeds+=FeedSpec("Google News · Libertà","https://news.google.com/rss/search?q="+Uri.encode("site:liberta.it Piacenza"+window)+"&hl=it&gl=IT&ceid=IT%3Ait")}
-  "CO"->{feeds+=FeedSpec("CiaoComo","https://www.ciaocomo.it/feed/");feeds+=FeedSpec("ComoZero","https://comozero.it/feed/");feeds+=FeedSpec("Prima Como","https://primacomo.it/feed/")}
+  "PC"->{
+   feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/")
+   feeds+=googleNewsFeed("Google News · Libertà","site:liberta.it Piacenza"+window)
+  }
+  "CO"->{
+   feeds+=FeedSpec("CiaoComo","https://www.ciaocomo.it/feed/")
+   feeds+=FeedSpec("ComoZero","https://comozero.it/feed/")
+   feeds+=FeedSpec("Prima Como","https://primacomo.it/feed/")
+  }
  }
  return feeds.distinctBy{it.url}
 }
