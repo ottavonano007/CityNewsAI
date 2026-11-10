@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-10T14:20:40.949928+00:00",
+  "generated_at": "2026-11-10T15:55:52.380876+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
+      "parsed": 0,
+      "inserted": 0,
+      "ok": true
+    },
+    {
+      "source": "CiaoComo",
       "parsed": 3,
       "inserted": 3,
       "ok": true
     },
     {
-      "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
-      "ok": true
-    },
-    {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "Meteo a Como e provincia: giovedì pioggia intensa poi il freddo nel fine settimana",
+      "url": "https://comozero.it/attualita/meteo-a-como-giovedi-pioggia-intensa-poi-il-freddo-nel-fine-settimana",
+      "summary": "Settimana all’insegna del maltempo sul Lario, con cieli coperti e precipitazioni diffuse. Venerdì possibile tregua, mentre sabato e domenica è atteso un clima più freddo. Ma sul fine settimana i modelli non concordano del tutto Nuvole, pioggia e temperature destinate a scendere nel corso del fine settimana. Le previsioni meteorologiche per Como e provincia delineano […] L'articolo Meteo a Como e provincia: giovedì pioggia intensa poi il freddo nel fine settimana proviene da ComoZero .",
+      "published_at": "2026-11-10T15:52:52+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il concerto del coro degli Alpini",
+      "url": "https://primacomo.it/attualita/il-concerto-del-coro-degli-alpini",
+      "summary": "Il coro Ana «Sandro Marelli» di Fino Mornasco sta scaldando la voce: in arrivo due appuntamenti, uno a Fino Mornasco, l’altro a Seregno. Il Festival Corale Regionale 2026 La fomazione finese partecipa al Festival Corale Regionale 2026, una manifestazione dedicata alla valorizzazione della coralità lombarda. Dopo il concerto di apertura, che si è svolto il […] Continua la lettura di Il concerto del coro degli Alpini sul portale Prima Como .",
+      "published_at": "2026-11-10T15:50:22+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Turismo a Como, a Spallino risponde Michelini: “La crisi abitativa non nasce con Airbnb. Il commercio di lusso ha espulso i ceti popolari”",
+      "url": "https://comozero.it/punti-di-vista/turismo-a-como-a-spallino-risponde-michelini-la-crisi-abitativa-non-nasce-con-airbnb-il-commercio-di-lusso-ha-espulso-i-ceti-popolari",
+      "summary": "Ieri abbiamo pubblicato un’ampia e articolata riflessione dell’ex assessore all’Urbanistica (giunta Lucini) l’avvocato Lorenzo Spallino: Como 2046: città per residenti o per turisti? I cinque pezzi (non facili) di Lorenzo Spallino. Parole cui risponde Luca Michelini, docente di Storia del pensiero economico all’Università di Pisa, comasco da sempre attento dalle dinamiche cittadine. Ecco quanto scrive: […] L'articolo Turismo a Como, a Spallino risponde Michelini: “La crisi abitativa non nasce con Airbnb. Il commercio di lusso ha espulso i ceti popolari” proviene da ComoZero .",
+      "published_at": "2026-11-10T14:43:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "pi"
+      ],
+      "territory_codes": [
+        "CO",
+        "PI"
+      ]
+    },
+    {
+      "title": "Tributi, concerti ed omaggi, tutti i live nei club",
+      "url": "https://www.ciaocomo.it/2026/11/10/tributi-concerti-ed-omaggi-tutti-i-live-nei-club/347514",
+      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Tributi, concerti ed omaggi, tutti i live nei club appeared first on CiaoComo .",
+      "published_at": "2026-11-10T14:00:50+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La prima volta di Liberali in azzurro, parole di elogio per Cesc:”Mi sta aiutando molto con tanta fiducia”",
+      "url": "https://www.ciaocomo.it/2026/11/10/la-prima-volta-di-liberali-in-azzurro-parole-di-elogio-per-cescmi-sta-aiutando-molto-con-tanta-fiducia/347683",
+      "summary": "Il fantasista azzurro oggi in conferenza stampa a Coverciano con Cissè. Elogi per il suo tecnico al Como, dispiacere per Aquilani. Il suo modello ? Totti. The post La prima volta di Liberali in azzurro, parole di elogio per Cesc:”Mi sta aiutando molto con tanta fiducia” appeared first on CiaoComo .",
+      "published_at": "2026-11-10T13:47:36+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Lombardia, disastro lavoro: 84 morti in nove mesi, 6 a Como con 4.290 denunce",
       "url": "https://comozero.it/attualita/lombardia-disastro-lavoro-84-morti-in-nove-mesi-6-a-como-con-4-290-denunce",
@@ -39,48 +111,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Futuri possibili”, in Cattolica la facoltà di Scienze della Formazione si confronta con gli studenti",
-      "url": "https://www.piacenzasera.it/2026/11/futuri-possibili-in-cattolica-la-facolta-di-scienze-della-formazione-si-confronta-con-gli-studenti/669746",
-      "summary": "Presentate le richerche condotte tra gli studenti delle scuole superiori di Piacenza The post “Futuri possibili”, in Cattolica la facoltà di Scienze della Formazione si confronta con gli studenti appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T12:20:17+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Tentò di speronare i carabinieri con l’auto rubata, identificato il responsabile: ha 19 anni",
-      "url": "https://www.piacenzasera.it/2026/11/tento-di-speronare-i-carabinieri-con-lauto-rubata-identificato-il-responsabile-ha-19-anni/669739",
-      "summary": "I fatti risalgono al 25 settembre scorso: grazie ai Ris di Parma è stato identificato il responsabile. Si tratta di un 19enne straniero, irregolare sul territorio nazionale The post Tentò di speronare i carabinieri con l’auto rubata, identificato il responsabile: ha 19 anni appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T11:40:45+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pr"
-      ],
-      "territory_codes": [
-        "PR"
-      ]
-    },
-    {
-      "title": "Finisce di scontare la pena per evasione e furto aggravato, espulso",
-      "url": "https://www.piacenzasera.it/2026/11/finisce-di-scontare-la-pena-per-evasione-e-furto-aggravato-espulso/669732",
-      "summary": "Subito dopo la scarcerazione, è stata immediatamente disposta nei suoi confronti l’espulsione con accompagnamento alla frontiera aerea di Bologna con destinazione solo andata Chisinau The post Finisce di scontare la pena per evasione e furto aggravato, espulso appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T11:30:16+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bo"
-      ],
-      "territory_codes": [
-        "BO"
       ]
     },
     {
@@ -280,40 +310,12 @@
       ]
     },
     {
-      "title": "ImparA!: torna il Festival di giornalismo Glocal la formazione al centro della 15° edizione",
-      "url": "https://www.ciaocomo.it/2026/11/10/impara-torna-il-festival-di-giornalismo-glocal-la-formazione-al-centro-della-15-edizione/347631",
-      "summary": "Dal 12 al 15 novembre, tra Varese e Castronno, quattro giorni di incontri, corsi e laboratori pratici su intelligenza artificiale, dati, sicurezza digitale e nuovi modelli editoriali. Oltre cinquanta relatori a Glocal The post ImparA!: torna il Festival di giornalismo Glocal la formazione al centro della 15° edizione appeared first on CiaoComo .",
-      "published_at": "2026-11-10T08:30:55+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "va"
-      ],
-      "territory_codes": [
-        "VA"
-      ]
-    },
-    {
       "title": "Quarto e ultimo appuntamento con “Le 4 Stagioni di Villa Erba”",
       "url": "https://primacomo.it/cultura/quarto-e-ultimo-appuntamento-con-le-4-stagioni-di-villa-erba",
       "summary": "Quarto e ultimo appuntamento dell’anno della rassegna “Le 4 Stagioni di Villa Erba”, a Cernobbio. “Le 4 Stagioni di Villa Erba” L’evento è promosso da Villa Erba in collaborazione con il Teatro Sociale di Como AsLiCo, con il contributo del Comune di Cernobbio e il patrocinio della Provincia di Como, del Comune di Como e […] Continua la lettura di Quarto e ultimo appuntamento con “Le 4 Stagioni di Villa Erba” sul portale Prima Como .",
       "published_at": "2026-11-10T08:27:30+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan",
-      "url": "https://comozero.it/pubbliredazionale/pubbli-con-clerici-auto-il-colosso-cinese-dellauto-arriva-a-como-design-italiano-e-tecnologia-la-sfida-di-changan",
-      "summary": "Il panorama automobilistico italiano si arricchisce di un nuovo ed entusiasmante capitolo con l’arrivo ufficiale, sul mercato nazionale, di Changan, colosso globale dell’auto che ha fatto ufficialmente il suo ingresso sul mercato nazionale all’inizio del 2026. A raccogliere la sfida e a guidare questa novità sul territorio comasco e lombardo è Clerici Auto, storica realtà […] L'articolo Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan proviene da ComoZero .",
-      "published_at": "2026-11-10T08:25:04+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -596,20 +598,6 @@
       "url": "https://primacomo.it/attualita/allhospice-entra-teodoro-i-malati-curati-con-le-coccole-di-un-cane",
       "summary": "A guidare l’annata 2026/2027 del club erbese è la presidente Angela Ciceri, che ha scelto di mettere anima, cuore e fondi in interventi assistiti con gli animali Stabilire un legame con l’animale: scambio di emozioni e sentimenti Il progetto “Un’impronta nel cuore” ha preso il via questo giovedì, 5 novembre, all’hospice Il Gelso di Casa […] Continua la lettura di All’hospice entra Teodoro: i malati curati con le coccole di un cane sul portale Prima Como .",
       "published_at": "2026-11-08T11:00:25+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La Consulta giovanile apre le porte: un centro di aggregazione in sede",
-      "url": "https://primacomo.it/altro/la-consulta-giovanile-apre-le-porte-un-centro-di-aggregazione-in-sede",
-      "summary": "Un centro di aggregazione nella sede della Consulta giovanile di Lurate Caccivio. Consulta giovanile, centro di aggregazione in sede Proseguono spediti i lavori organizzativi del sodalizio presieduto da Camilla Vigo e che vede come vice Daniele Armellini e come segretario Abdalla Imam. Nel pomeriggio di lunedì 2 novembre si è riunito il Consiglio direttivo per […] Continua la lettura di La Consulta giovanile apre le porte: un centro di aggregazione in sede sul portale Prima Como .",
-      "published_at": "2026-11-08T09:00:14+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
