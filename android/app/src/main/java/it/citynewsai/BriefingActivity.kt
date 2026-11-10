@@ -121,7 +121,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
    if(error.isNotBlank())item{Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.errorContainer),modifier=Modifier.fillMaxWidth()){
     Column(Modifier.padding(16.dp)){Text("Rassegna non disponibile",fontWeight=FontWeight.Bold);Spacer(Modifier.height(6.dp));Text(error);TextButton(
      onClick=refresh,
-     colors=TextButtonDefaults.textButtonColors(contentColor=MaterialTheme.colorScheme.primary)
+     colors=ButtonDefaults.textButtonColors(contentColor=MaterialTheme.colorScheme.primary)
     ){Text("RIPROVA")}}
    }}
    if(!loading&&error.isBlank()&&articles.isEmpty())item{Card(Modifier.fillMaxWidth()){
