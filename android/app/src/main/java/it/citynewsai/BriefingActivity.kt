@@ -54,24 +54,8 @@ class BriefingActivity : ComponentActivity() {
  }
 }
 private fun isNecrologyArticle(article:BriefingArticle):Boolean {
- if(article.necrology) return true
- val text=(article.title+" "+article.summary+" "+article.source+" "+article.url).lowercase(Locale.ITALY)
- val normalized=java.text.Normalizer.normalize(text,java.text.Normalizer.Form.NFD)
-  .replace(Regex("\\p{Mn}+"),"").replace("’"," ").replace("'"," ")
-  .replace(Regex("[^\\p{L}\\p{N}]+")," ").replace(Regex("\\s+")," ").trim()
- val indicators=listOf(
-  // Indicatori espliciti di annunci funebri ed epigrafi.
-  "necrolog","epigraf","manifesti funebri","annunci funebri","annuncio funebre",
-  "annuncio della famiglia","ne danno il triste annuncio","ne danno il doloroso annuncio",
-  "camera ardente","onoranze funebri","pompe funebri","servizi funebri",
-  "trigesimo","trigesima","in suffragio","partecipazione al lutto",
-  "sentite condoglianze","piu sentite condoglianze",
-  "i funerali avranno luogo","le esequie avranno luogo",
-  "la famiglia ringrazia","ringraziano quanti",
-  "ringraziamento ai presenti","ringraziamento per le condoglianze",
-  "anniversario della dipartita"
- )
- return indicators.any { normalized.contains(it) }
+ return article.necrology || listOf("necrologi","necrologie","necrologia")
+  .any{Uri.decode(article.url).contains(it,ignoreCase=true)}
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
