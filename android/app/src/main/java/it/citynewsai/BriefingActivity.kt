@@ -51,6 +51,7 @@ class BriefingActivity : ComponentActivity() {
  }
 }
 private fun isNecrologyArticle(article:BriefingArticle):Boolean {
+ if(article.necrology) return true
  val text=(article.title+" "+article.summary+" "+article.source+" "+article.url).lowercase(Locale.ITALY)
  val normalized=java.text.Normalizer.normalize(text,java.text.Normalizer.Form.NFD)
   .replace(Regex("\\p{Mn}+"),"").replace("’"," ").replace("'"," ")
