@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T20:06:37.348579+00:00",
+  "generated_at": "2026-11-11T21:43:02.271930+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Stati Uniti dopo le Midterm, a Como l’analisi della nuova identità americana",
+      "url": "https://comozero.it/attualita/stati-uniti-dopo-le-midterm-a-como-lanalisi-della-nuova-identita-americana",
+      "summary": "Le possibili chiavi per leggere e interpretare il nuovo quadro politico americano all’indomani delle elezioni di Midterm sono state l’argomento al centro del convegno organizzato, questa sera, mercoledì 11 novembre da Confindustria Como in collaborazione con Limes Club Como – Canton Ticino e Intesa Sanpaolo. Dopo i saluti di Alberto Novarese, Vicepresidente di Confindustria Como […] L'articolo Stati Uniti dopo le Midterm, a Como l’analisi della nuova identità americana proviene da ComoZero .",
+      "published_at": "2026-11-11T20:17:49+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Manovra, l’allarme di De Pascale: “Fondi sanità non garantiscono cure essenziali”",
       "url": "https://www.piacenzasera.it/2026/11/manovra-lallarme-di-de-pascale-fondi-sanita-non-garantiscono-cure-essenziali/670019",
@@ -170,9 +184,9 @@
       ]
     },
     {
-      "title": "“Tra Roma e Como, centrodestra inaccettabile e ipocrita” Il durissimo attacco sulle scuole",
+      "title": "“Tra Roma e Como, centrodestra inaccettabile e ipocrita”. Il durissimo attacco sulle scuole",
       "url": "https://comozero.it/politica/tra-roma-e-como-centrodestra-inaccettabile-e-ipocrita-il-durissimo-attacco-sulle-scuole",
-      "summary": "Durissimo attacco del Pd al centrodestra comasco (e nazionale) sul fronte delle scuole. Nel mirino della nota diffusa da Francesco Finizio, referente di settore per il partito locale, c’è la differenza di atteggiamento tra Roma e Como. “Da giorni assistiamo al teatrino di diversi esponenti della maggioranza di Governo che si dicono improvvisamente stupiti dei […] L'articolo “Tra Roma e Como, centrodestra inaccettabile e ipocrita” Il durissimo attacco sulle scuole proviene da ComoZero .",
+      "summary": "Durissimo attacco del Pd al centrodestra comasco (e nazionale) sul fronte delle scuole. Nel mirino della nota diffusa da Francesco Finizio, referente di settore per il partito locale, c’è la differenza di atteggiamento tra Roma e Como. “Da giorni assistiamo al teatrino di diversi esponenti della maggioranza di Governo che si dicono improvvisamente stupiti dei […] L'articolo “Tra Roma e Como, centrodestra inaccettabile e ipocrita”. Il durissimo attacco sulle scuole proviene da ComoZero .",
       "published_at": "2026-11-11T15:44:03+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -460,36 +474,6 @@
       "published_at": "2026-11-11T07:08:47+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, nuova luce su viale Varese: ok al progetto da 80mila euro (e pagano tanto i fondi dei frontalieri)",
-      "url": "https://comozero.it/attualita/como-nuova-luce-sara-su-viale-varese-ok-al-progetto-da-80mila-euro-e-pagano-tanto-i-fondi-dei-frontalieri",
-      "summary": "Il Comune di Como ha ufficialmente dato il via al progetto per rinnovare l’illuminazione pubblica lungo due tratti di viale Varese. La giunta del sindaco Alessandro Rapinese ha approvato il documento d’indirizzo per la progettazione dell’intervento, dichiarando l’atto immediatamente eseguibile. L’obiettivo è superare i frequenti guasti e disagi che lasciano spesso al buio automobilisti e […] L'articolo Como, nuova luce su viale Varese: ok al progetto da 80mila euro (e pagano tanto i fondi dei frontalieri) proviene da ComoZero .",
-      "published_at": "2026-11-10T21:01:28+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "VA"
-      ]
-    },
-    {
-      "title": "Il grande segreto sottoterra del paesino meraviglioso e amato sul Lago di Como si svela. Con un regalo speciale",
-      "url": "https://comozero.it/attualita/il-grande-segreto-sottoterra-del-paesino-meraviglioso-e-amato-del-lago-di-como-si-svela-con-un-regalo-speciale",
-      "summary": "Oltre 100 fotografie per documentare il patrimonio carsico del territorio, dalle grotte storiche alla Galleria Mina della Linea Cadorna. Domenica 15 novembre la presentazione del volume, poi una copia gratuita per ogni famiglia residente C’è un mondo nascosto sotto i ripidi versanti di Brienno, fatto di cavità naturali, passaggi sotterranei e ambienti che custodiscono una […] L'articolo Il grande segreto sottoterra del paesino meraviglioso e amato sul Lago di Como si svela. Con un regalo speciale proviene da ComoZero .",
-      "published_at": "2026-11-10T20:14:31+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
