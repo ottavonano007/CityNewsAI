@@ -246,7 +246,10 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  val localDomains=provincialNewsDomains[p.code].orEmpty().distinct()
  if(localDomains.isNotEmpty()){
   val sites=localDomains.joinToString(" OR "){"site:"+it}
-  feeds+=FeedSpec("Fonti provinciali · "+p.name,googleNewsFeed("","("+sites+")"+after).url,true)\n  // Secondo passaggio dedicato ai centri minori: frazioni, località, contrade e borgate.\n  val minorPlaces="(frazione OR frazioni OR località OR localita OR borgata OR borgate OR contrada OR contrade OR paese OR paesi OR quartiere OR quartieri OR rione OR rioni OR territorio comunale)"\n  feeds+=FeedSpec("Comuni e frazioni · "+p.name,googleNewsFeed("", "("+sites+") "+minorPlaces+after).url,true)
+  feeds+=FeedSpec("Fonti provinciali · "+p.name,googleNewsFeed("","("+sites+")"+after).url,true)
+  // Secondo passaggio dedicato ai centri minori: frazioni, località, contrade e borgate.
+  val minorPlaces="(frazione OR frazioni OR località OR localita OR borgata OR borgate OR contrada OR contrade OR paese OR paesi OR quartiere OR quartieri OR rione OR rioni OR territorio comunale)"
+  feeds+=FeedSpec("Comuni e frazioni · "+p.name,googleNewsFeed("", "("+sites+") "+minorPlaces+after).url,true)
  }
 
  // Le testate regionali sono interrogate in gruppi piccoli, evitando query troppo lunghe.
@@ -389,7 +392,9 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
  feedResults.forEach{items->if(items.isNotEmpty())read++;all+=items}
  val now=System.currentTimeMillis()
  val cutoff=periodStartMillis(periodId,now)
- // I risultati delle ricerche provinciali e dei feed locali possono riguardare frazioni o comuni\n // senza citare il capoluogo: non applicare loro il filtro lessicale sul nome della provincia.\n val filtered=all.filter{it.publishedAt.time in cutoff..now && (it.localSource || isDirectlyRelevant(it,province))}
+ // I risultati delle ricerche provinciali e dei feed locali possono riguardare frazioni o comuni
+ // senza citare il capoluogo: non applicare loro il filtro lessicale sul nome della provincia.
+ val filtered=all.filter{it.publishedAt.time in cutoff..now && (it.localSource || isDirectlyRelevant(it,province))}
  val remaining=filtered.sortedByDescending{articleDetailScore(it)}
  val merged=mutableListOf<BriefingArticle>()
  val consumed=BooleanArray(remaining.size)
