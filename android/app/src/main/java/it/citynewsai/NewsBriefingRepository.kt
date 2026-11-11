@@ -321,16 +321,20 @@ private fun clean(raw:String):String{
  return s.take(if(end in 160..280)end+1 else 277).trimEnd()+ "…"
 }
 private fun category(s:String):String{
- val t=s.lowercase(Locale.ITALY)
- return when{
-  listOf("incidente","cronaca","polizia","carabinieri","furto","arrest","vigili del fuoco","sicurezza").any{it in t}->"CRONACA E SICUREZZA"
-  listOf("comune","sindaco","consiglio","amministrazione","urbanistica","scuola","servizi","sanità","ospedale").any{it in t}->"POLITICA E SERVIZI"
-  listOf("lavoro","azienda","imprese","economia","commercio","industria").any{it in t}->"ECONOMIA E LAVORO"
-  listOf("meteo","temporale","allerta","maltempo","neve","pioggia").any{it in t}->"AMBIENTE E METEO"
-  listOf("teatro","mostra","concerto","cultura","museo","festival","libro").any{it in t}->"CULTURA"
-  listOf("calcio","sport","partita","basket","volley").any{it in t}->"SPORT"
-  else->"TERRITORIO"
- }
+ val normalized=java.text.Normalizer.normalize(s.lowercase(Locale.ITALY),java.text.Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"),"")
+ val title=normalized.substringBefore(" || ")
+ val summary=normalized.substringAfter(" || ","")
+ val groups=linkedMapOf(
+  "CRONACA E SICUREZZA" to listOf("incidente","cronaca","polizia","carabinieri","furto","rapina","arrest","indagine","aggress","vigili del fuoco","sicurezza","ferito","feriti","denuncia","truffa","estorsione","spaccio"),
+  "POLITICA E SERVIZI" to listOf("comune","sindaco","consiglio comunale","amministrazione","urbanistica","scuola","servizi","sanita","ospedale","giunta","assessore","delibera","municipio","lavori pubblici","trasporto pubblico"),
+  "ECONOMIA E LAVORO" to listOf("lavoro","azienda","imprese","economia","commercio","industria","assunzioni","occupazione","sindacato","stipendi","attivita produttive","negozi","artigian"),
+  "AMBIENTE E METEO" to listOf("meteo","temporale","allerta","maltempo","neve","pioggia","ambiente","inquinamento","rifiuti","raccolta differenziata","frana","alluvione","fiume","parco","incendio boschivo"),
+  "CULTURA" to listOf("teatro","mostra","concerto","cultura","museo","festival","libro","presentazione","spettacolo","cinema","biblioteca","arte","rassegna","letteratura"),
+  "SPORT" to listOf("sport","calcio","calcistico","partita","campionato","serie a","serie b","serie c","serie d","eccellenza","promozione","prima categoria","seconda categoria","terza categoria","girone","classifica","allenatore","calciatore","calciatrice","squadra","club","atleta","atleti","gara","torneo","derby","gol","goal","rigore","arbitro","stadio","trasferta","playoff","play off","playout","play out","coppa","vittoria","sconfitta","pareggio","pallavolo","pallacanestro","basket","volley","rugby","ciclismo","ciclista","nuoto","tennis","atletica","pallamano","pallanuoto","scherma","judo","karate","motori","rally","formula 1","formula uno","maratona","podismo","ginnastica","sci","snowboard","pattinaggio","tifosi","tifo","allenamento","retrocessione","capocannoniere")
+ )
+ fun score(words:List<String>):Int = words.sumOf { word -> (if(word in title) 3 else 0)+(if(word in summary) 1 else 0) }
+ val best=groups.maxByOrNull { score(it.value) }
+ return if(best!=null&&score(best.value)>=2)best.key else "TERRITORIO"
 }
 private fun rank(c:String)=when(c){"CRONACA E SICUREZZA"->0;"POLITICA E SERVIZI"->1;"ECONOMIA E LAVORO"->2;"AMBIENTE E METEO"->3;"CULTURA"->4;"SPORT"->5;else->6}
 private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
@@ -356,7 +360,7 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
     val tag=x.name.lowercase(Locale.ROOT)
     if(inside&&(tag=="item"||tag=="entry")){
      val d=parseDate(date)
-     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){val summary=clean(desc);out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" "+summary),localSource=f.localSource)}
+     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){val summary=clean(desc);out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" || "+summary),localSource=f.localSource)}
      inside=false
     }
    }
