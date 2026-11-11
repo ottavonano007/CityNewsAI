@@ -23,6 +23,7 @@ import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.FilterList
+import androidx.compose.material.icons.filled.ArrowUpward
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -36,6 +37,7 @@ import androidx.compose.ui.unit.dp
 import kotlin.math.roundToInt
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.collect
 import java.text.SimpleDateFormat
 import java.util.Locale
 
@@ -71,7 +73,10 @@ private fun isNecrologyArticle(article:BriefingArticle):Boolean {
   "le esequie avranno luogo","la famiglia ringrazia","ringraziano quanti",
   "in memoria di","in ricordo di","anniversario della morte",
   "anniversario della scomparsa","anniversario della dipartita",
-  "ricordano con affetto","lascia nel dolore"
+  "ricordano con affetto","lascia nel dolore","ultimo saluto","ultimo addio",
+  "la scomparsa di","la morte di","deceduto","deceduta","morto","morta",
+  "ricordo dei defunti","annuncio della famiglia","partecipazione al lutto",
+  "ringraziamento ai presenti","ringraziamento per le condoglianze"
  )
  return indicators.any { normalized.contains(it) }
 }
@@ -118,6 +123,20 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  val listState=rememberLazyListState()
  var showScrollThumb by remember { mutableStateOf(false) }
  var isThumbDragging by remember { mutableStateOf(false) }
+ var showQuickFilters by remember { mutableStateOf(false) }
+ LaunchedEffect(listState) {
+  var previousIndex=0
+  var previousOffset=0
+  kotlinx.coroutines.flow.snapshotFlow { listState.firstVisibleItemIndex to listState.firstVisibleItemScrollOffset }.collect { (index,offset) ->
+   val movingDown=index>previousIndex||(index==previousIndex&&offset>previousOffset)
+   val movingUp=index<previousIndex||(index==previousIndex&&offset<previousOffset)
+   if(index<=2) showQuickFilters=false
+   else if(movingUp) showQuickFilters=true
+   else if(movingDown) showQuickFilters=false
+   previousIndex=index
+   previousOffset=offset
+  }
+ }
  LaunchedEffect(listState.isScrollInProgress,isThumbDragging) {
   if(listState.isScrollInProgress || isThumbDragging) showScrollThumb=true else { delay(1400); showScrollThumb=false }
  }
@@ -240,6 +259,44 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
     Text("Rassegna automatica basata su feed e fonti pubbliche. Le notizie non sono verificate da una redazione: apri gli articoli originali per controllare i dettagli.",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
     Spacer(Modifier.height(20.dp))
    }
+  }
+  if(showQuickFilters && listState.firstVisibleItemIndex>2) {
+   Column(
+    Modifier.align(Alignment.TopCenter).fillMaxWidth()
+     .background(MaterialTheme.colorScheme.background)
+     .padding(start=16.dp,end=16.dp,top=2.dp,bottom=8.dp)
+   ) {
+    OutlinedTextField(
+     value=keywordQuery,
+     onValueChange={keywordQuery=it},
+     modifier=Modifier.fillMaxWidth(),
+     label={Text("CERCA PAROLE CHIAVE")},
+     placeholder={Text("Es. viabilità, scuola, comune…")},
+     singleLine=true,
+     trailingIcon={
+      if(keywordQuery.isNotEmpty()) IconButton(onClick={keywordQuery=""}) {
+       Icon(Icons.Default.Close,contentDescription="Cancella ricerca")
+      }
+     }
+    )
+    OutlinedButton(
+     onClick={showCategoryFilter=true},
+     modifier=Modifier.fillMaxWidth().padding(top=8.dp),
+     colors=ButtonDefaults.outlinedButtonColors(contentColor=MaterialTheme.colorScheme.primary)
+    ) {
+     Icon(Icons.Default.FilterList,contentDescription=null)
+     Spacer(Modifier.width(8.dp))
+     Text("ARGOMENTI ATTIVI: "+selectedCategories.size+"/"+availableCategories.size+(if("NECROLOGI" in selectedCategories) " • NECROLOGI" else ""))
+    }
+   }
+  }
+  FloatingActionButton(
+   onClick={scope.launch { listState.animateScrollToItem(0);showQuickFilters=false }},
+   modifier=Modifier.align(Alignment.BottomEnd).padding(end=68.dp,bottom=20.dp).size(48.dp),
+   containerColor=MaterialTheme.colorScheme.primary.copy(alpha=0.72f),
+   contentColor=MaterialTheme.colorScheme.onPrimary
+  ) {
+   Icon(Icons.Default.ArrowUpward,contentDescription="Torna all'inizio della rassegna")
   }
   val totalItems=listState.layoutInfo.totalItemsCount
   val visibleItems=listState.layoutInfo.visibleItemsInfo.size
