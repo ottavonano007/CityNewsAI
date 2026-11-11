@@ -54,13 +54,25 @@ private fun isNecrologyArticle(article:BriefingArticle):Boolean {
  val text=(article.title+" "+article.summary).lowercase(Locale.ITALY)
  val normalized=java.text.Normalizer.normalize(text,java.text.Normalizer.Form.NFD)
   .replace(Regex("\\p{Mn}+"),"")
+  .replace("’"," ")
+  .replace("'"," ")
+  .replace(Regex("[^\\p{L}\\p{N}]+")," ")
+  .trim()
  val indicators=listOf(
-  "necrolog", "annuncio funebre", "annunci funebri", "annuncio di morte",
-  "e' mancato", "e mancato", "e' venuto a mancare", "venuto a mancare",
-  "ci ha lasciato", "ci ha lasciati", "camera ardente", "esequie",
-  "funerale", "funerali", "in memoria di", "ricordo di", "anniversario della scomparsa"
+  // Radici: intercettano automaticamente singolare, plurale e varianti.
+  "necrolog", "epigraf", "funebr", "funeral", "esequi", "cordogli",
+  "lutt", "decesso", "decess", "tumulaz", "inumaz", "cremaz",
+  "camera ardente", "onoranze funebri", "pompe funebri",
+  "annuncio di morte", "annunci di morte", "annuncio funebre",
+  "e mancato", "e venuto a mancare", "e venuta a mancare",
+  "venuto a mancare", "venuta a mancare", "ci ha lasciato",
+  "ci hanno lasciato", "si e spento", "si e spenta",
+  "si e addormentato", "si e addormentata",
+  "trigesimo", "trigesima", "in suffragio", "partecipazione al lutto",
+  "anniversario della morte", "anniversario della scomparsa",
+  "in memoria di", "in ricordo di"
  )
- return indicators.any{normalized.contains(it)}
+ return indicators.any { normalized.contains(it) }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
