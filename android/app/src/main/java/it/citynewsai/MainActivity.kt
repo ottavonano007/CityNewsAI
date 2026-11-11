@@ -775,50 +775,140 @@ private fun SettingsPage(
     onPaletteChange: (Int) -> Unit, onDetectLocation: () -> Unit
 ) {
     var paletteMenuExpanded by remember { mutableStateOf(false) }
+    val scheme = MaterialTheme.colorScheme
+    val chipColors = FilterChipDefaults.filterChipColors(
+        selectedContainerColor = scheme.primaryContainer,
+        selectedLabelColor = scheme.onPrimaryContainer,
+        selectedLeadingIconColor = scheme.primary,
+        selectedTrailingIconColor = scheme.primary
+    )
     Scaffold(
-        containerColor = MaterialTheme.colorScheme.background,
+        containerColor = scheme.background,
         topBar = {
             TopAppBar(
-                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.Default.ArrowBack, contentDescription = "Indietro") } },
-                title = { Text("Impostazioni", fontWeight = FontWeight.Bold) }
+                navigationIcon = {
+                    IconButton(onClick = onBack) {
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Indietro", tint = scheme.primary)
+                    }
+                },
+                title = { Text("Impostazioni", fontWeight = FontWeight.Bold) },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = scheme.surface,
+                    titleContentColor = scheme.onSurface,
+                    navigationIconContentColor = scheme.primary,
+                    actionIconContentColor = scheme.primary
+                )
             )
         }
     ) { padding ->
-        Column(Modifier.fillMaxSize().padding(padding).padding(16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-            Card(Modifier.fillMaxWidth()) {
+        Column(
+            Modifier.fillMaxSize().padding(padding).padding(16.dp).verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(14.dp)
+        ) {
+            Card(
+                Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = scheme.surfaceVariant)
+            ) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text("Aspetto", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                    Text("Tema dell'app", style = MaterialTheme.typography.titleMedium)
+                    Text("Aspetto", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = scheme.onSurface)
+                    Text("Tema dell'app", style = MaterialTheme.typography.titleMedium, color = scheme.onSurface)
                     Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                        FilterChip(selected = themeMode == "system", onClick = { onThemeChange("system") }, label = { Text("Sistema") })
-                        FilterChip(selected = themeMode == "light", onClick = { onThemeChange("light") }, label = { Text("Chiaro") })
-                        FilterChip(selected = themeMode == "dark", onClick = { onThemeChange("dark") }, label = { Text("Scuro") })
+                        FilterChip(selected = themeMode == "system", onClick = { onThemeChange("system") }, label = { Text("Sistema") }, colors = chipColors)
+                        FilterChip(selected = themeMode == "light", onClick = { onThemeChange("light") }, label = { Text("Chiaro") }, colors = chipColors)
+                        FilterChip(selected = themeMode == "dark", onClick = { onThemeChange("dark") }, label = { Text("Scuro") }, colors = chipColors)
                     }
-                    Text("Combinazione colori: ${colorPalette + 1} di 15", style = MaterialTheme.typography.titleMedium)
-                    ExposedDropdownMenuBox(expanded = paletteMenuExpanded, onExpandedChange = { paletteMenuExpanded = it }, modifier = Modifier.fillMaxWidth()) {
+                    Text("Combinazione colori: ${colorPalette + 1} di 15", style = MaterialTheme.typography.titleMedium, color = scheme.onSurface)
+                    ExposedDropdownMenuBox(
+                        expanded = paletteMenuExpanded,
+                        onExpandedChange = { paletteMenuExpanded = it },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
                         OutlinedTextField(
-                            value = "Palette ${colorPalette + 1} di 15", onValueChange = {}, readOnly = true, singleLine = true,
-                            trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli combinazione colori") },
+                            value = "Palette ${colorPalette + 1} di 15",
+                            onValueChange = {},
+                            readOnly = true,
+                            singleLine = true,
+                            trailingIcon = {
+                                Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli combinazione colori", tint = scheme.primary)
+                            },
+                            colors = OutlinedTextFieldDefaults.colors(
+                                focusedBorderColor = scheme.primary,
+                                unfocusedBorderColor = scheme.outline,
+                                focusedLabelColor = scheme.primary,
+                                cursorColor = scheme.primary
+                            ),
                             modifier = Modifier.menuAnchor().fillMaxWidth()
                         )
-                        ExposedDropdownMenu(expanded = paletteMenuExpanded, onDismissRequest = { paletteMenuExpanded = false }) {
+                        ExposedDropdownMenu(
+                            expanded = paletteMenuExpanded,
+                            onDismissRequest = { paletteMenuExpanded = false }
+                        ) {
                             (0..14).forEach { index ->
-                                DropdownMenuItem(text = { Text("Palette ${index + 1}") }, onClick = { onPaletteChange(index); paletteMenuExpanded = false })
+                                DropdownMenuItem(
+                                    text = { Text("Palette ${index + 1}") },
+                                    onClick = { onPaletteChange(index); paletteMenuExpanded = false },
+                                    colors = MenuDefaults.itemColors(
+                                        textColor = scheme.onSurface,
+                                        leadingIconColor = scheme.primary,
+                                        trailingIconColor = scheme.primary
+                                    )
+                                )
                             }
                         }
                     }
+                    Text("Anteprima della palette attiva", style = MaterialTheme.typography.labelLarge, color = scheme.onSurfaceVariant)
+                    Row(
+                        Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Box(
+                            Modifier.weight(1f).height(34.dp)
+                                .background(scheme.background, RoundedCornerShape(8.dp))
+                        )
+                        Box(
+                            Modifier.weight(1f).height(34.dp)
+                                .background(scheme.surface, RoundedCornerShape(8.dp))
+                                .then(Modifier.background(scheme.surface.copy(alpha = 0.01f), RoundedCornerShape(8.dp)))
+                        )
+                        Box(
+                            Modifier.weight(1f).height(34.dp)
+                                .background(scheme.primary, RoundedCornerShape(8.dp))
+                        )
+                        Box(
+                            Modifier.weight(1f).height(34.dp)
+                                .background(scheme.secondaryContainer, RoundedCornerShape(8.dp))
+                        )
+                    }
                 }
             }
-            Card(Modifier.fillMaxWidth()) {
+            Card(
+                Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = scheme.surfaceVariant)
+            ) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text("Avvio dell'app", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    Text("Avvio dell'app", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = scheme.onSurface)
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        FilterChip(selected = startupMode == "preferred", onClick = { onStartupModeChange("preferred") }, label = { Text("Provincia preferita") })
-                        FilterChip(selected = startupMode == "location", onClick = { onStartupModeChange("location"); onDetectLocation() }, label = { Text("La mia posizione") }, leadingIcon = { Icon(Icons.Default.MyLocation, contentDescription = null) })
+                        FilterChip(
+                            selected = startupMode == "preferred",
+                            onClick = { onStartupModeChange("preferred") },
+                            label = { Text("Provincia preferita") },
+                            colors = chipColors
+                        )
+                        FilterChip(
+                            selected = startupMode == "location",
+                            onClick = { onStartupModeChange("location"); onDetectLocation() },
+                            label = { Text("La mia posizione") },
+                            leadingIcon = { Icon(Icons.Default.MyLocation, contentDescription = null) },
+                            colors = chipColors
+                        )
                     }
                     if (startupMode == "location") TextButton(
-                        enabled = !locationBusy, onClick = onDetectLocation,
-                        colors = ButtonDefaults.textButtonColors(contentColor = MaterialTheme.colorScheme.primary)
+                        enabled = !locationBusy,
+                        onClick = onDetectLocation,
+                        colors = ButtonDefaults.textButtonColors(
+                            contentColor = scheme.primary,
+                            disabledContentColor = scheme.onSurfaceVariant
+                        )
                     ) {
                         Icon(Icons.Default.MyLocation, contentDescription = null)
                         Text(if (locationBusy) " Rilevamento…" else " Rileva nuovamente la posizione")
