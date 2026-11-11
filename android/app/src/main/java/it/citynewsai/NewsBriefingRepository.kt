@@ -279,38 +279,6 @@ private fun periodStartMillis(period:String, now:Long=System.currentTimeMillis()
  return calendar.timeInMillis
 }
 
-private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
- val after=" after:"+SimpleDateFormat("yyyy-MM-dd",Locale.ROOT).format(Date(periodStartMillis(period)))
- val aliases=provincialSearchAliases[p.code].orEmpty()
- val terms=(listOf(p.name,"provincia di "+p.name)+aliases).distinct()
- val territory="("+terms.joinToString(" OR "){"\""+it+"\"" }+")"
- val region="\""+p.region+"\""
- val feeds=mutableListOf<FeedSpec>()
-
- // Ricerca generale: provincia e regione, senza dipendere da una singola testata.
- feeds+=googleNewsFeed("Google News · "+p.name,territory+" "+region+after)
-
- // Seconda query con termini locali: recupera articoli che non riportano la dicitura amministrativa.
- val localTopics="(cronaca OR comune OR territorio OR viabilita OR sindaco OR provincia OR eventi)"
- feeds+=googleNewsFeed("Notizie locali · "+p.name,territory+" "+localTopics+" "+region+after)
-
- // Ricerca sulle testate regionali e provinciali, senza concatenare tutti i domini in un'unica OR.
- val domains=(provincialNewsDomains[p.code].orEmpty()+regionalNewsDomains[p.region].orEmpty()).distinct()
- if(domains.isNotEmpty()){
-  val sites=domains.joinToString(" OR "){"site:"+it}
-  feeds+=googleNewsFeed("Testate locali · "+p.name,territory+" ("+sites+")"+after)
- }
-
- when(p.code){
-  "PC"->feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/")
-  "CO"->{
-   feeds+=FeedSpec("CiaoComo","https://www.ciaocomo.it/feed/")
-   feeds+=FeedSpec("ComoZero","https://comozero.it/feed/")
-   feeds+=FeedSpec("Prima Como","https://primacomo.it/feed/")
-  }
- }
- return feeds.distinctBy{it.url}
-}
 private fun parseDate(s:String):Date?{
  val patterns=listOf("EEE, dd MMM yyyy HH:mm:ss zzz","EEE, dd MMM yyyy HH:mm:ss Z","yyyy-MM-dd'T'HH:mm:ssXXX","yyyy-MM-dd'T'HH:mm:ss'Z'","yyyy-MM-dd")
  for(p in patterns)try{return SimpleDateFormat(p,Locale.US).apply{isLenient=false;if(p.endsWith("'Z'"))timeZone=TimeZone.getTimeZone("UTC")}.parse(s.trim())}catch(_:Exception){}
