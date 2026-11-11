@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T22:57:57.906233+00:00",
+  "generated_at": "2026-11-11T23:54:33.096202+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -214,22 +214,6 @@
       ]
     },
     {
-      "title": "Cisl Scuola da Piacenza a Roma contro i tagli della manovra di Bilancio “Irricevibili”",
-      "url": "https://www.piacenzasera.it/2026/11/cisl-scuola-da-piacenza-a-roma-contro-i-tagli-della-manovra-di-bilancio-irricevibili/669965",
-      "summary": "Al centro della contestazione c'è l'ipotesi di una riduzione di circa 7.000 posti tra personale docente e ATA (ausiliario, tecnico e amministrativo), misura giudicata \"inaccettabile\" dai sindacati The post Cisl Scuola da Piacenza a Roma contro i tagli della manovra di Bilancio “Irricevibili” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T15:34:33+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza",
-        "rm"
-      ],
-      "territory_codes": [
-        "PC",
-        "RM"
-      ]
-    },
-    {
       "title": "Spaccio nei boschi, maxi blitz a Como e in altre 6 province: smantellati 17 bivacchi, tre arresti e sequestri di droga e armi",
       "url": "https://comozero.it/cronaca/spaccio-nei-boschi-maxi-blitz-a-como-e-in-altre-6-province-smantellati-17-bivacchi-tre-arresti-e-sequestri-di-droga-e-armi",
       "summary": "Un’operazione su vasta scala, condotta contemporaneamente in sette province lombarde, per smantellare le basi dello spaccio nei boschi e sottrarre alle organizzazioni criminali il controllo delle aree verdi. Nel pomeriggio di martedì 10 novembre, i Carabinieri hanno messo in campo un dispositivo straordinario che ha interessato Milano, Bergamo, Monza Brianza, Varese, Como, Lecco e Pavia, […] L'articolo Spaccio nei boschi, maxi blitz a Como e in altre 6 province: smantellati 17 bivacchi, tre arresti e sequestri di droga e armi proviene da ComoZero .",
@@ -251,20 +235,6 @@
         "MI",
         "PV",
         "VA"
-      ]
-    },
-    {
-      "title": "Catene o gomme invernali, torna l’obbligo sulle strade Anas. Ecco quali nel piacentino",
-      "url": "https://www.piacenzasera.it/2026/11/catene-o-gomme-invernali-torna-lobbligo-sulle-strade-anas-ecco-dove-nel-piacentino/669961",
-      "summary": "Dal 15 novembre sui tratti delle strade statali a rischio di precipitazioni nevose o ghiaccio The post Catene o gomme invernali, torna l’obbligo sulle strade Anas. Ecco quali nel piacentino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T15:23:38+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
