@@ -215,11 +215,11 @@ private fun parseNewsDate(value: String): Date? {
 private data class NewsPeriod(val id: String, val label: String, val amount: Int, val unit: Int)
 
 private val newsPeriods = listOf(
+    NewsPeriod("ultimora", "Ultim'ora", 0, java.util.Calendar.DATE),
     NewsPeriod("24h", "Ultime 24 ore", 24, java.util.Calendar.HOUR_OF_DAY),
     NewsPeriod("3d", "Ultimi 3 giorni", 3, java.util.Calendar.DATE),
     NewsPeriod("7d", "Ultima settimana", 7, java.util.Calendar.DATE),
     NewsPeriod("1m", "Ultimo mese", 1, java.util.Calendar.MONTH),
-    NewsPeriod("6m", "Ultimi 6 mesi", 6, java.util.Calendar.MONTH),
     NewsPeriod("1y", "Ultimo anno", 1, java.util.Calendar.YEAR)
 )
 
@@ -228,7 +228,14 @@ private fun filterNewsByPeriod(articles: List<NewsArticle>, periodId: String): L
     val now = Date()
     val cutoffCalendar = java.util.Calendar.getInstance().apply {
         time = now
-        add(period.unit, -period.amount)
+        if (period.id == "ultimora") {
+            set(java.util.Calendar.HOUR_OF_DAY, 0)
+            set(java.util.Calendar.MINUTE, 0)
+            set(java.util.Calendar.SECOND, 0)
+            set(java.util.Calendar.MILLISECOND, 0)
+        } else {
+            add(period.unit, -period.amount)
+        }
     }
     val cutoff = cutoffCalendar.time
     return articles.mapNotNull { article ->
