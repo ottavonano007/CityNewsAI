@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T21:43:02.271930+00:00",
+  "generated_at": "2026-11-11T22:57:57.906233+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, uffici senza corridoio, grovigli di cavi e asfalto da rifare: cantieri da 390mila euro per la Polizia locale",
+      "url": "https://comozero.it/attualita/como-uffici-senza-corridoio-grovigli-di-cavi-e-asfalto-da-rifare-cantieri-da-390mila-per-la-polizia-locale",
+      "summary": "[Copertina: l’immagine di sinistra, presente anche sotto, ha avuto una messa a fuoco lievemente migliorata con AI senza alcuna modifica dell’originale] Due interventi distinti approvati dalla Giunta comunale: 190mila euro per sistemare l’area esterna del Comando di viale Innocenzo XI e altri 200mila per ripensare gli spazi al primo piano e mettere ordine negli impianti […] L'articolo Como, uffici senza corridoio, grovigli di cavi e asfalto da rifare: cantieri da 390mila euro per la Polizia locale proviene da ComoZero .",
+      "published_at": "2026-11-11T21:50:59+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Stati Uniti dopo le Midterm, a Como l’analisi della nuova identità americana",
       "url": "https://comozero.it/attualita/stati-uniti-dopo-le-midterm-a-como-lanalisi-della-nuova-identita-americana",
@@ -410,10 +424,10 @@
       ]
     },
     {
-      "title": "Chiude per una notte l’autostrada verso Chiasso: ecco quando",
-      "url": "https://comozero.it/attualita/chiude-per-una-notte-lautostrada-verso-chiasso-ecco-quando",
-      "summary": "Sulla A9 Lainate-Como-Chiasso, per consentire le attività di ispezione e manutenzione delle gallerie, dalle 23 di sabato 14 alle 6 di domenica 15 novembre, sarà chiuso il tratto compreso tra Como Centro e Chiasso, verso Chiasso/Svizzera. Lo svincolo di Como Centro sarà chiuso in entrata in entrambe le direzioni. In alternativa si consiglia: per la […] L'articolo Chiude per una notte l’autostrada verso Chiasso: ecco quando proviene da ComoZero .",
-      "published_at": "2026-11-11T08:57:23+00:00",
+      "title": "Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange",
+      "url": "https://comozero.it/pubbliredazionale/ragazze-alla-pari-lavoro-retribuito-tirocini-le-occasioni-per-imparare-le-lingue-in-tutta-europa-con-sunflower-exchange",
+      "summary": "Con l’arrivo dell’autunno e l’inizio del nuovo anno scolastico e lavorativo, cresce la voglia di pianificare le prossime tappe per il proprio futuro. Ed è proprio in questo momento che la storica agenzia comasca di intermediazione linguistica e scuola di lingue Sunflower Exchange, forte della sua esperienza ormai quasi trentennale, amplia le sue proposte rivolte […] L'articolo Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange proviene da ComoZero .",
+      "published_at": "2026-11-11T09:29:54+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
