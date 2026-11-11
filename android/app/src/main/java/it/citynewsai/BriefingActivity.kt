@@ -105,9 +105,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
      Row(Modifier.fillMaxWidth().clickable {
       selectedCategories=if(category in selectedCategories) selectedCategories-category else selectedCategories+category
      }.padding(vertical=3.dp),verticalAlignment=Alignment.CenterVertically) {
-      Checkbox(checked=category in selectedCategories,onCheckedChange={checked->
-       selectedCategories=if(checked) selectedCategories+category else selectedCategories-category
-      })
+      Checkbox(checked=category in selectedCategories,onCheckedChange=null)
       Text(category,style=MaterialTheme.typography.labelLarge)
      }
     }
