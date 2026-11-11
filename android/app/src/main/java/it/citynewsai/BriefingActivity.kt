@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.background
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.ui.input.pointer.pointerInput
@@ -127,7 +128,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  LaunchedEffect(listState) {
   var previousIndex=0
   var previousOffset=0
-  kotlinx.coroutines.flow.snapshotFlow { listState.firstVisibleItemIndex to listState.firstVisibleItemScrollOffset }.collect { (index,offset) ->
+  snapshotFlow { listState.firstVisibleItemIndex to listState.firstVisibleItemScrollOffset }.collect { (index,offset) ->
    val movingDown=index>previousIndex||(index==previousIndex&&offset>previousOffset)
    val movingUp=index<previousIndex||(index==previousIndex&&offset<previousOffset)
    if(index<=2) showQuickFilters=false
