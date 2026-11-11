@@ -439,6 +439,19 @@ private suspend fun parseFeed(f:FeedSpec):List<BriefingArticle>{
     }
    }
   }
+  if(f.resolvePublisherLinks){
+   // Il titolo limita le richieste; la classificazione finale usa soltanto l'URL originale risolto.
+   val candidates=out.filter{isGoogleNewsArticleUrl(it.url)&&isNecrologyCandidate(it.title)}.take(30)
+   val resolvedFlags=mutableMapOf<String,Boolean>()
+   candidates.chunked(2).forEach{batch->
+    val results=coroutineScope{batch.map{article->async(Dispatchers.IO){
+     val publisherUrl=resolveGoogleNewsPublisherUrl(article.url)
+     article.url to (publisherUrl!=null&&isNecrologyLink(publisherUrl))
+    }}.awaitAll()}
+    results.forEach{(url,match)->resolvedFlags[url]=match}
+   }
+   return out.map{article->if(resolvedFlags[article.url]==true)article.copy(category="NECROLOGI",necrology=true) else article}
+  }
   return out
  }finally{c.disconnect()}
 }
