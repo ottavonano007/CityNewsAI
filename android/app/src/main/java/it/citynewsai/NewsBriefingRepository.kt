@@ -406,6 +406,8 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
   merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size)
  }
  val resultLimit=when(periodId){"ultimora"->60;"24h"->60;"3d"->75;"7d"->90;"1m"->110;"1y"->150;else->60}
- val articles=merged.sortedWith(compareBy<BriefingArticle>{rank(it.category)}.thenByDescending{it.publishedAt.time}).take(resultLimit)
+ val ordered=if(periodId=="ultimora") merged.sortedByDescending{it.publishedAt.time}
+  else merged.sortedWith(compareBy<BriefingArticle>{rank(it.category)}.thenByDescending{it.publishedAt.time})
+ val articles=ordered.take(resultLimit)
  BriefingResult(articles,SimpleDateFormat("yyyy-MM-dd HH:mm",Locale.ITALY).format(Date()),read)
 }
