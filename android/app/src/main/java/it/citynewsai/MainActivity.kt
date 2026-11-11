@@ -293,17 +293,90 @@ private const val KEY_FAVORITE_PROVINCES = "favorite_provinces"
 
 
 internal fun cityNewsColorScheme(dark: Boolean, index: Int): androidx.compose.material3.ColorScheme {
- val darkPalettes=listOf(
- Triple(0xFF8CC9E5,0xFF9CCBD9,0xFF101A20),Triple(0xFFFFB4A2,0xFFFFD6A5,0xFF211715),Triple(0xFFB8C0FF,0xFFD7D9FF,0xFF17182A),Triple(0xFFA8DADC,0xFFBDE0FE,0xFF101F25),Triple(0xFFE6B8FF,0xFFD8C4F1,0xFF21172A),
- Triple(0xFFC3F0CA,0xFFA8DDB5,0xFF142219),Triple(0xFFFFD166,0xFFFFE6A7,0xFF241E10),Triple(0xFFFFA6C1,0xFFFFC8DD,0xFF281720),Triple(0xFF9BF6FF,0xFFCAFFFF,0xFF102124),Triple(0xFFD0BFFF,0xFFE1D5FF,0xFF1D1930),
- Triple(0xFFB7E4C7,0xFFD8F3DC,0xFF14231B),Triple(0xFFFFC6A5,0xFFFFE0CC,0xFF251A14),Triple(0xFFA0C4FF,0xFFC7DCFF,0xFF121D2B),Triple(0xFFE4C1F9,0xFFF1DDFB,0xFF21182A),Triple(0xFFB5EAD7,0xFFD2F5E8,0xFF12231D))
- val lightPalettes=listOf(
- Triple(0xFF174B68,0xFF477D91,0xFFF3F6F8),Triple(0xFF9B3D32,0xFFB96A55,0xFFFFF5F0),Triple(0xFF414A8A,0xFF7079B5,0xFFF4F4FF),Triple(0xFF176B68,0xFF4C9690,0xFFF0FAF8),Triple(0xFF704080,0xFF9A70AA,0xFFFAF4FC),
- Triple(0xFF356B45,0xFF6D9B73,0xFFF3FAF3),Triple(0xFF805B10,0xFFB58A32,0xFFFFFAEA),Triple(0xFF9A4164,0xFFC16F91,0xFFFFF4F8),Triple(0xFF176477,0xFF4D91A3,0xFFF0FAFC),Triple(0xFF59458A,0xFF8975B7,0xFFF7F4FF),
- Triple(0xFF39704D,0xFF75A482,0xFFF2FAF4),Triple(0xFF99552F,0xFFC27D54,0xFFFFF6F0),Triple(0xFF285B91,0xFF648DB9,0xFFF1F7FD),Triple(0xFF80518B,0xFFAA7CB2,0xFFFBF4FC),Triple(0xFF2D725D,0xFF66A08A,0xFFF1FAF6))
- val p=(if(dark)darkPalettes else lightPalettes)[index.coerceIn(0,14)]
- return if(dark) darkColorScheme(primary=Color(p.first),secondary=Color(p.second),background=Color(p.third),surface=Color(p.third).copy(red=(Color(p.third).red*1.12f).coerceAtMost(1f)))
- else lightColorScheme(primary=Color(p.first),secondary=Color(p.second),background=Color(p.third),surface=Color.White)
+    // Le 15 palette mantengono variazioni di blu, ma rispettano sempre la gamma
+    // neutra richiesta per la schermata principale.
+    val bluePrimaries = listOf(
+        0xFF176B9B, 0xFF1976A8, 0xFF246FA5, 0xFF287FB5, 0xFF12658F,
+        0xFF3486B8, 0xFF1D6694, 0xFF398DBB, 0xFF205F8A, 0xFF2C78A8,
+        0xFF155F91, 0xFF438FB9, 0xFF1C719F, 0xFF347BA6, 0xFF0E6C9F
+    )
+    val blueSecondaries = listOf(
+        0xFF5A9FC5, 0xFF68A9CC, 0xFF649BC0, 0xFF75B2D2, 0xFF5794B8,
+        0xFF80B5D3, 0xFF6099BD, 0xFF8ABBD5, 0xFF548BAF, 0xFF72A9C9,
+        0xFF5795BE, 0xFF91BED8, 0xFF659FC3, 0xFF7AAAC9, 0xFF4D91B9
+    )
+    val lightBackgrounds = listOf(
+        0xFFF7F9FB, 0xFFF3F6F8, 0xFFF5F8FA, 0xFFEFF5F9, 0xFFFAFBFC,
+        0xFFF1F4F6, 0xFFF6F8FA, 0xFFEDF4F8, 0xFFF8FAFB, 0xFFF2F6F9,
+        0xFFF4F5F7, 0xFFEFF3F6, 0xFFF7FAFC, 0xFFF0F5F8, 0xFFFAFCFD
+    )
+    val i = index.coerceIn(0, 14)
+    val primary = Color(bluePrimaries[i])
+    val secondary = Color(blueSecondaries[i])
+
+    return if (dark) {
+        val background = Color(0xFF171B1F)
+        val surface = Color(0xFF20262B)
+        val surfaceVariant = Color(0xFF30383F)
+        val container = Color(0xFF29343C)
+        darkColorScheme(
+            primary = Color(blueSecondaries[i]),
+            onPrimary = Color(0xFF071923),
+            primaryContainer = container,
+            onPrimaryContainer = Color(0xFFDCEEF8),
+            secondary = primary,
+            onSecondary = Color(0xFF071923),
+            secondaryContainer = Color(0xFF303B43),
+            onSecondaryContainer = Color(0xFFDCE8EF),
+            tertiary = secondary,
+            onTertiary = Color(0xFF071923),
+            tertiaryContainer = Color(0xFF303B43),
+            onTertiaryContainer = Color(0xFFDCE8EF),
+            background = background,
+            onBackground = Color(0xFFE7EAED),
+            surface = surface,
+            onSurface = Color(0xFFE7EAED),
+            surfaceVariant = surfaceVariant,
+            onSurfaceVariant = Color(0xFFC0C8CE),
+            outline = Color(0xFF82909A),
+            outlineVariant = Color(0xFF4B565E),
+            inverseSurface = Color(0xFFE7EAED),
+            inverseOnSurface = Color(0xFF20262B),
+            inversePrimary = Color(0xFF176B9B),
+            surfaceTint = secondary
+        )
+    } else {
+        val background = Color(lightBackgrounds[i])
+        val surface = Color(0xFFFFFFFF)
+        val surfaceVariant = Color(0xFFE9F0F5)
+        val paleBlue = Color(0xFFDCECF6)
+        lightColorScheme(
+            primary = primary,
+            onPrimary = Color(0xFFFFFFFF),
+            primaryContainer = paleBlue,
+            onPrimaryContainer = Color(0xFF123B55),
+            secondary = secondary,
+            onSecondary = Color(0xFF102F42),
+            secondaryContainer = Color(0xFFE4EFF6),
+            onSecondaryContainer = Color(0xFF183D55),
+            tertiary = primary,
+            onTertiary = Color(0xFFFFFFFF),
+            tertiaryContainer = Color(0xFFE4EFF6),
+            onTertiaryContainer = Color(0xFF183D55),
+            background = background,
+            onBackground = Color(0xFF202A32),
+            surface = surface,
+            onSurface = Color(0xFF202A32),
+            surfaceVariant = surfaceVariant,
+            onSurfaceVariant = Color(0xFF53636F),
+            outline = Color(0xFF8799A5),
+            outlineVariant = Color(0xFFC9D5DD),
+            inverseSurface = Color(0xFF29343C),
+            inverseOnSurface = Color(0xFFF3F6F8),
+            inversePrimary = Color(0xFF9BC9E2),
+            surfaceTint = primary
+        )
+    }
 }
 
 private suspend fun detectProvince(context: Context): Province? {
