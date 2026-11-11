@@ -344,7 +344,10 @@ private fun isNecrologyText(raw:String):Boolean {
   "le esequie avranno luogo","la famiglia ringrazia","ringraziano quanti",
   "in memoria di","in ricordo di","anniversario della morte",
   "anniversario della scomparsa","anniversario della dipartita",
-  "ricordano con affetto","lascia nel dolore"
+  "ricordano con affetto","lascia nel dolore","ultimo saluto","ultimo addio",
+  "la scomparsa di","la morte di","deceduto","deceduta","morto","morta",
+  "ricordo dei defunti","annuncio della famiglia","partecipazione al lutto",
+  "ringraziamento ai presenti","ringraziamento per le condoglianze"
  )
  return indicators.any { text.contains(it) }
 }
@@ -381,7 +384,7 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
     else if(inside)when(tag){
      "title"->title=readTag(x)
      "description","summary","content","content:encoded","encoded"->{val value=readTag(x);if(value.length>desc.length)desc=value}
-     "category","subject"->{
+     "category","subject","keywords","dc:subject","media:keywords"->{
       val term=x.getAttributeValue(null,"term")?:x.getAttributeValue(null,"label")
       val value=if(!term.isNullOrBlank())term else readTag(x)
       if(value.isNotBlank())feedCategories+=" "+value
