@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-11T11:06:38.314297+00:00",
+  "generated_at": "2026-11-11T12:00:46.078070+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
@@ -28,10 +28,24 @@
   ],
   "articles": [
     {
-      "title": "Allarme bomba in più scuole piacentine, disposta l’evacuazione degli alunni in diversi istituti",
+      "title": "“Caccivio-Guanzate”: senso unico alternato a Bulgarograsso per lavori sulla rete elettrica",
+      "url": "https://primacomo.it/altro/caccivio-guanzate-senso-unico-alternato-a-bulgarograsso-per-lavori-sulla-rete-elettrica",
+      "summary": "Sp 25 “Caccivio-Guanzate”: senso unico alternato a Bulgarograsso per lavori sulla rete elettrica Dal 19 novembre al 18 dicembre, nei giorni feriali, modifiche temporanee alla circolazione nelle vie Monte Bianco, Monte Chiaro e Puccini Senso unico alternato Senso unico alternato per la S.P. 25 “Caccivio-Guanzate”, nel Comune di Bulgarograsso. Per consentire l’esecuzione dei lavori per […] Continua la lettura di “Caccivio-Guanzate”: senso unico alternato a Bulgarograsso per lavori sulla rete elettrica sul portale Prima Como .",
+      "published_at": "2026-11-11T11:35:52+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Allarme bomba in più scuole piacentine, disposta l’evacuazione degli alunni in città e provincia",
       "url": "https://www.piacenzasera.it/2026/11/allarme-bomba-alla-scuola-di-rivergaro-disposta-levacuazione-dei-bambini/669855",
-      "summary": "La diffusione dell'avviso con la presenza di bombe nelle scuole avrebbe interessato diversi istituti non solo in provincia di Piacenza, ma anche nella Regione e nel resto d'Italia The post Allarme bomba in più scuole piacentine, disposta l’evacuazione degli alunni in diversi istituti appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T09:56:48+00:00",
+      "summary": "La diffusione dell'avviso con la presenza di bombe nelle scuole ha interessato diversi istituti non solo in provincia di Piacenza, ma anche nella Regione e nel resto d'Italia The post Allarme bomba in più scuole piacentine, disposta l’evacuazione degli alunni in città e provincia appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T11:01:48+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -39,6 +53,20 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Spazio Gloria, raccolti 28mila euro per la riapertura: il programma di Gloria Off si allarga a nuove sale",
+      "url": "https://www.ciaocomo.it/2026/11/11/spazio-gloria-raccolti-28mila-euro-per-la-riapertura-il-programma-di-gloria-off-si-allarga-a-nuove-sale/347719",
+      "summary": "Dalla serata dedicata a Francesco Guccini al Joshua Blues Club alle proiezioni all’Astra e a Cinelandia, la solidarietà del mondo culturale comasco tiene viva l'attività dello storico spazio cittadino The post Spazio Gloria, raccolti 28mila euro per la riapertura: il programma di Gloria Off si allarga a nuove sale appeared first on CiaoComo .",
+      "published_at": "2026-11-11T10:00:24+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -81,20 +109,6 @@
       ],
       "territory_codes": [
         "MI"
-      ]
-    },
-    {
-      "title": "Spazio Gloria, raccolti 28mila euro per la riapertura: il programma di Gloria Off si allarga a nuove sale",
-      "url": "https://www.ciaocomo.it/2026/11/11/spazio-gloria-raccolti-28mila-euro-per-la-riapertura-il-programma-di-gloria-off-si-allarga-a-nuove-sale/347719",
-      "summary": "Dalla serata dedicata a Francesco Guccini al Joshua Blues Club alle proiezioni all’Astra e a Cinelandia, la solidarietà del mondo culturale comasco tiene viva l'attività dello storico spazio cittadino The post Spazio Gloria, raccolti 28mila euro per la riapertura: il programma di Gloria Off si allarga a nuove sale appeared first on CiaoComo .",
-      "published_at": "2026-11-11T09:30:24+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -256,40 +270,12 @@
       ]
     },
     {
-      "title": "Nuovo Codice della Strada, anche Piacenza firma l’appello “Penalizza le città, va riscritto”",
-      "url": "https://www.piacenzasera.it/2026/11/nuovo-codice-della-strada-anche-piacenza-firma-lappello-penalizza-le-citta-va-riscritto/669818",
-      "summary": "L'assessora alla mobilità Adriana Fantini è tra i firmatari del documento sottoscritto da altri 26 capoluoghi di provincia, con il quale si chiede una \"profonda riscrittura\" della riforma governativa The post Nuovo Codice della Strada, anche Piacenza firma l’appello “Penalizza le città, va riscritto” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-10T17:34:44+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "“Tante cazzate e niente da insegnare ma questa vita è stata maestra”, nel nuovo libro le mille esistenze di Beppe Guin. E quella ‘profezia’ sul Lago così vera e triste",
       "url": "https://comozero.it/cultura-e-spettacolo/tante-cazzate-e-niente-da-insegnare-ma-questa-vita-e-stata-maestra-nel-nuovo-libro-le-mille-esistenze-di-beppe-guin-e-quella-profezia-sul-lago-cosi-vera-e-triste",
       "summary": "“Visto che non arriverà un altro Giuseppe Guin a raccontare la mia vita, allora l’ho fatto da solo”. Non c’è neppure bisogno di chiedere allo scrittore e giornalista comasco Giuseppe Guin perché abbia deciso di scrivere questa sorta di autobiografia per racconti, il suo nuovo libro “La vita maestra” (Dominioni Editore), in uscita il 13 […] L'articolo “Tante cazzate e niente da insegnare ma questa vita è stata maestra”, nel nuovo libro le mille esistenze di Beppe Guin. E quella ‘profezia’ sul Lago così vera e triste proviene da ComoZero .",
       "published_at": "2026-11-10T17:04:44+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Tributi, concerti ed omaggi, tutti i live nei club",
-      "url": "https://www.ciaocomo.it/2026/11/10/tributi-concerti-ed-omaggi-tutti-i-live-nei-club/347514",
-      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Tributi, concerti ed omaggi, tutti i live nei club appeared first on CiaoComo .",
-      "published_at": "2026-11-10T17:00:50+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -642,20 +628,6 @@
       "url": "https://primacomo.it/sport/la-campi-reali-cantu-vince-la-maratona-contro-sarroch",
       "summary": "Sono state necessarie più di due ore di gioco alla Campi Reali Cantù per battere 3-2 la Sarlux Sarroch, alla quale non sono bastati i 28 punti di Andrea Schiro. Coach Tommaso Invernici pesca dalla panchina, e trova in Francesco Gianotti e in un Gabriele Pertoldi da 21 palloni a terra (ex aequo con il […] Continua la lettura di La Campi Reali Cantù vince la maratona contro Sarroch sul portale Prima Como .",
       "published_at": "2026-11-09T07:18:05+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "L’Inter ferma la corsa del Como: Esposito e Thuram decidono il 2-0 a San Siro",
-      "url": "https://primacomo.it/sport/linter-ferma-la-corsa-del-como-esposito-e-thuram-decidono-il-2-0-a-san-siro",
-      "summary": "Si interrompe a San Siro la straordinaria serie positiva del Como. Dopo la leggendaria notte di Lens, la squadra di Cesc Fàbregas cade per 2-0 contro l’Inter di Cristian Chivu, nell’undicesima giornata di Serie A. A decidere la sfida sono le reti di Pio Esposito e Marcus Thuram, entrambe realizzate nei primi venti minuti. Una […] Continua la lettura di L’Inter ferma la corsa del Como: Esposito e Thuram decidono il 2-0 a San Siro sul portale Prima Como .",
-      "published_at": "2026-11-08T19:04:54+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
