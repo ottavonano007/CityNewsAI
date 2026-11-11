@@ -12,6 +12,7 @@ import org.xmlpull.v1.XmlPullParser
 import java.net.HttpURLConnection
 import java.net.URL
 import java.text.SimpleDateFormat
+import java.text.Normalizer
 import java.util.Date
 import java.util.Locale
 import java.util.TimeZone
@@ -268,15 +269,33 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
 private fun periodStartMillis(period:String, now:Long=System.currentTimeMillis()):Long {
  val calendar=java.util.Calendar.getInstance().apply{timeInMillis=now}
  when(period){
+  "ultimora"->{calendar.set(java.util.Calendar.HOUR_OF_DAY,0);calendar.set(java.util.Calendar.MINUTE,0);calendar.set(java.util.Calendar.SECOND,0);calendar.set(java.util.Calendar.MILLISECOND,0)}
   "24h"->calendar.add(java.util.Calendar.HOUR_OF_DAY,-24)
   "3d"->calendar.add(java.util.Calendar.DAY_OF_YEAR,-3)
   "7d"->calendar.add(java.util.Calendar.DAY_OF_YEAR,-7)
   "1m"->calendar.add(java.util.Calendar.MONTH,-1)
-  "6m"->calendar.add(java.util.Calendar.MONTH,-6)
   "1y"->calendar.add(java.util.Calendar.YEAR,-1)
   else->calendar.add(java.util.Calendar.HOUR_OF_DAY,-24)
  }
  return calendar.timeInMillis
+}
+
+private fun normalizedTerritoryText(value:String):String =
+ Normalizer.normalize(value.lowercase(Locale.ITALY),Normalizer.Form.NFD)
+  .replace(Regex("\\p{Mn}+"),"")
+  .replace(Regex("[^\\p{L}\\p{N}]+")," ").trim()
+
+private fun isDirectlyRelevant(article:BriefingArticle,province:Province):Boolean {
+ val terms=(listOf(province.name)+provincialSearchAliases[province.code].orEmpty())
+  .map(::normalizedTerritoryText).filter{it.length>=3}.distinct()
+ val title=normalizedTerritoryText(article.title)
+ val body=normalizedTerritoryText(article.title+" "+article.summary)
+ fun containsTerm(text:String,term:String):Boolean =
+  Regex("(^| )"+Regex.escape(term)+"( |$)").containsMatchIn(text)
+ if(terms.any{containsTerm(title,it)}) return true
+ // Una sola citazione nel testo descrittivo non basta: potrebbe essere marginale.
+ val mentions=terms.sumOf{term->Regex("(^| )"+Regex.escape(term)+"( |$)").findAll(body).count()}
+ return mentions>=2
 }
 
 private fun parseDate(s:String):Date?{
@@ -370,7 +389,7 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
  feedResults.forEach{items->if(items.isNotEmpty())read++;all+=items}
  val now=System.currentTimeMillis()
  val cutoff=periodStartMillis(periodId,now)
- val filtered=all.filter{it.publishedAt.time in cutoff..now}
+ val filtered=all.filter{it.publishedAt.time in cutoff..now && isDirectlyRelevant(it,province)}
  val remaining=filtered.sortedByDescending{articleDetailScore(it)}
  val merged=mutableListOf<BriefingArticle>()
  val consumed=BooleanArray(remaining.size)
@@ -386,7 +405,7 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
   val best=group.maxByOrNull{articleDetailScore(it)}!!
   merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size)
  }
- val resultLimit=when(periodId){"24h"->60;"3d"->75;"7d"->90;"1m"->110;"6m"->130;"1y"->150;else->60}
+ val resultLimit=when(periodId){"ultimora"->60;"24h"->60;"3d"->75;"7d"->90;"1m"->110;"1y"->150;else->60}
  val articles=merged.sortedWith(compareBy<BriefingArticle>{rank(it.category)}.thenByDescending{it.publishedAt.time}).take(resultLimit)
  BriefingResult(articles,SimpleDateFormat("yyyy-MM-dd HH:mm",Locale.ITALY).format(Date()),read)
 }
