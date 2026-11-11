@@ -13,6 +13,8 @@ import androidx.compose.ui.input.pointer.consumeAllChanges
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
@@ -20,6 +22,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.FilterList
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -52,13 +55,16 @@ class BriefingActivity : ComponentActivity() {
 private fun BriefingPage(province:Province,periodId:String,themeMode:String,palette:Int,onBack:()->Unit) {
  val context=LocalContext.current
  val scope=rememberCoroutineScope()
- val labels=mapOf("24h" to "Ultime 24 ore","3d" to "Ultimi 3 giorni","7d" to "Ultima settimana","1m" to "Ultimo mese","6m" to "Ultimi 6 mesi","1y" to "Ultimo anno")
+ val labels=mapOf("ultimora" to "Ultim'ora","24h" to "Ultime 24 ore","3d" to "Ultimi 3 giorni","7d" to "Ultima settimana","1m" to "Ultimo mese","1y" to "Ultimo anno")
  var articles by remember { mutableStateOf(emptyList<BriefingArticle>()) }
  var loading by remember { mutableStateOf(true) }
  var error by remember { mutableStateOf("") }
  var updatedAt by remember { mutableStateOf("") }
  var feedsRead by remember { mutableIntStateOf(0) }
  var keywordQuery by remember { mutableStateOf("") }
+ val availableCategories=listOf("CRONACA E SICUREZZA","POLITICA E SERVIZI","ECONOMIA E LAVORO","AMBIENTE E METEO","CULTURA","SPORT","TERRITORIO")
+ var selectedCategories by remember { mutableStateOf(emptySet<String>()) }
+ var showCategoryFilter by remember { mutableStateOf(false) }
  val refresh:()->Unit={
   scope.launch {
    loading=true;error=""
@@ -70,11 +76,14 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  LaunchedEffect(province.code,periodId){refresh()}
  val isDark=when(themeMode){"dark"->true;"light"->false;else->isSystemInDarkTheme()}
  val colors=cityNewsColorScheme(isDark,palette)
- val filteredArticles=remember(articles,keywordQuery) {
+ val filteredArticles=remember(articles,keywordQuery,selectedCategories) {
   val terms=keywordQuery.trim().lowercase(Locale.ITALY).split(Regex("\\s+")).filter{it.isNotBlank()}
-  if(terms.isEmpty()) articles else articles.filter { article ->
-   val searchable=listOf(article.title,article.summary,article.source,article.category).joinToString(" ").lowercase(Locale.ITALY)
-   terms.all { searchable.contains(it) }
+  articles.filter { article ->
+   (selectedCategories.isEmpty() || article.category in selectedCategories) &&
+    (terms.isEmpty() || run {
+     val searchable=listOf(article.title,article.summary,article.source,article.category).joinToString(" ").lowercase(Locale.ITALY)
+     terms.all { searchable.contains(it) }
+    })
   }
  }
  val sections=filteredArticles.groupBy{it.category}
@@ -85,6 +94,28 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
   if(listState.isScrollInProgress || isThumbDragging) showScrollThumb=true else { delay(1400); showScrollThumb=false }
  }
  MaterialTheme(colorScheme=colors) {
+ if(showCategoryFilter) AlertDialog(
+  onDismissRequest={showCategoryFilter=false},
+  title={Text("Filtra per argomento")},
+  text={
+   Column(Modifier.heightIn(max=420.dp).verticalScroll(rememberScrollState())) {
+    Text("Seleziona le categorie da visualizzare. Se non ne selezioni nessuna, saranno mostrati tutti gli argomenti.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+    Spacer(Modifier.height(10.dp))
+    availableCategories.forEach { category ->
+     Row(Modifier.fillMaxWidth().clickable {
+      selectedCategories=if(category in selectedCategories) selectedCategories-category else selectedCategories+category
+     }.padding(vertical=3.dp),verticalAlignment=Alignment.CenterVertically) {
+      Checkbox(checked=category in selectedCategories,onCheckedChange={checked->
+       selectedCategories=if(checked) selectedCategories+category else selectedCategories-category
+      })
+      Text(category,style=MaterialTheme.typography.labelLarge)
+     }
+    }
+   }
+  },
+  confirmButton={TextButton(onClick={showCategoryFilter=false}){Text("APPLICA")}},
+  dismissButton={TextButton(onClick={selectedCategories=emptySet();showCategoryFilter=false}){Text("MOSTRA TUTTI")}}
+ )
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
   title={Column{Text(province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
@@ -108,9 +139,20 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
      }
     )
    }
-   if(keywordQuery.isNotBlank()&&!loading&&error.isBlank())item {
+   item {
+    OutlinedButton(
+     onClick={showCategoryFilter=true},
+     modifier=Modifier.fillMaxWidth().padding(top=8.dp),
+     colors=ButtonDefaults.outlinedButtonColors(contentColor=MaterialTheme.colorScheme.primary)
+    ) {
+     Icon(Icons.Default.FilterList,contentDescription=null)
+     Spacer(Modifier.width(8.dp))
+     Text(if(selectedCategories.isEmpty()) "FILTRA ARGOMENTI" else "ARGOMENTI SELEZIONATI: "+selectedCategories.size)
+    }
+   }
+   if((keywordQuery.isNotBlank()||selectedCategories.isNotEmpty())&&!loading&&error.isBlank())item {
     Text(
-     if(filteredArticles.isEmpty()) "Nessuna notizia corrisponde alla ricerca." else "Risultati: ${filteredArticles.size} notizie",
+     if(filteredArticles.isEmpty()) "Nessuna notizia corrisponde ai filtri selezionati." else "Risultati: ${filteredArticles.size} notizie",
      style=MaterialTheme.typography.labelMedium,
      color=MaterialTheme.colorScheme.onSurfaceVariant
     )
@@ -135,7 +177,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
    if(!loading&&error.isBlank()&&articles.isNotEmpty()&&filteredArticles.isEmpty())item {
     Column(Modifier.fillMaxWidth().padding(vertical=22.dp)) {
      Text("Nessun risultato",fontWeight=FontWeight.SemiBold)
-     Text("Prova con un'altra parola chiave oppure cancella la ricerca.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+     Text("Modifica gli argomenti selezionati oppure cancella la ricerca per visualizzare altre notizie.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
     }
    }
    sections.forEach{(category,categoryArticles)->
