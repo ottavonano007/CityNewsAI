@@ -50,6 +50,19 @@ class BriefingActivity : ComponentActivity() {
   setContent { BriefingPage(province,period,themeMode,palette,onBack={finish()}) }
  }
 }
+private fun isNecrologyArticle(article:BriefingArticle):Boolean {
+ val text=(article.title+" "+article.summary).lowercase(Locale.ITALY)
+ val normalized=java.text.Normalizer.normalize(text,java.text.Normalizer.Form.NFD)
+  .replace(Regex("\\p{Mn}+"),"")
+ val indicators=listOf(
+  "necrolog", "annuncio funebre", "annunci funebri", "annuncio di morte",
+  "e' mancato", "e mancato", "e' venuto a mancare", "venuto a mancare",
+  "ci ha lasciato", "ci ha lasciati", "camera ardente", "esequie",
+  "funerale", "funerali", "in memoria di", "ricordo di", "anniversario della scomparsa"
+ )
+ return indicators.any{normalized.contains(it)}
+}
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun BriefingPage(province:Province,periodId:String,themeMode:String,palette:Int,onBack:()->Unit) {
@@ -63,7 +76,8 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  var feedsRead by remember { mutableIntStateOf(0) }
  var keywordQuery by remember { mutableStateOf("") }
  val availableCategories=listOf("CRONACA E SICUREZZA","POLITICA E SERVIZI","ECONOMIA E LAVORO","AMBIENTE E METEO","CULTURA","SPORT","TERRITORIO")
- var selectedCategories by remember { mutableStateOf(emptySet<String>()) }
+ var selectedCategories by remember { mutableStateOf(availableCategories.toSet()) }
+ var includeNecrologi by remember { mutableStateOf(false) }
  var showCategoryFilter by remember { mutableStateOf(false) }
  val refresh:()->Unit={
   scope.launch {
@@ -76,10 +90,11 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  LaunchedEffect(province.code,periodId){refresh()}
  val isDark=when(themeMode){"dark"->true;"light"->false;else->isSystemInDarkTheme()}
  val colors=cityNewsColorScheme(isDark,palette)
- val filteredArticles=remember(articles,keywordQuery,selectedCategories) {
+ val filteredArticles=remember(articles,keywordQuery,selectedCategories,includeNecrologi) {
   val terms=keywordQuery.trim().lowercase(Locale.ITALY).split(Regex("\\s+")).filter{it.isNotBlank()}
   articles.filter { article ->
-   (selectedCategories.isEmpty() || article.category in selectedCategories) &&
+   (article.category in selectedCategories) &&
+    (includeNecrologi || !isNecrologyArticle(article)) &&
     (terms.isEmpty() || run {
      val searchable=listOf(article.title,article.summary,article.source,article.category).joinToString(" ").lowercase(Locale.ITALY)
      terms.all { searchable.contains(it) }
@@ -99,7 +114,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
   title={Text("Filtra per argomento")},
   text={
    Column(Modifier.heightIn(max=420.dp).verticalScroll(rememberScrollState())) {
-    Text("Seleziona le categorie da visualizzare. Se non ne selezioni nessuna, saranno mostrati tutti gli argomenti.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+    Text("Tutti gli argomenti sono attivi inizialmente. Disattiva le categorie che non vuoi leggere.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
     Spacer(Modifier.height(10.dp))
     availableCategories.forEach { category ->
      Row(Modifier.fillMaxWidth().clickable {
@@ -109,10 +124,18 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
       Text(category,style=MaterialTheme.typography.labelLarge)
      }
     }
+    HorizontalDivider(Modifier.padding(vertical=8.dp))
+    Row(Modifier.fillMaxWidth().clickable { includeNecrologi=!includeNecrologi }.padding(vertical=3.dp),verticalAlignment=Alignment.CenterVertically) {
+     Checkbox(checked=includeNecrologi,onCheckedChange=null)
+     Column {
+      Text("NECROLOGI",style=MaterialTheme.typography.labelLarge,fontWeight=FontWeight.Bold)
+      Text("Includi annunci funebri e notizie di lutto",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+     }
+    }
    }
   },
   confirmButton={TextButton(onClick={showCategoryFilter=false}){Text("APPLICA")}},
-  dismissButton={TextButton(onClick={selectedCategories=emptySet();showCategoryFilter=false}){Text("MOSTRA TUTTI")}}
+  dismissButton={TextButton(onClick={selectedCategories=availableCategories.toSet();includeNecrologi=false;showCategoryFilter=false}){Text("RIPRISTINA DEFAULT")}}
  )
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
@@ -145,10 +168,10 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
     ) {
      Icon(Icons.Default.FilterList,contentDescription=null)
      Spacer(Modifier.width(8.dp))
-     Text(if(selectedCategories.isEmpty()) "FILTRA ARGOMENTI" else "ARGOMENTI SELEZIONATI: "+selectedCategories.size)
+     Text("ARGOMENTI ATTIVI: "+selectedCategories.size+"/"+availableCategories.size+(if(includeNecrologi) " • NECROLOGI" else ""))
     }
    }
-   if((keywordQuery.isNotBlank()||selectedCategories.isNotEmpty())&&!loading&&error.isBlank())item {
+   if((keywordQuery.isNotBlank()||selectedCategories.size!=availableCategories.size||includeNecrologi)&&!loading&&error.isBlank())item {
     Text(
      if(filteredArticles.isEmpty()) "Nessuna notizia corrisponde ai filtri selezionati." else "Risultati: ${filteredArticles.size} notizie",
      style=MaterialTheme.typography.labelMedium,
@@ -175,7 +198,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
    if(!loading&&error.isBlank()&&articles.isNotEmpty()&&filteredArticles.isEmpty())item {
     Column(Modifier.fillMaxWidth().padding(vertical=22.dp)) {
      Text("Nessun risultato",fontWeight=FontWeight.SemiBold)
-     Text("Modifica gli argomenti selezionati oppure cancella la ricerca per visualizzare altre notizie.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+     Text("Modifica gli argomenti oppure cancella la ricerca per visualizzare altre notizie.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
     }
    }
    sections.forEach{(category,categoryArticles)->
