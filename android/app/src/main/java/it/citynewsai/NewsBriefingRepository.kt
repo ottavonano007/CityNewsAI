@@ -4,6 +4,9 @@ import android.net.Uri
 import android.text.Html
 import android.util.Xml
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.withContext
 import org.xmlpull.v1.XmlPullParser
 import java.net.HttpURLConnection
@@ -18,62 +21,250 @@ internal data class BriefingResult(val articles:List<BriefingArticle>,val genera
 private data class FeedSpec(val name:String,val url:String)
 
 private val regionalNewsDomains = mapOf(
- "Piemonte" to listOf("quotidianopiemontese.it", "lastampa.it"),
- "Valle d'Aosta" to listOf("aostasera.it", "aostacronaca.it"),
- "Lombardia" to listOf("ilgiorno.it", "giornaledibrescia.it", "ecodibergamo.it", "varesenews.it", "cremonaoggi.it"),
- "Trentino-Alto Adige" to listOf("altoadige.it", "giornaletrentino.it"),
- "Veneto" to listOf("ilgazzettino.it", "larena.it", "mattinopadova.it", "ilgiornaledivicenza.it", "tribunatreviso.it", "nuovavenezia.it", "corrierealpi.it", "lavoce-nuova.it"),
- "Friuli-Venezia Giulia" to listOf("messaggeroveneto.it", "ilpiccolo.it", "pordenoneoggi.it"),
- "Liguria" to listOf("ilsecoloxix.it", "genova24.it", "ivg.it"),
- "Emilia-Romagna" to listOf("ilrestodelcarlino.it", "gazzettadiparma.it", "gazzettadimodena.it", "gazzettadireggio.it", "liberta.it", "ravennanotizie.it", "corriereromagna.it"),
- "Toscana" to listOf("lanazione.it", "gonews.it", "firenzetoday.it", "pisatoday.it", "arezzonotizie.it", "ilgiunco.net"),
- "Umbria" to listOf("tuttoggi.info", "umbriadomani.it", "perugiatoday.it"),
- "Marche" to listOf("corriereadriatico.it", "anconatoday.it", "vivereancona.it"),
- "Lazio" to listOf("ilmessaggero.it", "romatoday.it", "latinatoday.it", "viterbotoday.it"),
- "Abruzzo" to listOf("ilcentro.it", "chietitoday.it", "ilpescara.it", "cityrumors.it", "emmelle.it"),
- "Molise" to listOf("primonumero.it", "isnews.it", "termolionline.it"),
- "Campania" to listOf("ilmattino.it", "napolitoday.it", "salernotoday.it", "casertanews.it", "avellinotoday.it", "beneventonews24.it"),
- "Puglia" to listOf("lagazzettadelmezzogiorno.it", "quotidianodipuglia.it", "baritoday.it", "lecceprima.it"),
- "Basilicata" to listOf("lasiritide.it", "sassilive.it", "potenzanews.net"),
- "Calabria" to listOf("gazzettadelsud.it", "corrieredellacalabria.it", "catanzaroinforma.it", "cosenzachannel.it", "reggiotoday.it"),
- "Sicilia" to listOf("gds.it", "lasicilia.it", "palermotoday.it", "cataniaoggi.it"),
- "Sardegna" to listOf("unionesarda.it", "lanuovasardegna.it", "cagliaritoday.it", "sassarinotizie.com")
+ "Piemonte" to listOf("lastampa.it","quotidianopiemontese.it","ilpiccolo.net","atnews.it","targatocn.it","cuneodice.it","gazzettadalba.it","lanuovaprovincia.it","ecodibiella.it","novaratoday.it","ossolanews.it","torinoggi.it","valsusaoggi.it","vercellioggi.it"),
+ "Valle d'Aosta" to listOf("aostasera.it","aostanews24.it","aostaoggi.it","valledaostaglocal.it","courmayeurnews.it"),
+ "Lombardia" to listOf("ilgiorno.it","ecodibergamo.it","bergamonews.it","giornaledibrescia.it","bresciaoggi.it","varesenews.it","prealpina.it","cremonaoggi.it","cremonasera.it","laprovinciadicomo.it","laprovinciadilecco.it","laprovinciadisondrio.it","laprovinciadivarese.it","laprovinciacr.it","ilcittadino.it","ilcittadinomb.it","mantovauno.it","mbnews.it","primapavia.it","sondriotoday.it"),
+ "Trentino-Alto Adige" to listOf("altoadige.it","giornaletrentino.it","ildolomiti.it","ladige.it","salto.bz","suedtirolnews.it","trentotoday.it","questotrentino.it"),
+ "Veneto" to listOf("ilgazzettino.it","corrierealpi.it","larena.it","mattinopadova.it","ilgiornaledivicenza.it","tribunatreviso.it","nuovavenezia.gelocal.it","polesine24.it","oggitreviso.it","padovanews.it","lapiazzaweb.it","bellunopress.it","altovicentinonline.it","newsinquota.it","veronasera.it"),
+ "Friuli-Venezia Giulia" to listOf("messaggeroveneto.it","ilpiccolo.it","pordenoneoggi.it","pordenonetoday.it","triesteprima.it","udinetoday.it","ilgoriziano.it","udinews.it"),
+ "Liguria" to listOf("ilsecoloxix.it","genova24.it","ivg.it","cittadellaspezia.com","riviera24.it","sanremonews.it","savonanews.it","levantenews.it","genova3000.it","laspeziaoggi.it"),
+ "Emilia-Romagna" to listOf("ilrestodelcarlino.it","gazzettadiparma.it","gazzettadimodena.it","gazzettadireggio.it","liberta.it","ravennanotizie.it","corriereromagna.it","bologna2000.com","estense.com","modena2000.it","lapressa.it","reggionline.com","newsrimini.it","chiamamicitta.it","forli24ore.it","piacenzasera.it","ilpiacenza.it","ravenna24ore.it"),
+ "Toscana" to listOf("lanazione.it","iltirreno.it","gonews.it","firenzetoday.it","pisatoday.it","arezzonotizie.it","ilgiunco.net","luccaindiretta.it","livornotoday.it","notiziediprato.it","sienanews.it","voceapuana.com","maremmanews.it","reportpistoia.com","quinewspisa.it","grossetonotizie.com"),
+ "Umbria" to listOf("tuttoggi.info","umbriadomani.it","perugiatoday.it","ternitoday.it","umbria24.it","umbriajournal.com","iltamtam.it","orvietonews.it"),
+ "Marche" to listOf("corriereadriatico.it","anconatoday.it","cronacheancona.it","cronachemaceratesi.it","cronachefermane.it","cronachepicene.it","centropagina.it","picchionews.it","vivereancona.it","youtvrs.it"),
+ "Lazio" to listOf("ilmessaggero.it","romatoday.it","latinatoday.it","viterbotoday.it","frosinonetoday.it","ciociariaoggi.it","tusciaweb.eu","rietilife.com","rietinvetrina.it","h24notizie.com","newtuscia.it","ilfaroonline.it"),
+ "Abruzzo" to listOf("ilcentro.it","chietitoday.it","ilpescara.it","cityrumors.it","emmelle.it","ilcapoluogo.it","abruzzoweb.it","marsicalive.it","zonalocale.it","certastampa.it","notiziedabruzzo.it","abruzzosera.it"),
+ "Molise" to listOf("primonumero.it","isnews.it","termolionline.it","cblive.it","quotidianomolise.com","informamolise.com"),
+ "Campania" to listOf("ilmattino.it","napolitoday.it","salernotoday.it","casertanews.it","avellinotoday.it","beneventonews24.it","anteprima24.it","orticalab.it","irpinianews.it","internapoli.it","salernonotizie.it","metropolisweb.it","cronachedellacampania.it","pupia.tv"),
+ "Puglia" to listOf("lagazzettadelmezzogiorno.it","quotidianodipuglia.it","baritoday.it","lecceprima.it","brindisireport.it","foggiatoday.it","corrieresalentino.it","leccenews24.it","statoquotidiano.it","limmediato.net","tarantotoday.it","andrialive.it","barlettaviva.it","norbaonline.it"),
+ "Basilicata" to listOf("lasiritide.it","sassilive.it","potenzanews.net","basilicata24.it","trmtv.it","materanews.net"),
+ "Calabria" to listOf("gazzettadelsud.it","corrieredellacalabria.it","catanzaroinforma.it","cosenzachannel.it","reggiotoday.it","lacnews24.it","ilvibonese.it","zoom24.it","quicosenza.it","ilcrotonese.it","ilreggino.it","citynow.it"),
+ "Sicilia" to listOf("gds.it","lasicilia.it","palermotoday.it","cataniaoggi.it","agrigentonotizie.it","tp24.it","messinatoday.it","siracusanews.it","ragusanews.com","livesicilia.it","blogsicilia.it","meridionews.it","ilsicilia.it","qds.it"),
+ "Sardegna" to listOf("unionesarda.it","lanuovasardegna.it","cagliaritoday.it","sassarinotizie.com","olbianova.it","linkoristano.it","oristanonoi.it","vistanet.it","sardiniapost.it","castedduonline.it")
 )
 
 private fun googleNewsFeed(name:String, query:String):FeedSpec =
  FeedSpec(name,"https://news.google.com/rss/search?q="+Uri.encode(query)+"&hl=it&gl=IT&ceid=IT%3Ait")
 
+// Fonti di prossimità: testate locali e portali territoriali con una redazione identificabile.
 private val provincialNewsDomains = mapOf(
- "AG" to listOf("agrigentonotizie.it", "grandangoloagrigento.it", "siciliaonpress.com", "teleacras.it"),
- "PC" to listOf("piacenzasera.it", "liberta.it"),
- "CO" to listOf("ciaocomo.it", "comozero.it", "primacomo.it")
+ "AG" to listOf("agrigentonotizie.it","grandangoloagrigento.it","teleacras.it"),
+ "AL" to listOf("alessandrianews.it","corriereal.info","radiogold.it"),
+ "AN" to listOf("anconatoday.it","cronacheancona.it","anconanotizie.it"),
+ "AR" to listOf("arezzonotizie.it","arezzoweb.it"),
+ "AP" to listOf("picenooggi.it","cronachepicene.it","ascolinotizie.it"),
+ "AT" to listOf("atnews.it","gazzettadasti.it","lanuovaprovincia.it"),
+ "AV" to listOf("avellinotoday.it","orticalab.it","irpinianews.it"),
+ "BA" to listOf("baritoday.it","barilive.it","quintopotere.it"),
+ "BT" to listOf("andrialive.it","barlettaviva.it","tranilive.it"),
+ "BL" to listOf("bellunopress.it","corrierealpi.it","newsinquota.it"),
+ "BN" to listOf("beneventonews24.it","ilsannioquotidiano.it","infosannio.com"),
+ "BG" to listOf("bergamonews.it","primabergamo.it","ecodibergamo.it"),
+ "BI" to listOf("ecodibiella.it","primabiella.it","laprovinciadibiella.it"),
+ "BO" to listOf("bolognatoday.it","bologna2000.com","bologna24ore.it"),
+ "BZ" to listOf("altoadige.it","salto.bz","suedtirolnews.it"),
+ "BS" to listOf("bresciaoggi.it","giornaledibrescia.it","primabrescia.it"),
+ "BR" to listOf("brindisireport.it","brindisilibera.it","brindisisera.it"),
+ "CA" to listOf("cagliaritoday.it","castedduonline.it","cagliarioggi.it"),
+ "CL" to listOf("ilfattonisseno.it","vivienna.it","ilsicilia.it"),
+ "CB" to listOf("primonumero.it","cblive.it","termolionline.it"),
+ "CE" to listOf("casertanews.it","casertace.net","pupia.tv"),
+ "CT" to listOf("cataniaoggi.it","cataniatoday.it","meridionews.it"),
+ "CZ" to listOf("catanzaroinforma.it","lacnews24.it","gazzettadelsud.it"),
+ "CH" to listOf("chietitoday.it","zonalocale.it","abruzzoweb.it"),
+ "CO" to listOf("ciaocomo.it","comozero.it","primacomo.it"),
+ "CS" to listOf("cosenzachannel.it","quicosenza.it","cosenzapost.it"),
+ "CR" to listOf("cremonaoggi.it","primacremona.it","laprovinciacr.it"),
+ "KR" to listOf("ilcrotonese.it","crotonenews.com","crotonenews24.it"),
+ "CN" to listOf("targatocn.it","cuneodice.it","laguida.it"),
+ "EN" to listOf("ennalive.it","ilfattonisseno.it","vivienna.it"),
+ "FM" to listOf("cronachefermane.it","fermonotizie.info","laprovinciadifermo.com"),
+ "FE" to listOf("estense.com","ferraratoday.it","lanuovaferrara.it"),
+ "FI" to listOf("firenzetoday.it","gonews.it","nove.firenze.it"),
+ "FG" to listOf("foggiatoday.it","foggiasera.it","limmediato.net"),
+ "FC" to listOf("forlitoday.it","forli24ore.it","romagnaoggi.it"),
+ "FR" to listOf("frosinonetoday.it","tunews24.it","ciociariaoggi.it"),
+ "OT" to listOf("olbianova.it","olbia24.it","galluraoggi.it"),
+ "GE" to listOf("genova24.it","genova3000.it","genovadice.it"),
+ "GO" to listOf("ilgoriziano.it","gorizianews.com","messaggeroveneto.it"),
+ "GR" to listOf("ilgiunco.net","grossetonotizie.com","maremmanews.it"),
+ "IM" to listOf("riviera24.it","sanremonews.it","lavocediimperia.it"),
+ "IS" to listOf("isnews.it","primonumero.it","altomolise.net"),
+ "AQ" to listOf("ilcapoluogo.it","abruzzoweb.it","marsicalive.it"),
+ "SP" to listOf("cittadellaspezia.com","laspeziaoggi.it","levantenews.it"),
+ "LT" to listOf("latinatoday.it","h24notizie.com","latinaoggi.eu"),
+ "LE" to listOf("lecceprima.it","corrieresalentino.it","leccenews24.it"),
+ "LC" to listOf("lecconotizie.com","leccotoday.it","primalecco.it"),
+ "LI" to listOf("livornotoday.it","quilivorno.it","iltirreno.it"),
+ "LO" to listOf("ilcittadino.it","primalodi.it","lodinews.it"),
+ "LU" to listOf("luccaindiretta.it","lagazzettadilucca.it","iltirreno.it"),
+ "MC" to listOf("cronachemaceratesi.it","picchionews.it","maceratanotizie.it"),
+ "MN" to listOf("gazzettadimantova.it","mantovauno.it","primamantova.it"),
+ "MS" to listOf("voceapuana.com","lanazione.it","gazzettadimassaecarrara.it"),
+ "MT" to listOf("materanews.net","sassilive.it","materalife.it"),
+ "VS" to listOf("sulcisiglesienteoggi.com","viverecarbonia.it","sardegnaoggi.it"),
+ "ME" to listOf("messinatoday.it","tempostretto.it","letteraemme.it"),
+ "MI" to listOf("milanotoday.it","ilgiorno.it","milanopost.info"),
+ "MO" to listOf("modenatoday.it","lapressa.it","sassuolo2000.it"),
+ "MB" to listOf("monzatoday.it","primamonza.it","mbnews.it"),
+ "NA" to listOf("napolitoday.it","internapoli.it","metropolisweb.it"),
+ "NO" to listOf("novaratoday.it","newsnovara.it","corrieredinovara.it"),
+ "NU" to listOf("nuoronews.it","lanuovasardegna.it","sardiniapost.it"),
+ "OG" to listOf("vistanet.it","ogliastraweb.it","sardegnaoggi.it"),
+ "OR" to listOf("linkoristano.it","oristanonoi.it","lanuovasardegna.it"),
+ "PD" to listOf("padovaoggi.it","mattinopadova.it","lapiazzaweb.it"),
+ "PA" to listOf("palermotoday.it","livesicilia.it","blogsicilia.it"),
+ "PR" to listOf("parmatoday.it","gazzettadiparma.it","lungoparma.com"),
+ "PV" to listOf("laprovinciapavese.gelocal.it","primapavia.it","ecodipavia.it"),
+ "PG" to listOf("perugiatoday.it","tuttoggi.info","umbria24.it"),
+ "PU" to listOf("fanoinforma.it","corriereadriatico.it","viverepesaro.it"),
+ "PE" to listOf("ilpescara.it","cityrumors.it","pescaranews.net"),
+ "PC" to listOf("liberta.it","piacenzasera.it","ilpiacenza.it"),
+ "PI" to listOf("pisatoday.it","pisanews.net","quinewspisa.it"),
+ "PT" to listOf("reportpistoia.com","lanazione.it","pistoiasport.com"),
+ "PN" to listOf("pordenonetoday.it","pordenoneoggi.it","messaggeroveneto.it"),
+ "PZ" to listOf("potenzanews.net","lasiritide.it","basilicata24.it"),
+ "PO" to listOf("notiziediprato.it","pratotoday.it","lanazione.it"),
+ "RG" to listOf("ragusanews.com","corrierediragusa.it","ragusah24.it"),
+ "RA" to listOf("ravennatoday.it","ravennanotizie.it","ravenna24ore.it"),
+ "RC" to listOf("citynow.it","reggiotoday.it","strettoweb.com"),
+ "RE" to listOf("reggionline.com","primareggioemilia.it","reggio2000.it"),
+ "RI" to listOf("rietilife.com","rietinvetrina.it","ilterritorio.net"),
+ "RN" to listOf("riminitoday.it","newsrimini.it","chiamamicitta.it"),
+ "RM" to listOf("romatoday.it","ilmessaggero.it","romadailynews.it"),
+ "RO" to listOf("polesine24.it","rovigooggi.it","rovigo.news"),
+ "SA" to listOf("salernotoday.it","salernonotizie.it","lacittadisalerno.it"),
+ "SS" to listOf("sassaritoday.it","sassarinotizie.com","olbianova.it"),
+ "SV" to listOf("ivg.it","savonanews.it","riviera24.it"),
+ "SI" to listOf("sienanews.it","ilcittadinoonline.it","sienafree.it"),
+ "SR" to listOf("siracusanews.it","webmarte.tv","siracusaoggi.it"),
+ "SO" to listOf("sondriotoday.it","laprovinciadisondrio.it","valtellinanews.com"),
+ "SU" to listOf("sulcisiglesienteoggi.com","viverecarbonia.it","sardegnaoggi.it"),
+ "TA" to listOf("tarantotoday.it","blunote.it","tarantosera.it"),
+ "TE" to listOf("certastampa.it","emmelle.it","ilmartino.it"),
+ "TR" to listOf("ternitoday.it","umbriaon.it","umbria24.it"),
+ "TO" to listOf("torinotoday.it","torinoggi.it","torinocronaca.it"),
+ "TP" to listOf("tp24.it","trapanisi.it","marsalace.it"),
+ "TN" to listOf("trentotoday.it","ildolomiti.it","giornaletrentino.it"),
+ "TV" to listOf("trevisotoday.it","oggitreviso.it","qdpnews.it"),
+ "TS" to listOf("triesteprima.it","trieste.news","ilpiccolo.it"),
+ "UD" to listOf("udinetoday.it","udinews.it","messaggeroveneto.it"),
+ "AO" to listOf("aostasera.it","aostanews24.it","aostaoggi.it"),
+ "VA" to listOf("varesenews.it","malpensanews.it","prealpina.it"),
+ "VE" to listOf("veneziatoday.it","ilgazzettino.it","nuovavenezia.gelocal.it"),
+ "VB" to listOf("verbanonews.it","ossolanews.it","vconews.it"),
+ "VC" to listOf("vercellioggi.it","infovercelli24.it","primavercelli.it"),
+ "VR" to listOf("veronasera.it","veronatoday.it","larena.it"),
+ "VV" to listOf("ilvibonese.it","zoom24.it","lacnews24.it"),
+ "VI" to listOf("vicenzatoday.it","primavicenza.it","altovicentinonline.it"),
+ "VT" to listOf("viterbotoday.it","tusciaweb.eu","newtuscia.it")
 )
 
 private val provincialSearchAliases = mapOf(
- "AG" to listOf("agrigentino", "agrigentina", "agrigentini", "agrigentine"),
- "AP" to listOf("ascolano", "ascolana", "piceno"),
- "BT" to listOf("Barletta", "Andria", "Trani"),
- "BZ" to listOf("Bolzano/Bozen", "Alto Adige", "Provincia autonoma di Bolzano", "Bolzano", "Bozen", "Sudtirolo"),
- "CO" to listOf("comasco", "comasca", "comaschi"),
- "FI" to listOf("Firenze", "fiorentino", "fiorentina"),
- "FC" to listOf("Forli-Cesena", "Forli", "Cesena", "forlivese", "cesenate"),
- "OT" to listOf("Gallura", "Olbia", "Tempio"),
- "GO" to listOf("Goriziano"),
- "AQ" to listOf("Aquila", "aquilano", "aquilana"),
- "LC" to listOf("lecchese", "lecchesi"),
- "MS" to listOf("Massa Carrara", "Massa", "Carrara", "apuano", "apuana"),
- "VS" to listOf("Campidano", "Medio Campidano", "Villacidro", "Sanluri"),
- "MB" to listOf("Monza", "Brianza", "brianzolo", "brianzola"),
- "PU" to listOf("Pesaro", "Urbino", "pesarese", "urbinate"),
- "PC" to listOf("piacentino", "piacentina"),
- "RC" to listOf("Reggio Calabria", "reggino", "reggina"),
- "RE" to listOf("Reggio Emilia", "Reggiano", "Reggiana", "reggiano", "reggiana"),
- "SU" to listOf("Sulcis-Iglesiente", "Sulcis", "Iglesiente", "Carbonia", "Iglesias"),
- "TN" to listOf("Provincia autonoma di Trento"),
- "AO" to listOf("Aosta", "Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta", "Vallee d'Aoste"),
- "VB" to listOf("Verbano", "Cusio", "Ossola", "Verbania", "Domodossola")
+ "AG" to listOf("agrigentino","agrigentina","Agrigento"),
+ "AP" to listOf("ascolano","ascolana","piceno","Ascoli"),
+ "BT" to listOf("Barletta","Andria","Trani","BAT"),
+ "BZ" to listOf("Bolzano/Bozen","Alto Adige","Provincia autonoma di Bolzano","Bolzano","Bozen","Sudtirolo"),
+ "CO" to listOf("comasco","comasca","comaschi"),
+ "FI" to listOf("Firenze","fiorentino","fiorentina"),
+ "FC" to listOf("Forli-Cesena","Forli","Cesena","forlivese","cesenate"),
+ "OT" to listOf("Gallura","Olbia","Tempio","Olbia-Tempio"),
+ "GO" to listOf("Goriziano","Gorizia"),
+ "AQ" to listOf("Aquila","aquilano","aquilana","Marsica"),
+ "LC" to listOf("lecchese","lecchesi"),
+ "MS" to listOf("Massa Carrara","Massa","Carrara","apuano","apuana"),
+ "VS" to listOf("Campidano","Medio Campidano","Villacidro","Sanluri"),
+ "MB" to listOf("Monza","Brianza","brianzolo","brianzola"),
+ "PU" to listOf("Pesaro","Urbino","pesarese","urbinate"),
+ "PC" to listOf("piacentino","piacentina"),
+ "RC" to listOf("Reggio Calabria","reggino","reggina"),
+ "RE" to listOf("Reggio Emilia","Reggiano","Reggiana"),
+ "SU" to listOf("Sulcis-Iglesiente","Sulcis","Iglesiente","Carbonia","Iglesias"),
+ "TN" to listOf("Provincia autonoma di Trento","Trentino"),
+ "AO" to listOf("Aosta","Valle d'Aosta/Vallée d'Aoste","Valle d'Aosta","Vallee d'Aoste"),
+ "VB" to listOf("Verbano","Cusio","Ossola","Verbania","Domodossola"),
+ "AL" to listOf("Alessandrino","Alessandria"), "AT" to listOf("Astigiano","Asti"),
+ "BI" to listOf("Biellese","Biella"), "CN" to listOf("Cuneese","Cuneo"),
+ "NO" to listOf("Novarese","Novara"), "TO" to listOf("Torinese","Torino"),
+ "VC" to listOf("Vercellese","Vercelli"), "PV" to listOf("Pavese","Pavia"),
+ "VA" to listOf("Varesotto","Varese"), "SO" to listOf("Valtellina","Sondrio"),
+ "CR" to listOf("Cremonese","Cremona"), "MN" to listOf("Mantovano","Mantova"),
+ "LO" to listOf("Lodigiano","Lodi"), "MI" to listOf("Milanese","Milano"),
+ "BG" to listOf("Bergamasco","Bergamo"), "BS" to listOf("Bresciano","Brescia"),
+ "VR" to listOf("Veronese","Verona"), "VI" to listOf("Vicentino","Vicenza"),
+ "TV" to listOf("Trevigiano","Treviso"), "VE" to listOf("Veneziano","Venezia"),
+ "PD" to listOf("Padovano","Padova"), "RO" to listOf("Polesine","Rovigo"),
+ "PN" to listOf("Pordenonese","Pordenone"), "TS" to listOf("Triestino","Trieste"),
+ "UD" to listOf("Friulano","Udine"), "GE" to listOf("Genovese","Genova"),
+ "SV" to listOf("Savonese","Savona"), "IM" to listOf("Imperia"),
+ "SP" to listOf("Spezzino","La Spezia"), "PR" to listOf("Parmense","Parma"),
+ "MO" to listOf("Modenese","Modena"), "BO" to listOf("Bolognese","Bologna"),
+ "FE" to listOf("Ferrarese","Ferrara"), "RA" to listOf("Ravennate","Ravenna"),
+ "RN" to listOf("Riminese","Rimini"), "AR" to listOf("Aretino","Arezzo"),
+ "GR" to listOf("Maremma","Grosseto"), "LI" to listOf("Livornese","Livorno"),
+ "LU" to listOf("Lucchese","Lucca"), "PI" to listOf("Pisano","Pisa"),
+ "PT" to listOf("Pistoiese","Pistoia"), "PO" to listOf("Pratese","Prato"),
+ "SI" to listOf("Senese","Siena"), "PG" to listOf("Perugino","Perugia"),
+ "TR" to listOf("Ternano","Terni"), "RM" to listOf("Romano","Roma"),
+ "VT" to listOf("Tuscia","Viterbo"), "RI" to listOf("Reatino","Rieti"),
+ "LT" to listOf("Pontino","Latina"), "FR" to listOf("Ciociaria","Frosinone"),
+ "CH" to listOf("Chietino","Chieti"), "PE" to listOf("Pescarese","Pescara"),
+ "TE" to listOf("Teramano","Teramo"), "CB" to listOf("Molisano","Campobasso"),
+ "IS" to listOf("Isernino","Isernia"), "NA" to listOf("Napoletano","Napoli"),
+ "CE" to listOf("Casertano","Caserta"), "SA" to listOf("Salernitano","Salerno"),
+ "AV" to listOf("Irpinia","Avellinese","Avellino"), "BN" to listOf("Sannio","Beneventano","Benevento"),
+ "FG" to listOf("Dauno","Foggiano","Foggia"), "BR" to listOf("Brindisino","Brindisi"),
+ "LE" to listOf("Salentino","Lecce"), "TA" to listOf("Tarantino","Taranto"),
+ "PZ" to listOf("Potentino","Potenza"), "MT" to listOf("Materano","Matera"),
+ "CZ" to listOf("Catanzarese","Catanzaro"), "CS" to listOf("Cosentino","Cosenza"),
+ "KR" to listOf("Crotonese","Crotone"), "VV" to listOf("Vibonese","Vibo Valentia"),
+ "PA" to listOf("Palermitano","Palermo"), "CT" to listOf("Etneo","Catanese","Catania"),
+ "ME" to listOf("Messinese","Messina"), "SR" to listOf("Siracusano","Siracusa"),
+ "RG" to listOf("Ragusano","Ragusa"), "TP" to listOf("Trapanese","Trapani"),
+ "CL" to listOf("Nisseno","Caltanissetta"), "EN" to listOf("Ennese","Enna"),
+ "CA" to listOf("Cagliaritano","Cagliari"), "SS" to listOf("Sassarese","Sassari"),
+ "NU" to listOf("Nuorese","Nuoro"), "OR" to listOf("Oristanese","Oristano"),
+ "OG" to listOf("Ogliastra","Tortolì","Lanusei")
 )
 
+private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
+ val after=" after:"+SimpleDateFormat("yyyy-MM-dd",Locale.ROOT).format(Date(periodStartMillis(period)))
+ val aliases=provincialSearchAliases[p.code].orEmpty()
+ val terms=(listOf(p.name,"provincia di "+p.name)+aliases).distinct()
+ val territory="("+terms.joinToString(" OR "){"\""+it+"\"" }+")"
+ val feeds=mutableListOf<FeedSpec>()
+
+ // Ricerca territoriale ampia: non richiede che l'articolo nomini anche la regione.
+ feeds+=googleNewsFeed("Ricerca generale · "+p.name,territory+after)
+
+ // Seconda ricerca con temi locali: intercetta cronaca, servizi, viabilità e vita dei comuni.
+ val localTopics="(cronaca OR comune OR sindaco OR viabilità OR scuola OR ospedale OR territorio OR lavori OR eventi OR provincia)"
+ feeds+=googleNewsFeed("Cronaca e territorio · "+p.name,territory+" "+localTopics+after)
+
+ // Le fonti provinciali hanno già un focus geografico: non imponiamo un altro vincolo testuale.
+ val localDomains=provincialNewsDomains[p.code].orEmpty().distinct()
+ if(localDomains.isNotEmpty()){
+  val sites=localDomains.joinToString(" OR "){"site:"+it}
+  feeds+=googleNewsFeed("Fonti provinciali · "+p.name,"("+sites+")"+after)
+ }
+
+ // Le testate regionali sono interrogate in gruppi piccoli, evitando query troppo lunghe.
+ val regionalDomains=(regionalNewsDomains[p.region].orEmpty()-localDomains.toSet()).distinct()
+ regionalDomains.chunked(7).forEachIndexed{index,group->
+  val sites=group.joinToString(" OR "){"site:"+it}
+  feeds+=googleNewsFeed("Fonti regionali "+(index+1)+" · "+p.name,territory+" ("+sites+")"+after)
+ }
+
+ when(p.code){
+  "PC"->feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/")
+  "CO"->{
+   feeds+=FeedSpec("CiaoComo","https://www.ciaocomo.it/feed/")
+   feeds+=FeedSpec("ComoZero","https://comozero.it/feed/")
+   feeds+=FeedSpec("Prima Como","https://primacomo.it/feed/")
+  }
+ }
+ return feeds.distinctBy{it.url}
+}
 private fun periodStartMillis(period:String, now:Long=System.currentTimeMillis()):Long {
  val calendar=java.util.Calendar.getInstance().apply{timeInMillis=now}
  when(period){
@@ -207,7 +398,8 @@ private fun articleDetailScore(article:BriefingArticle):Int {
 
 internal suspend fun fetchFreeBriefing(province:Province,periodId:String):BriefingResult=withContext(Dispatchers.IO){
  val feeds=feedSpecs(province,periodId);val all=mutableListOf<BriefingArticle>();var read=0
- feeds.forEach{try{val items=parseFeed(it);if(items.isNotEmpty())read++;all+=items}catch(_:Exception){}}
+ val feedResults=coroutineScope{feeds.map{feed->async(Dispatchers.IO){runCatching{parseFeed(feed)}.getOrDefault(emptyList())}}.awaitAll()}
+ feedResults.forEach{items->if(items.isNotEmpty())read++;all+=items}
  val now=System.currentTimeMillis()
  val cutoff=periodStartMillis(periodId,now)
  val filtered=all.filter{it.publishedAt.time in cutoff..now}
