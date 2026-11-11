@@ -325,24 +325,11 @@ private fun clean(raw:String):String{
  val end=s.indexOfAny(charArrayOf('.','!','?'),160)
  return s.take(if(end in 160..280)end+1 else 277).trimEnd()+ "…"
 }
-private fun isNecrologyText(raw:String):Boolean {
- val text=java.text.Normalizer.normalize(raw.lowercase(Locale.ITALY),java.text.Normalizer.Form.NFD)
-  .replace(Regex("\\p{Mn}+"),"").replace("’"," ").replace("'"," ")
-  .replace(Regex("[^\\p{L}\\p{N}]+")," ").replace(Regex("\\s+")," ").trim()
- val indicators=listOf(
-  // Indicatori espliciti di annunci funebri ed epigrafi.
-  "necrolog","epigraf","manifesti funebri","annunci funebri","annuncio funebre",
-  "annuncio della famiglia","ne danno il triste annuncio","ne danno il doloroso annuncio",
-  "camera ardente","onoranze funebri","pompe funebri","servizi funebri",
-  "trigesimo","trigesima","in suffragio","partecipazione al lutto",
-  "sentite condoglianze","piu sentite condoglianze",
-  "i funerali avranno luogo","le esequie avranno luogo",
-  "la famiglia ringrazia","ringraziano quanti",
-  "ringraziamento ai presenti","ringraziamento per le condoglianze",
-  "anniversario della dipartita"
- )
- return indicators.any { text.contains(it) }
+private fun isNecrologyLink(url:String):Boolean {
+ val decoded=Uri.decode(url).lowercase(Locale.ITALY)
+ return listOf("necrologi","necrologie","necrologia").any{decoded.contains(it)}
 }
+
 private fun category(s:String,necrology:Boolean=false):String{
  if(necrology)return "NECROLOGI"
  val normalized=java.text.Normalizer.normalize(s.lowercase(Locale.ITALY),java.text.Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"),"")
@@ -391,7 +378,7 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
      val d=parseDate(date)
      if(title.isNotBlank()&&link.startsWith("http")&&d!=null){
       val summary=clean(desc)
-      val necrology=isNecrologyText(title+" "+desc+" "+source+" "+link+" "+feedCategories+" "+f.name)
+      val necrology=isNecrologyLink(link)
       out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" || "+desc,necrology),localSource=f.localSource,necrology=necrology)
      }
      inside=false
