@@ -334,11 +334,6 @@ private fun isNecrologyLink(url:String):Boolean {
 }
 
 private fun isGoogleNewsArticleUrl(url:String)=url.contains("news.google.com/")&&url.contains("/articles/")
-private fun isNecrologyCandidate(title:String):Boolean {
- val text=Normalizer.normalize(title.lowercase(Locale.ITALY),Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"),"")
- return listOf("necrolog","epigraf","funebr","funeral","camera ardente","annuncio funebre","ultimo saluto","e mancato","e mancata","si e spento","si e spenta","cordoglio","lutto").any{text.contains(it)}
-}
-
 private fun resolveGoogleNewsPublisherUrl(articleUrl:String):String? {
  val articleId=articleUrl.substringAfter("/articles/","").substringBefore('?').substringBefore('/').trim()
  if(articleId.isBlank())return null
@@ -368,14 +363,21 @@ private fun resolveGoogleNewsPublisherUrl(articleUrl:String):String? {
    response.lineSequence().forEach{line->
     val trimmed=line.trim()
     if(trimmed.startsWith("[["))runCatching{
-     val rows=JSONArray(trimmed)
-     for(i in 0 until rows.length()){
-      val row=rows.optJSONArray(i)?:continue
-      if(row.optString(1)=="Fbv4je"){
-       val payload=runCatching{JSONArray(row.optString(2))}.getOrNull()?:continue
-       val resolved=payload.optString(1)
-       if(resolved.startsWith("https://")||resolved.startsWith("http://"))return resolved
+     val root=JSONArray(trimmed)
+     fun findRpc(value:JSONArray):String? {
+      for(i in 0 until value.length()){
+       val item=value.optJSONArray(i)?:continue
+       if(item.length()>=3&&item.optString(1)=="Fbv4je")return item.optString(2)
+       val nested=findRpc(item)
+       if(nested!=null)return nested
       }
+      return null
+     }
+     val rpcPayload=findRpc(root)?:return@runCatching
+     val payload=runCatching{JSONArray(rpcPayload)}.getOrNull()?:return@runCatching
+     if(payload.optString(0)=="garturlres"){
+      val resolved=payload.optString(1)
+      if(resolved.startsWith("https://")||resolved.startsWith("http://"))return resolved
      }
     }
    }
@@ -440,16 +442,16 @@ private suspend fun parseFeed(f:FeedSpec):List<BriefingArticle>{
    }
   }
   if(f.resolvePublisherLinks){
-   // Il titolo limita le richieste; la classificazione finale usa soltanto l'URL originale risolto.
-   val candidates=out.filter{isGoogleNewsArticleUrl(it.url)&&isNecrologyCandidate(it.title)}.take(30)
-   val resolvedFlags=mutableMapOf<String,Boolean>()
-   candidates.chunked(2).forEach{batch->
-    val results=coroutineScope{batch.map{article->async(Dispatchers.IO){
+   // I feed sono già dedicati ai necrologi: non filtrare per titolo,
+   // perché molti annunci riportano soltanto il nome della persona.
+   // La classificazione resta basata esclusivamente sull'URL originale risolto.
+   val candidates=out.filter{isGoogleNewsArticleUrl(it.url)}.take(20)
+   val resolvedFlags=coroutineScope{
+    candidates.map{article->async(Dispatchers.IO){
      val publisherUrl=resolveGoogleNewsPublisherUrl(article.url)
      article.url to (publisherUrl!=null&&isNecrologyLink(publisherUrl))
-    }}.awaitAll()}
-    results.forEach{(url,match)->resolvedFlags[url]=match}
-   }
+    }}.awaitAll()
+   }.toMap()
    return out.map{article->if(resolvedFlags[article.url]==true)article.copy(category="NECROLOGI",necrology=true) else article}
   }
   return out
