@@ -242,11 +242,16 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  val localTopics="(cronaca OR comune OR sindaco OR viabilità OR scuola OR ospedale OR territorio OR lavori OR eventi OR provincia)"
  feeds+=googleNewsFeed("Cronaca e territorio · "+p.name,territory+" "+localTopics+after)
 
+ // Ricerca dedicata: intercetta gli annunci funebri anche quando il feed generale non li evidenzia.
+ val necrologyTerms="(necrologi OR necrologio OR epigrafi OR epigrafe OR \"annunci funebri\" OR \"camera ardente\" OR \"ultimo saluto\" OR \"è mancato\" OR \"è mancata\")"
+ feeds+=googleNewsFeed("Necrologi · "+p.name,territory+" "+necrologyTerms+after)
+
  // Le fonti provinciali hanno già un focus geografico: non imponiamo un altro vincolo testuale.
  val localDomains=provincialNewsDomains[p.code].orEmpty().distinct()
  if(localDomains.isNotEmpty()){
   val sites=localDomains.joinToString(" OR "){"site:"+it}
   feeds+=FeedSpec("Fonti provinciali · "+p.name,googleNewsFeed("","("+sites+")"+after).url,true)
+  feeds+=FeedSpec("Necrologi locali · "+p.name,googleNewsFeed("","("+sites+") "+necrologyTerms+after).url,true)
   // Secondo passaggio dedicato ai centri minori: frazioni, località, contrade e borgate.
   val minorPlaces="(frazione OR frazioni OR località OR localita OR borgata OR borgate OR contrada OR contrade OR paese OR paesi OR quartiere OR quartieri OR rione OR rioni OR territorio comunale)"
   feeds+=FeedSpec("Comuni e frazioni · "+p.name,googleNewsFeed("", "("+sites+") "+minorPlaces+after).url,true)
@@ -343,7 +348,8 @@ private fun isNecrologyText(raw:String):Boolean {
  )
  return indicators.any { text.contains(it) }
 }
-private fun category(s:String):String{
+private fun category(s:String,necrology:Boolean=false):String{
+ if(necrology)return "NECROLOGI"
  val normalized=java.text.Normalizer.normalize(s.lowercase(Locale.ITALY),java.text.Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"),"")
  val title=normalized.substringBefore(" || ")
  val summary=normalized.substringAfter(" || ","")
@@ -367,14 +373,19 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
   c.setRequestProperty("User-Agent","Mozilla/5.0 (compatible; CityNewsAI/1.0)")
   if(c.responseCode !in 200..299)return emptyList()
   val x=Xml.newPullParser().apply{setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,false);setInput(c.inputStream,"UTF-8")}
-  val out= mutableListOf<BriefingArticle>();var inside=false;var title="";var desc="";var link="";var date="";var source=f.name
+  val out= mutableListOf<BriefingArticle>();var inside=false;var title="";var desc="";var link="";var date="";var source=f.name;var feedCategories=""
   while(x.next()!=XmlPullParser.END_DOCUMENT){
    if(x.eventType==XmlPullParser.START_TAG){
     val tag=x.name.lowercase(Locale.ROOT)
-    if(tag=="item"||tag=="entry"){inside=true;title="";desc="";link="";date="";source=f.name}
+    if(tag=="item"||tag=="entry"){inside=true;title="";desc="";link="";date="";source=f.name;feedCategories=""}
     else if(inside)when(tag){
      "title"->title=readTag(x)
-     "description","summary","content"->if(desc.isBlank())desc=readTag(x)
+     "description","summary","content","content:encoded","encoded"->{val value=readTag(x);if(value.length>desc.length)desc=value}
+     "category","subject"->{
+      val term=x.getAttributeValue(null,"term")?:x.getAttributeValue(null,"label")
+      val value=if(!term.isNullOrBlank())term else readTag(x)
+      if(value.isNotBlank())feedCategories+=" "+value
+     }
      "link"->{val href=x.getAttributeValue(null,"href");if(!href.isNullOrBlank())link=href else {val v=readTag(x);if(v.startsWith("http"))link=v}}
      "pubdate","published","updated","date"->date=readTag(x)
      "source"->source=readTag(x).ifBlank{f.name}
@@ -383,7 +394,11 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
     val tag=x.name.lowercase(Locale.ROOT)
     if(inside&&(tag=="item"||tag=="entry")){
      val d=parseDate(date)
-     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){val summary=clean(desc);out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" || "+desc),localSource=f.localSource,necrology=isNecrologyText(title+" "+desc+" "+source+" "+link))}
+     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){
+      val summary=clean(desc)
+      val necrology=isNecrologyText(title+" "+desc+" "+source+" "+link+" "+feedCategories+" "+f.name)
+      out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" || "+desc,necrology),localSource=f.localSource,necrology=necrology)
+     }
      inside=false
     }
    }
@@ -435,7 +450,8 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
    if(group.any{sameNewsEvent(it,candidate)}){group+=candidate;consumed[j]=true}
   }
   val best=group.maxByOrNull{articleDetailScore(it)}!!
-  merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size,necrology=group.any{it.necrology})
+  val isNecrology=group.any{it.necrology}
+  merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size,category=if(isNecrology)"NECROLOGI" else best.category,necrology=isNecrology)
  }
  val resultLimit=when(periodId){"ultimora"->60;"24h"->60;"3d"->75;"7d"->90;"1m"->110;"1y"->150;else->60}
  val ordered=if(periodId=="ultimora") merged.sortedByDescending{it.publishedAt.time}
