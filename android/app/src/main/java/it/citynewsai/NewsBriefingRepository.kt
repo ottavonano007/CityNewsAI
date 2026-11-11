@@ -9,8 +9,11 @@ import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.withContext
 import org.xmlpull.v1.XmlPullParser
+import org.json.JSONArray
+import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
+import java.net.URLEncoder
 import java.text.SimpleDateFormat
 import java.text.Normalizer
 import java.util.Date
@@ -19,7 +22,7 @@ import java.util.TimeZone
 
 internal data class BriefingArticle(val title:String,val summary:String,val source:String,val url:String,val publishedAt:Date,val category:String,val corroborationCount:Int=1,val localSource:Boolean=false,val necrology:Boolean=false)
 internal data class BriefingResult(val articles:List<BriefingArticle>,val generatedAt:String,val feedsRead:Int)
-private data class FeedSpec(val name:String,val url:String,val localSource:Boolean=false)
+private data class FeedSpec(val name:String,val url:String,val localSource:Boolean=false,val resolvePublisherLinks:Boolean=false)
 
 private val regionalNewsDomains = mapOf(
  "Piemonte" to listOf("lastampa.it","quotidianopiemontese.it","ilpiccolo.net","atnews.it","targatocn.it","cuneodice.it","gazzettadalba.it","lanuovaprovincia.it","ecodibiella.it","novaratoday.it","ossolanews.it","torinoggi.it","valsusaoggi.it","vercellioggi.it"),
@@ -244,14 +247,14 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
 
  // Ricerca dedicata: intercetta gli annunci funebri anche quando il feed generale non li evidenzia.
  val necrologyTerms="(necrologi OR necrologio OR epigrafi OR epigrafe OR \"annunci funebri\" OR \"camera ardente\" OR \"ultimo saluto\" OR \"è mancato\" OR \"è mancata\")"
- feeds+=googleNewsFeed("Necrologi · "+p.name,territory+" "+necrologyTerms+after)
+ feeds+=FeedSpec("Necrologi · "+p.name,googleNewsFeed("",""+territory+" "+necrologyTerms+after).url,false,true)
 
  // Le fonti provinciali hanno già un focus geografico: non imponiamo un altro vincolo testuale.
  val localDomains=provincialNewsDomains[p.code].orEmpty().distinct()
  if(localDomains.isNotEmpty()){
   val sites=localDomains.joinToString(" OR "){"site:"+it}
   feeds+=FeedSpec("Fonti provinciali · "+p.name,googleNewsFeed("","("+sites+")"+after).url,true)
-  feeds+=FeedSpec("Necrologi locali · "+p.name,googleNewsFeed("","("+sites+") "+necrologyTerms+after).url,true)
+  feeds+=FeedSpec("Necrologi locali · "+p.name,googleNewsFeed("","("+sites+") "+necrologyTerms+after).url,true,true)
   // Secondo passaggio dedicato ai centri minori: frazioni, località, contrade e borgate.
   val minorPlaces="(frazione OR frazioni OR località OR localita OR borgata OR borgate OR contrada OR contrade OR paese OR paesi OR quartiere OR quartieri OR rione OR rioni OR territorio comunale)"
   feeds+=FeedSpec("Comuni e frazioni · "+p.name,googleNewsFeed("", "("+sites+") "+minorPlaces+after).url,true)
@@ -330,6 +333,57 @@ private fun isNecrologyLink(url:String):Boolean {
  return listOf("necrologi","necrologie","necrologia").any{decoded.contains(it)}
 }
 
+private fun isGoogleNewsArticleUrl(url:String)=url.contains("news.google.com/")&&url.contains("/articles/")
+private fun isNecrologyCandidate(title:String):Boolean {
+ val text=Normalizer.normalize(title.lowercase(Locale.ITALY),Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"),"")
+ return listOf("necrolog","epigraf","funebr","funeral","camera ardente","annuncio funebre","ultimo saluto","e mancato","e mancata","si e spento","si e spenta","cordoglio","lutto").any{text.contains(it)}
+}
+
+private fun resolveGoogleNewsPublisherUrl(articleUrl:String):String? {
+ val articleId=articleUrl.substringAfter("/articles/","").substringBefore('?').substringBefore('/').trim()
+ if(articleId.isBlank())return null
+ return runCatching {
+  val page=URL("https://news.google.com/rss/articles/"+articleId).openConnection() as HttpURLConnection
+  val html=try {
+   page.connectTimeout=6500;page.readTimeout=6500;page.instanceFollowRedirects=true
+   page.setRequestProperty("User-Agent","Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/120.0 Mobile Safari/537.36")
+   page.setRequestProperty("Cookie","CONSENT=YES+cb; SOCS=CAI")
+   if(page.responseCode !in 200..299)return null
+   page.inputStream.bufferedReader(Charsets.UTF_8).use{it.readText().take(1500000)}
+  } finally { page.disconnect() }
+  val signature=Regex("data-n-a-sg=[\\\"']([^\\\"']+)[\\\"']").find(html)?.groupValues?.get(1)?:return null
+  val timestamp=Regex("data-n-a-ts=[\\\"'](\\d+)[\\\"']").find(html)?.groupValues?.get(1)?:return null
+  val inner="""["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],${JSONObject.quote(articleId)},$timestamp,${JSONObject.quote(signature)}]"""
+  val requestJson=JSONArray().put(JSONArray().put(JSONArray().put("Fbv4je").put(inner).put(JSONObject.NULL).put("generic"))).toString()
+  val post=URL("https://news.google.com/_/DotsSplashUi/data/batchexecute").openConnection() as HttpURLConnection
+  try {
+   post.connectTimeout=6500;post.readTimeout=6500;post.requestMethod="POST";post.doOutput=true
+   post.setRequestProperty("User-Agent","Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/120.0 Mobile Safari/537.36")
+   post.setRequestProperty("Content-Type","application/x-www-form-urlencoded;charset=UTF-8")
+   post.setRequestProperty("Referer","https://news.google.com/")
+   val body="f.req="+URLEncoder.encode(requestJson,"UTF-8")
+   post.outputStream.use{it.write(body.toByteArray(Charsets.UTF_8))}
+   if(post.responseCode !in 200..299)return null
+   val response=post.inputStream.bufferedReader(Charsets.UTF_8).use{it.readText().take(500000)}
+   response.lineSequence().forEach{line->
+    val trimmed=line.trim()
+    if(trimmed.startsWith("[["))runCatching{
+     val rows=JSONArray(trimmed)
+     for(i in 0 until rows.length()){
+      val row=rows.optJSONArray(i)?:continue
+      if(row.optString(1)=="Fbv4je"){
+       val payload=runCatching{JSONArray(row.optString(2))}.getOrNull()?:continue
+       val resolved=payload.optString(1)
+       if(resolved.startsWith("https://")||resolved.startsWith("http://"))return resolved
+      }
+     }
+    }
+   }
+   null
+  } finally { post.disconnect() }
+ }.getOrNull()
+}
+
 private fun category(s:String,necrology:Boolean=false):String{
  if(necrology)return "NECROLOGI"
  val normalized=java.text.Normalizer.normalize(s.lowercase(Locale.ITALY),java.text.Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"),"")
@@ -348,7 +402,7 @@ private fun category(s:String,necrology:Boolean=false):String{
  return if(best!=null&&score(best.value)>=2)best.key else "TERRITORIO"
 }
 private fun rank(c:String)=when(c){"CRONACA E SICUREZZA"->0;"POLITICA E SERVIZI"->1;"ECONOMIA E LAVORO"->2;"AMBIENTE E METEO"->3;"CULTURA"->4;"SPORT"->5;else->6}
-private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
+private suspend fun parseFeed(f:FeedSpec):List<BriefingArticle>{
  val c=URL(f.url).openConnection() as HttpURLConnection
  try{
   c.connectTimeout=9000;c.readTimeout=12000;c.instanceFollowRedirects=true
@@ -434,7 +488,7 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
   val best=group.maxByOrNull{articleDetailScore(it)}!!
   // La categoria dell'articolo più completo prevale: una copia necrologica
   // non deve trasformare una notizia di cronaca sullo stesso evento in necrologio.
-  val isNecrology=best.necrology
+  val isNecrology=group.any{it.necrology}
   merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size,category=if(isNecrology)"NECROLOGI" else best.category,necrology=isNecrology)
  }
  val resultLimit=when(periodId){"ultimora"->60;"24h"->60;"3d"->75;"7d"->90;"1m"->110;"1y"->150;else->60}
