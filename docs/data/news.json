@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T07:23:02.264773+00:00",
+  "generated_at": "2026-11-11T09:02:25.293534+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Chiude per una notte l’autostrada verso Chiasso: ecco quando",
+      "url": "https://comozero.it/attualita/chiude-per-una-notte-lautostrada-verso-chiasso-ecco-quando",
+      "summary": "Sulla A9 Lainate-Como-Chiasso, per consentire le attività di ispezione e manutenzione delle gallerie, dalle 23 di sabato 14 alle 6 di domenica 15 novembre, sarà chiuso il tratto compreso tra Como Centro e Chiasso, verso Chiasso/Svizzera. Lo svincolo di Como Centro sarà chiuso in entrata in entrambe le direzioni. In alternativa si consiglia: per la […] L'articolo Chiude per una notte l’autostrada verso Chiasso: ecco quando proviene da ComoZero .",
+      "published_at": "2026-11-11T08:57:23+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Serate di approfondimento sulla fotografia insieme al gruppo Diapho’s",
+      "url": "https://primacomo.it/attualita/serate-di-approfondimento-sulla-fotografia-insieme-al-gruppo-diaphos",
+      "summary": "Piace il percorso di approfondimento sulla fotografia insieme al gruppo Diapho’s di Olgiate Comsco. La rassegna di incontri sulla fotografia Inaugurata lo scorso 29 ottobre, al Magic Bus di via Repubblica, ospitando il fotografo Emanuele Cortellezzi, la rassegna di incontri sulla fotografia offre una nuova serata. Giovedì 12 novembre, con inizio alle 21, anche questa […] Continua la lettura di Serate di approfondimento sulla fotografia insieme al gruppo Diapho’s sul portale Prima Como .",
+      "published_at": "2026-11-11T08:48:01+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!” Campagna social contro il progetto degli impianti sciistici al San Primo",
+      "url": "https://primacomo.it/attualita/ma-tu-verresti-a-sciare-sul-monte-san-primo-la-neve-ce-la-mette-la-regione-campagna-social-contro-il-progetto-degli-impianti-sciistici-al-san-primo",
+      "summary": "“Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”. E’ questo lo slogan – tra l’ironico e il sarcastico – della nuova campagna social sul progetto che vorrebbe riportare lo sci sulle pendici del Monte San Primo, realizzata dall’associazione Simbio insieme al Coordinamento Salviamo il Monte San Primo. […] Continua la lettura di “Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!” Campagna social contro il progetto degli impianti sciistici al San Primo sul portale Prima Como .",
+      "published_at": "2026-11-11T08:01:58+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Controlli nelle sale bowling, sequestrati diversi apparecchi",
+      "url": "https://primacomo.it/cronaca/controlli-nelle-sale-bowling-sequestrati-diversi-apparecchi",
+      "summary": "Prosegue l’attività di controllo dell’Agenzia delle Dogane e dei Monopoli a tutela della legalità nel settore del gioco pubblico. Nel corso di un’operazione condotta dal personale degli Uffici Locali ADM della Direzione Territoriale Lombardia, sono stati sequestrati apparecchi da intrattenimento privi dei necessari titoli autorizzatori, installati presso quattro sale bowling nelle città di Milano e […] Continua la lettura di Controlli nelle sale bowling, sequestrati diversi apparecchi sul portale Prima Como .",
+      "published_at": "2026-11-11T07:41:08+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
     {
       "title": "Controlli anti droga nel Lario: sequestrati hashish e cocaina",
       "url": "https://primacomo.it/cronaca/controlli-anti-droga-nel-lario-sequestrati-hashish-e-cocaina",
@@ -340,34 +398,6 @@
       ]
     },
     {
-      "title": "Como, danneggia un’auto in sosta per recuperare degli effetti personali: non era vero",
-      "url": "https://comozero.it/attualita/como-danneggia-unauto-in-sosta-per-recuperare-degli-effetti-personali-non-era-vero",
-      "summary": "La Polizia di Stato di Como ha arrestato un uomo 37enne, italiano con numerosi precedenti di Polizia per reati inerenti gli stupefacenti e reati contro la persona, ritenuto responsabile di detenzione di sostanze stupefacenti ai fini di spaccio. Intorno alle ore 20 di ieri, gli agenti della Squadra Volanti della Questura di Como sono intervenuti […] L'articolo Como, danneggia un’auto in sosta per recuperare degli effetti personali: non era vero proviene da ComoZero .",
-      "published_at": "2026-11-10T11:08:24+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sfrecciano ad alta velocità e svoltano nella stradina: i finanzieri li inseguono e vedono che un giovane butta via tutto",
-      "url": "https://comozero.it/attualita/sfreccia-ad-alta-velocita-e-svolta-nella-stradina-i-finanzieri-la-inseguono-e-vedono-che-il-giovane-che-butta-via-tutto",
-      "summary": "Nei giorni scorsi, i finanzieri del Comando Provinciale di Como hanno intensificato i controlli antidroga nel territorio del Lario Intelvese. Durante le operazioni, i militari della Compagnia di Menaggio hanno notato un’auto che sfrecciava a forte velocità e svoltava in una strada secondaria, decidendo di seguirla fino al suo arresto. Dal veicolo sono scesi cinque […] L'articolo Sfrecciano ad alta velocità e svoltano nella stradina: i finanzieri li inseguono e vedono che un giovane butta via tutto proviene da ComoZero .",
-      "published_at": "2026-11-10T11:05:49+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale",
       "url": "https://primacomo.it/altro/addio-a-luigi-capiaghi-presidente-della-cooperativa-intesa-sociale",
       "summary": "Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale di Bizzarone. Addio a Luigi Capiaghi E’ venuto a mancare a 76 anni nel pomeriggio di ieri, lunedì 9 novembre, a causa dell’aggravarsi di alcuni problemi di salute. E’ stato vicesindaco del Comune di Bizzarone dal 1975 al 1978; sindaco dall’agosto 1978 fino al 20 aprile […] Continua la lettura di Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale sul portale Prima Como .",
@@ -612,50 +642,6 @@
       "url": "https://primacomo.it/sport/linter-ferma-la-corsa-del-como-esposito-e-thuram-decidono-il-2-0-a-san-siro",
       "summary": "Si interrompe a San Siro la straordinaria serie positiva del Como. Dopo la leggendaria notte di Lens, la squadra di Cesc Fàbregas cade per 2-0 contro l’Inter di Cristian Chivu, nell’undicesima giornata di Serie A. A decidere la sfida sono le reti di Pio Esposito e Marcus Thuram, entrambe realizzate nei primi venti minuti. Una […] Continua la lettura di L’Inter ferma la corsa del Como: Esposito e Thuram decidono il 2-0 a San Siro sul portale Prima Como .",
       "published_at": "2026-11-08T19:04:54+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Cantù non si schioda da quota 0",
-      "url": "https://primacomo.it/sport/cantu-non-si-schioda-da-quota-0",
-      "summary": "E anche questa occasione è andata. Al PalaTiziano la Maxima Roma si impone sull’Acqua S.Bernardo e dopo sette giornate di campionato Cantù resta desolatamente in fondo alla classifica a quota 0 La gara Le triple di Moraschini e Holiday, una per parte, inaugurano la partita. Bilan regala il primo vantaggio di giornata a Roma, ma Cantù, […] Continua la lettura di Cantù non si schioda da quota 0 sul portale Prima Como .",
-      "published_at": "2026-11-08T18:03:28+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como",
-        "rm"
-      ],
-      "territory_codes": [
-        "CO",
-        "RM"
-      ]
-    },
-    {
-      "title": "Aso, campioni di fair play: la società sarà premiata da Panathlon",
-      "url": "https://primacomo.it/attualita/aso-campioni-di-fair-play-la-societa-sara-premiata-da-panathlon",
-      "summary": "Aso Alzate, campioni di fair play: la società sarà premiata il prossimo 21 novembre da Panathlon International Club di Como a Villa del Grumello, in occasione della Giornata internazionale del fair play, per il suo impegno nel sensibilizzare bambini e ragazzi a uno sport rispettoso, corretto e onesto. “Un riconoscimento che spinge a fare sempre […] Continua la lettura di Aso, campioni di fair play: la società sarà premiata da Panathlon sul portale Prima Como .",
-      "published_at": "2026-11-08T15:00:49+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Nozze di diamante per Salvatora e Bruno",
-      "url": "https://primacomo.it/attualita/nozze-di-diamante-per-salvatora-e-bruno",
-      "summary": "Sessant’anni d’amore per Salvatora Labolina e Bruno Viadana : il prossimo 12 novembre, la coppia festeggerà le nozze di diamante. “Il segreto? L’affetto reciproco e la certezza di esserci” I due si conosciuti nel 1965, quando lui aveva 18 anni, mentre lei 17 anni. Da quel momento iniziò qualcosa di magico destinato a durare per tutta […] Continua la lettura di Nozze di diamante per Salvatora e Bruno sul portale Prima Como .",
-      "published_at": "2026-11-08T14:30:13+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
