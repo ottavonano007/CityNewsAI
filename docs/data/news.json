@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T06:06:49.908109+00:00",
+  "generated_at": "2026-11-11T07:23:02.264773+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Controlli anti droga nel Lario: sequestrati hashish e cocaina",
+      "url": "https://primacomo.it/cronaca/controlli-anti-droga-nel-lario-sequestrati-hashish-e-cocaina",
+      "summary": "Nell’ambito dei servizi di controllo economico del territorio, i militari del Comando Provinciale della Guardia di finanza di Como hanno intensificato perlustrazioni e controlli contro lo spaccio e la minuta vendita di sostanze stupefacenti nel territorio del Lario Intelvese, individuando complessivamente cinque giovani, uno dei quali denunciato per violazione della normativa in materia di sostanze […] Continua la lettura di Controlli anti droga nel Lario: sequestrati hashish e cocaina sul portale Prima Como .",
+      "published_at": "2026-11-11T07:08:47+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Comprare o affittare? A Piacenza la rata del mutuo costa meno del canone, ma lo scoglio è l’anticipo",
+      "url": "https://www.piacenzasera.it/2026/11/comprare-o-affittare-a-piacenza-la-rata-del-mutuo-costa-meno-del-canone-ma-lo-scoglio-e-lanticipo/669847",
+      "summary": "L'analisi del portale idealista, che per la prima volta mette a confronto i costi di acquisto e di affitto a parità di dimensione dell’abitazione The post Comprare o affittare? A Piacenza la rata del mutuo costa meno del canone, ma lo scoglio è l’anticipo appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T06:00:21+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Statale 45, quale futuro per la Val Trebbia? Serata pubblica a Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/statale-45-quale-futuro-per-la-val-trebbia-serata-pubblica-a-piacenza/669802",
+      "summary": "Venerdi 13 novembre alla Galleria Rosso Tiziano a Piacenza l'incontro organizzato dalla rete delle associazioni a tutela della Val Trebbia The post Statale 45, quale futuro per la Val Trebbia? Serata pubblica a Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T06:00:05+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Como, nuova luce su viale Varese: ok al progetto da 80mila euro (e pagano tanto i fondi dei frontalieri)",
       "url": "https://comozero.it/attualita/como-nuova-luce-sara-su-viale-varese-ok-al-progetto-da-80mila-euro-e-pagano-tanto-i-fondi-dei-frontalieri",
@@ -614,20 +656,6 @@
       "url": "https://primacomo.it/attualita/nozze-di-diamante-per-salvatora-e-bruno",
       "summary": "Sessant’anni d’amore per Salvatora Labolina e Bruno Viadana : il prossimo 12 novembre, la coppia festeggerà le nozze di diamante. “Il segreto? L’affetto reciproco e la certezza di esserci” I due si conosciuti nel 1965, quando lui aveva 18 anni, mentre lei 17 anni. Da quel momento iniziò qualcosa di magico destinato a durare per tutta […] Continua la lettura di Nozze di diamante per Salvatora e Bruno sul portale Prima Como .",
       "published_at": "2026-11-08T14:30:13+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Stefano Panzeri in scena al Medioevo con “Terra Matta”",
-      "url": "https://primacomo.it/cultura/stefano-panzeri-in-scena-al-medioevo-con-terra-matta",
-      "summary": "Stefano Panzeri a Olgiate Comasco col suo spettacolo “Terra Matta”. “Terra Matta”, in scena al Medioevo Oggi, domenica 8 novembre, alle 16, l’auditorium del centro congressi Medioevo ospita “Terra Matta (1899–1918)”, narrazione teatrale di Stefano Panzeri, organizzata dall’Università degli Adulti di Olgiate Comasco e dall’assessorato alla Cultura del Comune di Olgiate Comasco. Ingresso libero. Una […] Continua la lettura di Stefano Panzeri in scena al Medioevo con “Terra Matta” sul portale Prima Como .",
-      "published_at": "2026-11-08T14:00:32+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
