@@ -330,24 +330,16 @@ private fun isNecrologyText(raw:String):Boolean {
   .replace(Regex("\\p{Mn}+"),"").replace("’"," ").replace("'"," ")
   .replace(Regex("[^\\p{L}\\p{N}]+")," ").replace(Regex("\\s+")," ").trim()
  val indicators=listOf(
-  "necrolog","epigraf","manifesti funebri","annunci funebri","funebr","funeral",
-  "esequi","cordogli","condoglian","lutt","decesso","decess","defunt","tumulaz",
-  "inumaz","cremaz","salma","camera ardente","onoranze funebri","pompe funebri",
-  "servizi funebri","annuncio di morte","annunci di morte","annuncio funebre",
-  "e mancato","e mancata","e venuto a mancare","e venuta a mancare",
-  "venuto a mancare","venuta a mancare","ci ha lasciato","ci hanno lasciato",
-  "si e spento","si e spenta","si e addormentato","si e addormentata",
-  "si e ricongiunto","si e ricongiunta","trigesimo","trigesima","in suffragio",
-  "partecipazione al lutto","sentite condoglianze","piu sentite condoglianze",
-  "ne danno il triste annuncio","ne danno il doloroso annuncio",
-  "annunciano la scomparsa","annunciano la morte","i funerali avranno luogo",
-  "le esequie avranno luogo","la famiglia ringrazia","ringraziano quanti",
-  "in memoria di","in ricordo di","anniversario della morte",
-  "anniversario della scomparsa","anniversario della dipartita",
-  "ricordano con affetto","lascia nel dolore","ultimo saluto","ultimo addio",
-  "la scomparsa di","la morte di","deceduto","deceduta","morto","morta",
-  "ricordo dei defunti","annuncio della famiglia","partecipazione al lutto",
-  "ringraziamento ai presenti","ringraziamento per le condoglianze"
+  // Indicatori espliciti di annunci funebri ed epigrafi.
+  "necrolog","epigraf","manifesti funebri","annunci funebri","annuncio funebre",
+  "annuncio della famiglia","ne danno il triste annuncio","ne danno il doloroso annuncio",
+  "camera ardente","onoranze funebri","pompe funebri","servizi funebri",
+  "trigesimo","trigesima","in suffragio","partecipazione al lutto",
+  "sentite condoglianze","piu sentite condoglianze",
+  "i funerali avranno luogo","le esequie avranno luogo",
+  "la famiglia ringrazia","ringraziano quanti",
+  "ringraziamento ai presenti","ringraziamento per le condoglianze",
+  "anniversario della dipartita"
  )
  return indicators.any { text.contains(it) }
 }
@@ -453,7 +445,9 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
    if(group.any{sameNewsEvent(it,candidate)}){group+=candidate;consumed[j]=true}
   }
   val best=group.maxByOrNull{articleDetailScore(it)}!!
-  val isNecrology=group.any{it.necrology}
+  // La categoria dell'articolo più completo prevale: una copia necrologica
+  // non deve trasformare una notizia di cronaca sullo stesso evento in necrologio.
+  val isNecrology=best.necrology
   merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size,category=if(isNecrology)"NECROLOGI" else best.category,necrology=isNecrology)
  }
  val resultLimit=when(periodId){"ultimora"->60;"24h"->60;"3d"->75;"7d"->90;"1m"->110;"1y"->150;else->60}
