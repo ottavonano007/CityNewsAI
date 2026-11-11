@@ -51,26 +51,26 @@ class BriefingActivity : ComponentActivity() {
  }
 }
 private fun isNecrologyArticle(article:BriefingArticle):Boolean {
- val text=(article.title+" "+article.summary).lowercase(Locale.ITALY)
+ val text=(article.title+" "+article.summary+" "+article.source+" "+article.url).lowercase(Locale.ITALY)
  val normalized=java.text.Normalizer.normalize(text,java.text.Normalizer.Form.NFD)
-  .replace(Regex("\\p{Mn}+"),"")
-  .replace("’"," ")
-  .replace("'"," ")
-  .replace(Regex("[^\\p{L}\\p{N}]+")," ")
-  .trim()
+  .replace(Regex("\\p{Mn}+"),"").replace("’"," ").replace("'"," ")
+  .replace(Regex("[^\\p{L}\\p{N}]+")," ").replace(Regex("\\s+")," ").trim()
  val indicators=listOf(
-  // Radici: intercettano automaticamente singolare, plurale e varianti.
-  "necrolog", "epigraf", "funebr", "funeral", "esequi", "cordogli",
-  "lutt", "decesso", "decess", "tumulaz", "inumaz", "cremaz",
-  "camera ardente", "onoranze funebri", "pompe funebri",
-  "annuncio di morte", "annunci di morte", "annuncio funebre",
-  "e mancato", "e venuto a mancare", "e venuta a mancare",
-  "venuto a mancare", "venuta a mancare", "ci ha lasciato",
-  "ci hanno lasciato", "si e spento", "si e spenta",
-  "si e addormentato", "si e addormentata",
-  "trigesimo", "trigesima", "in suffragio", "partecipazione al lutto",
-  "anniversario della morte", "anniversario della scomparsa",
-  "in memoria di", "in ricordo di"
+  "necrolog","epigraf","manifesti funebri","annunci funebri","funebr","funeral",
+  "esequi","cordogli","condoglian","lutt","decesso","decess","defunt","tumulaz",
+  "inumaz","cremaz","salma","camera ardente","onoranze funebri","pompe funebri",
+  "servizi funebri","annuncio di morte","annunci di morte","annuncio funebre",
+  "e mancato","e mancata","e venuto a mancare","e venuta a mancare",
+  "venuto a mancare","venuta a mancare","ci ha lasciato","ci hanno lasciato",
+  "si e spento","si e spenta","si e addormentato","si e addormentata",
+  "si e ricongiunto","si e ricongiunta","trigesimo","trigesima","in suffragio",
+  "partecipazione al lutto","sentite condoglianze","piu sentite condoglianze",
+  "ne danno il triste annuncio","ne danno il doloroso annuncio",
+  "annunciano la scomparsa","annunciano la morte","i funerali avranno luogo",
+  "le esequie avranno luogo","la famiglia ringrazia","ringraziano quanti",
+  "in memoria di","in ricordo di","anniversario della morte",
+  "anniversario della scomparsa","anniversario della dipartita",
+  "ricordano con affetto","lascia nel dolore"
  )
  return indicators.any { normalized.contains(it) }
 }
