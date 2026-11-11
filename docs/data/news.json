@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T14:27:37.302228+00:00",
+  "generated_at": "2026-11-11T15:58:03.281471+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -28,12 +28,168 @@
   ],
   "articles": [
     {
+      "title": "Il Tesoro di Como si svela, le monete d’oro in mostra dal 4 dicembre (con spioncino)",
+      "url": "https://comozero.it/cultura-e-spettacolo/il-tesoro-di-como-si-svela-le-monete-doro-in-mostra-dal-4-dicembre-con-spioncino",
+      "summary": "I Musei Civici e il Comune di Como, dopo l’anticipazione di stamani del quotidiano La Provincia di Como a firma di Gisella Roncoroni, fanno sapere che l’attesa esposizione del Tesoro di Como, le monete di valore inestimabile trovate durante gli scavi all’ex cineteatro Cressoni, sarà inaugurato il prossimo 3 dicembre con apertura al pubblico il […] L'articolo Il Tesoro di Como si svela, le monete d’oro in mostra dal 4 dicembre (con spioncino) proviene da ComoZero .",
+      "published_at": "2026-11-11T15:57:26+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Tra Roma e Como, centrodestra inaccettabile e ipocrita” Il durissimo attacco sulle scuole",
+      "url": "https://comozero.it/politica/tra-roma-e-como-centrodestra-inaccettabile-e-ipocrita-il-durissimo-attacco-sulle-scuole",
+      "summary": "Durissimo attacco del Pd al centrodestra comasco (e nazionale) sul fronte delle scuole. Nel mirino della nota diffusa da Francesco Finizio, referente di settore per il partito locale, c’è la differenza di atteggiamento tra Roma e Como. “Da giorni assistiamo al teatrino di diversi esponenti della maggioranza di Governo che si dicono improvvisamente stupiti dei […] L'articolo “Tra Roma e Como, centrodestra inaccettabile e ipocrita” Il durissimo attacco sulle scuole proviene da ComoZero .",
+      "published_at": "2026-11-11T15:44:03+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "RM"
+      ]
+    },
+    {
+      "title": "Cisl Scuola da Piacenza a Roma contro i tagli della manovra di Bilancio “Irricevibili”",
+      "url": "https://www.piacenzasera.it/2026/11/cisl-scuola-da-piacenza-a-roma-contro-i-tagli-della-manovra-di-bilancio-irricevibili/669965",
+      "summary": "Al centro della contestazione c'è l'ipotesi di una riduzione di circa 7.000 posti tra personale docente e ATA (ausiliario, tecnico e amministrativo), misura giudicata \"inaccettabile\" dai sindacati The post Cisl Scuola da Piacenza a Roma contro i tagli della manovra di Bilancio “Irricevibili” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T15:34:33+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza",
+        "rm"
+      ],
+      "territory_codes": [
+        "PC",
+        "RM"
+      ]
+    },
+    {
+      "title": "Spaccio nei boschi, maxi blitz a Como e in altre 6 province: smantellati 17 bivacchi, tre arresti e sequestri di droga e armi",
+      "url": "https://comozero.it/cronaca/spaccio-nei-boschi-maxi-blitz-a-como-e-in-altre-6-province-smantellati-17-bivacchi-tre-arresti-e-sequestri-di-droga-e-armi",
+      "summary": "Un’operazione su vasta scala, condotta contemporaneamente in sette province lombarde, per smantellare le basi dello spaccio nei boschi e sottrarre alle organizzazioni criminali il controllo delle aree verdi. Nel pomeriggio di martedì 10 novembre, i Carabinieri hanno messo in campo un dispositivo straordinario che ha interessato Milano, Bergamo, Monza Brianza, Varese, Como, Lecco e Pavia, […] L'articolo Spaccio nei boschi, maxi blitz a Como e in altre 6 province: smantellati 17 bivacchi, tre arresti e sequestri di droga e armi proviene da ComoZero .",
+      "published_at": "2026-11-11T15:28:42+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "bg",
+        "como",
+        "lc",
+        "mi",
+        "pv",
+        "va"
+      ],
+      "territory_codes": [
+        "BG",
+        "CO",
+        "LC",
+        "MI",
+        "PV",
+        "VA"
+      ]
+    },
+    {
+      "title": "Catene o gomme invernali, torna l’obbligo sulle strade Anas. Ecco quali nel piacentino",
+      "url": "https://www.piacenzasera.it/2026/11/catene-o-gomme-invernali-torna-lobbligo-sulle-strade-anas-ecco-dove-nel-piacentino/669961",
+      "summary": "Dal 15 novembre sui tratti delle strade statali a rischio di precipitazioni nevose o ghiaccio The post Catene o gomme invernali, torna l’obbligo sulle strade Anas. Ecco quali nel piacentino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T15:23:38+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Il monte del Lago di Como, il no agli impianti da sci e l’unione per una camminata molto speciale",
+      "url": "https://comozero.it/attualita/il-monte-del-lago-di-como-il-no-agli-impianti-da-sci-e-lunione-per-una-camminata-molto-speciale",
+      "summary": "La Delegazione FAI di Como – in collaborazione col Coordinamento “Salviamo il Monte San Primo” – organizza per domenica 15 novembre una camminata lungo le pendici del Monte San Primo, alla scoperta di uno degli affacci più suggestivi e panoramici dell’intera regione. Il percorso partirà dalla Colma di Sormano per poi salire gradualmente lungo la dorsale fino a […] L'articolo Il monte del Lago di Como, il no agli impianti da sci e l’unione per una camminata molto speciale proviene da ComoZero .",
+      "published_at": "2026-11-11T15:23:24+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Violenza e disagio giovanile, disponibile online il documentario “Sul filo”",
+      "url": "https://www.piacenzasera.it/2026/11/violenza-e-disagio-giovanile-disponibile-online-il-documentario-sul-filo/669956",
+      "summary": "Prodotto dal Forum Italiano per la Sicurezza Urbana (FISU), cui aderisce anche il Comune di Piacenza, pone l'accento sulla necessità di investimenti strutturali e risorse certe volte alla prevenzione della criminalità giovanile The post Violenza e disagio giovanile, disponibile online il documentario “Sul filo” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T15:08:49+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Nuove risorse per l’Appennino grazie ai fondi europei del Gal del Ducato",
+      "url": "https://www.piacenzasera.it/2026/11/nuove-risorse-per-lappennino-grazie-ai-fondi-europei-del-gal-del-ducato/669954",
+      "summary": "Aperti bandi per le aziende agricole, le attività turistiche, i Comuni e la rete museale tra le province di Parma e Piacenza The post Nuove risorse per l’Appennino grazie ai fondi europei del Gal del Ducato appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T14:57:12+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pr",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PR",
+        "PC"
+      ]
+    },
+    {
+      "title": "Conservatorio Nicolini modello per il placement musicale: il caso pilota italiano presentato a Roma",
+      "url": "https://www.piacenzasera.it/2026/11/conservatorio-nicolini-modello-per-il-placement-musicale-il-caso-pilota-italiano-presentato-a-roma/669940",
+      "summary": "\"ConsERvatorio Orienta\" è il caso pilota nazionale per l'orientamento lavorativo dei musicisti, formalmente riconosciuto durante un seminario nazionale a Roma The post Conservatorio Nicolini modello per il placement musicale: il caso pilota italiano presentato a Roma appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T14:32:00+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "rm"
+      ],
+      "territory_codes": [
+        "RM"
+      ]
+    },
+    {
       "title": "Giornata mondiale dei poveri: l’invito del vescovo alla solidarietà",
       "url": "https://primacomo.it/attualita/giornata-mondiale-dei-poveri-linvito-del-vescovo-alla-solidarieta",
       "summary": "La decima Giornata mondiale dei poveri, istituita da Papa Francesco nel 2016, al termine del Giubileo straordinario della misericordia, si terrà domenica 15 novembre in tutta la diocesi di Como. Giornata mondiale dei poveri Una ricorrenza che invita le comunità cristiane a interrogarsi sul posto riservato alle persone più fragili nella vita della Chiesa e […] Continua la lettura di Giornata mondiale dei poveri: l’invito del vescovo alla solidarietà sul portale Prima Como .",
       "published_at": "2026-11-11T14:25:34+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Oggi a CiaoComo di Mattina Gianluigi Spata e Olga Disoteo presentano l’incontro di Como in Salute",
+      "url": "https://www.ciaocomo.it/2026/11/11/oggi-a-ciaocomo-di-mattina-gianluigi-spata-e-olga-disoteo-presentano-lincontro-di-como-in-salute/347764",
+      "summary": "The post Oggi a CiaoComo di Mattina Gianluigi Spata e Olga Disoteo presentano l’incontro di Como in Salute appeared first on CiaoComo .",
+      "published_at": "2026-11-11T14:17:24+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -112,23 +268,9 @@
       ]
     },
     {
-      "title": "Spettacoli, luci e animazione per il Natale di Piacenza, il 21 l’accensione dell’albero",
-      "url": "https://www.piacenzasera.it/2026/11/spettacoli-luci-e-animazione-per-il-natale-di-piacenza-il-21-laccensione-dellalbero/669928",
-      "summary": "Tra le iniziative in programma anche il 'regalo sospeso' per le famiglie piacentine in difficoltà The post Spettacoli, luci e animazione per il Natale di Piacenza, il 21 l’accensione dell’albero appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T13:09:05+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Allarme bomba in molte scuole italiane: a Como evacuato il Pessina. Ecco il testo della mail (giudicato inattendibile)",
+      "title": "Allarme bomba in più di 6mila scuole italiane: a Como evacuato il Pessina. Ecco il testo della mail",
       "url": "https://comozero.it/cronaca/allarme-bomba-in-molte-scuole-italiane-a-como-evacuato-il-pessina-ecco-il-testo-della-mail-giudicato-inattendibile",
-      "summary": "Email con allarmi bomba e messaggi di minaccia sono arrivate a numerosi istituti scolastici del Comasco, seguendo uno schema che sta interessando diverse zone d’Italia, con particolare evidenza a Roma. Si tratta di comunicazioni dai contenuti spesso generici e deliranti, ritenute al momento poco attendibili dalle autorità. I messaggi descrivono presunti ordigni capaci di provocare […] L'articolo Allarme bomba in molte scuole italiane: a Como evacuato il Pessina. Ecco il testo della mail (giudicato inattendibile) proviene da ComoZero .",
+      "summary": "Email con allarmi bomba e messaggi di minaccia sono arrivate a numerosi istituti scolastici del Comasco, seguendo uno schema che sta interessando diverse zone d’Italia, con particolare evidenza a Roma. Si tratta di comunicazioni dai contenuti spesso generici e deliranti, ritenute al momento poco attendibili dalle autorità. I messaggi descrivono presunti ordigni capaci di provocare […] L'articolo Allarme bomba in più di 6mila scuole italiane: a Como evacuato il Pessina. Ecco il testo della mail proviene da ComoZero .",
       "published_at": "2026-11-11T13:06:13+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -139,34 +281,6 @@
       "territory_codes": [
         "CO",
         "RM"
-      ]
-    },
-    {
-      "title": "Subsonica in concerto al Politeama il 13 marzo",
-      "url": "https://www.piacenzasera.it/2026/11/subsonica-in-concerto-al-politeama-il-13-marzo/669911",
-      "summary": "Fa tappa a Piacenza il nuovo tour della band nei principali teatri italiani, in partenza a marzo 2027 The post Subsonica in concerto al Politeama il 13 marzo appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T12:11:11+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Spazi giovani e rigenerazione urbana, confronto tra Piacenza e Bordeaux con la Regione",
-      "url": "https://www.piacenzasera.it/2026/11/spazi-giovani-e-rigenerazione-urbana-confronto-tra-piacenza-e-bordeaux-con-la-regione-emilia-romagna/669912",
-      "summary": "La missione istituzionale si inserisce nel percorso di cooperazione con la regione della Nouvelle-Aquitaine The post Spazi giovani e rigenerazione urbana, confronto tra Piacenza e Bordeaux con la Regione appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T12:10:44+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -328,80 +442,10 @@
       ]
     },
     {
-      "title": "COMO CANTA e incanta: al Cinema Astra il pubblico diventa un grande coro per solidarietà",
-      "url": "https://www.ciaocomo.it/2026/11/10/como-canta-e-incanta-al-cinema-astra-il-pubblico-diventa-un-grande-coro-per-solidarieta/347645",
-      "summary": "Venerdì 13 novembre la prima esperienza comasca di Instant Choir, organizzata da Breva70. Nessuna preparazione musicale richiesta: ogni partecipante potrà cantare sotto la guida di una direttrice professionista, sostenendo un progetto dedicato alle persone con autismo e patologie neurodegenerative The post COMO CANTA e incanta: al Cinema Astra il pubblico diventa un grande coro per solidarietà appeared first on CiaoComo .",
-      "published_at": "2026-11-10T18:30:46+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Lago di Como, paura in valle per il nuovo impianto e il Comitato stronca duro: “No al tavolo inutile. Opera deleteria, noi non facciamo da scudo”",
       "url": "https://comozero.it/attualita/lago-di-como-paura-in-valle-per-il-nuovo-impianto-e-il-comitato-stronca-duro-no-al-tavolo-inutile-opera-deleteria-noi-non-facciamo-da-scudo",
       "summary": "Da tempo raccontiamo i timori in Val d’Intelvi per l’ipotizzato impianto di betonaggio a Castiglione necessario per il cantiere della Variante della Tremezzina. Il comitato Intelvi Radar si oppone fermamente alla realizzazione, pur non contestando la Variante, e solleva numerosi dubbi, in primis sui rischi per la salute: qui tutte le cronache. Tra gli sviluppi […] L'articolo Lago di Como, paura in valle per il nuovo impianto e il Comitato stronca duro: “No al tavolo inutile. Opera deleteria, noi non facciamo da scudo” proviene da ComoZero .",
       "published_at": "2026-11-10T17:56:52+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Tante cazzate e niente da insegnare ma questa vita è stata maestra”, nel nuovo libro le mille esistenze di Beppe Guin. E quella ‘profezia’ sul Lago così vera e triste",
-      "url": "https://comozero.it/cultura-e-spettacolo/tante-cazzate-e-niente-da-insegnare-ma-questa-vita-e-stata-maestra-nel-nuovo-libro-le-mille-esistenze-di-beppe-guin-e-quella-profezia-sul-lago-cosi-vera-e-triste",
-      "summary": "“Visto che non arriverà un altro Giuseppe Guin a raccontare la mia vita, allora l’ho fatto da solo”. Non c’è neppure bisogno di chiedere allo scrittore e giornalista comasco Giuseppe Guin perché abbia deciso di scrivere questa sorta di autobiografia per racconti, il suo nuovo libro “La vita maestra” (Dominioni Editore), in uscita il 13 […] L'articolo “Tante cazzate e niente da insegnare ma questa vita è stata maestra”, nel nuovo libro le mille esistenze di Beppe Guin. E quella ‘profezia’ sul Lago così vera e triste proviene da ComoZero .",
-      "published_at": "2026-11-10T17:04:44+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, la rinascita del Gloria è più vicina: “Raccolti 28mila euro, ecco i nuovi eventi in programma”(E grandissimo bis con la sonada per Guccini)",
-      "url": "https://comozero.it/attualita/como-la-rinascita-del-gloria-e-piu-vicina-raccolti-28mila-euro-ecco-i-nuovi-eventi-in-programmae-grandissimo-bis-con-la-sonada-per-guccini",
-      "summary": "Come raccontavamo nei giorni scorsi, il Circolo Arci Xandù di via Varesina è stato chiuso dal Comune per mancanza del certificato antincendio come accertato dai Vigili del Fuoco. Situazione a cui aveva fatto seguito una chiara nota dei gestori: “Speriamo di sistemare entro fine anno o si rischia lo stop definitivo”. Un succedersi di eventi coronato dall’intervento […] L'articolo Como, la rinascita del Gloria è più vicina: “Raccolti 28mila euro, ecco i nuovi eventi in programma”(E grandissimo bis con la sonada per Guccini) proviene da ComoZero .",
-      "published_at": "2026-11-10T16:40:46+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Gerry Scotti premiato e il ricordo della giovinezza: “I sogni, Milano e quella casa popolare di viale Zara”",
-      "url": "https://comozero.it/attualita/gerri-scotti-premiato-e-il-ricordo-della-giovinezza-i-sogni-milano-e-quella-casa-popolare-di-viale-zara",
-      "summary": "GerriyScotti ha ricevuto oggi al Teatro alla Scala di Milano dal presidente Attilio Fontana la Rosa Camuna, la più alta onorificenza attribuita dalla Regione Lombardia. Nel suo discorso dal palco il popolarissimo presentatore tv ha ricordato episodi della sua giovinezza. “La Rosa Camuna – ha detto Jerri Scotti – per me è un simbolo molto […] L'articolo Gerry Scotti premiato e il ricordo della giovinezza: “I sogni, Milano e quella casa popolare di viale Zara” proviene da ComoZero .",
-      "published_at": "2026-11-10T16:15:46+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
-      ]
-    },
-    {
-      "title": "Meteo a Como e provincia: giovedì pioggia intensa poi il freddo nel fine settimana",
-      "url": "https://comozero.it/attualita/meteo-a-como-giovedi-pioggia-intensa-poi-il-freddo-nel-fine-settimana",
-      "summary": "Settimana all’insegna del maltempo sul Lario, con cieli coperti e precipitazioni diffuse. Venerdì possibile tregua, mentre sabato e domenica è atteso un clima più freddo. Ma sul fine settimana i modelli non concordano del tutto Nuvole, pioggia e temperature destinate a scendere nel corso del fine settimana. Le previsioni meteorologiche per Como e provincia delineano […] L'articolo Meteo a Como e provincia: giovedì pioggia intensa poi il freddo nel fine settimana proviene da ComoZero .",
-      "published_at": "2026-11-10T15:52:52+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -437,22 +481,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Turismo a Como, a Spallino risponde Michelini: “La crisi abitativa non nasce con Airbnb. Il commercio di lusso ha espulso i ceti popolari”",
-      "url": "https://comozero.it/punti-di-vista/turismo-a-como-a-spallino-risponde-michelini-la-crisi-abitativa-non-nasce-con-airbnb-il-commercio-di-lusso-ha-espulso-i-ceti-popolari",
-      "summary": "Ieri abbiamo pubblicato un’ampia e articolata riflessione dell’ex assessore all’Urbanistica (giunta Lucini) l’avvocato Lorenzo Spallino: Como 2046: città per residenti o per turisti? I cinque pezzi (non facili) di Lorenzo Spallino. Parole cui risponde Luca Michelini, docente di Storia del pensiero economico all’Università di Pisa, comasco da sempre attento dalle dinamiche cittadine. Ecco quanto scrive: […] L'articolo Turismo a Como, a Spallino risponde Michelini: “La crisi abitativa non nasce con Airbnb. Il commercio di lusso ha espulso i ceti popolari” proviene da ComoZero .",
-      "published_at": "2026-11-10T14:43:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "pi"
-      ],
-      "territory_codes": [
-        "CO",
-        "PI"
       ]
     },
     {
