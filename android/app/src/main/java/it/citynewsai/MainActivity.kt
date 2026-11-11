@@ -451,7 +451,7 @@ private fun CityNewsApp() {
     var newsUpdatedAt by remember { mutableStateOf("") }
     var newsLoading by remember { mutableStateOf(false) }
     var newsError by remember { mutableStateOf("") }
-    var selectedNewsPeriod by remember { mutableStateOf("24h") }
+    var selectedNewsPeriod by remember { mutableStateOf("ultimora") }
     var favoriteCodes by remember { mutableStateOf(prefs.getStringSet(KEY_FAVORITE_PROVINCES, emptySet())?.toSet() ?: emptySet()) }
     var showFavorites by remember { mutableStateOf(false) }
 
