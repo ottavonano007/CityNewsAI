@@ -17,7 +17,7 @@ import java.util.Date
 import java.util.Locale
 import java.util.TimeZone
 
-internal data class BriefingArticle(val title:String,val summary:String,val source:String,val url:String,val publishedAt:Date,val category:String,val corroborationCount:Int=1,val localSource:Boolean=false)
+internal data class BriefingArticle(val title:String,val summary:String,val source:String,val url:String,val publishedAt:Date,val category:String,val corroborationCount:Int=1,val localSource:Boolean=false,val necrology:Boolean=false)
 internal data class BriefingResult(val articles:List<BriefingArticle>,val generatedAt:String,val feedsRead:Int)
 private data class FeedSpec(val name:String,val url:String,val localSource:Boolean=false)
 
@@ -320,6 +320,29 @@ private fun clean(raw:String):String{
  val end=s.indexOfAny(charArrayOf('.','!','?'),160)
  return s.take(if(end in 160..280)end+1 else 277).trimEnd()+ "…"
 }
+private fun isNecrologyText(raw:String):Boolean {
+ val text=java.text.Normalizer.normalize(raw.lowercase(Locale.ITALY),java.text.Normalizer.Form.NFD)
+  .replace(Regex("\\p{Mn}+"),"").replace("’"," ").replace("'"," ")
+  .replace(Regex("[^\\p{L}\\p{N}]+")," ").replace(Regex("\\s+")," ").trim()
+ val indicators=listOf(
+  "necrolog","epigraf","manifesti funebri","annunci funebri","funebr","funeral",
+  "esequi","cordogli","condoglian","lutt","decesso","decess","defunt","tumulaz",
+  "inumaz","cremaz","salma","camera ardente","onoranze funebri","pompe funebri",
+  "servizi funebri","annuncio di morte","annunci di morte","annuncio funebre",
+  "e mancato","e mancata","e venuto a mancare","e venuta a mancare",
+  "venuto a mancare","venuta a mancare","ci ha lasciato","ci hanno lasciato",
+  "si e spento","si e spenta","si e addormentato","si e addormentata",
+  "si e ricongiunto","si e ricongiunta","trigesimo","trigesima","in suffragio",
+  "partecipazione al lutto","sentite condoglianze","piu sentite condoglianze",
+  "ne danno il triste annuncio","ne danno il doloroso annuncio",
+  "annunciano la scomparsa","annunciano la morte","i funerali avranno luogo",
+  "le esequie avranno luogo","la famiglia ringrazia","ringraziano quanti",
+  "in memoria di","in ricordo di","anniversario della morte",
+  "anniversario della scomparsa","anniversario della dipartita",
+  "ricordano con affetto","lascia nel dolore"
+ )
+ return indicators.any { text.contains(it) }
+}
 private fun category(s:String):String{
  val normalized=java.text.Normalizer.normalize(s.lowercase(Locale.ITALY),java.text.Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"),"")
  val title=normalized.substringBefore(" || ")
@@ -360,7 +383,7 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
     val tag=x.name.lowercase(Locale.ROOT)
     if(inside&&(tag=="item"||tag=="entry")){
      val d=parseDate(date)
-     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){val summary=clean(desc);out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" || "+summary),localSource=f.localSource)}
+     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){val summary=clean(desc);out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" || "+desc),localSource=f.localSource,necrology=isNecrologyText(title+" "+desc+" "+source+" "+link))}
      inside=false
     }
    }
