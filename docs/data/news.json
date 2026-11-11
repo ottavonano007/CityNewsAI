@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-11T15:58:03.281471+00:00",
+  "generated_at": "2026-11-11T17:02:41.236491+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -28,12 +28,98 @@
   ],
   "articles": [
     {
+      "title": "Paura per il portiere del Como Sanchez: si schianta in pista con la Ferrari, danni al mezzo e lui illeso",
+      "url": "https://www.ciaocomo.it/2026/11/11/paura-per-il-portiere-del-como-sanchez-si-schianta-in-pista-con-la-ferrari-danni-al-mezzo-e-lui-illeso/347784",
+      "summary": "Incidente lunedì pomeriggio, la conferma arrivata solo oggi. Non è rimasto contuso. Cause in fase di accertamento, parte anteriore seriamente compromessa. The post Paura per il portiere del Como Sanchez: si schianta in pista con la Ferrari, danni al mezzo e lui illeso appeared first on CiaoComo .",
+      "published_at": "2026-11-11T16:43:17+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "100 anni ed una festa speciale per il finanziere scelto Nicola Cusano: brindisi al comando provinciale",
+      "url": "https://www.ciaocomo.it/2026/11/11/100-anni-ed-una-festa-speciale-per-il-finanziere-scelto-nicola-cusano-brindisi-al-comando-provinciale/347779",
+      "summary": "The post 100 anni ed una festa speciale per il finanziere scelto Nicola Cusano: brindisi al comando provinciale appeared first on CiaoComo .",
+      "published_at": "2026-11-11T16:27:00+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "br"
+      ],
+      "territory_codes": [
+        "BR"
+      ]
+    },
+    {
+      "title": "“Parcheggi stravolti a Como: vie escluse, liste d’attesa aggravate e nuovi posti blu dove era vietato sostare”",
+      "url": "https://comozero.it/attualita/parcheggi-stravolti-a-como-vie-escluse-liste-dattesa-aggravate-e-nuovi-posti-blu-dove-era-vietato-sostare",
+      "summary": "Le recenti novità introdotte dalla giunta Rapinese sia sui nuovi parcheggi a pagamento al posto di stalli gratis, sia sui permessi per i posti auto per i residenti ha suscitato perplessità nella consigliera comunale di Forza Italia Paola Ceriello che si concentra sull’istituzione della nuova area di sosta agevolata (ASA) Radice. Ecco il suo intervento […] L'articolo “Parcheggi stravolti a Como: vie escluse, liste d’attesa aggravate e nuovi posti blu dove era vietato sostare” proviene da ComoZero .",
+      "published_at": "2026-11-11T16:07:04+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Ecco la data per la mostra delle monete d’oro di Como: inaugurazione 3 dicembre, apertura al pubblico dal giorno dopo",
+      "url": "https://www.ciaocomo.it/2026/11/11/la-data-per-la-mostra-delle-monete-doro-di-como-inaugurazione-3-dicembre-apertura-al-pubblico-dal-giorno-dopo/347774",
+      "summary": "Il 3 dicembre una visita riservata a stampa ed autorità, il giorno dopo i cittadini potranno ammirare l'allestimento: racconto che partirà dalla scoperta e dallo scavo per attraversare secoli di storia di Como. The post Ecco la data per la mostra delle monete d’oro di Como: inaugurazione 3 dicembre, apertura al pubblico dal giorno dopo appeared first on CiaoComo .",
+      "published_at": "2026-11-11T16:00:40+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Il Tesoro di Como si svela, le monete d’oro in mostra dal 4 dicembre (con spioncino)",
       "url": "https://comozero.it/cultura-e-spettacolo/il-tesoro-di-como-si-svela-le-monete-doro-in-mostra-dal-4-dicembre-con-spioncino",
       "summary": "I Musei Civici e il Comune di Como, dopo l’anticipazione di stamani del quotidiano La Provincia di Como a firma di Gisella Roncoroni, fanno sapere che l’attesa esposizione del Tesoro di Como, le monete di valore inestimabile trovate durante gli scavi all’ex cineteatro Cressoni, sarà inaugurato il prossimo 3 dicembre con apertura al pubblico il […] L'articolo Il Tesoro di Como si svela, le monete d’oro in mostra dal 4 dicembre (con spioncino) proviene da ComoZero .",
       "published_at": "2026-11-11T15:57:26+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Tagliaferri (FdI): “Sulla Milano-Piacenza pendolari stipati nei convogli, Regione faccia chiarezza”",
+      "url": "https://www.piacenzasera.it/2026/11/tagliaferri-fdi-sulla-milano-piacenza-pendolari-stipati-nei-convogli-regione-faccia-chiarezza/669978",
+      "summary": "Il consigliere regionale piacentino ha predisposto una richiesta di accesso agli atti e un’interrogazione per approfondire la corrispondenza tra numero dei passeggeri, capacità dei convogli, composizione dei treni e controlli effettuati dalle autorità competenti The post Tagliaferri (FdI): “Sulla Milano-Piacenza pendolari stipati nei convogli, Regione faccia chiarezza” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T15:54:12+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mi",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "MI",
+        "PC"
+      ]
+    },
+    {
+      "title": "Spaccio nei boschi, maxi blitz dei Carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti",
+      "url": "https://www.ciaocomo.it/2026/11/11/spaccio-nei-boschi-maxi-blitz-dei-carabinieri-in-sette-province-lombarde-smantellati-17-bivacchi-e-tre-arresti/347778",
+      "summary": "Operazione anche nel Comasco e nel Lecchese: sequestrati droga, armi da taglio e oltre 6.400 euro in contanti. Identificate 146 persone e controllati 107 veicoli The post Spaccio nei boschi, maxi blitz dei Carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti appeared first on CiaoComo .",
+      "published_at": "2026-11-11T15:45:17+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -156,20 +242,6 @@
       ]
     },
     {
-      "title": "Conservatorio Nicolini modello per il placement musicale: il caso pilota italiano presentato a Roma",
-      "url": "https://www.piacenzasera.it/2026/11/conservatorio-nicolini-modello-per-il-placement-musicale-il-caso-pilota-italiano-presentato-a-roma/669940",
-      "summary": "\"ConsERvatorio Orienta\" è il caso pilota nazionale per l'orientamento lavorativo dei musicisti, formalmente riconosciuto durante un seminario nazionale a Roma The post Conservatorio Nicolini modello per il placement musicale: il caso pilota italiano presentato a Roma appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T14:32:00+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "rm"
-      ],
-      "territory_codes": [
-        "RM"
-      ]
-    },
-    {
       "title": "Giornata mondiale dei poveri: l’invito del vescovo alla solidarietà",
       "url": "https://primacomo.it/attualita/giornata-mondiale-dei-poveri-linvito-del-vescovo-alla-solidarieta",
       "summary": "La decima Giornata mondiale dei poveri, istituita da Papa Francesco nel 2016, al termine del Giubileo straordinario della misericordia, si terrà domenica 15 novembre in tutta la diocesi di Como. Giornata mondiale dei poveri Una ricorrenza che invita le comunità cristiane a interrogarsi sul posto riservato alle persone più fragili nella vita della Chiesa e […] Continua la lettura di Giornata mondiale dei poveri: l’invito del vescovo alla solidarietà sul portale Prima Como .",
@@ -240,31 +312,17 @@
       ]
     },
     {
-      "title": "Giornata del diabete, a piazzale Milano screening e open day per la vaccinazione antinfluenzale",
-      "url": "https://www.piacenzasera.it/2026/11/giornata-del-diabete-a-piazzale-milano-screening-e-open-day-per-la-vaccinazione-antinfluenzale/669934",
-      "summary": "The post Giornata del diabete, a piazzale Milano screening e open day per la vaccinazione antinfluenzale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T13:33:42+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
+      "title": "Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: apprensione anche da noi",
+      "url": "https://www.ciaocomo.it/2026/11/11/minacce-via-mail-in-centinaia-di-scuole-lallarme-bomba-scuote-il-mondo-dellistruzione-apprensione-anche-da-noi/347772",
+      "summary": "A Como nessuna evacuazione: solo al Pessina alcuni studenti usciti precauzionalmente. Attenzione alta, il farneticante testo arrivato agli istituti. Vertici d'urgenza con la premier Meloni. The post Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: apprensione anche da noi appeared first on CiaoComo .",
+      "published_at": "2026-11-11T13:10:14+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
-        "mi"
+        "como"
       ],
       "territory_codes": [
-        "MI"
-      ]
-    },
-    {
-      "title": "Emilbanca Lyons: Vittorie di carattere per Under 18 e Under 16",
-      "url": "https://www.piacenzasera.it/2026/11/emilbanca-lyons-vittorie-di-carattere-per-under-18-e-under-16/669932",
-      "summary": "Vittoria pesantissima dell’Under 18 Emilbanca, che difende il fattore campo dall’assalto del Rugby Parma The post Emilbanca Lyons: Vittorie di carattere per Under 18 e Under 16 appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T13:29:53+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pr"
-      ],
-      "territory_codes": [
-        "PR"
+        "CO"
       ]
     },
     {
@@ -290,20 +348,6 @@
       "published_at": "2026-11-11T11:35:52+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Spazio Gloria, raccolti 28mila euro per la riapertura: il programma di Gloria Off si allarga a nuove sale",
-      "url": "https://www.ciaocomo.it/2026/11/11/spazio-gloria-raccolti-28mila-euro-per-la-riapertura-il-programma-di-gloria-off-si-allarga-a-nuove-sale/347719",
-      "summary": "Dalla serata dedicata a Francesco Guccini al Joshua Blues Club alle proiezioni all’Astra e a Cinelandia, la solidarietà del mondo culturale comasco tiene viva l'attività dello storico spazio cittadino The post Spazio Gloria, raccolti 28mila euro per la riapertura: il programma di Gloria Off si allarga a nuove sale appeared first on CiaoComo .",
-      "published_at": "2026-11-11T10:00:24+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -432,20 +476,6 @@
       "url": "https://comozero.it/attualita/il-grande-segreto-sottoterra-del-paesino-meraviglioso-e-amato-del-lago-di-como-si-svela-con-un-regalo-speciale",
       "summary": "Oltre 100 fotografie per documentare il patrimonio carsico del territorio, dalle grotte storiche alla Galleria Mina della Linea Cadorna. Domenica 15 novembre la presentazione del volume, poi una copia gratuita per ogni famiglia residente C’è un mondo nascosto sotto i ripidi versanti di Brienno, fatto di cavità naturali, passaggi sotterranei e ambienti che custodiscono una […] L'articolo Il grande segreto sottoterra del paesino meraviglioso e amato sul Lago di Como si svela. Con un regalo speciale proviene da ComoZero .",
       "published_at": "2026-11-10T20:14:31+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lago di Como, paura in valle per il nuovo impianto e il Comitato stronca duro: “No al tavolo inutile. Opera deleteria, noi non facciamo da scudo”",
-      "url": "https://comozero.it/attualita/lago-di-como-paura-in-valle-per-il-nuovo-impianto-e-il-comitato-stronca-duro-no-al-tavolo-inutile-opera-deleteria-noi-non-facciamo-da-scudo",
-      "summary": "Da tempo raccontiamo i timori in Val d’Intelvi per l’ipotizzato impianto di betonaggio a Castiglione necessario per il cantiere della Variante della Tremezzina. Il comitato Intelvi Radar si oppone fermamente alla realizzazione, pur non contestando la Variante, e solleva numerosi dubbi, in primis sui rischi per la salute: qui tutte le cronache. Tra gli sviluppi […] L'articolo Lago di Como, paura in valle per il nuovo impianto e il Comitato stronca duro: “No al tavolo inutile. Opera deleteria, noi non facciamo da scudo” proviene da ComoZero .",
-      "published_at": "2026-11-10T17:56:52+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
