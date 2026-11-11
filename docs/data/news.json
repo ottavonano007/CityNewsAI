@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:59:52.936967+00:00",
+  "generated_at": "2026-11-11T19:04:19.366779+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Manovra, l’allarme di De Pascale: “Fondi sanità non garantiscono cure essenziali”",
+      "url": "https://www.piacenzasera.it/2026/11/manovra-lallarme-di-de-pascale-fondi-sanita-non-garantiscono-cure-essenziali/670019",
+      "summary": "Il presidente dell’Emilia-Romagna sull’audizione oggi a Roma: “Non si può continuare a dichiarare che il diritto alla salute è garantito a tutte e tutti se poi non si mettono le Regioni nelle condizioni di renderlo effettivo” The post Manovra, l’allarme di De Pascale: “Fondi sanità non garantiscono cure essenziali” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T18:36:14+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "rm"
+      ],
+      "territory_codes": [
+        "RM"
+      ]
+    },
+    {
+      "title": "Allarme bomba in più scuole piacentine, disposta l’evacuazione degli alunni in città e provincia",
+      "url": "https://www.piacenzasera.it/2026/11/allarme-bomba-alla-scuola-di-rivergaro-disposta-levacuazione-dei-bambini/669855",
+      "summary": "La diffusione dell'avviso con la presenza di bombe nelle scuole ha interessato diversi istituti non solo in provincia di Piacenza, ma anche nella Regione e nel resto d'Italia The post Allarme bomba in più scuole piacentine, disposta l’evacuazione degli alunni in città e provincia appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T17:33:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "I Menagrama festeggiano 15 anni con “Storie di Lombardia”, il primo spettacolo teatrale della folk band comasca",
+      "url": "https://www.ciaocomo.it/2026/11/11/i-menagrama-festeggiano-15-anni-con-storie-di-lombardia-il-primo-spettacolo-teatrale-della-folk-band-comasca/347734",
+      "summary": "Venerdì 13 novembre al Teatro Agorà di Carate Brianza, insieme all'attore Fabio Sarti, la band porta in scena racconti, leggende e personaggi della tradizione lombarda The post I Menagrama festeggiano 15 anni con “Storie di Lombardia”, il primo spettacolo teatrale della folk band comasca appeared first on CiaoComo .",
+      "published_at": "2026-11-11T17:30:52+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Paura per il portiere del Como Robert Sanchez: si schianta in pista con la Ferrari, danni al mezzo e lui illeso",
       "url": "https://www.ciaocomo.it/2026/11/11/paura-per-il-portiere-del-como-sanchez-si-schianta-in-pista-con-la-ferrari-danni-al-mezzo-e-lui-illeso/347784",
@@ -209,36 +251,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Violenza e disagio giovanile, disponibile online il documentario “Sul filo”",
-      "url": "https://www.piacenzasera.it/2026/11/violenza-e-disagio-giovanile-disponibile-online-il-documentario-sul-filo/669956",
-      "summary": "Prodotto dal Forum Italiano per la Sicurezza Urbana (FISU), cui aderisce anche il Comune di Piacenza, pone l'accento sulla necessità di investimenti strutturali e risorse certe volte alla prevenzione della criminalità giovanile The post Violenza e disagio giovanile, disponibile online il documentario “Sul filo” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T15:08:49+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Nuove risorse per l’Appennino grazie ai fondi europei del Gal del Ducato",
-      "url": "https://www.piacenzasera.it/2026/11/nuove-risorse-per-lappennino-grazie-ai-fondi-europei-del-gal-del-ducato/669954",
-      "summary": "Aperti bandi per le aziende agricole, le attività turistiche, i Comuni e la rete museale tra le province di Parma e Piacenza The post Nuove risorse per l’Appennino grazie ai fondi europei del Gal del Ducato appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T14:57:12+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pr",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PR",
-        "PC"
       ]
     },
     {
