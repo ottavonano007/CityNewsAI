@@ -17,9 +17,9 @@ import java.util.Date
 import java.util.Locale
 import java.util.TimeZone
 
-internal data class BriefingArticle(val title:String,val summary:String,val source:String,val url:String,val publishedAt:Date,val category:String,val corroborationCount:Int=1)
+internal data class BriefingArticle(val title:String,val summary:String,val source:String,val url:String,val publishedAt:Date,val category:String,val corroborationCount:Int=1,val localSource:Boolean=false)
 internal data class BriefingResult(val articles:List<BriefingArticle>,val generatedAt:String,val feedsRead:Int)
-private data class FeedSpec(val name:String,val url:String)
+private data class FeedSpec(val name:String,val url:String,val localSource:Boolean=false)
 
 private val regionalNewsDomains = mapOf(
  "Piemonte" to listOf("lastampa.it","quotidianopiemontese.it","ilpiccolo.net","atnews.it","targatocn.it","cuneodice.it","gazzettadalba.it","lanuovaprovincia.it","ecodibiella.it","novaratoday.it","ossolanews.it","torinoggi.it","valsusaoggi.it","vercellioggi.it"),
@@ -246,7 +246,7 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  val localDomains=provincialNewsDomains[p.code].orEmpty().distinct()
  if(localDomains.isNotEmpty()){
   val sites=localDomains.joinToString(" OR "){"site:"+it}
-  feeds+=googleNewsFeed("Fonti provinciali · "+p.name,"("+sites+")"+after)
+  feeds+=FeedSpec("Fonti provinciali · "+p.name,googleNewsFeed("","("+sites+")"+after).url,true)\n  // Secondo passaggio dedicato ai centri minori: frazioni, località, contrade e borgate.\n  val minorPlaces="(frazione OR frazioni OR località OR localita OR borgata OR borgate OR contrada OR contrade OR paese OR paesi OR quartiere OR quartieri OR rione OR rioni OR territorio comunale)"\n  feeds+=FeedSpec("Comuni e frazioni · "+p.name,googleNewsFeed("", "("+sites+") "+minorPlaces+after).url,true)
  }
 
  // Le testate regionali sono interrogate in gruppi piccoli, evitando query troppo lunghe.
@@ -257,11 +257,11 @@ private fun feedSpecs(p:Province, period:String):List<FeedSpec>{
  }
 
  when(p.code){
-  "PC"->feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/")
+  "PC"->feeds+=FeedSpec("PiacenzaSera","https://www.piacenzasera.it/feed/",true)
   "CO"->{
-   feeds+=FeedSpec("CiaoComo","https://www.ciaocomo.it/feed/")
-   feeds+=FeedSpec("ComoZero","https://comozero.it/feed/")
-   feeds+=FeedSpec("Prima Como","https://primacomo.it/feed/")
+   feeds+=FeedSpec("CiaoComo","https://www.ciaocomo.it/feed/",true)
+   feeds+=FeedSpec("ComoZero","https://comozero.it/feed/",true)
+   feeds+=FeedSpec("Prima Como","https://primacomo.it/feed/",true)
   }
  }
  return feeds.distinctBy{it.url}
@@ -353,7 +353,7 @@ private fun parseFeed(f:FeedSpec):List<BriefingArticle>{
     val tag=x.name.lowercase(Locale.ROOT)
     if(inside&&(tag=="item"||tag=="entry")){
      val d=parseDate(date)
-     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){val summary=clean(desc);out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" "+summary))}
+     if(title.isNotBlank()&&link.startsWith("http")&&d!=null){val summary=clean(desc);out+=BriefingArticle(clean(title).ifBlank{title},summary,source,link,d,category(title+" "+summary),localSource=f.localSource)}
      inside=false
     }
    }
@@ -389,7 +389,7 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
  feedResults.forEach{items->if(items.isNotEmpty())read++;all+=items}
  val now=System.currentTimeMillis()
  val cutoff=periodStartMillis(periodId,now)
- val filtered=all.filter{it.publishedAt.time in cutoff..now && isDirectlyRelevant(it,province)}
+ // I risultati delle ricerche provinciali e dei feed locali possono riguardare frazioni o comuni\n // senza citare il capoluogo: non applicare loro il filtro lessicale sul nome della provincia.\n val filtered=all.filter{it.publishedAt.time in cutoff..now && (it.localSource || isDirectlyRelevant(it,province))}
  val remaining=filtered.sortedByDescending{articleDetailScore(it)}
  val merged=mutableListOf<BriefingArticle>()
  val consumed=BooleanArray(remaining.size)
