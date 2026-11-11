@@ -435,7 +435,7 @@ internal suspend fun fetchFreeBriefing(province:Province,periodId:String):Briefi
    if(group.any{sameNewsEvent(it,candidate)}){group+=candidate;consumed[j]=true}
   }
   val best=group.maxByOrNull{articleDetailScore(it)}!!
-  merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size)
+  merged+=best.copy(corroborationCount=group.map{it.source}.distinct().size,necrology=group.any{it.necrology})
  }
  val resultLimit=when(periodId){"ultimora"->60;"24h"->60;"3d"->75;"7d"->90;"1m"->110;"1y"->150;else->60}
  val ordered=if(periodId=="ultimora") merged.sortedByDescending{it.publishedAt.time}
