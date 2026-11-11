@@ -147,7 +147,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
     }
    }
   },
-  confirmButton={TextButton(onClick={showCategoryFilter=false}){Text("APPLICA")}},
+  confirmButton={Row(verticalAlignment=Alignment.CenterVertically){TextButton(onClick={selectedCategories=emptySet();includeNecrologi=false}){Text("DESELEZIONA TUTTO")};TextButton(onClick={showCategoryFilter=false}){Text("APPLICA")}}},
   dismissButton={TextButton(onClick={selectedCategories=availableCategories.toSet();includeNecrologi=false;showCategoryFilter=false}){Text("RIPRISTINA DEFAULT")}}
  )
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
