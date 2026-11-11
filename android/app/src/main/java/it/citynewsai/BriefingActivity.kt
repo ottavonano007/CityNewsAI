@@ -88,9 +88,9 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  var updatedAt by remember { mutableStateOf("") }
  var feedsRead by remember { mutableIntStateOf(0) }
  var keywordQuery by remember { mutableStateOf("") }
- val availableCategories=listOf("CRONACA E SICUREZZA","POLITICA E SERVIZI","ECONOMIA E LAVORO","AMBIENTE E METEO","CULTURA","SPORT","TERRITORIO")
- var selectedCategories by remember { mutableStateOf(availableCategories.toSet()) }
- var includeNecrologi by remember { mutableStateOf(false) }
+ val availableCategories=listOf("CRONACA E SICUREZZA","POLITICA E SERVIZI","ECONOMIA E LAVORO","AMBIENTE E METEO","CULTURA","SPORT","TERRITORIO","NECROLOGI")
+ val defaultCategories=availableCategories.filter{it!="NECROLOGI"}.toSet()
+ var selectedCategories by remember { mutableStateOf(defaultCategories) }
  var showCategoryFilter by remember { mutableStateOf(false) }
  val refresh:()->Unit={
   scope.launch {
@@ -103,18 +103,18 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  LaunchedEffect(province.code,periodId){refresh()}
  val isDark=when(themeMode){"dark"->true;"light"->false;else->isSystemInDarkTheme()}
  val colors=cityNewsColorScheme(isDark,palette)
- val filteredArticles=remember(articles,keywordQuery,selectedCategories,includeNecrologi) {
+ val filteredArticles=remember(articles,keywordQuery,selectedCategories) {
   val terms=keywordQuery.trim().lowercase(Locale.ITALY).split(Regex("\\s+")).filter{it.isNotBlank()}
   articles.filter { article ->
-   (article.category in selectedCategories) &&
-    (includeNecrologi || !isNecrologyArticle(article)) &&
+   val displayCategory=if(article.necrology||article.category=="NECROLOGI"||isNecrologyArticle(article))"NECROLOGI" else article.category
+   (displayCategory in selectedCategories) &&
     (terms.isEmpty() || run {
-     val searchable=listOf(article.title,article.summary,article.source,article.category).joinToString(" ").lowercase(Locale.ITALY)
+     val searchable=listOf(article.title,article.summary,article.source,displayCategory).joinToString(" ").lowercase(Locale.ITALY)
      terms.all { searchable.contains(it) }
     })
   }
  }
- val sections=filteredArticles.groupBy{it.category}
+ val sections=filteredArticles.groupBy{if(it.necrology||it.category=="NECROLOGI"||isNecrologyArticle(it))"NECROLOGI" else it.category}
  val listState=rememberLazyListState()
  var showScrollThumb by remember { mutableStateOf(false) }
  var isThumbDragging by remember { mutableStateOf(false) }
@@ -127,7 +127,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
   title={Text("Filtra per argomento")},
   text={
    Column(Modifier.heightIn(max=420.dp).verticalScroll(rememberScrollState())) {
-    Text("Tutti gli argomenti sono attivi inizialmente. Disattiva le categorie che non vuoi leggere.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
+    Text("Le sette categorie ordinarie sono attive inizialmente. Seleziona NECROLOGI per aggiungere gli annunci funebri; puoi anche deselezionare tutto e scegliere solo questa categoria.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
     Spacer(Modifier.height(10.dp))
     availableCategories.forEach { category ->
      Row(Modifier.fillMaxWidth().clickable {
@@ -138,17 +138,10 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
      }
     }
     HorizontalDivider(Modifier.padding(vertical=8.dp))
-    Row(Modifier.fillMaxWidth().clickable { includeNecrologi=!includeNecrologi }.padding(vertical=3.dp),verticalAlignment=Alignment.CenterVertically) {
-     Checkbox(checked=includeNecrologi,onCheckedChange=null)
-     Column {
-      Text("NECROLOGI",style=MaterialTheme.typography.labelLarge,fontWeight=FontWeight.Bold)
-      Text("Includi annunci funebri e notizie di lutto",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)
-     }
-    }
    }
   },
-  confirmButton={Row(verticalAlignment=Alignment.CenterVertically){TextButton(onClick={selectedCategories=emptySet();includeNecrologi=false}){Text("DESELEZIONA TUTTO")};TextButton(onClick={showCategoryFilter=false}){Text("APPLICA")}}},
-  dismissButton={TextButton(onClick={selectedCategories=availableCategories.toSet();includeNecrologi=false;showCategoryFilter=false}){Text("RIPRISTINA DEFAULT")}}
+  confirmButton={Row(verticalAlignment=Alignment.CenterVertically){TextButton(onClick={selectedCategories=emptySet()}){Text("DESELEZIONA TUTTO")};TextButton(onClick={showCategoryFilter=false}){Text("APPLICA")}}},
+  dismissButton={TextButton(onClick={selectedCategories=defaultCategories;showCategoryFilter=false}){Text("RIPRISTINA DEFAULT")}}
  )
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
@@ -181,10 +174,10 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
     ) {
      Icon(Icons.Default.FilterList,contentDescription=null)
      Spacer(Modifier.width(8.dp))
-     Text("ARGOMENTI ATTIVI: "+selectedCategories.size+"/"+availableCategories.size+(if(includeNecrologi) " • NECROLOGI" else ""))
+     Text("ARGOMENTI ATTIVI: "+selectedCategories.size+"/"+availableCategories.size+(if("NECROLOGI" in selectedCategories) " • NECROLOGI" else ""))
     }
    }
-   if((keywordQuery.isNotBlank()||selectedCategories.size!=availableCategories.size||includeNecrologi)&&!loading&&error.isBlank())item {
+   if((keywordQuery.isNotBlank()||selectedCategories!=defaultCategories)&&!loading&&error.isBlank())item {
     Text(
      if(filteredArticles.isEmpty()) "Nessuna notizia corrisponde ai filtri selezionati." else "Risultati: ${filteredArticles.size} notizie",
      style=MaterialTheme.typography.labelMedium,
