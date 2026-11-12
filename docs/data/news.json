@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-12T13:21:35.001896+00:00",
+  "generated_at": "2026-11-12T15:02:13.438190+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,104 @@
     }
   ],
   "articles": [
+    {
+      "title": "Conclusi in anticipo i lavori sulla Complanare, regolarmente aperta la stazione di Piacenza Sud",
+      "url": "https://www.piacenzasera.it/2026/11/conclusi-in-anticipo-i-lavori-sulla-complanare-regolarmente-aperta-la-stazione-di-piacenza-sud/670111",
+      "summary": "Annullata la chiusura notturna prevista tra giovedì e venerdì The post Conclusi in anticipo i lavori sulla Complanare, regolarmente aperta la stazione di Piacenza Sud appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T14:30:17+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Commercio ambulante in crisi, a Como perse 249 imprese in nove anni. Confesercenti: «Stop ai bandi per i posteggi»",
+      "url": "https://www.ciaocomo.it/2026/11/12/commercio-ambulante-in-crisi-a-como-perse-249-imprese-in-nove-anni-confesercenti-stop-ai-bandi-per-i-posteggi/347853",
+      "summary": "Il direttore Angelo Basilico chiede al Governo una verifica degli spazi disponibili prima di applicare le procedure di gara previste dalla direttiva Bolkestein. In Italia 53mila postazioni nei mercati risultano vuote The post Commercio ambulante in crisi, a Como perse 249 imprese in nove anni. Confesercenti: «Stop ai bandi per i posteggi» appeared first on CiaoComo .",
+      "published_at": "2026-11-12T14:13:10+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La ristorazione lariana si tiene strette le sue Stelle Michelin",
+      "url": "https://www.ciaocomo.it/2026/11/12/la-ristorazione-lariana-si-tiene-strette-le-sue-stelle-michelin/347854",
+      "summary": "Oggi la cerimonia di consegna dei riconoscimenti della Guida Michelin, tutte confermate le stelle ai cinque ristoranti del comasco The post La ristorazione lariana si tiene strette le sue Stelle Michelin appeared first on CiaoComo .",
+      "published_at": "2026-11-12T14:13:02+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
+      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
+      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
+      "published_at": "2026-11-12T14:07:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, gli ambulanti sono crollati del 27,5% in nove anni, Confesercenti: “Inutile il bando per assegnare gli spazi”",
+      "url": "https://comozero.it/attualita/como-gli-ambulanti-sono-crollati-del-275-in-nove-anni-confesercenti-inutile-il-bando-per-assegnare-gli-spazi",
+      "summary": "Gli ambulanti chiedono regole certe per il rinnovo delle concessioni e una verifica degli spazi realmente disponibili prima di procedere con nuovi bandi. In provincia di Como le imprese del settore sono diminuite del 27,5% in nove anni. Un posteggio su quattro nei mercati italiani è vuoto, ma per gli ambulanti resta aperta l’incertezza sul […] L'articolo Como, gli ambulanti sono crollati del 27,5% in nove anni, Confesercenti: “Inutile il bando per assegnare gli spazi” proviene da ComoZero .",
+      "published_at": "2026-11-12T13:58:01+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, Regione Lombardia premia 32 attività storiche del territorio: riconoscimento a negozi, botteghe e locali, ecco chi sono",
+      "url": "https://www.ciaocomo.it/2026/11/12/como-regione-lombardia-premia-32-attivita-storiche-della-provincia-riconoscimento-a-negozi-botteghe-e-locali/347851",
+      "summary": "Cerimonia con gli assessori Guidesi e Fermi. Salgono a 347 le imprese comasche riconosciute per almeno quarant'anni di attività. Ecco tutti i nomi dei premiati The post Como, Regione Lombardia premia 32 attività storiche del territorio: riconoscimento a negozi, botteghe e locali, ecco chi sono appeared first on CiaoComo .",
+      "published_at": "2026-11-12T13:56:05+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Auser presenta al sindaco di Fiorenzuola Gandolfi il nuovo progetto provinciale di trasporto sociale",
+      "url": "https://www.piacenzasera.it/2026/11/auser-presenta-al-sindaco-di-fiorenzuola-gandolfi-il-nuovo-progetto-provinciale-di-trasporto-sociale/670101",
+      "summary": "Il progetto prevede la realizzazione di un sistema unitario di trasporto sociale in tutta la provincia gestito da Auser Piacenza The post Auser presenta al sindaco di Fiorenzuola Gandolfi il nuovo progetto provinciale di trasporto sociale appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T13:40:55+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Como, il centrodestra alza subito le barricate su Minniti. FdI: “Contano appartenenza e coerenza”. Con ‘like’ pesanti",
       "url": "https://comozero.it/politica/como-il-centrodestra-alza-subito-le-barricate-su-minniti-fdi-contano-appartenenza-e-coerenza-con-like-pesanti",
@@ -142,9 +240,9 @@
       ]
     },
     {
-      "title": "Como, primi provvedimenti della Polizia dopo le chat del 24 ottobre su possibili azioni violente in città",
+      "title": "Como, primi provvedimenti della Polizia dopo le chat su possibili azioni violente: fogli di via e avvisi orali",
       "url": "https://www.ciaocomo.it/2026/11/12/como-primi-provvedimenti-della-polizia-dopo-le-chat-del-24-ottobre-su-possibili-azioni-violente-in-citta/347833",
-      "summary": "Le indagini della Digos dopo i fatti di Milano del 17 e 18 ottobre hanno portato all'identificazione di diversi giovani coinvolti in gruppi di messaggistica. Per tre maggiorenni disposto anche il foglio di via dalla città The post Como, primi provvedimenti della Polizia dopo le chat del 24 ottobre su possibili azioni violente in città appeared first on CiaoComo .",
+      "summary": "Le indagini della Digos dopo i fatti di Milano del 17 e 18 ottobre hanno portato all'identificazione di diversi giovani coinvolti in gruppi di messaggistica. Per tre maggiorenni disposto anche il foglio di via dalla città The post Como, primi provvedimenti della Polizia dopo le chat su possibili azioni violente: fogli di via e avvisi orali appeared first on CiaoComo .",
       "published_at": "2026-11-12T11:22:34+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -276,33 +374,17 @@
       ]
     },
     {
-      "title": "Como, furti di cellulare, bicicletta e monopattino: denunciato un 19enne, era già stato espulso due volte",
-      "url": "https://www.ciaocomo.it/2026/11/12/como-furti-di-cellulare-bicicletta-e-monopattino-denunciato-un-19enne-era-gia-stato-espulso-due-volte/347822",
-      "summary": "La Polizia è intervenuta in un negozio di via Milano dopo la segnalazione del titolare per il comportamento molesto del giovane. A suo carico numerosi precedenti e due provvedimenti di espulsione The post Como, furti di cellulare, bicicletta e monopattino: denunciato un 19enne, era già stato espulso due volte appeared first on CiaoComo .",
-      "published_at": "2026-11-12T10:02:04+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
+      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
+      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
+      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
+      "published_at": "2026-11-12T09:52:18+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
-        "como",
-        "mi"
+        "como"
       ],
       "territory_codes": [
-        "CO",
-        "MI"
-      ]
-    },
-    {
-      "title": "Il Cuncertass chiama musicisti e artisti allo sciopero: il 20 novembre una «fanfara della rivoluzione»",
-      "url": "https://www.piacenzasera.it/2026/11/il-cuncertass-chiama-musicisti-e-artisti-allo-sciopero-il-20-novembre-una-fanfara-della-rivoluzione/670042",
-      "summary": "L'appello parte dalla comunità del Cuncertass, il concerto del Primo Maggio che la Cgil organizza a Piacenza da quasi vent'ann The post Il Cuncertass chiama musicisti e artisti allo sciopero: il 20 novembre una «fanfara della rivoluzione» appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T09:55:34+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
+        "CO"
       ]
     },
     {
@@ -334,24 +416,10 @@
       ]
     },
     {
-      "title": "La Val d’Aveto lascia Piacenza e diventa parte della diocesi di Chiavari",
-      "url": "https://www.piacenzasera.it/2026/11/la-val-daveto-lascia-piacenza-diventa-parte-della-diocesi-di-chiavari/670037",
-      "summary": "Il passaggio avrà luogo in occasione della messa di domenica 15 novembre alle ore 15.30 a Santo Stefano d’Aveto The post La Val d’Aveto lascia Piacenza e diventa parte della diocesi di Chiavari appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T09:39:55+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Provincia di Como, tutti uniti per i dipendenti dell’azienda in difficoltà",
-      "url": "https://comozero.it/attualita/provincia-di-como-tutti-uniti-per-i-dipendenti-dellazienda-in-difficolta",
-      "summary": "Sostenere i 32 lavoratori di Cosmoplast S.p.A. coinvolti nella vertenza occupazionale e mettere subito a disposizione strumenti concreti per accompagnarli nella ricerca di nuove opportunità di lavoro. È stato questo l’obiettivo dell’incontro che si è svolto ieri al Comune di Turate, con la partecipazione della Provincia di Como, dell’Amministrazione comunale, degli enti accreditati ai servizi […] L'articolo Provincia di Como, tutti uniti per i dipendenti dell’azienda in difficoltà proviene da ComoZero .",
-      "published_at": "2026-11-12T08:33:52+00:00",
+      "title": "Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange",
+      "url": "https://comozero.it/pubbliredazionale/ragazze-alla-pari-lavoro-retribuito-tirocini-le-occasioni-per-imparare-le-lingue-in-tutta-europa-con-sunflower-exchange",
+      "summary": "Con l’arrivo dell’autunno e l’inizio del nuovo anno scolastico e lavorativo, cresce la voglia di pianificare le prossime tappe per il proprio futuro. Ed è proprio in questo momento che la storica agenzia comasca di intermediazione linguistica e scuola di lingue Sunflower Exchange, forte della sua esperienza ormai quasi trentennale, amplia le sue proposte rivolte […] L'articolo Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange proviene da ComoZero .",
+      "published_at": "2026-11-12T09:29:54+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -362,24 +430,10 @@
       ]
     },
     {
-      "title": "Al Politeama “Facciamo cinema”, documentario dedicato all’esperienza di Famiglia Nuova",
-      "url": "https://www.piacenzasera.it/2026/11/al-politeama-facciamo-cinema-documentario-dedicato-allesperienza-di-famiglia-nuova/670031",
-      "summary": "La proiezione evento si terrà a Piacenza, presso il Politeama di via San Siro 7, alle 21 del 19 novembre The post Al Politeama “Facciamo cinema”, documentario dedicato all’esperienza di Famiglia Nuova appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T06:00:55+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Como, uffici senza corridoio, grovigli di cavi e asfalto da rifare: cantieri da 390mila euro per la Polizia locale",
-      "url": "https://comozero.it/attualita/como-uffici-senza-corridoio-grovigli-di-cavi-e-asfalto-da-rifare-cantieri-da-390mila-per-la-polizia-locale",
-      "summary": "[Copertina: l’immagine di sinistra, presente anche sotto, ha avuto una messa a fuoco lievemente migliorata con AI senza alcuna modifica dell’originale] Due interventi distinti approvati dalla Giunta comunale: 190mila euro per sistemare l’area esterna del Comando di viale Innocenzo XI e altri 200mila per ripensare gli spazi al primo piano e mettere ordine negli impianti […] L'articolo Como, uffici senza corridoio, grovigli di cavi e asfalto da rifare: cantieri da 390mila euro per la Polizia locale proviene da ComoZero .",
-      "published_at": "2026-11-11T21:50:59+00:00",
+      "title": "Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan",
+      "url": "https://comozero.it/pubbliredazionale/pubbli-con-clerici-auto-il-colosso-cinese-dellauto-arriva-a-como-design-italiano-e-tecnologia-la-sfida-di-changan",
+      "summary": "Il panorama automobilistico italiano si arricchisce di un nuovo ed entusiasmante capitolo con l’arrivo ufficiale, sul mercato nazionale, di Changan, colosso globale dell’auto che ha fatto ufficialmente il suo ingresso sul mercato nazionale all’inizio del 2026. A raccogliere la sfida e a guidare questa novità sul territorio comasco e lombardo è Clerici Auto, storica realtà […] L'articolo Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan proviene da ComoZero .",
+      "published_at": "2026-11-12T09:23:04+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
