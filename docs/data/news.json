@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:11:04.400496+00:00",
+  "generated_at": "2026-11-12T07:28:00.044273+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 10,
+      "inserted": 10,
       "ok": true
     },
     {
@@ -184,9 +184,9 @@
       ]
     },
     {
-      "title": "Spaccio nei boschi, maxi blitz dei Carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti",
+      "title": "Spaccio nei boschi, maxi blitz dei carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti",
       "url": "https://www.ciaocomo.it/2026/11/11/spaccio-nei-boschi-maxi-blitz-dei-carabinieri-in-sette-province-lombarde-smantellati-17-bivacchi-e-tre-arresti/347778",
-      "summary": "Operazione anche nel Comasco e nel Lecchese: sequestrati droga, armi da taglio e oltre 6.400 euro in contanti. Identificate 146 persone e controllati 107 veicoli The post Spaccio nei boschi, maxi blitz dei Carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti appeared first on CiaoComo .",
+      "summary": "Operazione anche nel Comasco e nel Lecchese: sequestrati droga, armi da taglio e oltre 6.400 euro in contanti. Identificate 146 persone e controllati 107 veicoli The post Spaccio nei boschi, maxi blitz dei carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti appeared first on CiaoComo .",
       "published_at": "2026-11-11T15:45:17+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -322,9 +322,9 @@
       ]
     },
     {
-      "title": "Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: apprensione anche da noi",
+      "title": "Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: forte apprensione",
       "url": "https://www.ciaocomo.it/2026/11/11/minacce-via-mail-in-centinaia-di-scuole-lallarme-bomba-scuote-il-mondo-dellistruzione-apprensione-anche-da-noi/347772",
-      "summary": "A Como nessuna evacuazione: solo al Pessina alcuni studenti usciti precauzionalmente. Attenzione alta, il farneticante testo arrivato agli istituti. Vertici d'urgenza con la premier Meloni. The post Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: apprensione anche da noi appeared first on CiaoComo .",
+      "summary": "A Como nessuna evacuazione: solo al Pessina alcuni studenti usciti precauzionalmente. Attenzione alta, il farneticante testo arrivato agli istituti. Vertici d'urgenza con la premier Meloni. The post Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: forte apprensione appeared first on CiaoComo .",
       "published_at": "2026-11-11T13:10:14+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -377,34 +377,6 @@
       ],
       "territory_codes": [
         "VA"
-      ]
-    },
-    {
-      "title": "Sul Lago di Como 2mila firme contro i fuochi d’artificio. E intanto la Svizzera vota per abolirli per sempre",
-      "url": "https://comozero.it/attualita/sul-lago-di-como-2mila-firme-contro-i-fuochi-dartificio-e-intanto-la-svizzera-vota-per-abolirli-per-sempre",
-      "summary": "La battaglia contro i boati pirotecnici valica i confini. Se sul Lario la mobilitazione popolare chiede di fermare gli spettacoli delle feste private, oltreconfine si voterà a fine mese per un divieto nazionale su tutto il territorio federale. Mentre il Lago di Como fa i conti con l’impatto degli spettacoli pirotecnici legati ai grandi eventi […] L'articolo Sul Lago di Como 2mila firme contro i fuochi d’artificio. E intanto la Svizzera vota per abolirli per sempre proviene da ComoZero .",
-      "published_at": "2026-11-11T09:46:17+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange",
-      "url": "https://comozero.it/pubbliredazionale/ragazze-alla-pari-lavoro-retribuito-tirocini-le-occasioni-per-imparare-le-lingue-in-tutta-europa-con-sunflower-exchange",
-      "summary": "Con l’arrivo dell’autunno e l’inizio del nuovo anno scolastico e lavorativo, cresce la voglia di pianificare le prossime tappe per il proprio futuro. Ed è proprio in questo momento che la storica agenzia comasca di intermediazione linguistica e scuola di lingue Sunflower Exchange, forte della sua esperienza ormai quasi trentennale, amplia le sue proposte rivolte […] L'articolo Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange proviene da ComoZero .",
-      "published_at": "2026-11-11T09:29:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
