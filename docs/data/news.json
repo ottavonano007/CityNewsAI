@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-12T15:02:13.438190+00:00",
+  "generated_at": "2026-11-12T16:09:41.113553+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Minniti: “Io nel sondaggio sui candidato sindaco? E’ la seconda volta”. Poi il finale appuntito ‘dedicato’ a Nardone",
+      "url": "https://comozero.it/politica/minniti-io-nel-sondaggio-sui-candidato-sindaco-e-la-seconda-volta-poi-il-finale-appuntito-dedicato-a-nardone",
+      "summary": "Com’è bizzarra la politica, a volte. Giorni e giorni di calma piatta. E poi, nel volgere di poche ore, novità e scossoni. Esattamente come accaduto oggi, con la vicepresidente di Nova Como, Teresa Minniti, al centro di tutto. Ricapitoliamo. In mattinata esce qui la notizia di un sondaggio condotto da un istituto specializzato su diversi […] L'articolo Minniti: “Io nel sondaggio sui candidato sindaco? E’ la seconda volta”. Poi il finale appuntito ‘dedicato’ a Nardone proviene da ComoZero .",
+      "published_at": "2026-11-12T15:31:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Canottieri Ongina verso il derby, Mandoloni “Una sfida come le altre, non si può abbassare la guardia”",
+      "url": "https://www.piacenzasera.it/2026/11/canottieri-ongina-verso-il-derby-mandoloni-una-sfida-come-le-altre-non-si-puo-abbassare-la-guardia/670123",
+      "summary": "Il palleggiatore giallonero guarda alla sfida piacentina di sabato contro i giovani della Gas Sales Bluenergy The post Canottieri Ongina verso il derby, Mandoloni “Una sfida come le altre, non si può abbassare la guardia” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T15:23:47+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Medaglie al valore atletico Coni, nove piacentini premiati. Oro per Max Cremona",
+      "url": "https://www.piacenzasera.it/2026/11/medaglie-al-valore-atletico-coni-nove-piacentini-premiati-oro-per-max-cremona/670121",
+      "summary": "Sabato la consegna dei riconoscimenti a Ferrara: tra i premiati anche Andrea Dallavalle, Giacomo Carini e Edoardo Scotti The post Medaglie al valore atletico Coni, nove piacentini premiati. Oro per Max Cremona appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T15:18:24+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "cr",
+        "fe"
+      ],
+      "territory_codes": [
+        "CR",
+        "FE"
+      ]
+    },
+    {
+      "title": "Como, il Concerto d’Autunno dell’Orchestra Franz Terraneo a San Fedele: musica del Novecento e prime assolute",
+      "url": "https://www.ciaocomo.it/2026/11/12/como-il-concerto-dautunno-dellorchestra-franz-terraneo-a-san-fedele-musica-del-novecento-e-prime-assolute/347659",
+      "summary": "Sabato 14 novembre un programma diretto da Guido Boselli con musiche di Hindemith, Boselli e Ballarini. Ingresso gratuito e raccolta fondi per il progetto Lions “Kit Codice Rosa” a sostegno delle vittime di violenza The post Como, il Concerto d’Autunno dell’Orchestra Franz Terraneo a San Fedele: musica del Novecento e prime assolute appeared first on CiaoComo .",
+      "published_at": "2026-11-12T14:30:33+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Conclusi in anticipo i lavori sulla Complanare, regolarmente aperta la stazione di Piacenza Sud",
       "url": "https://www.piacenzasera.it/2026/11/conclusi-in-anticipo-i-lavori-sulla-complanare-regolarmente-aperta-la-stazione-di-piacenza-sud/670111",
@@ -90,20 +148,6 @@
       "published_at": "2026-11-12T13:58:01+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, Regione Lombardia premia 32 attività storiche del territorio: riconoscimento a negozi, botteghe e locali, ecco chi sono",
-      "url": "https://www.ciaocomo.it/2026/11/12/como-regione-lombardia-premia-32-attivita-storiche-della-provincia-riconoscimento-a-negozi-botteghe-e-locali/347851",
-      "summary": "Cerimonia con gli assessori Guidesi e Fermi. Salgono a 347 le imprese comasche riconosciute per almeno quarant'anni di attività. Ecco tutti i nomi dei premiati The post Como, Regione Lombardia premia 32 attività storiche del territorio: riconoscimento a negozi, botteghe e locali, ecco chi sono appeared first on CiaoComo .",
-      "published_at": "2026-11-12T13:56:05+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -182,9 +226,9 @@
       ]
     },
     {
-      "title": "Arrivano altre minacce via mail nelle scuole: testo differente, ma apprensione identica anche a Como",
+      "title": "Arrivano altre minacce via mail nelle scuole: testo differente rispetto a ieri, ma apprensione identica anche a Como",
       "url": "https://www.ciaocomo.it/2026/11/12/arrivano-altre-minacce-via-mail-nelle-scuole-testo-differente-ma-apprensione-identica-anche-a-como/347838",
-      "summary": "Al momento non risultano istituti evacuati da noi. Da altre oparti si, percezione differente. Il contenuto è stato diffuso dal Tg1: arriva da un un account filippino. The post Arrivano altre minacce via mail nelle scuole: testo differente, ma apprensione identica anche a Como appeared first on CiaoComo .",
+      "summary": "Al momento non risultano istituti evacuati da noi. Da altre oparti si, percezione differente. Il contenuto è stato diffuso dal Tg1: arriva da un un account filippino. The post Arrivano altre minacce via mail nelle scuole: testo differente rispetto a ieri, ma apprensione identica anche a Como appeared first on CiaoComo .",
       "published_at": "2026-11-12T12:17:00+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -207,20 +251,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Controlli dei carabinieri sul lavoro: sei denunce e tre lavoratori “in nero”",
-      "url": "https://www.piacenzasera.it/2026/11/controlli-carabinieri-sul-lavoro-sei-denunce-e-tre-lavoratori-in-nero/670075",
-      "summary": "Gli accertamenti del Nucleo Ispettorato del Lavoro, svolti insieme ai reparti dell’Arma territoriale del Comando Provinciale di Piacenza, hanno riguardato sicurezza, lavoro irregolare e tutela dei dipendenti The post Controlli dei carabinieri sul lavoro: sei denunce e tre lavoratori “in nero” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T11:27:11+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -286,20 +316,6 @@
       ]
     },
     {
-      "title": "Sicurezza sul lavoro, controlli in un cantiere del Comasco: tre denunciati e un’attività sospesa",
-      "url": "https://www.ciaocomo.it/2026/11/12/sicurezza-sul-lavoro-controlli-in-un-cantiere-del-comasco-tre-denunciati-e-unattivita-sospesa/347830",
-      "summary": "I Carabinieri hanno riscontrato diverse irregolarità, tra cui il rischio di cadute da oltre 3,5 metri e l'assenza di protezioni. Oltre 33mila euro tra sanzioni e ammende The post Sicurezza sul lavoro, controlli in un cantiere del Comasco: tre denunciati e un’attività sospesa appeared first on CiaoComo .",
-      "published_at": "2026-11-12T10:44:22+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Provincia di Como, cantieri edile con gravi irregolarità: tre denunce e 30mila euro di multa",
       "url": "https://comozero.it/attualita/provincia-di-como-cantieri-edile-con-gravi-irregolarita-tre-denunce-e-30mila-euro-di-multa",
       "summary": "Aperture nel vuoto senza protezioni a oltre tre metri e mezzo di altezza, passaggi privi di impalcati e una sega circolare azionata direttamente sotto il raggio d’azione di una gru. È il grave quadro emerso nel pomeriggio di mercoledì 11 novembre durante un’ispezione in un cantiere edile della provincia di Como, condotta dai Carabinieri delle […] L'articolo Provincia di Como, cantieri edile con gravi irregolarità: tre denunce e 30mila euro di multa proviene da ComoZero .",
@@ -341,20 +357,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Forza un cassonetto per gli abiti usati in viale Varese: 22enne sorpreso dalla Polizia e denunciato",
-      "url": "https://www.ciaocomo.it/2026/11/12/forza-un-cassonetto-per-gli-abiti-usati-in-viale-varese-22enne-sorpreso-dalla-polizia-e-denunciato/347825",
-      "summary": "Il giovane, residente a Cadorago, aveva con sé una tenaglia di 92 centimetri e uno smartphone di provenienza sospetta. Le immagini delle telecamere lo collegherebbero a un altro furto commesso il giorno precedente The post Forza un cassonetto per gli abiti usati in viale Varese: 22enne sorpreso dalla Polizia e denunciato appeared first on CiaoComo .",
-      "published_at": "2026-11-12T10:06:50+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "va"
-      ],
-      "territory_codes": [
-        "VA"
       ]
     },
     {
@@ -420,20 +422,6 @@
       "url": "https://comozero.it/pubbliredazionale/ragazze-alla-pari-lavoro-retribuito-tirocini-le-occasioni-per-imparare-le-lingue-in-tutta-europa-con-sunflower-exchange",
       "summary": "Con l’arrivo dell’autunno e l’inizio del nuovo anno scolastico e lavorativo, cresce la voglia di pianificare le prossime tappe per il proprio futuro. Ed è proprio in questo momento che la storica agenzia comasca di intermediazione linguistica e scuola di lingue Sunflower Exchange, forte della sua esperienza ormai quasi trentennale, amplia le sue proposte rivolte […] L'articolo Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange proviene da ComoZero .",
       "published_at": "2026-11-12T09:29:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan",
-      "url": "https://comozero.it/pubbliredazionale/pubbli-con-clerici-auto-il-colosso-cinese-dellauto-arriva-a-como-design-italiano-e-tecnologia-la-sfida-di-changan",
-      "summary": "Il panorama automobilistico italiano si arricchisce di un nuovo ed entusiasmante capitolo con l’arrivo ufficiale, sul mercato nazionale, di Changan, colosso globale dell’auto che ha fatto ufficialmente il suo ingresso sul mercato nazionale all’inizio del 2026. A raccogliere la sfida e a guidare questa novità sul territorio comasco e lombardo è Clerici Auto, storica realtà […] L'articolo Con Clerici Auto il colosso cinese arriva a Como: design italiano e tecnologia, la sfida di Changan proviene da ComoZero .",
-      "published_at": "2026-11-12T09:23:04+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
