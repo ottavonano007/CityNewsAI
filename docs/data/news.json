@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T07:28:00.044273+00:00",
+  "generated_at": "2026-11-12T09:08:54.072262+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,90 @@
     }
   ],
   "articles": [
+    {
+      "title": "Festival A Due Voci, venerdì 13 novembre il primo appuntamento della XIII edizione",
+      "url": "https://www.ciaocomo.it/2026/11/12/festival-a-due-voci-venerdi-13-novembre-il-primo-appuntamento-della-xiii-edizione/347800",
+      "summary": "Al via la XIII edizione del Festival A Due Voci, si comincia venerdì 13 novembre alle 20.30 in Piazza Martinelli a Como con una riflessione filosofica intorno al Duende The post Festival A Due Voci, venerdì 13 novembre il primo appuntamento della XIII edizione appeared first on CiaoComo .",
+      "published_at": "2026-11-12T08:30:51+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Al Municipale oggi si svelano le nuove Stelle e la Guida Michelin",
+      "url": "https://www.piacenzasera.it/2026/11/al-municipale-oggi-si-svelano-le-nuove-stelle-e-la-guida-michelin/670034",
+      "summary": "A Piacenza il lancio ufficiale della 72a edizione della versione italiana della celebre Guida, alla presenza di chef e operatori del settore The post Al Municipale oggi si svelano le nuove Stelle e la Guida Michelin appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T08:23:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Giornata mondiale del diabete, le mura di Como si illuminano di blu: convegni, prevenzione e nuove prospettive di cura",
+      "url": "https://www.ciaocomo.it/2026/11/12/giornata-mondiale-del-diabete-le-mura-di-como-si-illuminano-di-blu-convegni-prevenzione-e-nuove-prospettive-di-cura/347815",
+      "summary": "Dal diabete sul lavoro al passaggio dall’adolescenza all’età adulta, incontri e iniziative con gli specialisti di Asst Lariana. Intanto Olga Disoteo assume la guida della Diabetologia The post Giornata mondiale del diabete, le mura di Como si illuminano di blu: convegni, prevenzione e nuove prospettive di cura appeared first on CiaoComo .",
+      "published_at": "2026-11-12T07:30:19+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Al Politeama “Facciamo cinema”, documentario dedicato all’esperienza di Famiglia Nuova",
+      "url": "https://www.piacenzasera.it/2026/11/al-politeama-facciamo-cinema-documentario-dedicato-allesperienza-di-famiglia-nuova/670031",
+      "summary": "La proiezione evento si terrà a Piacenza, presso il Politeama di via San Siro 7, alle 21 del 19 novembre The post Al Politeama “Facciamo cinema”, documentario dedicato all’esperienza di Famiglia Nuova appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T06:00:55+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Trent’anni di partecipazione, Piacenza celebra il Consiglio Comunale dei Ragazzi",
+      "url": "https://www.piacenzasera.it/2026/11/trentanni-di-partecipazione-piacenza-celebra-il-consiglio-comunale-dei-ragazzi/669975",
+      "summary": "L'iniziativa, all'Auditorium S.Ilario, coinvolgerà i Consigli in erba attivi sul territorio provinciale The post Trent’anni di partecipazione, Piacenza celebra il Consiglio Comunale dei Ragazzi appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T23:00:29+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Piattaforme aeree a Modena: come organizzare il noleggio con consegna in cantiere",
+      "url": "https://www.piacenzasera.it/2026/11/piattaforme-aeree-a-modena-come-organizzare-il-noleggio-con-consegna-in-cantiere/670029",
+      "summary": "The post Piattaforme aeree a Modena: come organizzare il noleggio con consegna in cantiere appeared first on piacenzasera.it .",
+      "published_at": "2026-11-11T23:00:01+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mo"
+      ],
+      "territory_codes": [
+        "MO"
+      ]
+    },
     {
       "title": "Como, uffici senza corridoio, grovigli di cavi e asfalto da rifare: cantieri da 390mila euro per la Polizia locale",
       "url": "https://comozero.it/attualita/como-uffici-senza-corridoio-grovigli-di-cavi-e-asfalto-da-rifare-cantieri-da-390mila-per-la-polizia-locale",
@@ -168,22 +252,6 @@
       ]
     },
     {
-      "title": "Tagliaferri (FdI): “Sulla Milano-Piacenza pendolari stipati nei convogli, Regione faccia chiarezza”",
-      "url": "https://www.piacenzasera.it/2026/11/tagliaferri-fdi-sulla-milano-piacenza-pendolari-stipati-nei-convogli-regione-faccia-chiarezza/669978",
-      "summary": "Il consigliere regionale piacentino ha predisposto una richiesta di accesso agli atti e un’interrogazione per approfondire la corrispondenza tra numero dei passeggeri, capacità dei convogli, composizione dei treni e controlli effettuati dalle autorità competenti The post Tagliaferri (FdI): “Sulla Milano-Piacenza pendolari stipati nei convogli, Regione faccia chiarezza” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T15:54:12+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "mi",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "MI",
-        "PC"
-      ]
-    },
-    {
       "title": "Spaccio nei boschi, maxi blitz dei carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti",
       "url": "https://www.ciaocomo.it/2026/11/11/spaccio-nei-boschi-maxi-blitz-dei-carabinieri-in-sette-province-lombarde-smantellati-17-bivacchi-e-tre-arresti/347778",
       "summary": "Operazione anche nel Comasco e nel Lecchese: sequestrati droga, armi da taglio e oltre 6.400 euro in contanti. Identificate 146 persone e controllati 107 veicoli The post Spaccio nei boschi, maxi blitz dei carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti appeared first on CiaoComo .",
@@ -266,20 +334,6 @@
       ]
     },
     {
-      "title": "Oggi a CiaoComo di Mattina Gianluigi Spata e Olga Disoteo presentano l’incontro di Como in Salute",
-      "url": "https://www.ciaocomo.it/2026/11/11/oggi-a-ciaocomo-di-mattina-gianluigi-spata-e-olga-disoteo-presentano-lincontro-di-como-in-salute/347764",
-      "summary": "The post Oggi a CiaoComo di Mattina Gianluigi Spata e Olga Disoteo presentano l’incontro di Como in Salute appeared first on CiaoComo .",
-      "published_at": "2026-11-11T14:17:24+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Omicidio Ramona, il compagno confessa: “Sono colpevole”",
       "url": "https://primacomo.it/altro/omicidio-ramona-il-compagno-confessa-sono-colpevole",
       "summary": "Processo per l’omicidio di Ramona Rinaldi, il compagno confessa: “Sono colpevole”. Omicidio Ramona, la confessione Colpo di scena oggi, mercoledì 11 novembre, davanti ai giudici della Corte d’Assise di Como. Daniele Re, imputato per l’omicidio della compagna avvenuto nella loro abitazione di Veniano, nella notte tra il 20 e il 21 febbraio 2025, ha confessato […] Continua la lettura di Omicidio Ramona, il compagno confessa: “Sono colpevole” sul portale Prima Como .",
@@ -314,20 +368,6 @@
       "published_at": "2026-11-11T13:40:40+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: forte apprensione",
-      "url": "https://www.ciaocomo.it/2026/11/11/minacce-via-mail-in-centinaia-di-scuole-lallarme-bomba-scuote-il-mondo-dellistruzione-apprensione-anche-da-noi/347772",
-      "summary": "A Como nessuna evacuazione: solo al Pessina alcuni studenti usciti precauzionalmente. Attenzione alta, il farneticante testo arrivato agli istituti. Vertici d'urgenza con la premier Meloni. The post Minacce via mail in centinaia di scuole, l’allarme bomba scuote il mondo dell’Istruzione: forte apprensione appeared first on CiaoComo .",
-      "published_at": "2026-11-11T13:10:14+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
