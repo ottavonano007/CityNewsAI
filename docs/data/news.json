@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T22:54:24.474467+00:00",
+  "generated_at": "2026-11-12T23:51:18.216279+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Lavoro oltre i confini tra Italia e Svizzera, nasce qualcosa di veramente nuovo",
+      "url": "https://comozero.it/attualita/forum-insubria-2050-mercato-lavoro-talenti-italia-svizzera-varese",
+      "summary": "Un forum transfrontaliero permanente per condividere dati, strategie e buone pratiche sul mercato occupazionale tra Italia e Svizzera. Sono queste le prime azioni concrete di Forum Insubria 2050, il progetto che verrà presentato ufficialmente il prossimo 20 novembre alle Ville Ponti di Varese, durante il convegno intitolato “Lavoro, competenze e territori per un futuro oltre […] L'articolo Lavoro oltre i confini tra Italia e Svizzera, nasce qualcosa di veramente nuovo proviene da ComoZero .",
+      "published_at": "2026-11-12T23:31:54+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "va"
+      ],
+      "territory_codes": [
+        "VA"
+      ]
+    },
     {
       "title": "Como, il sorriso magnetico e ribelle della leggenda Gianni Rivera con il Milan Club Cernobbio: ecco perché",
       "url": "https://comozero.it/attualita/como-il-sorriso-magnetico-e-ribelle-della-leggenda-gianni-rivera-con-il-milan-club-cernobbio-ecco-perche",
@@ -39,20 +53,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Lavoro oltre i confini tra Italia e Svizzera, nasce qualcosa di veramente nuovo",
-      "url": "https://comozero.it/attualita/forum-insubria-2050-mercato-lavoro-talenti-italia-svizzera-varese",
-      "summary": "Un forum transfrontaliero permanente per condividere dati, strategie e buone pratiche sul mercato occupazionale tra Italia e Svizzera. Sono queste le prime azioni concrete di Forum Insubria 2050, il progetto che verrà presentato ufficialmente il prossimo 20 novembre alle Ville Ponti di Varese, durante il convegno intitolato “Lavoro, competenze e territori per un futuro oltre […] L'articolo Lavoro oltre i confini tra Italia e Svizzera, nasce qualcosa di veramente nuovo proviene da ComoZero .",
-      "published_at": "2026-11-12T21:20:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "va"
-      ],
-      "territory_codes": [
-        "VA"
       ]
     },
     {
@@ -344,20 +344,6 @@
       "url": "https://comozero.it/attualita/la-pizzeria-benito-il-bar-diaz-e-il-caffe-umberto-i-la-farmacia-bonduri-e-guanziroli-moto-le-attivita-storiche-di-como-e-provincia-tra-grandi-nomi-e-grandi-tradizioni",
       "summary": "Tappa a Como per l’evento itinerante con cui Regione Lombardia premia sui territori le attività storiche e di tradizione riconosciute nel 2026. L’iniziativa, voluta dall’assessore regionale allo Sviluppo economico Guido Guidesi in collaborazione con le Camere di Commercio, è dedicata a negozi, locali e botteghe artigiane che hanno svolto il proprio esercizio senza interruzioni per […] L'articolo La pizzeria Benito, il Bar Diaz e il Caffè Umberto I, la farmacia Bonduri e Guanziroli Moto: le attività storiche di Como e provincia tra grandi nomi e grandi tradizioni proviene da ComoZero .",
       "published_at": "2026-11-12T12:26:06+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Nova Como, le elezioni e l’ora della scelta: diventare lista civica? Falanga: “Tema sul tavolo, decideremo assieme”",
-      "url": "https://comozero.it/politica/nova-como-le-elezioni-e-lora-della-scelta-diventare-lista-civica-falanga-tema-sul-tavolo-decideremo-assieme",
-      "summary": "“Ci incontreremo per confrontarci sulla situazione politica in vista delle elezioni amministrazione del 2027“. Queste parole bastano per portare a galla una delle possibili notizie più rilevanti degli ultimi mesi (quantomeno in relazione a uno scenario che da destra a sinistra, passando per Rapinese, finora pare assai ingessato se non addirittura paralizzata da scelte compiute […] L'articolo Nova Como, le elezioni e l’ora della scelta: diventare lista civica? Falanga: “Tema sul tavolo, decideremo assieme” proviene da ComoZero .",
-      "published_at": "2026-11-12T12:14:11+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
