@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:02:34.652047+00:00",
+  "generated_at": "2026-11-12T20:00:11.772971+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Raccolta differenziata record Lombardia ma la provincia di Como è al 72,99%: sotto la media",
+      "url": "https://comozero.it/attualita/raccolta-differenziata-record-lombardia-ma-la-provincia-di-como-e-al-7299-sotto-la-media",
+      "summary": "La Lombardia supera per la prima volta il 75% di raccolta differenziata, ma Como si ferma al 72,99%. Nel 2025 la provincia lariana resta sotto la media regionale e lontana dai territori più virtuosi, a partire da Mantova, che raggiunge l’88,12%. È quanto emerge dai dati diffusi da Regione Lombardia, che certificano un risultato complessivamente […] L'articolo Raccolta differenziata record Lombardia ma la provincia di Como è al 72,99%: sotto la media proviene da ComoZero .",
+      "published_at": "2026-11-12T19:43:16+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mn"
+      ],
+      "territory_codes": [
+        "CO",
+        "MN"
+      ]
+    },
     {
       "title": "Tv, l’architetto comasco Donatella Cervi protagonista del nuovissimo format “Vinci una casa al mare”",
       "url": "https://comozero.it/attualita/tv-larchitetto-comasco-donatella-cervi-protagonista-del-nuovissimo-format-vinci-una-casa-al-mare",
@@ -344,36 +360,6 @@
       "url": "https://comozero.it/sport/dalla-svizzera-il-giocatore-dellinter-maramaldeggia-sul-como-ma-quale-fenomeno-ci-vinciamo-sempre",
       "summary": "Non bastava la vittoria per 2-0 domenica scorsa a San Siro. Il calciatore svizzero dei nerazzurri Manuel Akanji, dal ritiro della Nazionale, ha pensato bene anche di maramaldeggiare sul Como a suon di dichiarazioni in libera uscita come riportato dalla Gazzetta dello Sport. “Fenomeno Como? Quale fenomeno? Noi ci abbiamo giocato contro quattro volte e […] L'articolo Dalla Svizzera, il giocatore dell’Inter maramaldeggia sul Como: “Ma quale fenomeno, ci vinciamo sempre…” proviene da ComoZero .",
       "published_at": "2026-11-12T10:54:51+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, abbandona il cane nell’appartamento e evade dai domiciliari",
-      "url": "https://comozero.it/attualita/provincia-di-como-evade-dagli-arresti-domiciliari-e-lascia-il-cane-in-casa-in-stato-di-abbandono",
-      "summary": "La Polizia di Stato di Como, ieri pomeriggio, ha arrestato una donna comasca di 46 anni, residente a S. Fermo della Battaglia, con diversi precedenti di polizia e penali, con l’obbligo di indossare il dispositivo di controllo per divieto di avvicinamento a determinate persone e abitazioni. Poco dopo le 10, gli equipaggi della Squadra Volante […] L'articolo Provincia di Como, abbandona il cane nell’appartamento e evade dai domiciliari proviene da ComoZero .",
-      "published_at": "2026-11-12T10:54:16+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "fm"
-      ],
-      "territory_codes": [
-        "CO",
-        "FM"
-      ]
-    },
-    {
-      "title": "Provincia di Como, cantieri edile con gravi irregolarità: tre denunce e 30mila euro di multa",
-      "url": "https://comozero.it/attualita/provincia-di-como-cantieri-edile-con-gravi-irregolarita-tre-denunce-e-30mila-euro-di-multa",
-      "summary": "Aperture nel vuoto senza protezioni a oltre tre metri e mezzo di altezza, passaggi privi di impalcati e una sega circolare azionata direttamente sotto il raggio d’azione di una gru. È il grave quadro emerso nel pomeriggio di mercoledì 11 novembre durante un’ispezione in un cantiere edile della provincia di Como, condotta dai Carabinieri delle […] L'articolo Provincia di Como, cantieri edile con gravi irregolarità: tre denunce e 30mila euro di multa proviene da ComoZero .",
-      "published_at": "2026-11-12T10:35:17+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
