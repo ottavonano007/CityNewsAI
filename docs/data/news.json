@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:10:57.695482+00:00",
+  "generated_at": "2026-11-12T11:12:44.372517+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -28,6 +28,182 @@
   ],
   "articles": [
     {
+      "title": "Dalla Svizzera, il giocatore dell’Inter maramaldeggia sul Como: “Ma quale fenomeno, ci vinciamo sempre…”",
+      "url": "https://comozero.it/sport/dalla-svizzera-il-giocatore-dellinter-maramaldeggia-sul-como-ma-quale-fenomeno-ci-vinciamo-sempre",
+      "summary": "Non bastava la vittoria per 2-0 domenica scorsa a San Siro. Il calciatore svizzero dei nerazzurri Manuel Akanji, dal ritiro della Nazionale, ha pensato bene anche di maramaldeggiare sul Como a suon di dichiarazioni in libera uscita come riportato dalla Gazzetta dello Sport. “Fenomeno Como? Quale fenomeno? Noi ci abbiamo giocato contro quattro volte e […] L'articolo Dalla Svizzera, il giocatore dell’Inter maramaldeggia sul Como: “Ma quale fenomeno, ci vinciamo sempre…” proviene da ComoZero .",
+      "published_at": "2026-11-12T10:54:51+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Provincia di Como, evade dagli arresti domiciliari e lascia il cane in casa in stato di abbandono",
+      "url": "https://comozero.it/attualita/provincia-di-como-evade-dagli-arresti-domiciliari-e-lascia-il-cane-in-casa-in-stato-di-abbandono",
+      "summary": "La Polizia di Stato di Como, ieri pomeriggio, ha arrestato una donna comasca di 46 anni, residente a S. Fermo della Battaglia, con diversi precedenti di polizia e penali, con l’obbligo di indossare il dispositivo di controllo per divieto di avvicinamento a determinate persone e abitazioni. Poco dopo le 10, gli equipaggi della Squadra Volante […] L'articolo Provincia di Como, evade dagli arresti domiciliari e lascia il cane in casa in stato di abbandono proviene da ComoZero .",
+      "published_at": "2026-11-12T10:54:16+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "fm"
+      ],
+      "territory_codes": [
+        "CO",
+        "FM"
+      ]
+    },
+    {
+      "title": "Sicurezza sul lavoro, controlli in un cantiere del Comasco: tre denunciati e un’attività sospesa",
+      "url": "https://www.ciaocomo.it/2026/11/12/sicurezza-sul-lavoro-controlli-in-un-cantiere-del-comasco-tre-denunciati-e-unattivita-sospesa/347830",
+      "summary": "I Carabinieri hanno riscontrato diverse irregolarità, tra cui il rischio di cadute da oltre 3,5 metri e l'assenza di protezioni. Oltre 33mila euro tra sanzioni e ammende The post Sicurezza sul lavoro, controlli in un cantiere del Comasco: tre denunciati e un’attività sospesa appeared first on CiaoComo .",
+      "published_at": "2026-11-12T10:44:22+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Provincia di Como, cantieri edile con gravi irregolarità: tre denunce e 30mila euro di multa",
+      "url": "https://comozero.it/attualita/provincia-di-como-cantieri-edile-con-gravi-irregolarita-tre-denunce-e-30mila-euro-di-multa",
+      "summary": "Aperture nel vuoto senza protezioni a oltre tre metri e mezzo di altezza, passaggi privi di impalcati e una sega circolare azionata direttamente sotto il raggio d’azione di una gru. È il grave quadro emerso nel pomeriggio di mercoledì 11 novembre durante un’ispezione in un cantiere edile della provincia di Como, condotta dai Carabinieri delle […] L'articolo Provincia di Como, cantieri edile con gravi irregolarità: tre denunce e 30mila euro di multa proviene da ComoZero .",
+      "published_at": "2026-11-12T10:35:17+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Blitz dei Carabinieri contro lo spaccio",
+      "url": "https://primacomo.it/cronaca/blitz-dei-carabinieri-contro-lo-spaccio",
+      "summary": "Diciassette bivacchi distrutti, 146 persone identificate, 107 veicoli ispezionati e 3 persone arrestate: la massiccia operazione dell’Arma dei Carabinieri contro il fenomeno dell’occupazione e del controllo militare delle aree boschive da parte delle reti del narcotraffico ha interessato anche il territorio di Fino Mornasco L’operazione Nel pomeriggio di mercoledì 10 novembre, una massiccia operazione coordinata […] Continua la lettura di Blitz dei Carabinieri contro lo spaccio sul portale Prima Como .",
+      "published_at": "2026-11-12T10:32:53+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Furto di un cellulare, una bici e un monopattino in un solo giorno: denunciato un 19enne",
+      "url": "https://primacomo.it/cronaca/furto-di-un-cellulare-una-bici-e-un-monopattino-in-un-solo-giorno-denunciato-un-19enne",
+      "summary": "Furto di un cellulare, una bici e un monopattino in un solo giorno: denunciato un 19enne. L’intervento della Polizia di stato è di ieri pomeriggio, 11 novembre, a Como. Fermato in un negozio di via Milano Denunciato in stato di libertà per furto aggravato commesso in concorso un 19enne tunisino, irregolare sul territorio italiano, in […] Continua la lettura di Furto di un cellulare, una bici e un monopattino in un solo giorno: denunciato un 19enne sul portale Prima Como .",
+      "published_at": "2026-11-12T10:20:16+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Parata di chef al Municipale: si svelano le nuove Stelle della Guida Michelin DIRETTA",
+      "url": "https://www.piacenzasera.it/2026/11/al-municipale-oggi-si-svelano-le-nuove-stelle-e-la-guida-michelin/670034",
+      "summary": "A Piacenza il lancio ufficiale della 72a edizione della versione italiana della celebre Guida, alla presenza di chef e operatori del settore The post Parata di chef al Municipale: si svelano le nuove Stelle della Guida Michelin DIRETTA appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T10:10:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Forza un cassonetto per gli abiti usati in viale Varese: 22enne sorpreso dalla Polizia e denunciato",
+      "url": "https://www.ciaocomo.it/2026/11/12/forza-un-cassonetto-per-gli-abiti-usati-in-viale-varese-22enne-sorpreso-dalla-polizia-e-denunciato/347825",
+      "summary": "Il giovane, residente a Cadorago, aveva con sé una tenaglia di 92 centimetri e uno smartphone di provenienza sospetta. Le immagini delle telecamere lo collegherebbero a un altro furto commesso il giorno precedente The post Forza un cassonetto per gli abiti usati in viale Varese: 22enne sorpreso dalla Polizia e denunciato appeared first on CiaoComo .",
+      "published_at": "2026-11-12T10:06:50+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "va"
+      ],
+      "territory_codes": [
+        "VA"
+      ]
+    },
+    {
+      "title": "Como, ruba uno smartphone, una bicicletta e un monopattino nello stesso giorno",
+      "url": "https://comozero.it/attualita/como-ruba-uno-smartphone-una-bicicletta-e-un-monopattino-nello-stesso-giorno",
+      "summary": "La Polizia di Stato ha denunciato per furto aggravato (commesso in concorso), un 19enne tunisino, irregolare sul territorio italiano, senza fissa dimora e senza documenti, gravato da numerosi precedenti di polizia. Nel tardo pomeriggio di ieri, una pattuglia è intervenuta in via Milano a Como, su segnalazione del titolare di un negozio per la presenza […] L'articolo Como, ruba uno smartphone, una bicicletta e un monopattino nello stesso giorno proviene da ComoZero .",
+      "published_at": "2026-11-12T10:04:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Como, furti di cellulare, bicicletta e monopattino: denunciato un 19enne, era già stato espulso due volte",
+      "url": "https://www.ciaocomo.it/2026/11/12/como-furti-di-cellulare-bicicletta-e-monopattino-denunciato-un-19enne-era-gia-stato-espulso-due-volte/347822",
+      "summary": "La Polizia è intervenuta in un negozio di via Milano dopo la segnalazione del titolare per il comportamento molesto del giovane. A suo carico numerosi precedenti e due provvedimenti di espulsione The post Como, furti di cellulare, bicicletta e monopattino: denunciato un 19enne, era già stato espulso due volte appeared first on CiaoComo .",
+      "published_at": "2026-11-12T10:02:04+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Il Cuncertass chiama musicisti e artisti allo sciopero: il 20 novembre una «fanfara della rivoluzione»",
+      "url": "https://www.piacenzasera.it/2026/11/il-cuncertass-chiama-musicisti-e-artisti-allo-sciopero-il-20-novembre-una-fanfara-della-rivoluzione/670042",
+      "summary": "L'appello parte dalla comunità del Cuncertass, il concerto del Primo Maggio che la Cgil organizza a Piacenza da quasi vent'ann The post Il Cuncertass chiama musicisti e artisti allo sciopero: il 20 novembre una «fanfara della rivoluzione» appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T09:55:34+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Elezioni a Como, nel sondaggio su Rapinese e sugli altri candidati sindaco spunta la sorpresa Teresa Minniti",
+      "url": "https://comozero.it/politica/elezioni-a-como-nel-sondaggio-su-rapinese-e-sugli-altri-candidati-sindaco-spunta-la-sorpresa-teresa-minniti",
+      "summary": "Se nel 1848 lo “spettro che si aggira per l’Europa” evocato da Marx ed Engels era il movimento operaio, nel novembre 2026 a Como le sembianze del “fantasma” sono radicalmente cambiate. E hanno assunto quelle battagliere, assolutamente reali e per nulla spettrali, di un avvocato. O avvocata: ovviamente ognuno può declinare a piacimento. Il nome? […] L'articolo Elezioni a Como, nel sondaggio su Rapinese e sugli altri candidati sindaco spunta la sorpresa Teresa Minniti proviene da ComoZero .",
+      "published_at": "2026-11-12T09:51:49+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "“Sentieri di casa nostra” invita alla terza serata del percorso autunnale",
       "url": "https://primacomo.it/cultura/sentieri-di-casa-nostra-invita-alla-terza-serata-del-percorso-autunnale",
       "summary": "“Sentieri di casa nostra”, la assegna autunnale organizzata da biblioteca e assessorato alla Cultura di Olgiate Comasco, invita alla terza serata. “Sentieri di casa nostra. Passeggiate e itinerari tra lago, colline e Prealpi” Quattro giovedì per riscoprire il territorio che ci circonda: a piedi e in bicicletta, tra sentieri delle Prealpi, passeggiate comasche, itinerari d’autore […] Continua la lettura di “Sentieri di casa nostra” invita alla terza serata del percorso autunnale sul portale Prima Como .",
@@ -42,9 +218,9 @@
       ]
     },
     {
-      "title": "La Val d’Aveto lascia Piacenza diventa parte della diocesi di Chiavari",
+      "title": "La Val d’Aveto lascia Piacenza e diventa parte della diocesi di Chiavari",
       "url": "https://www.piacenzasera.it/2026/11/la-val-daveto-lascia-piacenza-diventa-parte-della-diocesi-di-chiavari/670037",
-      "summary": "Il passaggio avrà luogo in occasione della messa di domenica 15 novembre alle ore 15.30 a Santo Stefano d’Aveto The post La Val d’Aveto lascia Piacenza diventa parte della diocesi di Chiavari appeared first on piacenzasera.it .",
+      "summary": "Il passaggio avrà luogo in occasione della messa di domenica 15 novembre alle ore 15.30 a Santo Stefano d’Aveto The post La Val d’Aveto lascia Piacenza e diventa parte della diocesi di Chiavari appeared first on piacenzasera.it .",
       "published_at": "2026-11-12T09:39:55+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -81,20 +257,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Al Municipale oggi si svelano le nuove Stelle e la Guida Michelin",
-      "url": "https://www.piacenzasera.it/2026/11/al-municipale-oggi-si-svelano-le-nuove-stelle-e-la-guida-michelin/670034",
-      "summary": "A Piacenza il lancio ufficiale della 72a edizione della versione italiana della celebre Guida, alla presenza di chef e operatori del settore The post Al Municipale oggi si svelano le nuove Stelle e la Guida Michelin appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T08:23:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -182,20 +344,6 @@
       ]
     },
     {
-      "title": "Manovra, l’allarme di De Pascale: “Fondi sanità non garantiscono cure essenziali”",
-      "url": "https://www.piacenzasera.it/2026/11/manovra-lallarme-di-de-pascale-fondi-sanita-non-garantiscono-cure-essenziali/670019",
-      "summary": "Il presidente dell’Emilia-Romagna sull’audizione oggi a Roma: “Non si può continuare a dichiarare che il diritto alla salute è garantito a tutte e tutti se poi non si mettono le Regioni nelle condizioni di renderlo effettivo” The post Manovra, l’allarme di De Pascale: “Fondi sanità non garantiscono cure essenziali” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T18:36:14+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "rm"
-      ],
-      "territory_codes": [
-        "RM"
-      ]
-    },
-    {
       "title": "I Menagrama festeggiano 15 anni con “Storie di Lombardia”, il primo spettacolo teatrale della folk band comasca",
       "url": "https://www.ciaocomo.it/2026/11/11/i-menagrama-festeggiano-15-anni-con-storie-di-lombardia-il-primo-spettacolo-teatrale-della-folk-band-comasca/347734",
       "summary": "Venerdì 13 novembre al Teatro Agorà di Carate Brianza, insieme all'attore Fabio Sarti, la band porta in scena racconti, leggende e personaggi della tradizione lombarda The post I Menagrama festeggiano 15 anni con “Storie di Lombardia”, il primo spettacolo teatrale della folk band comasca appeared first on CiaoComo .",
@@ -207,34 +355,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Paura per il portiere del Como Robert Sanchez: si schianta in pista con la Ferrari, danni al mezzo e lui illeso",
-      "url": "https://www.ciaocomo.it/2026/11/11/paura-per-il-portiere-del-como-sanchez-si-schianta-in-pista-con-la-ferrari-danni-al-mezzo-e-lui-illeso/347784",
-      "summary": "Incidente lunedì pomeriggio, la conferma arrivata solo oggi. Non è rimasto contuso. Cause in fase di accertamento, parte anteriore seriamente compromessa. The post Paura per il portiere del Como Robert Sanchez: si schianta in pista con la Ferrari, danni al mezzo e lui illeso appeared first on CiaoComo .",
-      "published_at": "2026-11-11T16:43:17+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "100 anni ed una festa speciale per il finanziere scelto Nicola Cusano: brindisi al comando provinciale",
-      "url": "https://www.ciaocomo.it/2026/11/11/100-anni-ed-una-festa-speciale-per-il-finanziere-scelto-nicola-cusano-brindisi-al-comando-provinciale/347779",
-      "summary": "The post 100 anni ed una festa speciale per il finanziere scelto Nicola Cusano: brindisi al comando provinciale appeared first on CiaoComo .",
-      "published_at": "2026-11-11T16:27:00+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "br"
-      ],
-      "territory_codes": [
-        "BR"
       ]
     },
     {
@@ -252,92 +372,10 @@
       ]
     },
     {
-      "title": "La data per la mostra delle monete d’oro di Como: inaugurazione 3 dicembre, apertura al pubblico dal giorno dopo",
-      "url": "https://www.ciaocomo.it/2026/11/11/la-data-per-la-mostra-delle-monete-doro-di-como-inaugurazione-3-dicembre-apertura-al-pubblico-dal-giorno-dopo/347774",
-      "summary": "Il 3 dicembre una visita riservata a stampa ed autorità, il giorno dopo i cittadini potranno ammirare l'allestimento: racconto che partirà dalla scoperta e dallo scavo per attraversare secoli di storia di Como. The post La data per la mostra delle monete d’oro di Como: inaugurazione 3 dicembre, apertura al pubblico dal giorno dopo appeared first on CiaoComo .",
-      "published_at": "2026-11-11T16:00:40+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Il Tesoro di Como si svela, le monete d’oro in mostra dal 4 dicembre (con spioncino)",
       "url": "https://comozero.it/cultura-e-spettacolo/il-tesoro-di-como-si-svela-le-monete-doro-in-mostra-dal-4-dicembre-con-spioncino",
       "summary": "I Musei Civici e il Comune di Como, dopo l’anticipazione di stamani del quotidiano La Provincia di Como a firma di Gisella Roncoroni, fanno sapere che l’attesa esposizione del Tesoro di Como, le monete di valore inestimabile trovate durante gli scavi all’ex cineteatro Cressoni, sarà inaugurato il prossimo 3 dicembre con apertura al pubblico il […] L'articolo Il Tesoro di Como si svela, le monete d’oro in mostra dal 4 dicembre (con spioncino) proviene da ComoZero .",
       "published_at": "2026-11-11T15:57:26+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Spaccio nei boschi, maxi blitz dei carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti",
-      "url": "https://www.ciaocomo.it/2026/11/11/spaccio-nei-boschi-maxi-blitz-dei-carabinieri-in-sette-province-lombarde-smantellati-17-bivacchi-e-tre-arresti/347778",
-      "summary": "Operazione anche nel Comasco e nel Lecchese: sequestrati droga, armi da taglio e oltre 6.400 euro in contanti. Identificate 146 persone e controllati 107 veicoli The post Spaccio nei boschi, maxi blitz dei carabinieri in sette province lombarde: smantellati 17 bivacchi e tre arresti appeared first on CiaoComo .",
-      "published_at": "2026-11-11T15:45:17+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Tra Roma e Como, centrodestra inaccettabile e ipocrita”. Il durissimo attacco sulle scuole",
-      "url": "https://comozero.it/politica/tra-roma-e-como-centrodestra-inaccettabile-e-ipocrita-il-durissimo-attacco-sulle-scuole",
-      "summary": "Durissimo attacco del Pd al centrodestra comasco (e nazionale) sul fronte delle scuole. Nel mirino della nota diffusa da Francesco Finizio, referente di settore per il partito locale, c’è la differenza di atteggiamento tra Roma e Como. “Da giorni assistiamo al teatrino di diversi esponenti della maggioranza di Governo che si dicono improvvisamente stupiti dei […] L'articolo “Tra Roma e Como, centrodestra inaccettabile e ipocrita”. Il durissimo attacco sulle scuole proviene da ComoZero .",
-      "published_at": "2026-11-11T15:44:03+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "rm"
-      ],
-      "territory_codes": [
-        "CO",
-        "RM"
-      ]
-    },
-    {
-      "title": "Spaccio nei boschi, maxi blitz a Como e in altre 6 province: smantellati 17 bivacchi, tre arresti e sequestri di droga e armi",
-      "url": "https://comozero.it/cronaca/spaccio-nei-boschi-maxi-blitz-a-como-e-in-altre-6-province-smantellati-17-bivacchi-tre-arresti-e-sequestri-di-droga-e-armi",
-      "summary": "Un’operazione su vasta scala, condotta contemporaneamente in sette province lombarde, per smantellare le basi dello spaccio nei boschi e sottrarre alle organizzazioni criminali il controllo delle aree verdi. Nel pomeriggio di martedì 10 novembre, i Carabinieri hanno messo in campo un dispositivo straordinario che ha interessato Milano, Bergamo, Monza Brianza, Varese, Como, Lecco e Pavia, […] L'articolo Spaccio nei boschi, maxi blitz a Como e in altre 6 province: smantellati 17 bivacchi, tre arresti e sequestri di droga e armi proviene da ComoZero .",
-      "published_at": "2026-11-11T15:28:42+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "bg",
-        "como",
-        "lc",
-        "mi",
-        "pv",
-        "va"
-      ],
-      "territory_codes": [
-        "BG",
-        "CO",
-        "LC",
-        "MI",
-        "PV",
-        "VA"
-      ]
-    },
-    {
-      "title": "Il monte del Lago di Como, il no agli impianti da sci e l’unione per una camminata molto speciale",
-      "url": "https://comozero.it/attualita/il-monte-del-lago-di-como-il-no-agli-impianti-da-sci-e-lunione-per-una-camminata-molto-speciale",
-      "summary": "La Delegazione FAI di Como – in collaborazione col Coordinamento “Salviamo il Monte San Primo” – organizza per domenica 15 novembre una camminata lungo le pendici del Monte San Primo, alla scoperta di uno degli affacci più suggestivi e panoramici dell’intera regione. Il percorso partirà dalla Colma di Sormano per poi salire gradualmente lungo la dorsale fino a […] L'articolo Il monte del Lago di Como, il no agli impianti da sci e l’unione per una camminata molto speciale proviene da ComoZero .",
-      "published_at": "2026-11-11T15:23:24+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -387,36 +425,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Como, i cento magnifici anni di Nicola Cusano: Finanziere Scelto e orgoglio della Guardia di Finanza",
-      "url": "https://comozero.it/attualita/como-i-cento-magnifici-anni-di-nicola-cusano-finanziere-scelto-e-orgoglio-della-guardia-di-finanza",
-      "summary": "Una festa speciale nella sede del Comando Provinciale della Guardia di finanza di Como per celebrare un traguardo straordinario: i cento anni di Nicola Cusano, Finanziere Scelto in congedo assoluto. La ricorrenza è stata festeggiata ieri, martedì 10 novembre, alla presenza dei familiari e di una rappresentanza dei militari attualmente in servizio. Per l’occasione, il […] L'articolo Como, i cento magnifici anni di Nicola Cusano: Finanziere Scelto e orgoglio della Guardia di Finanza proviene da ComoZero .",
-      "published_at": "2026-11-11T13:40:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Allarme bomba in più di 6mila scuole italiane: a Como evacuato il Pessina. Ecco il testo della mail",
-      "url": "https://comozero.it/cronaca/allarme-bomba-in-molte-scuole-italiane-a-como-evacuato-il-pessina-ecco-il-testo-della-mail-giudicato-inattendibile",
-      "summary": "Email con allarmi bomba e messaggi di minaccia sono arrivate a numerosi istituti scolastici del Comasco, seguendo uno schema che sta interessando diverse zone d’Italia, con particolare evidenza a Roma. Si tratta di comunicazioni dai contenuti spesso generici e deliranti, ritenute al momento poco attendibili dalle autorità. I messaggi descrivono presunti ordigni capaci di provocare […] L'articolo Allarme bomba in più di 6mila scuole italiane: a Como evacuato il Pessina. Ecco il testo della mail proviene da ComoZero .",
-      "published_at": "2026-11-11T13:06:13+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "rm"
-      ],
-      "territory_codes": [
-        "CO",
-        "RM"
       ]
     },
     {
@@ -678,34 +686,6 @@
       "url": "https://primacomo.it/attualita/vinti-125mila-euro-a-cernobbio-con-il-lotto",
       "summary": "Il Lotto premia la Lombardia con vincite per oltre 200mila euro distribuiti nei concorsi di venerdì 6 e sabato 7 novembre 2026. La vincita Nel concorso di sabato, in via V Giornate a Cernobbio, è stata registrata la vincita più alta di giornata dal valore di 125.250 euro: il premio è stato realizzato grazie a […] Continua la lettura di Vinti 125mila euro a Cernobbio con il Lotto sul portale Prima Como .",
       "published_at": "2026-11-09T11:26:49+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Un viaggio sonoro senza confini per sostenere la mensa di solidarietà",
-      "url": "https://primacomo.it/attualita/un-viaggio-sonoro-senza-confini-per-sostenere-la-mensa-di-solidarieta",
-      "summary": "Un viaggio sonoro senza confini: il Gruppo Mandolinistico Eliante di Mendrisio in concerto a Como per sostenere la mensa di solidarietà. Un viaggio sonoro e solidale Un nuovo spettacolo, in programma sabato 14 novembre alle 21 per sostenere la mensa di solidarietà di Casa Nazareth. Protagonista dell’atteso concerto è il Gruppo Mandolinistico Eliante di Mendrisio […] Continua la lettura di Un viaggio sonoro senza confini per sostenere la mensa di solidarietà sul portale Prima Como .",
-      "published_at": "2026-11-09T10:03:51+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Pallacanestro Cantù: lutto per la scomparsa di Carluccio Cattaneo",
-      "url": "https://primacomo.it/cronaca/pallacanestro-cantu-lutto-per-la-scomparsa-di-carluccio-cattaneo",
-      "summary": "Pallacanestro Cantù piange la scomparsa di Carluccio Cattaneo, per tutti “Carlino”. Il cordoglio La Pallacanestro Cantù ha diramato un comunicato in ricordo do Cattaneo: “Uomo di sport, grande appassionato di pallacanestro e dirigente del club per oltre un decennio, la società è vicina alla famiglia in questo triste momento. Per oltre 55 anni istituzione del […] Continua la lettura di Pallacanestro Cantù: lutto per la scomparsa di Carluccio Cattaneo sul portale Prima Como .",
-      "published_at": "2026-11-09T09:40:11+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
