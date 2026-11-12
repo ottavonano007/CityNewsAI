@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-12T17:10:49.009564+00:00",
+  "generated_at": "2026-11-12T17:58:54.813780+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Settimana del rispetto: presentata la quarta edizione",
+      "url": "https://primacomo.it/attualita/settimana-del-rispetto-presentata-la-quarta-edizione",
+      "summary": "Presentata alla primaria “Casati” Brenna la quarta edizione della “Settimana del Rispetto”, la rassegna di eventi proposta dalle associazioni Fermiamoci e Lo Snodo in occasione del 25 novembre, Giornata internazionale contro la violenza sulle donne. 23 associazioni coinvolte, 13 Comuni patrocinanti e 19 appuntamenti Il presidente de Lo Snodo, Simone Pelucchi, ha presentato i numeri della […] Continua la lettura di Settimana del rispetto: presentata la quarta edizione sul portale Prima Como .",
+      "published_at": "2026-11-12T17:21:38+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Scuola italiana tra allarmi bomba fake e bisogno di investimenti statali",
       "url": "https://primacomo.it/cronaca/scuola-italiana-tra-allarmi-bomba-fake-e-bisogno-di-investimenti-statali",
@@ -268,40 +282,12 @@
       ]
     },
     {
-      "title": "Parata di chef al Municipale: ecco la nuova Guida Michelin. Confermata la Stella per “La Palta”",
-      "url": "https://www.piacenzasera.it/2026/11/al-municipale-oggi-si-svelano-le-nuove-stelle-e-la-guida-michelin/670034",
-      "summary": "A Piacenza il lancio ufficiale della 72a edizione della versione italiana della celebre Guida, alla presenza di chef e operatori del settore The post Parata di chef al Municipale: ecco la nuova Guida Michelin. Confermata la Stella per “La Palta” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T12:33:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "La pizzeria Benito, il Bar Diaz e il Caffè Umberto I, la farmacia Bonduri e Guanziroli Moto: le attività storiche di Como e provincia tra grandi nomi e grandi tradizioni",
       "url": "https://comozero.it/attualita/la-pizzeria-benito-il-bar-diaz-e-il-caffe-umberto-i-la-farmacia-bonduri-e-guanziroli-moto-le-attivita-storiche-di-como-e-provincia-tra-grandi-nomi-e-grandi-tradizioni",
       "summary": "Tappa a Como per l’evento itinerante con cui Regione Lombardia premia sui territori le attività storiche e di tradizione riconosciute nel 2026. L’iniziativa, voluta dall’assessore regionale allo Sviluppo economico Guido Guidesi in collaborazione con le Camere di Commercio, è dedicata a negozi, locali e botteghe artigiane che hanno svolto il proprio esercizio senza interruzioni per […] L'articolo La pizzeria Benito, il Bar Diaz e il Caffè Umberto I, la farmacia Bonduri e Guanziroli Moto: le attività storiche di Como e provincia tra grandi nomi e grandi tradizioni proviene da ComoZero .",
       "published_at": "2026-11-12T12:26:06+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Arrivano altre minacce via mail nelle scuole: testo differente rispetto a ieri, ma apprensione identica anche a Como",
-      "url": "https://www.ciaocomo.it/2026/11/12/arrivano-altre-minacce-via-mail-nelle-scuole-testo-differente-ma-apprensione-identica-anche-a-como/347838",
-      "summary": "Al momento non risultano istituti evacuati da noi. Da altre oparti si, percezione differente. Il contenuto è stato diffuso dal Tg1: arriva da un un account filippino. The post Arrivano altre minacce via mail nelle scuole: testo differente rispetto a ieri, ma apprensione identica anche a Como appeared first on CiaoComo .",
-      "published_at": "2026-11-12T12:17:00+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -330,22 +316,6 @@
       "published_at": "2026-11-12T11:23:28+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
-      ]
-    },
-    {
-      "title": "Como, primi provvedimenti della Polizia dopo le chat su possibili azioni violente: fogli di via e avvisi orali",
-      "url": "https://www.ciaocomo.it/2026/11/12/como-primi-provvedimenti-della-polizia-dopo-le-chat-del-24-ottobre-su-possibili-azioni-violente-in-citta/347833",
-      "summary": "Le indagini della Digos dopo i fatti di Milano del 17 e 18 ottobre hanno portato all'identificazione di diversi giovani coinvolti in gruppi di messaggistica. Per tre maggiorenni disposto anche il foglio di via dalla città The post Como, primi provvedimenti della Polizia dopo le chat su possibili azioni violente: fogli di via e avvisi orali appeared first on CiaoComo .",
-      "published_at": "2026-11-12T11:22:34+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como",
         "mi"
@@ -732,20 +702,6 @@
       "url": "https://primacomo.it/attualita/avviati-i-lavori-di-manutenzione-degli-organi-monumentali-della-cattedrale",
       "summary": "Avviati i lavori di manutenzione degli organi monumentali del duomo di Como. La manutenzione di uno dei più importanti complessi organari della Lombardia E’ stato raggiunto a settembre l’obiettivo di raccogliere 70.000 euro grazie al sostegno di privati, associazioni, aziende e Fondazione della Comunità Comasca. Gli interventi sono iniziati a fine ottobre e restituiranno piena […] Continua la lettura di Avviati i lavori di manutenzione degli organi monumentali della cattedrale sul portale Prima Como .",
       "published_at": "2026-11-09T14:05:08+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Andolfi e Menchini dominano il 45° Trofeo Villa d’Este ACI Como",
-      "url": "https://primacomo.it/attualita/andolfi-e-menchini-dominano-il-45-trofeo-villa-deste-aci-como",
-      "summary": "Il 45° Trofeo Villa d’Este ACI Como si chiude nel segno di Fabio Andolfi e Marco Menchini, vincitori assoluti al volante della Lancia Ypsilon HF Rally2 Integrale preparata da D-Max e gommata Pirelli. L’equipaggio ligure ha dominato l’edizione 2026 della manifestazione organizzata dall’Automobile Club Como, imponendosi con un vantaggio di 1’39;27.8 sui primi inseguitori, al […] Continua la lettura di Andolfi e Menchini dominano il 45° Trofeo Villa d’Este ACI Como sul portale Prima Como .",
-      "published_at": "2026-11-09T13:57:11+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
