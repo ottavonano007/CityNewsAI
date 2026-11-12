@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:58:54.813780+00:00",
+  "generated_at": "2026-11-12T19:02:34.652047+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 15,
-      "inserted": 15,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tv, l’architetto comasco Donatella Cervi protagonista del nuovissimo format “Vinci una casa al mare”",
+      "url": "https://comozero.it/attualita/tv-larchitetto-comasco-donatella-cervi-protagonista-del-nuovissimo-format-vinci-una-casa-al-mare",
+      "summary": "Dal 1° dicembre il nuovo programma condotto da Damiano Gallo con Samantha De Grenet. L’architetto sarà Giudice Speciale nelle prime due puntate, dedicate alla riqualificazione di una casa al mare Un progetto di ristrutturazione, architetti e designer in gara e una casa al mare da riqualificare completamente. È la sfida al centro di «Vinci una […] L'articolo Tv, l’architetto comasco Donatella Cervi protagonista del nuovissimo format “Vinci una casa al mare” proviene da ComoZero .",
+      "published_at": "2026-11-12T18:36:21+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Sicurezza urbana, Foti: “Dal Governo Meloni incremento delle risorse destinate a Piacenza”",
+      "url": "https://www.piacenzasera.it/2026/11/sicurezza-urbana-foti-dal-governo-meloni-incremento-delle-risorse-destinate-a-piacenza/670154",
+      "summary": "Al Comune 177.290 euro. Il Ministro \"Si amplia la tipologia degli interventi finanziabili\" The post Sicurezza urbana, Foti: “Dal Governo Meloni incremento delle risorse destinate a Piacenza” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T17:57:06+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Settimana del rispetto: presentata la quarta edizione",
       "url": "https://primacomo.it/attualita/settimana-del-rispetto-presentata-la-quarta-edizione",
@@ -240,20 +268,6 @@
       ]
     },
     {
-      "title": "Auser presenta al sindaco di Fiorenzuola Gandolfi il nuovo progetto provinciale di trasporto sociale",
-      "url": "https://www.piacenzasera.it/2026/11/auser-presenta-al-sindaco-di-fiorenzuola-gandolfi-il-nuovo-progetto-provinciale-di-trasporto-sociale/670101",
-      "summary": "Il progetto prevede la realizzazione di un sistema unitario di trasporto sociale in tutta la provincia gestito da Auser Piacenza The post Auser presenta al sindaco di Fiorenzuola Gandolfi il nuovo progetto provinciale di trasporto sociale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T13:40:55+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, il centrodestra alza subito le barricate su Minniti. FdI: “Contano appartenenza e coerenza”. Con ‘like’ pesanti",
       "url": "https://comozero.it/politica/como-il-centrodestra-alza-subito-le-barricate-su-minniti-fdi-contano-appartenenza-e-coerenza-con-like-pesanti",
       "summary": "Nemmeno un paio d’ore e dal centrodestra è partito subito il fuoco di fila contro qualsiasi ipotesi di candidatura a sindaco di Teresa Minniti. Scenario, peraltro, che è emerso solo in relazione alla comprovata effettuazione di un sondaggio telefonico che ha raggiunto diversi comaschi e che contemplava anche il nome della vicepresidente dell’associazione Nova Como […] L'articolo Como, il centrodestra alza subito le barricate su Minniti. FdI: “Contano appartenenza e coerenza”. Con ‘like’ pesanti proviene da ComoZero .",
@@ -397,36 +411,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Como, ruba uno smartphone, una bicicletta e un monopattino nello stesso giorno",
-      "url": "https://comozero.it/attualita/como-ruba-uno-smartphone-una-bicicletta-e-un-monopattino-nello-stesso-giorno",
-      "summary": "La Polizia di Stato ha denunciato per furto aggravato (commesso in concorso), un 19enne tunisino, irregolare sul territorio italiano, senza fissa dimora e senza documenti, gravato da numerosi precedenti di polizia. Nel tardo pomeriggio di ieri, una pattuglia è intervenuta in via Milano a Como, su segnalazione del titolare di un negozio per la presenza […] L'articolo Como, ruba uno smartphone, una bicicletta e un monopattino nello stesso giorno proviene da ComoZero .",
-      "published_at": "2026-11-12T10:04:05+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
-      ]
-    },
-    {
-      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
-      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
-      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
-      "published_at": "2026-11-12T09:52:18+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
