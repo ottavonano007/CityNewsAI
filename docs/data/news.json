@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T16:09:41.113553+00:00",
+  "generated_at": "2026-11-12T17:10:49.009564+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 15,
+      "inserted": 15,
       "ok": true
     },
     {
@@ -28,9 +28,79 @@
   ],
   "articles": [
     {
-      "title": "Minniti: “Io nel sondaggio sui candidato sindaco? E’ la seconda volta”. Poi il finale appuntito ‘dedicato’ a Nardone",
+      "title": "Scuola italiana tra allarmi bomba fake e bisogno di investimenti statali",
+      "url": "https://primacomo.it/cronaca/scuola-italiana-tra-allarmi-bomba-fake-e-bisogno-di-investimenti-statali",
+      "summary": "Calo demografico, disuguaglianze territoriali e nuove sfide educative: il Movimento 5 Stelle di Como esterna preoccupazione. Scuola italiana, il report I pentastellati, attraverso un intervento della coordinatrice provinciale Silvia Alberici, mettono in evidenza le criticità e il bisogno di attenzione che necessita la scuola italiana. “Mentre le scuole italiane, da Nord a Sud, sono state […] Continua la lettura di Scuola italiana tra allarmi bomba fake e bisogno di investimenti statali sul portale Prima Como .",
+      "published_at": "2026-11-12T16:34:54+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Mediolanum Padel Cup, Como e la Lombardia nel quadrilatero d’oro: qui un giocatore su tre",
+      "url": "https://comozero.it/sport/mediolanum-padel-cup-como-e-la-lombardia-nel-quadrilatero-doro-qui-un-giocatore-su-tre",
+      "summary": "Il 35% dei praticanti italiani si concentra nel Nord Ovest. In Lombardia si trova il 60% dei campi del quadrante. Al Padel Resort il FIP Silver Mediolanum Padel Cup porta oltre 200 atleti da 15 Paesi. Esordio vincente per Sussarello, Stellato, Aima, Baldi, Brambilla e Cassetta. La Lombardia è il motore del padel italiano. Nel […] L'articolo Mediolanum Padel Cup, Como e la Lombardia nel quadrilatero d’oro: qui un giocatore su tre proviene da ComoZero .",
+      "published_at": "2026-11-12T16:32:43+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A Piacenza Expo la Fiera dei Vini: oltre 300 produttori da tutta Italia",
+      "url": "https://www.piacenzasera.it/2026/11/a-piacenza-expo-la-fiera-dei-vini-oltre-300-produttori-da-tutta-italia/670147",
+      "summary": "Dal 14 al 16 novembre la quarta edizione della manifestazione, tra masterclass, degustazioni ed eventi fuori salone The post A Piacenza Expo la Fiera dei Vini: oltre 300 produttori da tutta Italia appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T16:27:50+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "L’azienda top comasca trionfa a Ginevra con Cosmo: l’orologio che segue il movimento della terra e del cielo",
+      "url": "https://comozero.it/attualita/quattro-anni-di-ricerca-poi-lazienda-top-comasca-trionfa-a-ginevra-con-cosmo-lorologio-che-segue-il-movimento-della-terra-e-del-cielo",
+      "summary": "L’azienda comasca si è aggiudicata il Mechanical Clock Prize al Grand Prix d’Horlogerie de Genève 2026. A ideare e sviluppare il progetto è stato Luciano Sasso. Massimiliano Quintavalle, Ceo e rappresentante della terza generazione della famiglia, ha ritirato il riconoscimento a nome dell’azienda Un orologio capace di indicare non soltanto l’ora, ma anche il movimento […] L'articolo L’azienda top comasca trionfa a Ginevra con Cosmo: l’orologio che segue il movimento della terra e del cielo proviene da ComoZero .",
+      "published_at": "2026-11-12T15:55:08+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "L’imprenditrice: “Medici e infermieri mi hanno salvato la vita e coccolata. Fiera di avere il Sant’Anna in provincia di Como”",
+      "url": "https://comozero.it/sanita/limprenditrice-medici-e-infermieri-mi-hanno-salvato-la-vita-e-coccolata-fiera-di-avere-il-santanna",
+      "summary": "Non è raro che i casi di malasanità – o presunta tale – guadagnino spazi nelle cronache. Ma per fortuna ci sono anche casi opposti. Proprio come quello raccontato alla redazione dall’imprenditrice comasca Grazia Vitiello, amministratrice della Assitec di Albiolo, che rivolge i complimenti per l’assistenza e l’umanità trovate all’ospedale Sant’Anna. Di seguito la sua […] L'articolo L’imprenditrice: “Medici e infermieri mi hanno salvato la vita e coccolata. Fiera di avere il Sant’Anna in provincia di Como” proviene da ComoZero .",
+      "published_at": "2026-11-12T15:54:14+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Minniti: “Io nel sondaggio sui candidati sindaco? E’ la seconda volta”. Poi il finale appuntito ‘dedicato’ a Nardone",
       "url": "https://comozero.it/politica/minniti-io-nel-sondaggio-sui-candidato-sindaco-e-la-seconda-volta-poi-il-finale-appuntito-dedicato-a-nardone",
-      "summary": "Com’è bizzarra la politica, a volte. Giorni e giorni di calma piatta. E poi, nel volgere di poche ore, novità e scossoni. Esattamente come accaduto oggi, con la vicepresidente di Nova Como, Teresa Minniti, al centro di tutto. Ricapitoliamo. In mattinata esce qui la notizia di un sondaggio condotto da un istituto specializzato su diversi […] L'articolo Minniti: “Io nel sondaggio sui candidato sindaco? E’ la seconda volta”. Poi il finale appuntito ‘dedicato’ a Nardone proviene da ComoZero .",
+      "summary": "Com’è bizzarra la politica, a volte. Giorni e giorni di calma piatta. E poi, nel volgere di poche ore, novità e scossoni. Esattamente come accaduto oggi, con la vicepresidente di Nova Como, Teresa Minniti, al centro di tutto. Ricapitoliamo. In mattinata esce qui la notizia di un sondaggio condotto da un istituto specializzato su diversi […] L'articolo Minniti: “Io nel sondaggio sui candidati sindaco? E’ la seconda volta”. Poi il finale appuntito ‘dedicato’ a Nardone proviene da ComoZero .",
       "published_at": "2026-11-12T15:31:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -390,40 +460,12 @@
       ]
     },
     {
-      "title": "Elezioni a Como, nel sondaggio su Rapinese e sugli altri candidati sindaco spunta la sorpresa Teresa Minniti",
-      "url": "https://comozero.it/politica/elezioni-a-como-nel-sondaggio-su-rapinese-e-sugli-altri-candidati-sindaco-spunta-la-sorpresa-teresa-minniti",
-      "summary": "Se nel 1848 lo “spettro che si aggira per l’Europa” evocato da Marx ed Engels era il movimento operaio, nel novembre 2026 a Como le sembianze del “fantasma” sono radicalmente cambiate. E hanno assunto quelle battagliere, assolutamente reali e per nulla spettrali, di un avvocato. O avvocata: ovviamente ognuno può declinare a piacimento. Il nome? […] L'articolo Elezioni a Como, nel sondaggio su Rapinese e sugli altri candidati sindaco spunta la sorpresa Teresa Minniti proviene da ComoZero .",
-      "published_at": "2026-11-12T09:51:49+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "“Sentieri di casa nostra” invita alla terza serata del percorso autunnale",
       "url": "https://primacomo.it/cultura/sentieri-di-casa-nostra-invita-alla-terza-serata-del-percorso-autunnale",
       "summary": "“Sentieri di casa nostra”, la assegna autunnale organizzata da biblioteca e assessorato alla Cultura di Olgiate Comasco, invita alla terza serata. “Sentieri di casa nostra. Passeggiate e itinerari tra lago, colline e Prealpi” Quattro giovedì per riscoprire il territorio che ci circonda: a piedi e in bicicletta, tra sentieri delle Prealpi, passeggiate comasche, itinerari d’autore […] Continua la lettura di “Sentieri di casa nostra” invita alla terza serata del percorso autunnale sul portale Prima Como .",
       "published_at": "2026-11-12T09:51:44+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange",
-      "url": "https://comozero.it/pubbliredazionale/ragazze-alla-pari-lavoro-retribuito-tirocini-le-occasioni-per-imparare-le-lingue-in-tutta-europa-con-sunflower-exchange",
-      "summary": "Con l’arrivo dell’autunno e l’inizio del nuovo anno scolastico e lavorativo, cresce la voglia di pianificare le prossime tappe per il proprio futuro. Ed è proprio in questo momento che la storica agenzia comasca di intermediazione linguistica e scuola di lingue Sunflower Exchange, forte della sua esperienza ormai quasi trentennale, amplia le sue proposte rivolte […] L'articolo Ragazze alla pari, lavoro retribuito, tirocini: le occasioni per imparare le lingue in tutta Europa con Sunflower Exchange proviene da ComoZero .",
-      "published_at": "2026-11-12T09:29:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -704,20 +746,6 @@
       "url": "https://primacomo.it/attualita/andolfi-e-menchini-dominano-il-45-trofeo-villa-deste-aci-como",
       "summary": "Il 45° Trofeo Villa d’Este ACI Como si chiude nel segno di Fabio Andolfi e Marco Menchini, vincitori assoluti al volante della Lancia Ypsilon HF Rally2 Integrale preparata da D-Max e gommata Pirelli. L’equipaggio ligure ha dominato l’edizione 2026 della manifestazione organizzata dall’Automobile Club Como, imponendosi con un vantaggio di 1’39;27.8 sui primi inseguitori, al […] Continua la lettura di Andolfi e Menchini dominano il 45° Trofeo Villa d’Este ACI Como sul portale Prima Como .",
       "published_at": "2026-11-09T13:57:11+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ospedale di Menaggio: “Più specialisti e servizi”",
-      "url": "https://primacomo.it/sanita/ospedale-di-menaggio-piu-specialisti-e-servizi",
-      "summary": "La Giunta regionale della Lombardia ha approvato il progetto ‘Menaggio Ospedale in Rete’, un nuovo modello di collaborazione tra aziende sanitarie per rafforzare l’ospedale Erba-Renaldi e garantire maggiore continuità dei servizi ai cittadini del Medio e Alto Lario. La delibera, approvata su proposta dell’assessore al Welfare Guido Bertolaso, e di concerto con l’assessore all’Università, Ricerca […] Continua la lettura di Ospedale di Menaggio: “Più specialisti e servizi” sul portale Prima Como .",
-      "published_at": "2026-11-09T12:13:22+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
