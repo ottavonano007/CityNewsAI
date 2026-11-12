@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-12T12:06:22.487538+00:00",
+  "generated_at": "2026-11-12T13:21:35.001896+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 10,
-      "inserted": 10,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -28,9 +28,93 @@
   ],
   "articles": [
     {
-      "title": "Controlli carabinieri sul lavoro: sei denunce e tre lavoratori “in nero”",
+      "title": "Como, il centrodestra alza subito le barricate su Minniti. FdI: “Contano appartenenza e coerenza”. Con ‘like’ pesanti",
+      "url": "https://comozero.it/politica/como-il-centrodestra-alza-subito-le-barricate-su-minniti-fdi-contano-appartenenza-e-coerenza-con-like-pesanti",
+      "summary": "Nemmeno un paio d’ore e dal centrodestra è partito subito il fuoco di fila contro qualsiasi ipotesi di candidatura a sindaco di Teresa Minniti. Scenario, peraltro, che è emerso solo in relazione alla comprovata effettuazione di un sondaggio telefonico che ha raggiunto diversi comaschi e che contemplava anche il nome della vicepresidente dell’associazione Nova Como […] L'articolo Como, il centrodestra alza subito le barricate su Minniti. FdI: “Contano appartenenza e coerenza”. Con ‘like’ pesanti proviene da ComoZero .",
+      "published_at": "2026-11-12T13:11:33+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Bric’s rinnova la collaborazione con il Como 1907",
+      "url": "https://primacomo.it/attualita/brics-rinnova-la-collaborazione-con-il-como-1907",
+      "summary": "Bric’s, storica azienda di Olgiate Comasco, e Como 1907 rinnovano la collaborazione per la stagione 2026-2027. Bric’s si conferma Official Lario Business Club Member di Como 1907 Bric’s annuncia il rinnovo della collaborazione con Como 1907 per la stagione 2026-2027, confermando la propria presenza nell’Official Lario Business Club. L’accordo prosegue in un momento particolarmente significativo […] Continua la lettura di Bric’s rinnova la collaborazione con il Como 1907 sul portale Prima Como .",
+      "published_at": "2026-11-12T12:49:24+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Parata di chef al Municipale: ecco la nuova Guida Michelin. Confermata la Stella per “La Palta”",
+      "url": "https://www.piacenzasera.it/2026/11/al-municipale-oggi-si-svelano-le-nuove-stelle-e-la-guida-michelin/670034",
+      "summary": "A Piacenza il lancio ufficiale della 72a edizione della versione italiana della celebre Guida, alla presenza di chef e operatori del settore The post Parata di chef al Municipale: ecco la nuova Guida Michelin. Confermata la Stella per “La Palta” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-12T12:33:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "La pizzeria Benito, il Bar Diaz e il Caffè Umberto I, la farmacia Bonduri e Guanziroli Moto: le attività storiche di Como e provincia tra grandi nomi e grandi tradizioni",
+      "url": "https://comozero.it/attualita/la-pizzeria-benito-il-bar-diaz-e-il-caffe-umberto-i-la-farmacia-bonduri-e-guanziroli-moto-le-attivita-storiche-di-como-e-provincia-tra-grandi-nomi-e-grandi-tradizioni",
+      "summary": "Tappa a Como per l’evento itinerante con cui Regione Lombardia premia sui territori le attività storiche e di tradizione riconosciute nel 2026. L’iniziativa, voluta dall’assessore regionale allo Sviluppo economico Guido Guidesi in collaborazione con le Camere di Commercio, è dedicata a negozi, locali e botteghe artigiane che hanno svolto il proprio esercizio senza interruzioni per […] L'articolo La pizzeria Benito, il Bar Diaz e il Caffè Umberto I, la farmacia Bonduri e Guanziroli Moto: le attività storiche di Como e provincia tra grandi nomi e grandi tradizioni proviene da ComoZero .",
+      "published_at": "2026-11-12T12:26:06+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Arrivano altre minacce via mail nelle scuole: testo differente, ma apprensione identica anche a Como",
+      "url": "https://www.ciaocomo.it/2026/11/12/arrivano-altre-minacce-via-mail-nelle-scuole-testo-differente-ma-apprensione-identica-anche-a-como/347838",
+      "summary": "Al momento non risultano istituti evacuati da noi. Da altre oparti si, percezione differente. Il contenuto è stato diffuso dal Tg1: arriva da un un account filippino. The post Arrivano altre minacce via mail nelle scuole: testo differente, ma apprensione identica anche a Como appeared first on CiaoComo .",
+      "published_at": "2026-11-12T12:17:00+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Nova Como, le elezioni e l’ora della scelta: diventare lista civica? Falanga: “Tema sul tavolo, decideremo assieme”",
+      "url": "https://comozero.it/politica/nova-como-le-elezioni-e-lora-della-scelta-diventare-lista-civica-falanga-tema-sul-tavolo-decideremo-assieme",
+      "summary": "“Ci incontreremo per confrontarci sulla situazione politica in vista delle elezioni amministrazione del 2027“. Queste parole bastano per portare a galla una delle possibili notizie più rilevanti degli ultimi mesi (quantomeno in relazione a uno scenario che da destra a sinistra, passando per Rapinese, finora pare assai ingessato se non addirittura paralizzata da scelte compiute […] L'articolo Nova Como, le elezioni e l’ora della scelta: diventare lista civica? Falanga: “Tema sul tavolo, decideremo assieme” proviene da ComoZero .",
+      "published_at": "2026-11-12T12:14:11+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Controlli dei carabinieri sul lavoro: sei denunce e tre lavoratori “in nero”",
       "url": "https://www.piacenzasera.it/2026/11/controlli-carabinieri-sul-lavoro-sei-denunce-e-tre-lavoratori-in-nero/670075",
-      "summary": "Gli accertamenti del Nucleo Ispettorato del Lavoro, svolti insieme ai reparti dell’Arma territoriale del Comando Provinciale di Piacenza, hanno riguardato sicurezza, lavoro irregolare e tutela dei dipendenti The post Controlli carabinieri sul lavoro: sei denunce e tre lavoratori “in nero” appeared first on piacenzasera.it .",
+      "summary": "Gli accertamenti del Nucleo Ispettorato del Lavoro, svolti insieme ai reparti dell’Arma territoriale del Comando Provinciale di Piacenza, hanno riguardato sicurezza, lavoro irregolare e tutela dei dipendenti The post Controlli dei carabinieri sul lavoro: sei denunce e tre lavoratori “in nero” appeared first on piacenzasera.it .",
       "published_at": "2026-11-12T11:27:11+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -71,20 +155,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Parata di chef al Municipale: si svelano le nuove Stelle della Guida Michelin DIRETTA",
-      "url": "https://www.piacenzasera.it/2026/11/al-municipale-oggi-si-svelano-le-nuove-stelle-e-la-guida-michelin/670034",
-      "summary": "A Piacenza il lancio ufficiale della 72a edizione della versione italiana della celebre Guida, alla presenza di chef e operatori del settore The post Parata di chef al Municipale: si svelano le nuove Stelle della Guida Michelin DIRETTA appeared first on piacenzasera.it .",
-      "published_at": "2026-11-12T11:10:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -292,34 +362,6 @@
       ]
     },
     {
-      "title": "Festival A Due Voci, venerdì 13 novembre il primo appuntamento della XIII edizione",
-      "url": "https://www.ciaocomo.it/2026/11/12/festival-a-due-voci-venerdi-13-novembre-il-primo-appuntamento-della-xiii-edizione/347800",
-      "summary": "Al via la XIII edizione del Festival A Due Voci, si comincia venerdì 13 novembre alle 20.30 in Piazza Martinelli a Como con una riflessione filosofica intorno al Duende The post Festival A Due Voci, venerdì 13 novembre il primo appuntamento della XIII edizione appeared first on CiaoComo .",
-      "published_at": "2026-11-12T08:30:51+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Giornata mondiale del diabete, le mura di Como si illuminano di blu: convegni, prevenzione e nuove prospettive di cura",
-      "url": "https://www.ciaocomo.it/2026/11/12/giornata-mondiale-del-diabete-le-mura-di-como-si-illuminano-di-blu-convegni-prevenzione-e-nuove-prospettive-di-cura/347815",
-      "summary": "Dal diabete sul lavoro al passaggio dall’adolescenza all’età adulta, incontri e iniziative con gli specialisti di Asst Lariana. Intanto Olga Disoteo assume la guida della Diabetologia The post Giornata mondiale del diabete, le mura di Como si illuminano di blu: convegni, prevenzione e nuove prospettive di cura appeared first on CiaoComo .",
-      "published_at": "2026-11-12T07:30:19+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Al Politeama “Facciamo cinema”, documentario dedicato all’esperienza di Famiglia Nuova",
       "url": "https://www.piacenzasera.it/2026/11/al-politeama-facciamo-cinema-documentario-dedicato-allesperienza-di-famiglia-nuova/670031",
       "summary": "La proiezione evento si terrà a Piacenza, presso il Politeama di via San Siro 7, alle 21 del 19 novembre The post Al Politeama “Facciamo cinema”, documentario dedicato all’esperienza di Famiglia Nuova appeared first on piacenzasera.it .",
@@ -334,52 +376,10 @@
       ]
     },
     {
-      "title": "Trent’anni di partecipazione, Piacenza celebra il Consiglio Comunale dei Ragazzi",
-      "url": "https://www.piacenzasera.it/2026/11/trentanni-di-partecipazione-piacenza-celebra-il-consiglio-comunale-dei-ragazzi/669975",
-      "summary": "L'iniziativa, all'Auditorium S.Ilario, coinvolgerà i Consigli in erba attivi sul territorio provinciale The post Trent’anni di partecipazione, Piacenza celebra il Consiglio Comunale dei Ragazzi appeared first on piacenzasera.it .",
-      "published_at": "2026-11-11T23:00:29+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, uffici senza corridoio, grovigli di cavi e asfalto da rifare: cantieri da 390mila euro per la Polizia locale",
       "url": "https://comozero.it/attualita/como-uffici-senza-corridoio-grovigli-di-cavi-e-asfalto-da-rifare-cantieri-da-390mila-per-la-polizia-locale",
       "summary": "[Copertina: l’immagine di sinistra, presente anche sotto, ha avuto una messa a fuoco lievemente migliorata con AI senza alcuna modifica dell’originale] Due interventi distinti approvati dalla Giunta comunale: 190mila euro per sistemare l’area esterna del Comando di viale Innocenzo XI e altri 200mila per ripensare gli spazi al primo piano e mettere ordine negli impianti […] L'articolo Como, uffici senza corridoio, grovigli di cavi e asfalto da rifare: cantieri da 390mila euro per la Polizia locale proviene da ComoZero .",
       "published_at": "2026-11-11T21:50:59+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Stati Uniti dopo le Midterm, a Como l’analisi della nuova identità americana",
-      "url": "https://comozero.it/attualita/stati-uniti-dopo-le-midterm-a-como-lanalisi-della-nuova-identita-americana",
-      "summary": "Le possibili chiavi per leggere e interpretare il nuovo quadro politico americano all’indomani delle elezioni di Midterm sono state l’argomento al centro del convegno organizzato, questa sera, mercoledì 11 novembre da Confindustria Como in collaborazione con Limes Club Como – Canton Ticino e Intesa Sanpaolo. Dopo i saluti di Alberto Novarese, Vicepresidente di Confindustria Como […] L'articolo Stati Uniti dopo le Midterm, a Como l’analisi della nuova identità americana proviene da ComoZero .",
-      "published_at": "2026-11-11T20:17:49+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Parcheggi stravolti a Como: vie escluse, liste d’attesa aggravate e nuovi posti blu dove era vietato sostare”",
-      "url": "https://comozero.it/attualita/parcheggi-stravolti-a-como-vie-escluse-liste-dattesa-aggravate-e-nuovi-posti-blu-dove-era-vietato-sostare",
-      "summary": "Le recenti novità introdotte dalla giunta Rapinese sia sui nuovi parcheggi a pagamento al posto di stalli gratis, sia sui permessi per i posti auto per i residenti ha suscitato perplessità nella consigliera comunale di Forza Italia Paola Ceriello che si concentra sull’istituzione della nuova area di sosta agevolata (ASA) Radice. Ecco il suo intervento […] L'articolo “Parcheggi stravolti a Como: vie escluse, liste d’attesa aggravate e nuovi posti blu dove era vietato sostare” proviene da ComoZero .",
-      "published_at": "2026-11-11T16:07:04+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -676,20 +676,6 @@
       "url": "https://primacomo.it/sanita/ospedale-di-menaggio-piu-specialisti-e-servizi",
       "summary": "La Giunta regionale della Lombardia ha approvato il progetto ‘Menaggio Ospedale in Rete’, un nuovo modello di collaborazione tra aziende sanitarie per rafforzare l’ospedale Erba-Renaldi e garantire maggiore continuità dei servizi ai cittadini del Medio e Alto Lario. La delibera, approvata su proposta dell’assessore al Welfare Guido Bertolaso, e di concerto con l’assessore all’Università, Ricerca […] Continua la lettura di Ospedale di Menaggio: “Più specialisti e servizi” sul portale Prima Como .",
       "published_at": "2026-11-09T12:13:22+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Vinti 125mila euro a Cernobbio con il Lotto",
-      "url": "https://primacomo.it/attualita/vinti-125mila-euro-a-cernobbio-con-il-lotto",
-      "summary": "Il Lotto premia la Lombardia con vincite per oltre 200mila euro distribuiti nei concorsi di venerdì 6 e sabato 7 novembre 2026. La vincita Nel concorso di sabato, in via V Giornate a Cernobbio, è stata registrata la vincita più alta di giornata dal valore di 125.250 euro: il premio è stato realizzato grazie a […] Continua la lettura di Vinti 125mila euro a Cernobbio con il Lotto sul portale Prima Como .",
-      "published_at": "2026-11-09T11:26:49+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
