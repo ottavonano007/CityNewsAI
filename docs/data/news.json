@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:59:55.155836+00:00",
+  "generated_at": "2026-11-13T19:59:52.475294+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Furti “acrobatici” su camion in autostrada, 13 arresti. A Piacenza una base logistica",
+      "url": "https://www.piacenzasera.it/2026/11/furti-acrobatici-su-camion-in-autostrada-13-arresti-a-piacenza-una-base-logistica/670320",
+      "summary": "Ha coinvolto anche il nostro territorio l'operazione condotta dalla polizia stradale: recuperata refurtiva per 700mila euro The post Furti “acrobatici” su camion in autostrada, 13 arresti. A Piacenza una base logistica appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T19:15:03+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro",
       "url": "https://comozero.it/attualita/como-servono-spazi-la-provincia-compra-un-intero-immobile-per-un-milione-e-100mila-euro",
@@ -130,20 +144,6 @@
       "url": "https://www.piacenzasera.it/2026/11/caccia-alla-lepre-annunciata-chiusura-anticipata-in-diverse-citta-piacentine/670247",
       "summary": "Ultimo giorno utile domenica 15 novembre 2026; possibile addestramento cani con annotazione su tesserino venatorio The post Caccia alla lepre, nel piacentino chiusura anticipata in dodici Comuni appeared first on piacenzasera.it .",
       "published_at": "2026-11-13T14:45:38+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Al via il piano di potature stagionali: ecco le strade di Piacenza interessate fino a gennaio",
-      "url": "https://www.piacenzasera.it/2026/11/al-via-il-piano-di-potature-stagionali-ecco-le-strade-interessate-fino-a-gennaio/670241",
-      "summary": "Per consentire alle squadre di operare in sicurezza, le eventuali chiusure al traffico saranno limitate ai tratti di strada interessati dalle potature e comunicate di volta in volta alla cittadinanza The post Al via il piano di potature stagionali: ecco le strade di Piacenza interessate fino a gennaio appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T14:37:41+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
