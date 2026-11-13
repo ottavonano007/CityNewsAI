@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:00:37.309311+00:00",
+  "generated_at": "2026-11-13T17:56:55.166531+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Una domenica immersi nel fascino di Villa Erba fra teatro, cinema e arte con Sentieri di Foglie",
+      "url": "https://comozero.it/cultura-e-spettacolo/una-domenica-immersi-nel-fascino-di-villa-erba-fra-teatro-cinema-e-arte-con-sentieri-di-foglie",
+      "summary": "Una giornata per immergersi nella storia, nell’arte e nel fascino di una delle dimore più suggestive del Lago di Como. Domenica 15 novembre Villa Erba, a Cernobbio, apre le sue porte per “Sentieri di Foglie”, il quarto e ultimo appuntamento del 2026 della rassegna Le 4 Stagioni di Villa Erba. Dal mattino fino a sera, […] L'articolo Una domenica immersi nel fascino di Villa Erba fra teatro, cinema e arte con Sentieri di Foglie proviene da ComoZero .",
+      "published_at": "2026-11-13T17:28:24+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Sfida al Palabanca tra Assigeco e Leonessa Brescia",
       "url": "https://www.piacenzasera.it/2026/11/sfida-al-palabanca-tra-assigeco-e-leonessa-brescia/670290",
@@ -98,9 +112,9 @@
       ]
     },
     {
-      "title": "Caccia alla lepre, nel piacentino chiusura anticipata in altri dodici Comuni",
+      "title": "Caccia alla lepre, nel piacentino chiusura anticipata in dodici Comuni",
       "url": "https://www.piacenzasera.it/2026/11/caccia-alla-lepre-annunciata-chiusura-anticipata-in-diverse-citta-piacentine/670247",
-      "summary": "Ultimo giorno utile domenica 15 novembre 2026; possibile addestramento cani con annotazione su tesserino venatorio The post Caccia alla lepre, nel piacentino chiusura anticipata in altri dodici Comuni appeared first on piacenzasera.it .",
+      "summary": "Ultimo giorno utile domenica 15 novembre 2026; possibile addestramento cani con annotazione su tesserino venatorio The post Caccia alla lepre, nel piacentino chiusura anticipata in dodici Comuni appeared first on piacenzasera.it .",
       "published_at": "2026-11-13T14:45:38+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -429,36 +443,6 @@
       ],
       "territory_codes": [
         "VA"
-      ]
-    },
-    {
-      "title": "Como, il sorriso magnetico e ribelle della leggenda Gianni Rivera con il Milan Club Cernobbio: ecco perché",
-      "url": "https://comozero.it/attualita/como-il-sorriso-magnetico-e-ribelle-della-leggenda-gianni-rivera-con-il-milan-club-cernobbio-ecco-perche",
-      "summary": "Una serata dedicata alla memoria calcistica e alla solidarietà ha richiamato numerosi soci, tifosi e appassionati al Ristorante Tarantola di Appiano Gentile, dove il Milan Club Cernobbio ha accolto Gianni Rivera. L’iniziativa, pensata per coniugare la passione sportiva con l’approfondimento culturale e l’impegno sociale, ha permesso di raccogliere e devolvere 1.111 euro alla Fondazione Italiana […] L'articolo Como, il sorriso magnetico e ribelle della leggenda Gianni Rivera con il Milan Club Cernobbio: ecco perché proviene da ComoZero .",
-      "published_at": "2026-11-12T22:01:12+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Raccolta differenziata record Lombardia ma la provincia di Como è al 72,99%: sotto la media",
-      "url": "https://comozero.it/attualita/raccolta-differenziata-record-lombardia-ma-la-provincia-di-como-e-al-7299-sotto-la-media",
-      "summary": "La Lombardia supera per la prima volta il 75% di raccolta differenziata, ma Como si ferma al 72,99%. Nel 2025 la provincia lariana resta sotto la media regionale e lontana dai territori più virtuosi, a partire da Mantova, che raggiunge l’88,12%. È quanto emerge dai dati diffusi da Regione Lombardia, che certificano un risultato complessivamente […] L'articolo Raccolta differenziata record Lombardia ma la provincia di Como è al 72,99%: sotto la media proviene da ComoZero .",
-      "published_at": "2026-11-12T19:43:16+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mn"
-      ],
-      "territory_codes": [
-        "CO",
-        "MN"
       ]
     },
     {
