@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:07:24.245219+00:00",
+  "generated_at": "2026-11-13T11:07:38.808676+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 1,
-      "inserted": 1,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -28,12 +28,118 @@
   ],
   "articles": [
     {
+      "title": "Alessandra Locatelli è l’Alumna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco",
+      "url": "https://www.ciaocomo.it/2026/11/13/alessandra-locatelli-e-lalumna-dellanno-2026-delluniversita-milano-bicocca-il-riconoscimento-al-ministro-comasco/347909",
+      "summary": "Laureata in Sociologia nel 2013, è stata premiata per il suo percorso professionale e l’impegno nelle politiche sociali e per l’inclusione delle persone con disabilità The post Alessandra Locatelli è l’Alumna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco appeared first on CiaoComo .",
+      "published_at": "2026-11-13T10:40:12+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Sciopero del 20 novembre indetto da Cgil: decine di assemblee nei luoghi di lavoro e sul territorio piacentino",
+      "url": "https://www.piacenzasera.it/2026/11/sciopero-del-20-novembre-indetto-da-cgil-decine-di-assemblee-nei-luoghi-di-lavoro-e-sul-territorio-piacentino/670193",
+      "summary": "Proseguono gli incontri nelle aziende, nelle scuole e nel pubblico impiego: il 16 novembre appuntamento con gli studenti, dal Cuncertass l’appello ai musicisti per accompagnare il corteo The post Sciopero del 20 novembre indetto da Cgil: decine di assemblee nei luoghi di lavoro e sul territorio piacentino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T10:35:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Centro Lago di Como, il minorenne si mostra fin troppo tranquillo ai finanzieri poi cede: denunciato",
+      "url": "https://comozero.it/attualita/centro-lago-di-como-il-minorenne-si-mostra-fin-troppo-tranquillo-ai-finanzieri-poi-cede-denunciato",
+      "summary": "Un’operazione condotta dalla Guardia di Finanza del Comando Provinciale di Como ha portato alla denuncia di un minorenne per detenzione di sostanze stupefacenti. L’intervento è avvenuto in una nota località turistica del Centro Lago, durante i normali controlli nelle zone più frequentate dai giovani. Il controllo e la perquisizione in un bar del Centro Lago […] L'articolo Centro Lago di Como, il minorenne si mostra fin troppo tranquillo ai finanzieri poi cede: denunciato proviene da ComoZero .",
+      "published_at": "2026-11-13T10:11:17+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Trapianto di capelli in Turchia dall’Italia: 10 cliniche e budget",
+      "url": "https://comozero.it/pubbliredazionale/trapianto-di-capelli-in-turchia-dallitalia-10-cliniche-e-budget",
+      "summary": "Per chi parte da Milano, Roma, Bologna o Napoli, il preventivo della clinica è solo il punto di partenza. Al conto vanno aggiunti volo, giorni di ferie, magari un accompagnatore, e qualche spesa una volta rientrati. Pianificare bene evita sorprese e permette di confrontare le offerte in modo onesto. Questa top 10 migliori cliniche di […] L'articolo Trapianto di capelli in Turchia dall’Italia: 10 cliniche e budget proviene da ComoZero .",
+      "published_at": "2026-11-13T10:04:13+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "bo",
+        "mi",
+        "na",
+        "rm"
+      ],
+      "territory_codes": [
+        "BO",
+        "MI",
+        "NA",
+        "RM"
+      ]
+    },
+    {
+      "title": "Due pistole vere nascoste tra quelle giocattolo: le armi rubate nel Piacentino trovate in un pacco postale",
+      "url": "https://www.piacenzasera.it/2026/11/due-pistole-vere-nascoste-tra-quelle-giocattolo-le-armi-rubate-nel-piacentino-nascoste-in-un-pacco-postale/670185",
+      "summary": "Ora la truffa viaggia per Posta: i proventi dei raggiri spediti a indirizzi fittizi per aggirare le forze dell'ordine. In un pacco destinato a una Onlus per bambini, due pistole rubate a Piacenza durante una truffa The post Due pistole vere nascoste tra quelle giocattolo: le armi rubate nel Piacentino trovate in un pacco postale appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T10:03:28+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Nati per Leggere, nove appuntamenti nelle biblioteche della Brianza Comasca per scoprire il piacere delle storie",
+      "url": "https://www.ciaocomo.it/2026/11/13/nati-per-leggere-nove-appuntamenti-nelle-biblioteche-della-brianza-comasca-per-scoprire-il-piacere-delle-storie/347827",
+      "summary": "Dal 14 al 22 novembre letture ad alta voce e attività per bambini da 0 a 6 anni e famiglie. Sei biblioteche coinvolte nella Settimana nazionale dedicata alla lettura condivisa fin dalla prima infanzia The post Nati per Leggere, nove appuntamenti nelle biblioteche della Brianza Comasca per scoprire il piacere delle storie appeared first on CiaoComo .",
+      "published_at": "2026-11-13T10:00:36+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Sindacato pensionati Cgil, mobilitazione su tutto il territorio provinciale",
       "url": "https://primacomo.it/cronaca/sindacato-pensionati-cgil-mobilitazione-su-tutto-il-territorio-provinciale",
       "summary": "Il Sindacato pensionati della Cgil si mobilità su territorio provinciale di Como. Sindacato pensionati Cgil, allarme sulla legge di Bilancio “Il 18 e il 19 novembre – sottolinea lo Spi-Cgil – saremo presenti con i nostri attivisti in 12 località della provincia: distribuiremo volantini e parleremo con i cittadini della legge di bilancio del governo […] Continua la lettura di Sindacato pensionati Cgil, mobilitazione su tutto il territorio provinciale sul portale Prima Como .",
       "published_at": "2026-11-13T09:53:58+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Aree interne del Lago di Como, il PD a Grandola ed Uniti per discutere di servizi, infrastrutture e diritto a restare",
+      "url": "https://www.ciaocomo.it/2026/11/13/aree-interne-del-lago-di-como-il-pd-a-grandola-ed-uniti-per-discutere-di-servizi-infrastrutture-e-diritto-a-restare/347898",
+      "summary": "L’incontro di sabato 14 novembre sarà dedicato alle difficoltà dei piccoli comuni montani e alle tre proposte di legge del Partito Democratico. Interverranno Chiara Braga, Marco Niccolai e Angelo Orsenigo The post Aree interne del Lago di Como, il PD a Grandola ed Uniti per discutere di servizi, infrastrutture e diritto a restare appeared first on CiaoComo .",
+      "published_at": "2026-11-13T09:46:49+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -144,34 +250,6 @@
       "url": "https://www.piacenzasera.it/2026/11/ma-cosa-vuoi-conservare-ultimo-incontro-del-ciclo-chi-sbaglia-storia-sbaglia-politica/670171",
       "summary": "Venerdì a Piacenza l’incontro con Marco Invernizzi e Maurizio Dossena The post “Ma cosa vuoi conservare?”, ultimo incontro del ciclo ‘Chi sbaglia storia sbaglia politica’ appeared first on piacenzasera.it .",
       "published_at": "2026-11-13T06:00:47+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Lilt Piacenza: il 23 novembre al via il nuovo corso per smettere di fumare",
-      "url": "https://www.piacenzasera.it/2026/11/lilt-piacenza-il-23-novembre-al-via-il-nuovo-corso-per-smettere-di-fumare/670049",
-      "summary": "Il corso, della durata complessiva di circa due mesi, prevede incontri bisettimanali di due ore ciascuno The post Lilt Piacenza: il 23 novembre al via il nuovo corso per smettere di fumare appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T06:00:34+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "GOTICOmics: due giornate tra incontri, cosplay, laboratori e K-pop",
-      "url": "https://www.piacenzasera.it/2026/11/goticomics-due-giornate-tra-incontri-cosplay-laboratori-e-k-pop/670139",
-      "summary": "Il Centro Commerciale Gotico di Piacenza ospita l'evento organizzato con l’associazione culturale Ora Pro Comics The post GOTICOmics: due giornate tra incontri, cosplay, laboratori e K-pop appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T06:00:27+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -302,48 +380,6 @@
       "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
       "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
       "published_at": "2026-11-12T16:00:46+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, il Concerto d’Autunno dell’Orchestra Franz Terraneo a San Fedele: musica del Novecento e prime assolute",
-      "url": "https://www.ciaocomo.it/2026/11/12/como-il-concerto-dautunno-dellorchestra-franz-terraneo-a-san-fedele-musica-del-novecento-e-prime-assolute/347659",
-      "summary": "Sabato 14 novembre un programma diretto da Guido Boselli con musiche di Hindemith, Boselli e Ballarini. Ingresso gratuito e raccolta fondi per il progetto Lions “Kit Codice Rosa” a sostegno delle vittime di violenza The post Como, il Concerto d’Autunno dell’Orchestra Franz Terraneo a San Fedele: musica del Novecento e prime assolute appeared first on CiaoComo .",
-      "published_at": "2026-11-12T16:00:33+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "L’azienda top comasca trionfa a Ginevra con Cosmo: l’orologio che segue il movimento della terra e del cielo",
-      "url": "https://comozero.it/attualita/quattro-anni-di-ricerca-poi-lazienda-top-comasca-trionfa-a-ginevra-con-cosmo-lorologio-che-segue-il-movimento-della-terra-e-del-cielo",
-      "summary": "L’azienda comasca si è aggiudicata il Mechanical Clock Prize al Grand Prix d’Horlogerie de Genève 2026. A ideare e sviluppare il progetto è stato Luciano Sasso. Massimiliano Quintavalle, Ceo e rappresentante della terza generazione della famiglia, ha ritirato il riconoscimento a nome dell’azienda Un orologio capace di indicare non soltanto l’ora, ma anche il movimento […] L'articolo L’azienda top comasca trionfa a Ginevra con Cosmo: l’orologio che segue il movimento della terra e del cielo proviene da ComoZero .",
-      "published_at": "2026-11-12T15:55:08+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "L’imprenditrice: “Medici e infermieri mi hanno salvato la vita e coccolata. Fiera di avere il Sant’Anna in provincia di Como”",
-      "url": "https://comozero.it/sanita/limprenditrice-medici-e-infermieri-mi-hanno-salvato-la-vita-e-coccolata-fiera-di-avere-il-santanna",
-      "summary": "Non è raro che i casi di malasanità – o presunta tale – guadagnino spazi nelle cronache. Ma per fortuna ci sono anche casi opposti. Proprio come quello raccontato alla redazione dall’imprenditrice comasca Grazia Vitiello, amministratrice della Assitec di Albiolo, che rivolge i complimenti per l’assistenza e l’umanità trovate all’ospedale Sant’Anna. Di seguito la sua […] L'articolo L’imprenditrice: “Medici e infermieri mi hanno salvato la vita e coccolata. Fiera di avere il Sant’Anna in provincia di Como” proviene da ComoZero .",
-      "published_at": "2026-11-12T15:09:14+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
