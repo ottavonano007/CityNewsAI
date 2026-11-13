@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-13T15:56:21.710171+00:00",
+  "generated_at": "2026-11-13T17:00:37.309311+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Sfida al Palabanca tra Assigeco e Leonessa Brescia",
+      "url": "https://www.piacenzasera.it/2026/11/sfida-al-palabanca-tra-assigeco-e-leonessa-brescia/670290",
+      "summary": "Match in programma domenica 15 novembre alle ore 18 The post Sfida al Palabanca tra Assigeco e Leonessa Brescia appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T16:35:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "bs"
+      ],
+      "territory_codes": [
+        "BS"
+      ]
+    },
+    {
+      "title": "Ictus, a Piacenza 500 casi l’anno. Un convegno per raccontare segni e sintomi nascosti",
+      "url": "https://www.piacenzasera.it/2026/11/ictus-a-piacenza-500-casi-lanno-un-convegno-per-raccontare-segni-e-sintomi-nascosti/670282",
+      "summary": "A pochi giorni dalla Giornata mondiale dell'Ictus, Ausl e associazione A.L.I.Ce. propongono un approfondimento dedicato ai professionisti The post Ictus, a Piacenza 500 casi l’anno. Un convegno per raccontare segni e sintomi nascosti appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T16:12:01+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Unipol – Amicacci: in palio la supercoppa italiana",
       "url": "https://primacomo.it/sport/unipol-amicacci-in-palio-la-supercoppa-italiana",
@@ -137,20 +165,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Al Beltrametti i Lyons sfidano la Rangers Vicenza",
-      "url": "https://www.piacenzasera.it/2026/11/al-beltrametti-i-lyons-sfidano-la-rangers-vicenza/670224",
-      "summary": "Tutto pronto per la sfida di Soladria Serie A Elite in programma sabato 14 novembre al Beltrametti The post Al Beltrametti i Lyons sfidano la Rangers Vicenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T13:06:11+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "vi"
-      ],
-      "territory_codes": [
-        "VI"
       ]
     },
     {
@@ -301,20 +315,6 @@
         "MI",
         "NA",
         "RM"
-      ]
-    },
-    {
-      "title": "Nati per Leggere, nove appuntamenti nelle biblioteche della Brianza Comasca per scoprire il piacere delle storie",
-      "url": "https://www.ciaocomo.it/2026/11/13/nati-per-leggere-nove-appuntamenti-nelle-biblioteche-della-brianza-comasca-per-scoprire-il-piacere-delle-storie/347827",
-      "summary": "Dal 14 al 22 novembre letture ad alta voce e attività per bambini da 0 a 6 anni e famiglie. Sei biblioteche coinvolte nella Settimana nazionale dedicata alla lettura condivisa fin dalla prima infanzia The post Nati per Leggere, nove appuntamenti nelle biblioteche della Brianza Comasca per scoprire il piacere delle storie appeared first on CiaoComo .",
-      "published_at": "2026-11-13T10:00:36+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
