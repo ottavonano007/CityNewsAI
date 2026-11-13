@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-13T11:07:38.808676+00:00",
+  "generated_at": "2026-11-13T12:02:10.050306+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati pretermine",
+      "url": "https://www.ciaocomo.it/2026/11/13/giornata-della-prematurita-il-santanna-si-tinge-di-viola-cure-e-sostegno-ai-piccoli-nati-pretermine/347915",
+      "summary": "Dal 13 al 15 novembre la hall dell’ospedale si colora di viola. Domenica a San Fermo un pomeriggio dedicato alle famiglie, mentre si avvicina l’ampliamento dei posti letto della Terapia Intensiva Neonatale The post Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati pretermine appeared first on CiaoComo .",
+      "published_at": "2026-11-13T11:18:51+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "fm"
+      ],
+      "territory_codes": [
+        "FM"
+      ]
+    },
     {
       "title": "Alessandra Locatelli è l’Alumna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco",
       "url": "https://www.ciaocomo.it/2026/11/13/alessandra-locatelli-e-lalumna-dellanno-2026-delluniversita-milano-bicocca-il-riconoscimento-al-ministro-comasco/347909",
@@ -246,20 +260,6 @@
       ]
     },
     {
-      "title": "“Ma cosa vuoi conservare?”, ultimo incontro del ciclo ‘Chi sbaglia storia sbaglia politica’",
-      "url": "https://www.piacenzasera.it/2026/11/ma-cosa-vuoi-conservare-ultimo-incontro-del-ciclo-chi-sbaglia-storia-sbaglia-politica/670171",
-      "summary": "Venerdì a Piacenza l’incontro con Marco Invernizzi e Maurizio Dossena The post “Ma cosa vuoi conservare?”, ultimo incontro del ciclo ‘Chi sbaglia storia sbaglia politica’ appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T06:00:47+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Le cabine dei seggi sono vecchie, il Comune di Como ne compra 50 nuove e ignifughe per 20mila euro",
       "url": "https://comozero.it/attualita/le-cabine-dei-seggi-sono-vecchie-il-comune-di-como-ne-compra-50-nuove-e-ignifughe-per-20mila-euro",
       "summary": "Le strutture attualmente in dotazione ai seggi sono ormai deteriorate e dovranno essere sostituite in vista delle prossime elezioni (comunali, politiche). L’affidamento a Mobilferro Srl, azienda con sede in provincia di Rovigo: previsti modelli con tendina ignifuga e struttura in alluminio Il Comune di Como acquisterà 50 nuove cabine elettorali per una spesa complessiva di […] L'articolo Le cabine dei seggi sono vecchie, il Comune di Como ne compra 50 nuove e ignifughe per 20mila euro proviene da ComoZero .",
@@ -336,7 +336,7 @@
     {
       "title": "Settimana del rispetto: presentata la quarta edizione",
       "url": "https://primacomo.it/attualita/settimana-del-rispetto-presentata-la-quarta-edizione",
-      "summary": "Presentata alla primaria “Casati” Brenna la quarta edizione della “Settimana del Rispetto”, la rassegna di eventi proposta dalle associazioni Fermiamoci e Lo Snodo in occasione del 25 novembre, Giornata internazionale contro la violenza sulle donne. 23 associazioni coinvolte, 13 Comuni patrocinanti e 19 appuntamenti Il presidente de Lo Snodo, Simone Pelucchi, ha presentato i numeri della […] Continua la lettura di Settimana del rispetto: presentata la quarta edizione sul portale Prima Como .",
+      "summary": "Presentata alla primaria “Casati” di Brenna la quarta edizione della “Settimana del Rispetto”, la rassegna di eventi proposta dalle associazioni Fermiamoci e Lo Snodo in occasione del 25 novembre, Giornata internazionale contro la violenza sulle donne. 23 associazioni coinvolte, 13 Comuni patrocinanti e 19 appuntamenti Il presidente de Lo Snodo, Simone Pelucchi, ha presentato i […] Continua la lettura di Settimana del rispetto: presentata la quarta edizione sul portale Prima Como .",
       "published_at": "2026-11-12T17:21:38+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
