@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:56:55.166531+00:00",
+  "generated_at": "2026-11-13T18:59:55.155836+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro",
+      "url": "https://comozero.it/attualita/como-servono-spazi-la-provincia-compra-un-intero-immobile-per-un-milione-e-100mila-euro",
+      "summary": "La Provincia di Como amplia il proprio patrimonio immobiliare e mette nero su bianco l’acquisto dei locali di via Borgo Vico 163. Villa Saporiti (nella foto) ha formalizzato l’impegno di spesa definitivo per rilevare l’edificio di circa 650 metri quadrati situato a pochi passi dalla sede centrale. L’operazione comporta un esborso complessivo di 1.104.100 euro […] L'articolo Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro proviene da ComoZero .",
+      "published_at": "2026-11-13T18:15:33+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Una domenica immersi nel fascino di Villa Erba fra teatro, cinema e arte con Sentieri di Foglie",
       "url": "https://comozero.it/cultura-e-spettacolo/una-domenica-immersi-nel-fascino-di-villa-erba-fra-teatro-cinema-e-arte-con-sentieri-di-foglie",
@@ -268,9 +282,9 @@
       ]
     },
     {
-      "title": "Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati pretermine",
+      "title": "Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati per l’intero week-end",
       "url": "https://www.ciaocomo.it/2026/11/13/giornata-della-prematurita-il-santanna-si-tinge-di-viola-cure-e-sostegno-ai-piccoli-nati-pretermine/347915",
-      "summary": "Dal 13 al 15 novembre la hall dell’ospedale si colora di viola. Domenica a San Fermo un pomeriggio dedicato alle famiglie, mentre si avvicina l’ampliamento dei posti letto della Terapia Intensiva Neonatale The post Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati pretermine appeared first on CiaoComo .",
+      "summary": "Dal 13 al 15 novembre la hall dell’ospedale si colora di viola. Domenica a San Fermo un pomeriggio dedicato alle famiglie, mentre si avvicina l’ampliamento dei posti letto della Terapia Intensiva Neonatale The post Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati per l’intero week-end appeared first on CiaoComo .",
       "published_at": "2026-11-13T11:18:51+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -429,20 +443,6 @@
       "territory_codes": [
         "CO",
         "RO"
-      ]
-    },
-    {
-      "title": "Lavoro oltre i confini tra Italia e Svizzera, nasce qualcosa di veramente nuovo",
-      "url": "https://comozero.it/attualita/forum-insubria-2050-mercato-lavoro-talenti-italia-svizzera-varese",
-      "summary": "Un forum transfrontaliero permanente per condividere dati, strategie e buone pratiche sul mercato occupazionale tra Italia e Svizzera. Sono queste le prime azioni concrete di Forum Insubria 2050, il progetto che verrà presentato ufficialmente il prossimo 20 novembre alle Ville Ponti di Varese, durante il convegno intitolato “Lavoro, competenze e territori per un futuro oltre […] L'articolo Lavoro oltre i confini tra Italia e Svizzera, nasce qualcosa di veramente nuovo proviene da ComoZero .",
-      "published_at": "2026-11-12T23:31:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "va"
-      ],
-      "territory_codes": [
-        "VA"
       ]
     },
     {
