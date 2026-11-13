@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-13T13:15:45.902162+00:00",
+  "generated_at": "2026-11-13T14:25:52.333502+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Un punteggio strepitoso e il primo premio: a Parigi la scuola di danza comasca ha stupito il mondo intero",
+      "url": "https://comozero.it/attualita/un-punteggio-strepitoso-e-il-primo-premio-a-parigi-la-scuola-di-danza-comasca-ha-stupito-il-mondo-intero",
+      "summary": "Un risultato straordinario che porta l’eccellenza della formazione tersicorea italiana sul palcoscenico internazionale. Il gruppo della Scuola di danza classica di TST_Lab (il polo formativo e laboratoriale del Teatro San Teodoro di Cantù) si è aggiudicato il primo premio nella categoria Gruppi Danza Classica al concorso internazionale Black Swan Dance Competition, svoltosi presso il Théâtre […] L'articolo Un punteggio strepitoso e il primo premio: a Parigi la scuola di danza comasca ha stupito il mondo intero proviene da ComoZero .",
+      "published_at": "2026-11-13T13:39:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cantù riparte da Green per inseguire la salvezza. Il presidente Allievi:”Io e lo staff ci crediamo sempre”",
+      "url": "https://www.ciaocomo.it/2026/11/13/cantu-riparte-da-green-per-inseguire-la-salvezza-il-presidente-allieviio-e-lo-staff-ci-crediamo-sempre/347925",
+      "summary": "Stamane la presentazione del guocatore che rientra in BRianza dopo qualche mese a Venezia. A disposizione per domenica contro Tortona a Desio. Le sue dichiarazioni. The post Cantù riparte da Green per inseguire la salvezza. Il presidente Allievi:”Io e lo staff ci crediamo sempre” appeared first on CiaoComo .",
+      "published_at": "2026-11-13T13:35:30+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "ve"
+      ],
+      "territory_codes": [
+        "VE"
+      ]
+    },
+    {
+      "title": "Mulini storici, dalla Regione quasi 18mila euro per due progetti in provincia di Como: ecco gli interventi",
+      "url": "https://www.ciaocomo.it/2026/11/13/mulini-storici-dalla-regione-quasi-18mila-euro-per-due-progetti-in-provincia-di-como-ecco-gli-interventi/347922",
+      "summary": "Finanziati il recupero del Mulino del Ciculin a Mariano Comense e il ripristino del sistema di macinazione del Mulino del Dosso, che sarà rimesso in funzione a scopo didattico The post Mulini storici, dalla Regione quasi 18mila euro per due progetti in provincia di Como: ecco gli interventi appeared first on CiaoComo .",
+      "published_at": "2026-11-13T13:12:31+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Al Beltrametti i Lyons sfidano la Rangers Vicenza",
+      "url": "https://www.piacenzasera.it/2026/11/al-beltrametti-i-lyons-sfidano-la-rangers-vicenza/670224",
+      "summary": "Tutto pronto per la sfida di Soladria Serie A Elite in programma sabato 14 novembre al Beltrametti The post Al Beltrametti i Lyons sfidano la Rangers Vicenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T13:06:11+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "vi"
+      ],
+      "territory_codes": [
+        "VI"
+      ]
+    },
+    {
+      "title": "Parcheggi residenti a Como, dal 17 novembre le domande per i permessi 2027: tariffe, posti disponibili e scadenze",
+      "url": "https://www.ciaocomo.it/2026/11/13/parcheggi-residenti-a-como-dal-17-novembre-le-domande-per-i-permessi-2027-tariffe-posti-disponibili-e-scadenze/347917",
+      "summary": "Le richieste soltanto online con SPID o CIE entro il 30 novembre. Un permesso per nucleo residenziale con un massimo di due targhe. Sorteggio il 10 dicembre nelle zone in cui le domande supereranno i posti disponibili The post Parcheggi residenti a Como, dal 17 novembre le domande per i permessi 2027: tariffe, posti disponibili e scadenze appeared first on CiaoComo .",
+      "published_at": "2026-11-13T12:54:26+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Derby piacentino per il volley serie B, tra Canottieri Ongina e Gas Sales junior",
       "url": "https://www.piacenzasera.it/2026/11/derby-piacentino-per-il-volley-serie-b-tra-canottieri-ongina-e-gas-sales-junior/670220",
@@ -86,20 +156,6 @@
       ]
     },
     {
-      "title": "L’importanza di chiamarsi Ernesto di Oscar Wilde apre la stagione di prosa al Municipale",
-      "url": "https://www.piacenzasera.it/2026/11/limportanza-di-chiamarsi-ernesto-di-oscar-wilde-apre-la-stagione-di-prosa-al-municipale/670200",
-      "summary": "Con Lucia Poli, per la regia di Geppy Gleijeses, al Teatro Municipale Piacenza martedì 17 e mercoledì 18 novembre The post L’importanza di chiamarsi Ernesto di Oscar Wilde apre la stagione di prosa al Municipale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T11:51:31+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Il Coro da Camera del Conservatorio di Como in concerto a Sant’Abbondio con Domenico Innominato",
       "url": "https://www.ciaocomo.it/2026/11/13/il-coro-da-camera-del-conservatorio-di-como-in-concerto-a-santabbondio-con-domenico-innominato/347740",
       "summary": "Un appuntamento che assume un significato particolare per il maestro, recentemente andato in pensione dopo 36 anni di insegnamento al Conservatorio The post Il Coro da Camera del Conservatorio di Como in concerto a Sant’Abbondio con Domenico Innominato appeared first on CiaoComo .",
@@ -142,9 +198,9 @@
       ]
     },
     {
-      "title": "Alessandra Locatelli è l’Alumna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco",
+      "title": "Alessandra Locatelli è l’Alunna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco",
       "url": "https://www.ciaocomo.it/2026/11/13/alessandra-locatelli-e-lalumna-dellanno-2026-delluniversita-milano-bicocca-il-riconoscimento-al-ministro-comasco/347909",
-      "summary": "Laureata in Sociologia nel 2013, è stata premiata per il suo percorso professionale e l’impegno nelle politiche sociali e per l’inclusione delle persone con disabilità The post Alessandra Locatelli è l’Alumna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco appeared first on CiaoComo .",
+      "summary": "Laureata in Sociologia nel 2013, è stata premiata per il suo percorso professionale e l’impegno nelle politiche sociali e per l’inclusione delle persone con disabilità The post Alessandra Locatelli è l’Alunna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco appeared first on CiaoComo .",
       "published_at": "2026-11-13T10:40:12+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -155,20 +211,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Sciopero del 20 novembre indetto da Cgil: decine di assemblee nei luoghi di lavoro e sul territorio piacentino",
-      "url": "https://www.piacenzasera.it/2026/11/sciopero-del-20-novembre-indetto-da-cgil-decine-di-assemblee-nei-luoghi-di-lavoro-e-sul-territorio-piacentino/670193",
-      "summary": "Proseguono gli incontri nelle aziende, nelle scuole e nel pubblico impiego: il 16 novembre appuntamento con gli studenti, dal Cuncertass l’appello ai musicisti per accompagnare il corteo The post Sciopero del 20 novembre indetto da Cgil: decine di assemblee nei luoghi di lavoro e sul territorio piacentino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T10:35:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -226,20 +268,6 @@
       "published_at": "2026-11-13T09:53:58+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Aree interne del Lago di Como, il PD a Grandola ed Uniti per discutere di servizi, infrastrutture e diritto a restare",
-      "url": "https://www.ciaocomo.it/2026/11/13/aree-interne-del-lago-di-como-il-pd-a-grandola-ed-uniti-per-discutere-di-servizi-infrastrutture-e-diritto-a-restare/347898",
-      "summary": "L’incontro di sabato 14 novembre sarà dedicato alle difficoltà dei piccoli comuni montani e alle tre proposte di legge del Partito Democratico. Interverranno Chiara Braga, Marco Niccolai e Angelo Orsenigo The post Aree interne del Lago di Como, il PD a Grandola ed Uniti per discutere di servizi, infrastrutture e diritto a restare appeared first on CiaoComo .",
-      "published_at": "2026-11-13T09:46:49+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -375,20 +403,6 @@
       "territory_codes": [
         "CO",
         "MN"
-      ]
-    },
-    {
-      "title": "Tv, l’architetto comasco Donatella Cervi protagonista del nuovissimo format “Vinci una casa al mare”",
-      "url": "https://comozero.it/attualita/tv-larchitetto-comasco-donatella-cervi-protagonista-del-nuovissimo-format-vinci-una-casa-al-mare",
-      "summary": "Dal 1° dicembre il nuovo programma condotto da Damiano Gallo con Samantha De Grenet. L’architetto sarà Giudice Speciale nelle prime due puntate, dedicate alla riqualificazione di una casa al mare Un progetto di ristrutturazione, architetti e designer in gara e una casa al mare da riqualificare completamente. È la sfida al centro di «Vinci una […] L'articolo Tv, l’architetto comasco Donatella Cervi protagonista del nuovissimo format “Vinci una casa al mare” proviene da ComoZero .",
-      "published_at": "2026-11-12T18:36:21+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
