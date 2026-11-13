@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:25:21.537811+00:00",
+  "generated_at": "2026-11-13T09:06:04.208046+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 1,
+      "inserted": 1,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, doppio addio e beffa per il Comune: i negozi in centro storico e appena fuori restano vuoti",
+      "url": "https://comozero.it/attualita/como-doppio-addio-e-beffa-per-il-comune-i-negozi-in-centro-storico-e-appena-fuori-restano-vuoti",
+      "summary": "Doppia battuta d’arresto per la gestione del patrimonio immobiliare del Comune di Como. Il percorso di valorizzazione degli spazi commerciali di proprietà pubblica subisce il dietrofront di due società che, dopo aver regolarmente vinto l’asta pubblica e ottenuto l’aggiudicazione definitiva per altrettanti locali commerciali, hanno deciso di rinunciare alla stipula del contratto. Una vera e […] L'articolo Como, doppio addio e beffa per il Comune: i negozi in centro storico e appena fuori restano vuoti proviene da ComoZero .",
+      "published_at": "2026-11-13T07:35:33+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Rivera ospite del Milan club in una serata benefica",
       "url": "https://primacomo.it/tempo-libero/rivera-ospite-del-milan-club-in-una-serata-benefica",
@@ -298,52 +312,10 @@
       ]
     },
     {
-      "title": "Commercio ambulante in crisi, a Como perse 249 imprese in nove anni. Confesercenti: «Stop ai bandi per i posteggi»",
-      "url": "https://www.ciaocomo.it/2026/11/12/commercio-ambulante-in-crisi-a-como-perse-249-imprese-in-nove-anni-confesercenti-stop-ai-bandi-per-i-posteggi/347853",
-      "summary": "Il direttore Angelo Basilico chiede al Governo una verifica degli spazi disponibili prima di applicare le procedure di gara previste dalla direttiva Bolkestein. In Italia 53mila postazioni nei mercati risultano vuote The post Commercio ambulante in crisi, a Como perse 249 imprese in nove anni. Confesercenti: «Stop ai bandi per i posteggi» appeared first on CiaoComo .",
-      "published_at": "2026-11-12T14:13:10+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La ristorazione lariana si tiene strette le sue Stelle Michelin",
-      "url": "https://www.ciaocomo.it/2026/11/12/la-ristorazione-lariana-si-tiene-strette-le-sue-stelle-michelin/347854",
-      "summary": "Oggi la cerimonia di consegna dei riconoscimenti della Guida Michelin, tutte confermate le stelle ai cinque ristoranti del comasco The post La ristorazione lariana si tiene strette le sue Stelle Michelin appeared first on CiaoComo .",
-      "published_at": "2026-11-12T14:13:02+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, gli ambulanti sono crollati del 27,5% in nove anni, Confesercenti: “Inutile il bando per assegnare gli spazi”",
       "url": "https://comozero.it/attualita/como-gli-ambulanti-sono-crollati-del-275-in-nove-anni-confesercenti-inutile-il-bando-per-assegnare-gli-spazi",
       "summary": "Gli ambulanti chiedono regole certe per il rinnovo delle concessioni e una verifica degli spazi realmente disponibili prima di procedere con nuovi bandi. In provincia di Como le imprese del settore sono diminuite del 27,5% in nove anni. Un posteggio su quattro nei mercati italiani è vuoto, ma per gli ambulanti resta aperta l’incertezza sul […] L'articolo Como, gli ambulanti sono crollati del 27,5% in nove anni, Confesercenti: “Inutile il bando per assegnare gli spazi” proviene da ComoZero .",
       "published_at": "2026-11-12T13:58:01+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, il centrodestra alza subito le barricate su Minniti. FdI: “Contano appartenenza e coerenza”. Con ‘like’ pesanti",
-      "url": "https://comozero.it/politica/como-il-centrodestra-alza-subito-le-barricate-su-minniti-fdi-contano-appartenenza-e-coerenza-con-like-pesanti",
-      "summary": "Nemmeno un paio d’ore e dal centrodestra è partito subito il fuoco di fila contro qualsiasi ipotesi di candidatura a sindaco di Teresa Minniti. Scenario, peraltro, che è emerso solo in relazione alla comprovata effettuazione di un sondaggio telefonico che ha raggiunto diversi comaschi e che contemplava anche il nome della vicepresidente dell’associazione Nova Como […] L'articolo Como, il centrodestra alza subito le barricate su Minniti. FdI: “Contano appartenenza e coerenza”. Con ‘like’ pesanti proviene da ComoZero .",
-      "published_at": "2026-11-12T13:11:33+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
