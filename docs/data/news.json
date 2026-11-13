@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-13T12:02:10.050306+00:00",
+  "generated_at": "2026-11-13T13:15:45.902162+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,106 @@
     }
   ],
   "articles": [
+    {
+      "title": "Derby piacentino per il volley serie B, tra Canottieri Ongina e Gas Sales junior",
+      "url": "https://www.piacenzasera.it/2026/11/derby-piacentino-per-il-volley-serie-b-tra-canottieri-ongina-e-gas-sales-junior/670220",
+      "summary": "Domani alle 17 a Piacenza (palestra Salvadè) sfida territoriale tra i giovani talenti biancorossi e i monticellesi, in testa alla classifica The post Derby piacentino per il volley serie B, tra Canottieri Ongina e Gas Sales junior appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T12:52:30+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, permessi per la sosta dei residenti: via alle richieste ma solo in digitale. Le info, costi e sorteggio",
+      "url": "https://comozero.it/attualita/como-permessi-per-la-sosta-dei-residenti-via-alle-richieste-ma-solo-in-digitale-le-info-costi-e-sorteggio",
+      "summary": "Si apre martedì 17 novembre 2026 la finestra temporale per richiedere i permessi di sosta agevolata (ASA) riservati ai residenti del Comune di Como per l’anno 2027. La procedura, gestita da Como Servizi Urbani (CSU) in base alla delibera della Giunta Comunale, si svolgerà interamente in modalità digitale. Scadenze e modalità di richiesta I cittadini […] L'articolo Como, permessi per la sosta dei residenti: via alle richieste ma solo in digitale. Le info, costi e sorteggio proviene da ComoZero .",
+      "published_at": "2026-11-13T12:42:33+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "In Lombardia non è solo uno sport, quasi una mania: a Como il padel cresce del 542%. I dati di tutte le province",
+      "url": "https://comozero.it/sport/in-lombardia-non-e-solo-uno-sport-quasi-una-mania-a-como-il-padel-cresce-del-542-i-dati-di-tutte-le-province",
+      "summary": "La locomotiva del padel. La Lombardia lo è per numero di praticanti, ma anche e soprattutto per una propagazione dell’impiantistica nelle province che la indica come una delle aree europee più prolifiche sul tema della crescita di campi e club. La Lombardia è una delle due regioni traino – la prima è il Lazio con […] L'articolo In Lombardia non è solo uno sport, quasi una mania: a Como il padel cresce del 542%. I dati di tutte le province proviene da ComoZero .",
+      "published_at": "2026-11-13T12:13:49+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, Varese e il Ticino come un’unica magnifica pista da sci (e non solo) tra Italia e Svizzera: tutti gli sconti",
+      "url": "https://comozero.it/attualita/como-varese-e-il-ticino-come-ununica-magnifica-pista-da-sci-tra-italia-e-svizzera-ecco-tutti-gli-sconti",
+      "summary": "Presentati oggi, venerdì 13 novembre, nella Sala Neoclassica della Provincia di Varese, i servizi offerti ai residenti dell’area transfrontaliera per vivere montagne e comprensori sciistici ticinesi in tutte le stagioni. In rappresentanza dei territori di Como e Varese erano presenti rispettivamente Francesco Cavadini, Consigliere della Provincia di Como e Matteo Marchesi, Consigliere provinciale di Varese […] L'articolo Como, Varese e il Ticino come un’unica magnifica pista da sci (e non solo) tra Italia e Svizzera: tutti gli sconti proviene da ComoZero .",
+      "published_at": "2026-11-13T11:57:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
+    {
+      "title": "L’importanza di chiamarsi Ernesto di Oscar Wilde apre la stagione di prosa al Municipale",
+      "url": "https://www.piacenzasera.it/2026/11/limportanza-di-chiamarsi-ernesto-di-oscar-wilde-apre-la-stagione-di-prosa-al-municipale/670200",
+      "summary": "Con Lucia Poli, per la regia di Geppy Gleijeses, al Teatro Municipale Piacenza martedì 17 e mercoledì 18 novembre The post L’importanza di chiamarsi Ernesto di Oscar Wilde apre la stagione di prosa al Municipale appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T11:51:31+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Il Coro da Camera del Conservatorio di Como in concerto a Sant’Abbondio con Domenico Innominato",
+      "url": "https://www.ciaocomo.it/2026/11/13/il-coro-da-camera-del-conservatorio-di-como-in-concerto-a-santabbondio-con-domenico-innominato/347740",
+      "summary": "Un appuntamento che assume un significato particolare per il maestro, recentemente andato in pensione dopo 36 anni di insegnamento al Conservatorio The post Il Coro da Camera del Conservatorio di Como in concerto a Sant’Abbondio con Domenico Innominato appeared first on CiaoComo .",
+      "published_at": "2026-11-13T11:30:01+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Altri 121 parcheggi a pagamento, la stangata da 72 euro al giorno, la Ticosa”: Nova Como all’attacco di Rapinese",
+      "url": "https://comozero.it/attualita/altri-121-parcheggi-a-pagamento-la-stangata-da-72-euro-al-giorno-la-ticosa-nova-como-allattacco-di-rapinese",
+      "summary": "Nova Como torna all’attacco sul tema parcheggi in città. L’associazione che vede presidente Vincenzo Falanga e vice Teresa Minniti rilancia la petizione online e contesta apertamente la politica della sosta del sindaco Alessandro Rapinese. Di seguito il testo della nota diffusa oggi, venerdì 13 novembre, intitolata “Quanto deve pagare un comasco per continuare a vivere […] L'articolo “Altri 121 parcheggi a pagamento, la stangata da 72 euro al giorno, la Ticosa”: Nova Como all’attacco di Rapinese proviene da ComoZero .",
+      "published_at": "2026-11-13T11:20:59+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati pretermine",
       "url": "https://www.ciaocomo.it/2026/11/13/giornata-della-prematurita-il-santanna-si-tinge-di-viola-cure-e-sostegno-ai-piccoli-nati-pretermine/347915",
@@ -103,20 +203,6 @@
         "MI",
         "NA",
         "RM"
-      ]
-    },
-    {
-      "title": "Due pistole vere nascoste tra quelle giocattolo: le armi rubate nel Piacentino trovate in un pacco postale",
-      "url": "https://www.piacenzasera.it/2026/11/due-pistole-vere-nascoste-tra-quelle-giocattolo-le-armi-rubate-nel-piacentino-nascoste-in-un-pacco-postale/670185",
-      "summary": "Ora la truffa viaggia per Posta: i proventi dei raggiri spediti a indirizzi fittizi per aggirare le forze dell'ordine. In un pacco destinato a una Onlus per bambini, due pistole rubate a Piacenza durante una truffa The post Due pistole vere nascoste tra quelle giocattolo: le armi rubate nel Piacentino trovate in un pacco postale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T10:03:28+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -204,20 +290,6 @@
       ]
     },
     {
-      "title": "Coltivare la sicurezza: convegno promosso da Anga Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/coltivare-la-sicurezza-convegno-promosso-da-anga-piacenza/670181",
-      "summary": "il convegno si terrà il 24 novembre al palazzo dell'Agricoltura The post Coltivare la sicurezza: convegno promosso da Anga Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T09:00:59+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, doppio addio e beffa per il Comune: i negozi in centro storico e appena fuori restano vuoti",
       "url": "https://comozero.it/attualita/como-doppio-addio-e-beffa-per-il-comune-i-negozi-in-centro-storico-e-appena-fuori-restano-vuoti",
       "summary": "Doppia battuta d’arresto per la gestione del patrimonio immobiliare del Comune di Como. Il percorso di valorizzazione degli spazi commerciali di proprietà pubblica subisce il dietrofront di due società che, dopo aver regolarmente vinto l’asta pubblica e ottenuto l’aggiudicazione definitiva per altrettanti locali commerciali, hanno deciso di rinunciare alla stipula del contratto. Una vera e […] L'articolo Como, doppio addio e beffa per il Comune: i negozi in centro storico e appena fuori restano vuoti proviene da ComoZero .",
@@ -243,20 +315,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Torna sabato la Colletta Alimentare: i supermercati che partecipano nel piacentino",
-      "url": "https://www.piacenzasera.it/2026/11/torna-sabato-la-colletta-alimentare-i-supermercati-che-partecipano-nel-piacentino/670131",
-      "summary": "Lo scorso anno nella nostra provincia sono state raccolte 57 tonnellate di alimenti, distribuiti a oltre 4000 persone attraverso 21 associazioni caritatevoli The post Torna sabato la Colletta Alimentare: i supermercati che partecipano nel piacentino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T06:00:57+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -354,34 +412,6 @@
       "published_at": "2026-11-12T16:34:54+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Mediolanum Padel Cup, Como e la Lombardia nel quadrilatero d’oro: qui un giocatore su tre",
-      "url": "https://comozero.it/sport/mediolanum-padel-cup-como-e-la-lombardia-nel-quadrilatero-doro-qui-un-giocatore-su-tre",
-      "summary": "Il 35% dei praticanti italiani si concentra nel Nord Ovest. In Lombardia si trova il 60% dei campi del quadrante. Al Padel Resort il FIP Silver Mediolanum Padel Cup porta oltre 200 atleti da 15 Paesi. Esordio vincente per Sussarello, Stellato, Aima, Baldi, Brambilla e Cassetta. La Lombardia è il motore del padel italiano. Nel […] L'articolo Mediolanum Padel Cup, Como e la Lombardia nel quadrilatero d’oro: qui un giocatore su tre proviene da ComoZero .",
-      "published_at": "2026-11-12T16:32:43+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
-      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
-      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
-      "published_at": "2026-11-12T16:00:46+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
