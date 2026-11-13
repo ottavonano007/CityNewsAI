@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T14:25:52.333502+00:00",
+  "generated_at": "2026-11-13T15:56:21.710171+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Unipol – Amicacci: in palio la supercoppa italiana",
+      "url": "https://primacomo.it/sport/unipol-amicacci-in-palio-la-supercoppa-italiana",
+      "summary": "Domenica 15 novembre alle 10.30 andrà in scena la 25^ edizione della finale di Supercoppa Italiana Fipic tra Unipol Briantea84 Cantù (vincitrice dello scudetto 2025-26) e Deco Amicacci Abruzzo (vincitrice della Coppa Italia 2026). La competizione La competizione, intitolata alla memoria di Martin Mancini, si giocherà al Multieventi di Serravalle a San Marino con diretta […] Continua la lettura di Unipol – Amicacci: in palio la supercoppa italiana sul portale Prima Como .",
+      "published_at": "2026-11-13T15:05:53+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Col vento nei capelli”, Ruba Salih racconta la scrittrice palestinese Salwa Salem",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-musica-al-lavoro-spettacolo-contro-la-violenza-sulle-donne-il-racconto-della-palestinese-ruba-salih-e-le-letture-di-dalal-suleiman/670252",
+      "summary": "Il 20 novembre alla Camera del Lavoro di Piacenza il racconto di Ruba Salih e le letture di Dalal Suleiman, per la kermesse Musica al Lavoro The post “Col vento nei capelli”, Ruba Salih racconta la scrittrice palestinese Salwa Salem appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T14:57:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Eccellenza della ristorazione: ecco gli stellati confermati da Guida Michelin, per Il Cantuccio è la ventesima consecutiva",
+      "url": "https://primacomo.it/attualita/eccellenza-della-ristorazione-ecco-gli-stellati-confermati-da-guida-michelin-per-il-cantuccio-e-la-ventesima-consecutiva",
+      "summary": "Guida Michelin 2027: ecco gli stellati comaschi riconfermati. Ventesima riconferma consecutiva per l’albavillese Cantuccio Per il ristorante di chef Mauro Elli, aperto nel 2003, è la ventesima riconferma consecutiva (il 21° anno ininterrotto in cui il locale detiene la Stella Michelin). L’attività di via Dante era infatti stata riconosciuta per la prima volta nel 2007. […] Continua la lettura di Eccellenza della ristorazione: ecco gli stellati confermati da Guida Michelin, per Il Cantuccio è la ventesima consecutiva sul portale Prima Como .",
+      "published_at": "2026-11-13T14:52:52+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Caccia alla lepre, nel piacentino chiusura anticipata in altri dodici Comuni",
+      "url": "https://www.piacenzasera.it/2026/11/caccia-alla-lepre-annunciata-chiusura-anticipata-in-diverse-citta-piacentine/670247",
+      "summary": "Ultimo giorno utile domenica 15 novembre 2026; possibile addestramento cani con annotazione su tesserino venatorio The post Caccia alla lepre, nel piacentino chiusura anticipata in altri dodici Comuni appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T14:45:38+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Al via il piano di potature stagionali: ecco le strade di Piacenza interessate fino a gennaio",
+      "url": "https://www.piacenzasera.it/2026/11/al-via-il-piano-di-potature-stagionali-ecco-le-strade-interessate-fino-a-gennaio/670241",
+      "summary": "Per consentire alle squadre di operare in sicurezza, le eventuali chiusure al traffico saranno limitate ai tratti di strada interessati dalle potature e comunicate di volta in volta alla cittadinanza The post Al via il piano di potature stagionali: ecco le strade di Piacenza interessate fino a gennaio appeared first on piacenzasera.it .",
+      "published_at": "2026-11-13T14:37:41+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Un punteggio strepitoso e il primo premio: a Parigi la scuola di danza comasca ha stupito il mondo intero",
       "url": "https://comozero.it/attualita/un-punteggio-strepitoso-e-il-primo-premio-a-parigi-la-scuola-di-danza-comasca-ha-stupito-il-mondo-intero",
@@ -95,20 +165,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Derby piacentino per il volley serie B, tra Canottieri Ongina e Gas Sales junior",
-      "url": "https://www.piacenzasera.it/2026/11/derby-piacentino-per-il-volley-serie-b-tra-canottieri-ongina-e-gas-sales-junior/670220",
-      "summary": "Domani alle 17 a Piacenza (palestra Salvadè) sfida territoriale tra i giovani talenti biancorossi e i monticellesi, in testa alla classifica The post Derby piacentino per il volley serie B, tra Canottieri Ongina e Gas Sales junior appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T12:52:30+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -198,9 +254,9 @@
       ]
     },
     {
-      "title": "Alessandra Locatelli è l’Alunna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco",
+      "title": "Alessandra Locatelli è l’Alumna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco",
       "url": "https://www.ciaocomo.it/2026/11/13/alessandra-locatelli-e-lalumna-dellanno-2026-delluniversita-milano-bicocca-il-riconoscimento-al-ministro-comasco/347909",
-      "summary": "Laureata in Sociologia nel 2013, è stata premiata per il suo percorso professionale e l’impegno nelle politiche sociali e per l’inclusione delle persone con disabilità The post Alessandra Locatelli è l’Alunna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco appeared first on CiaoComo .",
+      "summary": "Laureata in Sociologia nel 2013, è stata premiata per il suo percorso professionale e l’impegno nelle politiche sociali e per l’inclusione delle persone con disabilità The post Alessandra Locatelli è l’Alumna dell’anno 2026 dell’Università Milano-Bicocca: il riconoscimento al ministro comasco appeared first on CiaoComo .",
       "published_at": "2026-11-13T10:40:12+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -634,9 +690,9 @@
       ]
     },
     {
-      "title": "Birney vine il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia",
-      "url": "https://primacomo.it/attualita/birney-vine-il-premio-lombardia-e-ricerca-e-porta-lintelligenza-artificiale-in-lombardia",
-      "summary": "Un’intelligenza artificiale in grado di riconoscere prima dei sintomi chi rischia l’aterosclerosi coronarica verrà sviluppata in Lombardia, grazie a Ewan Birney, direttore dell’European Bioinformatics Institute dell’EMBL e vincitore del Premio internazionale Lombardia è Ricerca 2026, che collaborerà con il Centro Cardiologico Monzino Irccs e con Human Technopole. L’annuncio è arrivato al Teatro alla Scala di […] Continua la lettura di Birney vine il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia sul portale Prima Como .",
+      "title": "Birney vince il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia",
+      "url": "https://primacomo.it/attualita/birney-vince-il-premio-lombardia-e-ricerca-e-porta-lintelligenza-artificiale-in-lombardia",
+      "summary": "Un’intelligenza artificiale in grado di riconoscere prima dei sintomi chi rischia l’aterosclerosi coronarica verrà sviluppata in Lombardia, grazie a Ewan Birney, direttore dell’European Bioinformatics Institute dell’EMBL e vincitore del Premio internazionale Lombardia è Ricerca 2026, che collaborerà con il Centro Cardiologico Monzino Irccs e con Human Technopole. L’annuncio è arrivato al Teatro alla Scala di […] Continua la lettura di Birney vince il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia sul portale Prima Como .",
       "published_at": "2026-11-10T15:37:23+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
@@ -680,34 +736,6 @@
       "url": "https://primacomo.it/attualita/un-nuovo-spettacolo-per-sostenere-la-mensa-di-solidarieta-di-casa-nazareth",
       "summary": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth è in programma per sabato 14 novembre. Ingresso a offerta libera Appuntamento alle 21 nella chiesa del Gesù in via Primo Tatti 14 a Como: protagonista sarà il Gruppo Mandolinistico Eliante di Mendrisio (nella foto), realtà nata nel 1982 da un gruppo di […] Continua la lettura di Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth sul portale Prima Como .",
       "published_at": "2026-11-10T08:56:37+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Quarto e ultimo appuntamento con “Le 4 Stagioni di Villa Erba”",
-      "url": "https://primacomo.it/cultura/quarto-e-ultimo-appuntamento-con-le-4-stagioni-di-villa-erba",
-      "summary": "Quarto e ultimo appuntamento dell’anno della rassegna “Le 4 Stagioni di Villa Erba”, a Cernobbio. “Le 4 Stagioni di Villa Erba” L’evento è promosso da Villa Erba in collaborazione con il Teatro Sociale di Como AsLiCo, con il contributo del Comune di Cernobbio e il patrocinio della Provincia di Como, del Comune di Como e […] Continua la lettura di Quarto e ultimo appuntamento con “Le 4 Stagioni di Villa Erba” sul portale Prima Como .",
-      "published_at": "2026-11-10T08:27:30+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ex SS 583 “Lariana”: conclusi i lavori di asfaltatura da 700mila euro",
-      "url": "https://primacomo.it/attualita/ex-ss-583-lariana-conclusi-i-lavori-di-asfaltatura-da-700mila-euro",
-      "summary": "Si sono conclusi i lavori di asfaltatura lungo la ex SS 583 “Lariana”, avviati lo scorso 12 ottobre e realizzati dalla Provincia di Como nei Comuni di Blevio, Torno, Faggeto Lario, Pognana Lario, Nesso e Lezzeno. Gli interventi hanno interessato diversi tratti della viabilità provinciale, per uno sviluppo complessivo di circa 4 chilometri, con un […] Continua la lettura di Ex SS 583 “Lariana”: conclusi i lavori di asfaltatura da 700mila euro sul portale Prima Como .",
-      "published_at": "2026-11-10T07:37:48+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
