@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:52:24.479180+00:00",
+  "generated_at": "2026-11-13T23:47:44.869828+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Centro Como, segnalazione del lettore: “Per la seconda sera consecutiva la strada è al buio”",
+      "url": "https://comozero.it/attualita/centro-como-segnalazione-del-lettore-per-la-seconda-sera-consecutiva-la-strada-e-al-buio",
+      "summary": "“Per la seconda sera via Maurizio Monti è al buio”, così segnala con foto un nostro affezionato lettore, evidenziando come il problema non sia solo di oggi. Siamo in centro a Como, a un passo dalla città murata, e una parte dell’illuminazione ha qualche evidente problema (era successo non molto fa anche in via Volta). […] L'articolo Centro Como, segnalazione del lettore: “Per la seconda sera consecutiva la strada è al buio” proviene da ComoZero .",
+      "published_at": "2026-11-13T23:02:13+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Furti “acrobatici” su camion in autostrada, 13 arresti. A Piacenza una base logistica",
       "url": "https://www.piacenzasera.it/2026/11/furti-acrobatici-su-camion-in-autostrada-13-arresti-a-piacenza-una-base-logistica/670320",
