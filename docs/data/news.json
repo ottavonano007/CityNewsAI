@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:58:10.903305+00:00",
+  "generated_at": "2026-11-14T13:57:14.656038+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Nel paesino in provincia di Como la piccola tipografia diventata gigante multinazionale: oggi il grande riconoscimento ai fondatori",
+      "url": "https://comozero.it/attualita/nel-paesino-in-provincia-di-como-la-piccola-tipografia-diventata-gigante-multinazionale-oggi-il-grande-riconoscimento-ai-fondatori",
+      "summary": "Da una piccola tipografia di paese a un gruppo multinazionale con cinque stabilimenti produttivi in Europa, oltre 900 dipendenti e una presenza commerciale in diversi Paesi. È la storia della Cellografica Gerosa, nata a Inverigo nel 1935 per iniziativa dei fratelli Luigi e Giuseppe Gerosa e diventata, in oltre 90 anni, una realtà internazionale. Proprio […] L'articolo Nel paesino in provincia di Como la piccola tipografia diventata gigante multinazionale: oggi il grande riconoscimento ai fondatori proviene da ComoZero .",
+      "published_at": "2026-11-14T13:06:34+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Oltre cento studenti coinvolti nel progetto OrientaMente",
+      "url": "https://primacomo.it/attualita/oltre-cento-studenti-coinvolti-nel-progetto-orientamente",
+      "summary": "Progetto OrientaMente, coinvolto oltre cento studenti dell’istituto comprensivo Segantini di Asso. Promosso dall’associazione giovanile Lo Snodo. Una scelta per il futuro Nella sala consiliare del Comune di Asso si è tenuto l’incontro serale di restituzione dei test alle famiglie nell’ambito di OrientaMente: il progetto dedicato alla scelta scolastica promosso dall’associazione giovanile Lo Snodo. L’iniziativa ha […] Continua la lettura di Oltre cento studenti coinvolti nel progetto OrientaMente sul portale Prima Como .",
+      "published_at": "2026-11-14T13:00:41+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Mazzata inflazione, Como è la città dove i prezzi sono aumentati di più: +5,4% dall’inizio della guerra nel Golfo",
       "url": "https://comozero.it/attualita/mazzata-inflazione-como-e-la-citta-dove-i-prezzi-sono-aumentati-di-piu-54-dallinizio-della-guerra-nel-golfo",
@@ -360,38 +388,10 @@
       ]
     },
     {
-      "title": "Cantù riparte da Green per inseguire la salvezza. Il presidente Allievi:”Io e lo staff ci crediamo sempre”",
-      "url": "https://www.ciaocomo.it/2026/11/13/cantu-riparte-da-green-per-inseguire-la-salvezza-il-presidente-allieviio-e-lo-staff-ci-crediamo-sempre/347925",
-      "summary": "Stamane la presentazione del guocatore che rientra in BRianza dopo qualche mese a Venezia. A disposizione per domenica contro Tortona a Desio. Le sue dichiarazioni. The post Cantù riparte da Green per inseguire la salvezza. Il presidente Allievi:”Io e lo staff ci crediamo sempre” appeared first on CiaoComo .",
-      "published_at": "2026-11-13T13:35:30+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "ve"
-      ],
-      "territory_codes": [
-        "VE"
-      ]
-    },
-    {
       "title": "Como, permessi per la sosta dei residenti: via alle richieste ma solo in digitale. Le info, costi e sorteggio",
       "url": "https://comozero.it/attualita/como-permessi-per-la-sosta-dei-residenti-via-alle-richieste-ma-solo-in-digitale-le-info-costi-e-sorteggio",
       "summary": "Si apre martedì 17 novembre 2026 la finestra temporale per richiedere i permessi di sosta agevolata (ASA) riservati ai residenti del Comune di Como per l’anno 2027. La procedura, gestita da Como Servizi Urbani (CSU) in base alla delibera della Giunta Comunale, si svolgerà interamente in modalità digitale. Scadenze e modalità di richiesta I cittadini […] L'articolo Como, permessi per la sosta dei residenti: via alle richieste ma solo in digitale. Le info, costi e sorteggio proviene da ComoZero .",
       "published_at": "2026-11-13T12:42:33+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "In Lombardia non è solo uno sport, quasi una mania: a Como il padel cresce del 542%. I dati di tutte le province",
-      "url": "https://comozero.it/sport/in-lombardia-non-e-solo-uno-sport-quasi-una-mania-a-como-il-padel-cresce-del-542-i-dati-di-tutte-le-province",
-      "summary": "La locomotiva del padel. La Lombardia lo è per numero di praticanti, ma anche e soprattutto per una propagazione dell’impiantistica nelle province che la indica come una delle aree europee più prolifiche sul tema della crescita di campi e club. La Lombardia è una delle due regioni traino – la prima è il Lazio con […] L'articolo In Lombardia non è solo uno sport, quasi una mania: a Como il padel cresce del 542%. I dati di tutte le province proviene da ComoZero .",
-      "published_at": "2026-11-13T12:13:49+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -625,22 +625,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Controlli nelle sale bowling, sequestrati diversi apparecchi",
-      "url": "https://primacomo.it/cronaca/controlli-nelle-sale-bowling-sequestrati-diversi-apparecchi",
-      "summary": "Prosegue l’attività di controllo dell’Agenzia delle Dogane e dei Monopoli a tutela della legalità nel settore del gioco pubblico. Nel corso di un’operazione condotta dal personale degli Uffici Locali ADM della Direzione Territoriale Lombardia, sono stati sequestrati apparecchi da intrattenimento privi dei necessari titoli autorizzatori, installati presso quattro sale bowling nelle città di Milano e […] Continua la lettura di Controlli nelle sale bowling, sequestrati diversi apparecchi sul portale Prima Como .",
-      "published_at": "2026-11-11T07:41:08+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     }
   ]
