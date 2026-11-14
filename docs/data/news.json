@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T10:50:50.273099+00:00",
+  "generated_at": "2026-11-14T11:47:25.121513+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -27,6 +27,82 @@
     }
   ],
   "articles": [
+    {
+      "title": "“Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria",
+      "url": "https://www.ciaocomo.it/2026/11/14/guccini-racconta-francesco-al-joshua-blues-club-una-serata-di-musica-per-sostenere-lo-spazio-gloria/347818",
+      "summary": "Roberto Antonini e Carlo Fanton protagonisti del primo appuntamento musicale di Gloria Off, il progetto itinerante a sostegno della campagna di raccolta fondi per la riapertura della storica sala comasca The post “Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria appeared first on CiaoComo .",
+      "published_at": "2026-11-14T11:00:48+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Riconoscimenti per il locale che unisce le tradizioni di Roma e Napoli",
+      "url": "https://primacomo.it/attualita/riconoscimenti-per-il-locale-che-unisce-le-tradizioni-di-roma-e-napoli",
+      "summary": "Cinque i premi ottenuti: due premi Maestro pizzaiolo per Francesco Celestino e papà Giuseppe Celestino, un premio Chef a mamma Lella Palleschi e due riconoscimenti al locale, per l’impegno e la valorizzazione del territorio e per la miglior cucina tradizionale napoletana e romana 2026 Un motivo di orgoglio: ora sono tra le eccellenze italiane della pizza “Da’je […] Continua la lettura di Riconoscimenti per il locale che unisce le tradizioni di Roma e Napoli sul portale Prima Como .",
+      "published_at": "2026-11-14T11:00:11+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "na",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "NA",
+        "RM"
+      ]
+    },
+    {
+      "title": "Farmaci e salute, Como e Varese fanno squadra: “Una rete che protegge i cittadini”",
+      "url": "https://comozero.it/attualita/farmaci-e-salute-como-e-varese-fanno-squadra-una-rete-che-protegge-i-cittadini",
+      "summary": "Nel primo semestre 2026 registrate 602 segnalazioni di sospette reazioni avverse ai farmaci sulle 846 attribuite alle ATS lombarde. Dopo l’incontro di Varese, nel 2027 è prevista una seconda tappa a Como per coinvolgere farmacisti, studenti e docenti universitari. È una rete che coinvolge farmacie, ospedali, medici, università e istituzioni, con un obiettivo preciso: individuare […] L'articolo Farmaci e salute, Como e Varese fanno squadra: “Una rete che protegge i cittadini” proviene da ComoZero .",
+      "published_at": "2026-11-14T10:49:13+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
+    {
+      "title": "Ferrovie Nord Milano da cento anni quotata in borsa: “Prossima sfida, biglietto digitale unico per la Lombardia”",
+      "url": "https://comozero.it/attualita/ferrovie-nord-milano-da-cento-anni-quotata-in-borsa-prossima-sfida-un-biglietto-digitale-unico-per-la-lobardia",
+      "summary": "Un viaggio lungo 100 anni che dimostra la solidità di un’azienda che ha in comune con Regione Lombardia la visione: una mobilità sempre più interconnessa e condivisa, dove non esistono differenze tra centri e periferia”. Lo ha detto l’assessore regionale a Trasporti e Mobilità sostenibile, Franco Lucente, intervenuto alle celebrazioni per il centenario della quotazione […] L'articolo Ferrovie Nord Milano da cento anni quotata in borsa: “Prossima sfida, biglietto digitale unico per la Lombardia” proviene da ComoZero .",
+      "published_at": "2026-11-14T10:10:08+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
+      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
+      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
+      "published_at": "2026-11-14T09:00:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Centro del riuso, scommessa vinta: col riciclo 2mila euro per il sociale",
       "url": "https://primacomo.it/altro/centro-del-riuso-scommessa-vinta",
@@ -111,6 +187,20 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
+      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
+      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
+      "published_at": "2026-11-14T07:52:18+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -240,34 +330,6 @@
       ]
     },
     {
-      "title": "Mulini storici, dalla Regione quasi 18mila euro per due progetti in provincia di Como: ecco gli interventi",
-      "url": "https://www.ciaocomo.it/2026/11/13/mulini-storici-dalla-regione-quasi-18mila-euro-per-due-progetti-in-provincia-di-como-ecco-gli-interventi/347922",
-      "summary": "Finanziati il recupero del Mulino del Ciculin a Mariano Comense e il ripristino del sistema di macinazione del Mulino del Dosso, che sarà rimesso in funzione a scopo didattico The post Mulini storici, dalla Regione quasi 18mila euro per due progetti in provincia di Como: ecco gli interventi appeared first on CiaoComo .",
-      "published_at": "2026-11-13T13:12:31+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
-      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
-      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
-      "published_at": "2026-11-13T13:00:46+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, permessi per la sosta dei residenti: via alle richieste ma solo in digitale. Le info, costi e sorteggio",
       "url": "https://comozero.it/attualita/como-permessi-per-la-sosta-dei-residenti-via-alle-richieste-ma-solo-in-digitale-le-info-costi-e-sorteggio",
       "summary": "Si apre martedì 17 novembre 2026 la finestra temporale per richiedere i permessi di sosta agevolata (ASA) riservati ai residenti del Comune di Como per l’anno 2027. La procedura, gestita da Como Servizi Urbani (CSU) in base alla delibera della Giunta Comunale, si svolgerà interamente in modalità digitale. Scadenze e modalità di richiesta I cittadini […] L'articolo Como, permessi per la sosta dei residenti: via alle richieste ma solo in digitale. Le info, costi e sorteggio proviene da ComoZero .",
@@ -312,54 +374,6 @@
       ]
     },
     {
-      "title": "“Altri 121 parcheggi a pagamento, la stangata da 72 euro al giorno, la Ticosa”: Nova Como all’attacco di Rapinese",
-      "url": "https://comozero.it/attualita/altri-121-parcheggi-a-pagamento-la-stangata-da-72-euro-al-giorno-la-ticosa-nova-como-allattacco-di-rapinese",
-      "summary": "Nova Como torna all’attacco sul tema parcheggi in città. L’associazione che vede presidente Vincenzo Falanga e vice Teresa Minniti rilancia la petizione online e contesta apertamente la politica della sosta del sindaco Alessandro Rapinese. Di seguito il testo della nota diffusa oggi, venerdì 13 novembre, intitolata “Quanto deve pagare un comasco per continuare a vivere […] L'articolo “Altri 121 parcheggi a pagamento, la stangata da 72 euro al giorno, la Ticosa”: Nova Como all’attacco di Rapinese proviene da ComoZero .",
-      "published_at": "2026-11-13T11:20:59+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Centro Lago di Como, il minorenne si mostra fin troppo tranquillo ai finanzieri poi cede: denunciato",
-      "url": "https://comozero.it/attualita/centro-lago-di-como-il-minorenne-si-mostra-fin-troppo-tranquillo-ai-finanzieri-poi-cede-denunciato",
-      "summary": "Un’operazione condotta dalla Guardia di Finanza del Comando Provinciale di Como ha portato alla denuncia di un minorenne per detenzione di sostanze stupefacenti. L’intervento è avvenuto in una nota località turistica del Centro Lago, durante i normali controlli nelle zone più frequentate dai giovani. Il controllo e la perquisizione in un bar del Centro Lago […] L'articolo Centro Lago di Como, il minorenne si mostra fin troppo tranquillo ai finanzieri poi cede: denunciato proviene da ComoZero .",
-      "published_at": "2026-11-13T10:11:17+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Trapianto di capelli in Turchia dall’Italia: 10 cliniche e budget",
-      "url": "https://comozero.it/pubbliredazionale/trapianto-di-capelli-in-turchia-dallitalia-10-cliniche-e-budget",
-      "summary": "Per chi parte da Milano, Roma, Bologna o Napoli, il preventivo della clinica è solo il punto di partenza. Al conto vanno aggiunti volo, giorni di ferie, magari un accompagnatore, e qualche spesa una volta rientrati. Pianificare bene evita sorprese e permette di confrontare le offerte in modo onesto. Questa top 10 migliori cliniche di […] L'articolo Trapianto di capelli in Turchia dall’Italia: 10 cliniche e budget proviene da ComoZero .",
-      "published_at": "2026-11-13T10:04:13+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "bo",
-        "mi",
-        "na",
-        "rm"
-      ],
-      "territory_codes": [
-        "BO",
-        "MI",
-        "NA",
-        "RM"
-      ]
-    },
-    {
       "title": "Sindacato pensionati Cgil, mobilitazione su tutto il territorio provinciale",
       "url": "https://primacomo.it/cronaca/sindacato-pensionati-cgil-mobilitazione-su-tutto-il-territorio-provinciale",
       "summary": "Il Sindacato pensionati della Cgil si mobilità su territorio provinciale di Como. Sindacato pensionati Cgil, allarme sulla legge di Bilancio “Il 18 e il 19 novembre – sottolinea lo Spi-Cgil – saremo presenti con i nostri attivisti in 12 località della provincia: distribuiremo volantini e parleremo con i cittadini della legge di bilancio del governo […] Continua la lettura di Sindacato pensionati Cgil, mobilitazione su tutto il territorio provinciale sul portale Prima Como .",
@@ -374,54 +388,12 @@
       ]
     },
     {
-      "title": "“Batteri e inquinanti nel torrente, poi tutto finisce nel Lago di Como”. Si svela lo studio nato da un’enorme mole di dati",
-      "url": "https://comozero.it/attualita/batteri-e-inquinanti-nel-torrente-poi-tutto-finisce-nel-lago-di-como-si-svela-lo-studio-nato-da-unenorme-mole-di-dati",
-      "summary": "Si svela lo studio di Legambiente sugli inquinanti del Cosia a Como e sull’effetto che l’immissione nel Lario produce anche sul lago. Accadrà il prossimo 14 novembre, alle ore 17, al Centro Civico di Camnago Volta, in piazza Martignoni, dove verrà illustrata la relazione messa a punto. La denuncia di Goletta dei Laghi e la […] L'articolo “Batteri e inquinanti nel torrente, poi tutto finisce nel Lago di Como”. Si svela lo studio nato da un’enorme mole di dati proviene da ComoZero .",
-      "published_at": "2026-11-13T09:34:02+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Addio a Luigi Capiaghi, chiesa gremita per l’ultimo saluto",
       "url": "https://primacomo.it/altro/addio-a-luigi-capiaghi-chiesa-gremita-per-lultimo-saluto",
       "summary": "Anche il cielo piange la scomparsa di Luigi Capiaghi. Una pioggia fitta ma leggera a bagnare i volti, a confondersi con le lacrime lungo i visi. Nella mattinata di giovedì 12 novembre, fuori dalla chiesa parrocchiale di Bizzarone, circa 200 persone hanno dato l’ultimo saluto al presidente della cooperativa Intesa Sociale. Folla al funerale di […] Continua la lettura di Addio a Luigi Capiaghi, chiesa gremita per l’ultimo saluto sul portale Prima Como .",
       "published_at": "2026-11-13T09:31:05+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La maxi mobilitazione dei pensionati in provincia di Como: “Non siamo bancomat”. Protesta in 12 località",
-      "url": "https://comozero.it/attualita/la-maxi-mobilitazione-dei-pensionati-in-provincia-di-como-non-siamo-bancomat-protesta-in-12-localita",
-      "summary": "Lo Spi Cgil si mobilita anche a Como e provincia. I prossimi 18 novembre e il 19 novembre su tutto il territorio provinciale il sindacato dei pensionati sarà presente con gli attivisti in 12 località per distribuire volantini e parlare con i cittadini della legge di bilancio del governo Meloni “che va contro gli interessi […] L'articolo La maxi mobilitazione dei pensionati in provincia di Como: “Non siamo bancomat”. Protesta in 12 località proviene da ComoZero .",
-      "published_at": "2026-11-13T09:23:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, doppio addio e beffa per il Comune: i negozi in centro storico e appena fuori restano vuoti",
-      "url": "https://comozero.it/attualita/como-doppio-addio-e-beffa-per-il-comune-i-negozi-in-centro-storico-e-appena-fuori-restano-vuoti",
-      "summary": "Doppia battuta d’arresto per la gestione del patrimonio immobiliare del Comune di Como. Il percorso di valorizzazione degli spazi commerciali di proprietà pubblica subisce il dietrofront di due società che, dopo aver regolarmente vinto l’asta pubblica e ottenuto l’aggiudicazione definitiva per altrettanti locali commerciali, hanno deciso di rinunciare alla stipula del contratto. Una vera e […] L'articolo Como, doppio addio e beffa per il Comune: i negozi in centro storico e appena fuori restano vuoti proviene da ComoZero .",
-      "published_at": "2026-11-13T07:35:33+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -648,20 +620,6 @@
       "url": "https://primacomo.it/cronaca/controlli-anti-droga-nel-lario-sequestrati-hashish-e-cocaina",
       "summary": "Nell’ambito dei servizi di controllo economico del territorio, i militari del Comando Provinciale della Guardia di finanza di Como hanno intensificato perlustrazioni e controlli contro lo spaccio e la minuta vendita di sostanze stupefacenti nel territorio del Lario Intelvese, individuando complessivamente cinque giovani, uno dei quali denunciato per violazione della normativa in materia di sostanze […] Continua la lettura di Controlli anti droga nel Lario: sequestrati hashish e cocaina sul portale Prima Como .",
       "published_at": "2026-11-11T07:08:47+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il concerto del coro degli Alpini",
-      "url": "https://primacomo.it/attualita/il-concerto-del-coro-degli-alpini",
-      "summary": "Il coro Ana «Sandro Marelli» di Fino Mornasco sta scaldando la voce: in arrivo due appuntamenti, uno a Fino Mornasco, l’altro a Seregno. Il Festival Corale Regionale 2026 La fomazione finese partecipa al Festival Corale Regionale 2026, una manifestazione dedicata alla valorizzazione della coralità lombarda. Dopo il concerto di apertura, che si è svolto il […] Continua la lettura di Il concerto del coro degli Alpini sul portale Prima Como .",
-      "published_at": "2026-11-10T15:50:22+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
