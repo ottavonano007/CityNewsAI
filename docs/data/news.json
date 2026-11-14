@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:51:21.324224+00:00",
+  "generated_at": "2026-11-14T19:48:54.658259+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como e Lombardia, sciopero generale Cgil il 20 novembre: “Per lavoro dignitoso e diritti sociali garantiti”",
+      "url": "https://comozero.it/attualita/como-e-lombardia-sciopero-generale-cgil-il-20-novembre-per-lavoro-dignitoso-e-diritti-sociali-garantiti",
+      "summary": "“Per un lavoro dignitoso e per garantire i diritti sociali”, è con queste parole d’ordine che la Cgil ha proclamato per venerdì 20 novembre uno sciopero generale, accompagnato in Lombardia da manifestazioni territoriali che coinvolgeranno città e piazze della regione Gli appuntamenti si svolgeranno quasi tutti contemporaneamente, con l’obiettivo di portare in strada le rivendicazioni […] L'articolo Como e Lombardia, sciopero generale Cgil il 20 novembre: “Per lavoro dignitoso e diritti sociali garantiti” proviene da ComoZero .",
+      "published_at": "2026-11-14T19:46:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Como, indiscrezione Villa Aprica in vendita: “Queste operazioni non si fanno sulla pelle dei lavoratori”",
       "url": "https://comozero.it/attualita/como-indiscrezione-villa-aprica-in-vendita-queste-operazioni-non-si-fanno-sulla-pelle-dei-lavoratori",
@@ -58,17 +72,19 @@
       ]
     },
     {
-      "title": "Scontro tra auto e trattore a Cortemaggiore, interviene l’elicottero",
+      "title": "Scontro tra auto e trattore a Cortemaggiore, grave un 70enne a Parma",
       "url": "https://www.piacenzasera.it/2026/11/scontro-tra-auto-e-trattore-a-cortemaggiore-interviene-lelicottero/670393",
-      "summary": "Sul posto sono giunti i soccorsi del 118 e da Milano è stato richiesto l'intervento dell'elisoccorso abilitato al volo in condizioni di oscurità The post Scontro tra auto e trattore a Cortemaggiore, interviene l’elicottero appeared first on piacenzasera.it .",
+      "summary": "Sul posto sono giunti i soccorsi del 118 e da Milano è stato richiesto l'intervento dell'elisoccorso abilitato al volo in condizioni di oscurità The post Scontro tra auto e trattore a Cortemaggiore, grave un 70enne a Parma appeared first on piacenzasera.it .",
       "published_at": "2026-11-14T17:26:47+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
-        "mi"
+        "mi",
+        "pr"
       ],
       "territory_codes": [
-        "MI"
+        "MI",
+        "PR"
       ]
     },
     {
