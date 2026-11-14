@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-14T17:44:20.152646+00:00",
+  "generated_at": "2026-11-14T18:51:21.324224+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,50 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, indiscrezione Villa Aprica in vendita: “Queste operazioni non si fanno sulla pelle dei lavoratori”",
+      "url": "https://comozero.it/attualita/como-indiscrezione-villa-aprica-in-vendita-queste-operazioni-non-si-fanno-sulla-pelle-dei-lavoratori",
+      "summary": "E’ circolalta in queste ore l’indiscrezione secondo cui il Gruppo San Donato sarebbe pronto a vendere quattro cliniche: l’Istituto Clinico Villa Aprica di Como, il Policlinico San Pietro di Ponte San Pietro, il Policlinico San Marco di Zingonia e l’Istituto di Cura Città di Pavia. Pronto all’acquisto sarebbe il fondo internazionale CvC Capital Partners. Sul […] L'articolo Como, indiscrezione Villa Aprica in vendita: “Queste operazioni non si fanno sulla pelle dei lavoratori” proviene da ComoZero .",
+      "published_at": "2026-11-14T18:50:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "pv"
+      ],
+      "territory_codes": [
+        "CO",
+        "PV"
+      ]
+    },
+    {
+      "title": "Taglio del nastro per la Fiera dei Vini con 310 cantine a Piacenza Expo",
+      "url": "https://www.piacenzasera.it/2026/11/taglio-del-nastro-per-la-fiera-dei-vini-con-310-cantine-a-piacenza-expo/670397",
+      "summary": "Tutte le venti regioni italiane rappresentate, trecentodieci cantine da tutto lo Stivale e non solo The post Taglio del nastro per la Fiera dei Vini con 310 cantine a Piacenza Expo appeared first on piacenzasera.it .",
+      "published_at": "2026-11-14T17:54:31+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Scontro tra auto e trattore a Cortemaggiore, interviene l’elicottero",
+      "url": "https://www.piacenzasera.it/2026/11/scontro-tra-auto-e-trattore-a-cortemaggiore-interviene-lelicottero/670393",
+      "summary": "Sul posto sono giunti i soccorsi del 118 e da Milano è stato richiesto l'intervento dell'elisoccorso abilitato al volo in condizioni di oscurità The post Scontro tra auto e trattore a Cortemaggiore, interviene l’elicottero appeared first on piacenzasera.it .",
+      "published_at": "2026-11-14T17:26:47+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
     {
       "title": "Vicenza strappa la vittoria al Beltrametti con un calcio allo scadere (20-21)",
       "url": "https://www.piacenzasera.it/2026/11/vicenza-strappa-la-vittoria-al-beltrametti-con-un-calcio-allo-scadere-20-21/670382",
@@ -184,6 +228,20 @@
       ]
     },
     {
+      "title": "“Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria",
+      "url": "https://www.ciaocomo.it/2026/11/14/guccini-racconta-francesco-al-joshua-blues-club-una-serata-di-musica-per-sostenere-lo-spazio-gloria/347818",
+      "summary": "Roberto Antonini e Carlo Fanton protagonisti del primo appuntamento musicale di Gloria Off, il progetto itinerante a sostegno della campagna di raccolta fondi per la riapertura della storica sala comasca The post “Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria appeared first on CiaoComo .",
+      "published_at": "2026-11-14T13:00:48+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Oltre cento studenti coinvolti nel progetto OrientaMente",
       "url": "https://primacomo.it/attualita/oltre-cento-studenti-coinvolti-nel-progetto-orientamente",
       "summary": "Progetto OrientaMente, coinvolto oltre cento studenti dell’istituto comprensivo Segantini di Asso. Promosso dall’associazione giovanile Lo Snodo. Una scelta per il futuro Nella sala consiliare del Comune di Asso si è tenuto l’incontro serale di restituzione dei test alle famiglie nell’ambito di OrientaMente: il progetto dedicato alla scelta scolastica promosso dall’associazione giovanile Lo Snodo. L’iniziativa ha […] Continua la lettura di Oltre cento studenti coinvolti nel progetto OrientaMente sul portale Prima Como .",
@@ -239,34 +297,6 @@
       "territory_codes": [
         "CO",
         "SO"
-      ]
-    },
-    {
-      "title": "A Castelvetro la vecchia scuola rigenerata diventa “Il Crocevia”, centro culturale e biblioteca",
-      "url": "https://www.piacenzasera.it/2026/11/castelvetro-inaugura-il-crocevia-la-nuova-biblioteca-nellex-scuola-di-croce-santo-spirito/670342",
-      "summary": "L'edificio è stato completamente ristrutturato grazie ai fondi della Regione Emilia Romagna e della Fondazione di Piacenza e Vigevano The post A Castelvetro la vecchia scuola rigenerata diventa “Il Crocevia”, centro culturale e biblioteca appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T11:39:07+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "“Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria",
-      "url": "https://www.ciaocomo.it/2026/11/14/guccini-racconta-francesco-al-joshua-blues-club-una-serata-di-musica-per-sostenere-lo-spazio-gloria/347818",
-      "summary": "Roberto Antonini e Carlo Fanton protagonisti del primo appuntamento musicale di Gloria Off, il progetto itinerante a sostegno della campagna di raccolta fondi per la riapertura della storica sala comasca The post “Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria appeared first on CiaoComo .",
-      "published_at": "2026-11-14T11:00:48+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -402,20 +432,6 @@
       ]
     },
     {
-      "title": "Oggi la Colletta Alimentare, la solidarietà che unisce l’Italia in un gesto di pace",
-      "url": "https://www.ciaocomo.it/2026/11/14/oggi-la-colletta-alimentare-la-solidarieta-che-unisce-litalia-in-un-gesto-di-pace/347635",
-      "summary": "L’iniziativa promossa dalla Fondazione Banco Alimentare si svolge in 150 supermercati della provincia di Como sabato 14 novembre The post Oggi la Colletta Alimentare, la solidarietà che unisce l’Italia in un gesto di pace appeared first on CiaoComo .",
-      "published_at": "2026-11-14T06:17:15+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Centro Como, segnalazione del lettore: “Per la seconda sera consecutiva la strada è al buio”",
       "url": "https://comozero.it/attualita/centro-como-segnalazione-del-lettore-per-la-seconda-sera-consecutiva-la-strada-e-al-buio",
       "summary": "“Per la seconda sera via Maurizio Monti è al buio”, così segnala con foto un nostro affezionato lettore, evidenziando come il problema non sia solo di oggi. Siamo in centro a Como, a un passo dalla città murata, e una parte dell’illuminazione ha qualche evidente problema (era successo non molto fa anche in via Volta). […] L'articolo Centro Como, segnalazione del lettore: “Per la seconda sera consecutiva la strada è al buio” proviene da ComoZero .",
@@ -478,20 +494,6 @@
       "published_at": "2026-11-13T14:52:52+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Un punteggio strepitoso e il primo premio: a Parigi la scuola di danza comasca ha stupito il mondo intero",
-      "url": "https://comozero.it/attualita/un-punteggio-strepitoso-e-il-primo-premio-a-parigi-la-scuola-di-danza-comasca-ha-stupito-il-mondo-intero",
-      "summary": "Un risultato straordinario che porta l’eccellenza della formazione tersicorea italiana sul palcoscenico internazionale. Il gruppo della Scuola di danza classica di TST_Lab (il polo formativo e laboratoriale del Teatro San Teodoro di Cantù) si è aggiudicato il primo premio nella categoria Gruppi Danza Classica al concorso internazionale Black Swan Dance Competition, svoltosi presso il Théâtre […] L'articolo Un punteggio strepitoso e il primo premio: a Parigi la scuola di danza comasca ha stupito il mondo intero proviene da ComoZero .",
-      "published_at": "2026-11-13T13:39:46+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
