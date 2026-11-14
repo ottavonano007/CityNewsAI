@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:57:16.168936+00:00",
+  "generated_at": "2026-11-14T09:53:04.156169+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Centro del riuso, scommessa vinta: col riciclo 2mila euro per il sociale",
+      "url": "https://primacomo.it/altro/centro-del-riuso-scommessa-vinta",
+      "summary": "Grazie al riciclo di Bulgarograsso, 2.000 euro in “dono” al sociale. Centro del riuso, scommessa vinta E’ una scommessa vinta, quella del centro del riuso bulgarese che, ormai da dieci anni, ha trovato spazio all’interno della piattaforma ecologica comunale. I numeri, in costante crescita anno dopo anno, mettono in luce non solo l’impegno del gruppo […] Continua la lettura di Centro del riuso, scommessa vinta: col riciclo 2mila euro per il sociale sul portale Prima Como .",
+      "published_at": "2026-11-14T09:00:05+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Pusher minorenne denunciato  dalla Guardia di Finanza",
       "url": "https://primacomo.it/cronaca/pusher-minorenne-denunciato-dalla-guardia-di-finanza",
@@ -246,20 +260,6 @@
       "published_at": "2026-11-13T13:00:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Parcheggi residenti a Como, dal 17 novembre le domande per i permessi 2027: tariffe, posti disponibili e scadenze",
-      "url": "https://www.ciaocomo.it/2026/11/13/parcheggi-residenti-a-como-dal-17-novembre-le-domande-per-i-permessi-2027-tariffe-posti-disponibili-e-scadenze/347917",
-      "summary": "Le richieste soltanto online con SPID o CIE entro il 30 novembre. Un permesso per nucleo residenziale con un massimo di due targhe. Sorteggio il 10 dicembre nelle zone in cui le domande supereranno i posti disponibili The post Parcheggi residenti a Como, dal 17 novembre le domande per i permessi 2027: tariffe, posti disponibili e scadenze appeared first on CiaoComo .",
-      "published_at": "2026-11-13T12:54:26+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -662,20 +662,6 @@
       "url": "https://primacomo.it/attualita/il-concerto-del-coro-degli-alpini",
       "summary": "Il coro Ana «Sandro Marelli» di Fino Mornasco sta scaldando la voce: in arrivo due appuntamenti, uno a Fino Mornasco, l’altro a Seregno. Il Festival Corale Regionale 2026 La fomazione finese partecipa al Festival Corale Regionale 2026, una manifestazione dedicata alla valorizzazione della coralità lombarda. Dopo il concerto di apertura, che si è svolto il […] Continua la lettura di Il concerto del coro degli Alpini sul portale Prima Como .",
       "published_at": "2026-11-10T15:50:22+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Birney vince il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia",
-      "url": "https://primacomo.it/attualita/birney-vince-il-premio-lombardia-e-ricerca-e-porta-lintelligenza-artificiale-in-lombardia",
-      "summary": "Un’intelligenza artificiale in grado di riconoscere prima dei sintomi chi rischia l’aterosclerosi coronarica verrà sviluppata in Lombardia, grazie a Ewan Birney, direttore dell’European Bioinformatics Institute dell’EMBL e vincitore del Premio internazionale Lombardia è Ricerca 2026, che collaborerà con il Centro Cardiologico Monzino Irccs e con Human Technopole. L’annuncio è arrivato al Teatro alla Scala di […] Continua la lettura di Birney vince il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia sul portale Prima Como .",
-      "published_at": "2026-11-10T15:37:23+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
