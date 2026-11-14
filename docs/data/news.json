@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T07:08:47.971730+00:00",
+  "generated_at": "2026-11-14T08:10:04.061776+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Torna la celebrazione della Virgo Fidelis",
+      "url": "https://primacomo.it/attualita/torna-la-celebrazione-della-virgo-fidelis",
+      "summary": "Torna la celebrazione della Virgo Fidelis a Cantù, la patrona dell’Arma dei Carabinieri. Il programma E’ in programma nella chiesa di San Teodoro nella mattinata di sabato 21 novembre, a partire dalle 10, la santa messa che cade nel giorno in cui avvenne la presentazione della Beata Vergine Maria al Tempio e nell’anniversario della eroica […] Continua la lettura di Torna la celebrazione della Virgo Fidelis sul portale Prima Como .",
+      "published_at": "2026-11-14T08:10:02+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Centro Como, segnalazione del lettore: “Per la seconda sera consecutiva la strada è al buio”",
       "url": "https://comozero.it/attualita/centro-como-segnalazione-del-lettore-per-la-seconda-sera-consecutiva-la-strada-e-al-buio",
@@ -307,20 +321,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati per l’intero week-end",
-      "url": "https://www.ciaocomo.it/2026/11/13/giornata-della-prematurita-il-santanna-si-tinge-di-viola-cure-e-sostegno-ai-piccoli-nati-pretermine/347915",
-      "summary": "Dal 13 al 15 novembre la hall dell’ospedale si colora di viola. Domenica a San Fermo un pomeriggio dedicato alle famiglie, mentre si avvicina l’ampliamento dei posti letto della Terapia Intensiva Neonatale The post Giornata della Prematurità, il Sant’Anna si tinge di viola: cure e sostegno ai piccoli nati per l’intero week-end appeared first on CiaoComo .",
-      "published_at": "2026-11-13T11:18:51+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "fm"
-      ],
-      "territory_codes": [
-        "FM"
       ]
     },
     {
@@ -702,20 +702,6 @@
       "url": "https://primacomo.it/altro/addio-a-luigi-capiaghi-presidente-della-cooperativa-intesa-sociale",
       "summary": "Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale di Bizzarone. Addio a Luigi Capiaghi E’ venuto a mancare a 76 anni nel pomeriggio di ieri, lunedì 9 novembre, a causa dell’aggravarsi di alcuni problemi di salute. E’ stato vicesindaco del Comune di Bizzarone dal 1975 al 1978; sindaco dall’agosto 1978 fino al 20 aprile […] Continua la lettura di Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale sul portale Prima Como .",
       "published_at": "2026-11-10T10:08:54+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth",
-      "url": "https://primacomo.it/attualita/un-nuovo-spettacolo-per-sostenere-la-mensa-di-solidarieta-di-casa-nazareth",
-      "summary": "Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth è in programma per sabato 14 novembre. Ingresso a offerta libera Appuntamento alle 21 nella chiesa del Gesù in via Primo Tatti 14 a Como: protagonista sarà il Gruppo Mandolinistico Eliante di Mendrisio (nella foto), realtà nata nel 1982 da un gruppo di […] Continua la lettura di Un nuovo spettacolo per sostenere la mensa di solidarietà di Casa Nazareth sul portale Prima Como .",
-      "published_at": "2026-11-10T08:56:37+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
