@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:47:25.121513+00:00",
+  "generated_at": "2026-11-14T12:58:10.903305+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Mazzata inflazione, Como è la città dove i prezzi sono aumentati di più: +5,4% dall’inizio della guerra nel Golfo",
+      "url": "https://comozero.it/attualita/mazzata-inflazione-como-e-la-citta-dove-i-prezzi-sono-aumentati-di-piu-54-dallinizio-della-guerra-nel-golfo",
+      "summary": "Como è il capoluogo italiano che ha registrato il maggiore aumento dei prezzi dall’inizio del conflitto nel Golfo Persico, il 28 febbraio 2026. Nei mesi successivi l’inflazione è cresciuta del 5,4%, più che in qualsiasi altra città italiana. Seguono Siena e Lucca, entrambe al 5,1%, mentre Firenze, Trieste, Verona, Vicenza e Siracusa si attestano al […] L'articolo Mazzata inflazione, Como è la città dove i prezzi sono aumentati di più: +5,4% dall’inizio della guerra nel Golfo proviene da ComoZero .",
+      "published_at": "2026-11-14T12:52:53+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "fi",
+        "lu",
+        "si",
+        "sr",
+        "ts",
+        "vr",
+        "vi"
+      ],
+      "territory_codes": [
+        "CO",
+        "FI",
+        "LU",
+        "SI",
+        "SR",
+        "TS",
+        "VR",
+        "VI"
+      ]
+    },
+    {
+      "title": "Rigamonti si gioca il titolo italiano",
+      "url": "https://primacomo.it/attualita/rigamonti-si-gioca-il-titolo-italiano",
+      "summary": "Valtellina ECOgreen, il titolo italiano si decide a Sondrio: Matteo Rigamonti, di Cantù, a 10 punti da Nicola Ventura nella finale del Campionato italiano Energie Alternative. La gara Nella giornata di oggi, sabato 14 novembre, Matteo Rigamonti del Team LarioEcoRacers – Scuderia del Lario, partirà per il 7° Valtellina ECOgreen, la gara conclusiva del Campionato […] Continua la lettura di Rigamonti si gioca il titolo italiano sul portale Prima Como .",
+      "published_at": "2026-11-14T12:00:23+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "so"
+      ],
+      "territory_codes": [
+        "CO",
+        "SO"
+      ]
+    },
+    {
+      "title": "A Castelvetro la vecchia scuola rigenerata diventa “Il Crocevia”, centro culturale e biblioteca",
+      "url": "https://www.piacenzasera.it/2026/11/castelvetro-inaugura-il-crocevia-la-nuova-biblioteca-nellex-scuola-di-croce-santo-spirito/670342",
+      "summary": "L'edificio è stato completamente ristrutturato grazie ai fondi della Regione Emilia Romagna e della Fondazione di Piacenza e Vigevano The post A Castelvetro la vecchia scuola rigenerata diventa “Il Crocevia”, centro culturale e biblioteca appeared first on piacenzasera.it .",
+      "published_at": "2026-11-14T11:39:07+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "“Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria",
       "url": "https://www.ciaocomo.it/2026/11/14/guccini-racconta-francesco-al-joshua-blues-club-una-serata-di-musica-per-sostenere-lo-spazio-gloria/347818",
@@ -232,20 +290,6 @@
       ]
     },
     {
-      "title": "Furti “acrobatici” su camion in autostrada, 13 arresti. A Piacenza una base logistica",
-      "url": "https://www.piacenzasera.it/2026/11/furti-acrobatici-su-camion-in-autostrada-13-arresti-a-piacenza-una-base-logistica/670320",
-      "summary": "Ha coinvolto anche il nostro territorio l'operazione condotta dalla polizia stradale: recuperata refurtiva per 700mila euro The post Furti “acrobatici” su camion in autostrada, 13 arresti. A Piacenza una base logistica appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T19:15:03+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro",
       "url": "https://comozero.it/attualita/como-servono-spazi-la-provincia-compra-un-intero-immobile-per-un-milione-e-100mila-euro",
       "summary": "La Provincia di Como amplia il proprio patrimonio immobiliare e mette nero su bianco l’acquisto dei locali di via Borgo Vico 163. Villa Saporiti (nella foto) ha formalizzato l’impegno di spesa definitivo per rilevare l’edificio di circa 650 metri quadrati situato a pochi passi dalla sede centrale. L’operazione comporta un esborso complessivo di 1.104.100 euro […] L'articolo Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro proviene da ComoZero .",
@@ -355,22 +399,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Como, Varese e il Ticino come un’unica magnifica pista da sci (e non solo) tra Italia e Svizzera: tutti gli sconti",
-      "url": "https://comozero.it/attualita/como-varese-e-il-ticino-come-ununica-magnifica-pista-da-sci-tra-italia-e-svizzera-ecco-tutti-gli-sconti",
-      "summary": "Presentati oggi, venerdì 13 novembre, nella Sala Neoclassica della Provincia di Varese, i servizi offerti ai residenti dell’area transfrontaliera per vivere montagne e comprensori sciistici ticinesi in tutte le stagioni. In rappresentanza dei territori di Como e Varese erano presenti rispettivamente Francesco Cavadini, Consigliere della Provincia di Como e Matteo Marchesi, Consigliere provinciale di Varese […] L'articolo Como, Varese e il Ticino come un’unica magnifica pista da sci (e non solo) tra Italia e Svizzera: tutti gli sconti proviene da ComoZero .",
-      "published_at": "2026-11-13T11:57:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "VA"
       ]
     },
     {
@@ -613,20 +641,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Controlli anti droga nel Lario: sequestrati hashish e cocaina",
-      "url": "https://primacomo.it/cronaca/controlli-anti-droga-nel-lario-sequestrati-hashish-e-cocaina",
-      "summary": "Nell’ambito dei servizi di controllo economico del territorio, i militari del Comando Provinciale della Guardia di finanza di Como hanno intensificato perlustrazioni e controlli contro lo spaccio e la minuta vendita di sostanze stupefacenti nel territorio del Lario Intelvese, individuando complessivamente cinque giovani, uno dei quali denunciato per violazione della normativa in materia di sostanze […] Continua la lettura di Controlli anti droga nel Lario: sequestrati hashish e cocaina sul portale Prima Como .",
-      "published_at": "2026-11-11T07:08:47+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     }
   ]
