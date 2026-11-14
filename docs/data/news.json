@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:47:44.869828+00:00",
+  "generated_at": "2026-11-14T01:09:20.846435+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -202,6 +202,20 @@
       "published_at": "2026-11-13T13:12:31+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
+      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
+      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
+      "published_at": "2026-11-13T13:00:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -425,22 +439,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Le cabine dei seggi sono vecchie, il Comune di Como ne compra 50 nuove e ignifughe per 20mila euro",
-      "url": "https://comozero.it/attualita/le-cabine-dei-seggi-sono-vecchie-il-comune-di-como-ne-compra-50-nuove-e-ignifughe-per-20mila-euro",
-      "summary": "Le strutture attualmente in dotazione ai seggi sono ormai deteriorate e dovranno essere sostituite in vista delle prossime elezioni (comunali, politiche). L’affidamento a Mobilferro Srl, azienda con sede in provincia di Rovigo: previsti modelli con tendina ignifuga e struttura in alluminio Il Comune di Como acquisterà 50 nuove cabine elettorali per una spesa complessiva di […] L'articolo Le cabine dei seggi sono vecchie, il Comune di Como ne compra 50 nuove e ignifughe per 20mila euro proviene da ComoZero .",
-      "published_at": "2026-11-12T23:57:47+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "ro"
-      ],
-      "territory_codes": [
-        "CO",
-        "RO"
       ]
     },
     {
