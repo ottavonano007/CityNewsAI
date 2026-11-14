@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T08:10:04.061776+00:00",
+  "generated_at": "2026-11-14T08:57:16.168936+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -28,12 +28,84 @@
   ],
   "articles": [
     {
+      "title": "Pusher minorenne denunciato  dalla Guardia di Finanza",
+      "url": "https://primacomo.it/cronaca/pusher-minorenne-denunciato-dalla-guardia-di-finanza",
+      "summary": "Nell’ambito dell’intensificazione dei servizi di controllo economico del territorio, i militari del Comando Provinciale della Guardia di finanza di Como hanno denunciato un pusher minorenne trovato in possesso di oltre 50 grammi di hashish I controlli L’attività rientra nell’ambito dei controlli nelle località turistiche del Centro Lago, in corrispondenza dei luoghi di maggiore aggregazione giovanile. […] Continua la lettura di Pusher minorenne denunciato dalla Guardia di Finanza sul portale Prima Como .",
+      "published_at": "2026-11-14T08:48:58+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Alessandro Borghese e 4 Ristoranti tornano a Piacenza lungo la Via Francigena",
+      "url": "https://www.piacenzasera.it/2026/11/alessandro-borghese-e-4-ristoranti-tornano-a-piacenza-lungo-la-via-francigena/670333",
+      "summary": "Lo chef Alessandro Borghese a caccia di torta fritta e anolini, tra la provincia di Parma a Medesano, per poi passare a Piacenza, tra Alseno, Fiorenzuola e Calendasco The post Alessandro Borghese e 4 Ristoranti tornano a Piacenza lungo la Via Francigena appeared first on piacenzasera.it .",
+      "published_at": "2026-11-14T08:45:53+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pr",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PR",
+        "PC"
+      ]
+    },
+    {
+      "title": "Erick Green torna a Cantù",
+      "url": "https://primacomo.it/sport/erick-green-torna-a-cantu",
+      "summary": "Acqua S.Bernardo Pallacanestro Cantù ha ingaggiato Erick O’Brien Green II, che torna così a vestire la casacca canturina La carriera Green, guardia di 191 cm e 83 kg, è nato a Inglewood, in California, il 9 maggio 1992. Dotato di grande talento offensivo e comprovata esperienza ad alti livelli, il giocatore ha già vestito la […] Continua la lettura di Erick Green torna a Cantù sul portale Prima Como .",
+      "published_at": "2026-11-14T08:27:03+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Torna la celebrazione della Virgo Fidelis",
       "url": "https://primacomo.it/attualita/torna-la-celebrazione-della-virgo-fidelis",
       "summary": "Torna la celebrazione della Virgo Fidelis a Cantù, la patrona dell’Arma dei Carabinieri. Il programma E’ in programma nella chiesa di San Teodoro nella mattinata di sabato 21 novembre, a partire dalle 10, la santa messa che cade nel giorno in cui avvenne la presentazione della Beata Vergine Maria al Tempio e nell’anniversario della eroica […] Continua la lettura di Torna la celebrazione della Virgo Fidelis sul portale Prima Como .",
       "published_at": "2026-11-14T08:10:02+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Iris, il fiore di Natale”: a Piacenza Expo cena benefica per Hospice e Progetto Vita",
+      "url": "https://www.piacenzasera.it/2026/11/iris-il-fiore-di-natale-a-piacenza-expo-cena-benefica-per-hospice-e-progetto-vita/670292",
+      "summary": "Il tradizionale evento benefico natalizio è in programma il 21 dicembre The post “Iris, il fiore di Natale”: a Piacenza Expo cena benefica per Hospice e Progetto Vita appeared first on piacenzasera.it .",
+      "published_at": "2026-11-14T08:00:54+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Oggi la Colletta Alimentare, la solidarietà che unisce l’Italia in un gesto di pace",
+      "url": "https://www.ciaocomo.it/2026/11/14/oggi-la-colletta-alimentare-la-solidarieta-che-unisce-litalia-in-un-gesto-di-pace/347635",
+      "summary": "L’iniziativa promossa dalla Fondazione Banco Alimentare si svolge in 150 supermercati della provincia di Como sabato 14 novembre The post Oggi la Colletta Alimentare, la solidarietà che unisce l’Italia in un gesto di pace appeared first on CiaoComo .",
+      "published_at": "2026-11-14T06:17:15+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -98,34 +170,6 @@
       ]
     },
     {
-      "title": "Sfida al Palabanca tra Assigeco e Leonessa Brescia",
-      "url": "https://www.piacenzasera.it/2026/11/sfida-al-palabanca-tra-assigeco-e-leonessa-brescia/670290",
-      "summary": "Match in programma domenica 15 novembre alle ore 18 The post Sfida al Palabanca tra Assigeco e Leonessa Brescia appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T16:35:48+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bs"
-      ],
-      "territory_codes": [
-        "BS"
-      ]
-    },
-    {
-      "title": "Ictus, a Piacenza 500 casi l’anno. Un convegno per raccontare segni e sintomi nascosti",
-      "url": "https://www.piacenzasera.it/2026/11/ictus-a-piacenza-500-casi-lanno-un-convegno-per-raccontare-segni-e-sintomi-nascosti/670282",
-      "summary": "A pochi giorni dalla Giornata mondiale dell'Ictus, Ausl e associazione A.L.I.Ce. propongono un approfondimento dedicato ai professionisti The post Ictus, a Piacenza 500 casi l’anno. Un convegno per raccontare segni e sintomi nascosti appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T16:12:01+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Unipol – Amicacci: in palio la supercoppa italiana",
       "url": "https://primacomo.it/sport/unipol-amicacci-in-palio-la-supercoppa-italiana",
       "summary": "Domenica 15 novembre alle 10.30 andrà in scena la 25^ edizione della finale di Supercoppa Italiana Fipic tra Unipol Briantea84 Cantù (vincitrice dello scudetto 2025-26) e Deco Amicacci Abruzzo (vincitrice della Coppa Italia 2026). La competizione La competizione, intitolata alla memoria di Martin Mancini, si giocherà al Multieventi di Serravalle a San Marino con diretta […] Continua la lettura di Unipol – Amicacci: in palio la supercoppa italiana sul portale Prima Como .",
@@ -140,20 +184,6 @@
       ]
     },
     {
-      "title": "“Col vento nei capelli”, Ruba Salih racconta la scrittrice palestinese Salwa Salem",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-musica-al-lavoro-spettacolo-contro-la-violenza-sulle-donne-il-racconto-della-palestinese-ruba-salih-e-le-letture-di-dalal-suleiman/670252",
-      "summary": "Il 20 novembre alla Camera del Lavoro di Piacenza il racconto di Ruba Salih e le letture di Dalal Suleiman, per la kermesse Musica al Lavoro The post “Col vento nei capelli”, Ruba Salih racconta la scrittrice palestinese Salwa Salem appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T14:57:48+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Eccellenza della ristorazione: ecco gli stellati confermati da Guida Michelin, per Il Cantuccio è la ventesima consecutiva",
       "url": "https://primacomo.it/attualita/eccellenza-della-ristorazione-ecco-gli-stellati-confermati-da-guida-michelin-per-il-cantuccio-e-la-ventesima-consecutiva",
       "summary": "Guida Michelin 2027: ecco gli stellati comaschi riconfermati. Ventesima riconferma consecutiva per l’albavillese Cantuccio Per il ristorante di chef Mauro Elli, aperto nel 2003, è la ventesima riconferma consecutiva (il 21° anno ininterrotto in cui il locale detiene la Stella Michelin). L’attività di via Dante era infatti stata riconosciuta per la prima volta nel 2007. […] Continua la lettura di Eccellenza della ristorazione: ecco gli stellati confermati da Guida Michelin, per Il Cantuccio è la ventesima consecutiva sul portale Prima Como .",
@@ -165,20 +195,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Caccia alla lepre, nel piacentino chiusura anticipata in dodici Comuni",
-      "url": "https://www.piacenzasera.it/2026/11/caccia-alla-lepre-annunciata-chiusura-anticipata-in-diverse-citta-piacentine/670247",
-      "summary": "Ultimo giorno utile domenica 15 novembre 2026; possibile addestramento cani con annotazione su tesserino venatorio The post Caccia alla lepre, nel piacentino chiusura anticipata in dodici Comuni appeared first on piacenzasera.it .",
-      "published_at": "2026-11-13T14:45:38+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -293,20 +309,6 @@
       "territory_codes": [
         "CO",
         "VA"
-      ]
-    },
-    {
-      "title": "Il Coro da Camera del Conservatorio di Como in concerto a Sant’Abbondio con Domenico Innominato",
-      "url": "https://www.ciaocomo.it/2026/11/13/il-coro-da-camera-del-conservatorio-di-como-in-concerto-a-santabbondio-con-domenico-innominato/347740",
-      "summary": "Un appuntamento che assume un significato particolare per il maestro, recentemente andato in pensione dopo 36 anni di insegnamento al Conservatorio The post Il Coro da Camera del Conservatorio di Como in concerto a Sant’Abbondio con Domenico Innominato appeared first on CiaoComo .",
-      "published_at": "2026-11-13T11:30:01+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -674,34 +676,6 @@
       "url": "https://primacomo.it/attualita/birney-vince-il-premio-lombardia-e-ricerca-e-porta-lintelligenza-artificiale-in-lombardia",
       "summary": "Un’intelligenza artificiale in grado di riconoscere prima dei sintomi chi rischia l’aterosclerosi coronarica verrà sviluppata in Lombardia, grazie a Ewan Birney, direttore dell’European Bioinformatics Institute dell’EMBL e vincitore del Premio internazionale Lombardia è Ricerca 2026, che collaborerà con il Centro Cardiologico Monzino Irccs e con Human Technopole. L’annuncio è arrivato al Teatro alla Scala di […] Continua la lettura di Birney vince il premio Lombardia è Ricerca e porta l’intelligenza artificiale in Lombardia sul portale Prima Como .",
       "published_at": "2026-11-10T15:37:23+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Auto fuori strada, due feriti in codice giallo",
-      "url": "https://primacomo.it/altro/auto-fuori-strada-due-feriti-in-codice-giallo",
-      "summary": "Auto fuori strada a Guanzate, due persone ferite. Auto fuori strada a Guanzate E’ accaduta nella mattinata di oggi, martedì 10 novembre, in via Raffaello Sanzio. Ancora da capire la dinamiche: una vettura è uscita di strada. Due persone, una donna di 82 anni e un uomo di 88, sono rimasti feriti e trasportati in […] Continua la lettura di Auto fuori strada, due feriti in codice giallo sul portale Prima Como .",
-      "published_at": "2026-11-10T11:21:32+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale",
-      "url": "https://primacomo.it/altro/addio-a-luigi-capiaghi-presidente-della-cooperativa-intesa-sociale",
-      "summary": "Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale di Bizzarone. Addio a Luigi Capiaghi E’ venuto a mancare a 76 anni nel pomeriggio di ieri, lunedì 9 novembre, a causa dell’aggravarsi di alcuni problemi di salute. E’ stato vicesindaco del Comune di Bizzarone dal 1975 al 1978; sindaco dall’agosto 1978 fino al 20 aprile […] Continua la lettura di Addio a Luigi Capiaghi, presidente della cooperativa Intesa Sociale sul portale Prima Como .",
-      "published_at": "2026-11-10T10:08:54+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
