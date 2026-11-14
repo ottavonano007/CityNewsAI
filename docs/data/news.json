@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:57:14.656038+00:00",
+  "generated_at": "2026-11-14T14:50:58.072375+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Max Cremona premiato a Ferrara con la medaglia d’oro al valore atletico del Coni",
+      "url": "https://www.piacenzasera.it/2026/11/max-cremona-premiato-a-ferrara-con-la-medaglia-doro-al-valore-atletico-del-coni/670367",
+      "summary": "The post Max Cremona premiato a Ferrara con la medaglia d’oro al valore atletico del Coni appeared first on piacenzasera.it .",
+      "published_at": "2026-11-14T14:07:41+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "cr",
+        "fe"
+      ],
+      "territory_codes": [
+        "CR",
+        "FE"
+      ]
+    },
+    {
+      "title": "Sapori d’Autunno a Uggiate, una giornata con prodotti tipici, artigianato, gnocchi e divertimento per i bambini",
+      "url": "https://www.ciaocomo.it/2026/11/14/sapori-dautunno-a-uggiate-una-giornata-con-prodotti-tipici-artigianato-gnocchi-e-divertimento-per-i-bambini/347870",
+      "summary": "Domenica 15 novembre la quinta edizione della manifestazione organizzata da Confesercenti Como, con il sostegno del Comune e della Uggiatese Volley ’87. Spazio anche agli allevatori e ai produttori locali The post Sapori d’Autunno a Uggiate, una giornata con prodotti tipici, artigianato, gnocchi e divertimento per i bambini appeared first on CiaoComo .",
+      "published_at": "2026-11-14T14:00:47+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Incontro al Centro cardinal Ferrari con l’economista Luigino Bruni",
+      "url": "https://primacomo.it/attualita/incontro-al-centro-cardinal-ferrari-con-leconomista-luigino-bruni",
+      "summary": "Incontro a Como con Luigino Bruni, economista, storico dell’economia e biblista. Incontro con Luigino Bruni Mercoledì 18 novembre, alle 21 al Centro socio pastorale Card. Ferrari, in viale Cesare Battisti 8 “La profezia incompiuta di Francesco: economia, ricchezza e povertà”: è il tema dell’intervento che vedrà intervenire Luigino Bruni, docente universitario, economista e biblista. Serata […] Continua la lettura di Incontro al Centro cardinal Ferrari con l’economista Luigino Bruni sul portale Prima Como .",
+      "published_at": "2026-11-14T14:00:24+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Fumetti, manga e creatività animano il centro commerciale Gotico di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/fumetti-manga-e-creativita-animano-il-centro-commerciale-gotico-di-piacenza/670363",
+      "summary": "Sabato 14 e domenica 15 novembre a Piacenza, due giornate tra incontri, cosplay, laboratori e K-pop The post Fumetti, manga e creatività animano il centro commerciale Gotico di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-14T13:58:21+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Nel paesino in provincia di Como la piccola tipografia diventata gigante multinazionale: oggi il grande riconoscimento ai fondatori",
       "url": "https://comozero.it/attualita/nel-paesino-in-provincia-di-como-la-piccola-tipografia-diventata-gigante-multinazionale-oggi-il-grande-riconoscimento-ai-fondatori",
@@ -218,22 +276,6 @@
       ]
     },
     {
-      "title": "Alessandro Borghese e 4 Ristoranti tornano a Piacenza lungo la Via Francigena",
-      "url": "https://www.piacenzasera.it/2026/11/alessandro-borghese-e-4-ristoranti-tornano-a-piacenza-lungo-la-via-francigena/670333",
-      "summary": "Lo chef Alessandro Borghese a caccia di torta fritta e anolini, tra la provincia di Parma a Medesano, per poi passare a Piacenza, tra Alseno, Fiorenzuola e Calendasco The post Alessandro Borghese e 4 Ristoranti tornano a Piacenza lungo la Via Francigena appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T08:45:53+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pr",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PR",
-        "PC"
-      ]
-    },
-    {
       "title": "Erick Green torna a Cantù",
       "url": "https://primacomo.it/sport/erick-green-torna-a-cantu",
       "summary": "Acqua S.Bernardo Pallacanestro Cantù ha ingaggiato Erick O’Brien Green II, che torna così a vestire la casacca canturina La carriera Green, guardia di 191 cm e 83 kg, è nato a Inglewood, in California, il 9 maggio 1992. Dotato di grande talento offensivo e comprovata esperienza ad alti livelli, il giocatore ha già vestito la […] Continua la lettura di Erick Green torna a Cantù sul portale Prima Como .",
@@ -259,20 +301,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Iris, il fiore di Natale”: a Piacenza Expo cena benefica per Hospice e Progetto Vita",
-      "url": "https://www.piacenzasera.it/2026/11/iris-il-fiore-di-natale-a-piacenza-expo-cena-benefica-per-hospice-e-progetto-vita/670292",
-      "summary": "Il tradizionale evento benefico natalizio è in programma il 21 dicembre The post “Iris, il fiore di Natale”: a Piacenza Expo cena benefica per Hospice e Progetto Vita appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T08:00:54+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -604,20 +632,6 @@
       "url": "https://primacomo.it/attualita/serate-di-approfondimento-sulla-fotografia-insieme-al-gruppo-diaphos",
       "summary": "Piace il percorso di approfondimento sulla fotografia insieme al gruppo Diapho’s di Olgiate Comsco. La rassegna di incontri sulla fotografia Inaugurata lo scorso 29 ottobre, al Magic Bus di via Repubblica, ospitando il fotografo Emanuele Cortellezzi, la rassegna di incontri sulla fotografia offre una nuova serata. Giovedì 12 novembre, con inizio alle 21, anche questa […] Continua la lettura di Serate di approfondimento sulla fotografia insieme al gruppo Diapho’s sul portale Prima Como .",
       "published_at": "2026-11-11T08:48:01+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!” Campagna social contro il progetto degli impianti sciistici al San Primo",
-      "url": "https://primacomo.it/attualita/ma-tu-verresti-a-sciare-sul-monte-san-primo-la-neve-ce-la-mette-la-regione-campagna-social-contro-il-progetto-degli-impianti-sciistici-al-san-primo",
-      "summary": "“Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!”. E’ questo lo slogan – tra l’ironico e il sarcastico – della nuova campagna social sul progetto che vorrebbe riportare lo sci sulle pendici del Monte San Primo, realizzata dall’associazione Simbio insieme al Coordinamento Salviamo il Monte San Primo. […] Continua la lettura di “Ma tu verresti a sciare sul Monte San Primo? La neve ce la mette la Regione!” Campagna social contro il progetto degli impianti sciistici al San Primo sul portale Prima Como .",
-      "published_at": "2026-11-11T08:01:58+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
