@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:45:23.953010+00:00",
+  "generated_at": "2026-11-14T23:42:36.113752+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -480,20 +480,6 @@
       "url": "https://comozero.it/attualita/como-servono-spazi-la-provincia-compra-un-intero-immobile-per-un-milione-e-100mila-euro",
       "summary": "La Provincia di Como amplia il proprio patrimonio immobiliare e mette nero su bianco l’acquisto dei locali di via Borgo Vico 163. Villa Saporiti (nella foto) ha formalizzato l’impegno di spesa definitivo per rilevare l’edificio di circa 650 metri quadrati situato a pochi passi dalla sede centrale. L’operazione comporta un esborso complessivo di 1.104.100 euro […] L'articolo Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro proviene da ComoZero .",
       "published_at": "2026-11-13T18:15:33+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Una domenica immersi nel fascino di Villa Erba fra teatro, cinema e arte con Sentieri di Foglie",
-      "url": "https://comozero.it/cultura-e-spettacolo/una-domenica-immersi-nel-fascino-di-villa-erba-fra-teatro-cinema-e-arte-con-sentieri-di-foglie",
-      "summary": "Una giornata per immergersi nella storia, nell’arte e nel fascino di una delle dimore più suggestive del Lago di Como. Domenica 15 novembre Villa Erba, a Cernobbio, apre le sue porte per “Sentieri di Foglie”, il quarto e ultimo appuntamento del 2026 della rassegna Le 4 Stagioni di Villa Erba. Dal mattino fino a sera, […] L'articolo Una domenica immersi nel fascino di Villa Erba fra teatro, cinema e arte con Sentieri di Foglie proviene da ComoZero .",
-      "published_at": "2026-11-13T17:28:24+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
