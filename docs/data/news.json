@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-15T17:45:26.304246+00:00",
+  "generated_at": "2026-11-15T18:52:58.554481+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Nesso, fiamme nella chiesa parrocchiale",
+      "url": "https://comozero.it/attualita/nesso-fiamme-nella-chiesa-parrocchiale",
+      "summary": "Intervento di soccorso tecnico urgente oggi alle 14:50 nel comune di Nesso in via Santa Maria per un incendio. Le squadre del comando di Como e del distaccamento di Canzo sono intervenute nella Chiesa Parrocchiale del paese per un incendio che ha interessato un dispositivo elettronico all’interno della Chiesa. I pompieri arrivati sul posto hanno […] L'articolo Nesso, fiamme nella chiesa parrocchiale proviene da ComoZero .",
+      "published_at": "2026-11-15T18:45:21+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A Fiera dei Vini diversamente Masterclass, degustando i territori",
+      "url": "https://www.piacenzasera.it/2026/11/a-fiera-dei-vini-diversamente-masterclass-degustando-i-territori/670536",
+      "summary": "Lunedì, terza e conclusiva giornata della Fiera dei Vini a Piacenza Expo – con orario continuato dalle 10.00 alle 16.30 The post A Fiera dei Vini diversamente Masterclass, degustando i territori appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T18:36:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Polveri cancerogene nell’aria?”, la protesta contro l’impianto esplode e la valle del Lago di Como è tappezzata di volantini",
+      "url": "https://comozero.it/attualita/polveri-cancerogene-nellaria-la-protesta-contro-limpianto-esplode-e-la-valle-del-lago-di-como-e-tappezzata-di-volantini",
+      "summary": "La protesta del Comitato Intelvi Radar si fa stringente e, come raccontano a ComoZero: “Abbiamo lanciato un po’ di fuochi artificiali”. Cioè l’intera Valle Intelvi è stata tappezzata di volantini. Il tema è ormai noto e riguarda il secco “no” all’annunciato impianto di betonaggio, una sorta di frantoio per la frantumazione dello smerino, cioè l’avanzo […] L'articolo “Polveri cancerogene nell’aria?”, la protesta contro l’impianto esplode e la valle del Lago di Como è tappezzata di volantini proviene da ComoZero .",
+      "published_at": "2026-11-15T17:58:16+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Serie B, il derby piacentino si tinge di giallonero: la Canottieri Ongina piega la Gas Sales Bluenergy (0-3)",
+      "url": "https://www.piacenzasera.it/2026/11/serie-b-il-derby-piacentino-si-tinge-di-giallonero-la-canottieri-ongina-piega-la-gas-sales-bluenergy-0-3/670532",
+      "summary": "A Piacenza la squadra di Gabriele Bruni conquista tre punti e difende la vetta in classifica The post Serie B, il derby piacentino si tinge di giallonero: la Canottieri Ongina piega la Gas Sales Bluenergy (0-3) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T17:39:59+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Qualità della vita 2026, Como sale al 41esimo posto: boom sicurezza ma crolla il reddito",
       "url": "https://comozero.it/attualita/qualita-della-vita-2026-como-classifica-italiaoggi",
@@ -46,7 +102,7 @@
     {
       "title": "Qualità della vita, Piacenza scende al 44esimo posto. Bene sicurezza e reddito, giù lavoro e turismo",
       "url": "https://www.piacenzasera.it/2026/11/qualita-della-vita-piacenza-scende-al-44esimo-posto-bene-sicurezza-e-reddito-giu-lavoro-e-turismo/670515",
-      "summary": "Il territorio piacentino è premiato dall'avanzamento su reati e ricchezza ma penalizzato dal calo in affari, sicurezza sociale e attrattività turistica The post Qualità della vita, Piacenza scende al 44esimo posto. Bene sicurezza e reddito, giù lavoro e turismo appeared first on piacenzasera.it .",
+      "summary": "Secondo Italia Oggi il territorio piacentino è premiato dall'avanzamento su reati e ricchezza ma penalizzato dal calo in affari, sicurezza sociale e attrattività turistica The post Qualità della vita, Piacenza scende al 44esimo posto. Bene sicurezza e reddito, giù lavoro e turismo appeared first on piacenzasera.it .",
       "published_at": "2026-11-15T16:29:04+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -88,7 +144,7 @@
     {
       "title": "Il Piacenza cala il tris con Mustacchio: ora la vetta è a meno due (1-3)",
       "url": "https://www.piacenzasera.it/2026/11/piacenza-contro-il-rovato-al-maffeis-alle-1430-il-calcio-dinizio/670455",
-      "summary": "La rete di Fossati nel finale rende meno amaro il passivo dopo la tripletta di Mustacchio: al triplice fischio è 3-1 per il Piacenza The post Il Piacenza cala il tris con Mustacchio: ora la vetta è a meno due (1-3) appeared first on piacenzasera.it .",
+      "summary": "La rete del Rovato nel finale rende meno amaro il passivo dopo la tripletta di Mustacchio: al triplice fischio è 3-1 per il Piacenza The post Il Piacenza cala il tris con Mustacchio: ora la vetta è a meno due (1-3) appeared first on piacenzasera.it .",
       "published_at": "2026-11-15T15:30:08+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -97,6 +153,20 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Nibbiano&Valtidone, un altro pareggio senza reti sul campo del Villa Valle",
+      "url": "https://www.piacenzasera.it/2026/11/nibbianovaltidone-si-misura-con-villa-valle-alle-1430-il-calcio-dinizio/670461",
+      "summary": "Il Nibbiano&Valtidone sul campo di Villa D'almè termina con 0-0 contro Villa Valle; il Fiorenzuola si misurerà con la Virtus Verona alle 17:30 The post Nibbiano&Valtidone, un altro pareggio senza reti sul campo del Villa Valle appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T15:28:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "vr"
+      ],
+      "territory_codes": [
+        "VR"
       ]
     },
     {
@@ -164,6 +234,20 @@
       "published_at": "2026-11-15T13:20:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Sagnino commemora i Caduti di Nassiriya: la cerimonia al Campo Sportivo CSU",
+      "url": "https://www.ciaocomo.it/2026/11/15/sagnino-commemora-i-caduti-di-nassiriya-la-cerimonia-al-campo-sportivo-csu/347999",
+      "summary": "Alla presenza del Viceprefetto Roncagli, del Maggiore dei Carabinieri Mascolo e dell'assessore Cappelletti, la comunità ha reso omaggio ai caduti nelle missioni internazionali di pace con la Santa Messa, il corteo e la deposizione della corona d'alloro al cippo commemorativo. «La pace non è mai scontata, richiede impegno e responsabilità», il messaggio portato a nome del Prefetto di Como. The post Sagnino commemora i Caduti di Nassiriya: la cerimonia al Campo Sportivo CSU appeared first on CiaoComo .",
+      "published_at": "2026-11-15T13:10:34+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -428,20 +512,6 @@
       ]
     },
     {
-      "title": "Nel paesino in provincia di Como la piccola tipografia diventata gigante multinazionale: oggi il grande riconoscimento ai fondatori",
-      "url": "https://comozero.it/attualita/nel-paesino-in-provincia-di-como-la-piccola-tipografia-diventata-gigante-multinazionale-oggi-il-grande-riconoscimento-ai-fondatori",
-      "summary": "Da una piccola tipografia di paese a un gruppo multinazionale con cinque stabilimenti produttivi in Europa, oltre 900 dipendenti e una presenza commerciale in diversi Paesi. È la storia della Cellografica Gerosa, nata a Inverigo nel 1935 per iniziativa dei fratelli Luigi e Giuseppe Gerosa e diventata, in oltre 90 anni, una realtà internazionale. Proprio […] L'articolo Nel paesino in provincia di Como la piccola tipografia diventata gigante multinazionale: oggi il grande riconoscimento ai fondatori proviene da ComoZero .",
-      "published_at": "2026-11-14T13:06:34+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Oltre cento studenti coinvolti nel progetto OrientaMente",
       "url": "https://primacomo.it/attualita/oltre-cento-studenti-coinvolti-nel-progetto-orientamente",
       "summary": "Progetto OrientaMente, coinvolto oltre cento studenti dell’istituto comprensivo Segantini di Asso. Promosso dall’associazione giovanile Lo Snodo. Una scelta per il futuro Nella sala consiliare del Comune di Asso si è tenuto l’incontro serale di restituzione dei test alle famiglie nell’ambito di OrientaMente: il progetto dedicato alla scelta scolastica promosso dall’associazione giovanile Lo Snodo. L’iniziativa ha […] Continua la lettura di Oltre cento studenti coinvolti nel progetto OrientaMente sul portale Prima Como .",
@@ -453,34 +523,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Mazzata inflazione, Como è la città dove i prezzi sono aumentati di più: +5,4% dall’inizio della guerra nel Golfo",
-      "url": "https://comozero.it/attualita/mazzata-inflazione-como-e-la-citta-dove-i-prezzi-sono-aumentati-di-piu-54-dallinizio-della-guerra-nel-golfo",
-      "summary": "Como è il capoluogo italiano che ha registrato il maggiore aumento dei prezzi dall’inizio del conflitto nel Golfo Persico, il 28 febbraio 2026. Nei mesi successivi l’inflazione è cresciuta del 5,4%, più che in qualsiasi altra città italiana. Seguono Siena e Lucca, entrambe al 5,1%, mentre Firenze, Trieste, Verona, Vicenza e Siracusa si attestano al […] L'articolo Mazzata inflazione, Como è la città dove i prezzi sono aumentati di più: +5,4% dall’inizio della guerra nel Golfo proviene da ComoZero .",
-      "published_at": "2026-11-14T12:52:53+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "fi",
-        "lu",
-        "si",
-        "sr",
-        "ts",
-        "vr",
-        "vi"
-      ],
-      "territory_codes": [
-        "CO",
-        "FI",
-        "LU",
-        "SI",
-        "SR",
-        "TS",
-        "VR",
-        "VI"
       ]
     },
     {
