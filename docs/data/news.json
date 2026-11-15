@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T19:50:10.041185+00:00",
+  "generated_at": "2026-11-15T20:47:50.682663+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
@@ -28,9 +28,37 @@
   ],
   "articles": [
     {
-      "title": "Nesso, fiamme nella chiesa parrocchiale",
+      "title": "Assigeco non riesce a contenere una dirompente Leonessa Brescia (81 – 92)",
+      "url": "https://www.piacenzasera.it/2026/11/assigeco-non-riesce-a-contenere-una-dirompente-leonessa-brescia-81-92/670543",
+      "summary": "Si interrompe al Palabanca la serie positiva dei Lupi Assigeco The post Assigeco non riesce a contenere una dirompente Leonessa Brescia (81 – 92) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T20:17:39+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "bs"
+      ],
+      "territory_codes": [
+        "BS"
+      ]
+    },
+    {
+      "title": "Tris biancorosso: la Bakery Piacenza espugna Jesi (47-60)",
+      "url": "https://www.piacenzasera.it/2026/11/tris-biancorosso-la-bakery-piacenza-espugna-jesi-47-60/670544",
+      "summary": "Partita che torna in discussione soltanto nell’ultimo quarto con la rimonta iniziale dei padroni di casa The post Tris biancorosso: la Bakery Piacenza espugna Jesi (47-60) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T20:16:07+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Lago di Como, fiamme nella chiesa: scatta l’intervento dei vigili del fuoco",
       "url": "https://comozero.it/attualita/nesso-fiamme-nella-chiesa-parrocchiale",
-      "summary": "Intervento di soccorso tecnico urgente oggi alle 14:50 nel comune di Nesso in via Santa Maria per un incendio. Le squadre del comando di Como e del distaccamento di Canzo sono intervenute nella Chiesa Parrocchiale del paese per un incendio che ha interessato un dispositivo elettronico all’interno della Chiesa. I pompieri arrivati sul posto hanno […] L'articolo Nesso, fiamme nella chiesa parrocchiale proviene da ComoZero .",
+      "summary": "Intervento di soccorso tecnico urgente oggi alle 14:50 nel comune di Nesso in via Santa Maria per un incendio. Le squadre del comando di Como e del distaccamento di Canzo sono intervenute nella Chiesa Parrocchiale del paese per un incendio che ha interessato un dispositivo elettronico all’interno dell’edificio sacro. I pompieri arrivati sul posto hanno […] L'articolo Lago di Como, fiamme nella chiesa: scatta l’intervento dei vigili del fuoco proviene da ComoZero .",
       "published_at": "2026-11-15T18:45:21+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -56,10 +84,10 @@
       ]
     },
     {
-      "title": "“Polveri cancerogene nell’aria?”, la protesta contro l’impianto esplode e la valle del Lago di Como è tappezzata di volantini",
+      "title": "La valle del Lago di Como è tappezzata di volantini: esplode la protesta contro l’impianto",
       "url": "https://comozero.it/attualita/polveri-cancerogene-nellaria-la-protesta-contro-limpianto-esplode-e-la-valle-del-lago-di-como-e-tappezzata-di-volantini",
-      "summary": "La protesta del Comitato Intelvi Radar si fa stringente e, come raccontano a ComoZero: “Abbiamo lanciato un po’ di fuochi artificiali”. Cioè l’intera Valle Intelvi è stata tappezzata di volantini. Il tema è ormai noto e riguarda il secco “no” all’annunciato impianto di betonaggio, una sorta di frantoio per la frantumazione dello smerino, cioè l’avanzo […] L'articolo “Polveri cancerogene nell’aria?”, la protesta contro l’impianto esplode e la valle del Lago di Como è tappezzata di volantini proviene da ComoZero .",
-      "published_at": "2026-11-15T17:58:16+00:00",
+      "summary": "La protesta del Comitato Intelvi Radar si fa stringente e, come raccontano a ComoZero: “Abbiamo lanciato un po’ di fuochi artificiali”. Cioè l’intera Valle Intelvi è stata tappezzata di volantini. Il tema è ormai noto e riguarda il secco “no” all’annunciato impianto di betonaggio, una sorta di frantoio per la frantumazione dello smerino, cioè l’avanzo […] L'articolo La valle del Lago di Como è tappezzata di volantini: esplode la protesta contro l’impianto proviene da ComoZero .",
+      "published_at": "2026-11-15T17:59:16+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -186,20 +214,6 @@
       ]
     },
     {
-      "title": "Neonatologia aperta ai nonni a Piacenza per la Giornata mondiale della prematurità",
-      "url": "https://www.piacenzasera.it/2026/11/neonatologia-aperta-ai-nonni-a-piacenza-per-la-giornata-mondiale-della-prematurita/670484",
-      "summary": "L'ospedale di Piacenza apre eccezionalmente le porte del suo rinnovato reparto di Neonatologia ai nonni dei piccoli ricoverati The post Neonatologia aperta ai nonni a Piacenza per la Giornata mondiale della prematurità appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T14:51:23+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Provincia di Como, spari in un appartamento: uomo ferito da un parente. All’alba l’arresto",
       "url": "https://comozero.it/attualita/sparatoria-cermenate-via-crocifisso-arresto-carabinieri-ferito-niguarda",
       "summary": "Tensione ieri sera, sabato 14 novembre, in un’abitazione in via Crocifisso a Cermenate. Intorno alle ore 21 un uomo è rimasto ferito da un colpo di arma da fuoco esploso da un rivale, poi fuggito. Le indagini condotte dai militari dell’Arma hanno permesso di stringere il cerchio sul responsabile: all’alba di oggi, domenica 15 novembre, […] L'articolo Provincia di Como, spari in un appartamento: uomo ferito da un parente. All’alba l’arresto proviene da ComoZero .",
@@ -267,20 +281,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Un sabato con la Colletta Alimentare: 600 volontari e 55 tonnellate raccolte",
-      "url": "https://www.piacenzasera.it/2026/11/un-sabato-con-la-colletta-alimentare-tanti-volontari-impegnati-nel-piacentino/670449",
-      "summary": "Nelle foto alcuni momenti della colletta in diversi punti vendita del piacentino The post Un sabato con la Colletta Alimentare: 600 volontari e 55 tonnellate raccolte appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T12:43:27+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -376,34 +376,6 @@
       "published_at": "2026-11-15T07:11:39+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Uno sparo e scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata in un appartamento di Cermenate",
-      "url": "https://www.ciaocomo.it/2026/11/14/uno-sparo-e-poi-scappa-i-carabinieri-sulle-sue-tracce-grave-un-uomo-ferito-in-serata-a-cermenate/347981",
-      "summary": "E' successo in un appartamento di via Crocifisso. L'uomo colpito è stato portato in ambulanza al Niguarda a Milano: condizioni serie, subito operato. The post Uno sparo e scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata in un appartamento di Cermenate appeared first on CiaoComo .",
-      "published_at": "2026-11-14T22:31:36+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
-      ]
-    },
-    {
-      "title": "Paura nel box di via Vergani a Cantù: scoppia l’incendio ed arrivano tanti vigili del fuoco per domare le fiamme",
-      "url": "https://www.ciaocomo.it/2026/11/14/paura-nel-box-di-via-vergani-a-cantu-scoppia-lincendio-tanti-vigili-del-fuoco-per-domare-le-fiamme/347983",
-      "summary": "Quattro squadre da Como e dal comando canturino per fermare il rogo. Cause da accertare, importante la mobilitazione. Nessun ferito. The post Paura nel box di via Vergani a Cantù: scoppia l’incendio ed arrivano tanti vigili del fuoco per domare le fiamme appeared first on CiaoComo .",
-      "published_at": "2026-11-14T21:45:42+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
