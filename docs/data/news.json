@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T02:14:44.296425+00:00",
+  "generated_at": "2026-11-15T02:58:38.627058+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Esce di strada a Podenzano, 30enne soccorso con l’eliambulanza notturna",
+      "url": "https://www.piacenzasera.it/2026/11/esce-di-strada-a-podenzano-30enne-soccorso-con-leliambulanza-notturna/670417",
+      "summary": "Da Bologna è stato fatto arrivare l'elisoccorso notturno per il trasporto d'urgenza del ferito, un uomo di circa 30 anni all'ospedale Maggiore di Parma The post Esce di strada a Podenzano, 30enne soccorso con l’eliambulanza notturna appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T01:45:02+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "bo",
+        "pr"
+      ],
+      "territory_codes": [
+        "BO",
+        "PR"
+      ]
+    },
     {
       "title": "Cantù, incendio in un box sotterraneo: sul posto quattro mezzi dei vigili del fuoco",
       "url": "https://comozero.it/cronaca/cantu-incendio-in-un-box-sotterraneo-sul-posto-quattro-mezzi-dei-vigili-del-fuoco",
