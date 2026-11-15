@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T08:59:54.782167+00:00",
+  "generated_at": "2026-11-15T09:54:06.455943+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,50 @@
     }
   ],
   "articles": [
+    {
+      "title": "Lombardia e la festa golosa: una maxi racchetta di torrone per celebrare il tennis",
+      "url": "https://comozero.it/attualita/maxi-racchetta-di-torrone-per-celebrare-tennis",
+      "summary": "La 29ª edizione della Festa del Torrone di Cremona celebra il periodo d’oro del tennis italiano unendo maestria dolciaria, territorio e inclusione sociale. Oggi, sabato 14 novembre, al Palatorrone di Piazza Roma è stata ufficialmente svelata la spettacolare Racchetta di Torrone, la maxi scultura di 2metri realizzata da Rivoltini Alimentare Dolciaria e dedicata al mondo del tennis e ai suoi […] L'articolo Lombardia e la festa golosa: una maxi racchetta di torrone per celebrare il tennis proviene da ComoZero .",
+      "published_at": "2026-11-15T09:20:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "cr",
+        "rm"
+      ],
+      "territory_codes": [
+        "CR",
+        "RM"
+      ]
+    },
+    {
+      "title": "Due mulini storici comaschi tornano a vivere: ecco quali",
+      "url": "https://comozero.it/attualita/mulini-storici-como-regione-lombardia-bando-recupero",
+      "summary": "Il patrimonio di pietra, acqua, legno e saperi antichi della Lombardia torna a valorizzarsi. Sono due i mulini storici della provincia di Como che rinascono a nuova vita grazie alla prima edizione del bando regionale dedicato al recupero e alla valorizzazione di questi preziosi testimoni del passato. Complessivamente, Regione Lombardia ha stanziato un fondo totale […] L'articolo Due mulini storici comaschi tornano a vivere: ecco quali proviene da ComoZero .",
+      "published_at": "2026-11-15T09:01:11+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati”",
+      "url": "https://primacomo.it/altro/ufficio-postale-ancora-chiuso-il-sindaco-scrive-allazienda-siamo-esasperati",
+      "summary": "Quinto rinvio, l’ufficio postale di Valmorea resta chiuso e il sindaco va su tutte le furie. Ufficio postale, quinto rinvio “Sono esasperato e, come me, lo sono i cittadini di Valmorea”, esordisce Giampiero Pandiani. D’altra parte, la struttura non è accessibile dalla scorsa primavera e, stando all’ultima comunicazione fornita da “Poste Italiane” lo rimarrà sino […] Continua la lettura di Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati” sul portale Prima Como .",
+      "published_at": "2026-11-15T09:00:33+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Nuovo incontro per conoscere i servizi digitali dedicati ai cittadini",
       "url": "https://primacomo.it/attualita/nuovo-incontro-per-conoscere-i-servizi-digitali-dedicati-ai-cittadini",
@@ -53,6 +97,20 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Tre ubriachi ed un’auto ribaltata nella notte a Cermenate: ragazzo ferito in via Italia Libera",
+      "url": "https://www.ciaocomo.it/2026/11/15/tre-ubriachi-ed-unauto-ribaltata-nella-notte-a-cermenate-ragazzo-ferito-in-via-italia-libera/347987",
+      "summary": "Gli interventi effettuati tra Como e Gravedona. Vettura rovesciata alle 4 in via Maestri Comacini: a bordo tre ragazze di 19 anni, tutte contuse. The post Tre ubriachi ed un’auto ribaltata nella notte a Cermenate: ragazzo ferito in via Italia Libera appeared first on CiaoComo .",
+      "published_at": "2026-11-15T07:22:21+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -86,9 +144,9 @@
       ]
     },
     {
-      "title": "Uno sparo e poi scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata a Cermenate",
+      "title": "Uno sparo e scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata in un appartamento di Cermenate",
       "url": "https://www.ciaocomo.it/2026/11/14/uno-sparo-e-poi-scappa-i-carabinieri-sulle-sue-tracce-grave-un-uomo-ferito-in-serata-a-cermenate/347981",
-      "summary": "E' successo in un appartamento di via Crocifisso. L'uomo colpito è stato portato in ambulanza al Niguarda a Milano: condizioni serie, subito operato. The post Uno sparo e poi scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata a Cermenate appeared first on CiaoComo .",
+      "summary": "E' successo in un appartamento di via Crocifisso. L'uomo colpito è stato portato in ambulanza al Niguarda a Milano: condizioni serie, subito operato. The post Uno sparo e scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata in un appartamento di Cermenate appeared first on CiaoComo .",
       "published_at": "2026-11-14T22:31:36+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -100,9 +158,9 @@
       ]
     },
     {
-      "title": "Paura nel box di via Vergani a Cantù: scoppia l’incendio, tanti vigili del fuoco per domare le fiamme",
+      "title": "Paura nel box di via Vergani a Cantù: scoppia l’incendio ed arrivano tanti vigili del fuoco per domare le fiamme",
       "url": "https://www.ciaocomo.it/2026/11/14/paura-nel-box-di-via-vergani-a-cantu-scoppia-lincendio-tanti-vigili-del-fuoco-per-domare-le-fiamme/347983",
-      "summary": "Quattro squadre da Como e dal comando canturino per fermare il rogo. Cause da accertare, importante la mobilitazione. Nessun ferito. The post Paura nel box di via Vergani a Cantù: scoppia l’incendio, tanti vigili del fuoco per domare le fiamme appeared first on CiaoComo .",
+      "summary": "Quattro squadre da Como e dal comando canturino per fermare il rogo. Cause da accertare, importante la mobilitazione. Nessun ferito. The post Paura nel box di via Vergani a Cantù: scoppia l’incendio ed arrivano tanti vigili del fuoco per domare le fiamme appeared first on CiaoComo .",
       "published_at": "2026-11-14T21:45:42+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -314,20 +372,6 @@
       ]
     },
     {
-      "title": "“Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria",
-      "url": "https://www.ciaocomo.it/2026/11/14/guccini-racconta-francesco-al-joshua-blues-club-una-serata-di-musica-per-sostenere-lo-spazio-gloria/347818",
-      "summary": "Roberto Antonini e Carlo Fanton protagonisti del primo appuntamento musicale di Gloria Off, il progetto itinerante a sostegno della campagna di raccolta fondi per la riapertura della storica sala comasca The post “Guccini racconta Francesco”, al Joshua Blues Club una serata di musica per sostenere lo Spazio Gloria appeared first on CiaoComo .",
-      "published_at": "2026-11-14T13:00:48+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Oltre cento studenti coinvolti nel progetto OrientaMente",
       "url": "https://primacomo.it/attualita/oltre-cento-studenti-coinvolti-nel-progetto-orientamente",
       "summary": "Progetto OrientaMente, coinvolto oltre cento studenti dell’istituto comprensivo Segantini di Asso. Promosso dall’associazione giovanile Lo Snodo. Una scelta per il futuro Nella sala consiliare del Comune di Asso si è tenuto l’incontro serale di restituzione dei test alle famiglie nell’ambito di OrientaMente: il progetto dedicato alla scelta scolastica promosso dall’associazione giovanile Lo Snodo. L’iniziativa ha […] Continua la lettura di Oltre cento studenti coinvolti nel progetto OrientaMente sul portale Prima Como .",
@@ -496,20 +540,6 @@
       "published_at": "2026-11-14T08:10:02+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione",
-      "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
-      "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
-      "published_at": "2026-11-14T07:52:18+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -692,20 +722,6 @@
       "url": "https://primacomo.it/attualita/giornata-mondiale-dei-poveri-linvito-del-vescovo-alla-solidarieta",
       "summary": "La decima Giornata mondiale dei poveri, istituita da Papa Francesco nel 2016, al termine del Giubileo straordinario della misericordia, si terrà domenica 15 novembre in tutta la diocesi di Como. Giornata mondiale dei poveri Una ricorrenza che invita le comunità cristiane a interrogarsi sul posto riservato alle persone più fragili nella vita della Chiesa e […] Continua la lettura di Giornata mondiale dei poveri: l’invito del vescovo alla solidarietà sul portale Prima Como .",
       "published_at": "2026-11-11T14:25:34+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Omicidio Ramona, il compagno confessa: “Sono colpevole”",
-      "url": "https://primacomo.it/altro/omicidio-ramona-il-compagno-confessa-sono-colpevole",
-      "summary": "Processo per l’omicidio di Ramona Rinaldi, il compagno confessa: “Sono colpevole”. Omicidio Ramona, la confessione Colpo di scena oggi, mercoledì 11 novembre, davanti ai giudici della Corte d’Assise di Como. Daniele Re, imputato per l’omicidio della compagna avvenuto nella loro abitazione di Veniano, nella notte tra il 20 e il 21 febbraio 2025, ha confessato […] Continua la lettura di Omicidio Ramona, il compagno confessa: “Sono colpevole” sul portale Prima Como .",
-      "published_at": "2026-11-11T14:10:19+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
