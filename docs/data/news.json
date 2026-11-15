@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T14:51:15.408477+00:00",
+  "generated_at": "2026-11-15T15:47:55.917335+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -28,6 +28,50 @@
   ],
   "articles": [
     {
+      "title": "Piacenza contro il Rovato al Maffeis, LA DIRETTA (3-1)",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-contro-il-rovato-al-maffeis-alle-1430-il-calcio-dinizio/670455",
+      "summary": "Il Piacenza sul campo di Rovato in attesa di cominciare The post Piacenza contro il Rovato al Maffeis, LA DIRETTA (3-1) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T15:08:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Diego Pleuteri vince il Premio Anima 2026",
+      "url": "https://primacomo.it/attualita/diego-pleuteri-vince-il-premio-anima-2026",
+      "summary": "Diego Pleuteri vince il Premio Anima 2026. L’anzanese, dallo scorso ottobre Direttore Artistico junior del Teatro Stabile di Torino, è stato premiato con il prestigioso riconoscimento ideato da Anima per il sociale nei valori d’impresa, l’organizzazione non profit promossa da Unindustria. Un riconoscimento che valorizza il contributo delle personalità del mondo dell’arte e della cultura […] Continua la lettura di Diego Pleuteri vince il Premio Anima 2026 sul portale Prima Como .",
+      "published_at": "2026-11-15T15:00:56+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "to"
+      ],
+      "territory_codes": [
+        "CO",
+        "TO"
+      ]
+    },
+    {
+      "title": "Neonatologia aperta ai nonni a Piacenza per la Giornata mondiale della prematurità",
+      "url": "https://www.piacenzasera.it/2026/11/neonatologia-aperta-ai-nonni-a-piacenza-per-la-giornata-mondiale-della-prematurita/670484",
+      "summary": "L'ospedale di Piacenza apre eccezionalmente le porte del suo rinnovato reparto di Neonatologia ai nonni dei piccoli ricoverati The post Neonatologia aperta ai nonni a Piacenza per la Giornata mondiale della prematurità appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T14:51:23+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
       "title": "Nibbiano&Valtidone si misura con Villa Valle, alle 14:30 il calcio d’inizio",
       "url": "https://www.piacenzasera.it/2026/11/nibbianovaltidone-si-misura-con-villa-valle-alle-1430-il-calcio-dinizio/670461",
       "summary": "Il Nibbiano&Valtidone sul campo di Villa D'almè in attesa di cominciare; il Fiorenzuola si misurerà con la Virtus Verona alle 17:30 The post Nibbiano&Valtidone si misura con Villa Valle, alle 14:30 il calcio d’inizio appeared first on piacenzasera.it .",
@@ -39,20 +83,6 @@
       ],
       "territory_codes": [
         "VR"
-      ]
-    },
-    {
-      "title": "Piacenza contro il Rovato al Maffeis, LA DIRETTA (1-0)",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-contro-il-rovato-al-maffeis-alle-1430-il-calcio-dinizio/670455",
-      "summary": "Il Piacenza sul campo di Rovato in attesa di cominciare The post Piacenza contro il Rovato al Maffeis, LA DIRETTA (1-0) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T14:35:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -171,7 +201,7 @@
     },
     {
       "title": "Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati”",
-      "url": "https://primacomo.it/altro/ufficio-postale-ancora-chiuso-il-sindaco-scrive-allazienda-siamo-esasperati",
+      "url": "https://primacomo.it/attualita/ufficio-postale-ancora-chiuso-il-sindaco-scrive-allazienda-siamo-esasperati",
       "summary": "Quinto rinvio, l’ufficio postale di Valmorea resta chiuso e il sindaco va su tutte le furie. Ufficio postale, quinto rinvio “Sono esasperato e, come me, lo sono i cittadini di Valmorea”, esordisce Giampiero Pandiani. D’altra parte, la struttura non è accessibile dalla scorsa primavera e, stando all’ultima comunicazione fornita da “Poste Italiane” lo rimarrà sino […] Continua la lettura di Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati” sul portale Prima Como .",
       "published_at": "2026-11-15T09:00:33+00:00",
       "source_id": "primacomo",
@@ -660,20 +690,6 @@
       "url": "https://primacomo.it/attualita/brics-rinnova-la-collaborazione-con-il-como-1907",
       "summary": "Bric’s, storica azienda di Olgiate Comasco, e Como 1907 rinnovano la collaborazione per la stagione 2026-2027. Bric’s si conferma Official Lario Business Club Member di Como 1907 Bric’s annuncia il rinnovo della collaborazione con Como 1907 per la stagione 2026-2027, confermando la propria presenza nell’Official Lario Business Club. L’accordo prosegue in un momento particolarmente significativo […] Continua la lettura di Bric’s rinnova la collaborazione con il Como 1907 sul portale Prima Como .",
       "published_at": "2026-11-12T12:49:24+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Blitz dei Carabinieri contro lo spaccio",
-      "url": "https://primacomo.it/cronaca/blitz-dei-carabinieri-contro-lo-spaccio",
-      "summary": "Diciassette bivacchi distrutti, 146 persone identificate, 107 veicoli ispezionati e 3 persone arrestate: la massiccia operazione dell’Arma dei Carabinieri contro il fenomeno dell’occupazione e del controllo militare delle aree boschive da parte delle reti del narcotraffico ha interessato anche il territorio di Fino Mornasco L’operazione Nel pomeriggio di mercoledì 10 novembre, una massiccia operazione coordinata […] Continua la lettura di Blitz dei Carabinieri contro lo spaccio sul portale Prima Como .",
-      "published_at": "2026-11-12T10:32:53+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
