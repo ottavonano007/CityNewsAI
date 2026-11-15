@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T08:15:15.461842+00:00",
+  "generated_at": "2026-11-15T08:59:54.782167+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -39,6 +39,20 @@
       ],
       "territory_codes": [
         "CO"
+      ]
+    },
+    {
+      "title": "Piacenza Special, il derby è biancorosso",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-special-il-derby-e-biancorosso/670424",
+      "summary": "Il Piacenza Special supera la Cremonese per 3-1 grazie alla tripletta di Kone e conquista una bella vittoria nella terza giornata di campionato The post Piacenza Special, il derby è biancorosso appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T07:58:09+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
@@ -83,6 +97,20 @@
       ],
       "territory_codes": [
         "MI"
+      ]
+    },
+    {
+      "title": "Paura nel box di via Vergani a Cantù: scoppia l’incendio, tanti vigili del fuoco per domare le fiamme",
+      "url": "https://www.ciaocomo.it/2026/11/14/paura-nel-box-di-via-vergani-a-cantu-scoppia-lincendio-tanti-vigili-del-fuoco-per-domare-le-fiamme/347983",
+      "summary": "Quattro squadre da Como e dal comando canturino per fermare il rogo. Cause da accertare, importante la mobilitazione. Nessun ferito. The post Paura nel box di via Vergani a Cantù: scoppia l’incendio, tanti vigili del fuoco per domare le fiamme appeared first on CiaoComo .",
+      "published_at": "2026-11-14T21:45:42+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -216,9 +244,9 @@
       ]
     },
     {
-      "title": "Coppia ubriaca in centro Como, la donna si scaglia contro la Polizia locale con calci e schiaffi: arrestata",
+      "title": "Coppia ubriaca in centro Como, la donna si scaglia contro la Polizia locale con calci e schiaffi: arrestata e condannata",
       "url": "https://www.ciaocomo.it/2026/11/14/coppia-ubriaca-in-centro-como-la-donna-si-scaglia-contro-la-polizia-locale-con-calci-e-schiaffi-arrestata/347967",
-      "summary": "E' successo ieri sera in piazza Medaglia d'Oro: gli agenti faticano a fermarla, chiesto l'aiuto di una pattuglia di colleghi. Per lei oggi il processo e la condanna con pena sospesa. The post Coppia ubriaca in centro Como, la donna si scaglia contro la Polizia locale con calci e schiaffi: arrestata appeared first on CiaoComo .",
+      "summary": "E' successo ieri sera in piazza Medaglia d'Oro: gli agenti faticano a fermarla, chiesto l'aiuto di una pattuglia di colleghi. Per lei oggi il processo e la condanna con pena sospesa. The post Coppia ubriaca in centro Como, la donna si scaglia contro la Polizia locale con calci e schiaffi: arrestata e condannata appeared first on CiaoComo .",
       "published_at": "2026-11-14T15:08:40+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -241,22 +269,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Max Cremona premiato a Ferrara con la medaglia d’oro al valore atletico del Coni",
-      "url": "https://www.piacenzasera.it/2026/11/max-cremona-premiato-a-ferrara-con-la-medaglia-doro-al-valore-atletico-del-coni/670367",
-      "summary": "The post Max Cremona premiato a Ferrara con la medaglia d’oro al valore atletico del Coni appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T14:07:41+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "cr",
-        "fe"
-      ],
-      "territory_codes": [
-        "CR",
-        "FE"
       ]
     },
     {
@@ -496,20 +508,6 @@
       "url": "https://comozero.it/pubbliredazionale/estetica-e-acconciatura-al-cfp-della-provincia-di-como-il-benessere-diventa-una-professione",
       "summary": "Creatività, competenze tecniche, attenzione alla persona e capacità relazionali: i percorsi del Settore Benessere del Centro di Formazione Professionale della Provincia di Como preparano i futuri professionisti dell’estetica e dell’acconciatura, attraverso una formazione pratica, esperienze sul campo e occasioni di confronto con il mondo del lavoro. Protagonisti dell’ideazione e della creazione di nuovi stili, capaci […] L'articolo Estetica e acconciatura: al Cfp della provincia di Como il benessere diventa una professione proviene da ComoZero .",
       "published_at": "2026-11-14T07:52:18+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Centro Como, segnalazione del lettore: “Per la seconda sera consecutiva la strada è al buio”",
-      "url": "https://comozero.it/attualita/centro-como-segnalazione-del-lettore-per-la-seconda-sera-consecutiva-la-strada-e-al-buio",
-      "summary": "“Per la seconda sera via Maurizio Monti è al buio”, così segnala con foto un nostro affezionato lettore, evidenziando come il problema non sia solo di oggi. Siamo in centro a Como, a un passo dalla città murata, e una parte dell’illuminazione ha qualche evidente problema (era successo non molto fa anche in via Volta). […] L'articolo Centro Como, segnalazione del lettore: “Per la seconda sera consecutiva la strada è al buio” proviene da ComoZero .",
-      "published_at": "2026-11-13T23:02:13+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
