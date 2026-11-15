@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T12:59:57.045085+00:00",
+  "generated_at": "2026-11-15T13:58:44.833860+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Nibbiano&Valtidone si misura con Villa Valle, alle 14:30 il calcio d’inizio",
+      "url": "https://www.piacenzasera.it/2026/11/nibbianovaltidone-si-misura-con-villa-valle-alle-1430-il-calcio-dinizio/670461",
+      "summary": "Il Nibbiano&Valtidone sul campo di Villa D'almè in attesa di cominciare; il Fiorenzuola si misurerà con la Virtus Verona alle 17:30 The post Nibbiano&Valtidone si misura con Villa Valle, alle 14:30 il calcio d’inizio appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T13:30:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "vr"
+      ],
+      "territory_codes": [
+        "VR"
+      ]
+    },
+    {
+      "title": "Piacenza contro il Rovato al Maffeis, LA DIRETTA (0-0)",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-contro-il-rovato-al-maffeis-alle-1430-il-calcio-dinizio/670455",
+      "summary": "Il Piacenza sul campo di Rovato in attesa di cominciare The post Piacenza contro il Rovato al Maffeis, LA DIRETTA (0-0) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T13:30:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Colletta Alimentare super: in provincia di Como raccolte 143 tonnellate di cibo",
+      "url": "https://comozero.it/attualita/colletta-alimentare-super-in-provincia-di-como-raccolte-143-tonnellate-di-cibo",
+      "summary": "Una risposta straordinaria in arrivo da tutta la Lombardia per la 30esima Giornata Nazionale della Colletta Alimentare. E in mezzo a tanta generosità la Provincia di Como ha raccolto 143 tonnellate di cibo. In Lombardia l’iniziativa ha coinvolto complessivamente 1.835 punti vendita e circa 46.000 volontari e sono state raccolte 2.003 tonnellate di alimenti, facendo […] L'articolo Colletta Alimentare super: in provincia di Como raccolte 143 tonnellate di cibo proviene da ComoZero .",
+      "published_at": "2026-11-15T13:20:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La salute come bene da tutelare: il Comune promuove un ciclo di incontri",
+      "url": "https://primacomo.it/attualita/la-salute-come-bene-da-tutelare-il-comune-promuove-un-ciclo-di-incontri",
+      "summary": "La salute come bene da tutelare ogni giorno, attraverso la prevenzione, l’informazione e il confronto con professionisti qualificati. Con questo obiettivo nasce “Il valore della salute”, un ciclo di incontri promosso dal Comune di Merone in collaborazione con Homedica, centro medico polispecialistico presente sul territorio. Primo appuntamento Il primo appuntamento sarà giovedì 26 novembre alle […] Continua la lettura di La salute come bene da tutelare: il Comune promuove un ciclo di incontri sul portale Prima Como .",
+      "published_at": "2026-11-15T13:00:59+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Un sabato con la Colletta Alimentare: 600 volontari e 55 tonnellate raccolte",
+      "url": "https://www.piacenzasera.it/2026/11/un-sabato-con-la-colletta-alimentare-tanti-volontari-impegnati-nel-piacentino/670449",
+      "summary": "Nelle foto alcuni momenti della colletta in diversi punti vendita del piacentino The post Un sabato con la Colletta Alimentare: 600 volontari e 55 tonnellate raccolte appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T12:43:27+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Riqualificazione energetica: in arrivo 415mila euro per il Municipio",
       "url": "https://primacomo.it/attualita/riqualificazione-energetica-in-arrivo-415mila-euro-per-il-municipio",
@@ -142,22 +212,6 @@
       ]
     },
     {
-      "title": "Esce di strada a Podenzano, 30enne soccorso con l’eliambulanza notturna",
-      "url": "https://www.piacenzasera.it/2026/11/esce-di-strada-a-podenzano-30enne-soccorso-con-leliambulanza-notturna/670417",
-      "summary": "Da Bologna è stato fatto arrivare l'elisoccorso notturno per il trasporto d'urgenza del ferito, un uomo di circa 30 anni all'ospedale Maggiore di Parma The post Esce di strada a Podenzano, 30enne soccorso con l’eliambulanza notturna appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T01:45:02+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bo",
-        "pr"
-      ],
-      "territory_codes": [
-        "BO",
-        "PR"
-      ]
-    },
-    {
       "title": "Uno sparo e scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata in un appartamento di Cermenate",
       "url": "https://www.ciaocomo.it/2026/11/14/uno-sparo-e-poi-scappa-i-carabinieri-sulle-sue-tracce-grave-un-uomo-ferito-in-serata-a-cermenate/347981",
       "summary": "E' successo in un appartamento di via Crocifisso. L'uomo colpito è stato portato in ambulanza al Niguarda a Milano: condizioni serie, subito operato. The post Uno sparo e scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata in un appartamento di Cermenate appeared first on CiaoComo .",
@@ -227,36 +281,6 @@
       "territory_codes": [
         "CO",
         "PV"
-      ]
-    },
-    {
-      "title": "Taglio del nastro per la Fiera dei Vini con 310 cantine a Piacenza Expo",
-      "url": "https://www.piacenzasera.it/2026/11/taglio-del-nastro-per-la-fiera-dei-vini-con-310-cantine-a-piacenza-expo/670397",
-      "summary": "Tutte le venti regioni italiane rappresentate, trecentodieci cantine da tutto lo Stivale e non solo The post Taglio del nastro per la Fiera dei Vini con 310 cantine a Piacenza Expo appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T17:54:31+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Scontro tra auto e trattore a Cortemaggiore, grave un 70enne a Parma",
-      "url": "https://www.piacenzasera.it/2026/11/scontro-tra-auto-e-trattore-a-cortemaggiore-interviene-lelicottero/670393",
-      "summary": "Sul posto sono giunti i soccorsi del 118 e da Milano è stato richiesto l'intervento dell'elisoccorso abilitato al volo in condizioni di oscurità The post Scontro tra auto e trattore a Cortemaggiore, grave un 70enne a Parma appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T17:26:47+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "mi",
-        "pr"
-      ],
-      "territory_codes": [
-        "MI",
-        "PR"
       ]
     },
     {
@@ -433,20 +457,6 @@
       "territory_codes": [
         "CO",
         "VA"
-      ]
-    },
-    {
-      "title": "Ferrovie Nord Milano da cento anni quotata in borsa: “Prossima sfida, biglietto digitale unico per la Lombardia”",
-      "url": "https://comozero.it/attualita/ferrovie-nord-milano-da-cento-anni-quotata-in-borsa-prossima-sfida-un-biglietto-digitale-unico-per-la-lobardia",
-      "summary": "Un viaggio lungo 100 anni che dimostra la solidità di un’azienda che ha in comune con Regione Lombardia la visione: una mobilità sempre più interconnessa e condivisa, dove non esistono differenze tra centri e periferia”. Lo ha detto l’assessore regionale a Trasporti e Mobilità sostenibile, Franco Lucente, intervenuto alle celebrazioni per il centenario della quotazione […] L'articolo Ferrovie Nord Milano da cento anni quotata in borsa: “Prossima sfida, biglietto digitale unico per la Lombardia” proviene da ComoZero .",
-      "published_at": "2026-11-14T10:10:08+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
       ]
     },
     {
@@ -659,20 +669,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "“Sentieri di casa nostra” invita alla terza serata del percorso autunnale",
-      "url": "https://primacomo.it/cultura/sentieri-di-casa-nostra-invita-alla-terza-serata-del-percorso-autunnale",
-      "summary": "“Sentieri di casa nostra”, la assegna autunnale organizzata da biblioteca e assessorato alla Cultura di Olgiate Comasco, invita alla terza serata. “Sentieri di casa nostra. Passeggiate e itinerari tra lago, colline e Prealpi” Quattro giovedì per riscoprire il territorio che ci circonda: a piedi e in bicicletta, tra sentieri delle Prealpi, passeggiate comasche, itinerari d’autore […] Continua la lettura di “Sentieri di casa nostra” invita alla terza serata del percorso autunnale sul portale Prima Como .",
-      "published_at": "2026-11-12T09:51:44+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     }
   ]
