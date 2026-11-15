@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-15T16:50:22.164903+00:00",
+  "generated_at": "2026-11-15T17:45:26.304246+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,36 @@
     }
   ],
   "articles": [
+    {
+      "title": "Qualità della vita 2026, Como sale al 41esimo posto: boom sicurezza ma crolla il reddito",
+      "url": "https://comozero.it/attualita/qualita-della-vita-2026-como-classifica-italiaoggi",
+      "summary": "Como guadagna una posizione nella graduatoria nazionale e si attesta al 41° posto nella classifica della qualità della vita in Italia. È questo il verdetto che emerge dalla 28ª edizione della celebre indagine realizzata da ItaliaOggi–Ital Communications, in collaborazione con l’Università La Sapienza di Roma. Osservando i flussi delle singole voci, il segnale più incoraggiante […] L'articolo Qualità della vita 2026, Como sale al 41esimo posto: boom sicurezza ma crolla il reddito proviene da ComoZero .",
+      "published_at": "2026-11-15T17:02:41+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "RM"
+      ]
+    },
+    {
+      "title": "Qualità della vita, Piacenza scende al 44esimo posto. Bene sicurezza e reddito, giù lavoro e turismo",
+      "url": "https://www.piacenzasera.it/2026/11/qualita-della-vita-piacenza-scende-al-44esimo-posto-bene-sicurezza-e-reddito-giu-lavoro-e-turismo/670515",
+      "summary": "Il territorio piacentino è premiato dall'avanzamento su reati e ricchezza ma penalizzato dal calo in affari, sicurezza sociale e attrattività turistica The post Qualità della vita, Piacenza scende al 44esimo posto. Bene sicurezza e reddito, giù lavoro e turismo appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T16:29:04+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Como e i “fascicoli” del sindaco: “Questo non è confronto politico ma sa di intimidazione”",
       "url": "https://comozero.it/attualita/como-e-i-fascicoli-del-sindaco-questo-non-e-confronto-politico-ma-sa-di-intimidazione",
@@ -67,20 +97,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "Nibbiano&Valtidone, un altro pareggio senza reti sul campo del Villa Valle",
-      "url": "https://www.piacenzasera.it/2026/11/nibbianovaltidone-si-misura-con-villa-valle-alle-1430-il-calcio-dinizio/670461",
-      "summary": "Il Nibbiano&Valtidone sul campo di Villa D'almè termina con 0-0 contro Villa Valle; il Fiorenzuola si misurerà con la Virtus Verona alle 17:30 The post Nibbiano&Valtidone, un altro pareggio senza reti sul campo del Villa Valle appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T15:28:48+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "vr"
-      ],
-      "territory_codes": [
-        "VR"
       ]
     },
     {
@@ -256,20 +272,6 @@
       ]
     },
     {
-      "title": "Piacenza Special, il derby è biancorosso",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-special-il-derby-e-biancorosso/670424",
-      "summary": "Il Piacenza Special supera la Cremonese per 3-1 grazie alla tripletta di Kone e conquista una bella vittoria nella terza giornata di campionato The post Piacenza Special, il derby è biancorosso appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T07:58:09+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Tre ubriachi ed un’auto ribaltata nella notte a Cermenate. Ma anche un ragazzo ferito in via Italia Libera",
       "url": "https://www.ciaocomo.it/2026/11/15/tre-ubriachi-ed-unauto-ribaltata-nella-notte-a-cermenate-ragazzo-ferito-in-via-italia-libera/347987",
       "summary": "Gli interventi effettuati tra Como e Gravedona. Vettura rovesciata alle 4 in via Maestri Comacini: a bordo tre ragazze di 19 anni, tutte contuse. The post Tre ubriachi ed un’auto ribaltata nella notte a Cermenate. Ma anche un ragazzo ferito in via Italia Libera appeared first on CiaoComo .",
@@ -376,20 +378,6 @@
       "published_at": "2026-11-14T16:00:54+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Dai beni confiscati alla rigenerazione urbana, a scuola  di cittadinanza attiva con «RigeneraBene» a Como",
-      "url": "https://www.ciaocomo.it/2026/11/14/dai-beni-confiscati-alla-rigenerazione-urbana-a-scuola-di-cittadinanza-attiva-con-rigenerabene-a-como/347961",
-      "summary": "Martedì 17 novembre una conferenza con Giuseppe Battarino per il progetto Giovani Pensatori, con dibattito con studenti e studentesse delle scuole secondarie di Como The post Dai beni confiscati alla rigenerazione urbana, a scuola di cittadinanza attiva con «RigeneraBene» a Como appeared first on CiaoComo .",
-      "published_at": "2026-11-14T15:45:05+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -527,22 +515,6 @@
         "CO",
         "NA",
         "RM"
-      ]
-    },
-    {
-      "title": "Farmaci e salute, Como e Varese fanno squadra: “Una rete che protegge i cittadini”",
-      "url": "https://comozero.it/attualita/farmaci-e-salute-como-e-varese-fanno-squadra-una-rete-che-protegge-i-cittadini",
-      "summary": "Nel primo semestre 2026 registrate 602 segnalazioni di sospette reazioni avverse ai farmaci sulle 846 attribuite alle ATS lombarde. Dopo l’incontro di Varese, nel 2027 è prevista una seconda tappa a Como per coinvolgere farmacisti, studenti e docenti universitari. È una rete che coinvolge farmacie, ospedali, medici, università e istituzioni, con un obiettivo preciso: individuare […] L'articolo Farmaci e salute, Como e Varese fanno squadra: “Una rete che protegge i cittadini” proviene da ComoZero .",
-      "published_at": "2026-11-14T10:49:13+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "VA"
       ]
     },
     {
