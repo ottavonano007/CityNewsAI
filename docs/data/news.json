@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-15T07:11:40.562254+00:00",
+  "generated_at": "2026-11-15T08:15:15.461842+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -28,6 +28,34 @@
   ],
   "articles": [
     {
+      "title": "Nuovo incontro per conoscere i servizi digitali dedicati ai cittadini",
+      "url": "https://primacomo.it/attualita/nuovo-incontro-per-conoscere-i-servizi-digitali-dedicati-ai-cittadini",
+      "summary": "Il Comune di Cantù è on line: nuovo incontro per conoscere i servizi digitali dedicati ai cittadini. L’incontro Il Comune di Cantù, in collaborazione con Halley Lombardia, organizza un nuovo incontro gratuito per illustrare i principali servizi digitali della Pubblica Amministrazione e le modalità per utilizzarli in modo semplice e pratico. L’incontro è in programma […] Continua la lettura di Nuovo incontro per conoscere i servizi digitali dedicati ai cittadini sul portale Prima Como .",
+      "published_at": "2026-11-15T08:10:09+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Provincia di Como, auto si ribalta nella notte: a bordo tre ragazze di 18 anni",
+      "url": "https://comozero.it/attualita/provincia-di-como-auto-si-ribalta-nella-notte-a-bordo-tre-ragazze-di-18-anni",
+      "summary": "Brutto incidente nella notte appena trascorsa. Alle 3:54 a Cermenate, lungo via Maestri Comacini, per cause in fase di accertamento, una vettura ha perso il controllo finendo per ribaltarsi sulla carreggiata. A bordo del mezzo viaggiavano tre ragazze di 18 anni, rimaste coinvolte nel cappottamento. La centrale operativa dell’emergenza urgenza ha inviato rapidamente sul luogo […] L'articolo Provincia di Como, auto si ribalta nella notte: a bordo tre ragazze di 18 anni proviene da ComoZero .",
+      "published_at": "2026-11-15T07:11:39+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Esce di strada a Podenzano, 30enne soccorso con l’eliambulanza notturna",
       "url": "https://www.piacenzasera.it/2026/11/esce-di-strada-a-podenzano-30enne-soccorso-con-leliambulanza-notturna/670417",
       "summary": "Da Bologna è stato fatto arrivare l'elisoccorso notturno per il trasporto d'urgenza del ferito, un uomo di circa 30 anni all'ospedale Maggiore di Parma The post Esce di strada a Podenzano, 30enne soccorso con l’eliambulanza notturna appeared first on piacenzasera.it .",
@@ -41,6 +69,20 @@
       "territory_codes": [
         "BO",
         "PR"
+      ]
+    },
+    {
+      "title": "Uno sparo e poi scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata a Cermenate",
+      "url": "https://www.ciaocomo.it/2026/11/14/uno-sparo-e-poi-scappa-i-carabinieri-sulle-sue-tracce-grave-un-uomo-ferito-in-serata-a-cermenate/347981",
+      "summary": "E' successo in un appartamento di via Crocifisso. L'uomo colpito è stato portato in ambulanza al Niguarda a Milano: condizioni serie, subito operato. The post Uno sparo e poi scappa: i carabinieri sulle sue tracce. Grave un uomo ferito in serata a Cermenate appeared first on CiaoComo .",
+      "published_at": "2026-11-14T22:31:36+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
       ]
     },
     {
@@ -243,20 +285,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Fumetti, manga e creatività animano il centro commerciale Gotico di Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/fumetti-manga-e-creativita-animano-il-centro-commerciale-gotico-di-piacenza/670363",
-      "summary": "Sabato 14 e domenica 15 novembre a Piacenza, due giornate tra incontri, cosplay, laboratori e K-pop The post Fumetti, manga e creatività animano il centro commerciale Gotico di Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T13:58:21+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -492,20 +520,6 @@
       ]
     },
     {
-      "title": "Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro",
-      "url": "https://comozero.it/attualita/como-servono-spazi-la-provincia-compra-un-intero-immobile-per-un-milione-e-100mila-euro",
-      "summary": "La Provincia di Como amplia il proprio patrimonio immobiliare e mette nero su bianco l’acquisto dei locali di via Borgo Vico 163. Villa Saporiti (nella foto) ha formalizzato l’impegno di spesa definitivo per rilevare l’edificio di circa 650 metri quadrati situato a pochi passi dalla sede centrale. L’operazione comporta un esborso complessivo di 1.104.100 euro […] L'articolo Como, servono spazi: la Provincia compra un intero immobile per un milione e 100mila euro proviene da ComoZero .",
-      "published_at": "2026-11-13T18:15:33+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Unipol – Amicacci: in palio la supercoppa italiana",
       "url": "https://primacomo.it/sport/unipol-amicacci-in-palio-la-supercoppa-italiana",
       "summary": "Domenica 15 novembre alle 10.30 andrà in scena la 25^ edizione della finale di Supercoppa Italiana Fipic tra Unipol Briantea84 Cantù (vincitrice dello scudetto 2025-26) e Deco Amicacci Abruzzo (vincitrice della Coppa Italia 2026). La competizione La competizione, intitolata alla memoria di Martin Mancini, si giocherà al Multieventi di Serravalle a San Marino con diretta […] Continua la lettura di Unipol – Amicacci: in palio la supercoppa italiana sul portale Prima Como .",
@@ -694,20 +708,6 @@
       "url": "https://primacomo.it/altro/omicidio-ramona-il-compagno-confessa-sono-colpevole",
       "summary": "Processo per l’omicidio di Ramona Rinaldi, il compagno confessa: “Sono colpevole”. Omicidio Ramona, la confessione Colpo di scena oggi, mercoledì 11 novembre, davanti ai giudici della Corte d’Assise di Como. Daniele Re, imputato per l’omicidio della compagna avvenuto nella loro abitazione di Veniano, nella notte tra il 20 e il 21 febbraio 2025, ha confessato […] Continua la lettura di Omicidio Ramona, il compagno confessa: “Sono colpevole” sul portale Prima Como .",
       "published_at": "2026-11-11T14:10:19+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Allarme bomba anche nelle scuole dell’Olgiatese",
-      "url": "https://primacomo.it/altro/allarme-bomba-anche-nelle-scuole-di-lurate-caccivio",
-      "summary": "Allarme bomba anche nelle scuole di Lurate Caccivio e Olgiate Comasco. Allarme bomba fasullo, nessuna evacuazione a Lurate Caccivio A spiegare la situazione è il sindaco Serena Arrighi: “Anche gli istituti scolastici di Lurate Caccivio sono stati interessati da segnalazioni di allarme bomba, analoghe a quelle pervenute in numerose scuole sul territorio nazionale. Sono stati […] Continua la lettura di Allarme bomba anche nelle scuole dell’Olgiatese sul portale Prima Como .",
-      "published_at": "2026-11-11T13:58:08+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
