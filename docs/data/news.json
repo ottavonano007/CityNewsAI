@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:58:44.833860+00:00",
+  "generated_at": "2026-11-15T14:51:15.408477+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -31,7 +31,7 @@
       "title": "Nibbiano&Valtidone si misura con Villa Valle, alle 14:30 il calcio d’inizio",
       "url": "https://www.piacenzasera.it/2026/11/nibbianovaltidone-si-misura-con-villa-valle-alle-1430-il-calcio-dinizio/670461",
       "summary": "Il Nibbiano&Valtidone sul campo di Villa D'almè in attesa di cominciare; il Fiorenzuola si misurerà con la Virtus Verona alle 17:30 The post Nibbiano&Valtidone si misura con Villa Valle, alle 14:30 il calcio d’inizio appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T13:30:48+00:00",
+      "published_at": "2026-11-15T14:35:48+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -42,10 +42,10 @@
       ]
     },
     {
-      "title": "Piacenza contro il Rovato al Maffeis, LA DIRETTA (0-0)",
+      "title": "Piacenza contro il Rovato al Maffeis, LA DIRETTA (1-0)",
       "url": "https://www.piacenzasera.it/2026/11/piacenza-contro-il-rovato-al-maffeis-alle-1430-il-calcio-dinizio/670455",
-      "summary": "Il Piacenza sul campo di Rovato in attesa di cominciare The post Piacenza contro il Rovato al Maffeis, LA DIRETTA (0-0) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T13:30:08+00:00",
+      "summary": "Il Piacenza sul campo di Rovato in attesa di cominciare The post Piacenza contro il Rovato al Maffeis, LA DIRETTA (1-0) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-15T14:35:08+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -53,6 +53,34 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Provincia di Como, spari in un appartamento: uomo ferito da un parente. All’alba l’arresto",
+      "url": "https://comozero.it/attualita/sparatoria-cermenate-via-crocifisso-arresto-carabinieri-ferito-niguarda",
+      "summary": "Tensione ieri sera, sabato 14 novembre, in un’abitazione in via Crocifisso a Cermenate. Intorno alle ore 21 un uomo è rimasto ferito da un colpo di arma da fuoco esploso da un rivale, poi fuggito. Le indagini condotte dai militari dell’Arma hanno permesso di stringere il cerchio sul responsabile: all’alba di oggi, domenica 15 novembre, […] L'articolo Provincia di Como, spari in un appartamento: uomo ferito da un parente. All’alba l’arresto proviene da ComoZero .",
+      "published_at": "2026-11-15T14:28:43+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Oltre gli stereotipi” per una vera prevenzione e tutela contro la violenza di genere",
+      "url": "https://primacomo.it/attualita/oltre-gli-stereotipi-per-una-vera-prevenzione-e-tutela-contro-la-violenza-di-genere",
+      "summary": "“Oltre gli stereotipi”, ampio programma di eventi promosso dal Comune di Olgiate Comasco in occasione della Giornata internazionale per l’eliminazione della violenza contro le donne. “Oltre gli stereotipi” La biblioteca comunale “Sergio Mondo” ospita la mostra “Com’eri vestita?”, un progetto dell’associazione Libere Sinergie. Attraverso abiti e testimonianze, l’esposizione invita a mettere in discussione uno dei […] Continua la lettura di “Oltre gli stereotipi” per una vera prevenzione e tutela contro la violenza di genere sul portale Prima Como .",
+      "published_at": "2026-11-15T14:00:17+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -653,22 +681,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Furto di un cellulare, una bici e un monopattino in un solo giorno: denunciato un 19enne",
-      "url": "https://primacomo.it/cronaca/furto-di-un-cellulare-una-bici-e-un-monopattino-in-un-solo-giorno-denunciato-un-19enne",
-      "summary": "Furto di un cellulare, una bici e un monopattino in un solo giorno: denunciato un 19enne. L’intervento della Polizia di stato è di ieri pomeriggio, 11 novembre, a Como. Fermato in un negozio di via Milano Denunciato in stato di libertà per furto aggravato commesso in concorso un 19enne tunisino, irregolare sul territorio italiano, in […] Continua la lettura di Furto di un cellulare, una bici e un monopattino in un solo giorno: denunciato un 19enne sul portale Prima Como .",
-      "published_at": "2026-11-12T10:20:16+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     }
   ]
