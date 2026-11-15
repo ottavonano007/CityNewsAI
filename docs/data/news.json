@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T21:46:16.633324+00:00",
+  "generated_at": "2026-11-15T22:46:55.918620+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 1,
+      "inserted": 1,
       "ok": true
     },
     {
@@ -28,9 +28,9 @@
   ],
   "articles": [
     {
-      "title": "Assigeco non riesce a contenere una dirompente Leonessa Brescia (81 – 92)",
+      "title": "Assigeco non riesce a contenere una dirompente Leonessa Brescia (81-92)",
       "url": "https://www.piacenzasera.it/2026/11/assigeco-non-riesce-a-contenere-una-dirompente-leonessa-brescia-81-92/670543",
-      "summary": "Si interrompe al Palabanca la serie positiva dei Lupi Assigeco The post Assigeco non riesce a contenere una dirompente Leonessa Brescia (81 – 92) appeared first on piacenzasera.it .",
+      "summary": "Si interrompe al Palabanca la serie positiva dei Lupi Assigeco The post Assigeco non riesce a contenere una dirompente Leonessa Brescia (81-92) appeared first on piacenzasera.it .",
       "published_at": "2026-11-15T20:17:39+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -348,20 +348,6 @@
       "published_at": "2026-11-15T08:10:09+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Tre ubriachi ed un’auto ribaltata nella notte a Cermenate. Ma anche un ragazzo ferito in via Italia Libera",
-      "url": "https://www.ciaocomo.it/2026/11/15/tre-ubriachi-ed-unauto-ribaltata-nella-notte-a-cermenate-ragazzo-ferito-in-via-italia-libera/347987",
-      "summary": "Gli interventi effettuati tra Como e Gravedona. Vettura rovesciata alle 4 in via Maestri Comacini: a bordo tre ragazze di 19 anni, tutte contuse. The post Tre ubriachi ed un’auto ribaltata nella notte a Cermenate. Ma anche un ragazzo ferito in via Italia Libera appeared first on CiaoComo .",
-      "published_at": "2026-11-15T07:22:21+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
