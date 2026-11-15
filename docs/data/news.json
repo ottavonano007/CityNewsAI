@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T09:54:06.455943+00:00",
+  "generated_at": "2026-11-15T10:52:08.335162+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -302,40 +302,12 @@
       ]
     },
     {
-      "title": "Coppia ubriaca in centro Como, la donna si scaglia contro la Polizia locale con calci e schiaffi: arrestata e condannata",
-      "url": "https://www.ciaocomo.it/2026/11/14/coppia-ubriaca-in-centro-como-la-donna-si-scaglia-contro-la-polizia-locale-con-calci-e-schiaffi-arrestata/347967",
-      "summary": "E' successo ieri sera in piazza Medaglia d'Oro: gli agenti faticano a fermarla, chiesto l'aiuto di una pattuglia di colleghi. Per lei oggi il processo e la condanna con pena sospesa. The post Coppia ubriaca in centro Como, la donna si scaglia contro la Polizia locale con calci e schiaffi: arrestata e condannata appeared first on CiaoComo .",
-      "published_at": "2026-11-14T15:08:40+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Grazie all’impegno dell’associazione I Tre Castelli ritorna a vivere la tradizione delle «nespole di San Martino»",
       "url": "https://primacomo.it/attualita/grazie-allimpegno-dellassociazione-i-tre-castelli-ritorna-a-vivere-la-tradizione-delle-nespole-di-san-martino",
       "summary": "Grazie all’impegno dell’associazione I Tre Castelli ritorna a vivere la tradizione delle «nespole di San Martino». I volontari, nei giorni scorsi, hanno riproposto un’usanza che in paese mancava da circa mezzo secolo. Raccolte nei boschi locali e vendute per la parrocchia In particolare, in occasione della festa patronale di San Martino che ricorre l’11 novembre […] Continua la lettura di Grazie all’impegno dell’associazione I Tre Castelli ritorna a vivere la tradizione delle «nespole di San Martino» sul portale Prima Como .",
       "published_at": "2026-11-14T15:00:51+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sapori d’Autunno a Uggiate, una giornata con prodotti tipici, artigianato, gnocchi e divertimento per i bambini",
-      "url": "https://www.ciaocomo.it/2026/11/14/sapori-dautunno-a-uggiate-una-giornata-con-prodotti-tipici-artigianato-gnocchi-e-divertimento-per-i-bambini/347870",
-      "summary": "Domenica 15 novembre la quinta edizione della manifestazione organizzata da Confesercenti Como, con il sostegno del Comune e della Uggiatese Volley ’87. Spazio anche agli allevatori e ai produttori locali The post Sapori d’Autunno a Uggiate, una giornata con prodotti tipici, artigianato, gnocchi e divertimento per i bambini appeared first on CiaoComo .",
-      "published_at": "2026-11-14T14:00:47+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -475,20 +447,6 @@
       ],
       "territory_codes": [
         "MI"
-      ]
-    },
-    {
-      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
-      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
-      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
-      "published_at": "2026-11-14T09:00:46+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
