@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T10:52:08.335162+00:00",
+  "generated_at": "2026-11-15T11:49:26.671258+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Riqualificazione energetica: in arrivo 415mila euro per il Municipio",
+      "url": "https://primacomo.it/attualita/riqualificazione-energetica-in-arrivo-415mila-euro-per-il-municipio",
+      "summary": "L’Amministrazione comunale potrà avviare un’importante opera di sistemazione all’edificio, attualmente privo di isolamento e interessato da infiltrazioni d’acqua provenienti dal tetto Si rifaranno i serramenti e il tetto, oltre alla posa di schermature oscuranti Il Comune di Eupilio ha ora disposizione 415 mila euro, ai quali ne aggiungerà altri 19 mila euro con risorse comunali, […] Continua la lettura di Riqualificazione energetica: in arrivo 415mila euro per il Municipio sul portale Prima Como .",
+      "published_at": "2026-11-15T11:00:15+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Lombardia e la festa golosa: una maxi racchetta di torrone per celebrare il tennis",
       "url": "https://comozero.it/attualita/maxi-racchetta-di-torrone-per-celebrare-tennis",
@@ -243,20 +257,6 @@
       "territory_codes": [
         "MI",
         "PR"
-      ]
-    },
-    {
-      "title": "Vicenza strappa la vittoria al Beltrametti con un calcio allo scadere (20-21)",
-      "url": "https://www.piacenzasera.it/2026/11/vicenza-strappa-la-vittoria-al-beltrametti-con-un-calcio-allo-scadere-20-21/670382",
-      "summary": "Vicenza passa allo scadere con un calcio piazzato realizzato da Heymans da oltre metà campo The post Vicenza strappa la vittoria al Beltrametti con un calcio allo scadere (20-21) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-14T16:06:12+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "vi"
-      ],
-      "territory_codes": [
-        "VI"
       ]
     },
     {
@@ -666,20 +666,6 @@
       "url": "https://primacomo.it/cultura/sentieri-di-casa-nostra-invita-alla-terza-serata-del-percorso-autunnale",
       "summary": "“Sentieri di casa nostra”, la assegna autunnale organizzata da biblioteca e assessorato alla Cultura di Olgiate Comasco, invita alla terza serata. “Sentieri di casa nostra. Passeggiate e itinerari tra lago, colline e Prealpi” Quattro giovedì per riscoprire il territorio che ci circonda: a piedi e in bicicletta, tra sentieri delle Prealpi, passeggiate comasche, itinerari d’autore […] Continua la lettura di “Sentieri di casa nostra” invita alla terza serata del percorso autunnale sul portale Prima Como .",
       "published_at": "2026-11-12T09:51:44+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Giornata mondiale dei poveri: l’invito del vescovo alla solidarietà",
-      "url": "https://primacomo.it/attualita/giornata-mondiale-dei-poveri-linvito-del-vescovo-alla-solidarieta",
-      "summary": "La decima Giornata mondiale dei poveri, istituita da Papa Francesco nel 2016, al termine del Giubileo straordinario della misericordia, si terrà domenica 15 novembre in tutta la diocesi di Como. Giornata mondiale dei poveri Una ricorrenza che invita le comunità cristiane a interrogarsi sul posto riservato alle persone più fragili nella vita della Chiesa e […] Continua la lettura di Giornata mondiale dei poveri: l’invito del vescovo alla solidarietà sul portale Prima Como .",
-      "published_at": "2026-11-11T14:25:34+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
