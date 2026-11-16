@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-16T06:27:00.583030+00:00",
+  "generated_at": "2026-11-16T09:47:16.241099+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 1,
-      "inserted": 1,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,174 @@
     }
   ],
   "articles": [
+    {
+      "title": "Provincia di Como, in un negozio in vendita sugli scaffali 71 prolunghe elettriche insicure",
+      "url": "https://comozero.it/attualita/provincia-di-como-in-un-negozio-in-vendita-sugli-scaffali-71-prolunghe-elettriche-insicure",
+      "summary": "Ritirate dal mercato multiprese e prolunghe prive delle necessarie verifiche tecniche di sicurezza. I militari della Compagnia di Olgiate Comasco hanno effettuato un controllo in un negozio. L’ispezione, eseguita in un emporio, ha consentito di individuare ed eliminare dal circuito di vendita 71 dispositivi elettrici a bassa tensione — nello specifico multiprese e prolunghe — […] L'articolo Provincia di Como, in un negozio in vendita sugli scaffali 71 prolunghe elettriche insicure proviene da ComoZero .",
+      "published_at": "2026-11-16T09:40:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Festival Glocal, a Varese quasi 10mila presenze per la 15ª edizione: protagonisti giovani, giornalismo e intelligenza artificiale",
+      "url": "https://www.ciaocomo.it/2026/11/16/festival-glocal-a-varese-quasi-10mila-presenze-per-la-15a-edizione-protagonisti-giovani-giornalismo-e-intelligenza-artificiale/348036",
+      "summary": "Oltre 1.600 studenti coinvolti, centinaia di giornalisti e 25 appuntamenti dedicati alla formazione. Grande partecipazione anche a Glocal DOC, con quasi 3mila spettatori. Giovannelli: «Varese si conferma uno dei centri del pensiero sull’ecosistema dell’informazione» The post Festival Glocal, a Varese quasi 10mila presenze per la 15ª edizione: protagonisti giovani, giornalismo e intelligenza artificiale appeared first on CiaoComo .",
+      "published_at": "2026-11-16T09:00:06+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "va"
+      ],
+      "territory_codes": [
+        "VA"
+      ]
+    },
+    {
+      "title": "Clamorosi Comense e Basket Como, disertano e rompono con Rapinese: “Una targa non dà dignità allo sport”",
+      "url": "https://comozero.it/sport/clamorosi-comense-e-basket-como-disertano-e-rompono-con-il-comune-una-targa-non-da-dignita-allo-sport",
+      "summary": "[Foto di copertina: la clamorosa protesta della Lario Scuola di Judo nel 2025, precedente analogo] “Una targa a un meritevole rappresentante della società può essere un gesto di riconoscimento, ma non risolve i problemi quotidiani delle associazioni, non mette a disposizione una palestra, non riduce i costi sostenuti dalle famiglie e non permette ai ragazzi […] L'articolo Clamorosi Comense e Basket Como, disertano e rompono con Rapinese: “Una targa non dà dignità allo sport” proviene da ComoZero .",
+      "published_at": "2026-11-16T08:59:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cineforum e prime visioni, il programma della settimana",
+      "url": "https://www.ciaocomo.it/2026/11/16/cineforum-e-prime-visioni-il-programma-della-settimana/348028",
+      "summary": "Proiezioni, prime visioni e cineforum in programma nei cinema cittadini: cosa offre il grande schermo a Como e dintorni The post Cineforum e prime visioni, il programma della settimana appeared first on CiaoComo .",
+      "published_at": "2026-11-16T08:30:20+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "L’Istituto San Vincenzo lancia un nuovo indirizzo alla secondaria di I grado di Albese con Cassano: lo Scientifico Sportivo",
+      "url": "https://primacomo.it/scuola/listituto-san-vincenzo-lancia-un-nuovo-indirizzo-alla-secondaria-di-i-grado-di-albese-con-cassano-lo-scientifico-sportivo",
+      "summary": "Arriva una novità all’Istituto San Vincenzo: dal prossimo anno scolastico, 2027-2028, la Scuola Secondaria di primo grado (scuola media) di Albese con Cassano avrà un nuovo indirizzo. Si tratta dello “Scientifico Sportivo”, un percorso che unisce movimento, biologia, ambiente e tecnologia in un’esperienza didattico-educativa integrata ed integrale. Cosa offre il nuovo indirizzo Il percorso Scientifico […] Continua la lettura di L’Istituto San Vincenzo lancia un nuovo indirizzo alla secondaria di I grado di Albese con Cassano: lo Scientifico Sportivo sul portale Prima Como .",
+      "published_at": "2026-11-16T07:59:32+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante”",
+      "url": "https://comozero.it/attualita/lago-di-como-il-gruppone-dei-ciclisti-e-la-colonna-di-auto-in-coda-una-situazione-allucinante",
+      "summary": "Il tema dei ciclisti in gruppo sulle strade del Lago di Como, e soprattutto la convivenza con il traffico, fa discutere da sempre. Da un lato, il diritto degli amanti delle due ruote di godersi il loro sport preferiti tra i magnifici panorami lariani, dall’altro la legittima rivendicazione degli automobilisti di non doversi sorbire km e […] L'articolo Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante” proviene da ComoZero .",
+      "published_at": "2026-11-16T07:40:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Non paga  tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva",
+      "url": "https://primacomo.it/altro/non-paga-i-tributi-e-canoni-demaniali-per-piu-di-15-milioni-di-euro-nei-guai-una-struttura-ricettiva",
+      "summary": "Non paga i tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva. Tributi non versati I militari della Guardia di finanza hanno sottoposto a controllo di polizia economico-finanziaria una struttura turistico-ricettiva all’aperto situata in prossimità del Lago Ceresio. L’intervento è stato finalizzato ad accertare il legittimo utilizzo del […] Continua la lettura di Non paga tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva sul portale Prima Como .",
+      "published_at": "2026-11-16T07:38:24+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Campi Reali torna da Sassuolo con un punto",
+      "url": "https://primacomo.it/sport/la-campi-reali-torna-da-sassuolo-con-un-punto",
+      "summary": "Alla Campi Reali Cantù non bastano i 29 punti di Andrea Argenta per espugnare il Palapaganelli di Sassuolo. I padroni di casa della Kerakoll vanno sotto 0-2, ma riescono a ricompattarsi, a rimontare e ad imporsi al tie-break con ben cinque giocatori in doppia cifra e 19 muri di squadra. La gara Coach Tommaso Invernici […] Continua la lettura di La Campi Reali torna da Sassuolo con un punto sul portale Prima Como .",
+      "published_at": "2026-11-16T07:35:29+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cardinal Ferrari, porte aperte a Cantù",
+      "url": "https://primacomo.it/scuola/cardinal-ferrari-porte-aperte-a-cantu",
+      "summary": "Sabato 21 novembre, dalle 10 alle 13, il Liceo Linguistico Cardinal Ferrari di Cantù apre le porte agli studenti delle scuole secondarie di primo grado e ai loro genitori, con due novità introdotte nell’ultimo anno: l’ingresso nella rete delle Cambridge International School e un servizio di tutoraggio affidato a una figura con competenze psicologiche. Una […] Continua la lettura di Cardinal Ferrari, porte aperte a Cantù sul portale Prima Como .",
+      "published_at": "2026-11-16T07:24:08+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Inaugurazione largo Luigi e Giuseppe Gerosa e nuovi investimenti",
+      "url": "https://primacomo.it/attualita/inaugurazione-largo-luigi-e-giuseppe-gerosa-e-nuovi-investimenti",
+      "summary": "È stato inaugurato largo Luigi e Giuseppe Gerosa, dedicato ai fondatori di Cellografica Gerosa S.p.A., nata nel 1935 a Inverigo come piccola tipografia di paese e cresciuta fino a diventare un gruppo multinazionale con cinque stabilimenti produttivi e tre filiali commerciali in Europa. All’evento erano presenti Francesco Vincenzi, sindaco di Inverigo, accompagnato da diversi assessori, […] Continua la lettura di Inaugurazione largo Luigi e Giuseppe Gerosa e nuovi investimenti sul portale Prima Como .",
+      "published_at": "2026-11-16T07:03:30+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como ritrova (piuttosto diverso) il lavatoio che sembrava condannato al degrado. Le foto",
+      "url": "https://comozero.it/attualita/como-ritrova-piuttosto-diverso-il-lavatoio-che-sembrava-condannato-al-degrado-le-foto",
+      "summary": "Il lavatoio di via Bignanico a Como è risorto ed è stato strappato al degrado. L’aspetto definitivo, stando a chi ha realizzato le immagini che vedete in pagina, può forse far discutere. L’opera, soltanto fino a tre anni era in condizioni pessime: in completo abbandono per anni, con la vecchia copertura sfondata, preda del degrado. […] L'articolo Como ritrova (piuttosto diverso) il lavatoio che sembrava condannato al degrado. Le foto proviene da ComoZero .",
+      "published_at": "2026-11-16T06:56:36+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Si resta a quota 0: Tortona passa al supplementare",
+      "url": "https://primacomo.it/sport/si-resta-a-quota-0-tortona-passa-al-supplementare",
+      "summary": "Niente da fare, con la Derthona Tortona arriva l’ottava sconfitta di fila e Cantù resta malinconicamente a quota 0 in classifica La gara In avvio Jallow realizza i primi 4 punti di Tortona, l’Acqua S.Bernardo risponde con le triple di Moraschini e Olisevicius. Anche Maddox segna dall’arco, con Gorham che invece trova due volte la […] Continua la lettura di Si resta a quota 0: Tortona passa al supplementare sul portale Prima Como .",
+      "published_at": "2026-11-16T06:37:06+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "La scuola da abbattere per l’autosilo, Rapinese: “Il parcheggio serve a quartiere e stadio”. Parla anche il Como",
       "url": "https://comozero.it/attualita/la-scuola-da-abbattere-per-lautosilo-rapinese-ribadisce-il-parcheggio-serve-quartiere-e-stadio-dal-como-toni-soft",
@@ -186,34 +354,6 @@
       ]
     },
     {
-      "title": "Il Piacenza cala il tris con Mustacchio: ora la vetta è a meno due (1-3)",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-contro-il-rovato-al-maffeis-alle-1430-il-calcio-dinizio/670455",
-      "summary": "La rete del Rovato nel finale rende meno amaro il passivo dopo la tripletta di Mustacchio: al triplice fischio è 3-1 per il Piacenza The post Il Piacenza cala il tris con Mustacchio: ora la vetta è a meno due (1-3) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T15:30:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Nibbiano&Valtidone, un altro pareggio senza reti sul campo del Villa Valle",
-      "url": "https://www.piacenzasera.it/2026/11/nibbianovaltidone-si-misura-con-villa-valle-alle-1430-il-calcio-dinizio/670461",
-      "summary": "Il Nibbiano&Valtidone sul campo di Villa D'almè termina con 0-0 contro Villa Valle; il Fiorenzuola si misurerà con la Virtus Verona alle 17:30 The post Nibbiano&Valtidone, un altro pareggio senza reti sul campo del Villa Valle appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T15:28:48+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "vr"
-      ],
-      "territory_codes": [
-        "VR"
-      ]
-    },
-    {
       "title": "Diego Pleuteri vince il Premio Anima 2026",
       "url": "https://primacomo.it/attualita/diego-pleuteri-vince-il-premio-anima-2026",
       "summary": "Diego Pleuteri vince il Premio Anima 2026. L’anzanese, dallo scorso ottobre Direttore Artistico junior del Teatro Stabile di Torino, è stato premiato con il prestigioso riconoscimento ideato da Anima per il sociale nei valori d’impresa, l’organizzazione non profit promossa da Unindustria. Un riconoscimento che valorizza il contributo delle personalità del mondo dell’arte e della cultura […] Continua la lettura di Diego Pleuteri vince il Premio Anima 2026 sul portale Prima Como .",
@@ -272,20 +412,6 @@
       ]
     },
     {
-      "title": "Sagnino commemora i Caduti di Nassiriya: la cerimonia al Campo Sportivo CSU",
-      "url": "https://www.ciaocomo.it/2026/11/15/sagnino-commemora-i-caduti-di-nassiriya-la-cerimonia-al-campo-sportivo-csu/347999",
-      "summary": "Alla presenza del Viceprefetto Roncagli, del Maggiore dei Carabinieri Mascolo e dell'assessore Cappelletti, la comunità ha reso omaggio ai caduti nelle missioni internazionali di pace con la Santa Messa, il corteo e la deposizione della corona d'alloro al cippo commemorativo. «La pace non è mai scontata, richiede impegno e responsabilità», il messaggio portato a nome del Prefetto di Como. The post Sagnino commemora i Caduti di Nassiriya: la cerimonia al Campo Sportivo CSU appeared first on CiaoComo .",
-      "published_at": "2026-11-15T13:10:34+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "La salute come bene da tutelare: il Comune promuove un ciclo di incontri",
       "url": "https://primacomo.it/attualita/la-salute-come-bene-da-tutelare-il-comune-promuove-un-ciclo-di-incontri",
       "summary": "La salute come bene da tutelare ogni giorno, attraverso la prevenzione, l’informazione e il confronto con professionisti qualificati. Con questo obiettivo nasce “Il valore della salute”, un ciclo di incontri promosso dal Comune di Merone in collaborazione con Homedica, centro medico polispecialistico presente sul territorio. Primo appuntamento Il primo appuntamento sarà giovedì 26 novembre alle […] Continua la lettura di La salute come bene da tutelare: il Comune promuove un ciclo di incontri sul portale Prima Como .",
@@ -330,20 +456,6 @@
       ]
     },
     {
-      "title": "Due mulini storici comaschi tornano a vivere: ecco quali",
-      "url": "https://comozero.it/attualita/mulini-storici-como-regione-lombardia-bando-recupero",
-      "summary": "Il patrimonio di pietra, acqua, legno e saperi antichi della Lombardia torna a valorizzarsi. Sono due i mulini storici della provincia di Como che rinascono a nuova vita grazie alla prima edizione del bando regionale dedicato al recupero e alla valorizzazione di questi preziosi testimoni del passato. Complessivamente, Regione Lombardia ha stanziato un fondo totale […] L'articolo Due mulini storici comaschi tornano a vivere: ecco quali proviene da ComoZero .",
-      "published_at": "2026-11-15T09:01:11+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati”",
       "url": "https://primacomo.it/attualita/ufficio-postale-ancora-chiuso-il-sindaco-scrive-allazienda-siamo-esasperati",
       "summary": "Quinto rinvio, l’ufficio postale di Valmorea resta chiuso e il sindaco va su tutte le furie. Ufficio postale, quinto rinvio “Sono esasperato e, come me, lo sono i cittadini di Valmorea”, esordisce Giampiero Pandiani. D’altra parte, la struttura non è accessibile dalla scorsa primavera e, stando all’ultima comunicazione fornita da “Poste Italiane” lo rimarrà sino […] Continua la lettura di Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati” sul portale Prima Como .",
@@ -369,64 +481,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, auto si ribalta nella notte: a bordo tre ragazze di 18 anni",
-      "url": "https://comozero.it/attualita/provincia-di-como-auto-si-ribalta-nella-notte-a-bordo-tre-ragazze-di-18-anni",
-      "summary": "Brutto incidente nella notte appena trascorsa. Alle 3:54 a Cermenate, lungo via Maestri Comacini, per cause in fase di accertamento, una vettura ha perso il controllo finendo per ribaltarsi sulla carreggiata. A bordo del mezzo viaggiavano tre ragazze di 18 anni, rimaste coinvolte nel cappottamento. La centrale operativa dell’emergenza urgenza ha inviato rapidamente sul luogo […] L'articolo Provincia di Como, auto si ribalta nella notte: a bordo tre ragazze di 18 anni proviene da ComoZero .",
-      "published_at": "2026-11-15T07:11:39+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Cantù, incendio in un box sotterraneo: sul posto quattro mezzi dei vigili del fuoco",
-      "url": "https://comozero.it/cronaca/cantu-incendio-in-un-box-sotterraneo-sul-posto-quattro-mezzi-dei-vigili-del-fuoco",
-      "summary": "Fiamme in un box interrato di via Vergani, a Cantù. L’incendio è divampato intorno alle 18.15, facendo scattare l’intervento dei vigili del fuoco, arrivati con quattro mezzi dai comandi di Como e Cantù. Le squadre hanno avviato le operazioni di spegnimento e di messa in sicurezza dell’area. Non si segnalano persone coinvolte. Sul posto anche […] L'articolo Cantù, incendio in un box sotterraneo: sul posto quattro mezzi dei vigili del fuoco proviene da ComoZero .",
-      "published_at": "2026-11-14T21:38:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como e Lombardia, sciopero generale Cgil il 20 novembre: “Per lavoro dignitoso e diritti sociali garantiti”",
-      "url": "https://comozero.it/attualita/como-e-lombardia-sciopero-generale-cgil-il-20-novembre-per-lavoro-dignitoso-e-diritti-sociali-garantiti",
-      "summary": "“Per un lavoro dignitoso e per garantire i diritti sociali”, è con queste parole d’ordine che la Cgil ha proclamato per venerdì 20 novembre uno sciopero generale, accompagnato in Lombardia da manifestazioni territoriali che coinvolgeranno città e piazze della regione Gli appuntamenti si svolgeranno quasi tutti contemporaneamente, con l’obiettivo di portare in strada le rivendicazioni […] L'articolo Como e Lombardia, sciopero generale Cgil il 20 novembre: “Per lavoro dignitoso e diritti sociali garantiti” proviene da ComoZero .",
-      "published_at": "2026-11-14T19:46:44+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, indiscrezione Villa Aprica in vendita: “Queste operazioni non si fanno sulla pelle dei lavoratori”",
-      "url": "https://comozero.it/attualita/como-indiscrezione-villa-aprica-in-vendita-queste-operazioni-non-si-fanno-sulla-pelle-dei-lavoratori",
-      "summary": "E’ circolalta in queste ore l’indiscrezione secondo cui il Gruppo San Donato sarebbe pronto a vendere quattro cliniche: l’Istituto Clinico Villa Aprica di Como, il Policlinico San Pietro di Ponte San Pietro, il Policlinico San Marco di Zingonia e l’Istituto di Cura Città di Pavia. Pronto all’acquisto sarebbe il fondo internazionale CvC Capital Partners. Sul […] L'articolo Como, indiscrezione Villa Aprica in vendita: “Queste operazioni non si fanno sulla pelle dei lavoratori” proviene da ComoZero .",
-      "published_at": "2026-11-14T18:50:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "pv"
-      ],
-      "territory_codes": [
-        "CO",
-        "PV"
       ]
     },
     {
@@ -594,90 +648,6 @@
       "url": "https://primacomo.it/attualita/eccellenza-della-ristorazione-ecco-gli-stellati-confermati-da-guida-michelin-per-il-cantuccio-e-la-ventesima-consecutiva",
       "summary": "Guida Michelin 2027: ecco gli stellati comaschi riconfermati. Ventesima riconferma consecutiva per l’albavillese Cantuccio Per il ristorante di chef Mauro Elli, aperto nel 2003, è la ventesima riconferma consecutiva (il 21° anno ininterrotto in cui il locale detiene la Stella Michelin). L’attività di via Dante era infatti stata riconosciuta per la prima volta nel 2007. […] Continua la lettura di Eccellenza della ristorazione: ecco gli stellati confermati da Guida Michelin, per Il Cantuccio è la ventesima consecutiva sul portale Prima Como .",
       "published_at": "2026-11-13T14:52:52+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sindacato pensionati Cgil, mobilitazione su tutto il territorio provinciale",
-      "url": "https://primacomo.it/cronaca/sindacato-pensionati-cgil-mobilitazione-su-tutto-il-territorio-provinciale",
-      "summary": "Il Sindacato pensionati della Cgil si mobilità su territorio provinciale di Como. Sindacato pensionati Cgil, allarme sulla legge di Bilancio “Il 18 e il 19 novembre – sottolinea lo Spi-Cgil – saremo presenti con i nostri attivisti in 12 località della provincia: distribuiremo volantini e parleremo con i cittadini della legge di bilancio del governo […] Continua la lettura di Sindacato pensionati Cgil, mobilitazione su tutto il territorio provinciale sul portale Prima Como .",
-      "published_at": "2026-11-13T09:53:58+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Addio a Luigi Capiaghi, chiesa gremita per l’ultimo saluto",
-      "url": "https://primacomo.it/altro/addio-a-luigi-capiaghi-chiesa-gremita-per-lultimo-saluto",
-      "summary": "Anche il cielo piange la scomparsa di Luigi Capiaghi. Una pioggia fitta ma leggera a bagnare i volti, a confondersi con le lacrime lungo i visi. Nella mattinata di giovedì 12 novembre, fuori dalla chiesa parrocchiale di Bizzarone, circa 200 persone hanno dato l’ultimo saluto al presidente della cooperativa Intesa Sociale. Folla al funerale di […] Continua la lettura di Addio a Luigi Capiaghi, chiesa gremita per l’ultimo saluto sul portale Prima Como .",
-      "published_at": "2026-11-13T09:31:05+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Rivera ospite del Milan club in una serata benefica",
-      "url": "https://primacomo.it/tempo-libero/rivera-ospite-del-milan-club-in-una-serata-benefica",
-      "summary": "Grande successo per la serata culturale organizzata dal Milan Club Cernobbio che ha avuto come ospite d’eccezione Gianni Rivera, leggenda del calcio italiano, storico numero 10 rossonero e Pallone d’Oro 1969. L’appuntamento L’evento ha registrato una straordinaria partecipazione di soci, amici e appassionati provenienti da tutto il territorio, confermando ancora una volta la capacità del […] Continua la lettura di Rivera ospite del Milan club in una serata benefica sul portale Prima Como .",
-      "published_at": "2026-11-13T06:44:42+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Settimana del rispetto: presentata la quarta edizione",
-      "url": "https://primacomo.it/attualita/settimana-del-rispetto-presentata-la-quarta-edizione",
-      "summary": "Presentata alla primaria “Casati” di Brenna la quarta edizione della “Settimana del Rispetto”, la rassegna di eventi proposta dalle associazioni Fermiamoci e Lo Snodo in occasione del 25 novembre, Giornata internazionale contro la violenza sulle donne. 23 associazioni coinvolte, 13 Comuni patrocinanti e 19 appuntamenti Il presidente de Lo Snodo, Simone Pelucchi, ha presentato i […] Continua la lettura di Settimana del rispetto: presentata la quarta edizione sul portale Prima Como .",
-      "published_at": "2026-11-12T17:21:38+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Scuola italiana tra allarmi bomba fake e bisogno di investimenti statali",
-      "url": "https://primacomo.it/cronaca/scuola-italiana-tra-allarmi-bomba-fake-e-bisogno-di-investimenti-statali",
-      "summary": "Calo demografico, disuguaglianze territoriali e nuove sfide educative: il Movimento 5 Stelle di Como esterna preoccupazione. Scuola italiana, il report I pentastellati, attraverso un intervento della coordinatrice provinciale Silvia Alberici, mettono in evidenza le criticità e il bisogno di attenzione che necessita la scuola italiana. “Mentre le scuole italiane, da Nord a Sud, sono state […] Continua la lettura di Scuola italiana tra allarmi bomba fake e bisogno di investimenti statali sul portale Prima Como .",
-      "published_at": "2026-11-12T16:34:54+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Raccolta differenziata, in Lombardia raggiunta quota 75%",
-      "url": "https://primacomo.it/economia/raccolta-differenziata-in-lombardia-raggiunta-quota-75",
-      "summary": "La Lombardia ha chiuso il 2025 con una raccolta differenziata al 75%, un dato che la Regione definisce storico. I numeri sono stati resi noti il 12 novembre ad Antalya, in Turchia, dall’assessore regionale all’Ambiente e Clima Giorgio Maione, in occasione della COP31, la Conferenza delle Parti delle Nazioni Unite sui cambiamenti climatici, in programma […] Continua la lettura di Raccolta differenziata, in Lombardia raggiunta quota 75% sul portale Prima Como .",
-      "published_at": "2026-11-12T13:16:37+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
