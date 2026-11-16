@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T19:02:31.866097+00:00",
+  "generated_at": "2026-11-16T20:02:25.387380+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -28,12 +28,26 @@
   ],
   "articles": [
     {
-      "title": "Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera con Guccini per lo Spazio Gloria",
+      "title": "Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera gucciniana per lo Spazio Gloria",
       "url": "https://comozero.it/attualita/como-perde-un-grande-uomo-e-morto-enzo-dantuono-vita-per-la-cultura-il-sociale-e-la-politica",
-      "summary": "[Copertina: Enzo D’Antuono durante una delle tante campagne per sostenere il Gloria, Circolo Arci Xanadù] In aggiornamento – Spirito libero radicalmente legato alla storia sociale, culturale e politica di Como. E’ morto questa mattina, come fa sapere Ecoinformazioni, Vincenzo Enzo D’Antuono. Nome legato a progetti che hanno messo dei punti fermi in città: il Rock Club […] L'articolo Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera con Guccini per lo Spazio Gloria proviene da ComoZero .",
+      "summary": "[Copertina: Enzo D’Antuono durante una delle tante campagne per sostenere il Gloria, Circolo Arci Xanadù] In aggiornamento – Spirito libero radicalmente legato alla storia sociale, culturale e politica di Como. E’ morto all’improvviso questa mattina, come fa sapere Ecoinformazioni, Vincenzo Enzo D’Antuono. Aveva 71 anni, nome legato a progetti che hanno messo dei punti fermi in […] L'articolo Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera gucciniana per lo Spazio Gloria proviene da ComoZero .",
       "published_at": "2026-11-16T18:40:15+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Addio a Enzo D’Antuono, anima dello Spazio Gloria e della cultura libera di Como",
+      "url": "https://www.ciaocomo.it/2026/11/16/addio-a-enzo-dantuono-anima-dello-spazio-gloria-e-della-cultura-libera-di-como/348111",
+      "summary": "Scomparso all'improvviso in seguito ad un malore fatale Enzo D'Antuono presidente del Circolo Arci Xanadù Spazio Gloria. Aveva 70 anni The post Addio a Enzo D’Antuono, anima dello Spazio Gloria e della cultura libera di Como appeared first on CiaoComo .",
+      "published_at": "2026-11-16T18:30:33+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -200,12 +214,12 @@
       ]
     },
     {
-      "title": "“La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere",
-      "url": "https://www.ciaocomo.it/2026/11/16/la-vita-maestra-di-giuseppe-guin-i-suoi-tanti-lavori-le-persone-incontrate-e-le-storie-che-insegnano-a-vivere/348100",
-      "summary": "Esperienze, incontri e identità diverse si intrecciano nel nuovo libro autobiografico di Giuseppe Guin, pubblicato da Dominioni. Presentazione giovedì 19 novembre alle 18.30 al Collegio Gallio di Como, con Edoardo Ceriani. The post “La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere appeared first on CiaoComo .",
-      "published_at": "2026-11-16T16:00:55+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
+      "title": "La Cina scopre Como che vola al +200% nelle ricerche online, Lombardia +150%",
+      "url": "https://comozero.it/attualita/la-cina-scopre-como-che-vola-al-200-delle-ricerche-online-lombardia-150",
+      "summary": "Una Lombardia sempre più presente nelle ricerche online del pubblico cinese, con un interesse che si estende dalle grandi destinazioni alle esperienze legate all’artigianato, alla gastronomia e ai piccoli centri. La campagna digitale realizzata da Regione Lombardia con Petal Ads, la piattaforma pubblicitaria di Huawei, ha registrato un aumento del 150% delle ricerche online sulla […] L'articolo La Cina scopre Como che vola al +200% nelle ricerche online, Lombardia +150% proviene da ComoZero .",
+      "published_at": "2026-11-16T15:31:28+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -214,12 +228,12 @@
       ]
     },
     {
-      "title": "La Cina scopre Como che vola al +200% nelle ricerche online, Lombardia +150%",
-      "url": "https://comozero.it/attualita/la-cina-scopre-como-che-vola-al-200-delle-ricerche-online-lombardia-150",
-      "summary": "Una Lombardia sempre più presente nelle ricerche online del pubblico cinese, con un interesse che si estende dalle grandi destinazioni alle esperienze legate all’artigianato, alla gastronomia e ai piccoli centri. La campagna digitale realizzata da Regione Lombardia con Petal Ads, la piattaforma pubblicitaria di Huawei, ha registrato un aumento del 150% delle ricerche online sulla […] L'articolo La Cina scopre Como che vola al +200% nelle ricerche online, Lombardia +150% proviene da ComoZero .",
-      "published_at": "2026-11-16T15:31:28+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
+      "title": "“La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere",
+      "url": "https://www.ciaocomo.it/2026/11/16/la-vita-maestra-di-giuseppe-guin-i-suoi-tanti-lavori-le-persone-incontrate-e-le-storie-che-insegnano-a-vivere/348100",
+      "summary": "Esperienze, incontri e identità diverse si intrecciano nel nuovo libro autobiografico di Giuseppe Guin, pubblicato da Dominioni. Presentazione giovedì 19 novembre alle 18.30 al Collegio Gallio di Como, con Edoardo Ceriani. The post “La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere appeared first on CiaoComo .",
+      "published_at": "2026-11-16T15:30:55+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -242,26 +256,12 @@
       ]
     },
     {
-      "title": "Bonifica, oltre 219mila euro per il piacentino “Risorse importanti per sicurezza e cura del territorio”",
-      "url": "https://www.piacenzasera.it/2026/11/ok-dalla-commissione-economia-agli-investimenti-per-i-consorzi-di-bonifica-a-piacenza-interventi-per-219mila-euro/670677",
-      "summary": "Parere favorevole della commissione Politiche economiche allo schema di delibera proposto dalla Giunta regionale per regolare il programma di interventi di bonifica e irrigazione dei prossimi tre anni The post Bonifica, oltre 219mila euro per il piacentino “Risorse importanti per sicurezza e cura del territorio” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T14:57:14+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia",
-      "url": "https://www.ciaocomo.it/2026/11/16/como-coyote-vs-acme-in-versione-originale-il-film-che-hollywood-voleva-cancellare-arriva-al-cinelandia/348105",
-      "summary": "Wile E. Coyote porta la Acme in tribunale nel film proiettato in versione originale per la rassegna dello Spazio Gloria “Film che non si possono vedere doppiati” The post Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia appeared first on CiaoComo .",
-      "published_at": "2026-11-16T14:30:37+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
+      "title": "Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como",
+      "url": "https://comozero.it/cinque-sensi/per-una-pasta-che-se-ne-va-una-focaccia-che-arriva-nuova-apertura-nel-centro-storico-di-como",
+      "summary": "Se la pasta ha largamente conquistato il primo posto tra le attività in crescita nel centro di Como – qui abbiamo documentato il fenomeno – c’è sicuramente un inseguitore a ruota. Anzi, inseguitrici. Trattasi di pizze e focacce, golosità intramontabili che ormai si trovano praticamente a tutti gli angoli della città murata. Ora, una nuova […] L'articolo Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como proviene da ComoZero .",
+      "published_at": "2026-11-16T14:16:45+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -270,12 +270,12 @@
       ]
     },
     {
-      "title": "Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como",
-      "url": "https://comozero.it/cinque-sensi/per-una-pasta-che-se-ne-va-una-focaccia-che-arriva-nuova-apertura-nel-centro-storico-di-como",
-      "summary": "Se la pasta ha largamente conquistato il primo posto tra le attività in crescita nel centro di Como – qui abbiamo documentato il fenomeno – c’è sicuramente un inseguitore a ruota. Anzi, inseguitrici. Trattasi di pizze e focacce, golosità intramontabili che ormai si trovano praticamente a tutti gli angoli della città murata. Ora, una nuova […] L'articolo Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como proviene da ComoZero .",
-      "published_at": "2026-11-16T14:16:45+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
+      "title": "Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia",
+      "url": "https://www.ciaocomo.it/2026/11/16/como-coyote-vs-acme-in-versione-originale-il-film-che-hollywood-voleva-cancellare-arriva-al-cinelandia/348105",
+      "summary": "Wile E. Coyote porta la Acme in tribunale nel film proiettato in versione originale per la rassegna dello Spazio Gloria “Film che non si possono vedere doppiati” The post Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia appeared first on CiaoComo .",
+      "published_at": "2026-11-16T14:00:37+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -476,20 +476,6 @@
       "published_at": "2026-11-16T12:08:36+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, tre giorni di controlli della Polizia Locale: denunce, sanzioni e ordini di allontanamento in città",
-      "url": "https://www.ciaocomo.it/2026/11/16/como-tre-giorni-di-controlli-della-polizia-locale-denunce-sanzioni-e-ordini-di-allontanamento-in-citta/348070",
-      "summary": "Interventi contro il commercio abusivo, il consumo di alcol e l'attività dei buttadentro. Provvedimenti sul lungolago e ai giardini Sant’Elia, una persona sanzionata per aver indossato una pettorina con i distintivi del Comune The post Como, tre giorni di controlli della Polizia Locale: denunce, sanzioni e ordini di allontanamento in città appeared first on CiaoComo .",
-      "published_at": "2026-11-16T12:00:27+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
