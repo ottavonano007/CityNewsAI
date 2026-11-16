@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T22:54:46.078156+00:00",
+  "generated_at": "2026-11-16T23:50:10.067597+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day",
+      "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
+      "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
+      "published_at": "2026-11-16T23:29:54+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Como, la giunta Rapinese approva la stangata sui posti barca: tariffe più care del 30%",
       "url": "https://comozero.it/attualita/como-la-giunta-rapinese-approva-la-stangata-sui-posti-barca-tariffe-piu-care-del-30",
@@ -56,9 +70,9 @@
       ]
     },
     {
-      "title": "Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera gucciniana per lo Spazio Gloria",
+      "title": "Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’addio con don Giusto",
       "url": "https://comozero.it/attualita/como-perde-un-grande-uomo-e-morto-enzo-dantuono-vita-per-la-cultura-il-sociale-e-la-politica",
-      "summary": "[Copertina: Enzo D’Antuono durante una delle tante campagne per sostenere il Gloria, Circolo Arci Xanadù] In aggiornamento – Spirito libero radicalmente legato alla storia sociale, culturale e politica di Como. E’ morto all’improvviso questa mattina, come fa sapere Ecoinformazioni, Vincenzo Enzo D’Antuono. Aveva 71 anni, nome legato a progetti che hanno messo dei punti fermi in […] L'articolo Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera gucciniana per lo Spazio Gloria proviene da ComoZero .",
+      "summary": "[Copertina: Enzo D’Antuono durante una delle tante campagne per sostenere il Gloria, Circolo Arci Xanadù] In aggiornamento – Spirito libero radicalmente legato alla storia sociale, culturale e politica di Como. E’ morto all’improvviso questa mattina, come fa sapere Ecoinformazioni, Vincenzo Enzo D’Antuono. Aveva 71 anni, nome legato a progetti che hanno messo dei punti fermi in […] L'articolo Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’addio con don Giusto proviene da ComoZero .",
       "published_at": "2026-11-16T18:40:15+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -270,20 +284,6 @@
       ]
     },
     {
-      "title": "Online il nuovo sito del Piacenza Calcio",
-      "url": "https://www.piacenzasera.it/2026/11/online-il-nuovo-sito-del-piacenza-calcio/670687",
-      "summary": "”Il nuovo sito ufficiale - sottolinea il presidente Marco Polenghi - rappresenta un ulteriore passo nel percorso di rinnovamento e crescita del Club\" The post Online il nuovo sito del Piacenza Calcio appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T15:22:49+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como",
       "url": "https://comozero.it/cinque-sensi/per-una-pasta-che-se-ne-va-una-focaccia-che-arriva-nuova-apertura-nel-centro-storico-di-como",
       "summary": "Se la pasta ha largamente conquistato il primo posto tra le attività in crescita nel centro di Como – qui abbiamo documentato il fenomeno – c’è sicuramente un inseguitore a ruota. Anzi, inseguitrici. Trattasi di pizze e focacce, golosità intramontabili che ormai si trovano praticamente a tutti gli angoli della città murata. Ora, una nuova […] L'articolo Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como proviene da ComoZero .",
@@ -446,20 +446,6 @@
       "published_at": "2026-11-16T12:23:18+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, il tizio gira con una pettorina del Comune ma non poteva, 5 buttadentro multati e 4 allontanati, il commerciante abusivo. Le operazioni della Locale",
-      "url": "https://comozero.it/attualita/como-il-tizio-gira-con-una-pettorina-del-comune-ma-non-poteva-5-buttadentro-multati-e-4-allontanati-il-commerciante-abusivo-le-operazioni-della-locale",
-      "summary": "Dall’arresto per resistenza a pubblico ufficiale ai controlli contro il commercio abusivo, fino alle sanzioni per il buttadentro, il bivacco e il consumo di alcolici nei giardini pubblici. La Polizia Locale di Como ha intensificato i controlli sul territorio nelle giornate del 13, 14 e 15 novembre, con una serie di interventi in diverse zone […] L'articolo Como, il tizio gira con una pettorina del Comune ma non poteva, 5 buttadentro multati e 4 allontanati, il commerciante abusivo. Le operazioni della Locale proviene da ComoZero .",
-      "published_at": "2026-11-16T12:14:29+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
