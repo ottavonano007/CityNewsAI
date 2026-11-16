@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T20:57:02.151777+00:00",
+  "generated_at": "2026-11-16T21:56:02.106052+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Lombardia, una pioggia di milioni per sicurezza stradale e piste ciclabili. Como e le altre, quanto per ogni provincia",
+      "url": "https://comozero.it/attualita/lombardia-una-pioggia-di-milioni-per-sicurezza-stradale-e-piste-ciclabili-como-e-le-altre-quanto-per-ogni-provincia",
+      "summary": "Cinquanta interventi per rendere più sicure le strade provinciali lombarde, a cui si aggiungono nuove risorse per la manutenzione straordinaria delle ciclovie nazionali del Sole e Vento. È quanto prevede la delibera approvata dalla Giunta di Regione Lombardia, su proposta dell’assessore alle Infrastrutture e Opere pubbliche, Claudia Maria Terzi, che destina 58,5 milioni di euro […] L'articolo Lombardia, una pioggia di milioni per sicurezza stradale e piste ciclabili. Como e le altre, quanto per ogni provincia proviene da ComoZero .",
+      "published_at": "2026-11-16T20:24:29+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera gucciniana per lo Spazio Gloria",
       "url": "https://comozero.it/attualita/como-perde-un-grande-uomo-e-morto-enzo-dantuono-vita-per-la-cultura-il-sociale-e-la-politica",
@@ -412,22 +426,6 @@
       ]
     },
     {
-      "title": "“Cinemateca”, il cinema italiano racconta il tema del confine: a Como quattro giorni di proiezioni, incontri e grandi protagonisti",
-      "url": "https://www.ciaocomo.it/2026/11/16/cinemateca-il-cinema-italiano-racconta-il-tema-del-confine-a-como-quattro-giorni-di-proiezioni-incontri-e-grandi-protagonisti/348042",
-      "summary": "Dal 17 al 22 novembre la terza edizione del festival dedicato al patrimonio cinematografico italiano. In programma il film premiato a Venezia con Riccardo Scamarcio, un incontro musicale con Nello Salza, le opere di Gian Maria Tosatti e il capolavoro restaurato di Pietro Germi The post “Cinemateca”, il cinema italiano racconta il tema del confine: a Como quattro giorni di proiezioni, incontri e grandi protagonisti appeared first on CiaoComo .",
-      "published_at": "2026-11-16T12:30:27+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como",
-        "ve"
-      ],
-      "territory_codes": [
-        "CO",
-        "VE"
-      ]
-    },
-    {
       "title": "Spara al consuocero e poi scappa: arrestato",
       "url": "https://primacomo.it/cronaca/spara-al-consuocero-e-poi-scappa-arrestato",
       "summary": "Tragedia sfiorata nella serata di sabato 14 novembre a Cermenate, in via Crocifisso. Un uomo di 50 anni, residente in paese, ha sparato al consuocero, 62 anni, al termine di una lite. Lo sparo Pare che alla base del furioso litigio dei due consuoceri ci sia stato il tentativo di ciascuno di difendere il proprio […] Continua la lettura di Spara al consuocero e poi scappa: arrestato sul portale Prima Como .",
@@ -488,20 +486,6 @@
       "url": "https://comozero.it/attualita/dopo-alluvioni-e-incendi-un-milione-di-euro-per-il-monte-goj-altri-tre-per-sei-comuni-comaschi",
       "summary": "Cabiate, Carugo, Erba, Musso, Porlezza, Como, Inverigo e Sorico. Sono questi gli ottocomuni comaschi che potranno beneficiare degli aiuti di Regione Lombardia provenienti dal “Programma 2026-2030 di interventi urgenti e prioritari per la difesa del suolo e la mitigazione dei rischi idrogeologici del territorio lombardo”. In totale, la provincia di Como avrà a disposizione quasi […] L'articolo Dopo alluvioni e incendi un milione di euro per il Monte Goj, altri tre per sette comuni comaschi proviene da ComoZero .",
       "published_at": "2026-11-16T11:48:26+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, il M5S attacca: “La scuola Corridoni non si tocca, il calo demografico è un pretesto”",
-      "url": "https://comozero.it/attualita/como-il-m5s-attacca-la-scuola-corridoni-non-si-tocca-il-calo-demografico-e-un-pretesto",
-      "summary": "Nelle scorse ore davamo conto del reportage del quotidiano La Stampa, a firma di Nadia Ferrigo, sul caso della scuola primaria Corridoni, che il sindaco Alessandro Rapinese vuole abbattere per far posto a un autosilo anche al servizio dello stadio Sinigaglia. A stretto giro è arrivata la prima reazione politica, è del M5S: È sorprendente […] L'articolo Como, il M5S attacca: “La scuola Corridoni non si tocca, il calo demografico è un pretesto” proviene da ComoZero .",
-      "published_at": "2026-11-16T11:30:17+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
