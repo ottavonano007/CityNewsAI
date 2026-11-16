@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T15:13:02.053615+00:00",
+  "generated_at": "2026-11-16T16:47:18.255767+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -28,9 +28,65 @@
   ],
   "articles": [
     {
-      "title": "Ok dalla commissione Economia agli investimenti per i Consorzi di Bonifica: a Piacenza interventi per 219mila euro",
+      "title": "Elezioni 2027, secondo incontro per la formazione di una nuova lista",
+      "url": "https://primacomo.it/attualita/elezioni-2027-secondo-incontro-per-la-formazione-di-una-nuova-lista",
+      "summary": "Secondo incontro preliminare alla formazione di una lista per le Elezioni 2027 a Olgiate Comasco. Elezioni 2027, lavori in corso Dopo l’incontro inaugurale, tenuto lo scorso 22 ottobre, organizzato dai consiglieri comunali di minoranza del Gruppo misto (area di centrodestra) – Daniela Cammarata, Igor Castelli e Fabio Santoianni – ecco la seconda “tappa”. Giovedì 19 […] Continua la lettura di Elezioni 2027, secondo incontro per la formazione di una nuova lista sul portale Prima Como .",
+      "published_at": "2026-11-16T16:17:44+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Le valli del Lago di Como non vogliono spopolarsi, il Pd: “Piano nazionale da sei miliardi”",
+      "url": "https://comozero.it/attualita/le-valli-del-lago-di-como-non-vogliono-spopolarsi-il-pd-piano-nazionale-da-sei-miliardi",
+      "summary": "Dalla viabilità alla sanità territoriale, dalla scuola agli incentivi per imprese e giovani: a Grandola ed Uniti presentate le tre proposte di legge del Partito Democratico. Nel mirino anche i criteri della legge Calderoli sui Comuni montani Sei miliardi di euro per sostenere i territori montani italiani, contrastare lo spopolamento e garantire servizi e opportunità […] L'articolo Le valli del Lago di Como non vogliono spopolarsi, il Pd: “Piano nazionale da sei miliardi” proviene da ComoZero .",
+      "published_at": "2026-11-16T16:04:29+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Cina scopre Como che vola al +200% nelle ricerche online, Lombardia +150%",
+      "url": "https://comozero.it/attualita/la-cina-scopre-como-che-vola-al-200-delle-ricerche-online-lombardia-150",
+      "summary": "Una Lombardia sempre più presente nelle ricerche online del pubblico cinese, con un interesse che si estende dalle grandi destinazioni alle esperienze legate all’artigianato, alla gastronomia e ai piccoli centri. La campagna digitale realizzata da Regione Lombardia con Petal Ads, la piattaforma pubblicitaria di Huawei, ha registrato un aumento del 150% delle ricerche online sulla […] L'articolo La Cina scopre Como che vola al +200% nelle ricerche online, Lombardia +150% proviene da ComoZero .",
+      "published_at": "2026-11-16T15:31:28+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Online il nuovo sito del Piacenza Calcio",
+      "url": "https://www.piacenzasera.it/2026/11/online-il-nuovo-sito-del-piacenza-calcio/670687",
+      "summary": "”Il nuovo sito ufficiale - sottolinea il presidente Marco Polenghi - rappresenta un ulteriore passo nel percorso di rinnovamento e crescita del Club\" The post Online il nuovo sito del Piacenza Calcio appeared first on piacenzasera.it .",
+      "published_at": "2026-11-16T15:22:49+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Bonifica, oltre 219mila euro per il piacentino “Risorse importanti per sicurezza e cura del territorio”",
       "url": "https://www.piacenzasera.it/2026/11/ok-dalla-commissione-economia-agli-investimenti-per-i-consorzi-di-bonifica-a-piacenza-interventi-per-219mila-euro/670677",
-      "summary": "The post Ok dalla commissione Economia agli investimenti per i Consorzi di Bonifica: a Piacenza interventi per 219mila euro appeared first on piacenzasera.it .",
+      "summary": "Parere favorevole della commissione Politiche economiche allo schema di delibera proposto dalla Giunta regionale per regolare il programma di interventi di bonifica e irrigazione dei prossimi tre anni The post Bonifica, oltre 219mila euro per il piacentino “Risorse importanti per sicurezza e cura del territorio” appeared first on piacenzasera.it .",
       "published_at": "2026-11-16T14:57:14+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -126,20 +182,6 @@
       ]
     },
     {
-      "title": "AI, la piacentina Marta Bonzanini direttore Italia per l’interfaccia Plaud",
-      "url": "https://www.piacenzasera.it/2026/11/ai-la-piacentina-marta-bonzanini-direttore-italia-per-linterfaccia-plaud/670652",
-      "summary": "Con sedici anni di esperienza internazionale tra Duolingo, Airbnb, Meta, la manager accompagnerà la crescita di Plaud nel nostro Paese The post AI, la piacentina Marta Bonzanini direttore Italia per l’interfaccia Plaud appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T14:03:27+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "“E tu, che strada hai scelto?”: incontro in sala consiliare per parlare di giovani e lavoro",
       "url": "https://primacomo.it/attualita/e-tu-che-strada-hai-scelto-incontro-in-sala-consiliare-per-parlare-di-giovani-e-lavoro",
       "summary": "C’è chi segue la strada che ha sempre sognato, chi cambia direzione e chi scopre opportunità che non aveva nemmeno immaginato. La serata in programma per martedì 17 alle 21 organizzata dall’associazione culturale Lepomis in sala consiliare sarà un’occasione per parlare di giovani e mondo del lavoro. Un’occasione di confronto “E tu, che strada hai […] Continua la lettura di “E tu, che strada hai scelto?”: incontro in sala consiliare per parlare di giovani e lavoro sul portale Prima Como .",
@@ -195,20 +237,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Intelligenza artificiale e aziende, nuovo seminario organizzato da Confapi",
-      "url": "https://www.piacenzasera.it/2026/11/intelligenza-artificiale-e-aziende-nuovo-seminario-organizzato-da-confapi/670647",
-      "summary": "L’appuntamento è per mercoledì 18 novembre alle 17 e 30 nella sede dell’associazione in via Menicanti 1 a Piacenza The post Intelligenza artificiale e aziende, nuovo seminario organizzato da Confapi appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T13:13:38+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -566,20 +594,6 @@
       ]
     },
     {
-      "title": "Como ritrova (piuttosto diverso) il lavatoio che sembrava condannato al degrado. Le foto",
-      "url": "https://comozero.it/attualita/como-ritrova-piuttosto-diverso-il-lavatoio-che-sembrava-condannato-al-degrado-le-foto",
-      "summary": "Il lavatoio di via Bignanico a Como è risorto ed è stato strappato al degrado. L’aspetto definitivo, stando a chi ha realizzato le immagini che vedete in pagina, può forse far discutere. L’opera, soltanto fino a tre anni era in condizioni pessime: in completo abbandono per anni, con la vecchia copertura sfondata, preda del degrado. […] L'articolo Como ritrova (piuttosto diverso) il lavatoio che sembrava condannato al degrado. Le foto proviene da ComoZero .",
-      "published_at": "2026-11-16T06:56:36+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Si resta a quota 0: Tortona passa al supplementare",
       "url": "https://primacomo.it/sport/si-resta-a-quota-0-tortona-passa-al-supplementare",
       "summary": "Niente da fare, con la Derthona Tortona arriva l’ottava sconfitta di fila e Cantù resta malinconicamente a quota 0 in classifica La gara In avvio Jallow realizza i primi 4 punti di Tortona, l’Acqua S.Bernardo risponde con le triple di Moraschini e Olisevicius. Anche Maddox segna dall’arco, con Gorham che invece trova due volte la […] Continua la lettura di Si resta a quota 0: Tortona passa al supplementare sul portale Prima Como .",
@@ -747,22 +761,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Rigamonti si gioca il titolo italiano",
-      "url": "https://primacomo.it/attualita/rigamonti-si-gioca-il-titolo-italiano",
-      "summary": "Valtellina ECOgreen, il titolo italiano si decide a Sondrio: Matteo Rigamonti, di Cantù, a 10 punti da Nicola Ventura nella finale del Campionato italiano Energie Alternative. La gara Nella giornata di oggi, sabato 14 novembre, Matteo Rigamonti del Team LarioEcoRacers – Scuderia del Lario, partirà per il 7° Valtellina ECOgreen, la gara conclusiva del Campionato […] Continua la lettura di Rigamonti si gioca il titolo italiano sul portale Prima Como .",
-      "published_at": "2026-11-14T12:00:23+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como",
-        "so"
-      ],
-      "territory_codes": [
-        "CO",
-        "SO"
       ]
     }
   ]
