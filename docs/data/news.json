@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T04:22:16.281082+00:00",
+  "generated_at": "2026-11-16T06:27:00.583030+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "La scuola da abbattere per l’autosilo, Rapinese: “Il parcheggio serve a quartiere e stadio”. Parla anche il Como",
+      "url": "https://comozero.it/attualita/la-scuola-da-abbattere-per-lautosilo-rapinese-ribadisce-il-parcheggio-serve-quartiere-e-stadio-dal-como-toni-soft",
+      "summary": "Ampio reportage sul caso della scuola primaria Corridoni, che il sindaco Alessandro Rapinese vuole abbattere per far posto a un autosilo anche al servizio dello stadio Sinigaglia, sul quotidiano La Stampa di Torino, a firma Nadia Ferrigo. Come noto, la vicenda è in questo momento sospesa, con il Consiglio di Stato che ancora deve emettere […] L'articolo La scuola da abbattere per l’autosilo, Rapinese: “Il parcheggio serve a quartiere e stadio”. Parla anche il Como proviene da ComoZero .",
+      "published_at": "2026-11-16T05:03:52+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "to"
+      ],
+      "territory_codes": [
+        "CO",
+        "TO"
+      ]
+    },
     {
       "title": "Assigeco non riesce a contenere una dirompente Leonessa Brescia (81-92)",
       "url": "https://www.piacenzasera.it/2026/11/assigeco-non-riesce-a-contenere-una-dirompente-leonessa-brescia-81-92/670543",
@@ -420,20 +436,6 @@
       "published_at": "2026-11-14T16:00:54+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, ubriaca tenta di spogliarsi, poi calci e schiaffi agli agenti: ucraina arrestata",
-      "url": "https://comozero.it/attualita/como-calci-e-schiaffi-agli-agenti-della-polizia-locale-in-centro-storico-ucraina-arrestata-e-condannata",
-      "summary": "[Copertina: archivio] Calci, schiaffi e oggetti lanciati contro gli agenti. Serata movimentata venerdì 13 novembre in piazza Medaglie d’Oro Comasche, a Como, dove una donna di circa 50 anni, cittadina ucraina, è stata arrestata dalla Polizia Locale per resistenza a pubblico ufficiale. Nella mattinata di sabato 14 novembre, dopo il processo per direttissima, è stata […] L'articolo Como, ubriaca tenta di spogliarsi, poi calci e schiaffi agli agenti: ucraina arrestata proviene da ComoZero .",
-      "published_at": "2026-11-14T15:15:39+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
