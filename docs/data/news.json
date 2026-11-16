@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-16T16:47:18.255767+00:00",
+  "generated_at": "2026-11-16T18:08:30.317520+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 8,
+      "inserted": 8,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 15,
+      "inserted": 15,
       "ok": true
     },
     {
@@ -27,6 +27,120 @@
     }
   ],
   "articles": [
+    {
+      "title": "Il sondaggio sul sindaco di Como Alessandro Rapinese: il risultato non brilla (ma batte Varese)",
+      "url": "https://comozero.it/politica/il-sondaggio-sul-sindaco-di-como-alessandro-rapinese-il-risultato-non-brilla-ma-batte-varese",
+      "summary": "Il quotidiano online Affaritaliani.it ha commissionato una rilevazione sul consenso dei sindaci italiani all’Istituto Demoscopico LAB21. L’indagine è stata suddivisa in base alla della popolazione: città metropolitane, fascia A (120mila-260mila abitanti), fascia B (85mila-119mila) e fascia C (70mila-84mila abitanti). In quest’ultima fascia rientra anche Como, il cui sindaco Alessandro Rapinese non spicca pur battendo il […] L'articolo Il sondaggio sul sindaco di Como Alessandro Rapinese: il risultato non brilla (ma batte Varese) proviene da ComoZero .",
+      "published_at": "2026-11-16T17:56:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
+    {
+      "title": "Rassegna di geopolitica: in oratorio c’è il film “Civil war”",
+      "url": "https://primacomo.it/attualita/rassegna-di-geopolitica-in-oratorio-ce-il-film-civil-war",
+      "summary": "Quanto è fragile una democrazia? Se ne parla nel cineforum “Non è un film. È il mondo che ti riguarda”, rassegna geopolitica per riflettere sul mondo e le sue dinamiche, curata da Fabrizio Fogliato e organizzata da Bcc con Lo Snodo. Secondo appuntamento Il secondo film della rassegna è “Civil war”: sarà proiettato nella sala […] Continua la lettura di Rassegna di geopolitica: in oratorio c’è il film “Civil war” sul portale Prima Como .",
+      "published_at": "2026-11-16T17:41:59+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il Lago di Como protagonista nella grande fiction Rai tratta dai romanzi di Andrea Vitali, c’è l’anteprima",
+      "url": "https://comozero.it/cultura-e-spettacolo/il-lago-di-como-protagonista-nella-grande-fiction-rai-tratta-dai-romanzi-di-andrea-vitali-ce-lanteprima-bellano",
+      "summary": "Domani, martedì 17 novembre, la proiezione della prima puntata al Cinema di Bellano. Presenti lo scrittore, il regista Marco Pontecorvo e gli attori Antonio Folletto e Giulia D’Aloia. Dal 24 novembre la fiction arriva su Rai 1 e RaiPlay Bellano e il lago di Como arrivano in televisione attraverso le storie e i personaggi nati […] L'articolo Il Lago di Como protagonista nella grande fiction Rai tratta dai romanzi di Andrea Vitali, c’è l’anteprima proviene da ComoZero .",
+      "published_at": "2026-11-16T17:30:20+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Chivu davanti a Fabregas per la Panchina d’Oro 2026: sorride il Como donne con Selena Mazzantini",
+      "url": "https://www.ciaocomo.it/2026/11/16/chivu-davanti-a-fabregas-per-la-panchina-doro-2026-sorride-il-como-donne-con-selena-mazzantini/348104",
+      "summary": "L'allenatore azzurro secondo più votato dai colleghi, ma la spunta il nerazzurro. Il tecnico della squadra femminile trionfa dopo il successo nel campionato scorso e l'ottino avvio di questo The post Chivu davanti a Fabregas per la Panchina d’Oro 2026: sorride il Como donne con Selena Mazzantini appeared first on CiaoComo .",
+      "published_at": "2026-11-16T17:25:16+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
+      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
+      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
+      "published_at": "2026-11-16T17:07:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A Como il mazzo di chiavi simbolo di resistenza urbana contro la chiusura dei negozi",
+      "url": "https://comozero.it/attualita/a-como-il-mazzo-di-chiavi-simbolo-di-resistenza-urbana-contro-la-chiusura-dei-negozi",
+      "summary": "Un mazzo di chiavi come simbolo di resistenza urbana e di rilancio economico. Anche Confcommercio Como ha aderito oggi alla “Giornata delle chiavi”, la mobilitazione nazionale promossa dalla Confederazione per accendere i riflettori sul fenomeno della desertificazione commerciale e tutelare i negozi di vicinato. L’incontro, ospitato nella sede comasca, si è concluso con un atto […] L'articolo A Como il mazzo di chiavi simbolo di resistenza urbana contro la chiusura dei negozi proviene da ComoZero .",
+      "published_at": "2026-11-16T16:50:23+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Una cascata d’oro sul Comasco dai ristorni dei frontalieri: più di 48 milioni per Comuni, Provincia e Comunità Montane",
+      "url": "https://comozero.it/attualita/una-cascata-doro-sul-comasco-dai-ristorni-dei-frontalieri-piu-di-48-milioni-per-comuni-provincia-e-comunita-montane",
+      "summary": "Oltre sei milioni di euro per la Provincia di Como. Anche quest’anno la Giunta regionale ha approvato il riparto dei fondi derivanti dai ristorni dei lavoratori frontalieri. Quelli relativi all’anno 2024 porteranno sul nostro territorio poco più di 6 milioni: 4 milioni e 800mila all’Amministrazione provinciale di Como e il restante alle Comunità Montane Triangolo […] L'articolo Una cascata d’oro sul Comasco dai ristorni dei frontalieri: più di 48 milioni per Comuni, Provincia e Comunità Montane proviene da ComoZero .",
+      "published_at": "2026-11-16T16:36:34+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Le chiavi dei negozi chiusi consegnate al sindaco “Un’alleanza per il futuro del commercio”",
+      "url": "https://www.piacenzasera.it/2026/11/le-chiavi-dei-negozi-chiusi-consegnate-al-sindaco-unalleanza-per-il-futuro-del-commercio/670705",
+      "summary": "Anche a Piacenza la mobilitazione di Confcommercio: al centro dell'incontro in Municipio le proposte del progetto Cities per sostenere i negozi di vicinato e valorizzare il lavoro già avviato in città The post Le chiavi dei negozi chiusi consegnate al sindaco “Un’alleanza per il futuro del commercio” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-16T16:17:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Elezioni 2027, secondo incontro per la formazione di una nuova lista",
       "url": "https://primacomo.it/attualita/elezioni-2027-secondo-incontro-per-la-formazione-di-una-nuova-lista",
@@ -48,6 +162,20 @@
       "published_at": "2026-11-16T16:04:29+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere",
+      "url": "https://www.ciaocomo.it/2026/11/16/la-vita-maestra-di-giuseppe-guin-i-suoi-tanti-lavori-le-persone-incontrate-e-le-storie-che-insegnano-a-vivere/348100",
+      "summary": "Esperienze, incontri e identità diverse si intrecciano nel nuovo libro autobiografico di Giuseppe Guin, pubblicato da Dominioni. Presentazione giovedì 19 novembre alle 18.30 al Collegio Gallio di Como, con Edoardo Ceriani. The post “La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere appeared first on CiaoComo .",
+      "published_at": "2026-11-16T16:00:55+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -126,20 +254,6 @@
       ]
     },
     {
-      "title": "E’ pronto il quinto distributore di acqua pubblica a Piacenza: taglio del nastro con gli studenti",
-      "url": "https://www.piacenzasera.it/2026/11/e-pronto-il-quinto-distributore-di-acqua-pubblica-a-piacenza-collocato-al-parcheggio-del-cheope/670569",
-      "summary": "E' stato collocato al parcheggio del Cheope il nuovo chiosco per l'erogazione gratuita di acqua potabile The post E’ pronto il quinto distributore di acqua pubblica a Piacenza: taglio del nastro con gli studenti appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T14:41:18+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Musica e riflessioni sull’eredità di San Francesco: doppio appuntamento al Centro Cardinal Ferrari di Como",
       "url": "https://www.ciaocomo.it/2026/11/16/musica-e-riflessioni-sulleredita-di-san-francesco-doppio-appuntamento-al-centro-cardinal-ferrari-di-como/348066",
       "summary": "Mercoledì 18 novembre, alle 17.30, il Quintetto Musorgskij protagonista di “I Mestieri della musica”. Alle 21 l’economista Luigino Bruni parlerà di ricchezza e povertà in un incontro dedicato alla memoria di don Roberto Malgesini The post Musica e riflessioni sull’eredità di San Francesco: doppio appuntamento al Centro Cardinal Ferrari di Como appeared first on CiaoComo .",
@@ -151,20 +265,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "L’Asl incontra i comitati consultivi misti “Risorsa fondamentale per la sanità”",
-      "url": "https://www.piacenzasera.it/2026/11/lasl-incontra-i-comitati-consultivi-misti-risorsa-fondamentale-per-la-sanita/670656",
-      "summary": "I Comitati consultivi misti sono organismi che mettono in relazione l'Azienda sanitaria con le associazioni di volontariato e di tutela dei diritti. Rappresentano i Distretti di Piacenza, Levante e Ponente The post L’Asl incontra i comitati consultivi misti “Risorsa fondamentale per la sanità” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T14:21:45+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -244,6 +344,20 @@
       "url": "https://primacomo.it/altro/spaccio-arrestato-un-diciottenne",
       "summary": "Durante la perquisizione viene trovato in possesso di marijuana e hashish, arrestato un diciottenne per spaccio. Spaccio, arrestato diciottenne Nei giorni scorsi, i Carabinieri della Stazione di Lurate Caccivio hanno arrestato un 18enne residente nel comune per detenzione di sostanze stupefacenti ai fini di spaccio. Nell’ambito di un’attività investigativa in materia di stupefacenti, i militari […] Continua la lettura di Spaccio, arrestato un diciottenne sul portale Prima Como .",
       "published_at": "2026-11-16T13:02:44+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Prevenzione oncologica e campagna vaccinale tutte le iniziative promosse da  Regione Lombardia",
+      "url": "https://primacomo.it/politica/prevenzione-oncologica-e-campagna-vaccinale-tutte-le-iniziative-promosse-da-regione-lombardia",
+      "summary": "A firma della consigliera regionale di Forza Italia Marisa Cesana La prevenzione è uno degli investimenti più importanti per la salute dei cittadini. In Lombardia è una priorità concreta, attraverso screening, campagne di sensibilizzazione e un’offerta vaccinale capillare: l’obiettivo è intervenire in anticipo, quando le possibilità di cura sono maggiori. Come Forza Italia abbiamo sostenuto […] Continua la lettura di Prevenzione oncologica e campagna vaccinale tutte le iniziative promosse da Regione Lombardia sul portale Prima Como .",
+      "published_at": "2026-11-16T13:00:35+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
@@ -452,64 +566,6 @@
       ]
     },
     {
-      "title": "E’ morto Flaminio Vasile, sindaco dei record e figura storica del socialismo comasco",
-      "url": "https://comozero.it/attualita/e-morto-flaminio-vasile-sindaco-dei-record-e-figura-storica-del-socialismo-comasco",
-      "summary": "E’ morto a 88 anni Flaminio Vasile, figura storica della politica comasca e in particolare del Comune di Senna Comasco. La notizia si è diffusa nella serata di domenica 15 novembre. Vasile, nato a Monasterace in provincia di Reggio Calabria nel 1938, è stato lo storico sindaco di Senna, nella cui giunta fece il primo […] L'articolo E’ morto Flaminio Vasile, sindaco dei record e figura storica del socialismo comasco proviene da ComoZero .",
-      "published_at": "2026-11-16T10:17:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "rc"
-      ],
-      "territory_codes": [
-        "CO",
-        "RC"
-      ]
-    },
-    {
-      "title": "Viola ripetutamente il divieto di dimora in provincia di Como: arrestato un 19enne, ora è in carcere",
-      "url": "https://www.ciaocomo.it/2026/11/16/viola-ripetutamente-il-divieto-di-dimora-in-provincia-di-como-arrestato-un-19enne-ora-e-in-carcere/348052",
-      "summary": "Il giovane era coinvolto nell'indagine dei Carabinieri su tre rapine, due furti e un tentativo di estorsione ai danni di sei persone, avvenuti anche nella zona del Tempio Voltiano. Il Gip ha disposto l'aggravamento della misura cautelare The post Viola ripetutamente il divieto di dimora in provincia di Como: arrestato un 19enne, ora è in carcere appeared first on CiaoComo .",
-      "published_at": "2026-11-16T10:08:51+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, in un negozio in vendita sugli scaffali 71 prolunghe elettriche insicure",
-      "url": "https://comozero.it/attualita/provincia-di-como-in-un-negozio-in-vendita-sugli-scaffali-71-prolunghe-elettriche-insicure",
-      "summary": "Ritirate dal mercato multiprese e prolunghe prive delle necessarie verifiche tecniche di sicurezza. I militari della Compagnia di Olgiate Comasco hanno effettuato un controllo in un negozio. L’ispezione, eseguita in un emporio, ha consentito di individuare ed eliminare dal circuito di vendita 71 dispositivi elettrici a bassa tensione — nello specifico multiprese e prolunghe — […] L'articolo Provincia di Como, in un negozio in vendita sugli scaffali 71 prolunghe elettriche insicure proviene da ComoZero .",
-      "published_at": "2026-11-16T09:40:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Clamorosi Comense e Basket Como, disertano e rompono con Rapinese: “Una targa non dà dignità allo sport”",
-      "url": "https://comozero.it/sport/clamorosi-comense-e-basket-como-disertano-e-rompono-con-il-comune-una-targa-non-da-dignita-allo-sport",
-      "summary": "[Foto di copertina: la clamorosa protesta della Lario Scuola di Judo nel 2025, precedente analogo] “Una targa a un meritevole rappresentante della società può essere un gesto di riconoscimento, ma non risolve i problemi quotidiani delle associazioni, non mette a disposizione una palestra, non riduce i costi sostenuti dalle famiglie e non permette ai ragazzi […] L'articolo Clamorosi Comense e Basket Como, disertano e rompono con Rapinese: “Una targa non dà dignità allo sport” proviene da ComoZero .",
-      "published_at": "2026-11-16T08:59:05+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "L’Istituto San Vincenzo lancia un nuovo indirizzo alla secondaria di I grado di Albese con Cassano: lo Scientifico Sportivo",
       "url": "https://primacomo.it/scuola/listituto-san-vincenzo-lancia-un-nuovo-indirizzo-alla-secondaria-di-i-grado-di-albese-con-cassano-lo-scientifico-sportivo",
       "summary": "Arriva una novità all’Istituto San Vincenzo: dal prossimo anno scolastico, 2027-2028, la Scuola Secondaria di primo grado (scuola media) di Albese con Cassano avrà un nuovo indirizzo. Si tratta dello “Scientifico Sportivo”, un percorso che unisce movimento, biologia, ambiente e tecnologia in un’esperienza didattico-educativa integrata ed integrale. Cosa offre il nuovo indirizzo Il percorso Scientifico […] Continua la lettura di L’Istituto San Vincenzo lancia un nuovo indirizzo alla secondaria di I grado di Albese con Cassano: lo Scientifico Sportivo sul portale Prima Como .",
@@ -558,20 +614,6 @@
       "published_at": "2026-11-16T07:24:08+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante”",
-      "url": "https://comozero.it/attualita/lago-di-como-il-gruppone-dei-ciclisti-e-la-colonna-di-auto-in-coda-una-situazione-allucinante",
-      "summary": "Il tema dei ciclisti in gruppo sulle strade del Lago di Como, e soprattutto la convivenza con il traffico, fa discutere da sempre. Da un lato, il diritto degli amanti delle due ruote di godersi il loro sport preferiti tra i magnifici panorami lariani, dall’altro la legittima rivendicazione degli automobilisti di non doversi sorbire km e […] L'articolo Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante” proviene da ComoZero .",
-      "published_at": "2026-11-16T07:10:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -726,34 +768,6 @@
       "url": "https://primacomo.it/attualita/grazie-allimpegno-dellassociazione-i-tre-castelli-ritorna-a-vivere-la-tradizione-delle-nespole-di-san-martino",
       "summary": "Grazie all’impegno dell’associazione I Tre Castelli ritorna a vivere la tradizione delle «nespole di San Martino». I volontari, nei giorni scorsi, hanno riproposto un’usanza che in paese mancava da circa mezzo secolo. Raccolte nei boschi locali e vendute per la parrocchia In particolare, in occasione della festa patronale di San Martino che ricorre l’11 novembre […] Continua la lettura di Grazie all’impegno dell’associazione I Tre Castelli ritorna a vivere la tradizione delle «nespole di San Martino» sul portale Prima Como .",
       "published_at": "2026-11-14T15:00:51+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Incontro al Centro cardinal Ferrari con l’economista Luigino Bruni",
-      "url": "https://primacomo.it/attualita/incontro-al-centro-cardinal-ferrari-con-leconomista-luigino-bruni",
-      "summary": "Incontro a Como con Luigino Bruni, economista, storico dell’economia e biblista. Incontro con Luigino Bruni Mercoledì 18 novembre, alle 21 al Centro socio pastorale Card. Ferrari, in viale Cesare Battisti 8 “La profezia incompiuta di Francesco: economia, ricchezza e povertà”: è il tema dell’intervento che vedrà intervenire Luigino Bruni, docente universitario, economista e biblista. Serata […] Continua la lettura di Incontro al Centro cardinal Ferrari con l’economista Luigino Bruni sul portale Prima Como .",
-      "published_at": "2026-11-14T14:00:24+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Oltre cento studenti coinvolti nel progetto OrientaMente",
-      "url": "https://primacomo.it/attualita/oltre-cento-studenti-coinvolti-nel-progetto-orientamente",
-      "summary": "Progetto OrientaMente, coinvolto oltre cento studenti dell’istituto comprensivo Segantini di Asso. Promosso dall’associazione giovanile Lo Snodo. Una scelta per il futuro Nella sala consiliare del Comune di Asso si è tenuto l’incontro serale di restituzione dei test alle famiglie nell’ambito di OrientaMente: il progetto dedicato alla scelta scolastica promosso dall’associazione giovanile Lo Snodo. L’iniziativa ha […] Continua la lettura di Oltre cento studenti coinvolti nel progetto OrientaMente sul portale Prima Como .",
-      "published_at": "2026-11-14T13:00:41+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
