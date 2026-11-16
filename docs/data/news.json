@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-16T18:08:30.317520+00:00",
+  "generated_at": "2026-11-16T19:02:31.866097+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 8,
-      "inserted": 8,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -28,9 +28,23 @@
   ],
   "articles": [
     {
+      "title": "Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera con Guccini per lo Spazio Gloria",
+      "url": "https://comozero.it/attualita/como-perde-un-grande-uomo-e-morto-enzo-dantuono-vita-per-la-cultura-il-sociale-e-la-politica",
+      "summary": "[Copertina: Enzo D’Antuono durante una delle tante campagne per sostenere il Gloria, Circolo Arci Xanadù] In aggiornamento – Spirito libero radicalmente legato alla storia sociale, culturale e politica di Como. E’ morto questa mattina, come fa sapere Ecoinformazioni, Vincenzo Enzo D’Antuono. Nome legato a progetti che hanno messo dei punti fermi in città: il Rock Club […] L'articolo Como perde un grande uomo, è morto Enzo D’Antuono: una vita per la cultura, il sociale e la politica. L’ultima sera con Guccini per lo Spazio Gloria proviene da ComoZero .",
+      "published_at": "2026-11-16T18:40:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Il sondaggio sul sindaco di Como Alessandro Rapinese: il risultato non brilla (ma batte Varese)",
       "url": "https://comozero.it/politica/il-sondaggio-sul-sindaco-di-como-alessandro-rapinese-il-risultato-non-brilla-ma-batte-varese",
-      "summary": "Il quotidiano online Affaritaliani.it ha commissionato una rilevazione sul consenso dei sindaci italiani all’Istituto Demoscopico LAB21. L’indagine è stata suddivisa in base alla della popolazione: città metropolitane, fascia A (120mila-260mila abitanti), fascia B (85mila-119mila) e fascia C (70mila-84mila abitanti). In quest’ultima fascia rientra anche Como, il cui sindaco Alessandro Rapinese non spicca pur battendo il […] L'articolo Il sondaggio sul sindaco di Como Alessandro Rapinese: il risultato non brilla (ma batte Varese) proviene da ComoZero .",
+      "summary": "Il quotidiano online Affaritaliani.it ha commissionato una rilevazione sul consenso dei sindaci italiani all’Istituto Demoscopico LAB21. L’indagine è stata suddivisa in base alla della popolazione: città metropolitane, fascia A (120mila-260mila abitanti), fascia B (85mila-119mila) e fascia C (70mila-84mila abitanti). In quest’ultima fascia rientra anche Como, il cui sindaco Alessandro Rapinese non spicca in assoluto nel […] L'articolo Il sondaggio sul sindaco di Como Alessandro Rapinese: il risultato non brilla (ma batte Varese) proviene da ComoZero .",
       "published_at": "2026-11-16T17:56:19+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -41,6 +55,22 @@
       "territory_codes": [
         "CO",
         "VA"
+      ]
+    },
+    {
+      "title": "Brilla l’Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno",
+      "url": "https://www.piacenzasera.it/2026/11/brilla-latletica-piacenza-exploit-di-rebecchi-e-marchesi-a-ravenna-e-grande-festa-al-cross-dautunno/670719",
+      "summary": "Per gli atleti biancorossi pioggia di medaglie ed ottimi piazzamenti The post Brilla l’Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno appeared first on piacenzasera.it .",
+      "published_at": "2026-11-16T17:50:07+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza",
+        "ra"
+      ],
+      "territory_codes": [
+        "PC",
+        "RA"
       ]
     },
     {
@@ -226,38 +256,10 @@
       ]
     },
     {
-      "title": "Monumenti illuminati di blu, Piacenza aderisce alla campagna Unicef e Anci per la Giornata dell’Infanzia",
-      "url": "https://www.piacenzasera.it/2026/11/monumenti-illuminati-di-blu-piacenza-aderisce-alla-campagna-unicef-e-anci-per-la-giornata-dellinfanzia/670669",
-      "summary": "Ad oggi oltre 280 Comuni – piccoli e grandi - hanno aderito all’iniziativa del 20 novembre The post Monumenti illuminati di blu, Piacenza aderisce alla campagna Unicef e Anci per la Giornata dell’Infanzia appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T14:55:45+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Chiusa stanotte l’immissione sull’R49 complanare di Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/chiusa-stanotte-limmissione-sullr49-complanare-di-piacenza/670661",
-      "summary": "The post Chiusa stanotte l’immissione sull’R49 complanare di Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T14:42:09+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Musica e riflessioni sull’eredità di San Francesco: doppio appuntamento al Centro Cardinal Ferrari di Como",
-      "url": "https://www.ciaocomo.it/2026/11/16/musica-e-riflessioni-sulleredita-di-san-francesco-doppio-appuntamento-al-centro-cardinal-ferrari-di-como/348066",
-      "summary": "Mercoledì 18 novembre, alle 17.30, il Quintetto Musorgskij protagonista di “I Mestieri della musica”. Alle 21 l’economista Luigino Bruni parlerà di ricchezza e povertà in un incontro dedicato alla memoria di don Roberto Malgesini The post Musica e riflessioni sull’eredità di San Francesco: doppio appuntamento al Centro Cardinal Ferrari di Como appeared first on CiaoComo .",
-      "published_at": "2026-11-16T14:30:11+00:00",
+      "title": "Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia",
+      "url": "https://www.ciaocomo.it/2026/11/16/como-coyote-vs-acme-in-versione-originale-il-film-che-hollywood-voleva-cancellare-arriva-al-cinelandia/348105",
+      "summary": "Wile E. Coyote porta la Acme in tribunale nel film proiettato in versione originale per la rassegna dello Spazio Gloria “Film che non si possono vedere doppiati” The post Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia appeared first on CiaoComo .",
+      "published_at": "2026-11-16T14:30:37+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
@@ -524,40 +526,12 @@
       ]
     },
     {
-      "title": "Como, lo splendore del teatro, un grande chef e il fin di bene: torna la Charity Dinner di Fondazione Veronesi",
-      "url": "https://comozero.it/solidarieta-e-sociale/como-lo-splendore-del-teatro-un-grande-chef-e-il-fin-di-bene-torna-la-charity-dinner-di-fondazione-veronesi",
-      "summary": "Torna mercoledì 25 novembre, alle ore 20, la Charity Dinner della Delegazione di Como di Fondazione Veronesi a sostegno dei bambini malati di tumore. La Responsabile della Delegazione comasca di Fondazione Umberto Veronesi, Francesca Ruffini Stoppani (in foto con Paolo Veronesi), rinnova ancora una volta il suo grande impegno a sostegno dell’oncologia pediatrica, organizzando una […] L'articolo Como, lo splendore del teatro, un grande chef e il fin di bene: torna la Charity Dinner di Fondazione Veronesi proviene da ComoZero .",
-      "published_at": "2026-11-16T11:21:51+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "A sette Comuni gli aiuti della Regione",
       "url": "https://primacomo.it/attualita/a-sette-comuni-gli-aiuti-della-regione",
       "summary": "Cabiate, Carugo, Erba, Musso, Porlezza, Como e Sorico. Sono questi i sette comuni comaschi che potranno beneficiare degli aiuti di Regione Lombardia provenienti dal “Programma 2026-2030 di interventi urgenti e prioritari per la difesa del suolo e la mitigazione dei rischi idrogeologici del territorio lombardo”. In totale, la provincia di Como avrà a disposizione quasi […] Continua la lettura di A sette Comuni gli aiuti della Regione sul portale Prima Como .",
       "published_at": "2026-11-16T11:20:07+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "I commercianti di Como chiedono attenzione per poter tenere aperti i negozi:”Oggi troppe difficoltà”",
-      "url": "https://www.ciaocomo.it/2026/11/16/i-commercianti-di-como-chiedono-attenzione-per-poter-tenere-aperti-i-negozioggi-troppe-difficolta/348063",
-      "summary": "Rischio desertificazione: le parole della vice-presidente Genesoni nella \"Giornata delle chiavi\". Presenti tanti commercianti per portare la loro testimonianza. The post I commercianti di Como chiedono attenzione per poter tenere aperti i negozi:”Oggi troppe difficoltà” appeared first on CiaoComo .",
-      "published_at": "2026-11-16T11:10:04+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
