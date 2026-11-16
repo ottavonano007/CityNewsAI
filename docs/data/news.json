@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-16T09:47:16.241099+00:00",
+  "generated_at": "2026-11-16T11:31:16.271141+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,120 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, lo splendore del teatro, un grande chef e il fin di bene: torna la Charity Dinner di Fondazione Veronesi",
+      "url": "https://comozero.it/solidarieta-e-sociale/como-lo-splendore-del-teatro-un-grande-chef-e-il-fin-di-bene-torna-la-charity-dinner-di-fondazione-veronesi",
+      "summary": "Torna mercoledì 25 novembre, alle ore 20, la Charity Dinner della Delegazione di Como di Fondazione Veronesi a sostegno dei bambini malati di tumore. La Responsabile della Delegazione comasca di Fondazione Umberto Veronesi, Francesca Ruffini Stoppani (in foto con Paolo Veronesi), rinnova ancora una volta il suo grande impegno a sostegno dell’oncologia pediatrica, organizzando una […] L'articolo Como, lo splendore del teatro, un grande chef e il fin di bene: torna la Charity Dinner di Fondazione Veronesi proviene da ComoZero .",
+      "published_at": "2026-11-16T11:21:51+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A sette Comuni gli aiuti della Regione",
+      "url": "https://primacomo.it/attualita/a-sette-comuni-gli-aiuti-della-regione",
+      "summary": "Cabiate, Carugo, Erba, Musso, Porlezza, Como e Sorico. Sono questi i sette comuni comaschi che potranno beneficiare degli aiuti di Regione Lombardia provenienti dal “Programma 2026-2030 di interventi urgenti e prioritari per la difesa del suolo e la mitigazione dei rischi idrogeologici del territorio lombardo”. In totale, la provincia di Como avrà a disposizione quasi […] Continua la lettura di A sette Comuni gli aiuti della Regione sul portale Prima Como .",
+      "published_at": "2026-11-16T11:20:07+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "L’Italia Chef Piacenza cade a Persiceto 74-64",
+      "url": "https://www.piacenzasera.it/2026/11/litalia-chef-piacenza-cade-a-persiceto-74-64/670598",
+      "summary": "Nella prossima giornata l’Italia Chef Piacenza affronterà in casa Molinella, sabato 21 novembre, alle ore 18:30 The post L’Italia Chef Piacenza cade a Persiceto 74-64 appeared first on piacenzasera.it .",
+      "published_at": "2026-11-16T10:57:42+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "E’ morto Flaminio Vasile, sindaco dei record e figura storica del socialismo comasco",
+      "url": "https://comozero.it/attualita/e-morto-flaminio-vasile-sindaco-dei-record-e-figura-storica-del-socialismo-comasco",
+      "summary": "E’ morto a 88 anni Flaminio Vasile, figura storica della politica comasca e in particolare del Comune di Senna Comasco. La notizia si è diffusa nella serata di domenica 15 novembre. Vasile, nato a Monasterace in provincia di Reggio Calabria nel 1938, è stato lo storico sindaco di Senna, nella cui giunta fece il primo […] L'articolo E’ morto Flaminio Vasile, sindaco dei record e figura storica del socialismo comasco proviene da ComoZero .",
+      "published_at": "2026-11-16T10:17:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "rc"
+      ],
+      "territory_codes": [
+        "CO",
+        "RC"
+      ]
+    },
+    {
+      "title": "“Assalto al sindacato, assalto al lavoro” Berizzi a Piacenza con “Il libro segreto di Forza Nuova”",
+      "url": "https://www.piacenzasera.it/2026/11/assalto-al-sindacato-assalto-al-lavoro-berizzi-a-piacenza-con-il-libro-segreto-di-forza-nuova/670583",
+      "summary": "Accanto all’autore interverranno Beppe Giulietti per Articolo21, Nadia Maffini per Anpi Piacenza e Ivo Bussacchini per la Cgil The post “Assalto al sindacato, assalto al lavoro” Berizzi a Piacenza con “Il libro segreto di Forza Nuova” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-16T10:13:48+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Viola ripetutamente il divieto di dimora in provincia di Como: arrestato un 19enne, ora è in carcere",
+      "url": "https://www.ciaocomo.it/2026/11/16/viola-ripetutamente-il-divieto-di-dimora-in-provincia-di-como-arrestato-un-19enne-ora-e-in-carcere/348052",
+      "summary": "Il giovane era coinvolto nell'indagine dei Carabinieri su tre rapine, due furti e un tentativo di estorsione ai danni di sei persone, avvenuti anche nella zona del Tempio Voltiano. Il Gip ha disposto l'aggravamento della misura cautelare The post Viola ripetutamente il divieto di dimora in provincia di Como: arrestato un 19enne, ora è in carcere appeared first on CiaoComo .",
+      "published_at": "2026-11-16T10:08:51+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Multiprese e prolunghe elettriche non a norma: la Guardia di Finanza di Como sequestra 71 dispositivi",
+      "url": "https://www.ciaocomo.it/2026/11/16/multiprese-e-prolunghe-elettriche-non-a-norma-la-guardia-di-finanza-di-como-sequestra-71-dispositivi/348047",
+      "summary": "Controlli delle Fiamme Gialle in un emporio del territorio di Olgiate Comasco: irregolarità nella marcatura CE e possibili rischi per la sicurezza domestica. Segnalato il titolare alla Camera di Commercio The post Multiprese e prolunghe elettriche non a norma: la Guardia di Finanza di Como sequestra 71 dispositivi appeared first on CiaoComo .",
+      "published_at": "2026-11-16T09:52:53+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Non siamo il bancomat del Governo” Il 18 novembre presidio Spi Cgil nel centro di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/non-siamo-il-bancomat-del-governo-il-18-novembre-presidio-spi-cgil-nel-centro-di-piacenza/670572",
+      "summary": "Con queste richieste lo Spi Cgil di Piacenza sarà in piazza mercoledì 18 novembre, dalle 10 alle 12.30, all’incrocio tra via XX Settembre e via Chiapponi The post “Non siamo il bancomat del Governo” Il 18 novembre presidio Spi Cgil nel centro di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-16T09:46:13+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Provincia di Como, in un negozio in vendita sugli scaffali 71 prolunghe elettriche insicure",
       "url": "https://comozero.it/attualita/provincia-di-como-in-un-negozio-in-vendita-sugli-scaffali-71-prolunghe-elettriche-insicure",
@@ -98,22 +212,8 @@
       ]
     },
     {
-      "title": "Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante”",
-      "url": "https://comozero.it/attualita/lago-di-como-il-gruppone-dei-ciclisti-e-la-colonna-di-auto-in-coda-una-situazione-allucinante",
-      "summary": "Il tema dei ciclisti in gruppo sulle strade del Lago di Como, e soprattutto la convivenza con il traffico, fa discutere da sempre. Da un lato, il diritto degli amanti delle due ruote di godersi il loro sport preferiti tra i magnifici panorami lariani, dall’altro la legittima rivendicazione degli automobilisti di non doversi sorbire km e […] L'articolo Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante” proviene da ComoZero .",
-      "published_at": "2026-11-16T07:40:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Non paga  tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva",
-      "url": "https://primacomo.it/altro/non-paga-i-tributi-e-canoni-demaniali-per-piu-di-15-milioni-di-euro-nei-guai-una-struttura-ricettiva",
+      "url": "https://primacomo.it/attualita/non-paga-i-tributi-e-canoni-demaniali-per-piu-di-15-milioni-di-euro-nei-guai-una-struttura-ricettiva",
       "summary": "Non paga i tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva. Tributi non versati I militari della Guardia di finanza hanno sottoposto a controllo di polizia economico-finanziaria una struttura turistico-ricettiva all’aperto situata in prossimità del Lago Ceresio. L’intervento è stato finalizzato ad accertare il legittimo utilizzo del […] Continua la lettura di Non paga tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva sul portale Prima Como .",
       "published_at": "2026-11-16T07:38:24+00:00",
       "source_id": "primacomo",
@@ -146,6 +246,20 @@
       "published_at": "2026-11-16T07:24:08+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante”",
+      "url": "https://comozero.it/attualita/lago-di-como-il-gruppone-dei-ciclisti-e-la-colonna-di-auto-in-coda-una-situazione-allucinante",
+      "summary": "Il tema dei ciclisti in gruppo sulle strade del Lago di Como, e soprattutto la convivenza con il traffico, fa discutere da sempre. Da un lato, il diritto degli amanti delle due ruote di godersi il loro sport preferiti tra i magnifici panorami lariani, dall’altro la legittima rivendicazione degli automobilisti di non doversi sorbire km e […] L'articolo Lago di Como, il gruppone dei ciclisti e la colonna di auto in coda: “Una situazione allucinante” proviene da ComoZero .",
+      "published_at": "2026-11-16T07:10:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -212,34 +326,6 @@
       ]
     },
     {
-      "title": "Assigeco non riesce a contenere una dirompente Leonessa Brescia (81-92)",
-      "url": "https://www.piacenzasera.it/2026/11/assigeco-non-riesce-a-contenere-una-dirompente-leonessa-brescia-81-92/670543",
-      "summary": "Si interrompe al Palabanca la serie positiva dei Lupi Assigeco The post Assigeco non riesce a contenere una dirompente Leonessa Brescia (81-92) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T20:17:39+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bs"
-      ],
-      "territory_codes": [
-        "BS"
-      ]
-    },
-    {
-      "title": "Tris biancorosso: la Bakery Piacenza espugna Jesi (47-60)",
-      "url": "https://www.piacenzasera.it/2026/11/tris-biancorosso-la-bakery-piacenza-espugna-jesi-47-60/670544",
-      "summary": "Partita che torna in discussione soltanto nell’ultimo quarto con la rimonta iniziale dei padroni di casa The post Tris biancorosso: la Bakery Piacenza espugna Jesi (47-60) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T20:16:07+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Lago di Como, fiamme nella chiesa: scatta l’intervento dei vigili del fuoco",
       "url": "https://comozero.it/attualita/nesso-fiamme-nella-chiesa-parrocchiale",
       "summary": "Intervento di soccorso tecnico urgente oggi alle 14:50 nel comune di Nesso in via Santa Maria per un incendio. Le squadre del comando di Como e del distaccamento di Canzo sono intervenute nella Chiesa Parrocchiale del paese per un incendio che ha interessato un dispositivo elettronico all’interno dell’edificio sacro. I pompieri arrivati sul posto hanno […] L'articolo Lago di Como, fiamme nella chiesa: scatta l’intervento dei vigili del fuoco proviene da ComoZero .",
@@ -251,20 +337,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "A Fiera dei Vini diversamente Masterclass, degustando i territori",
-      "url": "https://www.piacenzasera.it/2026/11/a-fiera-dei-vini-diversamente-masterclass-degustando-i-territori/670536",
-      "summary": "Lunedì, terza e conclusiva giornata della Fiera dei Vini a Piacenza Expo – con orario continuato dalle 10.00 alle 16.30 The post A Fiera dei Vini diversamente Masterclass, degustando i territori appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T18:36:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -282,20 +354,6 @@
       ]
     },
     {
-      "title": "Serie B, il derby piacentino si tinge di giallonero: la Canottieri Ongina piega la Gas Sales Bluenergy (0-3)",
-      "url": "https://www.piacenzasera.it/2026/11/serie-b-il-derby-piacentino-si-tinge-di-giallonero-la-canottieri-ongina-piega-la-gas-sales-bluenergy-0-3/670532",
-      "summary": "A Piacenza la squadra di Gabriele Bruni conquista tre punti e difende la vetta in classifica The post Serie B, il derby piacentino si tinge di giallonero: la Canottieri Ongina piega la Gas Sales Bluenergy (0-3) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T17:39:59+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Qualità della vita 2026, Como sale al 41esimo posto: boom sicurezza ma crolla il reddito",
       "url": "https://comozero.it/attualita/qualita-della-vita-2026-como-classifica-italiaoggi",
       "summary": "Como guadagna una posizione nella graduatoria nazionale e si attesta al 41° posto nella classifica della qualità della vita in Italia. È questo il verdetto che emerge dalla 28ª edizione della celebre indagine realizzata da ItaliaOggi–Ital Communications, in collaborazione con l’Università La Sapienza di Roma. Osservando i flussi delle singole voci, il segnale più incoraggiante […] L'articolo Qualità della vita 2026, Como sale al 41esimo posto: boom sicurezza ma crolla il reddito proviene da ComoZero .",
@@ -309,20 +367,6 @@
       "territory_codes": [
         "CO",
         "RM"
-      ]
-    },
-    {
-      "title": "Qualità della vita, Piacenza scende al 44esimo posto. Bene sicurezza e reddito, giù lavoro e turismo",
-      "url": "https://www.piacenzasera.it/2026/11/qualita-della-vita-piacenza-scende-al-44esimo-posto-bene-sicurezza-e-reddito-giu-lavoro-e-turismo/670515",
-      "summary": "Secondo Italia Oggi il territorio piacentino è premiato dall'avanzamento su reati e ricchezza ma penalizzato dal calo in affari, sicurezza sociale e attrattività turistica The post Qualità della vita, Piacenza scende al 44esimo posto. Bene sicurezza e reddito, giù lavoro e turismo appeared first on piacenzasera.it .",
-      "published_at": "2026-11-15T16:29:04+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -437,22 +481,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Lombardia e la festa golosa: una maxi racchetta di torrone per celebrare il tennis",
-      "url": "https://comozero.it/attualita/maxi-racchetta-di-torrone-per-celebrare-tennis",
-      "summary": "La 29ª edizione della Festa del Torrone di Cremona celebra il periodo d’oro del tennis italiano unendo maestria dolciaria, territorio e inclusione sociale. Oggi, sabato 14 novembre, al Palatorrone di Piazza Roma è stata ufficialmente svelata la spettacolare Racchetta di Torrone, la maxi scultura di 2metri realizzata da Rivoltini Alimentare Dolciaria e dedicata al mondo del tennis e ai suoi […] L'articolo Lombardia e la festa golosa: una maxi racchetta di torrone per celebrare il tennis proviene da ComoZero .",
-      "published_at": "2026-11-15T09:20:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "cr",
-        "rm"
-      ],
-      "territory_codes": [
-        "CR",
-        "RM"
       ]
     },
     {
@@ -634,20 +662,6 @@
       "url": "https://primacomo.it/sport/unipol-amicacci-in-palio-la-supercoppa-italiana",
       "summary": "Domenica 15 novembre alle 10.30 andrà in scena la 25^ edizione della finale di Supercoppa Italiana Fipic tra Unipol Briantea84 Cantù (vincitrice dello scudetto 2025-26) e Deco Amicacci Abruzzo (vincitrice della Coppa Italia 2026). La competizione La competizione, intitolata alla memoria di Martin Mancini, si giocherà al Multieventi di Serravalle a San Marino con diretta […] Continua la lettura di Unipol – Amicacci: in palio la supercoppa italiana sul portale Prima Como .",
       "published_at": "2026-11-13T15:05:53+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Eccellenza della ristorazione: ecco gli stellati confermati da Guida Michelin, per Il Cantuccio è la ventesima consecutiva",
-      "url": "https://primacomo.it/attualita/eccellenza-della-ristorazione-ecco-gli-stellati-confermati-da-guida-michelin-per-il-cantuccio-e-la-ventesima-consecutiva",
-      "summary": "Guida Michelin 2027: ecco gli stellati comaschi riconfermati. Ventesima riconferma consecutiva per l’albavillese Cantuccio Per il ristorante di chef Mauro Elli, aperto nel 2003, è la ventesima riconferma consecutiva (il 21° anno ininterrotto in cui il locale detiene la Stella Michelin). L’attività di via Dante era infatti stata riconosciuta per la prima volta nel 2007. […] Continua la lettura di Eccellenza della ristorazione: ecco gli stellati confermati da Guida Michelin, per Il Cantuccio è la ventesima consecutiva sul portale Prima Como .",
-      "published_at": "2026-11-13T14:52:52+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
