@@ -148,7 +148,10 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  )
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
-  title={Column{Text(globalPlace?.takeIf{it.isNotBlank()}?:province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
+  title={Column{
+   Text(globalPlace?.takeIf{it.isNotBlank()}?:province.name,fontWeight=FontWeight.Bold)
+   Text((if(globalPlace.isNullOrBlank())"Rassegna intelligente" else "Ricerca mondiale • "+globalLevel.lowercase(Locale.ITALY))+" • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)
+  }},
   actions={IconButton(onClick=refresh,enabled=!loading){Icon(Icons.Default.Refresh,contentDescription="Aggiorna rassegna")}}
  )}){padding->
   Box(Modifier.fillMaxSize().padding(padding)) {
