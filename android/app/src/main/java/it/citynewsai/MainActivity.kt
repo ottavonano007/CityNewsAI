@@ -50,6 +50,7 @@ import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
 import java.util.Locale
@@ -446,6 +447,7 @@ private fun CityNewsApp() {
     var themeMode by remember { mutableStateOf(prefs.getString(KEY_THEME, "system") ?: "system") }
     var colorPalette by remember { mutableIntStateOf(prefs.getInt(KEY_COLOR_PALETTE, 0).coerceIn(0, 14)) }
     var showSettings by remember { mutableStateOf(false) }
+    var showGlobalSearch by remember { mutableStateOf(false) }
     var locationBusy by remember { mutableStateOf(false) }
     var liveArticles by remember { mutableStateOf(emptyList<NewsArticle>()) }
     var newsUpdatedAt by remember { mutableStateOf("") }
@@ -519,7 +521,22 @@ private fun CityNewsApp() {
     val colors = cityNewsColorScheme(isDark, colorPalette)
 
     MaterialTheme(colorScheme = colors) {
-        if (showSettings) {
+        if (showGlobalSearch) {
+            GlobalSearchPage(
+                onBack = { showGlobalSearch = false },
+                onSearch = { placeName, level, contextName, period ->
+                    val briefingIntent = Intent(context, BriefingActivity::class.java).apply {
+                        putExtra("global_place", placeName)
+                        putExtra("global_level", level)
+                        putExtra("global_context", contextName)
+                        putExtra("period_id", period)
+                        putExtra("theme_mode", themeMode)
+                        putExtra("color_palette", colorPalette)
+                    }
+                    context.startActivity(briefingIntent)
+                }
+            )
+        } else if (showSettings) {
             SettingsPage(
                 startupMode = startupMode, themeMode = themeMode, colorPalette = colorPalette,
                 locationBusy = locationBusy, onBack = { showSettings = false },
@@ -560,8 +577,13 @@ private fun CityNewsApp() {
         ) { padding ->
             Column(Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp).verticalScroll(rememberScrollState())) {
                 Spacer(Modifier.height(14.dp))
+                OutlinedButton(onClick = { showGlobalSearch = true }, modifier = Modifier.fillMaxWidth(),
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.primary)) {
+                    Text("RICERCA NEL MONDO  •  CITTÀ, REGIONI, NAZIONI, CONTINENTI")
+                }
+                Spacer(Modifier.height(8.dp))
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    FilterChip(selected = !showFavorites, onClick = { showFavorites = false }, label = { Text("Province") })
+                    FilterChip(selected = !showFavorites, onClick = { showFavorites = false }, label = { Text("Province italiane") })
                     FilterChip(
                         selected = showFavorites,
                         onClick = { showFavorites = true },
