@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T18:08:42.828901+00:00",
+  "generated_at": "2026-11-17T19:10:03.860151+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -48,6 +48,20 @@
       "published_at": "2026-11-17T16:44:07+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Su e giù dai palchi, i concerti in programma",
+      "url": "https://www.ciaocomo.it/2026/11/17/su-e-giu-dai-palchi-i-concerti-in-programma/348026",
+      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Su e giù dai palchi, i concerti in programma appeared first on CiaoComo .",
+      "published_at": "2026-11-17T16:00:11+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -142,17 +156,17 @@
       ]
     },
     {
-      "title": "Carini e Pietralunga fanno onore alla Vittorino  con le medaglie al valore atletico del Coni",
-      "url": "https://www.piacenzasera.it/2026/11/carini-e-pietralunga-fanno-onore-alla-vittorino-con-le-medaglie-al-valore-atletico-del-coni/670848",
-      "summary": "I due atleti biancorossi premiati a Ferrara per i prestigiosi risultati conquistati The post Carini e Pietralunga fanno onore alla Vittorino con le medaglie al valore atletico del Coni appeared first on piacenzasera.it .",
-      "published_at": "2026-11-17T15:08:37+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
+      "title": "Matteo Piano incontra 500 studenti per la chiusura di ONde LARIANE",
+      "url": "https://www.ciaocomo.it/2026/11/17/matteo-piano-incontra-500-studenti-per-la-chiusura-di-onde-lariane/348206",
+      "summary": "Giovedì 19 novembre al Collegio Gallio di Como l’educational «Responsabilità è squadra. Le scelte che costruiscono il futuro». L’ex pallavolista azzurro, oggi commentatore tecnico Rai, dialogherà con i ragazzi delle scuole superiori dei comuni del Centrolago per l'ultimo appuntamento del festival ONde Lariane The post Matteo Piano incontra 500 studenti per la chiusura di ONde LARIANE appeared first on CiaoComo .",
+      "published_at": "2026-11-17T14:30:14+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
-        "fe"
+        "como"
       ],
       "territory_codes": [
-        "FE"
+        "CO"
       ]
     },
     {
@@ -240,20 +254,6 @@
       ]
     },
     {
-      "title": "Su e giù dai palchi, i concerti in programma",
-      "url": "https://www.ciaocomo.it/2026/11/17/su-e-giu-dai-palchi-i-concerti-in-programma/348026",
-      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Su e giù dai palchi, i concerti in programma appeared first on CiaoComo .",
-      "published_at": "2026-11-17T13:00:11+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Calci all’auto della polizia e vetro distrutto, poi insulti agli agenti. Non è la prima volta: finisce in questura, il suo cane affidato all’Enpa",
       "url": "https://comozero.it/cronaca/calci-allauto-della-polizia-e-vetro-distrutto-poi-insulti-agli-agenti-non-e-la-prima-volta-finisce-in-questura-il-suo-cane-affidato-allenpa",
       "summary": "Un uomo di 34 anni è stato arrestato nel pomeriggio di lunedì 16 novembre a Como per violenza e resistenza a pubblico ufficiale. Durante il trasferimento in Questura ha danneggiato l’auto di servizio, rompendo a calci il finestrino e la portiera posteriore. L’intervento delle Volanti è scattato intorno alle 16, dopo una segnalazione alla Centrale […] L'articolo Calci all’auto della polizia e vetro distrutto, poi insulti agli agenti. Non è la prima volta: finisce in questura, il suo cane affidato all’Enpa proviene da ComoZero .",
@@ -272,20 +272,6 @@
       "url": "https://www.ciaocomo.it/2026/11/17/como-da-in-escandescenze-in-un-parcheggio-e-prende-a-calci-lauto-della-polizia-arrestato-un-34enne/348170",
       "summary": "Intervento delle Volanti in via Pasquale Paoli dopo una segnalazione. L'uomo ha infranto il finestrino della vettura di servizio durante il trasferimento in Questura. Il cane che era con lui affidato all'ENPA The post Como, dà in escandescenze in un parcheggio e prende a calci l’auto della Polizia: arrestato un 34enne appeared first on CiaoComo .",
       "published_at": "2026-11-17T12:37:52+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ristorni dei frontalieri, oltre 9 milioni a Como e 4,8 alla Provincia: ecco tutti i fondi per il territorio",
-      "url": "https://www.ciaocomo.it/2026/11/17/ristorni-dei-frontalieri-oltre-9-milioni-a-como-e-48-alla-provincia-ecco-tutti-i-fondi-per-il-territorio/348168",
-      "summary": "La Regione approva il riparto delle risorse fiscali provenienti dalla Svizzera. Oltre 2 milioni a Uggiate con Ronago, 1,7 a Olgiate Comasco. Fondi destinati a opere pubbliche, viabilità, trasporti ed edilizia abitativa The post Ristorni dei frontalieri, oltre 9 milioni a Como e 4,8 alla Provincia: ecco tutti i fondi per il territorio appeared first on CiaoComo .",
-      "published_at": "2026-11-17T11:50:30+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
