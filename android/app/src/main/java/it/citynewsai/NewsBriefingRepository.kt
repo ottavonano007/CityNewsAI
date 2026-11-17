@@ -484,43 +484,73 @@ internal suspend fun fetchGlobalBriefing(
     placeName: String,
     level: String,
     contextName: String,
-    periodId: String
+    periodId: String,
+    languageCode: String
 ): BriefingResult = withContext(Dispatchers.IO) {
-    val periodStart = SimpleDateFormat("yyyy-MM-dd", Locale.ROOT).format(Date(periodStartMillis(periodId)))
-
-    fun englishName(italianName: String): String {
-        val code = Locale.getISOCountries().firstOrNull { countryCode ->
-            Locale("", countryCode).getDisplayCountry(Locale.ITALY).equals(italianName, ignoreCase = true)
-        }
-        return if (code == null) italianName else Locale("", code).getDisplayCountry(Locale.ENGLISH)
+    data class LanguageConfig(
+        val label: String,
+        val hl: String,
+        val gl: String,
+        val ceid: String,
+        val topicTerms: String
+    )
+    val language = when (languageCode) {
+        "en" -> LanguageConfig("English", "en", "US", "US:en", "news OR politics OR economy OR culture OR sport")
+        "fr" -> LanguageConfig("Français", "fr", "FR", "FR:fr", "actualités OR politique OR économie OR culture OR sport")
+        "de" -> LanguageConfig("Deutsch", "de", "DE", "DE:de", "nachrichten OR politik OR wirtschaft OR kultur OR sport")
+        "es" -> LanguageConfig("Español", "es", "ES", "ES:es", "noticias OR política OR economía OR cultura OR deporte")
+        "pt" -> LanguageConfig("Português", "pt", "PT", "PT:pt", "notícias OR política OR economia OR cultura OR esporte")
+        "nl" -> LanguageConfig("Nederlands", "nl", "NL", "NL:nl", "nieuws OR politiek OR economie OR cultuur OR sport")
+        "ru" -> LanguageConfig("Русский", "ru", "RU", "RU:ru", "новости OR политика OR экономика OR культура OR спорт")
+        "ar" -> LanguageConfig("العربية", "ar", "EG", "EG:ar", "أخبار OR سياسة OR اقتصاد OR ثقافة OR رياضة")
+        "zh" -> LanguageConfig("中文", "zh-CN", "CN", "CN:zh-Hans", "新闻 OR 政治 OR 经济 OR 文化 OR 体育")
+        "ja" -> LanguageConfig("日本語", "ja", "JP", "JP:ja", "ニュース OR 政治 OR 経済 OR 文化 OR スポーツ")
+        "hi" -> LanguageConfig("हिन्दी", "hi", "IN", "IN:hi", "समाचार OR राजनीति OR अर्थव्यवस्था OR संस्कृति OR खेल")
+        "ko" -> LanguageConfig("한국어", "ko", "KR", "KR:ko", "뉴스 OR 정치 OR 경제 OR 문화 OR 스포츠")
+        else -> LanguageConfig("Italiano", "it", "IT", "IT:it", "notizie OR politica OR economia OR cultura OR sport")
     }
 
-    val englishPlace = when (placeName) {
-        "America del Nord" -> "North America"
-        "America del Sud" -> "South America"
-        else -> if (level == "NAZIONI") englishName(placeName) else placeName
+    val selectedLocale = Locale.forLanguageTag(languageCode)
+    fun localizedCountry(italianName: String): String {
+        val code = Locale.getISOCountries().firstOrNull { countryCode ->
+            Locale("", countryCode).getDisplayCountry(Locale.ITALIAN).equals(italianName, ignoreCase = true)
+        }
+        return if (code == null) italianName else Locale("", code).getDisplayCountry(selectedLocale)
+    }
+    val continentNames = mapOf(
+        "America del Nord" to mapOf("en" to "North America", "fr" to "Amérique du Nord", "de" to "Nordamerika", "es" to "América del Norte", "pt" to "América do Norte"),
+        "America del Sud" to mapOf("en" to "South America", "fr" to "Amérique du Sud", "de" to "Südamerika", "es" to "América del Sur", "pt" to "América do Sul"),
+        "Africa" to mapOf("fr" to "Afrique", "de" to "Afrika", "es" to "África", "pt" to "África"),
+        "Antartide" to mapOf("en" to "Antarctica", "fr" to "Antarctique", "de" to "Antarktis", "es" to "Antártida", "pt" to "Antártida"),
+        "Asia" to mapOf("fr" to "Asie", "de" to "Asien", "es" to "Asia", "pt" to "Ásia"),
+        "Europa" to mapOf("fr" to "Europe", "de" to "Europa", "es" to "Europa", "pt" to "Europa"),
+        "Oceania" to mapOf("fr" to "Océanie", "de" to "Ozeanien", "es" to "Oceanía", "pt" to "Oceania")
+    )
+    val localizedPlace = when {
+        level == "NAZIONI" -> localizedCountry(placeName)
+        level == "CONTINENTI" -> continentNames[placeName]?.get(languageCode) ?: placeName
+        else -> placeName
     }
     val italianCountry = if (contextName.isBlank() || contextName == "Nazione" || contextName == "Continente") ""
         else contextName.substringAfterLast(",").trim()
-    val englishCountry = if (italianCountry.isBlank()) "" else englishName(italianCountry)
+    val searchContext = if (italianCountry.isBlank()) "" else localizedCountry(italianCountry)
+    val after = " after:" + SimpleDateFormat("yyyy-MM-dd", Locale.ROOT).format(Date(periodStartMillis(periodId)))
 
-    fun feed(name: String, query: String, language: String, country: String, edition: String): FeedSpec {
+    fun feed(name: String, query: String): FeedSpec {
         return FeedSpec(
             name,
             "https://news.google.com/rss/search?q=" + Uri.encode(query) +
-                "&hl=" + language + "&gl=" + country + "&ceid=" + edition
+                "&hl=" + language.hl + "&gl=" + language.gl + "&ceid=" + language.ceid
         )
     }
-    val after = " after:" + periodStart
-    val italianExact = "\"" + placeName + "\"" + (if (italianCountry.isBlank()) "" else " " + italianCountry) + after
-    val englishExact = "\"" + englishPlace + "\"" + (if (englishCountry.isBlank()) "" else " " + englishCountry) + after
-    val italianTopical = "\"" + placeName + "\" (news OR politics OR economy OR culture OR sport) " + after
-    val englishTopical = "\"" + englishPlace + "\" (news OR politics OR economy OR culture OR sport) " + after
+    val exactQuery = "\"" + localizedPlace + "\"" +
+        (if (searchContext.isBlank()) "" else " \"" + searchContext + "\"") + after
+    val topicalQuery = "\"" + localizedPlace + "\"" +
+        (if (searchContext.isBlank()) "" else " \"" + searchContext + "\"") +
+        " (" + language.topicTerms + ")" + after
     val feeds = listOf(
-        feed("Fonti internazionali · " + placeName, englishExact, "en-US", "US", "US:en"),
-        feed("Fonti italiane · " + placeName, italianExact, "it", "IT", "IT:it"),
-        feed("Notizie internazionali · " + placeName, englishTopical, "en-US", "US", "US:en"),
-        feed("Notizie italiane · " + placeName, italianTopical, "it", "IT", "IT:it")
+        feed("Notizie · " + localizedPlace + " · " + language.label, exactQuery),
+        feed("Approfondimenti · " + localizedPlace + " · " + language.label, topicalQuery)
     )
     val results = coroutineScope {
         feeds.map { spec -> async(Dispatchers.IO) {
