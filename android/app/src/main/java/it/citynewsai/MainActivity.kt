@@ -524,11 +524,12 @@ private fun CityNewsApp() {
         if (showGlobalSearch) {
             GlobalSearchPage(
                 onBack = { showGlobalSearch = false },
-                onSearch = { placeName, level, contextName, period ->
+                onSearch = { placeName, level, contextName, period, languageCode ->
                     val briefingIntent = Intent(context, BriefingActivity::class.java).apply {
                         putExtra("global_place", placeName)
                         putExtra("global_level", level)
                         putExtra("global_context", contextName)
+                        putExtra("global_language", languageCode)
                         putExtra("period_id", period)
                         putExtra("theme_mode", themeMode)
                         putExtra("color_palette", colorPalette)
@@ -821,7 +822,7 @@ private fun worldCountrySuggestions(): List<GlobalPlaceSuggestion> =
 @Composable
 private fun GlobalSearchPage(
     onBack: () -> Unit,
-    onSearch: (String, String, String, String) -> Unit
+    onSearch: (String, String, String, String, String) -> Unit
 ) {
     val context = LocalContext.current
     val keyboard = LocalSoftwareKeyboardController.current
@@ -833,6 +834,13 @@ private fun GlobalSearchPage(
     var expanded by remember { mutableStateOf(false) }
     var period by remember { mutableStateOf("ultimora") }
     var periodExpanded by remember { mutableStateOf(false) }
+    var selectedLanguage by remember { mutableStateOf("it") }
+    var languageExpanded by remember { mutableStateOf(false) }
+    val languages = listOf(
+        "it" to "Italiano", "en" to "English", "fr" to "Français", "de" to "Deutsch",
+        "es" to "Español", "pt" to "Português", "nl" to "Nederlands", "ru" to "Русский",
+        "ar" to "العربية", "zh" to "中文", "ja" to "日本語", "hi" to "हिन्दी", "ko" to "한국어"
+    )
     val periodLabels = mapOf(
         "ultimora" to "Ultim'ora", "24h" to "Ultime 24 ore", "3d" to "Ultimi 3 giorni",
         "7d" to "Ultima settimana", "1m" to "Ultimo mese", "1y" to "Ultimo anno"
@@ -976,6 +984,29 @@ private fun GlobalSearchPage(
             if ((level == "CITTÀ" || level == "REGIONI") && query.trim().length >= 2 && suggestions.isEmpty() && selected == null) {
                 Text("Nessuna corrispondenza geografica trovata. Prova con un nome più completo.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
+            Text("LINGUA DEI RISULTATI", style = MaterialTheme.typography.labelLarge)
+            ExposedDropdownMenuBox(
+                expanded = languageExpanded,
+                onExpandedChange = { languageExpanded = it },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                OutlinedTextField(
+                    value = languages.firstOrNull { it.first == selectedLanguage }?.second ?: "Italiano",
+                    onValueChange = {},
+                    readOnly = true,
+                    singleLine = true,
+                    trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli la lingua") },
+                    modifier = Modifier.menuAnchor().fillMaxWidth()
+                )
+                ExposedDropdownMenu(expanded = languageExpanded, onDismissRequest = { languageExpanded = false }) {
+                    languages.forEach { (code, label) ->
+                        DropdownMenuItem(
+                            text = { Text(label) },
+                            onClick = { selectedLanguage = code; languageExpanded = false }
+                        )
+                    }
+                }
+            }
             Text("PERIODO DELLA RASSEGNA", style = MaterialTheme.typography.labelLarge)
             ExposedDropdownMenuBox(
                 expanded = periodExpanded,
@@ -1000,14 +1031,14 @@ private fun GlobalSearchPage(
                 Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text("Rassegna internazionale", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
                     Text(
-                        "La ricerca consulta Google News in italiano e in inglese, usando il luogo selezionato e il periodo scelto. I risultati dipendono dalla disponibilità delle fonti locali.",
+                        "La ricerca consulta Google News nella lingua selezionata, usando il luogo e il periodo scelti. I risultati dipendono dalla disponibilità delle fonti locali.",
                         style = MaterialTheme.typography.bodyMedium
                     )
                     Button(
                         enabled = selected != null,
                         onClick = {
                             val place = selected ?: return@Button
-                            onSearch(place.name, level, place.context, period)
+                            onSearch(place.name, level, place.context, period, selectedLanguage)
                         },
                         modifier = Modifier.fillMaxWidth(),
                         colors = ButtonDefaults.buttonColors(
