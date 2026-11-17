@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-17T09:10:44.251170+00:00",
+  "generated_at": "2026-11-17T10:16:13.362448+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,90 @@
     }
   ],
   "articles": [
+    {
+      "title": "Controlli dei Carabinieri, un uomo segnalato per detenzione di stupefacenti per uso personale",
+      "url": "https://primacomo.it/altro/controlli-dei-carabinieri-un-uomo-segnalato-per-detenzione-di-stupefacenti-per-uso-personale",
+      "summary": "Controlli dei Carabinieri, un uomo segnalato per detenzione di stupefacenti per uso personale. Controlli dei Carabinieri Nell’ambito dell’attività di controllo del territorio, finalizzata alla prevenzione e al contrasto degli illeciti in materia di sostanze stupefacenti e alla tutela della sicurezza pubblica, nel pomeriggio del 16 novembre i Carabinieri della Stazione di Gravedona ed Uniti hanno […] Continua la lettura di Controlli dei Carabinieri, un uomo segnalato per detenzione di stupefacenti per uso personale sul portale Prima Como .",
+      "published_at": "2026-11-17T10:05:08+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Quando la repubblica si fa costituzione, convegno di 3 giorni promosso dall’Isrec",
+      "url": "https://www.piacenzasera.it/2026/11/quando-la-repubblica-si-fa-costituzione-convegno-di-3-giorni-promosso-dallisrec/670762",
+      "summary": "Dal 19 al 21 novembre si terrà a Piacenza l’XI convegno sulla storia e il suo insegnamento nell’era digitale organizzato da Isrec The post Quando la repubblica si fa costituzione, convegno di 3 giorni promosso dall’Isrec appeared first on piacenzasera.it .",
+      "published_at": "2026-11-17T10:03:10+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Provincia di Como, fermato per strada con della droga in tasca",
+      "url": "https://comozero.it/attualita/provincia-di-como-fermato-per-strada-con-della-droga-in-tasca",
+      "summary": "Nel pomeriggio del 16 novembre 2026 i Carabinieri della Stazione di Gravedona ed Uniti hanno fermato un uomo di 57 anni, residente a Gravedona ed Uniti, per detenzione di sostanze stupefacenti per uso personale. Durante i controlli, i militari hanno sottoposto ad accertamenti l’uomo mentre percorreva a piedi una strada nel Comune di Gera Lario, […] L'articolo Provincia di Como, fermato per strada con della droga in tasca proviene da ComoZero .",
+      "published_at": "2026-11-17T09:38:45+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Piacenza si prepara al Natale, inizia l’allestimento di piazza Cavalli e dell’albero",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-si-prepara-al-natale-inizia-lallestimento-di-piazza-cavalli-e-dellalbero/670752",
+      "summary": "The post Piacenza si prepara al Natale, inizia l’allestimento di piazza Cavalli e dell’albero appeared first on piacenzasera.it .",
+      "published_at": "2026-11-17T09:31:25+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Nicola Curtarelli confermato presidente dell’Arci “Costruire comunità”",
+      "url": "https://www.piacenzasera.it/2026/11/nicola-curtarelli-confermato-presidente-dellarci-costruire-comunita/670748",
+      "summary": "Al congresso di Arci Piacenza anche i presidenti nazionale Walter Massa e regionale Massimo Maisto, eletto il consiglio direttivo The post Nicola Curtarelli confermato presidente dell’Arci “Costruire comunità” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-17T09:02:46+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, la Polizia assume mille allievi: nei bandi ora si potrà indicare la provincia preferita",
+      "url": "https://comozero.it/attualita/como-la-polizia-assume-mille-allievi-nei-bandi-ora-si-potra-indicare-la-provincia-preferita",
+      "summary": "La Polizia di Stato pubblica quattro bandi di concorso per l’assunzione di 1000 allievi vice ispettori, per assumere nuove professionalità specialistiche nei settori dell’informatica e dell’economia, delle lingue straniere e della comunicazione istituzionale. Per la prima volta, è prevista una suddivisione dei posti su base provinciale con l’indicazione da parte dei candidati, all’atto della domanda, […] L'articolo Como, la Polizia assume mille allievi: nei bandi ora si potrà indicare la provincia preferita proviene da ComoZero .",
+      "published_at": "2026-11-17T08:58:16+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Sindacati uniti per l’eliminazione della violenza sulle donne",
       "url": "https://primacomo.it/attualita/sindacati-uniti-per-leliminazione-della-violenza-sulle-donne",
@@ -160,20 +244,6 @@
       ]
     },
     {
-      "title": "“Nel Piano urbanistico non solo regole, anche la politica” In aula confronto sulla logistica",
-      "url": "https://www.piacenzasera.it/2026/11/nel-piano-urbanistico-non-solo-regole-anche-la-politica-in-aula-confronto-sulla-logistica/670654",
-      "summary": "Al centro del confronto politico in consiglio comunale di Piacenza, l'opportunità di consentire ulteriori espansioni del comparto logistico The post “Nel Piano urbanistico non solo regole, anche la politica” In aula confronto sulla logistica appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T22:59:21+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, la giunta Rapinese approva la stangata sui posti barca: tariffe più care del 30%",
       "url": "https://comozero.it/attualita/como-la-giunta-rapinese-approva-la-stangata-sui-posti-barca-tariffe-piu-care-del-30",
       "summary": "La giunta di Como ha ufficializzato un maxi rincaro per le tariffe dei posti barca nei porti comunali (qui la mappa). Il documento che sancisce gli aumenti è una delibera di giunta approvata lo scorso 13 novembre. In sostanza, l’esecutivo guidato dal sindaco Alessandro Rapinese ha dapprima stabilito da quando decorreranno le nuove assegnazioni dei […] L'articolo Como, la giunta Rapinese approva la stangata sui posti barca: tariffe più care del 30% proviene da ComoZero .",
@@ -243,22 +313,6 @@
       "territory_codes": [
         "CO",
         "VA"
-      ]
-    },
-    {
-      "title": "Brilla l’Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno",
-      "url": "https://www.piacenzasera.it/2026/11/brilla-latletica-piacenza-exploit-di-rebecchi-e-marchesi-a-ravenna-e-grande-festa-al-cross-dautunno/670719",
-      "summary": "Per gli atleti biancorossi pioggia di medaglie ed ottimi piazzamenti The post Brilla l’Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T17:50:07+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza",
-        "ra"
-      ],
-      "territory_codes": [
-        "PC",
-        "RA"
       ]
     },
     {
@@ -388,48 +442,6 @@
       ]
     },
     {
-      "title": "“La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere",
-      "url": "https://www.ciaocomo.it/2026/11/16/la-vita-maestra-di-giuseppe-guin-i-suoi-tanti-lavori-le-persone-incontrate-e-le-storie-che-insegnano-a-vivere/348100",
-      "summary": "Esperienze, incontri e identità diverse si intrecciano nel nuovo libro autobiografico di Giuseppe Guin, pubblicato da Dominioni. Presentazione giovedì 19 novembre alle 18.30 al Collegio Gallio di Como, con Edoardo Ceriani. The post “La vita maestra” di Giuseppe Guin, i suoi tanti lavori, le persone incontrate e le storie che insegnano a vivere appeared first on CiaoComo .",
-      "published_at": "2026-11-16T15:30:55+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como",
-      "url": "https://comozero.it/cinque-sensi/per-una-pasta-che-se-ne-va-una-focaccia-che-arriva-nuova-apertura-nel-centro-storico-di-como",
-      "summary": "Se la pasta ha largamente conquistato il primo posto tra le attività in crescita nel centro di Como – qui abbiamo documentato il fenomeno – c’è sicuramente un inseguitore a ruota. Anzi, inseguitrici. Trattasi di pizze e focacce, golosità intramontabili che ormai si trovano praticamente a tutti gli angoli della città murata. Ora, una nuova […] L'articolo Per una pasta che se ne va, una focaccia che arriva: nuova apertura nel centro storico di Como proviene da ComoZero .",
-      "published_at": "2026-11-16T14:16:45+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia",
-      "url": "https://www.ciaocomo.it/2026/11/16/como-coyote-vs-acme-in-versione-originale-il-film-che-hollywood-voleva-cancellare-arriva-al-cinelandia/348105",
-      "summary": "Wile E. Coyote porta la Acme in tribunale nel film proiettato in versione originale per la rassegna dello Spazio Gloria “Film che non si possono vedere doppiati” The post Como, “Coyote vs. Acme” in versione originale: il film che Hollywood voleva cancellare arriva al Cinelandia appeared first on CiaoComo .",
-      "published_at": "2026-11-16T14:00:37+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "“E tu, che strada hai scelto?”: incontro in sala consiliare per parlare di giovani e lavoro",
       "url": "https://primacomo.it/attualita/e-tu-che-strada-hai-scelto-incontro-in-sala-consiliare-per-parlare-di-giovani-e-lavoro",
       "summary": "C’è chi segue la strada che ha sempre sognato, chi cambia direzione e chi scopre opportunità che non aveva nemmeno immaginato. La serata in programma per martedì 17 alle 21 organizzata dall’associazione culturale Lepomis in sala consiliare sarà un’occasione per parlare di giovani e mondo del lavoro. Un’occasione di confronto “E tu, che strada hai […] Continua la lettura di “E tu, che strada hai scelto?”: incontro in sala consiliare per parlare di giovani e lavoro sul portale Prima Como .",
@@ -460,34 +472,6 @@
       ]
     },
     {
-      "title": "Como, gigantesco successo per il capolavoro di Radice in Confindustria e così ecco un’apertura straordinaria",
-      "url": "https://comozero.it/attualita/como-gigantesco-successo-per-il-capolavoro-di-radice-in-confindustria-e-cosi-ecco-unapertura-straordinaria",
-      "summary": "Prosegue con grande successo di pubblico l’esposizione di Partita di pallone (1933), il celebre dipinto del maestro comasco Mario Radice, presso il foyer della sede di Confindustria Como in via Raimondi 1. L’opera, visitabile gratuitamente dal lunedì al venerdì dalle 9.00 alle 18.00 fino al 18 dicembre, sarà straordinariamente accessibile ai visitatori anche sabato 28 novembre […] L'articolo Como, gigantesco successo per il capolavoro di Radice in Confindustria e così ecco un’apertura straordinaria proviene da ComoZero .",
-      "published_at": "2026-11-16T13:28:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sciopero generale del 20 novembre, a Como corteo da Porta Torre a San Fedele: possibili disagi per autobus e raccolta rifiuti",
-      "url": "https://www.ciaocomo.it/2026/11/16/sciopero-generale-del-20-novembre-a-como-corteo-da-porta-torre-a-san-fedele-possibili-disagi-per-autobus-e-raccolta-rifiuti/348079",
-      "summary": "La mobilitazione della Cgil coinvolge anche pensionati e studenti. Lo Spi organizza presìdi informativi in provincia il 18 e 19 novembre. ASF comunica le fasce garantite, Aprica invita a non esporre i rifiuti The post Sciopero generale del 20 novembre, a Como corteo da Porta Torre a San Fedele: possibili disagi per autobus e raccolta rifiuti appeared first on CiaoComo .",
-      "published_at": "2026-11-16T13:20:37+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Spaccio, arrestato un diciottenne",
       "url": "https://primacomo.it/altro/spaccio-arrestato-un-diciottenne",
       "summary": "Durante la perquisizione viene trovato in possesso di marijuana e hashish, arrestato un diciottenne per spaccio. Spaccio, arrestato diciottenne Nei giorni scorsi, i Carabinieri della Stazione di Lurate Caccivio hanno arrestato un 18enne residente nel comune per detenzione di sostanze stupefacenti ai fini di spaccio. Nell’ambito di un’attività investigativa in materia di stupefacenti, i militari […] Continua la lettura di Spaccio, arrestato un diciottenne sul portale Prima Como .",
@@ -508,20 +492,6 @@
       "published_at": "2026-11-16T13:00:35+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Dissesto idrogeologico, dalla Regione quasi 4 milioni di euro per la provincia di Como: sette interventi finanziati",
-      "url": "https://www.ciaocomo.it/2026/11/16/dissesto-idrogeologico-dalla-regione-quasi-4-milioni-di-euro-per-la-provincia-di-como-sette-interventi-finanziati/348075",
-      "summary": "Un milione di euro per la messa in sicurezza del Monte Goi dopo l'incendio di agosto. Fondi anche per Cabiate, Erba, Musso, Sorico, Porlezza e Carugo. Dotti: «Investimento importante per la sicurezza del territorio» The post Dissesto idrogeologico, dalla Regione quasi 4 milioni di euro per la provincia di Como: sette interventi finanziati appeared first on CiaoComo .",
-      "published_at": "2026-11-16T12:54:15+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -718,20 +688,6 @@
       "url": "https://primacomo.it/attualita/la-salute-come-bene-da-tutelare-il-comune-promuove-un-ciclo-di-incontri",
       "summary": "La salute come bene da tutelare ogni giorno, attraverso la prevenzione, l’informazione e il confronto con professionisti qualificati. Con questo obiettivo nasce “Il valore della salute”, un ciclo di incontri promosso dal Comune di Merone in collaborazione con Homedica, centro medico polispecialistico presente sul territorio. Primo appuntamento Il primo appuntamento sarà giovedì 26 novembre alle […] Continua la lettura di La salute come bene da tutelare: il Comune promuove un ciclo di incontri sul portale Prima Como .",
       "published_at": "2026-11-15T13:00:59+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Riqualificazione energetica: in arrivo 415mila euro per il Municipio",
-      "url": "https://primacomo.it/attualita/riqualificazione-energetica-in-arrivo-415mila-euro-per-il-municipio",
-      "summary": "L’Amministrazione comunale potrà avviare un’importante opera di sistemazione all’edificio, attualmente privo di isolamento e interessato da infiltrazioni d’acqua provenienti dal tetto Si rifaranno i serramenti e il tetto, oltre alla posa di schermature oscuranti Il Comune di Eupilio ha ora disposizione 415 mila euro, ai quali ne aggiungerà altri 19 mila euro con risorse comunali, […] Continua la lettura di Riqualificazione energetica: in arrivo 415mila euro per il Municipio sul portale Prima Como .",
-      "published_at": "2026-11-15T11:00:15+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
