@@ -479,6 +479,87 @@ private fun articleDetailScore(article:BriefingArticle):Int {
   title.length.coerceAtMost(180)
 }
 
+
+internal suspend fun fetchGlobalBriefing(
+    placeName: String,
+    level: String,
+    contextName: String,
+    periodId: String
+): BriefingResult = withContext(Dispatchers.IO) {
+    val periodStart = SimpleDateFormat("yyyy-MM-dd", Locale.ROOT).format(Date(periodStartMillis(periodId)))
+    val location = if (contextName.isBlank() || contextName == "Nazione" || contextName == "Continente") {
+        placeName
+    } else {
+        placeName + " " + contextName
+    }
+    val levelTerm = when (level) {
+        "CITTÀ" -> "local news"
+        "REGIONI" -> "regional news"
+        "NAZIONI" -> "national news"
+        else -> "news"
+    }
+    fun feed(name: String, query: String, language: String, country: String, edition: String): FeedSpec {
+        val encoded = Uri.encode(query)
+        return FeedSpec(
+            name,
+            "https://news.google.com/rss/search?q=" + encoded +
+                "&hl=" + language + "&gl=" + country + "&ceid=" + edition
+        )
+    }
+    val exact = "\"" + location + "\" after:" + periodStart
+    val topical = "\"" + location + "\" (" + levelTerm + " OR politics OR economy OR culture OR sport) after:" + periodStart
+    val feeds = listOf(
+        feed("Fonti internazionali · " + placeName, exact, "en-US", "US", "US:en"),
+        feed("Fonti italiane · " + placeName, exact, "it", "IT", "IT:it"),
+        feed("Notizie locali · " + placeName, topical, "en-US", "US", "US:en"),
+        feed("Notizie territoriali · " + placeName, topical, "it", "IT", "IT:it")
+    )
+    val results = coroutineScope {
+        feeds.map { spec -> async(Dispatchers.IO) {
+            runCatching { parseFeed(spec) }.getOrDefault(emptyList())
+        } }.awaitAll()
+    }
+    val all = results.flatten()
+    val now = System.currentTimeMillis()
+    val cutoff = periodStartMillis(periodId, now)
+    val filtered = all.filter { it.publishedAt.time in cutoff..now }
+        .sortedByDescending { articleDetailScore(it) }
+    val merged = mutableListOf<BriefingArticle>()
+    val consumed = BooleanArray(filtered.size)
+    for (i in filtered.indices) {
+        if (consumed[i]) continue
+        val group = mutableListOf(filtered[i])
+        consumed[i] = true
+        for (j in i + 1 until filtered.size) {
+            if (consumed[j]) continue
+            val candidate = filtered[j]
+            if (kotlin.math.abs(group.first().publishedAt.time - candidate.publishedAt.time) > 36L * 60L * 60L * 1000L) continue
+            if (group.any { sameNewsEvent(it, candidate) }) {
+                group += candidate
+                consumed[j] = true
+            }
+        }
+        val best = group.maxByOrNull { articleDetailScore(it) }!!
+        merged += best.copy(corroborationCount = group.map { it.source }.distinct().size)
+    }
+    val limit = when (periodId) {
+        "ultimora" -> 60
+        "24h" -> 60
+        "3d" -> 75
+        "7d" -> 90
+        "1m" -> 110
+        "1y" -> 150
+        else -> 60
+    }
+    val ordered = if (periodId == "ultimora") merged.sortedByDescending { it.publishedAt.time }
+        else merged.sortedWith(compareBy<BriefingArticle> { rank(it.category) }.thenByDescending { it.publishedAt.time })
+    BriefingResult(
+        ordered.take(limit),
+        SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.ITALY).format(Date()),
+        results.count { it.isNotEmpty() }
+    )
+}
+
 internal suspend fun fetchFreeBriefing(province:Province,periodId:String):BriefingResult=withContext(Dispatchers.IO){
  val feeds=feedSpecs(province,periodId);val all=mutableListOf<BriefingArticle>();var read=0
  val feedResults=coroutineScope{feeds.map{feed->async(Dispatchers.IO){runCatching{parseFeed(feed)}.getOrDefault(emptyList())}}.awaitAll()}
