@@ -839,7 +839,10 @@ private fun GlobalSearchPage(
     )
 
     LaunchedEffect(level, query) {
-        selected = null
+        if (selected != null) {
+            expanded = false
+            return@LaunchedEffect
+        }
         if (level == "CONTINENTI") {
             suggestions = worldContinents.filter { query.isBlank() || it.name.contains(query, true) }
         } else if (level == "NAZIONI") {
