@@ -487,32 +487,40 @@ internal suspend fun fetchGlobalBriefing(
     periodId: String
 ): BriefingResult = withContext(Dispatchers.IO) {
     val periodStart = SimpleDateFormat("yyyy-MM-dd", Locale.ROOT).format(Date(periodStartMillis(periodId)))
-    val location = if (contextName.isBlank() || contextName == "Nazione" || contextName == "Continente") {
-        placeName
-    } else {
-        placeName + " " + contextName
+
+    fun englishName(italianName: String): String {
+        val code = Locale.getISOCountries().firstOrNull { countryCode ->
+            Locale("", countryCode).getDisplayCountry(Locale.ITALY).equals(italianName, ignoreCase = true)
+        }
+        return if (code == null) italianName else Locale("", code).getDisplayCountry(Locale.ENGLISH)
     }
-    val levelTerm = when (level) {
-        "CITTÀ" -> "local news"
-        "REGIONI" -> "regional news"
-        "NAZIONI" -> "national news"
-        else -> "news"
+
+    val englishPlace = when (placeName) {
+        "America del Nord" -> "North America"
+        "America del Sud" -> "South America"
+        else -> if (level == "NAZIONI") englishName(placeName) else placeName
     }
+    val italianCountry = if (contextName.isBlank() || contextName == "Nazione" || contextName == "Continente") ""
+        else contextName.substringAfterLast(",").trim()
+    val englishCountry = if (italianCountry.isBlank()) "" else englishName(italianCountry)
+
     fun feed(name: String, query: String, language: String, country: String, edition: String): FeedSpec {
-        val encoded = Uri.encode(query)
         return FeedSpec(
             name,
-            "https://news.google.com/rss/search?q=" + encoded +
+            "https://news.google.com/rss/search?q=" + Uri.encode(query) +
                 "&hl=" + language + "&gl=" + country + "&ceid=" + edition
         )
     }
-    val exact = "\"" + location + "\" after:" + periodStart
-    val topical = "\"" + location + "\" (" + levelTerm + " OR politics OR economy OR culture OR sport) after:" + periodStart
+    val after = " after:" + periodStart
+    val italianExact = "\"" + placeName + "\"" + (if (italianCountry.isBlank()) "" else " " + italianCountry) + after
+    val englishExact = "\"" + englishPlace + "\"" + (if (englishCountry.isBlank()) "" else " " + englishCountry) + after
+    val italianTopical = "\"" + placeName + "\" (news OR politics OR economy OR culture OR sport) " + after
+    val englishTopical = "\"" + englishPlace + "\" (news OR politics OR economy OR culture OR sport) " + after
     val feeds = listOf(
-        feed("Fonti internazionali · " + placeName, exact, "en-US", "US", "US:en"),
-        feed("Fonti italiane · " + placeName, exact, "it", "IT", "IT:it"),
-        feed("Notizie locali · " + placeName, topical, "en-US", "US", "US:en"),
-        feed("Notizie territoriali · " + placeName, topical, "it", "IT", "IT:it")
+        feed("Fonti internazionali · " + placeName, englishExact, "en-US", "US", "US:en"),
+        feed("Fonti italiane · " + placeName, italianExact, "it", "IT", "IT:it"),
+        feed("Notizie internazionali · " + placeName, englishTopical, "en-US", "US", "US:en"),
+        feed("Notizie italiane · " + placeName, italianTopical, "it", "IT", "IT:it")
     )
     val results = coroutineScope {
         feeds.map { spec -> async(Dispatchers.IO) {
