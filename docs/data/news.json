@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T17:12:44.606735+00:00",
+  "generated_at": "2026-11-17T18:08:42.828901+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Aeroporto di San Damiano, il tenente colonnello Battista nuovo comandante",
+      "url": "https://www.piacenzasera.it/2026/11/aeroporto-di-san-damiano-il-tenente-colonnello-battista-nuovo-comandante/670884",
+      "summary": "Nel Distaccamento Aeroportuale di Piacenza si è tenuta la cerimonia di avvicendamento al Comando The post Aeroporto di San Damiano, il tenente colonnello Battista nuovo comandante appeared first on piacenzasera.it .",
+      "published_at": "2026-11-17T17:20:20+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Como, Villa Aprica verso la cessione? L’affondo: “Subito chiarimenti e garanzie per i lavoratori”",
       "url": "https://comozero.it/attualita/como-villa-aprica-verso-la-cessione-laffondo-subito-chiarimenti-e-garanzie-per-i-lavoratori",
