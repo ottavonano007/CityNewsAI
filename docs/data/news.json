@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T10:16:13.362448+00:00",
+  "generated_at": "2026-11-17T11:14:41.765403+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -171,20 +171,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Caso Revolut, Confconsumatori Piacenza “Attenzione a chi chiede di trasferire i soldi, è una truffa”",
-      "url": "https://www.piacenzasera.it/2026/11/caso-revolut-confconsumatori-piacenza-attenzione-a-chi-chiede-di-trasferire-i-soldi-e-una-truffa/670741",
-      "summary": "\"L'amministrazione giudiziaria non prevede il blocco dei conti. Attenzione alle telefonate di chi chiede di trasferire i soldi in conti sicuri, potrebbe essere una truffa\" The post Caso Revolut, Confconsumatori Piacenza “Attenzione a chi chiede di trasferire i soldi, è una truffa” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-17T07:01:35+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
