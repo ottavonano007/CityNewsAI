@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:02:33.109837+00:00",
+  "generated_at": "2026-11-17T17:12:44.606735+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, Villa Aprica verso la cessione? L’affondo: “Subito chiarimenti e garanzie per i lavoratori”",
+      "url": "https://comozero.it/attualita/como-villa-aprica-verso-la-cessione-laffondo-subito-chiarimenti-e-garanzie-per-i-lavoratori",
+      "summary": "Dopo le indiscrezioni dei giorni scorsi Cgil, Cisl e uil vanno all’attacco. Parliamo di questa notizia: Como, indiscrezione Villa Aprica in vendita: “Queste operazioni non si fanno sulla pelle dei lavoratori”. Ecco quanto ha fatto sapere in queste ore il sindacato: “Il Gruppo San Donato ha allo studio la cessione di quattro strutture della rete […] L'articolo Como, Villa Aprica verso la cessione? L’affondo: “Subito chiarimenti e garanzie per i lavoratori” proviene da ComoZero .",
+      "published_at": "2026-11-17T16:44:07+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "La San Martino compie 40 anni: sabato convegno a Piacenza Expo",
       "url": "https://www.piacenzasera.it/2026/11/la-san-martino-compie-40-anni-sabato-convegno-a-piacenza-expo/670865",
@@ -39,6 +53,36 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Lago di Como, tentano la truffa delle luci di Natale. Il Comune: “Ecco cosa dovete fare”",
+      "url": "https://comozero.it/cronaca/lago-di-como-tentano-la-truffa-delle-luci-di-natale-il-comune-ecco-cosa-dovete-fare",
+      "summary": "Nessuno chiede soldi per le luminarie di Natale. Ecco quanto fa sapere l’amministrazione comunale lecchese dopo alcune segnalazioni: Il Comune di Lecco è stato informato di possibili contatti telefonici e/o visite da parte di soggetti che si presentano come incaricati del Comune, richiedendo pagamenti o contributi economici per l’installazione delle luminarie natalizie. Segnaliamo che la […] L'articolo Lago di Como, tentano la truffa delle luci di Natale. Il Comune: “Ecco cosa dovete fare” proviene da ComoZero .",
+      "published_at": "2026-11-17T15:55:13+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "lc"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC"
+      ]
+    },
+    {
+      "title": "Como, quasi 700 grammi di hashish trovati in una cella del carcere del Bassone",
+      "url": "https://comozero.it/cronaca/como-quasi-700-grammi-di-hashish-trovati-in-una-cella-nel-carcere-del-bassone",
+      "summary": "La sostanza, suddivisa in diversi panetti, è stata individuata dagli agenti durante i controlli all’interno della Casa circondariale. Il comando sottolinea il ruolo dell’attività di vigilanza nel contrasto all’introduzione di droga e oggetti non consentiti Quasi 700 grammi di hashish, suddivisi in diversi panetti, sono stati rinvenuti in una cella del Carcere del Bassone. A […] L'articolo Como, quasi 700 grammi di hashish trovati in una cella del carcere del Bassone proviene da ComoZero .",
+      "published_at": "2026-11-17T15:40:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -396,34 +440,6 @@
       "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
       "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
       "published_at": "2026-11-16T23:29:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
-      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
-      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
-      "published_at": "2026-11-16T23:20:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
-      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
-      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
-      "published_at": "2026-11-16T23:19:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
