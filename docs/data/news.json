@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:13:04.035888+00:00",
+  "generated_at": "2026-11-17T21:00:22.070666+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "A Como la scuola da abbattere per l’autosilo. Eppure si possono salvare capra e cavoli, vediamo le alternative",
+      "url": "https://comozero.it/attualita/a-como-la-scuola-da-abbattere-per-lautosilo-eppure-si-possono-salvare-capra-e-cavoli-vediamo-le-alternative",
+      "summary": "“Al quartiere, non solo allo stadio, serve un parcheggio per eliminare le auto dalla strada e, sarebbe bello, dal lungolago. Se chiude una scuola in periferia, nessuno dice nulla, diverso per quelle in centro. I fatti diranno se sono io il sindaco brutto e cattivo: è il normale gioco delle opposizioni”. Queste le parole del sindaco di […] L'articolo A Como la scuola da abbattere per l’autosilo. Eppure si possono salvare capra e cavoli, vediamo le alternative proviene da ComoZero .",
+      "published_at": "2026-11-17T20:37:53+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, brutta tegola: rinviato di qualche settimana il rientro di Kean in campo, previsti ulteriori accertamenti",
+      "url": "https://www.ciaocomo.it/2026/11/17/como-brutta-tegola-rinviato-di-qualche-settimana-il-rientro-di-kean-in-campo-previsti-ulteriori-accertamenti/348211",
+      "summary": "Una possibile ricaduta. Il comunicato del Como è stringato e rinvia il rientro del calciatore. Stagione sfortunata finora per il bomber. Difficile prevedere i tempi. The post Como, brutta tegola: rinviato di qualche settimana il rientro di Kean in campo, previsti ulteriori accertamenti appeared first on CiaoComo .",
+      "published_at": "2026-11-17T18:30:34+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Aeroporto di San Damiano, il tenente colonnello Battista nuovo comandante",
       "url": "https://www.piacenzasera.it/2026/11/aeroporto-di-san-damiano-il-tenente-colonnello-battista-nuovo-comandante/670884",
@@ -268,20 +296,6 @@
       ]
     },
     {
-      "title": "Como, dà in escandescenze in un parcheggio e prende a calci l’auto della Polizia: arrestato un 34enne",
-      "url": "https://www.ciaocomo.it/2026/11/17/como-da-in-escandescenze-in-un-parcheggio-e-prende-a-calci-lauto-della-polizia-arrestato-un-34enne/348170",
-      "summary": "Intervento delle Volanti in via Pasquale Paoli dopo una segnalazione. L'uomo ha infranto il finestrino della vettura di servizio durante il trasferimento in Questura. Il cane che era con lui affidato all'ENPA The post Como, dà in escandescenze in un parcheggio e prende a calci l’auto della Polizia: arrestato un 34enne appeared first on CiaoComo .",
-      "published_at": "2026-11-17T12:37:52+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como e la battaglia dei ciliegi storici, esattamente un anno dopo. Ecco dove sono finiti i peri (e quanto costano)",
       "url": "https://comozero.it/attualita/como-e-la-battaglia-dei-ciliegi-storici-esattamente-un-anno-dopo-ecco-dove-sono-finiti-i-peri-e-quanto-costano",
       "summary": "Esattamente un anno fa, il 17 novembre 2025, cittadini e diversi esponenti politici di Como si mobilitavano contro l’abbattimento dei ciliegi di via XX Settembre e la loro sostituzione con i peri (qui la cronaca di quel giorno). Fu la prima giornata di una battaglia lunghissima, fatta di proteste, polemiche e carte bollate, il cui […] L'articolo Como e la battaglia dei ciliegi storici, esattamente un anno dopo. Ecco dove sono finiti i peri (e quanto costano) proviene da ComoZero .",
@@ -426,20 +440,6 @@
       "url": "https://comozero.it/cultura-e-spettacolo/esplosioni-naufragi-schianti-ferroviari-e-alluvioni-sei-decenni-di-storia-comasca-nel-libro-di-marco-guggiari",
       "summary": "Venerdì 20 novembre, a The Art Company Como, la presentazione del libro di Marco Guggiari, che dialogherà con l’editore Carlo Pozzoni. Un viaggio attraverso incidenti, naufragi, alluvioni e sciagure che hanno segnato la storia del territorio Bombardamenti, naufragi, incidenti ferroviari e aerei, alluvioni, incendi ed esplosioni nelle fabbriche. Sei decenni di tragedie che hanno segnato […] L'articolo Esplosioni, naufragi, schianti ferroviari e alluvioni: sei decenni di storia comasca nel libro di Marco Guggiari proviene da ComoZero .",
       "published_at": "2026-11-16T23:31:14+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day",
-      "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
-      "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
-      "published_at": "2026-11-16T23:29:54+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
