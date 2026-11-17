@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:28:03.864332+00:00",
+  "generated_at": "2026-11-17T09:10:44.251170+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 15,
-      "inserted": 15,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Sindacati uniti per l’eliminazione della violenza sulle donne",
+      "url": "https://primacomo.it/attualita/sindacati-uniti-per-leliminazione-della-violenza-sulle-donne",
+      "summary": "Sindacati uniti in occasione della Giornata internazionale per l’eleiminazione della violenza sulle donne Cgil Como, Cisl dei Laghi e Uil del Lario promuovono cultura e ssolidarietà. Sindacati uniti L’impegnod elle organizzazioni sindacali muove da dati sempre più preoccupanti. “Nel 2026 secondo l’osservatorio Non una di Meno, si sono registrati 61 femminicidi di cui oltre l’80%. […] Continua la lettura di Sindacati uniti per l’eliminazione della violenza sulle donne sul portale Prima Como .",
+      "published_at": "2026-11-17T08:27:51+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La morte del sindaco dei record, il ricordo: “Fa parte della memoria collettiva”",
+      "url": "https://comozero.it/attualita/la-morte-del-sindaco-dei-record-il-ricordo-fa-parte-della-memoria-collettiva",
+      "summary": "Questa mattina raccontavamo della morte di Flaminio Vasile sindaco dei record e figura storica del socialismo comasco. Ora arriva il cordoglio congiunto delle liste civiche Senna per sempre e Senna Futura. Lo pubblichiamo integralmente: Le liste civiche Senna per sempre e Senna Futura esprimono profondo cordoglio per la scomparsa di Flaminio Vasile, storico sindaco di […] L'articolo La morte del sindaco dei record, il ricordo: “Fa parte della memoria collettiva” proviene da ComoZero .",
+      "published_at": "2026-11-17T08:03:58+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Il 15 maggio Piacenza ospita l’Emilia Pride",
       "url": "https://www.piacenzasera.it/2026/11/il-15-maggio-piacenza-ospita-lemilia-pride/670743",
@@ -90,6 +118,20 @@
       ]
     },
     {
+      "title": "“Adesso · Posiflow”, Simone Bilardo e Silvia Tettamanti al Teatro Sociale di Como: una storia d’amore e di vita oltre la malattia",
+      "url": "https://www.ciaocomo.it/2026/11/17/adesso-%c2%b7-posiflow-simone-bilardo-e-silvia-tettamanti-al-teatro-sociale-di-como-una-storia-damore-e-di-vita-oltre-la-malattia/348082",
+      "summary": "Giovedì 19 novembre una serata intensa e autentica, senza attori né moderatori. La coppia racconterà come una diagnosi di tumore al cervello abbia cambiato per sempre il proprio modo di guardare al futuro The post “Adesso · Posiflow”, Simone Bilardo e Silvia Tettamanti al Teatro Sociale di Como: una storia d’amore e di vita oltre la malattia appeared first on CiaoComo .",
+      "published_at": "2026-11-17T07:00:30+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "ll primo derby di Como in Serie A è del 1907",
       "url": "https://primacomo.it/sport/ll-primo-derby-di-como-in-serie-a-e-del-1907",
       "summary": "Al “Lambrone” di Erba il Como Women è uscito sconfitto per 3-0 nel primo derby di Como di Serie A Women, valido per la settima giornata di campionato. In rete per il Como 1907 Bonfantini al 35’, De Rita al 43’ e Wullaert al 73’. I commenti “Dispiace per il risultato, che è pesante rispetto […] Continua la lettura di ll primo derby di Como in Serie A è del 1907 sul portale Prima Como .",
@@ -115,6 +157,20 @@
       ],
       "territory_codes": [
         "CO"
+      ]
+    },
+    {
+      "title": "“Nel Piano urbanistico non solo regole, anche la politica” In aula confronto sulla logistica",
+      "url": "https://www.piacenzasera.it/2026/11/nel-piano-urbanistico-non-solo-regole-anche-la-politica-in-aula-confronto-sulla-logistica/670654",
+      "summary": "Al centro del confronto politico in consiglio comunale di Piacenza, l'opportunità di consentire ulteriori espansioni del comparto logistico The post “Nel Piano urbanistico non solo regole, anche la politica” In aula confronto sulla logistica appeared first on piacenzasera.it .",
+      "published_at": "2026-11-16T22:59:21+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
@@ -290,20 +346,6 @@
       ]
     },
     {
-      "title": "Le chiavi dei negozi chiusi consegnate al sindaco “Un’alleanza per il futuro del commercio”",
-      "url": "https://www.piacenzasera.it/2026/11/le-chiavi-dei-negozi-chiusi-consegnate-al-sindaco-unalleanza-per-il-futuro-del-commercio/670705",
-      "summary": "Anche a Piacenza la mobilitazione di Confcommercio: al centro dell'incontro in Municipio le proposte del progetto Cities per sostenere i negozi di vicinato e valorizzare il lavoro già avviato in città The post Le chiavi dei negozi chiusi consegnate al sindaco “Un’alleanza per il futuro del commercio” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-16T16:17:48+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Elezioni 2027, secondo incontro per la formazione di una nuova lista",
       "url": "https://primacomo.it/attualita/elezioni-2027-secondo-incontro-per-la-formazione-di-una-nuova-lista",
       "summary": "Secondo incontro preliminare alla formazione di una lista per le Elezioni 2027 a Olgiate Comasco. Elezioni 2027, lavori in corso Dopo l’incontro inaugurale, tenuto lo scorso 22 ottobre, organizzato dai consiglieri comunali di minoranza del Gruppo misto (area di centrodestra) – Daniela Cammarata, Igor Castelli e Fabio Santoianni – ecco la seconda “tappa”. Giovedì 19 […] Continua la lettura di Elezioni 2027, secondo incontro per la formazione di una nuova lista sul portale Prima Como .",
@@ -474,40 +516,12 @@
       ]
     },
     {
-      "title": "Como, sciopero generale il 20 novembre: quando si fermano i bus di Asf, gli orari",
-      "url": "https://comozero.it/attualita/como-sciopero-generale-il-20-novembre-quando-si-fermano-i-bus-di-asf-gli-orari",
-      "summary": "Nei giorni scorsi l’annuncio: Como e Lombardia, sciopero generale Cgil il 20 novembre: “Per lavoro dignitoso e diritti sociali garantiti”. Così Asf, gestore del trasporto pubblico fa sapere: Le modalità di attuazione di questo sciopero per i dipendenti della scrivente ASF AUTOLINEE S.r.l. sono: • PERSONALE VIAGGIANTE: dalle ore 08:30 alle ore 16:30 e dalle […] L'articolo Como, sciopero generale il 20 novembre: quando si fermano i bus di Asf, gli orari proviene da ComoZero .",
-      "published_at": "2026-11-16T12:55:10+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Dissesto idrogeologico, dalla Regione quasi 4 milioni di euro per la provincia di Como: sette interventi finanziati",
       "url": "https://www.ciaocomo.it/2026/11/16/dissesto-idrogeologico-dalla-regione-quasi-4-milioni-di-euro-per-la-provincia-di-como-sette-interventi-finanziati/348075",
       "summary": "Un milione di euro per la messa in sicurezza del Monte Goi dopo l'incendio di agosto. Fondi anche per Cabiate, Erba, Musso, Sorico, Porlezza e Carugo. Dotti: «Investimento importante per la sicurezza del territorio» The post Dissesto idrogeologico, dalla Regione quasi 4 milioni di euro per la provincia di Como: sette interventi finanziati appeared first on CiaoComo .",
       "published_at": "2026-11-16T12:54:15+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, appena 18 anni ma già spacciatore professionista: marijuana, hashish e il kit per confezionare",
-      "url": "https://comozero.it/attualita/provincia-di-como-appena-18anni-ma-gia-spacciatore-professionista-marijuana-hashish-e-il-kit-per-confezionare",
-      "summary": "Nei giorni scorsi, i Carabinieri della Stazione di Lurate Caccivio hanno arrestato un 18enne residente nel paese per detenzione di sostanze stupefacenti ai fini di spaccio. Nell’ambito di un’attività investigativa in materia di stupefacenti, i militari hanno eseguito una perquisizione personale e domiciliare nei confronti del giovane, finalizzata alla ricerca di droga. La perquisizione ha […] L'articolo Provincia di Como, appena 18 anni ma già spacciatore professionista: marijuana, hashish e il kit per confezionare proviene da ComoZero .",
-      "published_at": "2026-11-16T12:49:09+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -718,20 +732,6 @@
       "url": "https://primacomo.it/attualita/riqualificazione-energetica-in-arrivo-415mila-euro-per-il-municipio",
       "summary": "L’Amministrazione comunale potrà avviare un’importante opera di sistemazione all’edificio, attualmente privo di isolamento e interessato da infiltrazioni d’acqua provenienti dal tetto Si rifaranno i serramenti e il tetto, oltre alla posa di schermature oscuranti Il Comune di Eupilio ha ora disposizione 415 mila euro, ai quali ne aggiungerà altri 19 mila euro con risorse comunali, […] Continua la lettura di Riqualificazione energetica: in arrivo 415mila euro per il Municipio sul portale Prima Como .",
       "published_at": "2026-11-15T11:00:15+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati”",
-      "url": "https://primacomo.it/attualita/ufficio-postale-ancora-chiuso-il-sindaco-scrive-allazienda-siamo-esasperati",
-      "summary": "Quinto rinvio, l’ufficio postale di Valmorea resta chiuso e il sindaco va su tutte le furie. Ufficio postale, quinto rinvio “Sono esasperato e, come me, lo sono i cittadini di Valmorea”, esordisce Giampiero Pandiani. D’altra parte, la struttura non è accessibile dalla scorsa primavera e, stando all’ultima comunicazione fornita da “Poste Italiane” lo rimarrà sino […] Continua la lettura di Ufficio postale ancora chiuso, il sindaco scrive all’azienda: “Siamo esasperati” sul portale Prima Como .",
-      "published_at": "2026-11-15T09:00:33+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
