@@ -796,6 +796,227 @@ private fun CityNewsApp() {
     }
 }
 
+
+private data class GlobalPlaceSuggestion(val name: String, val context: String) {
+    val display: String get() = if (context.isBlank()) name else name + " • " + context
+}
+
+private val worldContinents = listOf(
+    GlobalPlaceSuggestion("Africa", "Continente"),
+    GlobalPlaceSuggestion("Antartide", "Continente"),
+    GlobalPlaceSuggestion("Asia", "Continente"),
+    GlobalPlaceSuggestion("Europa", "Continente"),
+    GlobalPlaceSuggestion("America del Nord", "Continente"),
+    GlobalPlaceSuggestion("Oceania", "Continente"),
+    GlobalPlaceSuggestion("America del Sud", "Continente")
+)
+
+private fun worldCountrySuggestions(): List<GlobalPlaceSuggestion> =
+    Locale.getISOCountries().mapNotNull { code ->
+        val name = Locale("", code).getDisplayCountry(Locale.ITALY).takeIf { it.isNotBlank() } ?: return@mapNotNull null
+        GlobalPlaceSuggestion(name, "Nazione")
+    }.distinctBy { it.name }.sortedBy { it.name }
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun GlobalSearchPage(
+    onBack: () -> Unit,
+    onSearch: (String, String, String, String) -> Unit
+) {
+    val context = LocalContext.current
+    val keyboard = LocalSoftwareKeyboardController.current
+    val levels = listOf("CITTÀ", "REGIONI", "NAZIONI", "CONTINENTI")
+    var level by remember { mutableStateOf("CITTÀ") }
+    var query by remember { mutableStateOf("") }
+    var selected by remember { mutableStateOf<GlobalPlaceSuggestion?>(null) }
+    var suggestions by remember { mutableStateOf(emptyList<GlobalPlaceSuggestion>()) }
+    var expanded by remember { mutableStateOf(false) }
+    var period by remember { mutableStateOf("ultimora") }
+    var periodExpanded by remember { mutableStateOf(false) }
+    val periodLabels = mapOf(
+        "ultimora" to "Ultim'ora", "24h" to "Ultime 24 ore", "3d" to "Ultimi 3 giorni",
+        "7d" to "Ultima settimana", "1m" to "Ultimo mese", "1y" to "Ultimo anno"
+    )
+
+    LaunchedEffect(level, query) {
+        selected = null
+        if (level == "CONTINENTI") {
+            suggestions = worldContinents.filter { query.isBlank() || it.name.contains(query, true) }
+        } else if (level == "NAZIONI") {
+            suggestions = worldCountrySuggestions().filter { query.isBlank() || it.name.contains(query, true) }.take(40)
+        } else if (query.trim().length >= 2) {
+            delay(450)
+            suggestions = withContext(Dispatchers.IO) {
+                runCatching {
+                    if (!Geocoder.isPresent()) emptyList()
+                    else {
+                        @Suppress("DEPRECATION")
+                        Geocoder(context, Locale.getDefault()).getFromLocationName(query.trim(), 12)
+                            .orEmpty().mapNotNull { address ->
+                                val name = if (level == "CITTÀ") {
+                                    address.locality ?: address.subAdminArea ?: address.featureName
+                                } else {
+                                    address.adminArea ?: address.subAdminArea
+                                } ?: return@mapNotNull null
+                                val country = address.countryName.orEmpty()
+                                val region = address.adminArea.orEmpty()
+                                val detail = if (level == "CITTÀ") {
+                                    listOf(region, country).filter { it.isNotBlank() }.distinct().joinToString(", ")
+                                } else country
+                                GlobalPlaceSuggestion(name, detail)
+                            }.distinctBy { it.name + "|" + it.context }.take(10)
+                    }
+                }.getOrDefault(emptyList())
+            }
+        } else {
+            suggestions = emptyList()
+        }
+        expanded = query.isNotBlank() || level == "CONTINENTI" || level == "NAZIONI"
+    }
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = {
+                    Column {
+                        Text("Ricerca nel mondo", fontWeight = FontWeight.Bold)
+                        Text("Seleziona un'area geografica", style = MaterialTheme.typography.labelSmall)
+                    }
+                },
+                navigationIcon = {
+                    IconButton(onClick = onBack) { Icon(Icons.Default.ArrowBack, contentDescription = "Indietro") }
+                }
+            )
+        }
+    ) { padding ->
+        Column(
+            Modifier.fillMaxSize().padding(padding).padding(horizontal = 16.dp).verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Spacer(Modifier.height(2.dp))
+            Text("LIVELLO GEOGRAFICO", style = MaterialTheme.typography.labelLarge)
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+                levels.forEach { item ->
+                    FilterChip(
+                        selected = level == item,
+                        onClick = {
+                            level = item
+                            query = ""
+                            selected = null
+                            expanded = item == "CONTINENTI" || item == "NAZIONI"
+                        },
+                        label = { Text(item, style = MaterialTheme.typography.labelSmall) }
+                    )
+                }
+            }
+            Text(
+                when (level) {
+                    "CITTÀ" -> "Cerca una città in qualsiasi Paese."
+                    "REGIONI" -> "Cerca una regione, uno Stato federato o un'area amministrativa."
+                    "NAZIONI" -> "Seleziona uno dei Paesi del mondo."
+                    else -> "Seleziona uno dei continenti."
+                },
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            ExposedDropdownMenuBox(
+                expanded = expanded && suggestions.isNotEmpty(),
+                onExpandedChange = { expanded = it },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                OutlinedTextField(
+                    value = if (selected != null) selected!!.display else query,
+                    onValueChange = {
+                        query = it
+                        selected = null
+                        expanded = true
+                    },
+                    modifier = Modifier.menuAnchor().fillMaxWidth(),
+                    label = { Text(when (level) {
+                        "CITTÀ" -> "Città"
+                        "REGIONI" -> "Regione / Stato"
+                        "NAZIONI" -> "Nazione"
+                        else -> "Continente"
+                    }) },
+                    placeholder = { Text(if (level == "CITTÀ" || level == "REGIONI") "Digita almeno 2 caratteri…" else "Digita per filtrare l'elenco") },
+                    singleLine = true,
+                    trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Mostra suggerimenti") },
+                    keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+                    keyboardActions = KeyboardActions(onDone = { keyboard?.hide(); expanded = false })
+                )
+                ExposedDropdownMenu(
+                    expanded = expanded && suggestions.isNotEmpty(),
+                    onDismissRequest = { expanded = false }
+                ) {
+                    suggestions.forEach { suggestion ->
+                        DropdownMenuItem(
+                            text = {
+                                Column {
+                                    Text(suggestion.name)
+                                    if (suggestion.context.isNotBlank()) Text(suggestion.context, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
+                            },
+                            onClick = {
+                                selected = suggestion
+                                query = suggestion.name
+                                expanded = false
+                                keyboard?.hide()
+                            }
+                        )
+                    }
+                }
+            }
+            if ((level == "CITTÀ" || level == "REGIONI") && query.trim().length >= 2 && suggestions.isEmpty() && selected == null) {
+                Text("Nessuna corrispondenza geografica trovata. Prova con un nome più completo.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            Text("PERIODO DELLA RASSEGNA", style = MaterialTheme.typography.labelLarge)
+            ExposedDropdownMenuBox(
+                expanded = periodExpanded,
+                onExpandedChange = { periodExpanded = it },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                OutlinedTextField(
+                    value = periodLabels[period] ?: "Ultim'ora",
+                    onValueChange = {},
+                    readOnly = true,
+                    singleLine = true,
+                    trailingIcon = { Icon(Icons.Default.ArrowDropDown, contentDescription = "Scegli il periodo") },
+                    modifier = Modifier.menuAnchor().fillMaxWidth()
+                )
+                ExposedDropdownMenu(expanded = periodExpanded, onDismissRequest = { periodExpanded = false }) {
+                    periodLabels.forEach { (id, label) ->
+                        DropdownMenuItem(text = { Text(label) }, onClick = { period = id; periodExpanded = false })
+                    }
+                }
+            }
+            Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)) {
+                Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("Rassegna internazionale", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
+                    Text(
+                        "La ricerca consulta Google News in italiano e in inglese, usando il luogo selezionato e il periodo scelto. I risultati dipendono dalla disponibilità delle fonti locali.",
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Button(
+                        enabled = selected != null,
+                        onClick = {
+                            val place = selected ?: return@Button
+                            onSearch(place.name, level, place.context, period)
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.primary,
+                            contentColor = MaterialTheme.colorScheme.onPrimary
+                        )
+                    ) {
+                        Text(if (selected == null) "SELEZIONA UN LUOGO" else "RASSEGNA DI " + selected!!.name.uppercase(Locale.ITALY))
+                    }
+                }
+            }
+            Spacer(Modifier.height(20.dp))
+        }
+    }
+}
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun SettingsPage(
