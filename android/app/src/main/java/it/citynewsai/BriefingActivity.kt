@@ -50,7 +50,10 @@ class BriefingActivity : ComponentActivity() {
   val prefs=getSharedPreferences("citynews_preferences",MODE_PRIVATE)
   val themeMode=intent.getStringExtra("theme_mode")?:prefs.getString("theme_mode","system")?:"system"
   val palette=intent.getIntExtra("color_palette",prefs.getInt("color_palette",0))
-  setContent { BriefingPage(province,period,themeMode,palette,onBack={finish()}) }
+  val globalPlace=intent.getStringExtra("global_place")
+  val globalLevel=intent.getStringExtra("global_level")?:""
+  val globalContext=intent.getStringExtra("global_context")?:""
+  setContent { BriefingPage(province,period,themeMode,palette,globalPlace,globalLevel,globalContext,onBack={finish()}) }
  }
 }
 private fun isNecrologyArticle(article:BriefingArticle):Boolean {
@@ -60,7 +63,7 @@ private fun isNecrologyArticle(article:BriefingArticle):Boolean {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun BriefingPage(province:Province,periodId:String,themeMode:String,palette:Int,onBack:()->Unit) {
+private fun BriefingPage(province:Province,periodId:String,themeMode:String,palette:Int,globalPlace:String?,globalLevel:String,globalContext:String,onBack:()->Unit) {
  val context=LocalContext.current
  val scope=rememberCoroutineScope()
  val labels=mapOf("ultimora" to "Ultim'ora","24h" to "Ultime 24 ore","3d" to "Ultimi 3 giorni","7d" to "Ultima settimana","1m" to "Ultimo mese","1y" to "Ultimo anno")
@@ -77,12 +80,16 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  val refresh:()->Unit={
   scope.launch {
    loading=true;error=""
-   try { val result=fetchFreeBriefing(province,periodId);articles=result.articles;updatedAt=result.generatedAt;feedsRead=result.feedsRead }
+   try {
+    val result = if (globalPlace.isNullOrBlank()) fetchFreeBriefing(province,periodId)
+     else fetchGlobalBriefing(globalPlace,globalLevel,globalContext,periodId)
+    articles=result.articles;updatedAt=result.generatedAt;feedsRead=result.feedsRead
+   }
    catch(e:Exception){error=e.message?:"Impossibile aggiornare la rassegna."}
    finally{loading=false}
   }
  }
- LaunchedEffect(province.code,periodId){refresh()}
+ LaunchedEffect(province.code,periodId,globalPlace,globalLevel,globalContext){refresh()}
  val isDark=when(themeMode){"dark"->true;"light"->false;else->isSystemInDarkTheme()}
  val colors=cityNewsColorScheme(isDark,palette)
  val filteredArticles=remember(articles,keywordQuery,selectedCategories) {
@@ -141,7 +148,7 @@ private fun BriefingPage(province:Province,periodId:String,themeMode:String,pale
  )
  Scaffold(containerColor=MaterialTheme.colorScheme.background,topBar={TopAppBar(
   navigationIcon={IconButton(onClick=onBack){Icon(Icons.Default.ArrowBack,contentDescription="Torna alla selezione")}},
-  title={Column{Text(province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
+  title={Column{Text(globalPlace?.takeIf{it.isNotBlank()}?:province.name,fontWeight=FontWeight.Bold);Text("Rassegna intelligente • "+(labels[periodId]?:"Ultime 24 ore"),style=MaterialTheme.typography.labelSmall)}},
   actions={IconButton(onClick=refresh,enabled=!loading){Icon(Icons.Default.Refresh,contentDescription="Aggiorna rassegna")}}
  )}){padding->
   Box(Modifier.fillMaxSize().padding(padding)) {
