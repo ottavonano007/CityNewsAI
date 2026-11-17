@@ -898,18 +898,22 @@ private fun GlobalSearchPage(
         ) {
             Spacer(Modifier.height(2.dp))
             Text("LIVELLO GEOGRAFICO", style = MaterialTheme.typography.labelLarge)
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(5.dp)) {
-                levels.forEach { item ->
-                    FilterChip(
-                        selected = level == item,
-                        onClick = {
-                            level = item
-                            query = ""
-                            selected = null
-                            expanded = item == "CONTINENTI" || item == "NAZIONI"
-                        },
-                        label = { Text(item, style = MaterialTheme.typography.labelSmall) }
-                    )
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                listOf(levels.take(2), levels.drop(2)).forEach { rowLevels ->
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                        rowLevels.forEach { item ->
+                            FilterChip(
+                                selected = level == item,
+                                onClick = {
+                                    level = item
+                                    query = ""
+                                    selected = null
+                                    expanded = item == "CONTINENTI" || item == "NAZIONI"
+                                },
+                                label = { Text(item, style = MaterialTheme.typography.labelSmall) }
+                            )
+                        }
+                    }
                 }
             }
             Text(
