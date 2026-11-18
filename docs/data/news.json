@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T22:58:51.002721+00:00",
+  "generated_at": "2026-11-18T23:56:49.145724+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Il ruggito del Generoso compie 90 anni: al galà da tutto esaurito il re comasco delle cronoscalate Angelo Tenconi",
+      "url": "https://comozero.it/attualita/il-ruggito-del-generoso-compie-90-anni-al-gala-da-tutto-esaurito-il-re-comasco-delle-cronoscalate-angelo-tenconi",
+      "summary": "Novant’anni di storia, di passione e di motori ruggenti. Il Moto Club Generoso ha celebrato il traguardo del novantesimo anniversario con una grande cena di gala nella sala San Gottardo dell’Hotel Coronado di Mendrisio, riunendo circa duecento tra soci, amici, autorità e grandi firme del motociclismo. Una serata intensa e ricca di commozione, che ha […] L'articolo Il ruggito del Generoso compie 90 anni: al galà da tutto esaurito il re comasco delle cronoscalate Angelo Tenconi proviene da ComoZero .",
+      "published_at": "2026-11-18T23:03:07+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A Calvisano la vittoria sfuma nel finale per il Piacenza Rugby (27-24)",
+      "url": "https://www.piacenzasera.it/2026/11/a-calvisano-la-vittoria-sfuma-nel-finale-per-il-piacenza-rugby-27-24/671082",
+      "summary": "Quando all’80° il risultato dice 21-24 con la palla in tuo possesso, non puoi pensare di non portare a casa la partita, ma il finale dice 27 - 24 The post A Calvisano la vittoria sfuma nel finale per il Piacenza Rugby (27-24) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T22:28:53+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "La Como mondiale, dove anche i marciapiedi diventano parcheggi",
       "url": "https://comozero.it/punti-di-vista/la-como-mondiale-dove-anche-i-marciapiedi-diventano-parcheggi",
@@ -377,20 +405,6 @@
         "CO",
         "NU",
         "VA"
-      ]
-    },
-    {
-      "title": "Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day",
-      "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
-      "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
-      "published_at": "2026-11-17T23:29:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
