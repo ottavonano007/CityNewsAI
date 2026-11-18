@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:06:40.796590+00:00",
+  "generated_at": "2026-11-18T21:00:53.188606+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "La Como mondiale, dove anche i marciapiedi diventano parcheggi",
+      "url": "https://comozero.it/punti-di-vista/la-como-mondiale-dove-anche-i-marciapiedi-diventano-parcheggi",
+      "summary": "Piccola cosa, si dirà, ma certo ennesimo segno di come è cambiata la città. Ormai gli abusi non sono più fenomeno tipico della bella stagione, con auto che tra primavera ed estate compaiono illecitamente un po’ dappertutto tra divieti di sosta, transiti impropri in città murata, auto nelle piazze storiche, eccetera. Poi, sì, ci sono […] L'articolo La Como mondiale, dove anche i marciapiedi diventano parcheggi proviene da ComoZero .",
+      "published_at": "2026-11-18T20:18:04+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Più giorni da pagare, stangata multe e addio tavolo con gli operatori: tassa di soggiorno a Como, rivoluzione",
       "url": "https://comozero.it/attualita/piu-giorni-da-pagare-stangata-multe-e-addio-tavolo-con-gli-operatori-tassa-di-soggiorno-a-como-rivoluzione",
@@ -370,20 +384,6 @@
       "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
       "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
       "published_at": "2026-11-17T23:29:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
-      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
-      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
-      "published_at": "2026-11-17T23:20:40+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
