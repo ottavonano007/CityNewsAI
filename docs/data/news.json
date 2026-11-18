@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-18T13:23:05.158201+00:00",
+  "generated_at": "2026-11-18T15:04:49.055182+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -28,10 +28,24 @@
   ],
   "articles": [
     {
-      "title": "Ottavi di Coppa, Piacenza con ampio turn over sfida la Lucchese (ore 14,30)",
+      "title": "Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte”",
+      "url": "https://comozero.it/attualita/milano-meda-lo-schiaffo-del-pedaggio-il-mistero-nuova-societa-migliaia-di-cittadini-attendono-risposte",
+      "summary": "Il gruppo consiliare del Partito Democratico in Consiglio regionale ha presentato ai presidenti della Commissione Programmazione, bilancio, società controllate e partecipate Davide Caparini e della Commissione Territorio, infrastrutture e mobilità, Jonhatan Lobati, una richiesta di audizione congiunta dedicata al progetto di costituzione di una nuova società regionale per la gestione delle concessioni autostradali lombarde. L’iniziativa […] L'articolo Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte” proviene da ComoZero .",
+      "published_at": "2026-11-18T14:37:47+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Ottavi di Coppa, in campo Piacenza-Lucchese (2-0)",
       "url": "https://www.piacenzasera.it/2026/11/ottavi-di-coppa-piacenza-sfida-la-lucchese-al-garilli-ore-1430/670973",
-      "summary": "Si gioca in gara secca, in caso di parità al termine dei 90 minuti regolamentari si andrà direttamente ai rigori The post Ottavi di Coppa, Piacenza con ampio turn over sfida la Lucchese (ore 14,30) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T12:35:17+00:00",
+      "summary": "Si gioca in gara secca, in caso di parità al termine dei 90 minuti regolamentari si andrà direttamente ai rigori The post Ottavi di Coppa, in campo Piacenza-Lucchese (2-0) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T14:32:17+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -39,6 +53,124 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Imprese femminili in calo a Piacenza: sono 5.408 (-2,5%)",
+      "url": "https://www.piacenzasera.it/2026/11/imprese-femminili-in-calo-a-piacenza-sono-5-408-25/671007",
+      "summary": "Tra i Comuni piacentini, Ponte dell'Olio guida la classifica con una incidenza del 29,6% grazie a 118 aziende in rosa, seguito da Bobbio con il 28,4% e Cerignale The post Imprese femminili in calo a Piacenza: sono 5.408 (-2,5%) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T14:28:53+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "A Bari vince l’intuizione di Piacenza: premiata l’assessora Fantini per la migliore idea sull’abitare",
+      "url": "https://www.piacenzasera.it/2026/11/a-bari-vince-lintuizione-di-piacenza-premiata-lassessora-fantini-per-la-migliore-idea-sullabitare/671004",
+      "summary": "Piacenza è stata citata come caso virtuoso nell'ambito della presentazione dei progetti PINQuA - Programma innovativo nazionale per la qualità dell'abitare The post A Bari vince l’intuizione di Piacenza: premiata l’assessora Fantini per la migliore idea sull’abitare appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T14:15:19+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "ba",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "BA",
+        "PC"
+      ]
+    },
+    {
+      "title": "Dalla selva alla luce: a XNL nuova esposizione multimediale dedicata al Codice Landiano",
+      "url": "https://www.piacenzasera.it/2026/11/dalla-selva-alla-luce-a-xnl-nuova-esposizione-multimediale-dedicata-al-codice-landiano/671002",
+      "summary": "Dal 18 dicembre 2026 al 18 aprile 2027 a XNL Piacenza, Centro d’arte contemporanea, teatro e musica The post Dalla selva alla luce: a XNL nuova esposizione multimediale dedicata al Codice Landiano appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T14:13:27+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, orrendo calcestre addio: nei vialetti dei giardini a Lago una dignitosa (e stabile) pavimentazione in pietra",
+      "url": "https://comozero.it/attualita/como-orrendo-calcestre-addio-nei-vialetti-dei-giardini-a-lago-una-dignitosa-e-stabile-pavimentazione-in-pietra",
+      "summary": "Si sono conclusi i lavori di ripavimentazione dei due vialetti che attraversano l’aiuola centrale di viale Marconi, proprio davanti al Tempio Voltiano. A distanza di circa un mese dall’avvio del cantiere — iniziato a metà ottobre ad appena cinque mesi dalla festa di riapertura, lo scorso maggio, di quella porzione dei Giardini a lago — […] L'articolo Como, orrendo calcestre addio: nei vialetti dei giardini a Lago una dignitosa (e stabile) pavimentazione in pietra proviene da ComoZero .",
+      "published_at": "2026-11-18T14:08:17+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lavori in A1, chiuso per due notti il tratto tra Casalpusterlengo e Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/lavori-in-a1-chiuso-per-due-notti-il-tratto-tra-casalpusterlengo-e-piacenza/671001",
+      "summary": "Aggiornato il programma dei provvedimenti, per consentire attività relative al potenziamento e ammodernamento della segnaletica verticale The post Lavori in A1, chiuso per due notti il tratto tra Casalpusterlengo e Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T14:06:37+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Imprenditoria femminile, cinque premi da 3mila euro per le aziende di Como e Lecco: aperte le candidature",
+      "url": "https://www.ciaocomo.it/2026/11/18/imprenditoria-femminile-cinque-premi-da-3mila-euro-per-le-aziende-di-como-e-lecco-aperte-le-candidature/348259",
+      "summary": "La Camera di Commercio rilancia il riconoscimento dedicato alle imprese guidate da donne. Saranno valutati anche i modelli organizzativi, la sostenibilità e il benessere dei lavoratori The post Imprenditoria femminile, cinque premi da 3mila euro per le aziende di Como e Lecco: aperte le candidature appeared first on CiaoComo .",
+      "published_at": "2026-11-18T14:00:51+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "lc"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC"
+      ]
+    },
+    {
+      "title": "Centro Como, in piazza Volta spunta l’antennone: impossibile non notarlo",
+      "url": "https://comozero.it/attualita/centro-como-in-piazza-volta-spunta-lantennone-difficile-non-notarlo",
+      "summary": "Moltissimi lettori hanno segnalato e inviato foto in redazione dalla fase di allestimento fino al completamento dell’installazione. Parliamo di quella che a tutti gli effetti dovrebbe essere un’antenna, un maxi antennone ripetitore spuntato in questi giorni in piazza Volta, precisamente sopra l’albergo Firenze. E davvero è difficile non notarlo. L'articolo Centro Como, in piazza Volta spunta l’antennone: impossibile non notarlo proviene da ComoZero .",
+      "published_at": "2026-11-18T13:54:51+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "fi"
+      ],
+      "territory_codes": [
+        "CO",
+        "FI"
+      ]
+    },
+    {
+      "title": "Tre strade da salvare in provincia di Como, Dotti: “Arrivano 3.4 milioni di euro”",
+      "url": "https://comozero.it/attualita/tre-strade-da-salvare-in-provincia-di-como-dotti-arrivano-3-4-milioni-di-euro",
+      "summary": "«Oltre 3,4 milioni di euro destinati alla provincia di Como per finanziare tre importanti interventi di manutenzione straordinaria e messa in sicurezza della rete stradale. Un investimento significativo con cui Regione Lombardia conferma la propria attenzione verso le esigenze infrastrutturali del nostro territorio, intervenendo su collegamenti fondamentali per la mobilità quotidiana dei cittadini, delle famiglie […] L'articolo Tre strade da salvare in provincia di Como, Dotti: “Arrivano 3.4 milioni di euro” proviene da ComoZero .",
+      "published_at": "2026-11-18T12:30:49+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -69,48 +201,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Controlli su e-bike e monopattini, una giornata di formazione per le forze dell’ordine",
-      "url": "https://www.piacenzasera.it/2026/11/controlli-su-e-bike-e-monopattini-una-giornata-di-formazione-per-le-forze-dellordine/670971",
-      "summary": "Moderata dal Comandante della Polizia Locale di Piacenza Mirko Mussi, l’iniziativa è nata in collaborazione con il Comune di Piacenza The post Controlli su e-bike e monopattini, una giornata di formazione per le forze dell’ordine appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T11:49:13+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "I 100 anni di storia del Rotary Piacenza raccontati in un video",
-      "url": "https://www.piacenzasera.it/2026/11/i-100-anni-di-storia-del-rotary-piacenza-raccontati-in-un-video/670950",
-      "summary": "Presentato il docufilm che ripercorre la storia del club attraverso immagini d'epoca, testimonianze e progetti al servizio della comunità The post I 100 anni di storia del Rotary Piacenza raccontati in un video appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T11:00:42+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "A Piacenza Carlos Palma, l’inventore del “Dado della pace”",
-      "url": "https://www.piacenzasera.it/2026/11/a-piacenza-carlos-palma-linventore-del-dado-della-pace/670947",
-      "summary": "L'incontro si terrà giovedì 19 novembre alle 18 al Seminario vescovile di Piacenza The post A Piacenza Carlos Palma, l’inventore del “Dado della pace” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T10:45:36+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -250,38 +340,10 @@
       ]
     },
     {
-      "title": "Como elezioni 2027, i partiti in sala parto: “Lo chiamerete Giuseppe”, poi Teresa novella Silvia e quel vento inutile da capire",
-      "url": "https://comozero.it/punti-di-vista/como-i-partiti-in-sala-parto-per-le-elezioni-2027-lo-chiamerete-giuseppe-poi-teresa-novella-silvia-e-quel-vento-inutile-da-capire",
-      "summary": "Dopo mesi di bonaccia e di vele svuotate di ogni fermento, come d’improvviso due tempeste hanno sconquassato gli schieramenti politici che vogliono provare a negarci il brivido di un Rapinese-bis. La prima, almeno in ordine di tempo, è la critica sferzante del professor Luca Michelini, che al Partito Democratico ha sbattuto in faccia la necessità […] L'articolo Como elezioni 2027, i partiti in sala parto: “Lo chiamerete Giuseppe”, poi Teresa novella Silvia e quel vento inutile da capire proviene da ComoZero .",
-      "published_at": "2026-11-17T21:30:31+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Dallo spazio profondo al Lago di Como: si chiude con le favole la trilogia a fumetti di Dario Campione",
-      "url": "https://comozero.it/cultura-e-spettacolo/dallo-spazio-profondo-al-lago-di-como-si-chiude-con-le-favole-la-trilogia-a-fumetti-di-dario-campione",
-      "summary": "Un unico, lungo racconto che inizia in una scuola del futuro – nel giorno di Natale del 4000 d.c – e plana dallo spazio direttamente sul lago, traducendosi in 7 favole raccontate a dei piccoli scolari. La maestra raduna per quattro giorni gli studenti sotto il grande albero delle storie e affida a un inconsueto […] L'articolo Dallo spazio profondo al Lago di Como: si chiude con le favole la trilogia a fumetti di Dario Campione proviene da ComoZero .",
-      "published_at": "2026-11-17T21:00:28+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A Como la scuola da abbattere per l’autosilo. Eppure si possono salvare capra e cavoli, vediamo le alternative",
-      "url": "https://comozero.it/attualita/a-como-la-scuola-da-abbattere-per-lautosilo-eppure-si-possono-salvare-capra-e-cavoli-vediamo-le-alternative",
-      "summary": "“Al quartiere, non solo allo stadio, serve un parcheggio per eliminare le auto dalla strada e, sarebbe bello, dal lungolago. Se chiude una scuola in periferia, nessuno dice nulla, diverso per quelle in centro. I fatti diranno se sono io il sindaco brutto e cattivo: è il normale gioco delle opposizioni”. Queste le parole del sindaco di […] L'articolo A Como la scuola da abbattere per l’autosilo. Eppure si possono salvare capra e cavoli, vediamo le alternative proviene da ComoZero .",
-      "published_at": "2026-11-17T20:37:53+00:00",
+      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
+      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
+      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
+      "published_at": "2026-11-17T23:19:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -298,50 +360,6 @@
       "published_at": "2026-11-17T18:30:34+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, Villa Aprica verso la cessione? L’affondo: “Subito chiarimenti e garanzie per i lavoratori”",
-      "url": "https://comozero.it/attualita/como-villa-aprica-verso-la-cessione-laffondo-subito-chiarimenti-e-garanzie-per-i-lavoratori",
-      "summary": "Dopo le indiscrezioni dei giorni scorsi Cgil, Cisl e uil vanno all’attacco. Parliamo di questa notizia: Como, indiscrezione Villa Aprica in vendita: “Queste operazioni non si fanno sulla pelle dei lavoratori”. Ecco quanto ha fatto sapere in queste ore il sindacato: “Il Gruppo San Donato ha allo studio la cessione di quattro strutture della rete […] L'articolo Como, Villa Aprica verso la cessione? L’affondo: “Subito chiarimenti e garanzie per i lavoratori” proviene da ComoZero .",
-      "published_at": "2026-11-17T16:44:07+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lago di Como, tentano la truffa delle luci di Natale. Il Comune: “Ecco cosa dovete fare”",
-      "url": "https://comozero.it/cronaca/lago-di-como-tentano-la-truffa-delle-luci-di-natale-il-comune-ecco-cosa-dovete-fare",
-      "summary": "Nessuno chiede soldi per le luminarie di Natale. Ecco quanto fa sapere l’amministrazione comunale lecchese dopo alcune segnalazioni: Il Comune di Lecco è stato informato di possibili contatti telefonici e/o visite da parte di soggetti che si presentano come incaricati del Comune, richiedendo pagamenti o contributi economici per l’installazione delle luminarie natalizie. Segnaliamo che la […] L'articolo Lago di Como, tentano la truffa delle luci di Natale. Il Comune: “Ecco cosa dovete fare” proviene da ComoZero .",
-      "published_at": "2026-11-17T15:55:13+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "lc"
-      ],
-      "territory_codes": [
-        "CO",
-        "LC"
-      ]
-    },
-    {
-      "title": "Como, quasi 700 grammi di hashish trovati in una cella del carcere del Bassone",
-      "url": "https://comozero.it/cronaca/como-quasi-700-grammi-di-hashish-trovati-in-una-cella-nel-carcere-del-bassone",
-      "summary": "La sostanza, suddivisa in diversi panetti, è stata individuata dagli agenti durante i controlli all’interno della Casa circondariale. Il comando sottolinea il ruolo dell’attività di vigilanza nel contrasto all’introduzione di droga e oggetti non consentiti Quasi 700 grammi di hashish, suddivisi in diversi panetti, sono stati rinvenuti in una cella del Carcere del Bassone. A […] L'articolo Como, quasi 700 grammi di hashish trovati in una cella del carcere del Bassone proviene da ComoZero .",
-      "published_at": "2026-11-17T15:40:30+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -384,20 +402,6 @@
       "published_at": "2026-11-17T13:56:20+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Nel locker in provincia di Como oltre 1,4 chili di hashish camuffati da tavolette di cioccolato. Il video del sequestro",
-      "url": "https://comozero.it/attualita/nel-locker-in-provincia-di-como-oltre-14-chili-di-hashish-trasformati-in-tavolette-di-cioccolato-il-video-del-sequestro",
-      "summary": "Il pacco era arrivato da Barcellona e riportava un nome probabilmente falso. Dopo due giorni di attesa sono intervenute le unità cinofile della Guardia di Finanza: alcuni panetti erano camuffati da tavolette di cioccolato La droga viaggiava in un pacco postale e per ritirarla sarebbe bastato un codice da utilizzare a un locker automatico. È […] L'articolo Nel locker in provincia di Como oltre 1,4 chili di hashish camuffati da tavolette di cioccolato. Il video del sequestro proviene da ComoZero .",
-      "published_at": "2026-11-17T13:54:11+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
