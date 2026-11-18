@@ -59,7 +59,7 @@ jobs:
             echo "::warning::Impossibile consultare gli Artifacts: pulizia rinviata."
             exit 0
           }
-          mapfile -t obsolete < <(printf '%s' "$response" | jq -r '[.artifacts[] | select(.name == "CityNewsAI-debug-0.6.0" and .expired == false)] | sort_by(.created_at) | reverse | .[3:][] | .id')
+          mapfile -t obsolete < <(printf '%s' "$response" | jq -r '[.artifacts[] | select(.name == "CityNewsAI-debug-0.6.0" and .expired == false)] | sort_by(.created_at) | reverse | .[1:][] | .id')
           for artifact_id in "${obsolete[@]}"; do
             if ! curl -fsS -X DELETE -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${GH_REPOSITORY}/actions/artifacts/${artifact_id}" >/dev/null; then
               echo "::warning::Non è stato possibile eliminare l'Artifact ${artifact_id}."
