@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T09:12:44.770879+00:00",
+  "generated_at": "2026-11-18T10:14:24.627008+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 1,
-      "inserted": 1,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Divieto social sotto ai 13 anni, Novara “Primo passo, ma serve un cambio di direzione”",
+      "url": "https://www.piacenzasera.it/2026/11/divieto-social-sotto-ai-13-anni-novara-primo-passo-ma-serve-un-cambio-di-direzione/670930",
+      "summary": "Daniele Novara interviene sulla proposta del Governo Meloni di esclusione dai social sotto i 13 anni The post Divieto social sotto ai 13 anni, Novara “Primo passo, ma serve un cambio di direzione” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T10:04:51+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "no"
+      ],
+      "territory_codes": [
+        "NO"
+      ]
+    },
+    {
+      "title": "Il cohousing sociale piacentino di Fondazione Caritas selezionato all’asta solidale Barolo en Primeur",
+      "url": "https://www.piacenzasera.it/2026/11/il-cohousing-sociale-piacentino-di-fondazione-caritas-selezionato-allasta-solidale-barolo-en-primeur/670928",
+      "summary": "È una gara di beneficenza, nella quale filantropi e collezionisti da tutto il mondo si aggiudicano lotti esclusivi di vino The post Il cohousing sociale piacentino di Fondazione Caritas selezionato all’asta solidale Barolo en Primeur appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T09:58:20+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Domenica arriva al PalaBanca la prima della classe Perugia, sfida numero 23 con Gas Sales",
+      "url": "https://www.piacenzasera.it/2026/11/domenica-arriva-al-palabanca-la-prima-della-classe-perugia-sfida-numero-23-con-gas-sales/670924",
+      "summary": "Il bilancio è a favore di Perugia che ha vinto venti gare: tredici in regular season The post Domenica arriva al PalaBanca la prima della classe Perugia, sfida numero 23 con Gas Sales appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T09:33:07+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pg"
+      ],
+      "territory_codes": [
+        "PG"
+      ]
+    },
     {
       "title": "Assegno di frontiera, ora è legge: fino a 220 milioni per aumentare gli stipendi di chi non scappa in Svizzera",
       "url": "https://comozero.it/attualita/assegno-di-frontiera-legge-stipendi-varese-como-sondrio-svizzera",
@@ -175,20 +217,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Aeroporto di San Damiano, il tenente colonnello Battista nuovo comandante",
-      "url": "https://www.piacenzasera.it/2026/11/aeroporto-di-san-damiano-il-tenente-colonnello-battista-nuovo-comandante/670884",
-      "summary": "Nel Distaccamento Aeroportuale di Piacenza si è tenuta la cerimonia di avvicendamento al Comando The post Aeroporto di San Damiano, il tenente colonnello Battista nuovo comandante appeared first on piacenzasera.it .",
-      "published_at": "2026-11-17T17:20:20+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -382,20 +410,6 @@
       "published_at": "2026-11-17T10:05:08+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, fermato per strada con della droga in tasca",
-      "url": "https://comozero.it/attualita/provincia-di-como-fermato-per-strada-con-della-droga-in-tasca",
-      "summary": "Nel pomeriggio del 16 novembre 2026 i Carabinieri della Stazione di Gravedona ed Uniti hanno fermato un uomo di 57 anni, residente a Gravedona ed Uniti, per detenzione di sostanze stupefacenti per uso personale. Durante i controlli, i militari hanno sottoposto ad accertamenti l’uomo mentre percorreva a piedi una strada nel Comune di Gera Lario, […] L'articolo Provincia di Como, fermato per strada con della droga in tasca proviene da ComoZero .",
-      "published_at": "2026-11-17T09:38:45+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
