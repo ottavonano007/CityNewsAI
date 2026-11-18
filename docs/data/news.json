@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:15:07.326370+00:00",
+  "generated_at": "2026-11-18T18:02:27.748789+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tessile comasco: premiate Larioseta, Ostinelli Seta e Taborelli. Brillano le 25 aziende con zero infortuni, poi le menzioni per i decani",
+      "url": "https://comozero.it/attualita/tessile-comasco-premiate-larioseta-ostinelli-seta-e-taborelli-brillano-le-25-aziende-con-zero-infortuni-poi-le-menzioni-per-i-decani",
+      "summary": "Oggi, mercoledì 18 novembre 2026, presso il Centro Tessile Serico Sostenibile di Como, si è tenuto l’atteso evento di presentazione del Report ESG For Textile 2026, appuntamento annuale che pone l’attenzione sui progressi ed obiettivi di sostenibilità delle aziende del gruppo For Textile. Il convegno ha confermato il ruolo centrale del distretto comasco nel promuovere un […] L'articolo Tessile comasco: premiate Larioseta, Ostinelli Seta e Taborelli. Brillano le 25 aziende con zero infortuni, poi le menzioni per i decani proviene da ComoZero .",
+      "published_at": "2026-11-18T17:58:42+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "All’Albergo Roma incontro con Roberto Amadio: il tecnico della nazionale di ciclismo ospite del Rotary Piacenza",
       "url": "https://www.piacenzasera.it/2026/11/allalbergo-roma-incontro-con-roberto-amadio-il-tecnico-della-nazionale-di-ciclismo-ospite-del-rotary-piacenza/671060",
@@ -46,7 +60,7 @@
     {
       "title": "La Ragazzetta diventa anche ristorante e gastronomia: sabato il taglio del nastro",
       "url": "https://www.piacenzasera.it/2026/11/la-ragazzetta-inaugura-il-nuovo-ristorante-e-gastronomia-sabato-il-taglio-del-nastro/671056",
-      "summary": "Il nuovo spazio che nasce con l'intento di valorizzare la tradizione gastronomica e l'identità del territorio piacentino The post La Ragazzetta diventa anche ristorante e gastronomia: sabato il taglio del nastro appeared first on piacenzasera.it .",
+      "summary": "Il nuovo spazio nasce con l'intento di valorizzare la tradizione gastronomica e l'identità del territorio piacentino The post La Ragazzetta diventa anche ristorante e gastronomia: sabato il taglio del nastro appeared first on piacenzasera.it .",
       "published_at": "2026-11-18T15:55:18+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
