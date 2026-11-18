@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T07:28:35.457871+00:00",
+  "generated_at": "2026-11-18T09:12:44.770879+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 1,
+      "inserted": 1,
       "ok": true
     },
     {
@@ -27,6 +27,54 @@
     }
   ],
   "articles": [
+    {
+      "title": "Assegno di frontiera, ora è legge: fino a 220 milioni per aumentare gli stipendi di chi non scappa in Svizzera",
+      "url": "https://comozero.it/attualita/assegno-di-frontiera-legge-stipendi-varese-como-sondrio-svizzera",
+      "summary": "È ufficialmente legge il pacchetto economico progettato per arginare l’esodo professionale verso la Confederazione Elvetica e scongiurare che i distretti produttivi situati lungo il confine, nelle province di Varese, Como e Sondrio, restino sguarniti di personale. Con l’approvazione definitiva del testo normativo diventa pienamente operativo un meccanismo finalizzato a potenziare le buste paga dei dipendenti […] L'articolo Assegno di frontiera, ora è legge: fino a 220 milioni per aumentare gli stipendi di chi non scappa in Svizzera proviene da ComoZero .",
+      "published_at": "2026-11-18T08:46:17+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "so",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "SO",
+        "VA"
+      ]
+    },
+    {
+      "title": "Sant’Elia, da Como a Milano due mostre raccontano l’influenza del genio futurista sul Razionalismo e sull’Astrattismo",
+      "url": "https://www.ciaocomo.it/2026/11/18/santelia-da-como-a-milano-due-mostre-raccontano-linfluenza-del-genio-futurista-sul-razionalismo-e-sullastrattismo/348095",
+      "summary": "Alla Pinacoteca Civica il percorso dalla “Torre faro” al Monumento ai Caduti di Terragni, al CASVA il dialogo con gli architetti e i pittori degli anni Trenta. Esposti anche documenti inediti e progetti mai presentati al pubblico The post Sant’Elia, da Como a Milano due mostre raccontano l’influenza del genio futurista sul Razionalismo e sull’Astrattismo appeared first on CiaoComo .",
+      "published_at": "2026-11-18T08:30:23+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Lo strappo, il ‘Va, pensiero’ e l’addio: Como, l’ex consigliere comunale lascia la Lega va in Patto per il Nord",
+      "url": "https://comozero.it/politica/lo-strappo-il-va-pensiero-e-laddio-como-lex-consigliere-comunale-lascia-la-lega-va-in-patto-per-il-nord",
+      "summary": "Prima l’addio alla Lega, ora il trasloco altrove. Passo che nella vita politica di Como città – soprattutto a una manciata di mesi dalle elezioni – qualche rumore lo fa. Il protagonista è Andrea Valeri, consigliere comunale a Como nel mandato Landriscina (2017-2022), e tra i volti più riconoscibili del partito di Salvini nel capoluogo. […] L'articolo Lo strappo, il ‘Va, pensiero’ e l’addio: Como, l’ex consigliere comunale lascia la Lega va in Patto per il Nord proviene da ComoZero .",
+      "published_at": "2026-11-18T08:06:14+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Libertas Cantù e Como Nuoto unite in memoria di Stefano “Tete” Pozzi",
       "url": "https://primacomo.it/attualita/libertas-cantu-e-como-nuoto-unite-in-memoria-di-stefano-tete-pozzi",
@@ -172,20 +220,6 @@
       ]
     },
     {
-      "title": "La San Martino compie 40 anni: sabato convegno a Piacenza Expo",
-      "url": "https://www.piacenzasera.it/2026/11/la-san-martino-compie-40-anni-sabato-convegno-a-piacenza-expo/670865",
-      "summary": "L'appuntamento, riservato ai soci e agli invitati, unirà riflessioni sul valore della cooperazione, testimonianze e momenti di festa The post La San Martino compie 40 anni: sabato convegno a Piacenza Expo appeared first on piacenzasera.it .",
-      "published_at": "2026-11-17T15:58:11+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Lago di Como, tentano la truffa delle luci di Natale. Il Comune: “Ecco cosa dovete fare”",
       "url": "https://comozero.it/cronaca/lago-di-como-tentano-la-truffa-delle-luci-di-natale-il-comune-ecco-cosa-dovete-fare",
       "summary": "Nessuno chiede soldi per le luminarie di Natale. Ecco quanto fa sapere l’amministrazione comunale lecchese dopo alcune segnalazioni: Il Comune di Lecco è stato informato di possibili contatti telefonici e/o visite da parte di soggetti che si presentano come incaricati del Comune, richiedendo pagamenti o contributi economici per l’installazione delle luminarie natalizie. Segnaliamo che la […] L'articolo Lago di Como, tentano la truffa delle luci di Natale. Il Comune: “Ecco cosa dovete fare” proviene da ComoZero .",
@@ -286,20 +320,6 @@
       ]
     },
     {
-      "title": "Spaccio 2.0 ad Appiano Gentile, droga spedita dalla Spagna e nascosta in un locker: sequestrato un chilo e mezzo di stupefacenti",
-      "url": "https://www.ciaocomo.it/2026/11/17/spaccio-2-0-ad-appiano-gentile-droga-spedita-dalla-spagna-e-nascosta-in-un-locker-sequestrato-un-chilo-e-mezzo-di-stupefacenti/348182",
-      "summary": "La Guardia di Finanza di Olgiate Comasco intercetta un pacco proveniente da Barcellona. Nessuno si presenta per il ritiro: intervengono i cani antidroga Kobe e C4. Hashish camuffato da tavolette di cioccolato The post Spaccio 2.0 ad Appiano Gentile, droga spedita dalla Spagna e nascosta in un locker: sequestrato un chilo e mezzo di stupefacenti appeared first on CiaoComo .",
-      "published_at": "2026-11-17T13:40:45+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "La dura battaglia sul segreto, poi la decisione e la vittoria del club storico: a chi va il centro sportivo di Sagnino",
       "url": "https://comozero.it/attualita/la-dura-battaglia-sul-segreto-poi-la-decisione-e-la-vittoria-del-club-storico-a-chi-va-il-centro-sportivo-di-sagnino",
       "summary": "Il centro sportivo comunale Caduti di Nassiriya di via Segantini, nel quartiere di Sagnino, sarà gestito dall’ASD Tennis Como. Il Comune ha aggiudicato definitivamente la concessione all’associazione sportiva, che si è imposta nella procedura di gara con un punteggio complessivo di 76,33 su 100. La nuova gestione partirà dal 1° gennaio 2027 e avrà una […] L'articolo La dura battaglia sul segreto, poi la decisione e la vittoria del club storico: a chi va il centro sportivo di Sagnino proviene da ComoZero .",
@@ -384,40 +404,12 @@
       ]
     },
     {
-      "title": "Como, la Polizia assume mille allievi: nei bandi ora si potrà indicare la provincia preferita",
-      "url": "https://comozero.it/attualita/como-la-polizia-assume-mille-allievi-nei-bandi-ora-si-potra-indicare-la-provincia-preferita",
-      "summary": "La Polizia di Stato pubblica quattro bandi di concorso per l’assunzione di 1000 allievi vice ispettori, per assumere nuove professionalità specialistiche nei settori dell’informatica e dell’economia, delle lingue straniere e della comunicazione istituzionale. Per la prima volta, è prevista una suddivisione dei posti su base provinciale con l’indicazione da parte dei candidati, all’atto della domanda, […] L'articolo Como, la Polizia assume mille allievi: nei bandi ora si potrà indicare la provincia preferita proviene da ComoZero .",
-      "published_at": "2026-11-17T08:58:16+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Sindacati uniti per l’eliminazione della violenza sulle donne",
       "url": "https://primacomo.it/attualita/sindacati-uniti-per-leliminazione-della-violenza-sulle-donne",
       "summary": "Sindacati uniti in occasione della Giornata internazionale per l’eleiminazione della violenza sulle donne Cgil Como, Cisl dei Laghi e Uil del Lario promuovono cultura e ssolidarietà. Sindacati uniti L’impegnod elle organizzazioni sindacali muove da dati sempre più preoccupanti. “Nel 2026 secondo l’osservatorio Non una di Meno, si sono registrati 61 femminicidi di cui oltre l’80%. […] Continua la lettura di Sindacati uniti per l’eliminazione della violenza sulle donne sul portale Prima Como .",
       "published_at": "2026-11-17T08:27:51+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La morte del sindaco dei record, il ricordo: “Fa parte della memoria collettiva”",
-      "url": "https://comozero.it/attualita/la-morte-del-sindaco-dei-record-il-ricordo-fa-parte-della-memoria-collettiva",
-      "summary": "Questa mattina raccontavamo della morte di Flaminio Vasile sindaco dei record e figura storica del socialismo comasco. Ora arriva il cordoglio congiunto delle liste civiche Senna per sempre e Senna Futura. Lo pubblichiamo integralmente: Le liste civiche Senna per sempre e Senna Futura esprimono profondo cordoglio per la scomparsa di Flaminio Vasile, storico sindaco di […] L'articolo La morte del sindaco dei record, il ricordo: “Fa parte della memoria collettiva” proviene da ComoZero .",
-      "published_at": "2026-11-17T08:03:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
