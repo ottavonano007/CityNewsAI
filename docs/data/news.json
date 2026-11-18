@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:09:23.785870+00:00",
+  "generated_at": "2026-11-18T17:15:07.326370+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,50 @@
     }
   ],
   "articles": [
+    {
+      "title": "All’Albergo Roma incontro con Roberto Amadio: il tecnico della nazionale di ciclismo ospite del Rotary Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/allalbergo-roma-incontro-con-roberto-amadio-il-tecnico-della-nazionale-di-ciclismo-ospite-del-rotary-piacenza/671060",
+      "summary": "Lunedì 23 novembre, alle ore 19, conferenza stampa aperta al pubblico presso l'Hotel Roma di Piacenza The post All’Albergo Roma incontro con Roberto Amadio: il tecnico della nazionale di ciclismo ospite del Rotary Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T16:18:21+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza",
+        "rm"
+      ],
+      "territory_codes": [
+        "PC",
+        "RM"
+      ]
+    },
+    {
+      "title": "La Ragazzetta diventa anche ristorante e gastronomia: sabato il taglio del nastro",
+      "url": "https://www.piacenzasera.it/2026/11/la-ragazzetta-inaugura-il-nuovo-ristorante-e-gastronomia-sabato-il-taglio-del-nastro/671056",
+      "summary": "Il nuovo spazio che nasce con l'intento di valorizzare la tradizione gastronomica e l'identità del territorio piacentino The post La Ragazzetta diventa anche ristorante e gastronomia: sabato il taglio del nastro appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T15:55:18+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Torna il Premio Letterario “Penne dell’Appennino”, iscrizioni aperte fino al 15 dicembre",
+      "url": "https://www.piacenzasera.it/2026/11/torna-il-premio-letterario-penne-dellappennino-iscrizioni-aperte-fino-al-15-dicembre/670824",
+      "summary": "Ideato dal Comune di Farini con il patrocinio della Provincia di Piacenza e in collaborazione con l'Associazione Muselunghe APS The post Torna il Premio Letterario “Penne dell’Appennino”, iscrizioni aperte fino al 15 dicembre appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T15:48:21+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Open Masters Games Como Lake 2027, iscrizioni aperte: attesi 12mila atleti da oltre 100 Paesi",
       "url": "https://www.ciaocomo.it/2026/11/18/open-masters-games-como-lake-2027-iscrizioni-aperte-attesi-12mila-atleti-da-oltre-100-paesi/348269",
@@ -81,50 +125,6 @@
       ],
       "territory_codes": [
         "MI"
-      ]
-    },
-    {
-      "title": "Imprese femminili in calo a Piacenza: sono 5.408 (-2,5%)",
-      "url": "https://www.piacenzasera.it/2026/11/imprese-femminili-in-calo-a-piacenza-sono-5-408-25/671007",
-      "summary": "Tra i Comuni piacentini, Ponte dell'Olio guida la classifica con una incidenza del 29,6% grazie a 118 aziende in rosa, seguito da Bobbio con il 28,4% e Cerignale The post Imprese femminili in calo a Piacenza: sono 5.408 (-2,5%) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T14:28:53+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "A Bari vince l’intuizione di Piacenza: premiata l’assessora Fantini per la migliore idea sull’abitare",
-      "url": "https://www.piacenzasera.it/2026/11/a-bari-vince-lintuizione-di-piacenza-premiata-lassessora-fantini-per-la-migliore-idea-sullabitare/671004",
-      "summary": "Piacenza è stata citata come caso virtuoso nell'ambito della presentazione dei progetti PINQuA - Programma innovativo nazionale per la qualità dell'abitare The post A Bari vince l’intuizione di Piacenza: premiata l’assessora Fantini per la migliore idea sull’abitare appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T14:15:19+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "ba",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "BA",
-        "PC"
-      ]
-    },
-    {
-      "title": "Dalla selva alla luce: a XNL nuova esposizione multimediale dedicata al Codice Landiano",
-      "url": "https://www.piacenzasera.it/2026/11/dalla-selva-alla-luce-a-xnl-nuova-esposizione-multimediale-dedicata-al-codice-landiano/671002",
-      "summary": "Dal 18 dicembre 2026 al 18 aprile 2027 a XNL Piacenza, Centro d’arte contemporanea, teatro e musica The post Dalla selva alla luce: a XNL nuova esposizione multimediale dedicata al Codice Landiano appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T14:13:27+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
