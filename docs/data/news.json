@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-18T10:14:24.627008+00:00",
+  "generated_at": "2026-11-18T11:14:36.495810+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "A Piacenza Carlos Palma, l’inventore del “Dado della pace”",
+      "url": "https://www.piacenzasera.it/2026/11/a-piacenza-carlos-palma-linventore-del-dado-della-pace/670947",
+      "summary": "L'incontro si terrà giovedì 19 novembre alle 18 al Seminario vescovile di Piacenza The post A Piacenza Carlos Palma, l’inventore del “Dado della pace” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T10:45:36+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Divieto social sotto ai 13 anni, Novara “Primo passo, ma serve un cambio di direzione”",
       "url": "https://www.piacenzasera.it/2026/11/divieto-social-sotto-ai-13-anni-novara-primo-passo-ma-serve-un-cambio-di-direzione/670930",
@@ -284,20 +298,6 @@
       "published_at": "2026-11-17T15:17:34+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Matteo Piano incontra 500 studenti per la chiusura di ONde LARIANE",
-      "url": "https://www.ciaocomo.it/2026/11/17/matteo-piano-incontra-500-studenti-per-la-chiusura-di-onde-lariane/348206",
-      "summary": "Giovedì 19 novembre al Collegio Gallio di Como l’educational «Responsabilità è squadra. Le scelte che costruiscono il futuro». L’ex pallavolista azzurro, oggi commentatore tecnico Rai, dialogherà con i ragazzi delle scuole superiori dei comuni del Centrolago per l'ultimo appuntamento del festival ONde Lariane The post Matteo Piano incontra 500 studenti per la chiusura di ONde LARIANE appeared first on CiaoComo .",
-      "published_at": "2026-11-17T14:30:14+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
