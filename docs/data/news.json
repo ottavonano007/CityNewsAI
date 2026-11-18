@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:02:27.748789+00:00",
+  "generated_at": "2026-11-18T19:04:08.824530+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Più giorni da pagare, stangata multe e addio tavolo con gli operatori: tassa di soggiorno a Como, rivoluzione",
+      "url": "https://comozero.it/attualita/piu-giorni-da-pagare-stangata-multe-e-addio-tavolo-con-gli-operatori-tassa-di-soggiorno-a-como-rivoluzione",
+      "summary": "Grosse novità in vista per la tassa di soggiorno a Como (qui le tariffe). La bozza della nuova versione del regolamento comunale – destinata prima alla Commissione e poi al consiglio comunale – introduce alcune novità importanti per turisti, alberghi, bed and breakfast e per chi gestisce gli altri alloggi destinati ai visitatori. Le modifiche […] L'articolo Più giorni da pagare, stangata multe e addio tavolo con gli operatori: tassa di soggiorno a Como, rivoluzione proviene da ComoZero .",
+      "published_at": "2026-11-18T18:42:45+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Sciopero generale, raccolta spazzatura a rischio venerdì 20: “Evitare l’esposizione per preservare il decoro urbano”",
+      "url": "https://comozero.it/attualita/sciopero-generale-raccolta-spazzatura-a-rischio-venerdi-20-evitare-lesposizione-per-preservare-il-decoro-urbano",
+      "summary": "Il Comune di Como fa sapere che, a seguito della proclamazione dello sciopero generale nazionale indetto da Cgil e previsto per la giornata di venerdì 20 novembre, potrebbe non essere garantito il normale svolgimento delle attività di raccolta rifiuti e di igiene del suolo, oltre che l’apertura degli sportelli e degli Infopoint gestiti da Aprica. […] L'articolo Sciopero generale, raccolta spazzatura a rischio venerdì 20: “Evitare l’esposizione per preservare il decoro urbano” proviene da ComoZero .",
+      "published_at": "2026-11-18T18:41:07+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Tessile comasco: premiate Larioseta, Ostinelli Seta e Taborelli. Brillano le 25 aziende con zero infortuni, poi le menzioni per i decani",
       "url": "https://comozero.it/attualita/tessile-comasco-premiate-larioseta-ostinelli-seta-e-taborelli-brillano-le-25-aziende-con-zero-infortuni-poi-le-menzioni-per-i-decani",
@@ -188,6 +216,20 @@
       ]
     },
     {
+      "title": "Premi Fair Play 2026, il Panathlon Como celebra Ciccio Della Fiori e due società sportive del territorio",
+      "url": "https://www.ciaocomo.it/2026/11/18/premi-fair-play-2026-il-panathlon-como-celebra-ciccio-della-fiori-e-due-societa-sportive-del-territorio/348271",
+      "summary": "Il Calcio Menaggio premiato per aver rinunciato a una promozione certa in segno di rispetto per il dolore degli avversari. Una menzione anche alla FIGC Lombardia. Consegna sabato mattina. The post Premi Fair Play 2026, il Panathlon Como celebra Ciccio Della Fiori e due società sportive del territorio appeared first on CiaoComo .",
+      "published_at": "2026-11-18T13:09:35+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Tre strade da salvare in provincia di Como, Dotti: “Arrivano 3.4 milioni di euro”",
       "url": "https://comozero.it/attualita/tre-strade-da-salvare-in-provincia-di-como-dotti-arrivano-3-4-milioni-di-euro",
       "summary": "«Oltre 3,4 milioni di euro destinati alla provincia di Como per finanziare tre importanti interventi di manutenzione straordinaria e messa in sicurezza della rete stradale. Un investimento significativo con cui Regione Lombardia conferma la propria attenzione verso le esigenze infrastrutturali del nostro territorio, intervenendo su collegamenti fondamentali per la mobilità quotidiana dei cittadini, delle famiglie […] L'articolo Tre strade da salvare in provincia di Como, Dotti: “Arrivano 3.4 milioni di euro” proviene da ComoZero .",
@@ -308,20 +350,6 @@
       ]
     },
     {
-      "title": "“Theatrical – Teatro Segreto”, il Sociale di Como si trasforma: stanze misteriose, performance e il dj set di Venerus",
-      "url": "https://www.ciaocomo.it/2026/11/18/theatrical-teatro-segreto-il-sociale-di-como-si-trasforma-stanze-misteriose-performance-e-il-dj-set-di-venerus/348150",
-      "summary": "Venerdì 20 novembre la sesta edizione dell’evento prodotto da e507 e Teatro Sociale. In programma mentalismo, cartomanzia, stand-up comedy e un’installazione dedicata a Olindo e Rosa, oltre a un incontro fra lirica ed elettronica The post “Theatrical – Teatro Segreto”, il Sociale di Como si trasforma: stanze misteriose, performance e il dj set di Venerus appeared first on CiaoComo .",
-      "published_at": "2026-11-18T07:00:55+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Finto carabiniere tenta di truffare coppia di anziani",
       "url": "https://primacomo.it/cronaca/finto-carabiniere-tenta-di-truffare-coppia-di-anziani",
       "summary": "I Carabinieri della Stazione di Cernobbio hanno eseguito un’ordinanza di misure cautelari nei confronti di due uomini di 28 e 29 anni, dimoranti in provincia di Varese e Nuoro, ritenuti responsabili di una tentata truffa aggravata ai danni di una coppia di anziani. Le indagini L’episodio risale al 13 luglio 2026, quando una donna di […] Continua la lettura di Finto carabiniere tenta di truffare coppia di anziani sul portale Prima Como .",
@@ -358,20 +386,6 @@
       "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
       "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
       "published_at": "2026-11-17T23:20:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
-      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
-      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
-      "published_at": "2026-11-17T23:19:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
