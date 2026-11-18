@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T15:04:49.055182+00:00",
+  "generated_at": "2026-11-18T16:09:23.785870+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -28,6 +28,48 @@
   ],
   "articles": [
     {
+      "title": "Open Masters Games Como Lake 2027, iscrizioni aperte: attesi 12mila atleti da oltre 100 Paesi",
+      "url": "https://www.ciaocomo.it/2026/11/18/open-masters-games-como-lake-2027-iscrizioni-aperte-attesi-12mila-atleti-da-oltre-100-paesi/348269",
+      "summary": "La cerimonia inaugurale si terrà a Como, Villa Erba ospiterà anche le gare di scherma. Presentate a Palazzo Lombardia le mascotte Perseo e Ondina The post Open Masters Games Como Lake 2027, iscrizioni aperte: attesi 12mila atleti da oltre 100 Paesi appeared first on CiaoComo .",
+      "published_at": "2026-11-18T15:44:34+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Poker alla Lucchese, Piacenza ai quarti di Coppa Italia (4-0)",
+      "url": "https://www.piacenzasera.it/2026/11/ottavi-di-coppa-piacenza-sfida-la-lucchese-al-garilli-ore-1430/670973",
+      "summary": "Tutto facile per i biancorossi, che hanno dominato la gara: a segno Capelli e Tremolada nel primo tempo, nella ripresa Bassanini e Trombetta fissano il risultato The post Poker alla Lucchese, Piacenza ai quarti di Coppa Italia (4-0) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T15:22:17+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Del Monte Coppa Italia, la final four si giocherà a Roma il 6 e il 7 febbraio",
+      "url": "https://www.piacenzasera.it/2026/11/coppa-italia-volley-la-final-four-si-giochera-a-roma-il-6-e-il-7-febbraio/671039",
+      "summary": "La Capitale si prepara ad accogliere per la quinta volta l’atto conclusivo della Del Monte® Coppa Italia SuperLega The post Del Monte Coppa Italia, la final four si giocherà a Roma il 6 e il 7 febbraio appeared first on piacenzasera.it .",
+      "published_at": "2026-11-18T15:01:23+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "rm"
+      ],
+      "territory_codes": [
+        "RM"
+      ]
+    },
+    {
       "title": "Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte”",
       "url": "https://comozero.it/attualita/milano-meda-lo-schiaffo-del-pedaggio-il-mistero-nuova-societa-migliaia-di-cittadini-attendono-risposte",
       "summary": "Il gruppo consiliare del Partito Democratico in Consiglio regionale ha presentato ai presidenti della Commissione Programmazione, bilancio, società controllate e partecipate Davide Caparini e della Commissione Territorio, infrastrutture e mobilità, Jonhatan Lobati, una richiesta di audizione congiunta dedicata al progetto di costituzione di una nuova società regionale per la gestione delle concessioni autostradali lombarde. L’iniziativa […] L'articolo Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte” proviene da ComoZero .",
@@ -39,20 +81,6 @@
       ],
       "territory_codes": [
         "MI"
-      ]
-    },
-    {
-      "title": "Ottavi di Coppa, in campo Piacenza-Lucchese (2-0)",
-      "url": "https://www.piacenzasera.it/2026/11/ottavi-di-coppa-piacenza-sfida-la-lucchese-al-garilli-ore-1430/670973",
-      "summary": "Si gioca in gara secca, in caso di parità al termine dei 90 minuti regolamentari si andrà direttamente ai rigori The post Ottavi di Coppa, in campo Piacenza-Lucchese (2-0) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T14:32:17+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -111,20 +139,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Lavori in A1, chiuso per due notti il tratto tra Casalpusterlengo e Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/lavori-in-a1-chiuso-per-due-notti-il-tratto-tra-casalpusterlengo-e-piacenza/671001",
-      "summary": "Aggiornato il programma dei provvedimenti, per consentire attività relative al potenziamento e ammodernamento della segnaletica verticale The post Lavori in A1, chiuso per due notti il tratto tra Casalpusterlengo e Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T14:06:37+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -346,20 +360,6 @@
       "published_at": "2026-11-17T23:19:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, brutta tegola: rinviato di qualche settimana il rientro di Kean in campo, previsti ulteriori accertamenti",
-      "url": "https://www.ciaocomo.it/2026/11/17/como-brutta-tegola-rinviato-di-qualche-settimana-il-rientro-di-kean-in-campo-previsti-ulteriori-accertamenti/348211",
-      "summary": "Una possibile ricaduta. Il comunicato del Como è stringato e rinvia il rientro del calciatore. Stagione sfortunata finora per il bomber. Difficile prevedere i tempi. The post Como, brutta tegola: rinviato di qualche settimana il rientro di Kean in campo, previsti ulteriori accertamenti appeared first on CiaoComo .",
-      "published_at": "2026-11-17T18:30:34+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
