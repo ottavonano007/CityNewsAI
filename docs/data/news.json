@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T06:14:01.660702+00:00",
+  "generated_at": "2026-11-19T07:30:12.087532+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, nuovo regolamento le riprese video del consiglio comunale: i cittadini non ci sono",
+      "url": "https://comozero.it/attualita/como-nuovo-regolamento-le-riprese-video-del-consiglio-comunale-i-cittadini-non-ci-sono",
+      "summary": "Nuovo regolamento in vista per le riprese audio e video del consiglio comunale di Como. La giunta ha messo a punto una serie di regole che riguardano la trasmissione delle riunioni, la pubblicazione delle registrazioni, la tutela della privacy e soprattutto le possibilità di utilizzare i filmati da parte di giornalisti e cittadini. Il documento […] L'articolo Como, nuovo regolamento le riprese video del consiglio comunale: i cittadini non ci sono proviene da ComoZero .",
+      "published_at": "2026-11-19T07:20:16+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Il ruggito del Generoso compie 90 anni: al galà da tutto esaurito il re comasco delle cronoscalate Angelo Tenconi",
       "url": "https://comozero.it/attualita/il-ruggito-del-generoso-compie-90-anni-al-gala-da-tutto-esaurito-il-re-comasco-delle-cronoscalate-angelo-tenconi",
