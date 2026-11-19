@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:08:04.106048+00:00",
+  "generated_at": "2026-11-19T20:12:57.447631+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -359,34 +359,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Piano freddo 2026-2027 a Como: la Provincia concede ancora gratis al Comune la struttura, servizio al via",
-      "url": "https://comozero.it/attualita/piano-freddo-2026-2027-a-como-la-provincia-concede-ancora-gratis-al-comune-la-struttura-servizio-al-via",
-      "summary": "Il dormitorio per le persone senza dimora sarà nuovamente allestito negli spazi della palazzina B di via Borgovico 171 a Como, di proprietà della Provincia. La Giunta comunale ha approvato all’unanimità, il 18 novembre scorso, il comodato d’uso gratuito dell’immobile per il Piano Freddo 2026/2027. Gli spazi saranno concessi dall’amministrazione provinciale, con servizio al via […] L'articolo Piano freddo 2026-2027 a Como: la Provincia concede ancora gratis al Comune la struttura, servizio al via proviene da ComoZero .",
-      "published_at": "2026-11-19T07:59:35+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, nuovi cartelli di protesta “in musica” contro le strisce blu. E si arrabbia anche La Linea",
-      "url": "https://comozero.it/attualita/como-nuovi-cartelli-di-protesta-in-musica-contro-le-strisce-blu",
-      "summary": "A inizio novembre la giunta Rapinese ha deciso di trasformare gli stalli prima liberi in posti a pagamento in via Gorio, in via Musa e soprattutto in via don Guanella, finora una delle pochissime aree rimaste senza balzello e con una cospicua dotazione di posti. Da questa mattina intanto dovevano scattare proprio i lavori per […] L'articolo Como, nuovi cartelli di protesta “in musica” contro le strisce blu. E si arrabbia anche La Linea proviene da ComoZero .",
-      "published_at": "2026-11-19T07:44:14+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
