@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:56:17.263908+00:00",
+  "generated_at": "2026-11-19T23:52:44.565052+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Scuola superiore, a Como il Canossa apre le porte: tre indirizzi per costruire il futuro",
+      "url": "https://comozero.it/pubbliredazionale/scuola-superiore-a-como-il-canossa-apre-le-porte-tre-indirizzi-per-costruire-il-futuro",
+      "summary": "Non solo prepararsi al futuro, ma imparare a costruirlo con consapevolezza, passione e fiducia nei propri mezzi. Sabato 28 novembre 2026, l’Istituto Matilde di Canossa di Como apre le proprie porte alle famiglie e agli studenti delle scuole medie per l’Open Day dedicato ai Licei e all’Istituto Professionale (dettagli su orari e modalità di partecipazione […] L'articolo Scuola superiore, a Como il Canossa apre le porte: tre indirizzi per costruire il futuro proviene da ComoZero .",
+      "published_at": "2026-11-19T23:23:02+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Sconti pazzeschi nel centro commerciale milanese, una settimana al 50% in 120 negozi",
       "url": "https://comozero.it/attualita/sconti-pazzeschi-nel-centro-commerciale-milanese-una-settimana-al-50-in-120-negozi",
@@ -141,6 +155,20 @@
       "territory_codes": [
         "CO",
         "CS"
+      ]
+    },
+    {
+      "title": "Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria",
+      "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
+      "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
+      "published_at": "2026-11-19T17:00:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -327,20 +355,6 @@
       ],
       "territory_codes": [
         "VA"
-      ]
-    },
-    {
-      "title": "L’inverno si avvicina, a Como torna il dormitorio di via Borgovico",
-      "url": "https://comozero.it/attualita/linverno-si-avvicina-a-como-torna-il-dormitorio-di-via-borgovico",
-      "summary": "La struttura al civico 171 ospiterà le persone senza dimora anche nell’inverno 2026/2027. A disposizione 773,26 metri quadrati su due piani. La Provincia concede gli spazi gratuitamente fino al 30 aprile Anche quest’inverno il dormitorio del Piano Freddo troverà spazio in via Borgovico 171, a Como. La Provincia ha messo gratuitamente a disposizione del Comune […] L'articolo L’inverno si avvicina, a Como torna il dormitorio di via Borgovico proviene da ComoZero .",
-      "published_at": "2026-11-19T11:54:16+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
