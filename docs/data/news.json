@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:01:23.904071+00:00",
+  "generated_at": "2026-11-19T21:57:40.062422+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -28,12 +28,54 @@
   ],
   "articles": [
     {
+      "title": "Sconti pazzeschi nel centro commerciale milanese, una settimana al 50% in 120 negozi",
+      "url": "https://comozero.it/attualita/sconti-pazzeschi-nel-centro-commerciale-milanese-una-settimana-al-50-in-120-negozi",
+      "summary": "Scalo Milano Outlet & More è pronto ad accogliere gli amanti dello shopping con un’intera settimana di occasioni e promozioni esclusive. Da lunedì 23 a lunedì 30 novembre, oltre 120 negozi aderenti proporranno sconti fino al 50% sul prezzo outlet, offrendo ai visitatori l’opportunità di concedersi nuovi acquisti e anticipare i regali in vista delle […] L'articolo Sconti pazzeschi nel centro commerciale milanese, una settimana al 50% in 120 negozi proviene da ComoZero .",
+      "published_at": "2026-11-19T21:06:45+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Como, autosilo al posto della scuola? L’alternativa è una monorotaia: “Colleghiamo Val Mulini, Ticosa e stadio”",
+      "url": "https://comozero.it/attualita/como-autosilo-al-posto-della-scuola-lalternativa-e-una-monorotaia-colleghiamo-val-mulini-ticosa-e-stadio",
+      "summary": "Nel dibattito sull’autosilo che il Comune vorrebbe costruire al posto della primaria Corridoni, in via Sinigaglia, arriva una proposta che parte da un presupposto opposto: se il problema è il traffico, forse la soluzione non è aggiungere posti auto accanto allo stadio, ma togliere auto dalla strada. A farla, direttamente al sindaco Alessandro Rapinese, è […] L'articolo Como, autosilo al posto della scuola? L’alternativa è una monorotaia: “Colleghiamo Val Mulini, Ticosa e stadio” proviene da ComoZero .",
+      "published_at": "2026-11-19T21:02:50+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Calendario dell’Avvento al contrario insieme alla Caritas diocesana",
       "url": "https://primacomo.it/attualita/calendario-dellavvento-al-contrario-insieme-alla-caritas-diocesana",
       "summary": "Dall’ascolto delle storie di chi vive situazioni di difficoltà nasce l’Avvento di fraternità, realizzato dalla diocesi di Como insieme alla Caritas: tra le iniziative, il calendariod ell’Avvento al contrario. Calendario dell’Avvento al contrario Lo slogan scelto è “Una bellissima umanità… con un sacco da donare!”. Alle famiglie viene proposto un calendario dell’Avvento “al contrario”: ogni […] Continua la lettura di Calendario dell’Avvento al contrario insieme alla Caritas diocesana sul portale Prima Como .",
       "published_at": "2026-11-19T18:27:17+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Terzo candidato per le amministrative di Como del 2027: il Movimento 5 Stelle sceglie Patrizia Di Giuseppe",
+      "url": "https://www.ciaocomo.it/2026/11/19/terzo-candidato-per-le-elezioni-di-como-del-2027-il-movimento-5-stelle-sceglie-patrizia-di-giuseppe/348351",
+      "summary": "L'annuncio oggi sui canali social:\"Como merita una importante figura con esperienza come consigliera d’amministrazione in Coop Lombardia e ruoli nei comitati soci e nella commissione cultura, oltre a una costante attività su legalità, cittadinanza attiva, sostenibilità ambientale\" The post Terzo candidato per le amministrative di Como del 2027: il Movimento 5 Stelle sceglie Patrizia Di Giuseppe appeared first on CiaoComo .",
+      "published_at": "2026-11-19T18:25:22+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -329,36 +371,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Al Teatro Cristallo di Como una commedia tutta da ridere: “Alla ricerca delle ceneri di mamma Alma”",
-      "url": "https://www.ciaocomo.it/2026/11/19/al-teatro-cristallo-di-como-una-commedia-tutta-da-ridere-alla-ricerca-delle-ceneri-di-mamma-alma/348240",
-      "summary": "Sabato 21 novembre la storica Filodrammatica Paolo Ferrari di Busto Arsizio porta in scena il testo di Giuseppina Cattaneo, una girandola di equivoci familiari, improbabili pretendenti ed eredità contese The post Al Teatro Cristallo di Como una commedia tutta da ridere: “Alla ricerca delle ceneri di mamma Alma” appeared first on CiaoComo .",
-      "published_at": "2026-11-19T11:30:10+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni",
-      "url": "https://comozero.it/attualita/como-18enne-fermato-con-droga-2-smartphone-e-contanti-era-sottoposto-alla-messa-in-prova-dal-tribunale-dei-minorenni",
-      "summary": "La Polizia di Stato di Como, nella serata di ieri, ha controllato un ragazzo italiano 18enne, residente a Como, con precedenti di polizia sottoposto alla messa in prova da parte del Tribunale dei Minorenni di Milano. Intorno alle 22 una Volante della Questura, transitando in piazza Vittoria a Como, ha notato in un bar un […] L'articolo Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni proviene da ComoZero .",
-      "published_at": "2026-11-19T09:52:17+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     },
     {
