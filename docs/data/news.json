@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T17:15:10.501176+00:00",
+  "generated_at": "2026-11-19T18:02:32.454619+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "ONde LARIANE chiude con 500 studenti a confronto con  Matteo Piano: «Dagli errori portatevi a casa qualcosa»",
+      "url": "https://www.ciaocomo.it/2026/11/19/onde-lariane-chiude-con-500-studenti-a-confronto-con-matteo-piano-dagli-errori-portatevi-a-casa-qualcosa/348343",
+      "summary": "Al Pontificio Collegio Gallio di Como l'educational conclusivo della 4ª edizione. L'ex capitano azzurro ha dialogato con i ragazzi del Centrolago su responsabilità, scelte e lavoro di squadra. L’ideatrice di ONde Lariane Roberta Bernasconi: «Concludiamo parlando alle nuove generazioni del territorio» The post ONde LARIANE chiude con 500 studenti a confronto con Matteo Piano: «Dagli errori portatevi a casa qualcosa» appeared first on CiaoComo .",
+      "published_at": "2026-11-19T17:39:18+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Natale a Como, da sabato doppia magia: Mercatino in piazza Perretta e pista di pattinaggio su ghiaccio in piazza Cavour",
+      "url": "https://comozero.it/attualita/natale-a-como-da-sabato-doppia-magia-mercatino-in-piazza-perretta-e-pista-di-pattinaggio-su-ghiaccio-in-piazza-cavour",
+      "summary": "Nell’ambito della rassegna di eventi natalizi “Natale a Como” promossa dal Comune di Como, da sabato 21 novembre 2026 a mercoledì 6 gennaio 2027 piazza Perretta torna ad animarsi con le tradizionali casette in legno del Mercatino di Natale. L’iniziativa è curata dal Consorzio Como Turistica aggiudicatario dell’Avviso pubblico. Protagonisti i produttori locali e la […] L'articolo Natale a Como, da sabato doppia magia: Mercatino in piazza Perretta e pista di pattinaggio su ghiaccio in piazza Cavour proviene da ComoZero .",
+      "published_at": "2026-11-19T17:24:51+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Elezioni 2027 a Como, a sorpresa i Cinque Stelle lanciano la loro candidata sindaco: “Competenza e ascolto”",
+      "url": "https://comozero.it/politica/elezioni-2027-a-como-a-sorpresa-i-cinque-stelle-lanciano-la-loro-candidata-sindaco-competenza-e-ascolto",
+      "summary": "A dispetto di un nome che da settimane pare in assoluta pole position come candidato sindaco del centrosinistra, ovvero l’ex dirigente di Comune e Provincia di Como, Giuseppe Cosenza, oggi il Movimento Cinque Stelle – che pure siede al tavolo della coalizione – lancia un suo nome. Si tratta di Patrizia di Giuseppe, nel segno di […] L'articolo Elezioni 2027 a Como, a sorpresa i Cinque Stelle lanciano la loro candidata sindaco: “Competenza e ascolto” proviene da ComoZero .",
+      "published_at": "2026-11-19T17:08:01+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "cs"
+      ],
+      "territory_codes": [
+        "CO",
+        "CS"
+      ]
+    },
+    {
+      "title": "La svolta strategica in Lombardia dei supermercati che hanno fatto la storia: due nuovi bar (e non dove si immagina)",
+      "url": "https://comozero.it/attualita/la-svolta-strategica-in-lombardia-dei-supermercati-che-hanno-fatto-la-storia-due-nuovi-bar-e-non-dove-si-immagina",
+      "summary": "Nuovo format per la ristorazione del Gruppo Esselunga: inaugurati a Milano i Bar Atlantic di via Pezzotti e viale Papiniano in edifici indipendenti, con servizio da asporto su strada. Una svolta silenziosa ma strategica ridisegna la presenza di Esselunga a Milano. L’insegna di ristorazione Bar Atlantic (nella foto, quello di Novedrate) abbandona per la prima […] L'articolo La svolta strategica in Lombardia dei supermercati che hanno fatto la storia: due nuovi bar (e non dove si immagina) proviene da ComoZero .",
+      "published_at": "2026-11-19T16:55:01+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
     {
       "title": "Scherma, Andrea Bossalini e Valentino Monaco (Pettorelli) brillano a Catania",
       "url": "https://www.piacenzasera.it/2026/11/scherma-andrea-bossalini-e-valentino-monaco-pettorelli-brillano-a-catania/671191",
@@ -134,20 +192,6 @@
       "url": "https://www.piacenzasera.it/2026/11/pino-dordoni-campione-straordinario-con-piacenza-nel-cuore/671171",
       "summary": "Presentato al PalabancaEventi il libro edito dalla Banca di Piacenza e curato da Graziano Tonelli per celebrare il centenario della nascita del vincitore della 50 km di marcia a Helsinki nel 1952. Presenti gli ori olimpici Sara Simeoni e Maurizio Damilano The post “Pino Dordoni, campione straordinario con Piacenza nel cuore” appeared first on piacenzasera.it .",
       "published_at": "2026-11-19T14:47:53+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Cresce il Rotary Piacenza Sant’Antonino: quattro nuovi soci in meno di due mesi",
-      "url": "https://www.piacenzasera.it/2026/11/cresce-il-rotary-piacenza-santantonino-quattro-nuovi-soci-in-meno-di-due-mesi/671169",
-      "summary": "Il Presidente Alex Romano e il Consiglio Direttivo guidano il rilancio del Club, che si rafforza con quattro professionisti di valore The post Cresce il Rotary Piacenza Sant’Antonino: quattro nuovi soci in meno di due mesi appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T14:44:10+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -272,20 +316,6 @@
       ]
     },
     {
-      "title": "“Nove – storia di una famiglia italiana”: alla Piccola Accademia di Como il teatro racconta l’amore e il diritto di essere famiglia",
-      "url": "https://www.ciaocomo.it/2026/11/19/nove-storia-di-una-famiglia-italiana-alla-piccola-accademia-di-como-il-teatro-racconta-lamore-e-il-diritto-di-essere-famiglia/348234",
-      "summary": "Sabato 21 novembre Egle Doria porta in scena un monologo autobiografico sulla maternità e sulle famiglie omogenitoriali. Al termine dello spettacolo, un confronto con Famiglie Arcobaleno APS The post “Nove – storia di una famiglia italiana”: alla Piccola Accademia di Como il teatro racconta l’amore e il diritto di essere famiglia appeared first on CiaoComo .",
-      "published_at": "2026-11-19T10:00:03+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni",
       "url": "https://comozero.it/attualita/como-18enne-fermato-con-droga-2-smartphone-e-contanti-era-sottoposto-alla-messa-in-prova-dal-tribunale-dei-minorenni",
       "summary": "La Polizia di Stato di Como, nella serata di ieri, ha controllato un ragazzo italiano 18enne, residente a Como, con precedenti di polizia sottoposto alla messa in prova da parte del Tribunale dei Minorenni di Milano. Intorno alle 22 una Volante della Questura, transitando in piazza Vittoria a Como, ha notato in un bar un […] L'articolo Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni proviene da ComoZero .",
@@ -334,34 +364,6 @@
       "url": "https://comozero.it/attualita/como-nuovo-regolamento-le-riprese-video-del-consiglio-comunale-i-cittadini-non-ci-sono",
       "summary": "Nuovo regolamento in vista per le riprese audio e video del consiglio comunale di Como. La giunta ha messo a punto una serie di regole che riguardano la trasmissione delle riunioni, la pubblicazione delle registrazioni, la tutela della privacy e soprattutto le possibilità di utilizzare i filmati da parte di giornalisti e cittadini. Il documento […] L'articolo Como, nuovo regolamento per le riprese video del consiglio comunale: i cittadini non ci sono proviene da ComoZero .",
       "published_at": "2026-11-19T07:20:16+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il capolavoro di Terragni riapre le porte per un giorno: l’Asilo Sant’Elia accoglie le scuole con gli apprendisti ciceroni",
-      "url": "https://comozero.it/cultura-e-spettacolo/il-capolavoro-di-terragni-riapre-le-porte-per-un-giorno-lasilo-santelia-accoglie-le-scuole-con-gli-apprendisti-ciceroni",
-      "summary": "Un’apertura straordinaria dello storico edificio di Giuseppe Terragni nell’ambito delle Giornate FAI per le scuole. Il Comune ha approvato l’accordo con la Delegazione di Como: visite dalle 8.30 alle 16.30, con studenti e apprendisti ciceroni L’Asilo Sant’Elia torna ad aprire le sue porte, sia pure per un solo giorno. Giovedì 26 novembre lo storico edificio […] L'articolo Il capolavoro di Terragni riapre le porte per un giorno: l’Asilo Sant’Elia accoglie le scuole con gli apprendisti ciceroni proviene da ComoZero .",
-      "published_at": "2026-11-19T06:04:17+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, al Ristorante imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro",
-      "url": "https://comozero.it/pubbliredazionale/como-al-ristorante-imbarcadero-grande-cena-con-sorpresa-lopera-darte-nasce-tra-una-piatto-e-laltro",
-      "summary": "Un ospite d’eccezione, un menù d’inverno tra tradizione e ricerca e un’opera d’arte che prenderà forma sotto gli occhi dei commensali, Questa è la serata “A tavola con l’arte. Una performance live di Giuliano Grittini” pensata dal Ristorante Imbarcadero 1892 di piazza Cavour per giovedì 3 dicembre: una cena-evento a numero chiuso, unica nel suo […] L'articolo Como, al Ristorante imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro proviene da ComoZero .",
-      "published_at": "2026-11-18T23:55:34+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
