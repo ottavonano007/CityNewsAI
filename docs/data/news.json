@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:26:45.418313+00:00",
+  "generated_at": "2026-11-19T15:04:31.231257+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,52 @@
     }
   ],
   "articles": [
+    {
+      "title": "Periti industriali della provincia di Lecco: in fiera soluzioni impiantistiche e tecnologie concrete per l’edilizia",
+      "url": "https://primacomo.it/attualita/periti-industriali-della-provincia-di-lecco-in-fiera-soluzioni-impiantistiche-e-tecnologie-concrete-per-ledilizia",
+      "summary": "Da domani, venerdì 20 novembre, a domenica 22 a Lariofiere l’Ordine sarà presente con uno stand e due convegni per restituire al comparto le soluzioni, l’approccio e le innovazioni dei professionisti Sviluppo e ricerca per il settore edile L’Ordine dei Periti Industriali e dei Periti Industriali Laureati della Provincia di Lecco partecipa a Erba al […] Continua la lettura di Periti industriali della provincia di Lecco: in fiera soluzioni impiantistiche e tecnologie concrete per l’edilizia sul portale Prima Como .",
+      "published_at": "2026-11-19T14:50:48+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "lc"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC"
+      ]
+    },
+    {
+      "title": "Al Campus piacentino dell’università di Parma apre lo sportello di counseling psicologico",
+      "url": "https://www.piacenzasera.it/2026/11/al-campus-piacentino-delluniversita-di-parma-apre-lo-sportello-di-counseling-psicologico/671154",
+      "summary": "The post Al Campus piacentino dell’università di Parma apre lo sportello di counseling psicologico appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T14:21:13+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pr",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PR",
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, flashmob contro la nuova legge: “Boschi e campagne non sono terreni di caccia”",
+      "url": "https://comozero.it/attualita/como-flashmob-contro-la-nuova-legge-boschi-e-campagne-non-sono-terreni-di-caccia",
+      "summary": "In una nota Alleanza Verdi e Sinistra e Movimento 5 Stelle: esprimono la propria netta contrarietà alla proposta di legge C.2984 (ex DDL 1552), che modifica la legge 157/1992 sulla tutela della fauna selvatica e il cui esame alla Camera è previsto a partire dal 27 novembre. Preannunciano un flashmob che si terra’ sabato 21 […] L'articolo Como, flashmob contro la nuova legge: “Boschi e campagne non sono terreni di caccia” proviene da ComoZero .",
+      "published_at": "2026-11-19T13:58:45+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Grossa novità per l’hotel 5 stelle lusso sul Lago di Como con la suite unica al mondo: nuova proprietà di Abu Dhabi",
       "url": "https://comozero.it/attualita/grossa-novita-per-lhotel-5-stelle-lusso-sul-lago-di-como-con-la-suite-unica-al-mondo-nuova-proprieta-di-abu-dhabi",
@@ -67,20 +113,6 @@
       ],
       "territory_codes": [
         "VA"
-      ]
-    },
-    {
-      "title": "Il capolavoro di Terragni riapre le porte per un giorno: l’Asilo Sant’Elia accoglie le scuole con gli apprendisti ciceroni",
-      "url": "https://comozero.it/cultura-e-spettacolo/il-capolavoro-di-terragni-riapre-le-porte-per-un-giorno-lasilo-santelia-accoglie-le-scuole-con-gli-apprendisti-ciceroni",
-      "summary": "Un’apertura straordinaria dello storico edificio di Giuseppe Terragni nell’ambito delle Giornate FAI per le scuole. Il Comune ha approvato l’accordo con la Delegazione di Como: visite dalle 8.30 alle 16.30, con studenti e apprendisti ciceroni L’Asilo Sant’Elia torna ad aprire le sue porte, sia pure per un solo giorno. Giovedì 26 novembre lo storico edificio […] L'articolo Il capolavoro di Terragni riapre le porte per un giorno: l’Asilo Sant’Elia accoglie le scuole con gli apprendisti ciceroni proviene da ComoZero .",
-      "published_at": "2026-11-19T12:04:17+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -158,22 +190,6 @@
       ]
     },
     {
-      "title": "Accusato di quattro furti insieme alla banda che colpì a Tuna: arrestato a Lodi",
-      "url": "https://www.piacenzasera.it/2026/11/accusato-di-quattro-furti-insieme-alla-banda-che-colpi-a-tuna-arrestato-a-lodi/671112",
-      "summary": "L’indagine ha preso avvio nella notte del 18 giugno 2026 quando a Tuna di Gazzola (Piacenza) ignoti avevano sottratto sigarette per circa 4mila euro, oltre a mille euro in contanti The post Accusato di quattro furti insieme alla banda che colpì a Tuna: arrestato a Lodi appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T10:53:58+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "lo",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "LO",
-        "PC"
-      ]
-    },
-    {
       "title": "“Nove – storia di una famiglia italiana”: alla Piccola Accademia di Como il teatro racconta l’amore e il diritto di essere famiglia",
       "url": "https://www.ciaocomo.it/2026/11/19/nove-storia-di-una-famiglia-italiana-alla-piccola-accademia-di-como-il-teatro-racconta-lamore-e-il-diritto-di-essere-famiglia/348234",
       "summary": "Sabato 21 novembre Egle Doria porta in scena un monologo autobiografico sulla maternità e sulle famiglie omogenitoriali. Al termine dello spettacolo, un confronto con Famiglie Arcobaleno APS The post “Nove – storia di una famiglia italiana”: alla Piccola Accademia di Como il teatro racconta l’amore e il diritto di essere famiglia appeared first on CiaoComo .",
@@ -215,20 +231,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Fairplay Day, il Teatro Sociale di Como diventa un villaggio dello sport: calcio in platea e oltre 25 associazioni coinvolte",
-      "url": "https://www.ciaocomo.it/2026/11/19/fairplay-day-il-teatro-sociale-di-como-diventa-un-villaggio-dello-sport-calcio-in-platea-e-oltre-25-associazioni-coinvolte/348227",
-      "summary": "Sabato 21 novembre la seconda edizione della manifestazione dedicata ai giovani e ai valori olimpici. Il pubblico potrà sperimentare numerose discipline, dalla scherma al canottaggio, fino all'atletica paralimpica The post Fairplay Day, il Teatro Sociale di Como diventa un villaggio dello sport: calcio in platea e oltre 25 associazioni coinvolte appeared first on CiaoComo .",
-      "published_at": "2026-11-19T08:30:28+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -274,12 +276,12 @@
       ]
     },
     {
-      "title": "Como, la tragedia del dirigibile Italia rivive al Museo della Seta. Venerdì la presentazione del libro edito da Enzo Pifferi",
-      "url": "https://www.ciaocomo.it/2026/11/19/como-la-tragedia-del-dirigibile-italia-rivive-al-museo-della-seta-venerdi-la-presentazione-del-libro-edito-da-enzo-pifferi/348204",
-      "summary": "La seconda spedizione artica del generale Nobile finì in tragedia, al Museo della Seta il racconto del dirigibile Italia con Enzo Pifferi e Maurizio Moscatelli The post Como, la tragedia del dirigibile Italia rivive al Museo della Seta. Venerdì la presentazione del libro edito da Enzo Pifferi appeared first on CiaoComo .",
-      "published_at": "2026-11-19T07:00:04+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
+      "title": "Il capolavoro di Terragni riapre le porte per un giorno: l’Asilo Sant’Elia accoglie le scuole con gli apprendisti ciceroni",
+      "url": "https://comozero.it/cultura-e-spettacolo/il-capolavoro-di-terragni-riapre-le-porte-per-un-giorno-lasilo-santelia-accoglie-le-scuole-con-gli-apprendisti-ciceroni",
+      "summary": "Un’apertura straordinaria dello storico edificio di Giuseppe Terragni nell’ambito delle Giornate FAI per le scuole. Il Comune ha approvato l’accordo con la Delegazione di Como: visite dalle 8.30 alle 16.30, con studenti e apprendisti ciceroni L’Asilo Sant’Elia torna ad aprire le sue porte, sia pure per un solo giorno. Giovedì 26 novembre lo storico edificio […] L'articolo Il capolavoro di Terragni riapre le porte per un giorno: l’Asilo Sant’Elia accoglie le scuole con gli apprendisti ciceroni proviene da ComoZero .",
+      "published_at": "2026-11-19T06:04:17+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -320,34 +322,6 @@
       "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
       "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
       "published_at": "2026-11-18T23:29:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
-      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
-      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
-      "published_at": "2026-11-18T23:20:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
-      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
-      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
-      "published_at": "2026-11-18T23:19:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -690,20 +664,6 @@
       "url": "https://primacomo.it/sport/la-campi-reali-torna-da-sassuolo-con-un-punto",
       "summary": "Alla Campi Reali Cantù non bastano i 29 punti di Andrea Argenta per espugnare il Palapaganelli di Sassuolo. I padroni di casa della Kerakoll vanno sotto 0-2, ma riescono a ricompattarsi, a rimontare e ad imporsi al tie-break con ben cinque giocatori in doppia cifra e 19 muri di squadra. La gara Coach Tommaso Invernici […] Continua la lettura di La Campi Reali torna da Sassuolo con un punto sul portale Prima Como .",
       "published_at": "2026-11-16T07:35:29+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Cardinal Ferrari, porte aperte a Cantù",
-      "url": "https://primacomo.it/scuola/cardinal-ferrari-porte-aperte-a-cantu",
-      "summary": "Sabato 21 novembre, dalle 10 alle 13, il Liceo Linguistico Cardinal Ferrari di Cantù apre le porte agli studenti delle scuole secondarie di primo grado e ai loro genitori, con due novità introdotte nell’ultimo anno: l’ingresso nella rete delle Cambridge International School e un servizio di tutoraggio affidato a una figura con competenze psicologiche. Una […] Continua la lettura di Cardinal Ferrari, porte aperte a Cantù sul portale Prima Como .",
-      "published_at": "2026-11-16T07:24:08+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
