@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T15:04:31.231257+00:00",
+  "generated_at": "2026-11-19T16:09:57.307027+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -28,6 +28,20 @@
   ],
   "articles": [
     {
+      "title": "La stagione concertistica del Municipale si apre nel segno di Beethoven",
+      "url": "https://www.piacenzasera.it/2026/11/la-stagione-concertistica-del-municipale-si-apre-nel-segno-di-beethoven/671164",
+      "summary": "L'Orchestra Sinfonica di Milano inaugura a Stagione Concertistica 2026/2027 del Teatro Municipale, sabato 28 novembre alle ore 20 e 30. Sul podio il direttore Emmanuel Tjeknavorian The post La stagione concertistica del Municipale si apre nel segno di Beethoven appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T14:58:22+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
       "title": "Periti industriali della provincia di Lecco: in fiera soluzioni impiantistiche e tecnologie concrete per l’edilizia",
       "url": "https://primacomo.it/attualita/periti-industriali-della-provincia-di-lecco-in-fiera-soluzioni-impiantistiche-e-tecnologie-concrete-per-ledilizia",
       "summary": "Da domani, venerdì 20 novembre, a domenica 22 a Lariofiere l’Ordine sarà presente con uno stand e due convegni per restituire al comparto le soluzioni, l’approccio e le innovazioni dei professionisti Sviluppo e ricerca per il settore edile L’Ordine dei Periti Industriali e dei Periti Industriali Laureati della Provincia di Lecco partecipa a Erba al […] Continua la lettura di Periti industriali della provincia di Lecco: in fiera soluzioni impiantistiche e tecnologie concrete per l’edilizia sul portale Prima Como .",
@@ -41,6 +55,48 @@
       "territory_codes": [
         "CO",
         "LC"
+      ]
+    },
+    {
+      "title": "“Pino Dordoni, campione straordinario con Piacenza nel cuore”",
+      "url": "https://www.piacenzasera.it/2026/11/pino-dordoni-campione-straordinario-con-piacenza-nel-cuore/671171",
+      "summary": "Presentato al PalabancaEventi il libro edito dalla Banca di Piacenza e curato da Graziano Tonelli per celebrare il centenario della nascita del vincitore della 50 km di marcia a Helsinki nel 1952. Presenti gli ori olimpici Sara Simeoni e Maurizio Damilano The post “Pino Dordoni, campione straordinario con Piacenza nel cuore” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T14:47:53+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Cresce il Rotary Piacenza Sant’Antonino: quattro nuovi soci in meno di due mesi",
+      "url": "https://www.piacenzasera.it/2026/11/cresce-il-rotary-piacenza-santantonino-quattro-nuovi-soci-in-meno-di-due-mesi/671169",
+      "summary": "Il Presidente Alex Romano e il Consiglio Direttivo guidano il rilancio del Club, che si rafforza con quattro professionisti di valore The post Cresce il Rotary Piacenza Sant’Antonino: quattro nuovi soci in meno di due mesi appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T14:44:10+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Contattare urgentemente la propria sede Asl…” Attenzione agli sms truffa",
+      "url": "https://www.piacenzasera.it/2026/11/contattare-urgentemente-la-propria-sede-asl-attenzione-agli-sms-truffa/671163",
+      "summary": "La segnalazione dell'Ausl Piacenza, che raccomanda di non rispondere e cancellare immediatamente la comunicazione The post “Contattare urgentemente la propria sede Asl…” Attenzione agli sms truffa appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T14:34:22+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
@@ -88,20 +144,6 @@
       ]
     },
     {
-      "title": "‘Le ferite che non si vedono’, spettacolo di Avis contro la violenza di genere",
-      "url": "https://www.piacenzasera.it/2026/11/le-ferite-che-non-si-vedono-spettacolo-di-avis-contro-la-violenza-di-genere/671142",
-      "summary": "Mercoledì 25 novembre allo Spazio Rosso Tiziano l'iniziativa di Avis Provinciale Piacenza, al centro il recitativo “Né vittime né eroi. Oltre il noi e il loro”, interpretato da Francesca Bertè e Sergio Sorgi The post ‘Le ferite che non si vedono’, spettacolo di Avis contro la violenza di genere appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T12:58:23+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Viale Varese, brutte, piene di spazzatura e abbandonate: al via lo sradicamento delle siepi",
       "url": "https://comozero.it/attualita/viale-varese-brutte-piene-di-spazzatura-e-abbandonate-al-via-lo-sradicamento-delle-siepi",
       "summary": "Che le siepi di viale Varese, quelle che separano l’area verde dal parcheggio, fossero in uno stato a dir poco pietoso era cosa nota da tempo. L’ultima segnalazione, tra piante mancanti o morenti, era stata fatta da una nostra lettrice giusto lo scorso luglio con una serie di scatti davvero impietosi. E oggi il Comune […] L'articolo Viale Varese, brutte, piene di spazzatura e abbandonate: al via lo sradicamento delle siepi proviene da ComoZero .",
@@ -127,22 +169,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Lavori sulla linea ferroviaria, due fine settimana di interruzioni tra Reggio e Fidenza",
-      "url": "https://www.piacenzasera.it/2026/11/lavori-sulla-linea-ferroviaria-due-fine-settimana-di-interruzioni-tra-reggio-e-fidenza/671124",
-      "summary": "Prosegue il programma di manutenzione e potenziamento della linea ferroviaria Bologna–Piacenza The post Lavori sulla linea ferroviaria, due fine settimana di interruzioni tra Reggio e Fidenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T11:51:40+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bo",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "BO",
-        "PC"
       ]
     },
     {
