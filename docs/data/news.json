@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:30:12.087532+00:00",
+  "generated_at": "2026-11-19T09:14:46.135393+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 15,
+      "inserted": 15,
       "ok": true
     },
     {
@@ -28,12 +28,96 @@
   ],
   "articles": [
     {
-      "title": "Como, nuovo regolamento le riprese video del consiglio comunale: i cittadini non ci sono",
+      "title": "Fairplay Day, il Teatro Sociale di Como diventa un villaggio dello sport: calcio in platea e oltre 25 associazioni coinvolte",
+      "url": "https://www.ciaocomo.it/2026/11/19/fairplay-day-il-teatro-sociale-di-como-diventa-un-villaggio-dello-sport-calcio-in-platea-e-oltre-25-associazioni-coinvolte/348227",
+      "summary": "Sabato 21 novembre la seconda edizione della manifestazione dedicata ai giovani e ai valori olimpici. Il pubblico potrà sperimentare numerose discipline, dalla scherma al canottaggio, fino all'atletica paralimpica The post Fairplay Day, il Teatro Sociale di Como diventa un villaggio dello sport: calcio in platea e oltre 25 associazioni coinvolte appeared first on CiaoComo .",
+      "published_at": "2026-11-19T08:30:28+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "DENS apre la nuova sede a Como: in via Tolomeo Gallio 2 accesso più facile e cure specialistiche",
+      "url": "https://comozero.it/pubbliredazionale/dens-apre-la-nuova-sede-a-como-in-via-tolomeo-gallio-2-accesso-piu-facile-e-cure-specialistiche",
+      "summary": "Operativa da settembre dopo quattro anni in piazza Perretta, la struttura è raggiungibile in automobile e offre spazi rinnovati ed équipe multidisciplinari. DENS – Studi Dentistici De Angelis ha aperto lo scorso settembre la nuova sede di Como in via Tolomeo Gallio 2, a pochi passi dal centro storico e accanto all’ufficio postale. Dopo quattro […] L'articolo DENS apre la nuova sede a Como: in via Tolomeo Gallio 2 accesso più facile e cure specialistiche proviene da ComoZero .",
+      "published_at": "2026-11-19T08:11:29+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Ai Diamanti dell’Emilia Romagna premiato Aldin Macak (Piacenza Baseball)",
+      "url": "https://www.piacenzasera.it/2026/11/ai-diamanti-dellemilia-romagna-premiato-aldin-macak-piacenza-baseball/671085",
+      "summary": "The post Ai Diamanti dell’Emilia Romagna premiato Aldin Macak (Piacenza Baseball) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T07:59:44+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Piano freddo 2026-2027 a Como: la Provincia concede ancora gratis al Comune la struttura, servizio al via",
+      "url": "https://comozero.it/attualita/piano-freddo-2026-2027-a-como-la-provincia-concede-ancora-gratis-al-comune-la-struttura-servizio-al-via",
+      "summary": "Il dormitorio per le persone senza dimora sarà nuovamente allestito negli spazi della palazzina B di via Borgovico 171 a Como, di proprietà della Provincia. La Giunta comunale ha approvato all’unanimità, il 18 novembre scorso, il comodato d’uso gratuito dell’immobile per il Piano Freddo 2026/2027. Gli spazi saranno concessi dall’amministrazione provinciale, con servizio al via […] L'articolo Piano freddo 2026-2027 a Como: la Provincia concede ancora gratis al Comune la struttura, servizio al via proviene da ComoZero .",
+      "published_at": "2026-11-19T07:59:35+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, nuovi cartelli di protesta “in musica” contro le strisce blu",
+      "url": "https://comozero.it/attualita/como-nuovi-cartelli-di-protesta-in-musica-contro-le-strisce-blu",
+      "summary": "A inizio novembre la giunta Rapinese ha deciso di trasformare gli stalli prima liberi in posti a pagamento in via Gorio, in via Musa e soprattutto in via don Guanella, finora una delle pochissime aree rimaste senza balzello e con una cospicua dotazione di posti. Da questa mattina intanto dovevano scattare proprio i lavori per […] L'articolo Como, nuovi cartelli di protesta “in musica” contro le strisce blu proviene da ComoZero .",
+      "published_at": "2026-11-19T07:44:14+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, nuovo regolamento per le riprese video del consiglio comunale: i cittadini non ci sono",
       "url": "https://comozero.it/attualita/como-nuovo-regolamento-le-riprese-video-del-consiglio-comunale-i-cittadini-non-ci-sono",
-      "summary": "Nuovo regolamento in vista per le riprese audio e video del consiglio comunale di Como. La giunta ha messo a punto una serie di regole che riguardano la trasmissione delle riunioni, la pubblicazione delle registrazioni, la tutela della privacy e soprattutto le possibilità di utilizzare i filmati da parte di giornalisti e cittadini. Il documento […] L'articolo Como, nuovo regolamento le riprese video del consiglio comunale: i cittadini non ci sono proviene da ComoZero .",
+      "summary": "Nuovo regolamento in vista per le riprese audio e video del consiglio comunale di Como. La giunta ha messo a punto una serie di regole che riguardano la trasmissione delle riunioni, la pubblicazione delle registrazioni, la tutela della privacy e soprattutto le possibilità di utilizzare i filmati da parte di giornalisti e cittadini. Il documento […] L'articolo Como, nuovo regolamento per le riprese video del consiglio comunale: i cittadini non ci sono proviene da ComoZero .",
       "published_at": "2026-11-19T07:20:16+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, la tragedia del dirigibile Italia rivive al Museo della Seta. Venerdì la presentazione del libro edito da Enzo Pifferi",
+      "url": "https://www.ciaocomo.it/2026/11/19/como-la-tragedia-del-dirigibile-italia-rivive-al-museo-della-seta-venerdi-la-presentazione-del-libro-edito-da-enzo-pifferi/348204",
+      "summary": "La seconda spedizione artica del generale Nobile finì in tragedia, al Museo della Seta il racconto del dirigibile Italia con Enzo Pifferi e Maurizio Moscatelli The post Como, la tragedia del dirigibile Italia rivive al Museo della Seta. Venerdì la presentazione del libro edito da Enzo Pifferi appeared first on CiaoComo .",
+      "published_at": "2026-11-19T07:00:04+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -212,20 +296,6 @@
       ]
     },
     {
-      "title": "Del Monte Coppa Italia, la final four si giocherà a Roma il 6 e il 7 febbraio",
-      "url": "https://www.piacenzasera.it/2026/11/coppa-italia-volley-la-final-four-si-giochera-a-roma-il-6-e-il-7-febbraio/671039",
-      "summary": "La Capitale si prepara ad accogliere per la quinta volta l’atto conclusivo della Del Monte® Coppa Italia SuperLega The post Del Monte Coppa Italia, la final four si giocherà a Roma il 6 e il 7 febbraio appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T15:01:23+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "rm"
-      ],
-      "territory_codes": [
-        "RM"
-      ]
-    },
-    {
       "title": "Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte”",
       "url": "https://comozero.it/attualita/milano-meda-lo-schiaffo-del-pedaggio-il-mistero-nuova-societa-migliaia-di-cittadini-attendono-risposte",
       "summary": "Il gruppo consiliare del Partito Democratico in Consiglio regionale ha presentato ai presidenti della Commissione Programmazione, bilancio, società controllate e partecipate Davide Caparini e della Commissione Territorio, infrastrutture e mobilità, Jonhatan Lobati, una richiesta di audizione congiunta dedicata al progetto di costituzione di una nuova società regionale per la gestione delle concessioni autostradali lombarde. L’iniziativa […] L'articolo Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte” proviene da ComoZero .",
@@ -344,52 +414,6 @@
       ]
     },
     {
-      "title": "Aggressioni al personale sanitario, a Como la rete territoriale rafforza la prevenzione: «La violenza non è un rischio inevitabile»",
-      "url": "https://www.ciaocomo.it/2026/11/18/aggressioni-al-personale-sanitario-a-como-la-rete-territoriale-rafforza-la-prevenzione-la-violenza-non-e-un-rischio-inevitabile/348237",
-      "summary": "Al Chiostro di Sant’Abbondio il confronto promosso da ATS Insubria con le aziende sanitarie del territorio. Al centro anche le conseguenze psicologiche delle aggressioni e la sicurezza delle donne nei luoghi di cura The post Aggressioni al personale sanitario, a Como la rete territoriale rafforza la prevenzione: «La violenza non è un rischio inevitabile» appeared first on CiaoComo .",
-      "published_at": "2026-11-18T10:45:35+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Assegno di frontiera, ora è legge: fino a 220 milioni per aumentare gli stipendi di chi non scappa in Svizzera",
-      "url": "https://comozero.it/attualita/assegno-di-frontiera-legge-stipendi-varese-como-sondrio-svizzera",
-      "summary": "È ufficialmente legge il pacchetto economico progettato per arginare l’esodo professionale verso la Confederazione Elvetica e scongiurare che i distretti produttivi situati lungo il confine, nelle province di Varese, Como e Sondrio, restino sguarniti di personale. Con l’approvazione definitiva del testo normativo diventa pienamente operativo un meccanismo finalizzato a potenziare le buste paga dei dipendenti […] L'articolo Assegno di frontiera, ora è legge: fino a 220 milioni per aumentare gli stipendi di chi non scappa in Svizzera proviene da ComoZero .",
-      "published_at": "2026-11-18T08:46:17+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "so",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "SO",
-        "VA"
-      ]
-    },
-    {
-      "title": "Lo strappo, il ‘Va, pensiero’ e l’addio: Como, l’ex consigliere comunale lascia la Lega va in Patto per il Nord",
-      "url": "https://comozero.it/politica/lo-strappo-il-va-pensiero-e-laddio-como-lex-consigliere-comunale-lascia-la-lega-va-in-patto-per-il-nord",
-      "summary": "Prima l’addio alla Lega, ora il trasloco altrove. Passo che nella vita politica di Como città – soprattutto a una manciata di mesi dalle elezioni – qualche rumore lo fa. Il protagonista è Andrea Valeri, consigliere comunale a Como nel mandato Landriscina (2017-2022), e tra i volti più riconoscibili del partito di Salvini nel capoluogo. […] L'articolo Lo strappo, il ‘Va, pensiero’ e l’addio: Como, l’ex consigliere comunale lascia la Lega va in Patto per il Nord proviene da ComoZero .",
-      "published_at": "2026-11-18T08:06:14+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Libertas Cantù e Como Nuoto unite in memoria di Stefano “Tete” Pozzi",
       "url": "https://primacomo.it/attualita/libertas-cantu-e-como-nuoto-unite-in-memoria-di-stefano-tete-pozzi",
       "summary": "Presentato il calendario 2027: Libertas Cantù e Como Nuoto uniscono le forze in memoria di Stefano “Tete” Pozzi e con una finalità benefica. Il ricordo “Io non capisco niente di pallavolo ma, se volete, posso passarvi i numeri delle mie ragazze della pallanuoto”. Si era presentato alla prima squadra con queste parole, Stefano “Tete” Pozzi, […] Continua la lettura di Libertas Cantù e Como Nuoto unite in memoria di Stefano “Tete” Pozzi sul portale Prima Como .",
@@ -494,7 +518,7 @@
     {
       "title": "Sindacati uniti per l’eliminazione della violenza sulle donne",
       "url": "https://primacomo.it/attualita/sindacati-uniti-per-leliminazione-della-violenza-sulle-donne",
-      "summary": "Sindacati uniti in occasione della Giornata internazionale per l’eleiminazione della violenza sulle donne Cgil Como, Cisl dei Laghi e Uil del Lario promuovono cultura e ssolidarietà. Sindacati uniti L’impegnod elle organizzazioni sindacali muove da dati sempre più preoccupanti. “Nel 2026 secondo l’osservatorio Non una di Meno, si sono registrati 61 femminicidi di cui oltre l’80%. […] Continua la lettura di Sindacati uniti per l’eliminazione della violenza sulle donne sul portale Prima Como .",
+      "summary": "Sindacati uniti in occasione della Giornata internazionale per l’eliminazione della violenza sulle donne Cgil Como, Cisl dei Laghi e Uil del Lario promuovono cultura e solidarietà. Sindacati uniti L’impegnod elle organizzazioni sindacali muove da dati sempre più preoccupanti. “Nel 2026 secondo l’osservatorio Non una di Meno, si sono registrati 61 femminicidi di cui oltre l’80% […] Continua la lettura di Sindacati uniti per l’eliminazione della violenza sulle donne sul portale Prima Como .",
       "published_at": "2026-11-17T08:27:51+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
