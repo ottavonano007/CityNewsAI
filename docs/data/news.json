@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T12:06:32.147529+00:00",
+  "generated_at": "2026-11-19T13:26:45.418313+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Grossa novità per l’hotel 5 stelle lusso sul Lago di Como con la suite unica al mondo: nuova proprietà di Abu Dhabi",
+      "url": "https://comozero.it/attualita/grossa-novita-per-lhotel-5-stelle-lusso-sul-lago-di-como-con-la-suite-unica-al-mondo-nuova-proprieta-di-abu-dhabi",
+      "summary": "Grossa novità importante nel settore dell’hotellerie di lusso sul Lario. Il Sereno Lago di Como, celebre struttura ricettiva cinque stelle lusso situata sulla sponda orientale del lago, cambia proprietà. La società proprietaria, Le Sereno Lago di Como, è stata infatti acquisita da European IV Hospitality Holding, realtà di investimento con sede ad Abu Dhabi. A […] L'articolo Grossa novità per l’hotel 5 stelle lusso sul Lago di Como con la suite unica al mondo: nuova proprietà di Abu Dhabi proviene da ComoZero .",
+      "published_at": "2026-11-19T13:08:45+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "‘Le ferite che non si vedono’, spettacolo di Avis contro la violenza di genere",
+      "url": "https://www.piacenzasera.it/2026/11/le-ferite-che-non-si-vedono-spettacolo-di-avis-contro-la-violenza-di-genere/671142",
+      "summary": "Mercoledì 25 novembre allo Spazio Rosso Tiziano l'iniziativa di Avis Provinciale Piacenza, al centro il recitativo “Né vittime né eroi. Oltre il noi e il loro”, interpretato da Francesca Bertè e Sergio Sorgi The post ‘Le ferite che non si vedono’, spettacolo di Avis contro la violenza di genere appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T12:58:23+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Viale Varese, brutte, piene di spazzatura e abbandonate: al via lo sradicamento delle siepi",
+      "url": "https://comozero.it/attualita/viale-varese-brutte-piene-di-spazzatura-e-abbandonate-al-via-lo-sradicamento-delle-siepi",
+      "summary": "Che le siepi di viale Varese, quelle che separano l’area verde dal parcheggio, fossero in uno stato a dir poco pietoso era cosa nota da tempo. L’ultima segnalazione, tra piante mancanti o morenti, era stata fatta da una nostra lettrice giusto lo scorso luglio con una serie di scatti davvero impietosi. E oggi il Comune […] L'articolo Viale Varese, brutte, piene di spazzatura e abbandonate: al via lo sradicamento delle siepi proviene da ComoZero .",
+      "published_at": "2026-11-19T12:12:34+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "va"
+      ],
+      "territory_codes": [
+        "VA"
+      ]
+    },
     {
       "title": "Il capolavoro di Terragni riapre le porte per un giorno: l’Asilo Sant’Elia accoglie le scuole con gli apprendisti ciceroni",
       "url": "https://comozero.it/cultura-e-spettacolo/il-capolavoro-di-terragni-riapre-le-porte-per-un-giorno-lasilo-santelia-accoglie-le-scuole-con-gli-apprendisti-ciceroni",
@@ -52,6 +94,38 @@
         "como"
       ],
       "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lavori sulla linea ferroviaria, due fine settimana di interruzioni tra Reggio e Fidenza",
+      "url": "https://www.piacenzasera.it/2026/11/lavori-sulla-linea-ferroviaria-due-fine-settimana-di-interruzioni-tra-reggio-e-fidenza/671124",
+      "summary": "Prosegue il programma di manutenzione e potenziamento della linea ferroviaria Bologna–Piacenza The post Lavori sulla linea ferroviaria, due fine settimana di interruzioni tra Reggio e Fidenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T11:51:40+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "bo",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "BO",
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, i Carabinieri incontrano gli studenti del CIAS: orientamento professionale e valori dello sport",
+      "url": "https://www.ciaocomo.it/2026/11/19/como-i-carabinieri-incontrano-gli-studenti-del-cias-orientamento-professionale-e-valori-dello-sport/348298",
+      "summary": "Il comandante della Compagnia di Como e un atleta del Centro Sportivo Carabinieri di Bologna hanno risposto alle domande dei ragazzi della quinta dell'indirizzo Management dello Sport The post Como, i Carabinieri incontrano gli studenti del CIAS: orientamento professionale e valori dello sport appeared first on CiaoComo .",
+      "published_at": "2026-11-19T11:45:34+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "bo",
+        "como"
+      ],
+      "territory_codes": [
+        "BO",
         "CO"
       ]
     },
@@ -96,34 +170,6 @@
       ],
       "territory_codes": [
         "LO",
-        "PC"
-      ]
-    },
-    {
-      "title": "Sabato 21 novembre i carabinieri celebrano la Virgo Fidelis",
-      "url": "https://www.piacenzasera.it/2026/11/sabato-21-novembre-i-carabinieri-celebrano-la-virgo-fidelis/671100",
-      "summary": "Sabato 21 novembre, alle ore 10,30, presso la Chiesa parrocchiale di San Giovanni in Canale, verrà officiata da Monsignor Giuseppe Basini, Vicario Generale della Diocesi di Piacenza-Bobbio, la Santa Messa The post Sabato 21 novembre i carabinieri celebrano la Virgo Fidelis appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T10:20:57+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Alla Ricci Oddi i ritratti e i colori della pittura di Armando Spadini: la mostra dal 22 novembre",
-      "url": "https://www.piacenzasera.it/2026/11/alla-ricci-oddi-le-figure-e-i-colori-della-pittura-di-armando-spadini-la-mostra-dal-22-novembre/671093",
-      "summary": "Le sedici opere riunite a Piacenza permettono di tornare a guardare i dipinti e di cogliere, attraverso la lettura dello stile e il confronto con le fonti, la complessità della sua ricerca The post Alla Ricci Oddi i ritratti e i colori della pittura di Armando Spadini: la mostra dal 22 novembre appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T10:07:00+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
         "PC"
       ]
     },
@@ -186,20 +232,6 @@
       ]
     },
     {
-      "title": "Ai Diamanti dell’Emilia Romagna premiato Aldin Macak (Piacenza Baseball)",
-      "url": "https://www.piacenzasera.it/2026/11/ai-diamanti-dellemilia-romagna-premiato-aldin-macak-piacenza-baseball/671085",
-      "summary": "The post Ai Diamanti dell’Emilia Romagna premiato Aldin Macak (Piacenza Baseball) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T07:59:44+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Piano freddo 2026-2027 a Como: la Provincia concede ancora gratis al Comune la struttura, servizio al via",
       "url": "https://comozero.it/attualita/piano-freddo-2026-2027-a-como-la-provincia-concede-ancora-gratis-al-comune-la-struttura-servizio-al-via",
       "summary": "Il dormitorio per le persone senza dimora sarà nuovamente allestito negli spazi della palazzina B di via Borgovico 171 a Como, di proprietà della Provincia. La Giunta comunale ha approvato all’unanimità, il 18 novembre scorso, il comodato d’uso gratuito dell’immobile per il Piano Freddo 2026/2027. Gli spazi saranno concessi dall’amministrazione provinciale, con servizio al via […] L'articolo Piano freddo 2026-2027 a Como: la Provincia concede ancora gratis al Comune la struttura, servizio al via proviene da ComoZero .",
@@ -214,9 +246,9 @@
       ]
     },
     {
-      "title": "Como, nuovi cartelli di protesta “in musica” contro le strisce blu",
+      "title": "Como, nuovi cartelli di protesta “in musica” contro le strisce blu. E si arrabbia anche La Linea",
       "url": "https://comozero.it/attualita/como-nuovi-cartelli-di-protesta-in-musica-contro-le-strisce-blu",
-      "summary": "A inizio novembre la giunta Rapinese ha deciso di trasformare gli stalli prima liberi in posti a pagamento in via Gorio, in via Musa e soprattutto in via don Guanella, finora una delle pochissime aree rimaste senza balzello e con una cospicua dotazione di posti. Da questa mattina intanto dovevano scattare proprio i lavori per […] L'articolo Como, nuovi cartelli di protesta “in musica” contro le strisce blu proviene da ComoZero .",
+      "summary": "A inizio novembre la giunta Rapinese ha deciso di trasformare gli stalli prima liberi in posti a pagamento in via Gorio, in via Musa e soprattutto in via don Guanella, finora una delle pochissime aree rimaste senza balzello e con una cospicua dotazione di posti. Da questa mattina intanto dovevano scattare proprio i lavori per […] L'articolo Como, nuovi cartelli di protesta “in musica” contro le strisce blu. E si arrabbia anche La Linea proviene da ComoZero .",
       "published_at": "2026-11-19T07:44:14+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -248,6 +280,20 @@
       "published_at": "2026-11-19T07:00:04+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, al Ristorante imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro",
+      "url": "https://comozero.it/pubbliredazionale/como-al-ristorante-imbarcadero-grande-cena-con-sorpresa-lopera-darte-nasce-tra-una-piatto-e-laltro",
+      "summary": "Un ospite d’eccezione, un menù d’inverno tra tradizione e ricerca e un’opera d’arte che prenderà forma sotto gli occhi dei commensali, Questa è la serata “A tavola con l’arte. Una performance live di Giuliano Grittini” pensata dal Ristorante Imbarcadero 1892 di piazza Cavour per giovedì 3 dicembre: una cena-evento a numero chiuso, unica nel suo […] L'articolo Como, al Ristorante imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro proviene da ComoZero .",
+      "published_at": "2026-11-18T23:55:34+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -304,48 +350,6 @@
       "published_at": "2026-11-18T23:19:46+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il ruggito del Generoso compie 90 anni: al galà da tutto esaurito il re comasco delle cronoscalate Angelo Tenconi",
-      "url": "https://comozero.it/attualita/il-ruggito-del-generoso-compie-90-anni-al-gala-da-tutto-esaurito-il-re-comasco-delle-cronoscalate-angelo-tenconi",
-      "summary": "Novant’anni di storia, di passione e di motori ruggenti. Il Moto Club Generoso ha celebrato il traguardo del novantesimo anniversario con una grande cena di gala nella sala San Gottardo dell’Hotel Coronado di Mendrisio, riunendo circa duecento tra soci, amici, autorità e grandi firme del motociclismo. Una serata intensa e ricca di commozione, che ha […] L'articolo Il ruggito del Generoso compie 90 anni: al galà da tutto esaurito il re comasco delle cronoscalate Angelo Tenconi proviene da ComoZero .",
-      "published_at": "2026-11-18T23:03:07+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La Como mondiale, dove anche i marciapiedi diventano parcheggi",
-      "url": "https://comozero.it/punti-di-vista/la-como-mondiale-dove-anche-i-marciapiedi-diventano-parcheggi",
-      "summary": "Piccola cosa, si dirà, ma certo ennesimo segno di come è cambiata la città. Ormai gli abusi non sono più fenomeno tipico della bella stagione, con auto che tra primavera ed estate compaiono illecitamente un po’ dappertutto tra divieti di sosta, transiti impropri in città murata, auto nelle piazze storiche, eccetera. Poi, sì, ci sono […] L'articolo La Como mondiale, dove anche i marciapiedi diventano parcheggi proviene da ComoZero .",
-      "published_at": "2026-11-18T20:18:04+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "«Vi possiamo salvare 3», il regista comasco Ivan Brusa chiude la sua trilogia pulp su Prime Video",
-      "url": "https://www.ciaocomo.it/2026/11/18/vi-possiamo-salvare-3-checkmate-il-regista-comasco-ivan-brusa-chiude-la-sua-trilogia-pulp-su-prime-video/347791",
-      "summary": "Partita nel 2024 la serie ideata da Brusa si svolge in un futuro poco lontano dove la nazione è retta da un governo che tende ad orientare l'opinione pubblica anche attraverso i social The post «Vi possiamo salvare 3», il regista comasco Ivan Brusa chiude la sua trilogia pulp su Prime Video appeared first on CiaoComo .",
-      "published_at": "2026-11-18T16:30:02+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
