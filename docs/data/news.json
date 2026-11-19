@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-19T09:14:46.135393+00:00",
+  "generated_at": "2026-11-19T10:20:02.208608+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 8,
+      "inserted": 8,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 15,
-      "inserted": 15,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,50 @@
     }
   ],
   "articles": [
+    {
+      "title": "“Nove – storia di una famiglia italiana”: alla Piccola Accademia di Como il teatro racconta l’amore e il diritto di essere famiglia",
+      "url": "https://www.ciaocomo.it/2026/11/19/nove-storia-di-una-famiglia-italiana-alla-piccola-accademia-di-como-il-teatro-racconta-lamore-e-il-diritto-di-essere-famiglia/348234",
+      "summary": "Sabato 21 novembre Egle Doria porta in scena un monologo autobiografico sulla maternità e sulle famiglie omogenitoriali. Al termine dello spettacolo, un confronto con Famiglie Arcobaleno APS The post “Nove – storia di una famiglia italiana”: alla Piccola Accademia di Como il teatro racconta l’amore e il diritto di essere famiglia appeared first on CiaoComo .",
+      "published_at": "2026-11-19T10:00:03+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, fermato per un controllo in piazza Vittoria: 18enne arrestato con oltre 200 grammi di hashish",
+      "url": "https://www.ciaocomo.it/2026/11/19/como-fermato-per-un-controllo-in-piazza-vittoria-18enne-arrestato-con-oltre-200-grammi-di-hashish/348288",
+      "summary": "La Polizia ha sequestrato anche 605 euro in contanti, due smartphone e un bilancino di precisione. Il giovane, già noto alle forze dell'ordine, era sottoposto alla messa alla prova The post Como, fermato per un controllo in piazza Vittoria: 18enne arrestato con oltre 200 grammi di hashish appeared first on CiaoComo .",
+      "published_at": "2026-11-19T09:52:30+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni",
+      "url": "https://comozero.it/attualita/como-18enne-fermato-con-droga-2-smartphone-e-contanti-era-sottoposto-alla-messa-in-prova-dal-tribunale-dei-minorenni",
+      "summary": "La Polizia di Stato di Como, nella serata di ieri, ha controllato un ragazzo italiano 18enne, residente a Como, con precedenti di polizia sottoposto alla messa in prova da parte del Tribunale dei Minorenni di Milano. Intorno alle 22 una Volante della Questura, transitando in piazza Vittoria a Como, ha notato in un bar un […] L'articolo Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni proviene da ComoZero .",
+      "published_at": "2026-11-19T09:52:17+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
     {
       "title": "Fairplay Day, il Teatro Sociale di Como diventa un villaggio dello sport: calcio in platea e oltre 25 associazioni coinvolte",
       "url": "https://www.ciaocomo.it/2026/11/19/fairplay-day-il-teatro-sociale-di-como-diventa-un-villaggio-dello-sport-calcio-in-platea-e-oltre-25-associazioni-coinvolte/348227",
@@ -282,20 +326,6 @@
       ]
     },
     {
-      "title": "Poker alla Lucchese, Piacenza ai quarti di Coppa Italia (4-0)",
-      "url": "https://www.piacenzasera.it/2026/11/ottavi-di-coppa-piacenza-sfida-la-lucchese-al-garilli-ore-1430/670973",
-      "summary": "Tutto facile per i biancorossi, che hanno dominato la gara: a segno Capelli e Tremolada nel primo tempo, nella ripresa Bassanini e Trombetta fissano il risultato The post Poker alla Lucchese, Piacenza ai quarti di Coppa Italia (4-0) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-18T15:22:17+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte”",
       "url": "https://comozero.it/attualita/milano-meda-lo-schiaffo-del-pedaggio-il-mistero-nuova-societa-migliaia-di-cittadini-attendono-risposte",
       "summary": "Il gruppo consiliare del Partito Democratico in Consiglio regionale ha presentato ai presidenti della Commissione Programmazione, bilancio, società controllate e partecipate Davide Caparini e della Commissione Territorio, infrastrutture e mobilità, Jonhatan Lobati, una richiesta di audizione congiunta dedicata al progetto di costituzione di una nuova società regionale per la gestione delle concessioni autostradali lombarde. L’iniziativa […] L'articolo Milano-Meda, lo schiaffo del pedaggio e il mistero nuova società: “Migliaia di cittadini attendono risposte” proviene da ComoZero .",
@@ -381,36 +411,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Il sogno infranto di riportare la vita nel ‘borgo fantasma’ sul lago: dopo 20 mesi lavori quasi a zero, cacciata l’impresa",
-      "url": "https://comozero.it/attualita/il-sogno-infranto-di-riportare-la-vita-nel-borgo-fantasma-sul-lago-dopo-20-mesi-lavori-quasi-a-zero-cacciata-limpresa",
-      "summary": "Clamorosa beffa per l’attesissimo ripristino del collegamento sul Lago Ceresio, in provincia di Como, tra Claino con Osteno e il cosiddetto “borgo fantasma” di Santa Margherita. Dopo un anno di (non) cantiere o quasi, la prima impresa incaricata dall’amministrazione provinciale è stata cacciata per gravi inadempimenti e ritardi. E il bilancio delle opere realizzate, che […] L'articolo Il sogno infranto di riportare la vita nel ‘borgo fantasma’ sul lago: dopo 20 mesi lavori quasi a zero, cacciata l’impresa proviene da ComoZero .",
-      "published_at": "2026-11-18T11:59:33+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ambrogino d’Oro a CLO: 2.200 soci lavoratori e una storia lunga quasi 90 anni",
-      "url": "https://comozero.it/attualita/ambrogino-doro-a-clo-2-200-soci-lavoratori-e-una-storia-lunga-quasi-90-anni",
-      "summary": "La Cooperativa Lavoratori Ortomercato riceverà il riconoscimento del Comune di Milano il 7 dicembre. Presente anche in provincia di Como, conta oggi 2.200 soci lavoratori. Alla guida Fabio Ferrario, per anni protagonista anche della vita amministrativa di Grandate C’è anche un pezzo di imprenditoria legata a Como tra i protagonisti degli Ambrogini d’Oro 2026. CLO […] L'articolo Ambrogino d’Oro a CLO: 2.200 soci lavoratori e una storia lunga quasi 90 anni proviene da ComoZero .",
-      "published_at": "2026-11-18T11:53:03+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     },
     {
