@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-19T16:09:57.307027+00:00",
+  "generated_at": "2026-11-19T17:15:10.501176+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "Scherma, Andrea Bossalini e Valentino Monaco (Pettorelli) brillano a Catania",
+      "url": "https://www.piacenzasera.it/2026/11/scherma-andrea-bossalini-e-valentino-monaco-pettorelli-brillano-a-catania/671191",
+      "summary": "Nella prima prova nazionale i due spadisti piacentini ottengono il pass per il secondo appuntamento a Roma The post Scherma, Andrea Bossalini e Valentino Monaco (Pettorelli) brillano a Catania appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T15:56:44+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "ct",
+        "rm"
+      ],
+      "territory_codes": [
+        "CT",
+        "RM"
+      ]
+    },
+    {
+      "title": "Sette medaglie ai regionali per i giovani atleti del Karate Piacenza Farnesiana",
+      "url": "https://www.piacenzasera.it/2026/11/sette-medaglie-ai-regionali-per-i-giovani-atleti-del-karate-piacenza-farnesiana/671189",
+      "summary": "Gli atleti piacentini staccano il pass per i campionati italiani in programma a fine novembre a Vigevano The post Sette medaglie ai regionali per i giovani atleti del Karate Piacenza Farnesiana appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T15:53:37+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Oltre 3750 vaccinazioni, 300 in più in un anno: riconoscimento ai pediatri per i risultati raggiunti",
+      "url": "https://www.piacenzasera.it/2026/11/oltre-3750-vaccinazioni-somministrate-un-riconoscimento-ai-pediatri-per-i-risultati-raggiunti/671187",
+      "summary": "Al 16 novembre 2026, il tasso standardizzato di vaccinazione antinfluenzale pediatrica per mille abitanti raggiunge 14,1 nel distretto di Piacenza, 10,7 nel distretto di Levante e 14,7 nel distretto di Ponente, a fronte di un valore regionale di 7,9 The post Oltre 3750 vaccinazioni, 300 in più in un anno: riconoscimento ai pediatri per i risultati raggiunti appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T15:44:58+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Un ecografo portatile per migliorare le cure dopo l’ictus: grande dono al Sant’Anna",
+      "url": "https://comozero.it/sanita/un-ecografo-portatile-per-migliorare-le-cure-dopo-lictus-grande-dono-al-santanna",
+      "summary": "Un nuovo strumento per potenziare la precisione delle cure riabilitative, ridurre il dolore e migliorare il recupero funzionale dei pazienti affetti da esiti di ictus e patologie neurologiche disabilitanti. È stato donato nei giorni scorsi all’ospedale Sant’Anna un ecografo portatile alla Riabilitazione Generale e Neuromotoria di Asst Lariana, grazie all’associazione A.L.I.Ce. Como OdV (Associazione Lotta all’Ictus Cerebrale). Alla consegna […] L'articolo Un ecografo portatile per migliorare le cure dopo l’ictus: grande dono al Sant’Anna proviene da ComoZero .",
+      "published_at": "2026-11-19T15:35:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Yama Arashi, a Pontelagoscuro brillano i giovanissimi allievi del maestro Gerevini: 12 medaglie",
+      "url": "https://www.piacenzasera.it/2026/11/yama-arashi-a-pontelagoscuro-brillano-i-giovanissimi-allievi-del-maestro-gerevini-12-medaglie/671185",
+      "summary": "La società piacentina in evidenza nella gara di karate e kubudo con oltre 200 atleti provenienti da diverse regioni del Nord The post Yama Arashi, a Pontelagoscuro brillano i giovanissimi allievi del maestro Gerevini: 12 medaglie appeared first on piacenzasera.it .",
+      "published_at": "2026-11-19T15:32:41+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "La stagione concertistica del Municipale si apre nel segno di Beethoven",
       "url": "https://www.piacenzasera.it/2026/11/la-stagione-concertistica-del-municipale-si-apre-nel-segno-di-beethoven/671164",
@@ -86,33 +158,17 @@
       ]
     },
     {
-      "title": "“Contattare urgentemente la propria sede Asl…” Attenzione agli sms truffa",
-      "url": "https://www.piacenzasera.it/2026/11/contattare-urgentemente-la-propria-sede-asl-attenzione-agli-sms-truffa/671163",
-      "summary": "La segnalazione dell'Ausl Piacenza, che raccomanda di non rispondere e cancellare immediatamente la comunicazione The post “Contattare urgentemente la propria sede Asl…” Attenzione agli sms truffa appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T14:34:22+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
+      "title": "Argegno, furto in abitazione e documenti falsi: arrestato dopo oltre tre anni di ricerche",
+      "url": "https://comozero.it/attualita/argegno-furto-in-abitazione-e-documenti-falsi-arrestato-dopo-oltre-tre-anni-di-ricerche",
+      "summary": "Era ricercato dal 14 aprile 2023 e doveva scontare una condanna definitiva a 6 anni, 2 mesi e 20 giorni di reclusione per un furto aggravato in abitazione e la contraffazione di impronte di pubblica autenticazione o certificazione, commessi ad Argegno l’8 aprile 2017. Un uomo di 55 anni, originario di Savona e formalmente residente […] L'articolo Argegno, furto in abitazione e documenti falsi: arrestato dopo oltre tre anni di ricerche proviene da ComoZero .",
+      "published_at": "2026-11-19T14:39:55+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
-        "piacenza"
+        "sv"
       ],
       "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Al Campus piacentino dell’università di Parma apre lo sportello di counseling psicologico",
-      "url": "https://www.piacenzasera.it/2026/11/al-campus-piacentino-delluniversita-di-parma-apre-lo-sportello-di-counseling-psicologico/671154",
-      "summary": "The post Al Campus piacentino dell’università di Parma apre lo sportello di counseling psicologico appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T14:21:13+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pr",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PR",
-        "PC"
+        "SV"
       ]
     },
     {
@@ -230,20 +286,6 @@
       ]
     },
     {
-      "title": "Como, fermato per un controllo in piazza Vittoria: 18enne arrestato con oltre 200 grammi di hashish",
-      "url": "https://www.ciaocomo.it/2026/11/19/como-fermato-per-un-controllo-in-piazza-vittoria-18enne-arrestato-con-oltre-200-grammi-di-hashish/348288",
-      "summary": "La Polizia ha sequestrato anche 605 euro in contanti, due smartphone e un bilancino di precisione. Il giovane, già noto alle forze dell'ordine, era sottoposto alla messa alla prova The post Como, fermato per un controllo in piazza Vittoria: 18enne arrestato con oltre 200 grammi di hashish appeared first on CiaoComo .",
-      "published_at": "2026-11-19T09:52:30+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni",
       "url": "https://comozero.it/attualita/como-18enne-fermato-con-droga-2-smartphone-e-contanti-era-sottoposto-alla-messa-in-prova-dal-tribunale-dei-minorenni",
       "summary": "La Polizia di Stato di Como, nella serata di ieri, ha controllato un ragazzo italiano 18enne, residente a Como, con precedenti di polizia sottoposto alla messa in prova da parte del Tribunale dei Minorenni di Milano. Intorno alle 22 una Volante della Questura, transitando in piazza Vittoria a Como, ha notato in un bar un […] L'articolo Como, 18enne fermato con droga, 2 smartphone e contanti. Era sottoposto alla messa in prova dal Tribunale dei minorenni proviene da ComoZero .",
@@ -320,34 +362,6 @@
       "url": "https://comozero.it/pubbliredazionale/como-al-ristorante-imbarcadero-grande-cena-con-sorpresa-lopera-darte-nasce-tra-una-piatto-e-laltro",
       "summary": "Un ospite d’eccezione, un menù d’inverno tra tradizione e ricerca e un’opera d’arte che prenderà forma sotto gli occhi dei commensali, Questa è la serata “A tavola con l’arte. Una performance live di Giuliano Grittini” pensata dal Ristorante Imbarcadero 1892 di piazza Cavour per giovedì 3 dicembre: una cena-evento a numero chiuso, unica nel suo […] L'articolo Como, al Ristorante imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro proviene da ComoZero .",
       "published_at": "2026-11-18T23:55:34+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "DENS apre la nuova sede a Como: in via Tolomeo Gallio 2 accesso più facile e cure specialistiche",
-      "url": "https://comozero.it/pubbliredazionale/dens-apre-la-nuova-sede-a-como-in-via-tolomeo-gallio-2-accesso-piu-facile-e-cure-specialistiche",
-      "summary": "Operativa da settembre dopo quattro anni in piazza Perretta, la struttura è raggiungibile in automobile e offre spazi rinnovati ed équipe multidisciplinari. DENS – Studi Dentistici De Angelis ha aperto lo scorso settembre la nuova sede di Como in via Tolomeo Gallio 2, a pochi passi dal centro storico e accanto all’ufficio postale. Dopo quattro […] L'articolo DENS apre la nuova sede a Como: in via Tolomeo Gallio 2 accesso più facile e cure specialistiche proviene da ComoZero .",
-      "published_at": "2026-11-18T23:41:29+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day",
-      "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
-      "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
-      "published_at": "2026-11-18T23:29:54+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
