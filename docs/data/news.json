@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T10:14:13.628549+00:00",
+  "generated_at": "2026-11-20T11:13:53.587207+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -28,6 +28,62 @@
   ],
   "articles": [
     {
+      "title": "Giornata di formazione dedicata all’utilizzo del taser per la Polizia Locale di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/giornata-di-formazione-dedicata-allutilizzo-del-taser-per-la-polizia-locale-di-piacenza/671265",
+      "summary": "The post Giornata di formazione dedicata all’utilizzo del taser per la Polizia Locale di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T10:23:54+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Tra casi clinici e algoritmi: convegno per gestire le complicanze in cardiologia interventistica",
+      "url": "https://www.piacenzasera.it/2026/11/tra-casi-clinici-e-algoritmi-convegno-per-gestire-le-complicanze-in-cardiologia-interventistica/671262",
+      "summary": "La prima edizione dell'evento, intitolata \"Just my complications\", richiama a Piacenza alcuni dei massimi esperti del settore The post Tra casi clinici e algoritmi: convegno per gestire le complicanze in cardiologia interventistica appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T10:18:19+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Non dobbiamo lasciare che siano altri a raccontare la bellezza di Como”: una strategia per il turismo con uno sguardo al passato",
+      "url": "https://comozero.it/attualita/non-dobbiamo-lasciare-che-siano-altri-a-raccontare-la-bellezza-di-como-una-strategia-per-il-turismo-con-uno-sguardo-al-passato",
+      "summary": "Il successo planetario di Como e delle sue bellezze è certificato, mese dopo mese, dal contino flusso di turisti in arrivo. Solo pochi giorni fa davamo conto di come le ricerche online su Como nel mercato cinese hanno registrato picchi di crescita fino al 200% grazie ad una campagna mirata. Allo stesso tempo il successo […] L'articolo “Non dobbiamo lasciare che siano altri a raccontare la bellezza di Como”: una strategia per il turismo con uno sguardo al passato proviene da ComoZero .",
+      "published_at": "2026-11-20T10:17:55+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Sciopero generale a Como, oltre mille persone in corteo con la Cgil: traffico bloccato in centro",
+      "url": "https://www.ciaocomo.it/2026/11/20/sciopero-generale-a-como-oltre-mille-persone-in-corteo-con-la-cgil-traffico-bloccato-in-centro/348384",
+      "summary": "Lavoratori e studenti in piazza contro le politiche economiche e sociali del Governo. Sandro Estelli: «Una bellissima immagine della città, tante facce nuove». Disagi alla circolazione lungo il percorso The post Sciopero generale a Como, oltre mille persone in corteo con la Cgil: traffico bloccato in centro appeared first on CiaoComo .",
+      "published_at": "2026-11-20T10:16:54+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "“Tra Genova, l’Emilia e il West”, a Canzo in viaggio con De Andrè e Guccini",
       "url": "https://www.ciaocomo.it/2026/11/20/tra-genova-lemilia-e-il-west-a-canzo-in-viaggio-con-de-andre-e-guccini/348254",
       "summary": "Ellade Bandini e Flaco Biondini guidano una super band nel concerto omaggio ai due maestri della canzone d’autore italiana, Guccini e De Andrè The post “Tra Genova, l’Emilia e il West”, a Canzo in viaggio con De Andrè e Guccini appeared first on CiaoComo .",
@@ -42,6 +98,20 @@
       ]
     },
     {
+      "title": "In tanti scioperano con la Cgil “Carovita insostenibile sui lavoratori e le famiglie anche a Piacenza”",
+      "url": "https://www.piacenzasera.it/2026/11/musica-e-corteo-in-centro-cgil-in-sciopero-contro-il-carovita/671246",
+      "summary": "Circa un migliaio i partecipanti alla mobilitazione, indetta contro il carovita e la tutela dei servizi pubblici The post In tanti scioperano con la Cgil “Carovita insostenibile sui lavoratori e le famiglie anche a Piacenza” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T09:59:05+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
       "title": "Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata",
       "url": "https://primacomo.it/altro/controlli-dei-carabinieri-di-cernobbio-59-persone-identificate-e-una-denunciata",
       "summary": "Controlli straordinari dei Carabinieri di Cernobbio: 59 persone identificate e una denunciate. Controlli dei Carabinieri Nella giornata di ieri, 19 novembre, i Carabinieri della Stazione di Cernobbio hanno svolto un servizio straordinario di controllo del territorio, finalizzato alla prevenzione e al contrasto dei reati, con particolare attenzione ai furti in abitazione e agli altri reati […] Continua la lettura di Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata sul portale Prima Como .",
@@ -53,6 +123,20 @@
       ],
       "territory_codes": [
         "CO"
+      ]
+    },
+    {
+      "title": "Settant’anni di Corte costituzionale: a Piacenza un seminario con la giudice Antonella Sciarrone Alibrandi",
+      "url": "https://www.piacenzasera.it/2026/11/settantanni-di-corte-costituzionale-a-piacenza-un-seminario-con-la-giudice-antonella-sciarrone-alibrandi/671253",
+      "summary": "Lunedì 23 novembre, all’Auditorium Mazzocchi dell’Università Cattolica, l’incontro promosso dal Corso di laurea magistrale in Giurisprudenza The post Settant’anni di Corte costituzionale: a Piacenza un seminario con la giudice Antonella Sciarrone Alibrandi appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T09:30:59+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
@@ -258,20 +342,6 @@
       ]
     },
     {
-      "title": "Disegni e tavole, in Pinacoteca a Como c’è tutto il genio di Antonio Sant’Elia: aperta la mostra",
-      "url": "https://www.ciaocomo.it/2026/11/19/disegni-e-tavole-in-pinacoteca-a-como-ce-tutto-il-genio-di-antonio-santelia-aperta-la-mostra/348363",
-      "summary": "Le parole della curatrice e dell'assessore alla cultura di Como. Una rassegna che porta a scoprire il lavoro di una delle figure più conosciute nella cultura cittadina. The post Disegni e tavole, in Pinacoteca a Como c’è tutto il genio di Antonio Sant’Elia: aperta la mostra appeared first on CiaoComo .",
-      "published_at": "2026-11-19T19:22:01+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Calendario dell’Avvento al contrario insieme alla Caritas diocesana",
       "url": "https://primacomo.it/attualita/calendario-dellavvento-al-contrario-insieme-alla-caritas-diocesana",
       "summary": "Dall’ascolto delle storie di chi vive situazioni di difficoltà nasce l’Avvento di fraternità, realizzato dalla diocesi di Como insieme alla Caritas: tra le iniziative, il calendariod ell’Avvento al contrario. Calendario dell’Avvento al contrario Lo slogan scelto è “Una bellissima umanità… con un sacco da donare!”. Alle famiglie viene proposto un calendario dell’Avvento “al contrario”: ogni […] Continua la lettura di Calendario dell’Avvento al contrario insieme alla Caritas diocesana sul portale Prima Como .",
@@ -327,20 +397,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "La svolta strategica in Lombardia dei supermercati che hanno fatto la storia: due nuovi bar (e non dove si immagina)",
-      "url": "https://comozero.it/attualita/la-svolta-strategica-in-lombardia-dei-supermercati-che-hanno-fatto-la-storia-due-nuovi-bar-e-non-dove-si-immagina",
-      "summary": "Nuovo format per la ristorazione del Gruppo Esselunga: inaugurati a Milano i Bar Atlantic di via Pezzotti e viale Papiniano in edifici indipendenti, con servizio da asporto su strada. Una svolta silenziosa ma strategica ridisegna la presenza di Esselunga a Milano. L’insegna di ristorazione Bar Atlantic (nella foto, quello di Novedrate) abbandona per la prima […] L'articolo La svolta strategica in Lombardia dei supermercati che hanno fatto la storia: due nuovi bar (e non dove si immagina) proviene da ComoZero .",
-      "published_at": "2026-11-19T16:55:01+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
       ]
     },
     {
