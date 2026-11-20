@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T06:14:43.454581+00:00",
+  "generated_at": "2026-11-20T07:31:41.714217+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Il soffio dell’essenziale: una serata dedicata agli Haiku al Gruppo Letterario Acarya",
+      "url": "https://www.ciaocomo.it/2026/11/20/il-soffio-dellessenziale-una-serata-dedicata-agli-haiku-al-gruppo-letterario-acarya/348345",
+      "summary": "Questa sera nella sede Acarya di via Grandi a Como una serata interamente dedicata agli haiku, la forma poetica giapponese che, nella sua apparente semplicità, custodisce una delle più profonde esperienze della scrittura universale The post Il soffio dell’essenziale: una serata dedicata agli Haiku al Gruppo Letterario Acarya appeared first on CiaoComo .",
+      "published_at": "2026-11-20T07:00:24+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Spettacoli, mercatini, villaggi di Natale: gli appuntamenti del week end",
+      "url": "https://www.piacenzasera.it/2026/11/spettacoli-mercatini-villaggi-di-natale-gli-appuntamenti-del-week-end/671226",
+      "summary": "Gli eventi in calendario a Piacenza e provincia nel fine settimana The post Spettacoli, mercatini, villaggi di Natale: gli appuntamenti del week end appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T06:33:01+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Interno Verde, da Piacenza al Cile, illumina il Congresso di Santiago",
+      "url": "https://www.piacenzasera.it/2026/11/interno-verde-da-piacenza-al-cile-illumina-il-congresso-di-santiago/671207",
+      "summary": "La seconda edizione internazionale della manifestazione ha aperto al pubblico 22 spazi di grande fascino e rilievo, disseminati nel centro della capitale sudamericana The post Interno Verde, da Piacenza al Cile, illumina il Congresso di Santiago appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T06:30:42+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Provincia di Como, scontro auto-moto: coinvolto un 44enne",
+      "url": "https://comozero.it/attualita/provincia-di-como-scontro-auto-moto-coinvolto-un-44enne",
+      "summary": "Grave incidente a Lipomo questa mattina. Poco prima delle 7 si è infatti verificato uno scontro tra un’auto e una moto. Coinvolta una persona di 44 anni. Sul posto sono subito intervenuti i soccorsi (usciti in codice rosso): Areu, la croce rossa e i carabinieri di Como. Lungo la statale per Lecco – all’altezza della […] L'articolo Provincia di Como, scontro auto-moto: coinvolto un 44enne proviene da ComoZero .",
+      "published_at": "2026-11-20T06:26:14+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "lc"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC"
+      ]
+    },
     {
       "title": "Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei. Si inizia tra pochissimo",
       "url": "https://comozero.it/attualita/como-attenzione-se-siete-in-movimento-oggi-ce-lo-sciopero-e-tre-cortei-si-inizia-tra-pochissimo",
@@ -216,34 +274,6 @@
       ]
     },
     {
-      "title": "Sette medaglie ai regionali per i giovani atleti del Karate Piacenza Farnesiana",
-      "url": "https://www.piacenzasera.it/2026/11/sette-medaglie-ai-regionali-per-i-giovani-atleti-del-karate-piacenza-farnesiana/671189",
-      "summary": "Gli atleti piacentini staccano il pass per i campionati italiani in programma a fine novembre a Vigevano The post Sette medaglie ai regionali per i giovani atleti del Karate Piacenza Farnesiana appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T15:53:37+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Oltre 3750 vaccinazioni, 300 in più in un anno: riconoscimento ai pediatri per i risultati raggiunti",
-      "url": "https://www.piacenzasera.it/2026/11/oltre-3750-vaccinazioni-somministrate-un-riconoscimento-ai-pediatri-per-i-risultati-raggiunti/671187",
-      "summary": "Al 16 novembre 2026, il tasso standardizzato di vaccinazione antinfluenzale pediatrica per mille abitanti raggiunge 14,1 nel distretto di Piacenza, 10,7 nel distretto di Levante e 14,7 nel distretto di Ponente, a fronte di un valore regionale di 7,9 The post Oltre 3750 vaccinazioni, 300 in più in un anno: riconoscimento ai pediatri per i risultati raggiunti appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T15:44:58+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Un ecografo portatile per migliorare le cure dopo l’ictus: grande dono al Sant’Anna",
       "url": "https://comozero.it/sanita/un-ecografo-portatile-per-migliorare-le-cure-dopo-lictus-grande-dono-al-santanna",
       "summary": "Un nuovo strumento per potenziare la precisione delle cure riabilitative, ridurre il dolore e migliorare il recupero funzionale dei pazienti affetti da esiti di ictus e patologie neurologiche disabilitanti. È stato donato nei giorni scorsi all’ospedale Sant’Anna un ecografo portatile alla Riabilitazione Generale e Neuromotoria di Asst Lariana, grazie all’associazione A.L.I.Ce. Como OdV (Associazione Lotta all’Ictus Cerebrale). Alla consegna […] L'articolo Un ecografo portatile per migliorare le cure dopo l’ictus: grande dono al Sant’Anna proviene da ComoZero .",
@@ -255,34 +285,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Yama Arashi, a Pontelagoscuro brillano i giovanissimi allievi del maestro Gerevini: 12 medaglie",
-      "url": "https://www.piacenzasera.it/2026/11/yama-arashi-a-pontelagoscuro-brillano-i-giovanissimi-allievi-del-maestro-gerevini-12-medaglie/671185",
-      "summary": "La società piacentina in evidenza nella gara di karate e kubudo con oltre 200 atleti provenienti da diverse regioni del Nord The post Yama Arashi, a Pontelagoscuro brillano i giovanissimi allievi del maestro Gerevini: 12 medaglie appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T15:32:41+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "La stagione concertistica del Municipale si apre nel segno di Beethoven",
-      "url": "https://www.piacenzasera.it/2026/11/la-stagione-concertistica-del-municipale-si-apre-nel-segno-di-beethoven/671164",
-      "summary": "L'Orchestra Sinfonica di Milano inaugura a Stagione Concertistica 2026/2027 del Teatro Municipale, sabato 28 novembre alle ore 20 e 30. Sul podio il direttore Emmanuel Tjeknavorian The post La stagione concertistica del Municipale si apre nel segno di Beethoven appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T14:58:22+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
       ]
     },
     {
@@ -299,20 +301,6 @@
       "territory_codes": [
         "CO",
         "LC"
-      ]
-    },
-    {
-      "title": "“Pino Dordoni, campione straordinario con Piacenza nel cuore”",
-      "url": "https://www.piacenzasera.it/2026/11/pino-dordoni-campione-straordinario-con-piacenza-nel-cuore/671171",
-      "summary": "Presentato al PalabancaEventi il libro edito dalla Banca di Piacenza e curato da Graziano Tonelli per celebrare il centenario della nascita del vincitore della 50 km di marcia a Helsinki nel 1952. Presenti gli ori olimpici Sara Simeoni e Maurizio Damilano The post “Pino Dordoni, campione straordinario con Piacenza nel cuore” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T14:47:53+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -344,20 +332,6 @@
       ]
     },
     {
-      "title": "Grossa novità per l’hotel 5 stelle lusso sul Lago di Como con la suite unica al mondo: nuova proprietà di Abu Dhabi",
-      "url": "https://comozero.it/attualita/grossa-novita-per-lhotel-5-stelle-lusso-sul-lago-di-como-con-la-suite-unica-al-mondo-nuova-proprieta-di-abu-dhabi",
-      "summary": "Grossa novità importante nel settore dell’hotellerie di lusso sul Lario. Il Sereno Lago di Como, celebre struttura ricettiva cinque stelle lusso situata sulla sponda orientale del lago, cambia proprietà. La società proprietaria, Le Sereno Lago di Como, è stata infatti acquisita da European IV Hospitality Holding, realtà di investimento con sede ad Abu Dhabi. A […] L'articolo Grossa novità per l’hotel 5 stelle lusso sul Lago di Como con la suite unica al mondo: nuova proprietà di Abu Dhabi proviene da ComoZero .",
-      "published_at": "2026-11-19T13:08:45+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, i Carabinieri incontrano gli studenti del CIAS: orientamento professionale e valori dello sport",
       "url": "https://www.ciaocomo.it/2026/11/19/como-i-carabinieri-incontrano-gli-studenti-del-cias-orientamento-professionale-e-valori-dello-sport/348298",
       "summary": "Il comandante della Compagnia di Como e un atleta del Centro Sportivo Carabinieri di Bologna hanno risposto alle domande dei ragazzi della quinta dell'indirizzo Management dello Sport The post Como, i Carabinieri incontrano gli studenti del CIAS: orientamento professionale e valori dello sport appeared first on CiaoComo .",
@@ -370,20 +344,6 @@
       ],
       "territory_codes": [
         "BO",
-        "CO"
-      ]
-    },
-    {
-      "title": "Le mura di Como si illuminano di blu per i diritti dei bambini e degli adolescenti",
-      "url": "https://www.ciaocomo.it/2026/11/19/le-mura-di-como-si-illuminano-di-blu-per-i-diritti-dei-bambini-e-degli-adolescenti/348296",
-      "summary": "Venerdì 20 novembre la città aderisce a “Go Blue”, la campagna promossa da UNICEF e ANCI. Oltre 280 Comuni italiani hanno già annunciato la partecipazione all'iniziativa per il 37° anniversario della Convenzione ONU The post Le mura di Como si illuminano di blu per i diritti dei bambini e degli adolescenti appeared first on CiaoComo .",
-      "published_at": "2026-11-19T11:34:06+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
         "CO"
       ]
     },
