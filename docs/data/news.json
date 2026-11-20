@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T15:02:23.675092+00:00",
+  "generated_at": "2026-11-20T16:03:58.336265+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 15,
+      "inserted": 15,
       "ok": true
     },
     {
@@ -27,6 +27,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "Variante della Tremezzina, nuovi semafori tra Colonno e Griante. “L’impianto di betonaggio a Castliglione d’Intelvi strategico per completare i lavori nei tempi”",
+      "url": "https://comozero.it/attualita/variante-della-tremezzina-nuovi-semafori-tra-colonno-e-griante-limpianto-di-betonaggio-a-castliglione-dintelvi-strategico-per-completare-i-lavori-nei-tempi",
+      "summary": "Nuovi semafori per fluidificare il traffico sulla Statale 340 Regina e cantieri ormai vicini al pieno regime. È questo il doppio bilancio emerso questa mattina a Palazzo del Governo, durante il Tavolo istituzionale dedicato alla Variante della Tremezzina convocato dal Prefetto di Como, Corrado Conforto Galli, e dal Presidente della Provincia, Fiorenzo Bongiasca. Al vertice […] L'articolo Variante della Tremezzina, nuovi semafori tra Colonno e Griante. “L’impianto di betonaggio a Castliglione d’Intelvi strategico per completare i lavori nei tempi” proviene da ComoZero .",
+      "published_at": "2026-11-20T16:00:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, nel giorno dello sciopero l’Arci ricorda Enzo D’Antuono: “E’ sempre con noi, qui, in questa piazza per un futuro di pace” VIDEO",
+      "url": "https://comozero.it/attualita/como-nel-giorno-dello-sciopero-larci-ricorda-enzo-dantuono-e-sempre-con-noi-qui-in-questa-piazza-per-un-futuro-di-pace-video",
+      "summary": "L’Arci, parte della manifestazione di questa mattina per le strade di Como ha voluto ricordare, con Sara Sostini, la figura di Enzo D’Antuono scomparso pochi giorni fa e riaffermare l’impegno per il Gloria “bene comune, tassello della lotta contro le guerre e i diritti di tutti ovunque per un Nuovo mondo possibile”. Ecco l’intervento di […] L'articolo Como, nel giorno dello sciopero l’Arci ricorda Enzo D’Antuono: “E’ sempre con noi, qui, in questa piazza per un futuro di pace” VIDEO proviene da ComoZero .",
+      "published_at": "2026-11-20T15:44:43+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Student Night, oltre 300 studenti alla Festa delle Matricole a Too",
+      "url": "https://www.piacenzasera.it/2026/11/student-night-oltre-300-studenti-alla-festa-delle-matricole-a-too/671340",
+      "summary": "Si è rinnovato con successo il tradizionale appuntamento promosso dall'Amministrazione comunale nell'ambito del Protocollo \"Piacenza Città delle Università\" The post Student Night, oltre 300 studenti alla Festa delle Matricole a Too appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T15:15:36+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Assemblea per l’80esimo anniversario di Cna con Mattarella, Piacenza presente",
+      "url": "https://www.piacenzasera.it/2026/11/assemblea-per-l80esimo-anniversario-di-cna-con-mattarella-piacenza-presente/671342",
+      "summary": "Molto apprezzato l’intervento del Presidente Mattarella, salutato dall’Assemblea della Fiera di Roma da un lungo e caloroso applauso The post Assemblea per l’80esimo anniversario di Cna con Mattarella, Piacenza presente appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T15:12:58+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza",
+        "rm"
+      ],
+      "territory_codes": [
+        "PC",
+        "RM"
+      ]
+    },
+    {
+      "title": "Dai libri una voce contro la violenza sulle donne. Alla Biblioteca Dante il reading collettivo",
+      "url": "https://www.piacenzasera.it/2026/11/dai-libri-una-voce-contro-la-violenza-sulle-donne-alla-biblioteca-dante-il-reading-collettivo/671338",
+      "summary": "L'evento promosso dalla Commissione delle Elette del Comune di Piacenza: alla lettura dei testi parteciperanno anche assessori e consiglieri The post Dai libri una voce contro la violenza sulle donne. Alla Biblioteca Dante il reading collettivo appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T15:03:11+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi”",
       "url": "https://comozero.it/attualita/como-e-i-ciliegi-di-via-xx-settembre-il-comune-insiste-vuole-abbatterli-tutti-e-torna-a-tirare-in-ballo-i-parcheggi",
@@ -39,6 +111,20 @@
       ],
       "territory_codes": [
         "CO"
+      ]
+    },
+    {
+      "title": "Sabato di festa in centro: si accende, con le luminarie e l’albero, il Natale di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/sabato-di-festa-in-centro-si-accende-con-le-luminarie-e-lalbero-il-natale-di-piacenza/671334",
+      "summary": "Già dalla mattinata saranno aperte le bancarelle del tradizionale mercatino, per tutto il week end sarà operativo anche il trenino che collega il Pubblico Passeggio a piazza Cavalli The post Sabato di festa in centro: si accende, con le luminarie e l’albero, il Natale di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T14:58:02+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
@@ -69,6 +155,20 @@
       "territory_codes": [
         "CO",
         "RE"
+      ]
+    },
+    {
+      "title": "Mercatini, luminarie, laboratori, spettacoli: s’accende di eventi il finale di anno della Val Seriana",
+      "url": "https://primacomo.it/attualita/mercatini-luminarie-laboratori-spettacoli-saccende-di-eventi-il-finale-di-anno-della-val-seriana",
+      "summary": "Mercatini di artigianato e prodotti locali, accensioni delle luminarie, laboratori per bambini, letture e spettacoli: “Territori in Luce: tra artigianato, tradizioni e devozioni popolari” si avvia alla conclusione con una serie di appuntamenti dedicati al Natale. Da Castione della Presolana a Fiorano al Serio, passando per Cazzano Sant’Andrea, Vertova e Casnigo, piazze, biblioteche e spazi […] Continua la lettura di Mercatini, luminarie, laboratori, spettacoli: s’accende di eventi il finale di anno della Val Seriana sul portale Prima Como .",
+      "published_at": "2026-11-20T13:30:16+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -125,20 +225,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Sale l’attesa per il big match Gas Sales – Perugia, ancora pochi biglietti disponibili",
-      "url": "https://www.piacenzasera.it/2026/11/sale-lattesa-per-il-big-match-gas-sales-perugia-ancora-pochi-biglietti-disponibili/671285",
-      "summary": "The post Sale l’attesa per il big match Gas Sales – Perugia, ancora pochi biglietti disponibili appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T11:26:09+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pg"
-      ],
-      "territory_codes": [
-        "PG"
       ]
     },
     {
@@ -636,20 +722,6 @@
       "url": "https://primacomo.it/cronaca/la-finanza-sequestra-dispositivi-elettrici-non-conformi",
       "summary": "Prosegue l’azione di controllo a tutela dell’incolumità domestica da parte dei militari del Comando Provinciale di Como: dopo il controllo in un negozio sono state ritirate dal mercato multiprese e prolunghe prive delle necessarie verifiche tecniche di sicurezza. Il controllo Nell’ambito delle quotidiane attività di vigilanza volte a garantire la sicurezza dei consumatori e a […] Continua la lettura di La Finanza sequestra dispositivi elettrici non conformi sul portale Prima Como .",
       "published_at": "2026-11-16T12:08:36+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A sette Comuni gli aiuti della Regione",
-      "url": "https://primacomo.it/attualita/a-sette-comuni-gli-aiuti-della-regione",
-      "summary": "Cabiate, Carugo, Erba, Musso, Porlezza, Como e Sorico. Sono questi i sette comuni comaschi che potranno beneficiare degli aiuti di Regione Lombardia provenienti dal “Programma 2026-2030 di interventi urgenti e prioritari per la difesa del suolo e la mitigazione dei rischi idrogeologici del territorio lombardo”. In totale, la provincia di Como avrà a disposizione quasi […] Continua la lettura di A sette Comuni gli aiuti della Regione sul portale Prima Como .",
-      "published_at": "2026-11-16T11:20:07+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
