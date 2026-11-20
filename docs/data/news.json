@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T07:31:41.714217+00:00",
+  "generated_at": "2026-11-20T09:12:15.428131+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Serie A, sabato blindato a Como per la sfida con il Cagliari: divieti di sosta fino a mercoledì per la Champions",
+      "url": "https://comozero.it/attualita/serie-a-sabato-blindato-a-como-per-la-sfida-con-il-cagliari-divieti-di-sosta-fino-a-mercoledi-per-la-champions",
+      "summary": "Sabato pomeriggio ad alta tensione sul fronte della viabilità cittadina. In occasione della sfida di Serie A tra Como e Cagliari, in programma domani, sabato 21 novembre 2026, alle ore 15 allo stadio Giuseppe Sinigaglia, la Polizia Locale ha predisposto un piano straordinario di limitazioni al traffico e alla sosta. I provvedimenti, regolati dall’ordinanza numero […] L'articolo Serie A, sabato blindato a Como per la sfida con il Cagliari: divieti di sosta fino a mercoledì per la Champions proviene da ComoZero .",
+      "published_at": "2026-11-20T09:00:33+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "ca",
+        "como"
+      ],
+      "territory_codes": [
+        "CA",
+        "CO"
+      ]
+    },
+    {
+      "title": "Provincia di Como, distrugge gli arredi del condominio e con una bottiglia di vetro minaccia i carabinieri",
+      "url": "https://comozero.it/attualita/provincia-di-como-distrugge-gli-arredi-del-condominio-e-con-una-bottiglia-di-vetro-minaccia-i-carabinieri",
+      "summary": "Il 18 novembre 2026, a Canzo, i Carabinieri della Stazione di Asso hanno dato esecuzione a un’ordinanza di custodia cautelare in carcere, emessa dal Giudice per le indagini preliminari del Tribunale di Como, nei confronti di un 23enne del luogo, già sottoposto all’obbligo di presentazione alla polizia giudiziaria e all’obbligo di dimora nei comuni di […] L'articolo Provincia di Como, distrugge gli arredi del condominio e con una bottiglia di vetro minaccia i carabinieri proviene da ComoZero .",
+      "published_at": "2026-11-20T08:28:00+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Natale a Como, da domani il mercatino in piazza Perretta e la pista di pattinaggio in piazza Cavour",
+      "url": "https://www.ciaocomo.it/2026/11/20/natale-a-como-da-domani-il-mercatino-in-piazza-perretta-e-la-pista-di-pattinaggio-in-piazza-cavour/348360",
+      "summary": "Casette in legno, artigianato e prodotti enogastronomici fino al 6 gennaio. Spazio alle associazioni in piazza Grimoldi, con iniziative e appuntamenti dedicati alle famiglie The post Natale a Como, da domani il mercatino in piazza Perretta e la pista di pattinaggio in piazza Cavour appeared first on CiaoComo .",
+      "published_at": "2026-11-20T08:00:21+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A pochi chilometri da Como scoperti 16mila addobbi di Natale insicuri in 3 negozi: multe fino a 77 mila euro",
+      "url": "https://comozero.it/attualita/a-pochi-chilometri-da-como-scoperti-16mila-addobbi-di-natale-insicuri-in-3-negozi-multe-fino-a-77-mila-euro",
+      "summary": "I militari della Compagnia Gallarate hanno controllato i requisiti di sicurezza dei prodotti posti in vendita, con particolare riferimento a decorazioni e luci natalizie ed ai giochi destinati ai più piccoli. Le attività hanno consentito di individuare tre esercizi commerciali, a Gallarate e Sesto Calende, che esponevano per la commercializzazione addobbi privi delle avvertenze di […] L'articolo A pochi chilometri da Como scoperti 16mila addobbi di Natale insicuri in 3 negozi: multe fino a 77 mila euro proviene da ComoZero .",
+      "published_at": "2026-11-20T07:19:58+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Il soffio dell’essenziale: una serata dedicata agli Haiku al Gruppo Letterario Acarya",
       "url": "https://www.ciaocomo.it/2026/11/20/il-soffio-dellessenziale-una-serata-dedicata-agli-haiku-al-gruppo-letterario-acarya/348345",
@@ -72,7 +130,7 @@
     {
       "title": "Provincia di Como, scontro auto-moto: coinvolto un 44enne",
       "url": "https://comozero.it/attualita/provincia-di-como-scontro-auto-moto-coinvolto-un-44enne",
-      "summary": "Grave incidente a Lipomo questa mattina. Poco prima delle 7 si è infatti verificato uno scontro tra un’auto e una moto. Coinvolta una persona di 44 anni. Sul posto sono subito intervenuti i soccorsi (usciti in codice rosso): Areu, la croce rossa e i carabinieri di Como. Lungo la statale per Lecco – all’altezza della […] L'articolo Provincia di Como, scontro auto-moto: coinvolto un 44enne proviene da ComoZero .",
+      "summary": "Mattinata di disagi alla viabilità e grande apprensione lungo la strada statale per Lecco. Poco prima delle 7 di questa mattina si è verificato un grave incidente tra un’auto e uno scooter all’altezza della pizzeria Delfino Blu. Nell’impatto è rimasta ferita una persona di 44 anni soccorsa in codice rosso. La centrale operativa di Areu […] L'articolo Provincia di Como, scontro auto-moto: coinvolto un 44enne proviene da ComoZero .",
       "published_at": "2026-11-20T06:26:14+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -86,9 +144,9 @@
       ]
     },
     {
-      "title": "Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei. Si inizia tra pochissimo",
+      "title": "Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei",
       "url": "https://comozero.it/attualita/como-attenzione-se-siete-in-movimento-oggi-ce-lo-sciopero-e-tre-cortei-si-inizia-tra-pochissimo",
-      "summary": "Sarà un venerdì complicato sul fronte della viabilità a Como. In occasione dello sciopero generale di 24 ore proclamato dalla Cgil contro la manovra di bilancio del governo, la città sarà infatti attraversata da ben tre cortei, dalla mattina fino al tardo pomeriggio. Per garantire la sicurezza e consentire lo svolgimento delle manifestazioni, la Polizia […] L'articolo Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei. Si inizia tra pochissimo proviene da ComoZero .",
+      "summary": "Sarà un venerdì complicato sul fronte della viabilità a Como. In occasione dello sciopero generale di 24 ore proclamato dalla Cgil contro la manovra di bilancio del governo, la città sarà infatti attraversata da ben tre cortei, dalla mattina fino al tardo pomeriggio. Per garantire la sicurezza e consentire lo svolgimento delle manifestazioni, la Polizia […] L'articolo Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei proviene da ComoZero .",
       "published_at": "2026-11-20T06:14:37+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -114,6 +172,22 @@
       ]
     },
     {
+      "title": "Morì a 28 anni lasciando capolavori visionari: Como abbraccia il genio di Sant’Elia, la mostra in Pinacoteca da domani",
+      "url": "https://comozero.it/cultura-e-spettacolo/mori-a-28-anni-lasciando-capolavori-visionari-como-abbraccia-il-genio-di-santelia-la-mostra-in-pinacoteca-da-domani",
+      "summary": "20Morì in trincea a 28 anni, lasciando progetti visionari che non furono mai realizzati. Quattordici anni dopo, i suoi disegni influenzarono architetti razionalisti e pittori astrattisti. Da domani, venerdì 20 novembre, la Pinacoteca civica racconta questa eredità con una mostra che coinvolge anche Milano Apre domani, venerdì 20 novembre, alla Pinacoteca civica di Como la […] L'articolo Morì a 28 anni lasciando capolavori visionari: Como abbraccia il genio di Sant’Elia, la mostra in Pinacoteca da domani proviene da ComoZero .",
+      "published_at": "2026-11-19T23:22:38+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
       "title": "Sconti pazzeschi nel centro commerciale milanese, una settimana al 50% in 120 negozi",
       "url": "https://comozero.it/attualita/sconti-pazzeschi-nel-centro-commerciale-milanese-una-settimana-al-50-in-120-negozi",
       "summary": "Scalo Milano Outlet & More è pronto ad accogliere gli amanti dello shopping con un’intera settimana di occasioni e promozioni esclusive. Da lunedì 23 a lunedì 30 novembre, oltre 120 negozi aderenti proporranno sconti fino al 50% sul prezzo outlet, offrendo ai visitatori l’opportunità di concedersi nuovi acquisti e anticipare i regali in vista delle […] L'articolo Sconti pazzeschi nel centro commerciale milanese, una settimana al 50% in 120 negozi proviene da ComoZero .",
@@ -134,6 +208,20 @@
       "published_at": "2026-11-19T21:02:50+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Disegni e tavole, in Pinacoteca a Como c’è tutto il genio di Antonio Sant’Elia: aperta la mostra",
+      "url": "https://www.ciaocomo.it/2026/11/19/disegni-e-tavole-in-pinacoteca-a-como-ce-tutto-il-genio-di-antonio-santelia-aperta-la-mostra/348363",
+      "summary": "Le parole della curatrice e dell'assessore alla cultura di Como. Una rassegna che porta a scoprire il lavoro di una delle figure più conosciute nella cultura cittadina. The post Disegni e tavole, in Pinacoteca a Como c’è tutto il genio di Antonio Sant’Elia: aperta la mostra appeared first on CiaoComo .",
+      "published_at": "2026-11-19T19:22:01+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -167,22 +255,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Morì a 28 anni lasciando capolavori visionari: Como abbraccia il genio di Sant’Elia, la mostra in Pinacoteca da domani",
-      "url": "https://comozero.it/cultura-e-spettacolo/mori-a-28-anni-lasciando-capolavori-visionari-como-abbraccia-il-genio-di-santelia-la-mostra-in-pinacoteca-da-domani",
-      "summary": "Morì in trincea a 28 anni, lasciando progetti visionari che non furono mai realizzati. Quattordici anni dopo, i suoi disegni influenzarono architetti razionalisti e pittori astrattisti. Da domani, venerdì 20 novembre, la Pinacoteca civica racconta questa eredità con una mostra che coinvolge anche Milano Apre domani, venerdì 20 novembre, alla Pinacoteca civica di Como la […] L'articolo Morì a 28 anni lasciando capolavori visionari: Como abbraccia il genio di Sant’Elia, la mostra in Pinacoteca da domani proviene da ComoZero .",
-      "published_at": "2026-11-19T18:20:38+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     },
     {
@@ -274,20 +346,6 @@
       ]
     },
     {
-      "title": "Un ecografo portatile per migliorare le cure dopo l’ictus: grande dono al Sant’Anna",
-      "url": "https://comozero.it/sanita/un-ecografo-portatile-per-migliorare-le-cure-dopo-lictus-grande-dono-al-santanna",
-      "summary": "Un nuovo strumento per potenziare la precisione delle cure riabilitative, ridurre il dolore e migliorare il recupero funzionale dei pazienti affetti da esiti di ictus e patologie neurologiche disabilitanti. È stato donato nei giorni scorsi all’ospedale Sant’Anna un ecografo portatile alla Riabilitazione Generale e Neuromotoria di Asst Lariana, grazie all’associazione A.L.I.Ce. Como OdV (Associazione Lotta all’Ictus Cerebrale). Alla consegna […] L'articolo Un ecografo portatile per migliorare le cure dopo l’ictus: grande dono al Sant’Anna proviene da ComoZero .",
-      "published_at": "2026-11-19T15:35:44+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Periti industriali della provincia di Lecco: in fiera soluzioni impiantistiche e tecnologie concrete per l’edilizia",
       "url": "https://primacomo.it/attualita/periti-industriali-della-provincia-di-lecco-in-fiera-soluzioni-impiantistiche-e-tecnologie-concrete-per-ledilizia",
       "summary": "Da domani, venerdì 20 novembre, a domenica 22 a Lariofiere l’Ordine sarà presente con uno stand e due convegni per restituire al comparto le soluzioni, l’approccio e le innovazioni dei professionisti Sviluppo e ricerca per il settore edile L’Ordine dei Periti Industriali e dei Periti Industriali Laureati della Provincia di Lecco partecipa a Erba al […] Continua la lettura di Periti industriali della provincia di Lecco: in fiera soluzioni impiantistiche e tecnologie concrete per l’edilizia sul portale Prima Como .",
@@ -301,50 +359,6 @@
       "territory_codes": [
         "CO",
         "LC"
-      ]
-    },
-    {
-      "title": "Argegno, furto in abitazione e documenti falsi: arrestato dopo oltre tre anni di ricerche",
-      "url": "https://comozero.it/attualita/argegno-furto-in-abitazione-e-documenti-falsi-arrestato-dopo-oltre-tre-anni-di-ricerche",
-      "summary": "Era ricercato dal 14 aprile 2023 e doveva scontare una condanna definitiva a 6 anni, 2 mesi e 20 giorni di reclusione per un furto aggravato in abitazione e la contraffazione di impronte di pubblica autenticazione o certificazione, commessi ad Argegno l’8 aprile 2017. Un uomo di 55 anni, originario di Savona e formalmente residente […] L'articolo Argegno, furto in abitazione e documenti falsi: arrestato dopo oltre tre anni di ricerche proviene da ComoZero .",
-      "published_at": "2026-11-19T14:39:55+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "sv"
-      ],
-      "territory_codes": [
-        "SV"
-      ]
-    },
-    {
-      "title": "Como, flashmob contro la nuova legge: “Boschi e campagne non sono terreni di caccia”",
-      "url": "https://comozero.it/attualita/como-flashmob-contro-la-nuova-legge-boschi-e-campagne-non-sono-terreni-di-caccia",
-      "summary": "In una nota Alleanza Verdi e Sinistra e Movimento 5 Stelle: esprimono la propria netta contrarietà alla proposta di legge C.2984 (ex DDL 1552), che modifica la legge 157/1992 sulla tutela della fauna selvatica e il cui esame alla Camera è previsto a partire dal 27 novembre. Preannunciano un flashmob che si terra’ sabato 21 […] L'articolo Como, flashmob contro la nuova legge: “Boschi e campagne non sono terreni di caccia” proviene da ComoZero .",
-      "published_at": "2026-11-19T13:58:45+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, i Carabinieri incontrano gli studenti del CIAS: orientamento professionale e valori dello sport",
-      "url": "https://www.ciaocomo.it/2026/11/19/como-i-carabinieri-incontrano-gli-studenti-del-cias-orientamento-professionale-e-valori-dello-sport/348298",
-      "summary": "Il comandante della Compagnia di Como e un atleta del Centro Sportivo Carabinieri di Bologna hanno risposto alle domande dei ragazzi della quinta dell'indirizzo Management dello Sport The post Como, i Carabinieri incontrano gli studenti del CIAS: orientamento professionale e valori dello sport appeared first on CiaoComo .",
-      "published_at": "2026-11-19T11:45:34+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "bo",
-        "como"
-      ],
-      "territory_codes": [
-        "BO",
-        "CO"
       ]
     },
     {
