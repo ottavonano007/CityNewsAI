@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-20T16:03:58.336265+00:00",
+  "generated_at": "2026-11-20T17:05:48.935892+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 15,
-      "inserted": 15,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -186,20 +186,6 @@
       ]
     },
     {
-      "title": "Lavoro e persona nella quarta rivoluzione industriale, incontro su “Magnifica Humanitas”",
-      "url": "https://www.piacenzasera.it/2026/11/lavoro-e-persona-nella-quarta-rivoluzione-industriale-incontro-su-magnifica-humanitas/671309",
-      "summary": "Martedì 24 novembre a Piacenza si apre il ciclo sull'enciclica «Magnifica Humanitas» con un confronto tra operatori del mondo del lavoro The post Lavoro e persona nella quarta rivoluzione industriale, incontro su “Magnifica Humanitas” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T12:52:05+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como e la nuova legge sull’enogastronomia: “Bene, ma non diventi l’esaltazione della sagra fine a se stessa”",
       "url": "https://comozero.it/attualita/como-e-la-nuova-legge-sullenogastronomia-bene-ma-non-diventi-lesaltazione-della-sagra-fine-a-se-stessa",
       "summary": "Giudizio nel complesso positivo sulla nuova Legge Regionale dedicata al settore enogastronomico, considerata un punto di partenza per la crescita del comparto. Detto questo però Confcommercio sottolinea come sia necessaria una governance tecnicamente competente nella fase attuativa, così da evitare la dequalificazione. Ma di cosa si tratta? A fine ottobre è arrivato il va libera […] L'articolo Como e la nuova legge sull’enogastronomia: “Bene, ma non diventi l’esaltazione della sagra fine a se stessa” proviene da ComoZero .",
@@ -253,20 +239,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Tra Genova, l’Emilia e il West”, a Canzo in viaggio con De Andrè e Guccini",
-      "url": "https://www.ciaocomo.it/2026/11/20/tra-genova-lemilia-e-il-west-a-canzo-in-viaggio-con-de-andre-e-guccini/348254",
-      "summary": "Ellade Bandini e Flaco Biondini guidano una super band nel concerto omaggio ai due maestri della canzone d’autore italiana, Guccini e De Andrè The post “Tra Genova, l’Emilia e il West”, a Canzo in viaggio con De Andrè e Guccini appeared first on CiaoComo .",
-      "published_at": "2026-11-20T10:00:36+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "ge"
-      ],
-      "territory_codes": [
-        "GE"
       ]
     },
     {
@@ -399,20 +371,6 @@
       ],
       "territory_codes": [
         "MI"
-      ]
-    },
-    {
-      "title": "Como, autosilo al posto della scuola? L’alternativa è una monorotaia: “Colleghiamo Val Mulini, Ticosa e stadio”",
-      "url": "https://comozero.it/attualita/como-autosilo-al-posto-della-scuola-lalternativa-e-una-monorotaia-colleghiamo-val-mulini-ticosa-e-stadio",
-      "summary": "Nel dibattito sull’autosilo che il Comune vorrebbe costruire al posto della primaria Corridoni, in via Sinigaglia, arriva una proposta che parte da un presupposto opposto: se il problema è il traffico, forse la soluzione non è aggiungere posti auto accanto allo stadio, ma togliere auto dalla strada. A farla, direttamente al sindaco Alessandro Rapinese, è […] L'articolo Como, autosilo al posto della scuola? L’alternativa è una monorotaia: “Colleghiamo Val Mulini, Ticosa e stadio” proviene da ComoZero .",
-      "published_at": "2026-11-19T21:02:50+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
