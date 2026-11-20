@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:21:40.445935+00:00",
+  "generated_at": "2026-11-20T15:02:23.675092+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi”",
+      "url": "https://comozero.it/attualita/como-e-i-ciliegi-di-via-xx-settembre-il-comune-insiste-vuole-abbatterli-tutti-e-torna-a-tirare-in-ballo-i-parcheggi",
+      "summary": "Una storia veramente senza fine quella dei ciliegi di via XX Settembre. L’ultima puntata risale a pochi giorni fa ma è già tempo di un ulteriore passaggio che viene spiegato così da Teresa Minniti, Giorgia Merlini e Sergio Gaddi del Comitato dei ciliegi,, che si batte per la salvaguardia dei questi alberi (qui tutte le […] L'articolo Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi” proviene da ComoZero .",
+      "published_at": "2026-11-20T14:58:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Mimmo Rotella, arte e industria si incontrano a Como: alla Galleria Diaz14 la monumentale opera del 1988",
+      "url": "https://www.ciaocomo.it/2026/11/20/mimmo-rotella-arte-e-industria-si-incontrano-a-como-alla-galleria-diaz14-la-monumentale-opera-del-1988/347339",
+      "summary": "Fino al 22 gennaio 2027 un'esposizione dedicata a “I luoghi dell'industria”, accompagnata da bozzetti originali, fotografie e documenti che raccontano la nascita dell'opera. Il progetto riprende l'omaggio presentato al Broletto nel 2018 The post Mimmo Rotella, arte e industria si incontrano a Como: alla Galleria Diaz14 la monumentale opera del 1988 appeared first on CiaoComo .",
+      "published_at": "2026-11-20T14:30:41+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, la scuola Montessori non si sposta. “Il nostro ricorso al Tar ha convinto chi si è aggiudicato l’immobile a rinunciare”",
+      "url": "https://comozero.it/attualita/como-la-scuola-montessori-non-si-sposta-il-nostro-ricorso-al-tar-ha-convinto-chi-si-e-aggiudicato-limmobile-a-rinunciare",
+      "summary": "A settembre raccontavamo di come la sede della scuola Montessori di via Bignanico era fortemente a rischio perchè l’immoile – messo a bando – era stato aggiudicato a Iexs Foundation Ets di Reggio Emilia, realtà educativa che gestisce la International Experiential School, per un canone annuo di 172.500 euro contro i 170.500 offerti dalla Scuola […] L'articolo Como, la scuola Montessori non si sposta. “Il nostro ricorso al Tar ha convinto chi si è aggiudicato l’immobile a rinunciare” proviene da ComoZero .",
+      "published_at": "2026-11-20T14:17:01+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "re"
+      ],
+      "territory_codes": [
+        "CO",
+        "RE"
+      ]
+    },
+    {
+      "title": "Agli Oscar della Sanità premiato il progetto TeleCuore di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/agli-oscar-della-sanita-premiato-il-progetto-telecuore-di-piacenza/671314",
+      "summary": "Tra i finalisti selezionati a livello nazionale figurava anche il progetto TeleCuore, che utilizza la telemedicina integrata tra ospedale-territorio per la gestione dei pazienti con scompenso cardiaco The post Agli Oscar della Sanità premiato il progetto TeleCuore di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T13:24:38+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Lavoro e persona nella quarta rivoluzione industriale, incontro su “Magnifica Humanitas”",
       "url": "https://www.piacenzasera.it/2026/11/lavoro-e-persona-nella-quarta-rivoluzione-industriale-incontro-su-magnifica-humanitas/671309",
@@ -81,20 +139,6 @@
       ],
       "territory_codes": [
         "PG"
-      ]
-    },
-    {
-      "title": "In tanti scioperano con la Cgil “Carovita insostenibile per lavoratori e famiglie anche a Piacenza”",
-      "url": "https://www.piacenzasera.it/2026/11/musica-e-corteo-in-centro-cgil-in-sciopero-contro-il-carovita/671246",
-      "summary": "Circa un migliaio i partecipanti alla mobilitazione, il corteo ha percorso il centro fino a confluire in piazza Cavalli The post In tanti scioperano con la Cgil “Carovita insostenibile per lavoratori e famiglie anche a Piacenza” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T11:22:05+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -154,20 +198,6 @@
       ]
     },
     {
-      "title": "Controlli straordinari della Polizia tra Olgiate Comasco e Fino Mornasco: identificate 100 persone",
-      "url": "https://www.ciaocomo.it/2026/11/20/controlli-straordinari-della-polizia-tra-olgiate-comasco-e-fino-mornasco-identificate-100-persone/348373",
-      "summary": "Verificati anche 28 veicoli, due sale giochi e altrettanti esercizi commerciali. Accertamenti amministrativi in un locale notturno, gli esiti saranno esaminati dagli uffici competenti The post Controlli straordinari della Polizia tra Olgiate Comasco e Fino Mornasco: identificate 100 persone appeared first on CiaoComo .",
-      "published_at": "2026-11-20T09:16:55+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Serie A, sabato blindato a Como per la sfida con il Cagliari: divieti di sosta fino a mercoledì per la Champions",
       "url": "https://comozero.it/attualita/serie-a-sabato-blindato-a-como-per-la-sfida-con-il-cagliari-divieti-di-sosta-fino-a-mercoledi-per-la-champions",
       "summary": "Sabato pomeriggio ad alta tensione sul fronte della viabilità cittadina. In occasione della sfida di Serie A tra Como e Cagliari, in programma domani, sabato 21 novembre 2026, alle ore 15 allo stadio Giuseppe Sinigaglia, la Polizia Locale ha predisposto un piano straordinario di limitazioni al traffico e alla sosta. I provvedimenti, regolati dall’ordinanza numero […] L'articolo Serie A, sabato blindato a Como per la sfida con il Cagliari: divieti di sosta fino a mercoledì per la Champions proviene da ComoZero .",
@@ -184,40 +214,12 @@
       ]
     },
     {
-      "title": "Disegni e tavole, in Pinacoteca a Como c’è tutto il genio di Antonio Sant’Elia: aperta la mostra",
-      "url": "https://www.ciaocomo.it/2026/11/20/disegni-e-tavole-in-pinacoteca-a-como-ce-tutto-il-genio-di-antonio-santelia-aperta-la-mostra/348363",
-      "summary": "Le parole della curatrice e dell'assessore alla cultura di Como. Una rassegna che porta a scoprire il lavoro di una delle figure più conosciute nella cultura cittadina. The post Disegni e tavole, in Pinacoteca a Como c’è tutto il genio di Antonio Sant’Elia: aperta la mostra appeared first on CiaoComo .",
-      "published_at": "2026-11-20T08:30:01+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Provincia di Como, distrugge gli arredi del condominio e con una bottiglia di vetro minaccia i carabinieri",
       "url": "https://comozero.it/attualita/provincia-di-como-distrugge-gli-arredi-del-condominio-e-con-una-bottiglia-di-vetro-minaccia-i-carabinieri",
       "summary": "Il 18 novembre 2026, a Canzo, i Carabinieri della Stazione di Asso hanno dato esecuzione a un’ordinanza di custodia cautelare in carcere, emessa dal Giudice per le indagini preliminari del Tribunale di Como, nei confronti di un 23enne del luogo, già sottoposto all’obbligo di presentazione alla polizia giudiziaria e all’obbligo di dimora nei comuni di […] L'articolo Provincia di Como, distrugge gli arredi del condominio e con una bottiglia di vetro minaccia i carabinieri proviene da ComoZero .",
       "published_at": "2026-11-20T08:28:00+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Natale a Como, da domani il mercatino in piazza Perretta e la pista di pattinaggio in piazza Cavour",
-      "url": "https://www.ciaocomo.it/2026/11/20/natale-a-como-da-domani-il-mercatino-in-piazza-perretta-e-la-pista-di-pattinaggio-in-piazza-cavour/348360",
-      "summary": "Casette in legno, artigianato e prodotti enogastronomici fino al 6 gennaio. Spazio alle associazioni in piazza Grimoldi, con iniziative e appuntamenti dedicati alle famiglie The post Natale a Como, da domani il mercatino in piazza Perretta e la pista di pattinaggio in piazza Cavour appeared first on CiaoComo .",
-      "published_at": "2026-11-20T08:00:21+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -339,36 +341,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Natale a Como, da sabato doppia magia: Mercatino in piazza Perretta e pista di pattinaggio su ghiaccio in piazza Cavour",
-      "url": "https://comozero.it/attualita/natale-a-como-da-sabato-doppia-magia-mercatino-in-piazza-perretta-e-pista-di-pattinaggio-su-ghiaccio-in-piazza-cavour",
-      "summary": "Nell’ambito della rassegna di eventi natalizi “Natale a Como” promossa dal Comune di Como, da sabato 21 novembre 2026 a mercoledì 6 gennaio 2027 piazza Perretta torna ad animarsi con le tradizionali casette in legno del Mercatino di Natale. L’iniziativa è curata dal Consorzio Como Turistica aggiudicatario dell’Avviso pubblico. Protagonisti i produttori locali e la […] L'articolo Natale a Como, da sabato doppia magia: Mercatino in piazza Perretta e pista di pattinaggio su ghiaccio in piazza Cavour proviene da ComoZero .",
-      "published_at": "2026-11-19T17:24:51+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Elezioni 2027 a Como, a sorpresa i Cinque Stelle lanciano la loro candidata sindaco: “Competenza e ascolto”",
-      "url": "https://comozero.it/politica/elezioni-2027-a-como-a-sorpresa-i-cinque-stelle-lanciano-la-loro-candidata-sindaco-competenza-e-ascolto",
-      "summary": "A dispetto di un nome che da settimane pare in assoluta pole position come candidato sindaco del centrosinistra, ovvero l’ex dirigente di Comune e Provincia di Como, Giuseppe Cosenza, oggi il Movimento Cinque Stelle – che pure siede al tavolo della coalizione – lancia un suo nome. Si tratta di Patrizia di Giuseppe, nel segno di […] L'articolo Elezioni 2027 a Como, a sorpresa i Cinque Stelle lanciano la loro candidata sindaco: “Competenza e ascolto” proviene da ComoZero .",
-      "published_at": "2026-11-19T17:08:01+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "cs"
-      ],
-      "territory_codes": [
-        "CO",
-        "CS"
       ]
     },
     {
