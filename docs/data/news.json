@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-20T18:04:17.081687+00:00",
+  "generated_at": "2026-11-20T19:08:22.300878+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 1,
+      "inserted": 1,
       "ok": true
     },
     {
@@ -28,6 +28,34 @@
   ],
   "articles": [
     {
+      "title": "Mobilità sostenibile e qualità dell’aria: in arrivo Piacenza oltre 6,7 milioni dal Ministero",
+      "url": "https://www.piacenzasera.it/2026/11/mobilita-sostenibile-e-qualita-dellaria-in-arrivo-piacenza-oltre-67-milioni-dal-ministero/671407",
+      "summary": "The post Mobilità sostenibile e qualità dell’aria: in arrivo Piacenza oltre 6,7 milioni dal Ministero appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T18:44:22+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Elezioni a Como, il centrodestra scalda i motori (e il candidato sindaco?): due eventi con i big dei partiti",
+      "url": "https://comozero.it/politica/elezioni-a-como-il-centrodestra-scalda-i-motori-e-il-candidato-sindaco-due-eventi-con-i-big-dei-partiti",
+      "summary": "Verso le elezioni comunali di Como, il centrodestra si mobilita nel weekend del 28 e 29 novembre tra gli appuntamenti di Forza Italia e Fratelli d’Italia. Con l’avvicinarsi delle elezioni comunali a Como, le forze politiche del centrodestra iniziano a serrare i ranghi e a delineare le proprie strategie sul territorio. Il fine settimana di […] L'articolo Elezioni a Como, il centrodestra scalda i motori (e il candidato sindaco?): due eventi con i big dei partiti proviene da ComoZero .",
+      "published_at": "2026-11-20T18:21:59+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Como e Brunate: 146 milioni di euro per lo storico passaggio degli acquedotti",
       "url": "https://comozero.it/attualita/como-e-brunate-146-milioni-di-euro-per-lo-storico-passaggio-degli-acquedotti",
       "summary": "L’Assemblea dei Soci di Como Acqua ha riunito i sindaci del territorio, nel pomeriggio di giovedì 19 novembre, che hanno esaminato e approvato i principali temi relativi allo sviluppo industriale, finanziario e gestionale della Società, con particolare riferimento al subentro nella gestione del servizio acquedotto nei Comuni di Como e Brunate, alla riorganizzazione delle fonti […] L'articolo Como e Brunate: 146 milioni di euro per lo storico passaggio degli acquedotti proviene da ComoZero .",
@@ -42,9 +70,23 @@
       ]
     },
     {
-      "title": "Variante della Tremezzina, nuovi semafori tra Colonno e Griante. “L’impianto di betonaggio a Castliglione d’Intelvi strategico per completare i lavori nei tempi”",
+      "title": "Tenta di rubare di alcolici al supermercato, arrestato dalla polizia locale",
+      "url": "https://www.piacenzasera.it/2026/11/tenta-di-rubare-di-alcolici-al-supermercato-arrestato-dalla-polizia-locale/671393",
+      "summary": "L'uomo ha colpito con una testata un addetto alla vigilanza e si è ribellato al fermo The post Tenta di rubare di alcolici al supermercato, arrestato dalla polizia locale appeared first on piacenzasera.it .",
+      "published_at": "2026-11-20T17:32:06+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "fm"
+      ],
+      "territory_codes": [
+        "FM"
+      ]
+    },
+    {
+      "title": "Variante della Tremezzina, nuovi semafori tra Colonno e Griante. “L’impianto di betonaggio a Castiglione strategico per completare i lavori nei tempi”",
       "url": "https://comozero.it/attualita/variante-della-tremezzina-nuovi-semafori-tra-colonno-e-griante-limpianto-di-betonaggio-a-castliglione-dintelvi-strategico-per-completare-i-lavori-nei-tempi",
-      "summary": "Nuovi semafori per fluidificare il traffico sulla Statale 340 Regina e cantieri ormai vicini al pieno regime. È questo il doppio bilancio emerso questa mattina a Palazzo del Governo, durante il Tavolo istituzionale dedicato alla Variante della Tremezzina convocato dal Prefetto di Como, Corrado Conforto Galli, e dal Presidente della Provincia, Fiorenzo Bongiasca. Al vertice […] L'articolo Variante della Tremezzina, nuovi semafori tra Colonno e Griante. “L’impianto di betonaggio a Castliglione d’Intelvi strategico per completare i lavori nei tempi” proviene da ComoZero .",
+      "summary": "Nuovi semafori per fluidificare il traffico sulla Statale 340 Regina e cantieri ormai vicini al pieno regime. È questo il doppio bilancio emerso questa mattina a Palazzo del Governo, durante il Tavolo istituzionale dedicato alla Variante della Tremezzina convocato dal Prefetto di Como, Corrado Conforto Galli, e dal Presidente della Provincia, Fiorenzo Bongiasca. Al vertice […] L'articolo Variante della Tremezzina, nuovi semafori tra Colonno e Griante. “L’impianto di betonaggio a Castiglione strategico per completare i lavori nei tempi” proviene da ComoZero .",
       "published_at": "2026-11-20T16:00:30+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -186,20 +228,6 @@
       ]
     },
     {
-      "title": "Agli Oscar della Sanità premiato il progetto TeleCuore di Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/agli-oscar-della-sanita-premiato-il-progetto-telecuore-di-piacenza/671314",
-      "summary": "Tra i finalisti selezionati a livello nazionale figurava anche il progetto TeleCuore, che utilizza la telemedicina integrata tra ospedale-territorio per la gestione dei pazienti con scompenso cardiaco The post Agli Oscar della Sanità premiato il progetto TeleCuore di Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T13:24:38+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como e la nuova legge sull’enogastronomia: “Bene, ma non diventi l’esaltazione della sagra fine a se stessa”",
       "url": "https://comozero.it/attualita/como-e-la-nuova-legge-sullenogastronomia-bene-ma-non-diventi-lesaltazione-della-sagra-fine-a-se-stessa",
       "summary": "Giudizio nel complesso positivo sulla nuova Legge Regionale dedicata al settore enogastronomico, considerata un punto di partenza per la crescita del comparto. Detto questo però Confcommercio sottolinea come sia necessaria una governance tecnicamente competente nella fase attuativa, così da evitare la dequalificazione. Ma di cosa si tratta? A fine ottobre è arrivato il va libera […] L'articolo Como e la nuova legge sull’enogastronomia: “Bene, ma non diventi l’esaltazione della sagra fine a se stessa” proviene da ComoZero .",
@@ -234,20 +262,6 @@
       "published_at": "2026-11-20T10:17:55+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sciopero generale a Como, oltre mille persone in corteo con la Cgil: traffico bloccato in centro",
-      "url": "https://www.ciaocomo.it/2026/11/20/sciopero-generale-a-como-oltre-mille-persone-in-corteo-con-la-cgil-traffico-bloccato-in-centro/348384",
-      "summary": "Lavoratori e studenti in piazza contro le politiche economiche e sociali del Governo. Sandro Estelli: «Una bellissima immagine della città, tante facce nuove». Disagi alla circolazione lungo il percorso The post Sciopero generale a Como, oltre mille persone in corteo con la Cgil: traffico bloccato in centro appeared first on CiaoComo .",
-      "published_at": "2026-11-20T10:16:54+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -344,10 +358,10 @@
       ]
     },
     {
-      "title": "Scuola superiore, a Como il Canossa apre le porte: tre indirizzi per costruire il futuro",
-      "url": "https://comozero.it/pubbliredazionale/scuola-superiore-a-como-il-canossa-apre-le-porte-tre-indirizzi-per-costruire-il-futuro",
-      "summary": "Non solo prepararsi al futuro, ma imparare a costruirlo con consapevolezza, passione e fiducia nei propri mezzi. Sabato 28 novembre 2026, l’Istituto Matilde di Canossa di Como apre le proprie porte alle famiglie e agli studenti delle scuole medie per l’Open Day dedicato ai Licei e all’Istituto Professionale (dettagli su orari e modalità di partecipazione […] L'articolo Scuola superiore, a Como il Canossa apre le porte: tre indirizzi per costruire il futuro proviene da ComoZero .",
-      "published_at": "2026-11-19T23:23:02+00:00",
+      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
+      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
+      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
+      "published_at": "2026-11-19T23:27:40+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -355,22 +369,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Morì a 28 anni lasciando capolavori visionari: Como abbraccia il genio di Sant’Elia, la mostra in Pinacoteca da domani",
-      "url": "https://comozero.it/cultura-e-spettacolo/mori-a-28-anni-lasciando-capolavori-visionari-como-abbraccia-il-genio-di-santelia-la-mostra-in-pinacoteca-da-domani",
-      "summary": "20Morì in trincea a 28 anni, lasciando progetti visionari che non furono mai realizzati. Quattordici anni dopo, i suoi disegni influenzarono architetti razionalisti e pittori astrattisti. Da domani, venerdì 20 novembre, la Pinacoteca civica racconta questa eredità con una mostra che coinvolge anche Milano Apre domani, venerdì 20 novembre, alla Pinacoteca civica di Como la […] L'articolo Morì a 28 anni lasciando capolavori visionari: Como abbraccia il genio di Sant’Elia, la mostra in Pinacoteca da domani proviene da ComoZero .",
-      "published_at": "2026-11-19T23:22:38+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     },
     {
