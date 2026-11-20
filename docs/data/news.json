@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T09:12:15.428131+00:00",
+  "generated_at": "2026-11-20T10:14:13.628549+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "“Tra Genova, l’Emilia e il West”, a Canzo in viaggio con De Andrè e Guccini",
+      "url": "https://www.ciaocomo.it/2026/11/20/tra-genova-lemilia-e-il-west-a-canzo-in-viaggio-con-de-andre-e-guccini/348254",
+      "summary": "Ellade Bandini e Flaco Biondini guidano una super band nel concerto omaggio ai due maestri della canzone d’autore italiana, Guccini e De Andrè The post “Tra Genova, l’Emilia e il West”, a Canzo in viaggio con De Andrè e Guccini appeared first on CiaoComo .",
+      "published_at": "2026-11-20T10:00:36+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "ge"
+      ],
+      "territory_codes": [
+        "GE"
+      ]
+    },
+    {
+      "title": "Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata",
+      "url": "https://primacomo.it/altro/controlli-dei-carabinieri-di-cernobbio-59-persone-identificate-e-una-denunciata",
+      "summary": "Controlli straordinari dei Carabinieri di Cernobbio: 59 persone identificate e una denunciate. Controlli dei Carabinieri Nella giornata di ieri, 19 novembre, i Carabinieri della Stazione di Cernobbio hanno svolto un servizio straordinario di controllo del territorio, finalizzato alla prevenzione e al contrasto dei reati, con particolare attenzione ai furti in abitazione e agli altri reati […] Continua la lettura di Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata sul portale Prima Como .",
+      "published_at": "2026-11-20T09:33:22+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Controlli straordinari della Polizia tra Olgiate Comasco e Fino Mornasco: identificate 100 persone",
+      "url": "https://www.ciaocomo.it/2026/11/20/controlli-straordinari-della-polizia-tra-olgiate-comasco-e-fino-mornasco-identificate-100-persone/348373",
+      "summary": "Verificati anche 28 veicoli, due sale giochi e altrettanti esercizi commerciali. Accertamenti amministrativi in un locale notturno, gli esiti saranno esaminati dagli uffici competenti The post Controlli straordinari della Polizia tra Olgiate Comasco e Fino Mornasco: identificate 100 persone appeared first on CiaoComo .",
+      "published_at": "2026-11-20T09:16:55+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Serie A, sabato blindato a Como per la sfida con il Cagliari: divieti di sosta fino a mercoledì per la Champions",
       "url": "https://comozero.it/attualita/serie-a-sabato-blindato-a-como-per-la-sfida-con-il-cagliari-divieti-di-sosta-fino-a-mercoledi-per-la-champions",
@@ -244,34 +286,6 @@
       ]
     },
     {
-      "title": "Terzo candidato per le amministrative di Como del 2027: il Movimento 5 Stelle sceglie Patrizia Di Giuseppe",
-      "url": "https://www.ciaocomo.it/2026/11/19/terzo-candidato-per-le-elezioni-di-como-del-2027-il-movimento-5-stelle-sceglie-patrizia-di-giuseppe/348351",
-      "summary": "L'annuncio oggi sui canali social:\"Como merita una importante figura con esperienza come consigliera d’amministrazione in Coop Lombardia e ruoli nei comitati soci e nella commissione cultura, oltre a una costante attività su legalità, cittadinanza attiva, sostenibilità ambientale\" The post Terzo candidato per le amministrative di Como del 2027: il Movimento 5 Stelle sceglie Patrizia Di Giuseppe appeared first on CiaoComo .",
-      "published_at": "2026-11-19T18:25:22+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "ONde LARIANE chiude con 500 studenti a confronto con  Matteo Piano: «Dagli errori portatevi a casa qualcosa»",
-      "url": "https://www.ciaocomo.it/2026/11/19/onde-lariane-chiude-con-500-studenti-a-confronto-con-matteo-piano-dagli-errori-portatevi-a-casa-qualcosa/348343",
-      "summary": "Al Pontificio Collegio Gallio di Como l'educational conclusivo della 4ª edizione. L'ex capitano azzurro ha dialogato con i ragazzi del Centrolago su responsabilità, scelte e lavoro di squadra. L’ideatrice di ONde Lariane Roberta Bernasconi: «Concludiamo parlando alle nuove generazioni del territorio» The post ONde LARIANE chiude con 500 studenti a confronto con Matteo Piano: «Dagli errori portatevi a casa qualcosa» appeared first on CiaoComo .",
-      "published_at": "2026-11-19T17:39:18+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Natale a Como, da sabato doppia magia: Mercatino in piazza Perretta e pista di pattinaggio su ghiaccio in piazza Cavour",
       "url": "https://comozero.it/attualita/natale-a-como-da-sabato-doppia-magia-mercatino-in-piazza-perretta-e-pista-di-pattinaggio-su-ghiaccio-in-piazza-cavour",
       "summary": "Nell’ambito della rassegna di eventi natalizi “Natale a Como” promossa dal Comune di Como, da sabato 21 novembre 2026 a mercoledì 6 gennaio 2027 piazza Perretta torna ad animarsi con le tradizionali casette in legno del Mercatino di Natale. L’iniziativa è curata dal Consorzio Como Turistica aggiudicatario dell’Avviso pubblico. Protagonisti i produttori locali e la […] L'articolo Natale a Como, da sabato doppia magia: Mercatino in piazza Perretta e pista di pattinaggio su ghiaccio in piazza Cavour proviene da ComoZero .",
@@ -327,22 +341,6 @@
       ],
       "territory_codes": [
         "MI"
-      ]
-    },
-    {
-      "title": "Scherma, Andrea Bossalini e Valentino Monaco (Pettorelli) brillano a Catania",
-      "url": "https://www.piacenzasera.it/2026/11/scherma-andrea-bossalini-e-valentino-monaco-pettorelli-brillano-a-catania/671191",
-      "summary": "Nella prima prova nazionale i due spadisti piacentini ottengono il pass per il secondo appuntamento a Roma The post Scherma, Andrea Bossalini e Valentino Monaco (Pettorelli) brillano a Catania appeared first on piacenzasera.it .",
-      "published_at": "2026-11-19T15:56:44+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "ct",
-        "rm"
-      ],
-      "territory_codes": [
-        "CT",
-        "RM"
       ]
     },
     {
@@ -666,20 +664,6 @@
       "url": "https://primacomo.it/scuola/listituto-san-vincenzo-lancia-un-nuovo-indirizzo-alla-secondaria-di-i-grado-di-albese-con-cassano-lo-scientifico-sportivo",
       "summary": "Arriva una novità all’Istituto San Vincenzo: dal prossimo anno scolastico, 2027-2028, la Scuola Secondaria di primo grado (scuola media) di Albese con Cassano avrà un nuovo indirizzo. Si tratta dello “Scientifico Sportivo”, un percorso che unisce movimento, biologia, ambiente e tecnologia in un’esperienza didattico-educativa integrata ed integrale. Cosa offre il nuovo indirizzo Il percorso Scientifico […] Continua la lettura di L’Istituto San Vincenzo lancia un nuovo indirizzo alla secondaria di I grado di Albese con Cassano: lo Scientifico Sportivo sul portale Prima Como .",
       "published_at": "2026-11-16T07:59:32+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Non paga  tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva",
-      "url": "https://primacomo.it/attualita/non-paga-i-tributi-e-canoni-demaniali-per-piu-di-15-milioni-di-euro-nei-guai-una-struttura-ricettiva",
-      "summary": "Non paga i tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva. Tributi non versati I militari della Guardia di finanza hanno sottoposto a controllo di polizia economico-finanziaria una struttura turistico-ricettiva all’aperto situata in prossimità del Lago Ceresio. L’intervento è stato finalizzato ad accertare il legittimo utilizzo del […] Continua la lettura di Non paga tributi e canoni demaniali per più di 1,5 milioni di euro, nei guai una struttura ricettiva sul portale Prima Como .",
-      "published_at": "2026-11-16T07:38:24+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
