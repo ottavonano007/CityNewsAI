@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T05:09:49.658824+00:00",
+  "generated_at": "2026-11-20T06:14:43.454581+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei. Si inizia tra pochissimo",
+      "url": "https://comozero.it/attualita/como-attenzione-se-siete-in-movimento-oggi-ce-lo-sciopero-e-tre-cortei-si-inizia-tra-pochissimo",
+      "summary": "Sarà un venerdì complicato sul fronte della viabilità a Como. In occasione dello sciopero generale di 24 ore proclamato dalla Cgil contro la manovra di bilancio del governo, la città sarà infatti attraversata da ben tre cortei, dalla mattina fino al tardo pomeriggio. Per garantire la sicurezza e consentire lo svolgimento delle manifestazioni, la Polizia […] L'articolo Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei. Si inizia tra pochissimo proviene da ComoZero .",
+      "published_at": "2026-11-20T06:14:37+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Scuola superiore, a Como il Canossa apre le porte: tre indirizzi per costruire il futuro",
       "url": "https://comozero.it/pubbliredazionale/scuola-superiore-a-como-il-canossa-apre-le-porte-tre-indirizzi-per-costruire-il-futuro",
@@ -341,20 +355,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Viale Varese, brutte, piene di spazzatura e abbandonate: al via lo sradicamento delle siepi",
-      "url": "https://comozero.it/attualita/viale-varese-brutte-piene-di-spazzatura-e-abbandonate-al-via-lo-sradicamento-delle-siepi",
-      "summary": "Che le siepi di viale Varese, quelle che separano l’area verde dal parcheggio, fossero in uno stato a dir poco pietoso era cosa nota da tempo. L’ultima segnalazione, tra piante mancanti o morenti, era stata fatta da una nostra lettrice giusto lo scorso luglio con una serie di scatti davvero impietosi. E oggi il Comune […] L'articolo Viale Varese, brutte, piene di spazzatura e abbandonate: al via lo sradicamento delle siepi proviene da ComoZero .",
-      "published_at": "2026-11-19T12:12:34+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "va"
-      ],
-      "territory_codes": [
-        "VA"
       ]
     },
     {
