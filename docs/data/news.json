@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:08:13.695945+00:00",
+  "generated_at": "2026-11-20T20:58:23.535861+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 1,
-      "inserted": 1,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
@@ -108,6 +108,22 @@
         "como"
       ],
       "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Arriva il Cagliari, Como in ripartenza dopo l’Inter a San Siro: torna Chalobah, tempi lunghi per Kean",
+      "url": "https://www.ciaocomo.it/2026/11/20/arriva-il-cagliari-como-in-ripartenza-dopo-linter-a-san-siro-torna-chalobah-tempi-lunghi-per-kean/348426",
+      "summary": "Fabregas in conferenza stampa:\"Ci siamo spaventati tutti, ora sta meglio. Non posso dire i tempi del suo recupero\". Domani squadra ostica in arrivo. In campo alle 15. The post Arriva il Cagliari, Como in ripartenza dopo l’Inter a San Siro: torna Chalobah, tempi lunghi per Kean appeared first on CiaoComo .",
+      "published_at": "2026-11-20T15:20:43+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "ca",
+        "como"
+      ],
+      "territory_codes": [
+        "CA",
         "CO"
       ]
     },
