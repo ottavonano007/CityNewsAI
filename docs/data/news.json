@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:49:32.162386+00:00",
+  "generated_at": "2026-11-21T22:49:47.442309+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,36 @@
     }
   ],
   "articles": [
+    {
+      "title": "I mercatini di Natale in Lombardia: tra lago, città e montagne sapori e atmosfere delle feste",
+      "url": "https://comozero.it/attualita/i-mercatini-di-natale-in-lombardia-tra-lago-citta-e-montagne-sapori-e-atmosfere-delle-feste",
+      "summary": "Con l’avvicinarsi del Natale tornano anche i tradizionali mercatini, un appuntamento che ogni anno richiama migliaia di visitatori tra casette di legno, prodotti artigianali, decorazioni, idee regalo e specialità gastronomiche. Anche per il Natale 2026 la Lombardia propone numerosi mercatini, distribuiti tra città, borghi storici, località di montagna e paesi affacciati sui laghi. Da Milano […] L'articolo I mercatini di Natale in Lombardia: tra lago, città e montagne sapori e atmosfere delle feste proviene da ComoZero .",
+      "published_at": "2026-11-21T22:33:48+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Triste Natale a Como: chiude la Libreria del Ragionier Bianchi, spazio incantato per i bimbi. Sarah e Jessica: “Ce l’abbiamo messa tutta”",
+      "url": "https://comozero.it/cultura-e-spettacolo/triste-natale-a-como-chiude-la-libreria-del-ragionier-bianchi-spazio-incantato-per-i-bimbi-sarah-e-jessica-ce-labbiamo-messa-tutta",
+      "summary": "Ci sono librerie dove si entra, si compra e si esce. E poi ci sono posti come questo, in viale Lecco 29, dove si entra per un albo illustrato e si finisce seduti in cerchio su un tappeto, con un pastello in mano o il naso all’insù ad ascoltare una storia raccontata come a teatro. […] L'articolo Triste Natale a Como: chiude la Libreria del Ragionier Bianchi, spazio incantato per i bimbi. Sarah e Jessica: “Ce l’abbiamo messa tutta” proviene da ComoZero .",
+      "published_at": "2026-11-21T22:26:58+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "lc"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC"
+      ]
+    },
     {
       "title": "Le pagelle del Como: Ramon giganteggia, Couto incanta e Da Cunha chiude i conti",
       "url": "https://comozero.it/sport/le-pagelle-del-como-ramon-giganteggia-couto-incanta-e-da-cunha-chiude-i-conti",
@@ -470,20 +500,6 @@
       "url": "https://comozero.it/politica/elezioni-a-como-il-centrodestra-scalda-i-motori-e-il-candidato-sindaco-due-eventi-con-i-big-dei-partiti",
       "summary": "Con l’avvicinarsi delle elezioni comunali a Como, le forze politiche del centrodestra iniziano a serrare i ranghi e a delineare le proprie strategie sul territorio. La settimana tra sabato 28 e il 5 dicembre 2026 potrebbe rappresentare un passaggio chiave per tastare il polso della coalizione, che si presenterà al gran completo in due distinti […] L'articolo Elezioni a Como, il centrodestra scalda i motori (e il candidato sindaco?): due eventi con i big dei partiti proviene da ComoZero .",
       "published_at": "2026-11-20T18:21:59+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como e Brunate: 146 milioni di euro per lo storico passaggio degli acquedotti",
-      "url": "https://comozero.it/attualita/como-e-brunate-146-milioni-di-euro-per-lo-storico-passaggio-degli-acquedotti",
-      "summary": "L’Assemblea dei Soci di Como Acqua ha riunito i sindaci del territorio, nel pomeriggio di giovedì 19 novembre, che hanno esaminato e approvato i principali temi relativi allo sviluppo industriale, finanziario e gestionale della Società, con particolare riferimento al subentro nella gestione del servizio acquedotto nei Comuni di Como e Brunate, alla riorganizzazione delle fonti […] L'articolo Como e Brunate: 146 milioni di euro per lo storico passaggio degli acquedotti proviene da ComoZero .",
-      "published_at": "2026-11-20T17:47:26+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
