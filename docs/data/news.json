@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:54:54.124275+00:00",
+  "generated_at": "2026-11-21T11:52:33.745442+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Rapina a Grosseto con lo spray al peperoncino, i carabinieri arrestano un 27enne a Lugagnano",
+      "url": "https://www.piacenzasera.it/2026/11/rapina-a-grosseto-con-lo-spray-al-peperoncino-i-carabinieri-arrestano-un-27enne-a-lugagnano/671442",
+      "summary": "La Squadra Mobile di Grosseto ha fornito ai militari le indicazioni per rintracciare l’indagato. Il giudice ha disposto la custodia cautelare in carcere per rapina aggravata e lesioni personali aggravate The post Rapina a Grosseto con lo spray al peperoncino, i carabinieri arrestano un 27enne a Lugagnano appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T11:26:04+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "gr"
+      ],
+      "territory_codes": [
+        "GR"
+      ]
+    },
     {
       "title": "Como, regole o buonsenso? “Il chihuahua nel marsupio, 8 chili di sacchi in mano e mi ha fatta scendere dal bus”",
       "url": "https://comozero.it/punti-di-vista/como-regole-o-buonsenso-il-chihuahua-nel-marsupio-8-chili-di-sacchi-in-mano-e-mi-ha-fatta-scendere-dal-bus",
@@ -125,24 +139,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Autostrada A1, chiusa per una notte la stazione di Fiorenzuola",
-      "url": "https://www.piacenzasera.it/2026/11/autostrada-a1-chiusa-per-una-notte-la-stazione-di-fiorenzuola/671351",
-      "summary": "Chiuso per lavori anche Ramo di immissione sulla D21 Diramazione Fiorenzuola, verso la A21 Torino-Piacenza-Brescia The post Autostrada A1, chiusa per una notte la stazione di Fiorenzuola appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T07:00:38+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bs",
-        "piacenza",
-        "to"
-      ],
-      "territory_codes": [
-        "BS",
-        "PC",
-        "TO"
       ]
     },
     {
@@ -352,20 +348,6 @@
       "url": "https://comozero.it/attualita/provincia-di-como-distrugge-gli-arredi-del-condominio-e-con-una-bottiglia-di-vetro-minaccia-i-carabinieri",
       "summary": "Il 18 novembre 2026, a Canzo, i Carabinieri della Stazione di Asso hanno dato esecuzione a un’ordinanza di custodia cautelare in carcere, emessa dal Giudice per le indagini preliminari del Tribunale di Como, nei confronti di un 23enne del luogo, già sottoposto all’obbligo di presentazione alla polizia giudiziaria e all’obbligo di dimora nei comuni di […] L'articolo Provincia di Como, distrugge gli arredi del condominio e con una bottiglia di vetro minaccia i carabinieri proviene da ComoZero .",
       "published_at": "2026-11-20T08:28:00+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A pochi chilometri da Como scoperti 16mila addobbi di Natale insicuri in 3 negozi: multe fino a 77 mila euro",
-      "url": "https://comozero.it/attualita/a-pochi-chilometri-da-como-scoperti-16mila-addobbi-di-natale-insicuri-in-3-negozi-multe-fino-a-77-mila-euro",
-      "summary": "I militari della Compagnia Gallarate hanno controllato i requisiti di sicurezza dei prodotti posti in vendita, con particolare riferimento a decorazioni e luci natalizie ed ai giochi destinati ai più piccoli. Le attività hanno consentito di individuare tre esercizi commerciali, a Gallarate e Sesto Calende, che esponevano per la commercializzazione addobbi privi delle avvertenze di […] L'articolo A pochi chilometri da Como scoperti 16mila addobbi di Natale insicuri in 3 negozi: multe fino a 77 mila euro proviene da ComoZero .",
-      "published_at": "2026-11-20T07:19:58+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
