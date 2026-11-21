@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-21T18:56:07.594496+00:00",
+  "generated_at": "2026-11-21T19:53:20.290789+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,50 @@
     }
   ],
   "articles": [
+    {
+      "title": "BookCity Como, sette giorni tra libri, scienza, ragioni e follie: il programma della terza edizione",
+      "url": "https://comozero.it/cultura-e-spettacolo/bookcity-como-sette-giorni-tra-libri-scienza-ragioni-e-follie-il-programma-della-terza-edizione",
+      "summary": "Dal 22 al 29 novembre torna BookCity Milano a Como, con una terza edizione che amplia la rete delle collaborazioni e coinvolge nuovi luoghi della città e del territorio. Sette giorni di incontri, presentazioni, laboratori e letture, nel segno del tema scelto insieme a BookCity Milano: “Il senno sulla Luna. Sette giorni di libri, ragioni […] L'articolo BookCity Como, sette giorni tra libri, scienza, ragioni e follie: il programma della terza edizione proviene da ComoZero .",
+      "published_at": "2026-11-21T19:31:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Il Menaggio rinuncia alla promozione per rispetto del Tavernola: il Panathlon premia il fair play. Tutti i riconoscimenti",
+      "url": "https://comozero.it/sport/il-menaggio-rinuncia-alla-promozione-per-rispetto-del-tavernola-il-panathlon-premia-il-fair-play-tutti-i-riconoscimenti",
+      "summary": "A Villa del Grumello consegnati i riconoscimenti 2026 del Panathlon Club Como. Premi alla carriera a Fabrizio “Ciccio” Della Fiori, al gesto dell’ASD Calcio Menaggio e all’attività educativa dell’ASO Alzate Alta Brianza. Menzione speciale al Comitato Regionale Lombardia FIGC Rinunciare a una possibile promozione per dimostrare solidarietà a una società colpita da un lutto. È […] L'articolo Il Menaggio rinuncia alla promozione per rispetto del Tavernola: il Panathlon premia il fair play. Tutti i riconoscimenti proviene da ComoZero .",
+      "published_at": "2026-11-21T19:13:18+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, il Teatro Sociale sa sempre meravigliare: la platea diventa un campo da calcio",
+      "url": "https://comozero.it/cultura-e-spettacolo/como-il-teatro-sociale-sa-sempre-meravigliare-la-platea-diventa-un-campo-da-calcio",
+      "summary": "La capacità di meravigliare sempre è una delle qualità intrinseche del Teatro Sociale di Como che da ben più di vent’anni, proseguendo sempre in una lunghissima tradizione di ricerca, sa aprirsi al mondo, alla società e a tutto ciò che non necessariamente e sempre è palcoscenico puro. E’ successo anche oggi in occasione della seconda […] L'articolo Como, il Teatro Sociale sa sempre meravigliare: la platea diventa un campo da calcio proviene da ComoZero .",
+      "published_at": "2026-11-21T19:02:24+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Piacenza accende le feste: al via il Natale in centro con luminarie, albero e mercatino",
       "url": "https://www.piacenzasera.it/2026/11/piacenza-accende-le-feste-al-via-il-natale-in-centro-con-luminarie-albero-e-mercatino/671482",
@@ -70,6 +114,20 @@
       ],
       "territory_codes": [
         "CA",
+        "CO"
+      ]
+    },
+    {
+      "title": "Al via BookCity Como “Il senno sulla Luna”: da domani 7 giorni di libri, ragioni e follie",
+      "url": "https://www.ciaocomo.it/2026/11/21/al-via-bookcity-como-il-senno-sulla-luna-da-domani-7-giorni-di-libri-ragioni-e-follie/348483",
+      "summary": "The post Al via BookCity Como “Il senno sulla Luna”: da domani 7 giorni di libri, ragioni e follie appeared first on CiaoComo .",
+      "published_at": "2026-11-21T16:30:13+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
         "CO"
       ]
     },
@@ -194,7 +252,7 @@
     {
       "title": "Patelli: “La biodiversità si difende, non si prende a fucilate”. Oggi a Como il flashmob contro la nuova legge sulla caccia",
       "url": "https://comozero.it/punti-di-vista/patelli-la-biodiversita-si-difende-non-si-prende-a-fucilate-oggi-a-como-il-flashmob-contro-la-nuova-legge-sulla-caccia",
-      "summary": "E’ programmato per oggi, alle 16 in piazza Verdi, il flashmob organizzato a Alleanza Verdi Sinistra e Movimento Cinque Stelle contro la nuova legge sulla caccia. In queste ore è intervenuta la storica leader dei verdi comaschi e lombardi, Elisabetta Patelli, sottolineando le ragioni dell’iniziativa: Ddl caccia: più fucili nei boschi e sulle spiagge, meno […] L'articolo Patelli: “La biodiversità si difende, non si prende a fucilate”. Oggi a Como il flashmob contro la nuova legge sulla caccia proviene da ComoZero .",
+      "summary": "[Copertina: AI] E’ programmato per oggi, alle 16 in piazza Verdi, il flashmob organizzato a Alleanza Verdi Sinistra e Movimento Cinque Stelle contro la nuova legge sulla caccia. In queste ore è intervenuta la storica leader dei verdi comaschi e lombardi, Elisabetta Patelli, sottolineando le ragioni dell’iniziativa: Ddl caccia: più fucili nei boschi e sulle […] L'articolo Patelli: “La biodiversità si difende, non si prende a fucilate”. Oggi a Como il flashmob contro la nuova legge sulla caccia proviene da ComoZero .",
       "published_at": "2026-11-21T13:05:59+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -287,20 +345,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "Rapina a Grosseto con lo spray al peperoncino, i carabinieri arrestano un 27enne a Lugagnano",
-      "url": "https://www.piacenzasera.it/2026/11/rapina-a-grosseto-con-lo-spray-al-peperoncino-i-carabinieri-arrestano-un-27enne-a-lugagnano/671442",
-      "summary": "La Squadra Mobile di Grosseto ha fornito ai militari le indicazioni per rintracciare l’indagato. Il giudice ha disposto la custodia cautelare in carcere per rapina aggravata e lesioni personali aggravate The post Rapina a Grosseto con lo spray al peperoncino, i carabinieri arrestano un 27enne a Lugagnano appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T11:26:04+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "gr"
-      ],
-      "territory_codes": [
-        "GR"
       ]
     },
     {
@@ -443,50 +487,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Como, nel giorno dello sciopero l’Arci ricorda Enzo D’Antuono: “E’ sempre con noi, qui, in questa piazza per un futuro di pace” VIDEO",
-      "url": "https://comozero.it/attualita/como-nel-giorno-dello-sciopero-larci-ricorda-enzo-dantuono-e-sempre-con-noi-qui-in-questa-piazza-per-un-futuro-di-pace-video",
-      "summary": "L’Arci, parte della manifestazione di questa mattina per le strade di Como ha voluto ricordare, con Sara Sostini, la figura di Enzo D’Antuono scomparso pochi giorni fa e riaffermare l’impegno per il Gloria “bene comune, tassello della lotta contro le guerre e i diritti di tutti ovunque per un Nuovo mondo possibile”. Ecco l’intervento di […] L'articolo Como, nel giorno dello sciopero l’Arci ricorda Enzo D’Antuono: “E’ sempre con noi, qui, in questa piazza per un futuro di pace” VIDEO proviene da ComoZero .",
-      "published_at": "2026-11-20T15:44:43+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi”",
-      "url": "https://comozero.it/attualita/como-e-i-ciliegi-di-via-xx-settembre-il-comune-insiste-vuole-abbatterli-tutti-e-torna-a-tirare-in-ballo-i-parcheggi",
-      "summary": "Una storia veramente senza fine quella dei ciliegi di via XX Settembre. L’ultima puntata risale a pochi giorni fa ma è già tempo di un ulteriore passaggio che viene spiegato così da Teresa Minniti, Giorgia Merlini e Sergio Gaddi del Comitato dei ciliegi,, che si batte per la salvaguardia dei questi alberi (qui tutte le […] L'articolo Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi” proviene da ComoZero .",
-      "published_at": "2026-11-20T14:58:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, la scuola Montessori non si sposta. “Il nostro ricorso al Tar ha convinto chi si è aggiudicato l’immobile a rinunciare”",
-      "url": "https://comozero.it/attualita/como-la-scuola-montessori-non-si-sposta-il-nostro-ricorso-al-tar-ha-convinto-chi-si-e-aggiudicato-limmobile-a-rinunciare",
-      "summary": "A settembre raccontavamo di come la sede della scuola Montessori di via Bignanico era fortemente a rischio perchè l’immoile – messo a bando – era stato aggiudicato a Iexs Foundation Ets di Reggio Emilia, realtà educativa che gestisce la International Experiential School, per un canone annuo di 172.500 euro contro i 170.500 offerti dalla Scuola […] L'articolo Como, la scuola Montessori non si sposta. “Il nostro ricorso al Tar ha convinto chi si è aggiudicato l’immobile a rinunciare” proviene da ComoZero .",
-      "published_at": "2026-11-20T14:17:01+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "re"
-      ],
-      "territory_codes": [
-        "CO",
-        "RE"
       ]
     },
     {
