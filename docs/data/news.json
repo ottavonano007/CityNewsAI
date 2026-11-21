@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T07:17:33.274137+00:00",
+  "generated_at": "2026-11-21T08:56:16.661852+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Oltre 60 elaborati per il concorso «100 torri e 1.000 canestri»",
+      "url": "https://primacomo.it/attualita/oltre-60-elaborati-per-il-concorso-100-torri-e-1-000-canestri",
+      "summary": "Il 12 novembre si è conclusa la prima fase del concorso letterario organizzato dall’associazione Charturium, con il patrocinio del Comune di Cantù e della Pallacanestro Cantù. Il risultato Alla sede dell’associazione e nei negozi canturini, che hanno aderito all’evento, sono giunti 66 elaborati, suddivisi in ugual numero tra narrativa e poesia. «Il titolo del concorso, […] Continua la lettura di Oltre 60 elaborati per il concorso «100 torri e 1.000 canestri» sul portale Prima Como .",
+      "published_at": "2026-11-21T08:13:30+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Spelzini: “Moschee abusive, la Lega in Lombardia propone la stretta”",
       "url": "https://primacomo.it/politica/spelzini-moschee-abusive-la-lega-in-lombardia-propone-la-stretta",
@@ -55,6 +69,52 @@
       "territory_codes": [
         "CO",
         "MI"
+      ]
+    },
+    {
+      "title": "Un concerto per ricordare Mario Moretti: a Como il duo di violoncelli Cello²",
+      "url": "https://www.ciaocomo.it/2026/11/21/un-concerto-per-ricordare-mario-moretti-a-como-il-duo-di-violoncelli-cello%c2%b2/348290",
+      "summary": "Sabato 21 novembre all’Università della Terza Età Alessandro Volta un omaggio al docente e consigliere dell’UTE, con i giovani musicisti Riccardo Binda e Matilde Mezzadri The post Un concerto per ricordare Mario Moretti: a Como il duo di violoncelli Cello² appeared first on CiaoComo .",
+      "published_at": "2026-11-21T07:00:43+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Autostrada A1, chiusa per una notte la stazione di Fiorenzuola",
+      "url": "https://www.piacenzasera.it/2026/11/autostrada-a1-chiusa-per-una-notte-la-stazione-di-fiorenzuola/671351",
+      "summary": "Chiuso per lavori anche Ramo di immissione sulla D21 Diramazione Fiorenzuola, verso la A21 Torino-Piacenza-Brescia The post Autostrada A1, chiusa per una notte la stazione di Fiorenzuola appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T07:00:38+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "bs",
+        "piacenza",
+        "to"
+      ],
+      "territory_codes": [
+        "BS",
+        "PC",
+        "TO"
+      ]
+    },
+    {
+      "title": "Al Raineri-Marcora studenti al confronto sulle nuove competenze dell’agroalimentare",
+      "url": "https://www.piacenzasera.it/2026/11/al-raineri-marcora-studenti-al-confronto-sulle-nuove-competenze-dellagroalimentare/671358",
+      "summary": "In occasione dell'appuntamento piacentino di “Future Skills - Le competenze che fanno crescere l’agroalimentare” The post Al Raineri-Marcora studenti al confronto sulle nuove competenze dell’agroalimentare appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T07:00:07+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
@@ -172,84 +232,12 @@
       ]
     },
     {
-      "title": "Student Night, oltre 300 studenti alla Festa delle Matricole a Too",
-      "url": "https://www.piacenzasera.it/2026/11/student-night-oltre-300-studenti-alla-festa-delle-matricole-a-too/671340",
-      "summary": "Si è rinnovato con successo il tradizionale appuntamento promosso dall'Amministrazione comunale nell'ambito del Protocollo \"Piacenza Città delle Università\" The post Student Night, oltre 300 studenti alla Festa delle Matricole a Too appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T15:15:36+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Assemblea per l’80esimo anniversario di Cna con Mattarella, Piacenza presente",
-      "url": "https://www.piacenzasera.it/2026/11/assemblea-per-l80esimo-anniversario-di-cna-con-mattarella-piacenza-presente/671342",
-      "summary": "Molto apprezzato l’intervento del Presidente Mattarella, salutato dall’Assemblea della Fiera di Roma da un lungo e caloroso applauso The post Assemblea per l’80esimo anniversario di Cna con Mattarella, Piacenza presente appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T15:12:58+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza",
-        "rm"
-      ],
-      "territory_codes": [
-        "PC",
-        "RM"
-      ]
-    },
-    {
-      "title": "Dai libri una voce contro la violenza sulle donne. Alla Biblioteca Dante il reading collettivo",
-      "url": "https://www.piacenzasera.it/2026/11/dai-libri-una-voce-contro-la-violenza-sulle-donne-alla-biblioteca-dante-il-reading-collettivo/671338",
-      "summary": "L'evento promosso dalla Commissione delle Elette del Comune di Piacenza: alla lettura dei testi parteciperanno anche assessori e consiglieri The post Dai libri una voce contro la violenza sulle donne. Alla Biblioteca Dante il reading collettivo appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T15:03:11+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi”",
       "url": "https://comozero.it/attualita/como-e-i-ciliegi-di-via-xx-settembre-il-comune-insiste-vuole-abbatterli-tutti-e-torna-a-tirare-in-ballo-i-parcheggi",
       "summary": "Una storia veramente senza fine quella dei ciliegi di via XX Settembre. L’ultima puntata risale a pochi giorni fa ma è già tempo di un ulteriore passaggio che viene spiegato così da Teresa Minniti, Giorgia Merlini e Sergio Gaddi del Comitato dei ciliegi,, che si batte per la salvaguardia dei questi alberi (qui tutte le […] L'articolo Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi” proviene da ComoZero .",
       "published_at": "2026-11-20T14:58:15+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sabato di festa in centro: si accende, con le luminarie e l’albero, il Natale di Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/sabato-di-festa-in-centro-si-accende-con-le-luminarie-e-lalbero-il-natale-di-piacenza/671334",
-      "summary": "Già dalla mattinata saranno aperte le bancarelle del tradizionale mercatino, per tutto il week end sarà operativo anche il trenino che collega il Pubblico Passeggio a piazza Cavalli The post Sabato di festa in centro: si accende, con le luminarie e l’albero, il Natale di Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T14:58:02+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Mimmo Rotella, arte e industria si incontrano a Como: alla Galleria Diaz14 la monumentale opera del 1988",
-      "url": "https://www.ciaocomo.it/2026/11/20/mimmo-rotella-arte-e-industria-si-incontrano-a-como-alla-galleria-diaz14-la-monumentale-opera-del-1988/347339",
-      "summary": "Fino al 22 gennaio 2027 un'esposizione dedicata a “I luoghi dell'industria”, accompagnata da bozzetti originali, fotografie e documenti che raccontano la nascita dell'opera. Il progetto riprende l'omaggio presentato al Broletto nel 2018 The post Mimmo Rotella, arte e industria si incontrano a Como: alla Galleria Diaz14 la monumentale opera del 1988 appeared first on CiaoComo .",
-      "published_at": "2026-11-20T14:30:41+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -682,20 +670,6 @@
       "url": "https://primacomo.it/politica/prevenzione-oncologica-e-campagna-vaccinale-tutte-le-iniziative-promosse-da-regione-lombardia",
       "summary": "A firma della consigliera regionale di Forza Italia Marisa Cesana La prevenzione è uno degli investimenti più importanti per la salute dei cittadini. In Lombardia è una priorità concreta, attraverso screening, campagne di sensibilizzazione e un’offerta vaccinale capillare: l’obiettivo è intervenire in anticipo, quando le possibilità di cura sono maggiori. Come Forza Italia abbiamo sostenuto […] Continua la lettura di Prevenzione oncologica e campagna vaccinale tutte le iniziative promosse da Regione Lombardia sul portale Prima Como .",
       "published_at": "2026-11-16T13:00:35+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Spara al consuocero e poi scappa: arrestato",
-      "url": "https://primacomo.it/cronaca/spara-al-consuocero-e-poi-scappa-arrestato",
-      "summary": "Tragedia sfiorata nella serata di sabato 14 novembre a Cermenate, in via Crocifisso. Un uomo di 50 anni, residente in paese, ha sparato al consuocero, 62 anni, al termine di una lite. Lo sparo Pare che alla base del furioso litigio dei due consuoceri ci sia stato il tentativo di ciascuno di difendere il proprio […] Continua la lettura di Spara al consuocero e poi scappa: arrestato sul portale Prima Como .",
-      "published_at": "2026-11-16T12:23:18+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
