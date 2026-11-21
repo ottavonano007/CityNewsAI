@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:55:08.048457+00:00",
+  "generated_at": "2026-11-21T10:54:54.124275+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, regole o buonsenso? “Il chihuahua nel marsupio, 8 chili di sacchi in mano e mi ha fatta scendere dal bus”",
+      "url": "https://comozero.it/punti-di-vista/como-regole-o-buonsenso-il-chihuahua-nel-marsupio-8-chili-di-sacchi-in-mano-e-mi-ha-fatta-scendere-dal-bus",
+      "summary": "Premessa, le regole vanno rispettate. Ciò detto ci sono circostanze e contesti dove una certa flessibilità, laddove non si crei pericolo, diventa dimostrazione di comprensione delle difficoltà altrui. Mentre la rigida applicazione della norma suona un po’ come indifferenza. Ciò premesso riportiamo il racconto di una lettrice (mail firmata): Questa mattina ero con il mio […] L'articolo Como, regole o buonsenso? “Il chihuahua nel marsupio, 8 chili di sacchi in mano e mi ha fatta scendere dal bus” proviene da ComoZero .",
+      "published_at": "2026-11-21T10:50:02+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Permessi di sosta personalizzati, l’assessore Bongiorni “Tutela dei diritti e contrasto agli abusi”",
+      "url": "https://www.piacenzasera.it/2026/11/permessi-di-sosta-personalizzati-lassessore-bongiorni-tutela-dei-diritti-e-contrasto-agli-abusi/671437",
+      "summary": "Con una nota del Comune di Piacenza Matteo Bongiorni, il vicesindaco e assessore alla Mobilità, risponde alla mamma di una persona con disabilità che ha criticato la procedura per ottenere il \"Contrassegno Unificato Disabili Europeo\" The post Permessi di sosta personalizzati, l’assessore Bongiorni “Tutela dei diritti e contrasto agli abusi” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T10:43:36+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Premio Aeonis, al Teatro Sociale di Como la musica contemporanea dei giovani compositori",
       "url": "https://www.ciaocomo.it/2026/11/21/premio-aeonis-al-teatro-sociale-di-como-la-musica-contemporanea-dei-giovani-compositori/348301",
@@ -115,20 +143,6 @@
         "BS",
         "PC",
         "TO"
-      ]
-    },
-    {
-      "title": "Al Raineri-Marcora studenti al confronto sulle nuove competenze dell’agroalimentare",
-      "url": "https://www.piacenzasera.it/2026/11/al-raineri-marcora-studenti-al-confronto-sulle-nuove-competenze-dellagroalimentare/671358",
-      "summary": "In occasione dell'appuntamento piacentino di “Future Skills - Le competenze che fanno crescere l’agroalimentare” The post Al Raineri-Marcora studenti al confronto sulle nuove competenze dell’agroalimentare appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T07:00:07+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -352,36 +366,6 @@
       "url": "https://comozero.it/attualita/a-pochi-chilometri-da-como-scoperti-16mila-addobbi-di-natale-insicuri-in-3-negozi-multe-fino-a-77-mila-euro",
       "summary": "I militari della Compagnia Gallarate hanno controllato i requisiti di sicurezza dei prodotti posti in vendita, con particolare riferimento a decorazioni e luci natalizie ed ai giochi destinati ai più piccoli. Le attività hanno consentito di individuare tre esercizi commerciali, a Gallarate e Sesto Calende, che esponevano per la commercializzazione addobbi privi delle avvertenze di […] L'articolo A pochi chilometri da Como scoperti 16mila addobbi di Natale insicuri in 3 negozi: multe fino a 77 mila euro proviene da ComoZero .",
       "published_at": "2026-11-20T07:19:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, scontro auto-moto: coinvolto un 44enne",
-      "url": "https://comozero.it/attualita/provincia-di-como-scontro-auto-moto-coinvolto-un-44enne",
-      "summary": "Mattinata di disagi alla viabilità e grande apprensione lungo la strada statale per Lecco. Poco prima delle 7 di questa mattina si è verificato un grave incidente tra un’auto e uno scooter all’altezza della pizzeria Delfino Blu. Nell’impatto è rimasta ferita una persona di 44 anni soccorsa in codice rosso. La centrale operativa di Areu […] L'articolo Provincia di Como, scontro auto-moto: coinvolto un 44enne proviene da ComoZero .",
-      "published_at": "2026-11-20T06:26:14+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "lc"
-      ],
-      "territory_codes": [
-        "CO",
-        "LC"
-      ]
-    },
-    {
-      "title": "Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei",
-      "url": "https://comozero.it/attualita/como-attenzione-se-siete-in-movimento-oggi-ce-lo-sciopero-e-tre-cortei-si-inizia-tra-pochissimo",
-      "summary": "Sarà un venerdì complicato sul fronte della viabilità a Como. In occasione dello sciopero generale di 24 ore proclamato dalla Cgil contro la manovra di bilancio del governo, la città sarà infatti attraversata da ben tre cortei, dalla mattina fino al tardo pomeriggio. Per garantire la sicurezza e consentire lo svolgimento delle manifestazioni, la Polizia […] L'articolo Como, attenzione se siete in movimento: oggi c’è lo sciopero e tre cortei proviene da ComoZero .",
-      "published_at": "2026-11-20T06:14:37+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
