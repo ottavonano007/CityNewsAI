@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T11:52:33.745442+00:00",
+  "generated_at": "2026-11-21T13:03:51.941888+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Mercatino di Natale solidale: servirà per riqualificare la moquette dell’altare",
+      "url": "https://primacomo.it/attualita/mercatino-di-natale-solidale-servira-per-riqualificare-la-moquette-dellaltare",
+      "summary": "Valbrona, nella frazione di Visino torna il mercatino natalizio della parrocchia Beata Vergine Assunta a cura de “Le befane di Visino”, gruppo di volontarie molto attive nella frazione. Il mercatino “Da alcuni anni organizziamo nell’ex salone del cinema il mercatino del riuso il terzo sabato di ogni mese, ad eccezione di giugno perché in quel […] Continua la lettura di Mercatino di Natale solidale: servirà per riqualificare la moquette dell’altare sul portale Prima Como .",
+      "published_at": "2026-11-21T13:00:48+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Violenza di genere, una legge non basta: in Cattolica convegno con Violante e Pradella",
+      "url": "https://www.piacenzasera.it/2026/11/violenza-di-genere-una-legge-non-basta-in-cattolica-convegno-con-violante-e-pradella/671444",
+      "summary": "Magistrati, criminologi e accademici a confronto in Cattolica, campus di Piacenza, il 25 novembre, dalle 14 e 30 The post Violenza di genere, una legge non basta: in Cattolica convegno con Violante e Pradella appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T11:33:32+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Rapina a Grosseto con lo spray al peperoncino, i carabinieri arrestano un 27enne a Lugagnano",
       "url": "https://www.piacenzasera.it/2026/11/rapina-a-grosseto-con-lo-spray-al-peperoncino-i-carabinieri-arrestano-un-27enne-a-lugagnano/671442",
@@ -608,20 +636,6 @@
       "url": "https://primacomo.it/altro/spaccio-arrestato-un-diciottenne",
       "summary": "Durante la perquisizione viene trovato in possesso di marijuana e hashish, arrestato un diciottenne per spaccio. Spaccio, arrestato diciottenne Nei giorni scorsi, i Carabinieri della Stazione di Lurate Caccivio hanno arrestato un 18enne residente nel comune per detenzione di sostanze stupefacenti ai fini di spaccio. Nell’ambito di un’attività investigativa in materia di stupefacenti, i militari […] Continua la lettura di Spaccio, arrestato un diciottenne sul portale Prima Como .",
       "published_at": "2026-11-16T13:02:44+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Prevenzione oncologica e campagna vaccinale tutte le iniziative promosse da  Regione Lombardia",
-      "url": "https://primacomo.it/politica/prevenzione-oncologica-e-campagna-vaccinale-tutte-le-iniziative-promosse-da-regione-lombardia",
-      "summary": "A firma della consigliera regionale di Forza Italia Marisa Cesana La prevenzione è uno degli investimenti più importanti per la salute dei cittadini. In Lombardia è una priorità concreta, attraverso screening, campagne di sensibilizzazione e un’offerta vaccinale capillare: l’obiettivo è intervenire in anticipo, quando le possibilità di cura sono maggiori. Come Forza Italia abbiamo sostenuto […] Continua la lettura di Prevenzione oncologica e campagna vaccinale tutte le iniziative promosse da Regione Lombardia sul portale Prima Como .",
-      "published_at": "2026-11-16T13:00:35+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
