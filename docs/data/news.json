@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:53:27.149173+00:00",
+  "generated_at": "2026-11-21T16:54:48.303759+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,36 @@
     }
   ],
   "articles": [
+    {
+      "title": "Il Como torna a sorridere: 2-0 al Cagliari, decidono Ramon e Da Cunha",
+      "url": "https://primacomo.it/sport/il-como-torna-a-sorridere-2-0-al-cagliari-decidono-ramon-e-da-cunha",
+      "summary": "Il Como riparte con una vittoria. Dopo la sconfitta contro l’Inter e la sosta per le nazionali, la squadra di Cesc Fàbregas supera 2-0 il Cagliari al “Sinigaglia”, nella dodicesima giornata di campionato. A decidere la sfida sono due colpi di testa, firmati da Jacobo Ramon e Lucas Da Cunha, entrambi serviti da Yan Couto. […] Continua la lettura di Il Como torna a sorridere: 2-0 al Cagliari, decidono Ramon e Da Cunha sul portale Prima Como .",
+      "published_at": "2026-11-21T16:00:50+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "ca",
+        "como"
+      ],
+      "territory_codes": [
+        "CA",
+        "CO"
+      ]
+    },
+    {
+      "title": "Castello: via libera all’unanimità per esercitare il diritto di prelazione",
+      "url": "https://primacomo.it/cronaca/castello-via-libera-allunanimita-per-esercitare-il-diritto-di-prelazione",
+      "summary": "Asso, il Consiglio comunale ha deliberato all’unanimità la volontà di esercitare il diritto di prelazione sull’unità immobiliare situata all’interno della Torre del Castello. Un primo passo verso un progetto più ampio di tutela, recupero e valorizzazione di uno dei luoghi più rappresentativi della storia di Asso. Prezzo di 40.000 euro Nella seduta di martedì il […] Continua la lettura di Castello: via libera all’unanimità per esercitare il diritto di prelazione sul portale Prima Como .",
+      "published_at": "2026-11-21T16:00:38+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Allerta meteo per temporali e forte vento nel Piacentino",
       "url": "https://www.piacenzasera.it/2026/11/allerta-meteo-per-temporali-e-forte-vento-nel-piacentino/671463",
@@ -70,9 +100,9 @@
       ]
     },
     {
-      "title": "Como – Cagliari 1 a 0 (Parziale s.t.) segui con noi la diretta dal Sinigaglia",
+      "title": "Como-Cagliari 2-0: Ramon e Da Cunha stendono i sardi, continua la marcia dei lariani",
       "url": "https://www.ciaocomo.it/2026/11/21/como-cagliari-0-a-0-parziale-p-t-segui-con-noi-la-diretta-dal-sinigaglia/348443",
-      "summary": "The post Como – Cagliari 1 a 0 (Parziale s.t.) segui con noi la diretta dal Sinigaglia appeared first on CiaoComo .",
+      "summary": "The post Como-Cagliari 2-0: Ramon e Da Cunha stendono i sardi, continua la marcia dei lariani appeared first on CiaoComo .",
       "published_at": "2026-11-21T13:48:34+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -86,9 +116,9 @@
       ]
     },
     {
-      "title": "Como-Cagliari: la cronaca in diretta della partita",
+      "title": "Il Como vince “di testa”: Ramon e Da Cunha stendono il Cagliari",
       "url": "https://comozero.it/sport/como-cagliari-la-cronaca-in-diretta-della-partita",
-      "summary": "COMO-CAGLIARI 2-0 Marcatori: Ramon 24 pt. Da Cunha 11 st. Como (4-2-3-1): Butez; Couto, Ramón, Kempf, Kaiki; Milla, Ricci; Liberali, Baturina, Da Cunha; Douvikas. Allenatore: Fabregas. A disposizione: Vigorito, Sanchez, Valle, Dossena, Goldaniga, Smolcic, Chalobah, Perrone, Caqueret, Nico Paz, Lahdo, Papaccioli, Fustini. Cagliari (4-3-2-1): Caprile; Zé Pedro, Deiola, Kofler, Obert; Adopo, Romano, Fazzini; Grandu, Maldini; […] L'articolo Como-Cagliari: la cronaca in diretta della partita proviene da ComoZero .",
+      "summary": "COMO-CAGLIARI 2-0 Al Sinigaglia torna la Serie A e, al Como, torna il sorriso. I ragazzi di Fabregas si impongono per 2-0 sul Cagliari grazie alle testate di Ramon e Da Cunha e scacciano i dubbi dopo la brutta prestazione di San Siro contro l’Inter. I lariani non giocano una prima frazione esaltante, ma sfruttano […] L'articolo Il Como vince “di testa”: Ramon e Da Cunha stendono il Cagliari proviene da ComoZero .",
       "published_at": "2026-11-21T13:21:11+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -99,24 +129,6 @@
       "territory_codes": [
         "CA",
         "CO"
-      ]
-    },
-    {
-      "title": "LIVE Como-Cagliari 2-0 al 91′: ottima iniziativa di Lahdo, Caprile scherma",
-      "url": "https://primacomo.it/sport/live-como-cagliari-le-ufficiali-paz-in-panchina-ce-liberali",
-      "summary": "Il Como di Cesc Fàbregas ospita il Cagliari allo stadio “Giuseppe Sinigaglia”, in occasione della dodicesima giornata di Serie A. Calcio d’inizio alle 15, arbitra Andrea Calzavara della sezione di Varese. Di seguito tutti gli aggiornamenti LIVE della partita. LIVE Como-Cagliari Assegnati quattro minuti di recupero. 90′ – Ottima iniziativa di Lahdo: si incunea in […] Continua la lettura di LIVE Como-Cagliari 2-0 al 91′: ottima iniziativa di Lahdo, Caprile scherma sul portale Prima Como .",
-      "published_at": "2026-11-21T13:15:50+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "ca",
-        "como",
-        "va"
-      ],
-      "territory_codes": [
-        "CA",
-        "CO",
-        "VA"
       ]
     },
     {
@@ -694,20 +706,6 @@
       "url": "https://primacomo.it/attualita/elezioni-2027-secondo-incontro-per-la-formazione-di-una-nuova-lista",
       "summary": "Secondo incontro preliminare alla formazione di una lista per le Elezioni 2027 a Olgiate Comasco. Elezioni 2027, lavori in corso Dopo l’incontro inaugurale, tenuto lo scorso 22 ottobre, organizzato dai consiglieri comunali di minoranza del Gruppo misto (area di centrodestra) – Daniela Cammarata, Igor Castelli e Fabio Santoianni – ecco la seconda “tappa”. Giovedì 19 […] Continua la lettura di Elezioni 2027, secondo incontro per la formazione di una nuova lista sul portale Prima Como .",
       "published_at": "2026-11-16T16:17:44+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“E tu, che strada hai scelto?”: incontro in sala consiliare per parlare di giovani e lavoro",
-      "url": "https://primacomo.it/attualita/e-tu-che-strada-hai-scelto-incontro-in-sala-consiliare-per-parlare-di-giovani-e-lavoro",
-      "summary": "C’è chi segue la strada che ha sempre sognato, chi cambia direzione e chi scopre opportunità che non aveva nemmeno immaginato. La serata in programma per martedì 17 alle 21 organizzata dall’associazione culturale Lepomis in sala consiliare sarà un’occasione per parlare di giovani e mondo del lavoro. Un’occasione di confronto “E tu, che strada hai […] Continua la lettura di “E tu, che strada hai scelto?”: incontro in sala consiliare per parlare di giovani e lavoro sul portale Prima Como .",
-      "published_at": "2026-11-16T13:40:28+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
