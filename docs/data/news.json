@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:03:51.941888+00:00",
+  "generated_at": "2026-11-21T14:06:26.388830+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -28,12 +28,116 @@
   ],
   "articles": [
     {
+      "title": "Centocinquant’anni di storia del Corpo musicale olgiatese",
+      "url": "https://primacomo.it/attualita/centocinquantanni-di-storia-del-corpo-musicale-olgiatese",
+      "summary": "Centocinquant’anni di storia del Corpo musicale di Olgiate Comasco: week-end di eventi celebrativi. Corpo musicale in festa Sabato 21 novembre l’associazione presieduta da Enrico Cesana attende partecipazione alle iniziative che festeggiano l’anniversario. Si comincia con la mostra allestita al Medioevo e che resterà aperta per piú giorni. Il libro Nel pomeriggio odierno, con inizio alle […] Continua la lettura di Centocinquant’anni di storia del Corpo musicale olgiatese sul portale Prima Como .",
+      "published_at": "2026-11-21T14:00:13+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La protesta si fa durissima in provincia di Como: “Aree dismesse, finora abbiamo visto solo macerie”",
+      "url": "https://comozero.it/ambiente/la-protesta-si-fa-durissima-in-provincia-di-como-aree-dismesse-finora-abbiamo-visto-solo-macerie",
+      "summary": "Si è tenuto giovedì 19 novembre l’incontro pubblico dal titolo “Consumo di suolo zero e rigenerazione urbana senza speculazione”, organizzato dal Circolo Ambiente “Ilaria Alpi” presso la sala Isacchi di Ca’ Prina a Erba. Ecco quanto fa sapere il Circolo Ambiente Ilaria Alpi E’ intervenuto l’urbanista Gabriele Bollini che ha illustrato, con un linguaggio non […] L'articolo La protesta si fa durissima in provincia di Como: “Aree dismesse, finora abbiamo visto solo macerie” proviene da ComoZero .",
+      "published_at": "2026-11-21T13:56:59+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como – Cagliari 0 a 0 (Parziale p.t.) segui con noi la diretta dal Sinigaglia",
+      "url": "https://www.ciaocomo.it/2026/11/21/como-cagliari-0-a-0-parziale-p-t-segui-con-noi-la-diretta-dal-sinigaglia/348443",
+      "summary": "The post Como – Cagliari 0 a 0 (Parziale p.t.) segui con noi la diretta dal Sinigaglia appeared first on CiaoComo .",
+      "published_at": "2026-11-21T13:48:34+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "ca",
+        "como"
+      ],
+      "territory_codes": [
+        "CA",
+        "CO"
+      ]
+    },
+    {
+      "title": "Como-Cagliari: la cronaca in diretta della partita",
+      "url": "https://comozero.it/sport/como-cagliari-la-cronaca-in-diretta-della-partita",
+      "summary": "COMO-CAGLIARI 0-0 Marcatori: Como (4-2-3-1): Butez; Couto, Ramón, Kempf, Kaiki; Milla, Ricci; Liberali, Baturina, Da Cunha; Douvikas. Allenatore: Fabregas. A disposizione: Vigorito, Sanchez, Valle, Dossena, Goldaniga, Smolcic, Chalobah, Perrone, Caqueret, Nico Paz, Lahdo, Papaccioli, Fustini. Cagliari (4-3-2-1): Caprile; Zé Pedro, Deiola, Kofler, Obert; Adopo, Romano, Fazzini; Grandu, Maldini; Mendy. Allenatore: Pisacane. A disposizione: Sherri, Radunovic, […] L'articolo Como-Cagliari: la cronaca in diretta della partita proviene da ComoZero .",
+      "published_at": "2026-11-21T13:21:11+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "ca",
+        "como"
+      ],
+      "territory_codes": [
+        "CA",
+        "CO"
+      ]
+    },
+    {
+      "title": "LIVE Como-Cagliari 0-0 al 4′: lariani in controllo",
+      "url": "https://primacomo.it/sport/live-como-cagliari-le-ufficiali-paz-in-panchina-ce-liberali",
+      "summary": "Il Como di Cesc Fàbregas ospita il Cagliari allo stadio “Giuseppe Sinigaglia”, in occasione della dodicesima giornata di Serie A. Calcio d’inizio alle 15, arbitra Andrea Calzavara. Di seguito tutti gli aggiornamenti LIVE della partita. LIVE Como-Cagliari 4′ – Atteggiamento aggressivo dei lariani (oggi con la terza maglia) in questo avvio di gara. 15.02 – […] Continua la lettura di LIVE Como-Cagliari 0-0 al 4′: lariani in controllo sul portale Prima Como .",
+      "published_at": "2026-11-21T13:15:50+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "ca",
+        "como"
+      ],
+      "territory_codes": [
+        "CA",
+        "CO"
+      ]
+    },
+    {
+      "title": "Patelli: “La biodiversità si difende, non si prende a fucilate”. Oggi a Como il flashmob contro la nuova legge sulla caccia",
+      "url": "https://comozero.it/punti-di-vista/patelli-la-biodiversita-si-difende-non-si-prende-a-fucilate-oggi-a-como-il-flashmob-contro-la-nuova-legge-sulla-caccia",
+      "summary": "E’ programmato per oggi, alle 16 in piazza Verdi, il flashmob organizzato a Alleanza Verdi Sinistra e Movimento Cinque Stelle contro la nuova legge sulla caccia. In queste ore è intervenuta la storica leader dei verdi comaschi e lombardi, Elisabetta Patelli, sottolineando le ragioni dell’iniziativa: Ddl caccia: più fucili nei boschi e sulle spiagge, meno […] L'articolo Patelli: “La biodiversità si difende, non si prende a fucilate”. Oggi a Como il flashmob contro la nuova legge sulla caccia proviene da ComoZero .",
+      "published_at": "2026-11-21T13:05:59+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Mercatino di Natale solidale: servirà per riqualificare la moquette dell’altare",
       "url": "https://primacomo.it/attualita/mercatino-di-natale-solidale-servira-per-riqualificare-la-moquette-dellaltare",
       "summary": "Valbrona, nella frazione di Visino torna il mercatino natalizio della parrocchia Beata Vergine Assunta a cura de “Le befane di Visino”, gruppo di volontarie molto attive nella frazione. Il mercatino “Da alcuni anni organizziamo nell’ex salone del cinema il mercatino del riuso il terzo sabato di ogni mese, ad eccezione di giugno perché in quel […] Continua la lettura di Mercatino di Natale solidale: servirà per riqualificare la moquette dell’altare sul portale Prima Como .",
       "published_at": "2026-11-21T13:00:48+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo",
+      "url": "https://www.ciaocomo.it/2026/11/21/la-liberta-delle-donne-passa-anche-dal-teatro-a-como-lopera-di-franca-rame-e-dario-fo/348286",
+      "summary": "Nel centenario della nascita di Dario Fo, il Teatro Nuovo di Rebbio a Como ospita Tutta casa, letto e chiesa, una delle opere più significative scritte insieme a Franca Rame. The post La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo appeared first on CiaoComo .",
+      "published_at": "2026-11-21T12:30:44+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -240,22 +344,6 @@
       ]
     },
     {
-      "title": "Arriva il Cagliari, Como in ripartenza dopo l’Inter a San Siro: torna Chalobah, tempi lunghi per Kean",
-      "url": "https://www.ciaocomo.it/2026/11/20/arriva-il-cagliari-como-in-ripartenza-dopo-linter-a-san-siro-torna-chalobah-tempi-lunghi-per-kean/348426",
-      "summary": "Fabregas in conferenza stampa:\"Ci siamo spaventati tutti, ora sta meglio. Non posso dire i tempi del suo recupero\". Domani squadra ostica in arrivo. In campo alle 15. The post Arriva il Cagliari, Como in ripartenza dopo l’Inter a San Siro: torna Chalobah, tempi lunghi per Kean appeared first on CiaoComo .",
-      "published_at": "2026-11-20T15:20:43+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "ca",
-        "como"
-      ],
-      "territory_codes": [
-        "CA",
-        "CO"
-      ]
-    },
-    {
       "title": "Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi”",
       "url": "https://comozero.it/attualita/como-e-i-ciliegi-di-via-xx-settembre-il-comune-insiste-vuole-abbatterli-tutti-e-torna-a-tirare-in-ballo-i-parcheggi",
       "summary": "Una storia veramente senza fine quella dei ciliegi di via XX Settembre. L’ultima puntata risale a pochi giorni fa ma è già tempo di un ulteriore passaggio che viene spiegato così da Teresa Minniti, Giorgia Merlini e Sergio Gaddi del Comitato dei ciliegi,, che si batte per la salvaguardia dei questi alberi (qui tutte le […] L'articolo Como e i ciliegi di via XX Settembre: “Il Comune insiste: vuole abbatterli tutti e torna a tirare in ballo i parcheggi” proviene da ComoZero .",
@@ -328,56 +416,12 @@
       ]
     },
     {
-      "title": "“Non dobbiamo lasciare che siano altri a raccontare la bellezza di Como”: una strategia per il turismo con uno sguardo al passato",
-      "url": "https://comozero.it/attualita/non-dobbiamo-lasciare-che-siano-altri-a-raccontare-la-bellezza-di-como-una-strategia-per-il-turismo-con-uno-sguardo-al-passato",
-      "summary": "Il successo planetario di Como e delle sue bellezze è certificato, mese dopo mese, dal contino flusso di turisti in arrivo. Solo pochi giorni fa davamo conto di come le ricerche online su Como nel mercato cinese hanno registrato picchi di crescita fino al 200% grazie ad una campagna mirata. Allo stesso tempo il successo […] L'articolo “Non dobbiamo lasciare che siano altri a raccontare la bellezza di Como”: una strategia per il turismo con uno sguardo al passato proviene da ComoZero .",
-      "published_at": "2026-11-20T10:17:55+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata",
       "url": "https://primacomo.it/altro/controlli-dei-carabinieri-di-cernobbio-59-persone-identificate-e-una-denunciata",
       "summary": "Controlli straordinari dei Carabinieri di Cernobbio: 59 persone identificate e una denunciate. Controlli dei Carabinieri Nella giornata di ieri, 19 novembre, i Carabinieri della Stazione di Cernobbio hanno svolto un servizio straordinario di controllo del territorio, finalizzato alla prevenzione e al contrasto dei reati, con particolare attenzione ai furti in abitazione e agli altri reati […] Continua la lettura di Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata sul portale Prima Como .",
       "published_at": "2026-11-20T09:33:22+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Serie A, sabato blindato a Como per la sfida con il Cagliari: divieti di sosta fino a mercoledì per la Champions",
-      "url": "https://comozero.it/attualita/serie-a-sabato-blindato-a-como-per-la-sfida-con-il-cagliari-divieti-di-sosta-fino-a-mercoledi-per-la-champions",
-      "summary": "Sabato pomeriggio ad alta tensione sul fronte della viabilità cittadina. In occasione della sfida di Serie A tra Como e Cagliari, in programma domani, sabato 21 novembre 2026, alle ore 15 allo stadio Giuseppe Sinigaglia, la Polizia Locale ha predisposto un piano straordinario di limitazioni al traffico e alla sosta. I provvedimenti, regolati dall’ordinanza numero […] L'articolo Serie A, sabato blindato a Como per la sfida con il Cagliari: divieti di sosta fino a mercoledì per la Champions proviene da ComoZero .",
-      "published_at": "2026-11-20T09:00:33+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "ca",
-        "como"
-      ],
-      "territory_codes": [
-        "CA",
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, distrugge gli arredi del condominio e con una bottiglia di vetro minaccia i carabinieri",
-      "url": "https://comozero.it/attualita/provincia-di-como-distrugge-gli-arredi-del-condominio-e-con-una-bottiglia-di-vetro-minaccia-i-carabinieri",
-      "summary": "Il 18 novembre 2026, a Canzo, i Carabinieri della Stazione di Asso hanno dato esecuzione a un’ordinanza di custodia cautelare in carcere, emessa dal Giudice per le indagini preliminari del Tribunale di Como, nei confronti di un 23enne del luogo, già sottoposto all’obbligo di presentazione alla polizia giudiziaria e all’obbligo di dimora nei comuni di […] L'articolo Provincia di Como, distrugge gli arredi del condominio e con una bottiglia di vetro minaccia i carabinieri proviene da ComoZero .",
-      "published_at": "2026-11-20T08:28:00+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -606,36 +650,6 @@
       "url": "https://primacomo.it/attualita/e-tu-che-strada-hai-scelto-incontro-in-sala-consiliare-per-parlare-di-giovani-e-lavoro",
       "summary": "C’è chi segue la strada che ha sempre sognato, chi cambia direzione e chi scopre opportunità che non aveva nemmeno immaginato. La serata in programma per martedì 17 alle 21 organizzata dall’associazione culturale Lepomis in sala consiliare sarà un’occasione per parlare di giovani e mondo del lavoro. Un’occasione di confronto “E tu, che strada hai […] Continua la lettura di “E tu, che strada hai scelto?”: incontro in sala consiliare per parlare di giovani e lavoro sul portale Prima Como .",
       "published_at": "2026-11-16T13:40:28+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sant’Elia e gli anni Trenta tra Razionalismo e Astrattismo",
-      "url": "https://primacomo.it/attualita/santelia-e-gli-anni-trenta-tra-razionalismo-e-astrattismo",
-      "summary": "“Sant’Elia. Gli anni Trenta tra Razionalismo e Astrattismo”: giovedì 19 novembre, con inizio alle 18 alla Pinacoteca di Como, l’anteprima della mostra. Sant’Elia, due mostre a Como e a Milano Morì in trincea a 28 anni lasciando solo disegni. Quattordici anni dopo, quei fogli accesero l’immaginazione di una generazione di architetti razionalisti e pittori astrattisti. […] Continua la lettura di Sant’Elia e gli anni Trenta tra Razionalismo e Astrattismo sul portale Prima Como .",
-      "published_at": "2026-11-16T13:35:58+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
-      ]
-    },
-    {
-      "title": "Spaccio, arrestato un diciottenne",
-      "url": "https://primacomo.it/altro/spaccio-arrestato-un-diciottenne",
-      "summary": "Durante la perquisizione viene trovato in possesso di marijuana e hashish, arrestato un diciottenne per spaccio. Spaccio, arrestato diciottenne Nei giorni scorsi, i Carabinieri della Stazione di Lurate Caccivio hanno arrestato un 18enne residente nel comune per detenzione di sostanze stupefacenti ai fini di spaccio. Nell’ambito di un’attività investigativa in materia di stupefacenti, i militari […] Continua la lettura di Spaccio, arrestato un diciottenne sul portale Prima Como .",
-      "published_at": "2026-11-16T13:02:44+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
