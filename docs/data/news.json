@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T17:50:39.202536+00:00",
+  "generated_at": "2026-11-21T18:56:07.594496+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Piacenza accende le feste: al via il Natale in centro con luminarie, albero e mercatino",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-accende-le-feste-al-via-il-natale-in-centro-con-luminarie-albero-e-mercatino/671482",
+      "summary": "Piacenza accende le luminarie e inaugura il Natale in centro The post Piacenza accende le feste: al via il Natale in centro con luminarie, albero e mercatino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T17:47:16+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Fabregas post Como-Cagliari: “Partita trappola, a cui do grande valore. Da Cunha? Un gioiello straordinario”",
       "url": "https://primacomo.it/sport/fabregas-post-como-cagliari-partita-trappola-a-cui-do-grande-valore-da-cunha-un-gioiello-straordinario",
@@ -90,6 +104,20 @@
       ]
     },
     {
+      "title": "La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo",
+      "url": "https://www.ciaocomo.it/2026/11/21/la-liberta-delle-donne-passa-anche-dal-teatro-a-como-lopera-di-franca-rame-e-dario-fo/348286",
+      "summary": "Nel centenario della nascita di Dario Fo, il Teatro Nuovo di Rebbio a Como ospita Tutta casa, letto e chiesa, una delle opere più significative scritte insieme a Franca Rame. The post La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo appeared first on CiaoComo .",
+      "published_at": "2026-11-21T14:30:44+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Allerta meteo per temporali e forte vento nel Piacentino",
       "url": "https://www.piacenzasera.it/2026/11/allerta-meteo-per-temporali-e-forte-vento-nel-piacentino/671463",
       "summary": "The post Allerta meteo per temporali e forte vento nel Piacentino appeared first on piacenzasera.it .",
@@ -132,9 +160,9 @@
       ]
     },
     {
-      "title": "Como-Cagliari 2-0: Ramon e Da Cunha stendono i sardi, continua la marcia dei lariani",
+      "title": "Como-Cagliari 2-0: Ramon e il capitano Da Cunha stendono i sardi, continua la marcia dei lariani",
       "url": "https://www.ciaocomo.it/2026/11/21/como-cagliari-0-a-0-parziale-p-t-segui-con-noi-la-diretta-dal-sinigaglia/348443",
-      "summary": "The post Como-Cagliari 2-0: Ramon e Da Cunha stendono i sardi, continua la marcia dei lariani appeared first on CiaoComo .",
+      "summary": "Una rete per tempo e gli azzurri riprendono la marcia in classifica. Sardi insidiosi nei primi 45 minuti, le reti entrambe segnate di testa. Gara poi controllata. The post Como-Cagliari 2-0: Ramon e il capitano Da Cunha stendono i sardi, continua la marcia dei lariani appeared first on CiaoComo .",
       "published_at": "2026-11-21T13:48:34+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -192,20 +220,6 @@
       ]
     },
     {
-      "title": "La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo",
-      "url": "https://www.ciaocomo.it/2026/11/21/la-liberta-delle-donne-passa-anche-dal-teatro-a-como-lopera-di-franca-rame-e-dario-fo/348286",
-      "summary": "Nel centenario della nascita di Dario Fo, il Teatro Nuovo di Rebbio a Como ospita Tutta casa, letto e chiesa, una delle opere più significative scritte insieme a Franca Rame. The post La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo appeared first on CiaoComo .",
-      "published_at": "2026-11-21T12:30:44+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Riabilitazione logopedica della sordità, il convegno a Piacenza",
       "url": "https://www.piacenzasera.it/2026/11/riabilitazione-logopedica-della-sordita-il-convegno-a-piacenza/671465",
       "summary": "Sordità, con l'Ausl di Piacenza esperti a confronto per costruire una Consensus nazionale sulla riabilitazione logopedica The post Riabilitazione logopedica della sordità, il convegno a Piacenza appeared first on piacenzasera.it .",
@@ -217,6 +231,20 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "“Mitsou” opera-film per 4 voci e 7 strumenti a Chiasso",
+      "url": "https://www.ciaocomo.it/2026/11/21/mitsou-opera-film-per-4-voci-e-7-strumenti-a-chiasso/348473",
+      "summary": "A cent’anni dalla morte di Rainer Maria Rilke, il Festival A due voci di Como porta in scena al Teatro di Chiasso la storia del gatto che legò il poeta al giovane Balthus. The post “Mitsou” opera-film per 4 voci e 7 strumenti a Chiasso appeared first on CiaoComo .",
+      "published_at": "2026-11-21T12:30:20+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -287,20 +315,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Permessi di sosta personalizzati, l’assessore Bongiorni “Tutela dei diritti e contrasto agli abusi”",
-      "url": "https://www.piacenzasera.it/2026/11/permessi-di-sosta-personalizzati-lassessore-bongiorni-tutela-dei-diritti-e-contrasto-agli-abusi/671437",
-      "summary": "Con una nota del Comune di Piacenza Matteo Bongiorni, il vicesindaco e assessore alla Mobilità, risponde alla mamma di una persona con disabilità che ha criticato la procedura per ottenere il \"Contrassegno Unificato Disabili Europeo\" The post Permessi di sosta personalizzati, l’assessore Bongiorni “Tutela dei diritti e contrasto agli abusi” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T10:43:36+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
