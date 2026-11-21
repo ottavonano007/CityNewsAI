@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:02:02.409526+00:00",
+  "generated_at": "2026-11-21T07:17:33.274137+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,36 @@
     }
   ],
   "articles": [
+    {
+      "title": "Spelzini: “Moschee abusive, la Lega in Lombardia propone la stretta”",
+      "url": "https://primacomo.it/politica/spelzini-moschee-abusive-la-lega-in-lombardia-propone-la-stretta",
+      "summary": "Moschee abusive, dalla Lega una proposta di legge per rafforzare i controlli e dare più poteri ai sindaci. “La libertà di culto è un diritto fondamentale, ma non può diventare un pretesto per aggirare le leggi e le regole urbanistiche”. È da questo principio che nasce il progetto di legge presentato dalla Lega in Regione […] Continua la lettura di Spelzini: “Moschee abusive, la Lega in Lombardia propone la stretta” sul portale Prima Como .",
+      "published_at": "2026-11-21T07:06:45+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Parkinson, sei giorni per informarsi, confrontarsi e sentirsi meno soli",
+      "url": "https://primacomo.it/sanita/parkinson-sei-giorni-per-informarsi-confrontarsi-e-sentirsi-meno-soli",
+      "summary": "Dal 23 al 28 novembre il Centro Parkinson dell’Ospedale CTO di Milano ospiterà la Settimana del Parkinson 2026, iniziativa promossa dalla Fondazione Pezzoli per la Malattia di Parkinson ETS in collaborazione con l’ASST Gaetano Pini-CTO. Sei giornate dedicate a pazienti, caregiver e familiari con incontri gratuiti, momenti di confronto e aggiornamenti sui più recenti sviluppi […] Continua la lettura di Parkinson, sei giorni per informarsi, confrontarsi e sentirsi meno soli sul portale Prima Como .",
+      "published_at": "2026-11-21T07:00:48+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
     {
       "title": "Como, giardini a Lago: 200mila euro per la pavimentazione tra viale Marconi e viale Mafalda di Savoia",
       "url": "https://comozero.it/attualita/como-giardini-a-lago-200mila-euro-per-la-pavimentazione-tra-viale-marconi-e-viale-mafalda-di-savoia",
@@ -666,34 +696,6 @@
       "url": "https://primacomo.it/cronaca/spara-al-consuocero-e-poi-scappa-arrestato",
       "summary": "Tragedia sfiorata nella serata di sabato 14 novembre a Cermenate, in via Crocifisso. Un uomo di 50 anni, residente in paese, ha sparato al consuocero, 62 anni, al termine di una lite. Lo sparo Pare che alla base del furioso litigio dei due consuoceri ci sia stato il tentativo di ciascuno di difendere il proprio […] Continua la lettura di Spara al consuocero e poi scappa: arrestato sul portale Prima Como .",
       "published_at": "2026-11-16T12:23:18+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Rinnovo veicoli inquinanti, sostegno a piccole e medie imprese e Terzo settore",
-      "url": "https://primacomo.it/rubriche/la-regione-risponde/rinnovo-veicoli-inquinanti-sostegno-a-piccole-e-medie-imprese-e-terzo-settore",
-      "summary": "Continua la nostra rubrica che mette in contatto diretto Regione Lombardia e i lettori: scrivete a laregionerisponde@netweek.it e i vari assessori regionali competenti risponderanno alle vostre domande e segnalazioni, che possono interessare tutti i lombardi, dalla sanità ai trasporti, dalla sicurezza alla cultura, dall’economia al sociale. Il nostro obiettivo è quello di avvicinare le istituzioni […] Continua la lettura di Rinnovo veicoli inquinanti, sostegno a piccole e medie imprese e Terzo settore sul portale Prima Como .",
-      "published_at": "2026-11-16T12:12:24+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La Finanza sequestra dispositivi elettrici non conformi",
-      "url": "https://primacomo.it/cronaca/la-finanza-sequestra-dispositivi-elettrici-non-conformi",
-      "summary": "Prosegue l’azione di controllo a tutela dell’incolumità domestica da parte dei militari del Comando Provinciale di Como: dopo il controllo in un negozio sono state ritirate dal mercato multiprese e prolunghe prive delle necessarie verifiche tecniche di sicurezza. Il controllo Nell’ambito delle quotidiane attività di vigilanza volte a garantire la sicurezza dei consumatori e a […] Continua la lettura di La Finanza sequestra dispositivi elettrici non conformi sul portale Prima Como .",
-      "published_at": "2026-11-16T12:08:36+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
