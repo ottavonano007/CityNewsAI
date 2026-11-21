@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T14:06:26.388830+00:00",
+  "generated_at": "2026-11-21T14:57:30.967901+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Allerta meteo per temporali e forte vento nel Piacentino",
+      "url": "https://www.piacenzasera.it/2026/11/allerta-meteo-per-temporali-e-forte-vento-nel-piacentino/671463",
+      "summary": "The post Allerta meteo per temporali e forte vento nel Piacentino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T14:11:26+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Centocinquant’anni di storia del Corpo musicale olgiatese",
       "url": "https://primacomo.it/attualita/centocinquantanni-di-storia-del-corpo-musicale-olgiatese",
@@ -56,9 +70,9 @@
       ]
     },
     {
-      "title": "Como – Cagliari 0 a 0 (Parziale p.t.) segui con noi la diretta dal Sinigaglia",
+      "title": "Como – Cagliari 1 a 0 (Parziale p.t.) segui con noi la diretta dal Sinigaglia",
       "url": "https://www.ciaocomo.it/2026/11/21/como-cagliari-0-a-0-parziale-p-t-segui-con-noi-la-diretta-dal-sinigaglia/348443",
-      "summary": "The post Como – Cagliari 0 a 0 (Parziale p.t.) segui con noi la diretta dal Sinigaglia appeared first on CiaoComo .",
+      "summary": "The post Como – Cagliari 1 a 0 (Parziale p.t.) segui con noi la diretta dal Sinigaglia appeared first on CiaoComo .",
       "published_at": "2026-11-21T13:48:34+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -88,19 +102,21 @@
       ]
     },
     {
-      "title": "LIVE Como-Cagliari 0-0 al 4′: lariani in controllo",
+      "title": "LIVE Como-Cagliari 1-0 a fine primo tempo: lariani in vantaggio con Ramon",
       "url": "https://primacomo.it/sport/live-como-cagliari-le-ufficiali-paz-in-panchina-ce-liberali",
-      "summary": "Il Como di Cesc Fàbregas ospita il Cagliari allo stadio “Giuseppe Sinigaglia”, in occasione della dodicesima giornata di Serie A. Calcio d’inizio alle 15, arbitra Andrea Calzavara. Di seguito tutti gli aggiornamenti LIVE della partita. LIVE Como-Cagliari 4′ – Atteggiamento aggressivo dei lariani (oggi con la terza maglia) in questo avvio di gara. 15.02 – […] Continua la lettura di LIVE Como-Cagliari 0-0 al 4′: lariani in controllo sul portale Prima Como .",
+      "summary": "Il Como di Cesc Fàbregas ospita il Cagliari allo stadio “Giuseppe Sinigaglia”, in occasione della dodicesima giornata di Serie A. Calcio d’inizio alle 15, arbitra Andrea Calzavara della sezione di Varese. Di seguito tutti gli aggiornamenti LIVE della partita. LIVE Como-Cagliari ORE 15.48 – Calzavara fischia la fine del primo tempo. I lariani conducono per […] Continua la lettura di LIVE Como-Cagliari 1-0 a fine primo tempo: lariani in vantaggio con Ramon sul portale Prima Como .",
       "published_at": "2026-11-21T13:15:50+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
         "ca",
-        "como"
+        "como",
+        "va"
       ],
       "territory_codes": [
         "CA",
-        "CO"
+        "CO",
+        "VA"
       ]
     },
     {
@@ -143,6 +159,48 @@
       ],
       "territory_codes": [
         "CO"
+      ]
+    },
+    {
+      "title": "Riabilitazione logopedica della sordità, il convegno a Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/riabilitazione-logopedica-della-sordita-il-convegno-a-piacenza/671465",
+      "summary": "Sordità, con l'Ausl di Piacenza esperti a confronto per costruire una Consensus nazionale sulla riabilitazione logopedica The post Riabilitazione logopedica della sordità, il convegno a Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T12:30:27+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Al Palabanca va in scena la sfida tra Gas Sales e Perugia",
+      "url": "https://www.piacenzasera.it/2026/11/al-palabanca-va-in-scena-la-sfida-tra-gas-sales-e-perugia/671458",
+      "summary": "Dante Boninfante: “Gara di alto livello, voglio capire a che punto siamo” The post Al Palabanca va in scena la sfida tra Gas Sales e Perugia appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T12:00:50+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pg"
+      ],
+      "territory_codes": [
+        "PG"
+      ]
+    },
+    {
+      "title": "Quaranta anni di Sulpl, premiati quattro agenti di Polizia Locale del Piacentino",
+      "url": "https://www.piacenzasera.it/2026/11/quaranta-anni-di-sulpl-premiati-quattro-agenti-di-polizia-locale-del-piacentino/671460",
+      "summary": "Tra i premiati c'è l'agente Riccardo Dallacasagrande: al suo secondo giorno di servizio ha preso parte al presidio dei funerali di Giorgio Armani, \"situazione complessa e di grande rilevanza organizzativa\" The post Quaranta anni di Sulpl, premiati quattro agenti di Polizia Locale del Piacentino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-21T12:00:35+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
