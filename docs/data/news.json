@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-21T08:56:16.661852+00:00",
+  "generated_at": "2026-11-21T09:55:08.048457+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Premio Aeonis, al Teatro Sociale di Como la musica contemporanea dei giovani compositori",
+      "url": "https://www.ciaocomo.it/2026/11/21/premio-aeonis-al-teatro-sociale-di-como-la-musica-contemporanea-dei-giovani-compositori/348301",
+      "summary": "Domenica 22 novembre, in Sala Bianca, l’mdi ensemble eseguirà in prima assoluta le opere dei tre finalisti selezionati da Beat Furrer The post Premio Aeonis, al Teatro Sociale di Como la musica contemporanea dei giovani compositori appeared first on CiaoComo .",
+      "published_at": "2026-11-21T08:30:33+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Oltre 60 elaborati per il concorso «100 torri e 1.000 canestri»",
       "url": "https://primacomo.it/attualita/oltre-60-elaborati-per-il-concorso-100-torri-e-1-000-canestri",
@@ -132,23 +146,9 @@
       ]
     },
     {
-      "title": "Nuove ciclabili, semafori smart, parcheggi scambiatori: a Piacenza 6,7 milioni dal Ministero per la mobilità sostenibile",
-      "url": "https://www.piacenzasera.it/2026/11/mobilita-sostenibile-e-qualita-dellaria-in-arrivo-piacenza-oltre-67-milioni-dal-ministero/671407",
-      "summary": "Il Comune si è aggiudicato un finanziamento statale. Il vicesindaco Bongiorni: \"Occasione fondamentale da cogliere\" The post Nuove ciclabili, semafori smart, parcheggi scambiatori: a Piacenza 6,7 milioni dal Ministero per la mobilità sostenibile appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T18:44:22+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Elezioni a Como, il centrodestra scalda i motori (e il candidato sindaco?): due eventi con i big dei partiti",
       "url": "https://comozero.it/politica/elezioni-a-como-il-centrodestra-scalda-i-motori-e-il-candidato-sindaco-due-eventi-con-i-big-dei-partiti",
-      "summary": "Verso le elezioni comunali di Como, il centrodestra si mobilita nel weekend del 28 e 29 novembre tra gli appuntamenti di Forza Italia e Fratelli d’Italia. Con l’avvicinarsi delle elezioni comunali a Como, le forze politiche del centrodestra iniziano a serrare i ranghi e a delineare le proprie strategie sul territorio. Il fine settimana di […] L'articolo Elezioni a Como, il centrodestra scalda i motori (e il candidato sindaco?): due eventi con i big dei partiti proviene da ComoZero .",
+      "summary": "Con l’avvicinarsi delle elezioni comunali a Como, le forze politiche del centrodestra iniziano a serrare i ranghi e a delineare le proprie strategie sul territorio. La settimana tra sabato 28 e il 5 dicembre 2026 potrebbe rappresentare un passaggio chiave per tastare il polso della coalizione, che si presenterà al gran completo in due distinti […] L'articolo Elezioni a Como, il centrodestra scalda i motori (e il candidato sindaco?): due eventi con i big dei partiti proviene da ComoZero .",
       "published_at": "2026-11-20T18:21:59+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -171,20 +171,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Tenta di rubare di alcolici al supermercato, arrestato dalla polizia locale",
-      "url": "https://www.piacenzasera.it/2026/11/tenta-di-rubare-di-alcolici-al-supermercato-arrestato-dalla-polizia-locale/671393",
-      "summary": "L'uomo ha colpito con una testata un addetto alla vigilanza e si è ribellato al fermo The post Tenta di rubare di alcolici al supermercato, arrestato dalla polizia locale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-20T17:32:06+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "fm"
-      ],
-      "territory_codes": [
-        "FM"
       ]
     },
     {
