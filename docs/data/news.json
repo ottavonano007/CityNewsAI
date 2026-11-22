@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-22T14:55:44.150157+00:00",
+  "generated_at": "2026-11-22T15:53:21.068062+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
-      "ok": true
-    },
-    {
-      "source": "CiaoComo",
       "parsed": 5,
       "inserted": 5,
       "ok": true
     },
     {
+      "source": "CiaoComo",
+      "parsed": 4,
+      "inserted": 4,
+      "ok": true
+    },
+    {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -28,10 +28,24 @@
   ],
   "articles": [
     {
-      "title": "Piacenza, uno-due di Mustacchio in pochi minuti sul Villa Valle (2-0) DIRETTA",
+      "title": "Piacenza supera il Villa Valle al Garilli dopo una partita ricca di emozioni (3-2)",
       "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
-      "summary": "Domenica la tredicesima giornata di campionato: al Garilli il Piacenza in campo per allungare la striscia positiva The post Piacenza, uno-due di Mustacchio in pochi minuti sul Villa Valle (2-0) DIRETTA appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T14:18:14+00:00",
+      "summary": "Avanti di due reti i biancorossi si sono fatti raggiungere dagli ospiti rimasti in dieci, ma nel finale Capelli regala la vittoria The post Piacenza supera il Villa Valle al Garilli dopo una partita ricca di emozioni (3-2) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T15:22:14+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Con il vostro lavoro siete più vicini all’azione di Dio” a Fiorenzuola il Ringraziamento di Coldiretti Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/con-il-vostro-lavoro-siete-piu-vicini-allazione-di-dio-a-fiorenzuola-il-ringraziamento-di-coldiretti-piacenza/671596",
+      "summary": "Cuore dell’appuntamento è stata la Santa Messa nella Collegiata di San Fiorenzo, presieduta dal Vescovo Adriano Cevolotto The post “Con il vostro lavoro siete più vicini all’azione di Dio” a Fiorenzuola il Ringraziamento di Coldiretti Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T14:36:49+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -350,22 +364,6 @@
       ]
     },
     {
-      "title": "Al via BookCity Como “Il senno sulla Luna”: l’invito a ritrovare nei libri il filo della conoscenza, del dialogo e della responsabilità",
-      "url": "https://www.ciaocomo.it/2026/11/21/al-via-bookcity-como-il-senno-sulla-luna-da-domani-7-giorni-di-libri-ragioni-e-follie/348483",
-      "summary": "Il tema di quest'anno condiviso con BookCity Milano è \"Il senno sulla Luna. Sette giorni di libri, ragioni e follie\". Anteprima domenica 22 novembre al Teatro Sociale The post Al via BookCity Como “Il senno sulla Luna”: l’invito a ritrovare nei libri il filo della conoscenza, del dialogo e della responsabilità appeared first on CiaoComo .",
-      "published_at": "2026-11-21T16:30:13+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
-      ]
-    },
-    {
       "title": "Il Como torna a sorridere: 2-0 al Cagliari, decidono Ramon e Da Cunha",
       "url": "https://primacomo.it/sport/il-como-torna-a-sorridere-2-0-al-cagliari-decidono-ramon-e-da-cunha",
       "summary": "Il Como riparte con una vittoria. Dopo la sconfitta contro l’Inter e la sosta per le nazionali, la squadra di Cesc Fàbregas supera 2-0 il Cagliari al “Sinigaglia”, nella dodicesima giornata di campionato. A decidere la sfida sono due colpi di testa, firmati da Jacobo Ramon e Lucas Da Cunha, entrambi serviti da Yan Couto. […] Continua la lettura di Il Como torna a sorridere: 2-0 al Cagliari, decidono Ramon e Da Cunha sul portale Prima Como .",
@@ -436,20 +434,6 @@
       ],
       "territory_codes": [
         "CA",
-        "CO"
-      ]
-    },
-    {
-      "title": "Patelli: “La biodiversità si difende, non si prende a fucilate”. Oggi a Como il flashmob contro la nuova legge sulla caccia",
-      "url": "https://comozero.it/punti-di-vista/patelli-la-biodiversita-si-difende-non-si-prende-a-fucilate-oggi-a-como-il-flashmob-contro-la-nuova-legge-sulla-caccia",
-      "summary": "[Copertina: AI] E’ programmato per oggi, alle 16 in piazza Verdi, il flashmob organizzato a Alleanza Verdi Sinistra e Movimento Cinque Stelle contro la nuova legge sulla caccia. In queste ore è intervenuta la storica leader dei verdi comaschi e lombardi, Elisabetta Patelli, sottolineando le ragioni dell’iniziativa: Ddl caccia: più fucili nei boschi e sulle […] L'articolo Patelli: “La biodiversità si difende, non si prende a fucilate”. Oggi a Como il flashmob contro la nuova legge sulla caccia proviene da ComoZero .",
-      "published_at": "2026-11-21T13:05:59+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
         "CO"
       ]
     },
