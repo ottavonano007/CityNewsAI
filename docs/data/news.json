@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T20:52:20.637955+00:00",
+  "generated_at": "2026-11-22T21:51:47.458074+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 1,
+      "inserted": 1,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Non ci si schioda da 0: Cantù perde ancora",
+      "url": "https://primacomo.it/sport/non-ci-si-schioda-da-0-cantu-perde-ancora",
+      "summary": "L’Acqua S.Bernardo Cantù non riesce a superare Scafati nella partita giocata al PalaMangano. I padroni di casa vincono 83-67 nella gara valida per la nona giornata di LBA Serie A SisalClub 2026/2027. La gara Avvio equilibrato, con la tripla di Moraschini a fissare il punteggio sul 5-5 dopo tre minuti. Dopo una fase di stallo […] Continua la lettura di Non ci si schioda da 0: Cantù perde ancora sul portale Prima Como .",
+      "published_at": "2026-11-22T20:53:13+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Le 4 frecce, il referto medico, la multa in 190 secondi: “Ho chiesto di ragionare ma quello sguardo soddisfatto…”",
       "url": "https://comozero.it/punti-di-vista/le-4-frecce-il-referto-medico-la-multa-in-190-secondi-ho-chiesto-di-ragionare-ma-quello-sguardo-soddisfatto",
@@ -238,20 +252,6 @@
       ],
       "territory_codes": [
         "BG",
-        "CO"
-      ]
-    },
-    {
-      "title": "Incontro “Bellezza e salute”, coltivare il bello per vivere meglio, più felici e più a lungo",
-      "url": "https://www.ciaocomo.it/2026/11/22/incontro-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo/348479",
-      "summary": "Nuovo incontro promosso dal Tavolo Territoriale Sanità di Confindustria Como per mercoledì 25 novembre 2026, ore 18 presso sede Confindustria via Raimondi The post Incontro “Bellezza e salute”, coltivare il bello per vivere meglio, più felici e più a lungo appeared first on CiaoComo .",
-      "published_at": "2026-11-22T07:40:15+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
         "CO"
       ]
     },
@@ -622,20 +622,6 @@
       "url": "https://primacomo.it/attualita/sindacati-uniti-per-leliminazione-della-violenza-sulle-donne",
       "summary": "Sindacati uniti in occasione della Giornata internazionale per l’eliminazione della violenza sulle donne Cgil Como, Cisl dei Laghi e Uil del Lario promuovono cultura e solidarietà. Sindacati uniti L’impegnod elle organizzazioni sindacali muove da dati sempre più preoccupanti. “Nel 2026 secondo l’osservatorio Non una di Meno, si sono registrati 61 femminicidi di cui oltre l’80% […] Continua la lettura di Sindacati uniti per l’eliminazione della violenza sulle donne sul portale Prima Como .",
       "published_at": "2026-11-17T08:27:51+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Viola il divieto di dimora: 19enne arrestato",
-      "url": "https://primacomo.it/cronaca/viola-il-divieto-di-dimora-19enne-arrestato",
-      "summary": "I Carabinieri della Sezione Operativa del Nucleo Operativo e Radiomobile della Compagnia di Como hanno rintracciato e arrestato un 19enne di origine tunisina, residente a Cadorago, in esecuzione di un’ordinanza di aggravamento della misura cautelare emessa il 10 novembre dal GIP del Tribunale di Como. L’aggravamento Il provvedimento è scaturito dalle numerose violazioni del divieto […] Continua la lettura di Viola il divieto di dimora: 19enne arrestato sul portale Prima Como .",
-      "published_at": "2026-11-17T07:08:19+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
