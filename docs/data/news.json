@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:51:20.629700+00:00",
+  "generated_at": "2026-11-22T13:02:04.058991+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Volontari impegnati nella pulizia del verde",
+      "url": "https://primacomo.it/attualita/volontari-impegnati-nella-pulizia-del-verde",
+      "summary": "Inverigo, i volontari dell’associazione Le Contrade sempre in prima linea per la pulizia e la cura delle aree verdi. L’impegno dei volontari I frequentatori del viale a Santa Maria e del Castello avranno sicuramente notato i lavori di taglio della vegetazione infestante a entrambe le terrazze di Villa Crivelli. E’ un lavoro che è stato […] Continua la lettura di Volontari impegnati nella pulizia del verde sul portale Prima Como .",
+      "published_at": "2026-11-22T13:00:37+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Al Garilli il Piacenza ospita il Villa Valle (ore 14,30)",
+      "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
+      "summary": "Domenica la tredicesima giornata di campionato: al Garilli il Piacenza in campo per allungare la striscia positiva The post Al Garilli il Piacenza ospita il Villa Valle (ore 14,30) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T12:31:14+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Dai banchi del “Respighi” all’astrofisica: liceali protagonisti a Frascati",
+      "url": "https://www.piacenzasera.it/2026/11/dai-banchi-del-respighi-allastrofisica-liceali-protagonisti-a-frascati/671532",
+      "summary": "Doppio riconoscimento per il Liceo Scientifico Respighi di Piacenza nell'ambito dell'International Cosmic Day 2026 e del progetto EEE – Extreme Energy Events The post Dai banchi del “Respighi” all’astrofisica: liceali protagonisti a Frascati appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T12:22:52+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "La prima della classe Perugia al PalaBanca, Gas Sales in campo alle 18",
+      "url": "https://www.piacenzasera.it/2026/11/la-prima-della-classe-perugia-al-palabanca-gas-sales-in-campo-alle-18/671571",
+      "summary": "Una sfida di grande prestigio attende la formazione biancorossa, chiamata a misurarsi con una delle squadre di riferimento della pallavolo The post La prima della classe Perugia al PalaBanca, Gas Sales in campo alle 18 appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T11:28:52+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pg"
+      ],
+      "territory_codes": [
+        "PG"
+      ]
+    },
     {
       "title": "La più votata di tutti e l’assessore corteggiatissimo: due ex big di Rapinese all’evento ufficiale Pd",
       "url": "https://comozero.it/politica/la-piu-votata-di-tutti-e-lassessore-corteggiatissimo-due-ex-big-di-rapinese-allevento-ufficiale-pd",
@@ -56,34 +112,6 @@
       ]
     },
     {
-      "title": "Sviluppo rurale, in provincia di Piacenza liquidati 6 milioni dalle aziende",
-      "url": "https://www.piacenzasera.it/2026/11/sviluppo-rurale-in-provincia-di-piacenza-liquidati-6-milioni-dalle-aziende/671536",
-      "summary": "Circa 68 milioni di euro già versati a 15mila aziende agricole, pari a ben oltre il 90% dell’importo complessivamente liquidabile The post Sviluppo rurale, in provincia di Piacenza liquidati 6 milioni dalle aziende appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T10:05:04+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Ospedale di Piacenza, Vignali (Forza Italia) “Perchè meno 43,6% delle attività chirurgiche?”",
-      "url": "https://www.piacenzasera.it/2026/11/ospedale-di-piacenza-vignali-forza-italia-perche-meno-436-delle-attivita-chirurgiche/671534",
-      "summary": "Lo dichiara il capogruppo di Forza Italia nell’Assemblea legislativa dell’Emilia-Romagna e segretario regionale del partito, Pietro Vignali The post Ospedale di Piacenza, Vignali (Forza Italia) “Perchè meno 43,6% delle attività chirurgiche?” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T09:59:46+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Lago di Como, a Gravedona un percorso alla scoperta di 24 presepi",
       "url": "https://comozero.it/attualita/lago-di-como-a-gravedona-un-percorso-alla-scoperta-di-24-presepi",
       "summary": "A Gravedona ed Uniti il Natale prende vita attraverso un’iniziativa che ogni anno coinvolge famiglie, volontari e parrocchie. Dal 7 dicembre al 16 gennaio, il paese ospita 24 presepi, realizzati da privati e distribuiti tra le vie e gli angoli più caratteristici del territorio, dando vita a un suggestivo itinerario natalizio. Ogni allestimento è frutto […] L'articolo Lago di Como, a Gravedona un percorso alla scoperta di 24 presepi proviene da ComoZero .",
@@ -95,22 +123,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno",
-      "url": "https://www.piacenzasera.it/2026/11/atletica-piacenza-exploit-di-rebecchi-e-marchesi-a-ravenna-e-grande-festa-al-cross-dautunno/671530",
-      "summary": "La società biancorossa protagonista sia sulle lunghe distanze su strada sia sui prati di casa nella tradizionale corsa campestre autunnale The post Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T09:38:08+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza",
-        "ra"
-      ],
-      "territory_codes": [
-        "PC",
-        "RA"
       ]
     },
     {
@@ -722,20 +734,6 @@
       "url": "https://primacomo.it/sanita/olga-disoteo-e-il-nuovo-direttore-dellendocrinologia-e-dietetica",
       "summary": "La dottoressa Olga Eugenia Disoteo è il nuovo direttore della Endocrinologia, Diabetologia, Dietetica e Nutrizione Clinica di Asst Lariana. L’incarico quinquennale è stato conferito con la delibera n. 1110 del 5 novembre scorso, a seguito dell’esito dell’avviso pubblico di selezione. La dottoressa raccoglie così formalmente il testimone alla guida di un reparto strategico per l’azienda […] Continua la lettura di Olga Disoteo è il nuovo direttore dell’Endocrinologia e Dietetica sul portale Prima Como .",
       "published_at": "2026-11-17T07:01:04+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "ll primo derby di Como in Serie A è del 1907",
-      "url": "https://primacomo.it/sport/ll-primo-derby-di-como-in-serie-a-e-del-1907",
-      "summary": "Al “Lambrone” di Erba il Como Women è uscito sconfitto per 3-0 nel primo derby di Como di Serie A Women, valido per la settima giornata di campionato. In rete per il Como 1907 Bonfantini al 35’, De Rita al 43’ e Wullaert al 73’. I commenti “Dispiace per il risultato, che è pesante rispetto […] Continua la lettura di ll primo derby di Como in Serie A è del 1907 sul portale Prima Como .",
-      "published_at": "2026-11-17T06:28:25+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
