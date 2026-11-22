@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-22T08:55:38.477460+00:00",
+  "generated_at": "2026-11-22T09:55:23.658448+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 8,
+      "inserted": 8,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -28,12 +28,42 @@
   ],
   "articles": [
     {
-      "title": "La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati",
-      "url": "https://comozero.it/attualita/la-1000-piantine-che-ridanno-la-vita-ai-laghi-tra-como-e-la-svizzera-con-tanto-di-nursery-ecco-i-risultati",
-      "summary": "Il 26 novembre, alle 10, alla Fondazione Minoprio di Vertemate si terrà il convegno sui primi risultati del progetto transfrontaliero Interreg Italia-Svizzera ECHO, dedicato alla rigenerazione dei fondali tra lago di Como e lago di Lugano e all’incremento del carbonio sommerso. Tra maggio e settembre 2026 sono già state posate oltre mille piante acquatiche in […] L'articolo La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati proviene da ComoZero .",
-      "published_at": "2026-11-22T08:45:16+00:00",
+      "title": "Lago di Como, a Gravedona un percorso alla scoperta di 24 presepi",
+      "url": "https://comozero.it/attualita/lago-di-como-a-gravedona-un-percorso-alla-scoperta-di-24-presepi",
+      "summary": "A Gravedona ed Uniti il Natale prende vita attraverso un’iniziativa che ogni anno coinvolge famiglie, volontari e parrocchie. Dal 7 dicembre al 16 gennaio, il paese ospita 24 presepi, realizzati da privati e distribuiti tra le vie e gli angoli più caratteristici del territorio, dando vita a un suggestivo itinerario natalizio. Ogni allestimento è frutto […] L'articolo Lago di Como, a Gravedona un percorso alla scoperta di 24 presepi proviene da ComoZero .",
+      "published_at": "2026-11-22T09:45:12+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno",
+      "url": "https://www.piacenzasera.it/2026/11/atletica-piacenza-exploit-di-rebecchi-e-marchesi-a-ravenna-e-grande-festa-al-cross-dautunno/671530",
+      "summary": "La società biancorossa protagonista sia sulle lunghe distanze su strada sia sui prati di casa nella tradizionale corsa campestre autunnale The post Atletica Piacenza: exploit di Rebecchi e Marchesi a Ravenna e grande festa al Cross d’Autunno appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T09:38:08+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza",
+        "ra"
+      ],
+      "territory_codes": [
+        "PC",
+        "RA"
+      ]
+    },
+    {
+      "title": "Como, il 25 novembre si fa sentire: teatro, incontri e un corteo contro la violenza sulle donne",
+      "url": "https://www.ciaocomo.it/2026/11/22/como-il-25-novembre-si-fa-sentire-teatro-incontri-e-un-corteo-contro-la-violenza-sulle-donne/348264",
+      "summary": "Dalla violenza economica alle testimonianze di chi ha ritrovato la propria libertà, gli appuntamenti per la Giornata internazionale per l’eliminazione della violenza sulle donne coinvolgono associazioni, sindacati e realtà culturali cittadine The post Como, il 25 novembre si fa sentire: teatro, incontri e un corteo contro la violenza sulle donne appeared first on CiaoComo .",
+      "published_at": "2026-11-22T09:00:37+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -99,6 +129,20 @@
       "territory_codes": [
         "CO",
         "LC"
+      ]
+    },
+    {
+      "title": "La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati",
+      "url": "https://comozero.it/attualita/la-1000-piantine-che-ridanno-la-vita-ai-laghi-tra-como-e-la-svizzera-con-tanto-di-nursery-ecco-i-risultati",
+      "summary": "Il 26 novembre, alle 10, alla Fondazione Minoprio di Vertemate si terrà il convegno sui primi risultati del progetto transfrontaliero Interreg Italia-Svizzera ECHO, dedicato alla rigenerazione dei fondali tra lago di Como e lago di Lugano e all’incremento del carbonio sommerso. Tra maggio e settembre 2026 sono già state posate oltre mille piante acquatiche in […] L'articolo La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati proviene da ComoZero .",
+      "published_at": "2026-11-21T22:25:16+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -400,20 +444,6 @@
       ]
     },
     {
-      "title": "Riabilitazione logopedica della sordità, il convegno a Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/riabilitazione-logopedica-della-sordita-il-convegno-a-piacenza/671465",
-      "summary": "Sordità, con l'Ausl di Piacenza esperti a confronto per costruire una Consensus nazionale sulla riabilitazione logopedica The post Riabilitazione logopedica della sordità, il convegno a Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T12:30:27+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "“Mitsou” opera-film per 4 voci e 7 strumenti a Chiasso",
       "url": "https://www.ciaocomo.it/2026/11/21/mitsou-opera-film-per-4-voci-e-7-strumenti-a-chiasso/348473",
       "summary": "A cent’anni dalla morte di Rainer Maria Rilke, il Festival A due voci di Como porta in scena al Teatro di Chiasso la storia del gatto che legò il poeta al giovane Balthus. The post “Mitsou” opera-film per 4 voci e 7 strumenti a Chiasso appeared first on CiaoComo .",
@@ -425,20 +455,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Al Palabanca va in scena la sfida tra Gas Sales e Perugia",
-      "url": "https://www.piacenzasera.it/2026/11/al-palabanca-va-in-scena-la-sfida-tra-gas-sales-e-perugia/671458",
-      "summary": "Dante Boninfante: “Gara di alto livello, voglio capire a che punto siamo” The post Al Palabanca va in scena la sfida tra Gas Sales e Perugia appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T12:00:50+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pg"
-      ],
-      "territory_codes": [
-        "PG"
       ]
     },
     {
