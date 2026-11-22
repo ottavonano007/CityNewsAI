@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:53:21.068062+00:00",
+  "generated_at": "2026-11-22T16:54:43.410836+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -28,9 +28,25 @@
   ],
   "articles": [
     {
-      "title": "Piacenza supera il Villa Valle al Garilli dopo una partita ricca di emozioni (3-2)",
+      "title": "Filippo Carpani premiato a Londra dalla Royal Aeronautical Society",
+      "url": "https://primacomo.it/attualita/filippo-carpani-premiato-a-londra-dalla-royal-aeronautical-society",
+      "summary": "Ottimi risultati universitari e personali per Filippo Carpani di Pusiano, premiato a Londra dall’importante realtà della Royal Aeronautical Society. Premio speciale Filippo è un pusianese di 24 anni (classe 2002), che frequenta il corso universitario in Ingegneria Aeronautica del Politecnico di Milano. Il giovane, insieme ad altri due studenti, Alessandro Galli e Carlo Farnetani, ha […] Continua la lettura di Filippo Carpani premiato a Londra dalla Royal Aeronautical Society sul portale Prima Como .",
+      "published_at": "2026-11-22T16:00:25+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Pioggia di emozioni al Garilli, Piacenza supera il Villa Valle e appaia il Chievo secondo (3-2)",
       "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
-      "summary": "Avanti di due reti i biancorossi si sono fatti raggiungere dagli ospiti rimasti in dieci, ma nel finale Capelli regala la vittoria The post Piacenza supera il Villa Valle al Garilli dopo una partita ricca di emozioni (3-2) appeared first on piacenzasera.it .",
+      "summary": "Avanti di due reti i biancorossi si sono fatti raggiungere dagli ospiti rimasti in dieci, ma nel finale Capelli regala la vittoria The post Pioggia di emozioni al Garilli, Piacenza supera il Villa Valle e appaia il Chievo secondo (3-2) appeared first on piacenzasera.it .",
       "published_at": "2026-11-22T15:22:14+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -42,9 +58,23 @@
       ]
     },
     {
-      "title": "“Con il vostro lavoro siete più vicini all’azione di Dio” a Fiorenzuola il Ringraziamento di Coldiretti Piacenza",
+      "title": "A Cortemaggiore la sessione provinciale del progetto Fiba “Her world, her rules”",
+      "url": "https://www.piacenzasera.it/2026/11/a-cortemaggiore-la-sessione-provinciale-del-progetto-fiba-her-world-her-rules/671624",
+      "summary": "A Piacenza l’evento si terrà a Cortemaggiore il 28 novembre The post A Cortemaggiore la sessione provinciale del progetto Fiba “Her world, her rules” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T15:00:15+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Con il vostro lavoro siete più vicini all’azione di Dio” A Fiorenzuola il Ringraziamento di Coldiretti Piacenza",
       "url": "https://www.piacenzasera.it/2026/11/con-il-vostro-lavoro-siete-piu-vicini-allazione-di-dio-a-fiorenzuola-il-ringraziamento-di-coldiretti-piacenza/671596",
-      "summary": "Cuore dell’appuntamento è stata la Santa Messa nella Collegiata di San Fiorenzo, presieduta dal Vescovo Adriano Cevolotto The post “Con il vostro lavoro siete più vicini all’azione di Dio” a Fiorenzuola il Ringraziamento di Coldiretti Piacenza appeared first on piacenzasera.it .",
+      "summary": "Cuore dell’appuntamento è stata la Santa Messa nella Collegiata di San Fiorenzo, presieduta dal Vescovo Adriano Cevolotto The post “Con il vostro lavoro siete più vicini all’azione di Dio” A Fiorenzuola il Ringraziamento di Coldiretti Piacenza appeared first on piacenzasera.it .",
       "published_at": "2026-11-22T14:36:49+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -123,20 +153,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Il giovanissimo attore piacentino Riccardo Bandiera in scena nella serie sulle figurine “Panini”",
-      "url": "https://www.piacenzasera.it/2026/11/il-giovanissimo-attore-piacentino-riccardo-bandiera-in-scena-nella-serie-sulle-figurine-panini/671524",
-      "summary": "Riccardo Bandiera, che ha solo dieci anni e quest'anno ha iniziato la prima media, continua a giocare a calcio come difensore nei pulcini 2016 del San Lazzaro The post Il giovanissimo attore piacentino Riccardo Bandiera in scena nella serie sulle figurine “Panini” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T10:31:04+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -688,20 +704,6 @@
       "url": "https://primacomo.it/cronaca/viola-il-divieto-di-dimora-19enne-arrestato",
       "summary": "I Carabinieri della Sezione Operativa del Nucleo Operativo e Radiomobile della Compagnia di Como hanno rintracciato e arrestato un 19enne di origine tunisina, residente a Cadorago, in esecuzione di un’ordinanza di aggravamento della misura cautelare emessa il 10 novembre dal GIP del Tribunale di Como. L’aggravamento Il provvedimento è scaturito dalle numerose violazioni del divieto […] Continua la lettura di Viola il divieto di dimora: 19enne arrestato sul portale Prima Como .",
       "published_at": "2026-11-17T07:08:19+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Olga Disoteo è il nuovo direttore dell’Endocrinologia e Dietetica",
-      "url": "https://primacomo.it/sanita/olga-disoteo-e-il-nuovo-direttore-dellendocrinologia-e-dietetica",
-      "summary": "La dottoressa Olga Eugenia Disoteo è il nuovo direttore della Endocrinologia, Diabetologia, Dietetica e Nutrizione Clinica di Asst Lariana. L’incarico quinquennale è stato conferito con la delibera n. 1110 del 5 novembre scorso, a seguito dell’esito dell’avviso pubblico di selezione. La dottoressa raccoglie così formalmente il testimone alla guida di un reparto strategico per l’azienda […] Continua la lettura di Olga Disoteo è il nuovo direttore dell’Endocrinologia e Dietetica sul portale Prima Como .",
-      "published_at": "2026-11-17T07:01:04+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
