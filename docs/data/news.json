@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-22T18:57:10.297804+00:00",
+  "generated_at": "2026-11-22T19:55:40.558119+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -28,10 +28,10 @@
   ],
   "articles": [
     {
-      "title": "Scatto in avanti di Perugia al PalaBanca contro Gas Sales (0-2) DIRETTA",
+      "title": "Troppo forte Perugia, al PalaBanca Gas Sales sconfitta in tre set (0-3)",
       "url": "https://www.piacenzasera.it/2026/11/la-prima-della-classe-perugia-al-palabanca-gas-sales-in-campo-alle-18/671571",
-      "summary": "Supersfida per la formazione biancorossa, chiamata a misurarsi con una delle squadre di riferimento della pallavolo e prima in classifica The post Scatto in avanti di Perugia al PalaBanca contro Gas Sales (0-2) DIRETTA appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T18:03:52+00:00",
+      "summary": "Supersfida per la formazione biancorossa, chiamata a misurarsi con una delle squadre di riferimento della pallavolo e prima in classifica The post Troppo forte Perugia, al PalaBanca Gas Sales sconfitta in tre set (0-3) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T18:35:52+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -39,6 +39,34 @@
       ],
       "territory_codes": [
         "PG"
+      ]
+    },
+    {
+      "title": "Paura in autostrada: l’auto con due donne a bordo si ribalta a pochi metri dalla galleria",
+      "url": "https://comozero.it/attualita/paura-in-autostrada-lauto-con-due-donne-a-bordo-si-ribalta-a-pochi-metri-dalla-galleria",
+      "summary": "Un grave incidente stradale ha paralizzato la circolazione sull’autostrada A9 nel pomeriggio di oggi. Poco prima delle 16, un’automobile si è ribaltata all’altezza di Como, poco prima dell’ingresso della galleria Monte Olimpino, provocando il ferimento di due donne e pesanti disagi alla viabilità. La dinamica dell’incidente e i soccorsi in A9 L’allarme è scattato intorno […] L'articolo Paura in autostrada: l’auto con due donne a bordo si ribalta a pochi metri dalla galleria proviene da ComoZero .",
+      "published_at": "2026-11-22T18:07:10+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Germano reale impigliato nella lenza e ferito: il pescatore si intenerisce, lo segue e i Vigili del fuoco lo salvano",
+      "url": "https://comozero.it/attualita/germano-reale-impigliato-nella-lenza-e-ferito-il-pescatore-si-intenerisce-lo-segue-e-i-vigili-del-fuoco-lo-salvanp",
+      "summary": "Un pomeriggio di paura e di grande attenzione per la fauna del lago si è concluso con un lieto fine in viale Geno, a Como. Intorno alle 15 di oggi, un germano reale è rimasto accidentalmente impigliato nella lenza di un pescatore, finendo con l’amo conficcato nel becco. L’episodio è avvenuto mentre l’uomo stava pescando […] L'articolo Germano reale impigliato nella lenza e ferito: il pescatore si intenerisce, lo segue e i Vigili del fuoco lo salvano proviene da ComoZero .",
+      "published_at": "2026-11-22T18:03:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -104,20 +132,6 @@
       "url": "https://www.piacenzasera.it/2026/11/a-cortemaggiore-la-sessione-provinciale-del-progetto-fiba-her-world-her-rules/671624",
       "summary": "A Piacenza l’evento si terrà a Cortemaggiore il 28 novembre The post A Cortemaggiore la sessione provinciale del progetto Fiba “Her world, her rules” appeared first on piacenzasera.it .",
       "published_at": "2026-11-22T15:00:15+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "“Con il vostro lavoro siete più vicini all’azione di Dio” A Fiorenzuola il Ringraziamento di Coldiretti Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/con-il-vostro-lavoro-siete-piu-vicini-allazione-di-dio-a-fiorenzuola-il-ringraziamento-di-coldiretti-piacenza/671596",
-      "summary": "Cuore dell’appuntamento è stata la Santa Messa nella Collegiata di San Fiorenzo, presieduta dal Vescovo Adriano Cevolotto The post “Con il vostro lavoro siete più vicini all’azione di Dio” A Fiorenzuola il Ringraziamento di Coldiretti Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T14:36:49+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -332,22 +346,6 @@
       ]
     },
     {
-      "title": "Cesc:”Non una partita perfetta, ma di grande valore: bravi i ragazzi”. L’amarezza di Pisacane:”Qui molto difficile”",
-      "url": "https://www.ciaocomo.it/2026/11/21/cescnon-una-partita-perfetta-ma-di-grande-valore-bravi-i-ragazzi-lamarezza-di-pisacanequi-molto-difficile/348470",
-      "summary": "L'analisi dei due allenatori, grandi amici. Il tecnico del Como e la carenza di soluzioni, quello del Cagliari e gli infortuni:\"Calati dopo il secondo gol preso\" The post Cesc:”Non una partita perfetta, ma di grande valore: bravi i ragazzi”. L’amarezza di Pisacane:”Qui molto difficile” appeared first on CiaoComo .",
-      "published_at": "2026-11-21T17:36:37+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "ca",
-        "como"
-      ],
-      "territory_codes": [
-        "CA",
-        "CO"
-      ]
-    },
-    {
       "title": "Fabregas post Como-Cagliari: “Partita trappola, a cui do grande valore. Da Cunha? Un gioiello straordinario”",
       "url": "https://primacomo.it/sport/fabregas-post-como-cagliari-partita-trappola-a-cui-do-grande-valore-da-cunha-un-gioiello-straordinario",
       "summary": "Al termine della vittoria per 2-0 del Como ai danni del Cagliari, mister Cesc Fabregas è intervenuto in conferenza stampa per commentare la prestazione della propria squadra. Di seguito le sue dichiarazioni, assieme a quelle di X. Fabregas: “Dopo la mezz’ora c’era una sola squadra in campo” CAPELLO DICE CHE IL 2-0 E’ IL RISULTATO […] Continua la lettura di Fabregas post Como-Cagliari: “Partita trappola, a cui do grande valore. Da Cunha? Un gioiello straordinario” sul portale Prima Como .",
@@ -416,20 +414,6 @@
       "published_at": "2026-11-21T14:00:13+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La protesta si fa durissima in provincia di Como: “Aree dismesse, finora abbiamo visto solo macerie”",
-      "url": "https://comozero.it/ambiente/la-protesta-si-fa-durissima-in-provincia-di-como-aree-dismesse-finora-abbiamo-visto-solo-macerie",
-      "summary": "Si è tenuto giovedì 19 novembre l’incontro pubblico dal titolo “Consumo di suolo zero e rigenerazione urbana senza speculazione”, organizzato dal Circolo Ambiente “Ilaria Alpi” presso la sala Isacchi di Ca’ Prina a Erba. Ecco quanto fa sapere il Circolo Ambiente Ilaria Alpi E’ intervenuto l’urbanista Gabriele Bollini che ha illustrato, con un linguaggio non […] L'articolo La protesta si fa durissima in provincia di Como: “Aree dismesse, finora abbiamo visto solo macerie” proviene da ComoZero .",
-      "published_at": "2026-11-21T13:56:59+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
