@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T09:55:23.658448+00:00",
+  "generated_at": "2026-11-22T10:53:54.419193+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Sviluppo rurale, in provincia di Piacenza liquidati 6 milioni dalle aziende",
+      "url": "https://www.piacenzasera.it/2026/11/sviluppo-rurale-in-provincia-di-piacenza-liquidati-6-milioni-dalle-aziende/671536",
+      "summary": "Circa 68 milioni di euro già versati a 15mila aziende agricole, pari a ben oltre il 90% dell’importo complessivamente liquidabile The post Sviluppo rurale, in provincia di Piacenza liquidati 6 milioni dalle aziende appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T10:05:04+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Ospedale di Piacenza, Vignali (Forza Italia) “Perchè meno 43,6% delle attività chirurgiche?”",
+      "url": "https://www.piacenzasera.it/2026/11/ospedale-di-piacenza-vignali-forza-italia-perche-meno-436-delle-attivita-chirurgiche/671534",
+      "summary": "Lo dichiara il capogruppo di Forza Italia nell’Assemblea legislativa dell’Emilia-Romagna e segretario regionale del partito, Pietro Vignali The post Ospedale di Piacenza, Vignali (Forza Italia) “Perchè meno 43,6% delle attività chirurgiche?” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T09:59:46+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Lago di Como, a Gravedona un percorso alla scoperta di 24 presepi",
       "url": "https://comozero.it/attualita/lago-di-como-a-gravedona-un-percorso-alla-scoperta-di-24-presepi",
@@ -339,20 +367,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Allerta meteo per temporali e forte vento nel Piacentino",
-      "url": "https://www.piacenzasera.it/2026/11/allerta-meteo-per-temporali-e-forte-vento-nel-piacentino/671463",
-      "summary": "The post Allerta meteo per temporali e forte vento nel Piacentino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T14:11:26+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
