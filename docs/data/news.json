@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:19:13.288313+00:00",
+  "generated_at": "2026-11-22T08:55:38.477460+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,50 @@
     }
   ],
   "articles": [
+    {
+      "title": "La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati",
+      "url": "https://comozero.it/attualita/la-1000-piantine-che-ridanno-la-vita-ai-laghi-tra-como-e-la-svizzera-con-tanto-di-nursery-ecco-i-risultati",
+      "summary": "Il 26 novembre, alle 10, alla Fondazione Minoprio di Vertemate si terrà il convegno sui primi risultati del progetto transfrontaliero Interreg Italia-Svizzera ECHO, dedicato alla rigenerazione dei fondali tra lago di Como e lago di Lugano e all’incremento del carbonio sommerso. Tra maggio e settembre 2026 sono già state posate oltre mille piante acquatiche in […] L'articolo La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati proviene da ComoZero .",
+      "published_at": "2026-11-22T08:45:16+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Unipol non si ferma più: conquista anche il derby",
+      "url": "https://primacomo.it/sport/la-unipol-non-si-ferma-piu-conquista-anche-il-derby",
+      "summary": "In una serata da oltre 1.000 spettatori paganti al PalaMeda, la Unipol Briantea84 Cantù ha incasellato la quarta vittoria consecutiva su altrettante partite in avvio di questa Serie A, più una Supercoppa vinta. Derby a Cantù, Special Bergamo Sport Montello battuto 76 a 49. I biancoblù sono partiti subito in quarta con un 21-6 dopo […] Continua la lettura di La Unipol non si ferma più: conquista anche il derby sul portale Prima Como .",
+      "published_at": "2026-11-22T08:33:50+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "bg",
+        "como"
+      ],
+      "territory_codes": [
+        "BG",
+        "CO"
+      ]
+    },
+    {
+      "title": "Incontro “Bellezza e salute”, coltivare il bello per vivere meglio, più felici e più a lungo",
+      "url": "https://www.ciaocomo.it/2026/11/22/incontro-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo/348479",
+      "summary": "Nuovo incontro promosso dal Tavolo Territoriale Sanità di Confindustria Como per mercoledì 25 novembre 2026, ore 18 presso sede Confindustria via Raimondi The post Incontro “Bellezza e salute”, coltivare il bello per vivere meglio, più felici e più a lungo appeared first on CiaoComo .",
+      "published_at": "2026-11-22T07:40:15+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Mercatini di Natale in Lombardia: dove sono e quando aprono tra lago, città e montagna",
       "url": "https://comozero.it/attualita/i-mercatini-di-natale-in-lombardia-tra-lago-citta-e-montagne-sapori-e-atmosfere-delle-feste",
@@ -132,6 +176,22 @@
       ]
     },
     {
+      "title": "Cesc:”Non una partita perfetta, ma di grande valore: bravi i ragazzi”. L’amarezza di Pisacane:”Qui molto difficile”",
+      "url": "https://www.ciaocomo.it/2026/11/21/cescnon-una-partita-perfetta-ma-di-grande-valore-bravi-i-ragazzi-lamarezza-di-pisacanequi-molto-difficile/348470",
+      "summary": "L'analisi dei due allenatori, grandi amici. Il tecnico del Como e la carenza di soluzioni, quello del Cagliari e gli infortuni:\"Calati dopo il secondo gol preso\" The post Cesc:”Non una partita perfetta, ma di grande valore: bravi i ragazzi”. L’amarezza di Pisacane:”Qui molto difficile” appeared first on CiaoComo .",
+      "published_at": "2026-11-21T17:36:37+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "ca",
+        "como"
+      ],
+      "territory_codes": [
+        "CA",
+        "CO"
+      ]
+    },
+    {
       "title": "Fabregas post Como-Cagliari: “Partita trappola, a cui do grande valore. Da Cunha? Un gioiello straordinario”",
       "url": "https://primacomo.it/sport/fabregas-post-como-cagliari-partita-trappola-a-cui-do-grande-valore-da-cunha-un-gioiello-straordinario",
       "summary": "Al termine della vittoria per 2-0 del Como ai danni del Cagliari, mister Cesc Fabregas è intervenuto in conferenza stampa per commentare la prestazione della propria squadra. Di seguito le sue dichiarazioni, assieme a quelle di X. Fabregas: “Dopo la mezz’ora c’era una sola squadra in campo” CAPELLO DICE CHE IL 2-0 E’ IL RISULTATO […] Continua la lettura di Fabregas post Como-Cagliari: “Partita trappola, a cui do grande valore. Da Cunha? Un gioiello straordinario” sul portale Prima Como .",
@@ -160,6 +220,20 @@
       ],
       "territory_codes": [
         "CA",
+        "CO"
+      ]
+    },
+    {
+      "title": "Le pagelle del Como di Mario Molteni: difesa d’acciaio, Couto spinta ed assist e Ramon va anche in rete",
+      "url": "https://www.ciaocomo.it/2026/11/21/le-pagelle-di-mario-molteni-difesa-dacciaio-couto-spinta-ed-assist-e-ramon-va-anche-in-rete/348467",
+      "summary": "Bene Lahdo ed anche Nico nella ripresa. Il migliore è il capitano Da Cunha. Con lui anche ottima prova di Couto e del difensore spagnolo che ha aperto le marcature The post Le pagelle del Como di Mario Molteni: difesa d’acciaio, Couto spinta ed assist e Ramon va anche in rete appeared first on CiaoComo .",
+      "published_at": "2026-11-21T17:11:42+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
         "CO"
       ]
     },
@@ -382,20 +456,6 @@
       ]
     },
     {
-      "title": "Premio Aeonis, al Teatro Sociale di Como la musica contemporanea dei giovani compositori",
-      "url": "https://www.ciaocomo.it/2026/11/21/premio-aeonis-al-teatro-sociale-di-como-la-musica-contemporanea-dei-giovani-compositori/348301",
-      "summary": "Domenica 22 novembre, in Sala Bianca, l’mdi ensemble eseguirà in prima assoluta le opere dei tre finalisti selezionati da Beat Furrer The post Premio Aeonis, al Teatro Sociale di Como la musica contemporanea dei giovani compositori appeared first on CiaoComo .",
-      "published_at": "2026-11-21T08:30:33+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Oltre 60 elaborati per il concorso «100 torri e 1.000 canestri»",
       "url": "https://primacomo.it/attualita/oltre-60-elaborati-per-il-concorso-100-torri-e-1-000-canestri",
       "summary": "Il 12 novembre si è conclusa la prima fase del concorso letterario organizzato dall’associazione Charturium, con il patrocinio del Comune di Cantù e della Pallacanestro Cantù. Il risultato Alla sede dell’associazione e nei negozi canturini, che hanno aderito all’evento, sono giunti 66 elaborati, suddivisi in ugual numero tra narrativa e poesia. «Il titolo del concorso, […] Continua la lettura di Oltre 60 elaborati per il concorso «100 torri e 1.000 canestri» sul portale Prima Como .",
@@ -437,48 +497,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Un concerto per ricordare Mario Moretti: a Como il duo di violoncelli Cello²",
-      "url": "https://www.ciaocomo.it/2026/11/21/un-concerto-per-ricordare-mario-moretti-a-como-il-duo-di-violoncelli-cello%c2%b2/348290",
-      "summary": "Sabato 21 novembre all’Università della Terza Età Alessandro Volta un omaggio al docente e consigliere dell’UTE, con i giovani musicisti Riccardo Binda e Matilde Mezzadri The post Un concerto per ricordare Mario Moretti: a Como il duo di violoncelli Cello² appeared first on CiaoComo .",
-      "published_at": "2026-11-21T07:00:43+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, giardini a Lago: 200mila euro per la pavimentazione tra viale Marconi e viale Mafalda di Savoia",
-      "url": "https://comozero.it/attualita/como-giardini-a-lago-200mila-euro-per-la-pavimentazione-tra-viale-marconi-e-viale-mafalda-di-savoia",
-      "summary": "La Giunta Rapinese approva il progetto esecutivo per la manutenzione straordinaria della pavimentazione in pietra. L’intervento sarà finanziato con l’avanzo di bilancio: oltre 137mila euro destinati ai lavori Duecentomila euro per sistemare la pavimentazione in pietra del percorso pedonale compreso tra viale Guglielmo Marconi e viale Mafalda di Savoia, a Como. La Giunta comunale guidata […] L'articolo Como, giardini a Lago: 200mila euro per la pavimentazione tra viale Marconi e viale Mafalda di Savoia proviene da ComoZero .",
-      "published_at": "2026-11-21T00:28:44+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
-      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
-      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
-      "published_at": "2026-11-20T23:27:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -702,20 +720,6 @@
       "url": "https://primacomo.it/sport/ll-primo-derby-di-como-in-serie-a-e-del-1907",
       "summary": "Al “Lambrone” di Erba il Como Women è uscito sconfitto per 3-0 nel primo derby di Como di Serie A Women, valido per la settima giornata di campionato. In rete per il Como 1907 Bonfantini al 35’, De Rita al 43’ e Wullaert al 73’. I commenti “Dispiace per il risultato, che è pesante rispetto […] Continua la lettura di ll primo derby di Como in Serie A è del 1907 sul portale Prima Como .",
       "published_at": "2026-11-17T06:28:25+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Rassegna di geopolitica: in oratorio c’è il film “Civil war”",
-      "url": "https://primacomo.it/attualita/rassegna-di-geopolitica-in-oratorio-ce-il-film-civil-war",
-      "summary": "Quanto è fragile una democrazia? Se ne parla nel cineforum “Non è un film. È il mondo che ti riguarda”, rassegna geopolitica per riflettere sul mondo e le sue dinamiche, curata da Fabrizio Fogliato e organizzata da Bcc con Lo Snodo. Secondo appuntamento Il secondo film della rassegna è “Civil war”: sarà proiettato nella sala […] Continua la lettura di Rassegna di geopolitica: in oratorio c’è il film “Civil war” sul portale Prima Como .",
-      "published_at": "2026-11-16T17:41:59+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
