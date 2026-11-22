@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:55:40.558119+00:00",
+  "generated_at": "2026-11-22T20:52:20.637955+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -28,9 +28,23 @@
   ],
   "articles": [
     {
+      "title": "Le 4 frecce, il referto medico, la multa in 190 secondi: “Ho chiesto di ragionare ma quello sguardo soddisfatto…”",
+      "url": "https://comozero.it/punti-di-vista/le-4-frecce-il-referto-medico-la-multa-in-190-secondi-ho-chiesto-di-ragionare-ma-quello-sguardo-soddisfatto",
+      "summary": "Da un nostro lettore, Fulvio Temporin, riceviamo e pubblichiamo il racconto su una multa presa a Como (foto in copertina d’archivio) che pone una questione per certi versi classica, pur nell’ammissione che “chi è in torto non ha giustificazioni”: una manciata di secondi in sosta irregolare giustificano l’inflessibilità della sanzione? Di seguito la lettera (per segnalazioni, […] L'articolo Le 4 frecce, il referto medico, la multa in 190 secondi: “Ho chiesto di ragionare ma quello sguardo soddisfatto…” proviene da ComoZero .",
+      "published_at": "2026-11-22T19:18:55+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Troppo forte Perugia, al PalaBanca Gas Sales sconfitta in tre set (0-3)",
       "url": "https://www.piacenzasera.it/2026/11/la-prima-della-classe-perugia-al-palabanca-gas-sales-in-campo-alle-18/671571",
-      "summary": "Supersfida per la formazione biancorossa, chiamata a misurarsi con una delle squadre di riferimento della pallavolo e prima in classifica The post Troppo forte Perugia, al PalaBanca Gas Sales sconfitta in tre set (0-3) appeared first on piacenzasera.it .",
+      "summary": "In un PalabancaSport sold out la formazione biancorossa è stata superata dagli umbri per 3-0 (22-25, 23-25, 20-25) nella gara valida per la sesta giornata di SuperLega The post Troppo forte Perugia, al PalaBanca Gas Sales sconfitta in tre set (0-3) appeared first on piacenzasera.it .",
       "published_at": "2026-11-22T18:35:52+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -256,26 +270,10 @@
       ]
     },
     {
-      "title": "Triste Natale a Como: chiude la Libreria del Ragionier Bianchi, spazio incantato per i bimbi. Sarah e Jessica: “Ce l’abbiamo messa tutta”",
-      "url": "https://comozero.it/cultura-e-spettacolo/triste-natale-a-como-chiude-la-libreria-del-ragionier-bianchi-spazio-incantato-per-i-bimbi-sarah-e-jessica-ce-labbiamo-messa-tutta",
-      "summary": "Ci sono librerie dove si entra, si compra e si esce. E poi ci sono posti come questo, in viale Lecco 29, dove si entra per un albo illustrato e si finisce seduti in cerchio su un tappeto, con un pastello in mano o il naso all’insù ad ascoltare una storia raccontata come a teatro. […] L'articolo Triste Natale a Como: chiude la Libreria del Ragionier Bianchi, spazio incantato per i bimbi. Sarah e Jessica: “Ce l’abbiamo messa tutta” proviene da ComoZero .",
-      "published_at": "2026-11-21T22:26:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "lc"
-      ],
-      "territory_codes": [
-        "CO",
-        "LC"
-      ]
-    },
-    {
-      "title": "La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati",
-      "url": "https://comozero.it/attualita/la-1000-piantine-che-ridanno-la-vita-ai-laghi-tra-como-e-la-svizzera-con-tanto-di-nursery-ecco-i-risultati",
-      "summary": "Il 26 novembre, alle 10, alla Fondazione Minoprio di Vertemate si terrà il convegno sui primi risultati del progetto transfrontaliero Interreg Italia-Svizzera ECHO, dedicato alla rigenerazione dei fondali tra lago di Como e lago di Lugano e all’incremento del carbonio sommerso. Tra maggio e settembre 2026 sono già state posate oltre mille piante acquatiche in […] L'articolo La 1000 piantine che ridanno la vita ai laghi tra Como e la Svizzera (con tanto di ‘nursery’): ecco i risultati proviene da ComoZero .",
-      "published_at": "2026-11-21T22:25:16+00:00",
+      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
+      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
+      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
+      "published_at": "2026-11-21T23:27:40+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -286,42 +284,10 @@
       ]
     },
     {
-      "title": "Le pagelle del Como: Ramon giganteggia, Couto incanta e Da Cunha chiude i conti",
-      "url": "https://comozero.it/sport/le-pagelle-del-como-ramon-giganteggia-couto-incanta-e-da-cunha-chiude-i-conti",
-      "summary": "[Copertina: archivio] Basta un gol per tempo al Como per superare il Cagliari. Al Sinigaglia i lariani non mostrano la loro versione migliore, ma sono cattivi e concreti nei momenti topici del match. Ramon la sblocca nel primo tempo, salva un gol fatto su Mendy e poi, nella ripresa, ci pensa Da Cunha a chiudere […] L'articolo Le pagelle del Como: Ramon giganteggia, Couto incanta e Da Cunha chiude i conti proviene da ComoZero .",
-      "published_at": "2026-11-21T20:16:34+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "ca",
-        "como"
-      ],
-      "territory_codes": [
-        "CA",
-        "CO"
-      ]
-    },
-    {
-      "title": "BookCity Como, sette giorni tra libri, scienza, ragioni e follie: il programma della terza edizione",
-      "url": "https://comozero.it/cultura-e-spettacolo/bookcity-como-sette-giorni-tra-libri-scienza-ragioni-e-follie-il-programma-della-terza-edizione",
-      "summary": "Dal 22 al 29 novembre torna BookCity Milano a Como, con una terza edizione che amplia la rete delle collaborazioni e coinvolge nuovi luoghi della città e del territorio. Sette giorni di incontri, presentazioni, laboratori e letture, nel segno del tema scelto insieme a BookCity Milano: “Il senno sulla Luna. Sette giorni di libri, ragioni […] L'articolo BookCity Como, sette giorni tra libri, scienza, ragioni e follie: il programma della terza edizione proviene da ComoZero .",
-      "published_at": "2026-11-21T19:31:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
-      ]
-    },
-    {
-      "title": "Il Menaggio rinuncia alla promozione per rispetto del Tavernola: il Panathlon premia il fair play. Tutti i riconoscimenti",
-      "url": "https://comozero.it/sport/il-menaggio-rinuncia-alla-promozione-per-rispetto-del-tavernola-il-panathlon-premia-il-fair-play-tutti-i-riconoscimenti",
-      "summary": "A Villa del Grumello consegnati i riconoscimenti 2026 del Panathlon Club Como. Premi alla carriera a Fabrizio “Ciccio” Della Fiori, al gesto dell’ASD Calcio Menaggio e all’attività educativa dell’ASO Alzate Alta Brianza. Menzione speciale al Comitato Regionale Lombardia FIGC Rinunciare a una possibile promozione per dimostrare solidarietà a una società colpita da un lutto. È […] L'articolo Il Menaggio rinuncia alla promozione per rispetto del Tavernola: il Panathlon premia il fair play. Tutti i riconoscimenti proviene da ComoZero .",
-      "published_at": "2026-11-21T19:13:18+00:00",
+      "title": "Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day",
+      "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
+      "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
+      "published_at": "2026-11-21T23:26:54+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -332,10 +298,24 @@
       ]
     },
     {
-      "title": "Como, il Teatro Sociale sa sempre meravigliare: la platea diventa un campo da calcio",
-      "url": "https://comozero.it/cultura-e-spettacolo/como-il-teatro-sociale-sa-sempre-meravigliare-la-platea-diventa-un-campo-da-calcio",
-      "summary": "La capacità di meravigliare sempre è una delle qualità intrinseche del Teatro Sociale di Como che da ben più di vent’anni, proseguendo in una lunghissima tradizione di ricerca, sa aprirsi al mondo, alla società e a tutto ciò che non necessariamente e sempre è palcoscenico puro. E’ successo anche oggi in occasione della seconda edizione […] L'articolo Como, il Teatro Sociale sa sempre meravigliare: la platea diventa un campo da calcio proviene da ComoZero .",
-      "published_at": "2026-11-21T19:02:24+00:00",
+      "title": "Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto",
+      "url": "https://comozero.it/pubbliredazionale/una-cena-speciale-nel-cuore-di-como-al-mediterranee-arriva-il-nuovo-menu-di-giacomo-devoto",
+      "summary": "Dopo lo straordinario successo del primo incontro di settembre, la grande cucina d’autore torna a brillare nel cuore del centro storico di Como. Il ristorante Méditerranée di piazza Volta si prepara, infatti, ad ospitare la seconda attesissima serata in compagnia dello chef Giacomo Devoto, stella Michelin con la sua Locanda de Banchieri a Fosdinovo. L’appuntamento, […] L'articolo Una cena stellata nel cuore di Como: al Méditerranée arriva il nuovo menu di Giacomo Devoto proviene da ComoZero .",
+      "published_at": "2026-11-21T23:25:46+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "DENS apre la nuova sede a Como: in via Tolomeo Gallio 2 accesso più facile e cure specialistiche",
+      "url": "https://comozero.it/pubbliredazionale/dens-apre-la-nuova-sede-a-como-in-via-tolomeo-gallio-2-accesso-piu-facile-e-cure-specialistiche",
+      "summary": "Operativa da settembre dopo quattro anni in piazza Perretta, la struttura è raggiungibile in automobile e offre spazi rinnovati ed équipe multidisciplinari. DENS – Studi Dentistici De Angelis ha aperto lo scorso settembre la nuova sede di Como in via Tolomeo Gallio 2, a pochi passi dal centro storico e accanto all’ufficio postale. Dopo quattro […] L'articolo DENS apre la nuova sede a Como: in via Tolomeo Gallio 2 accesso più facile e cure specialistiche proviene da ComoZero .",
+      "published_at": "2026-11-21T23:25:29+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -352,22 +332,6 @@
       "published_at": "2026-11-21T17:18:38+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "ca",
-        "como"
-      ],
-      "territory_codes": [
-        "CA",
-        "CO"
-      ]
-    },
-    {
-      "title": "Fabregas: “Grande successo in una partita trappola, Ramon e Da Cunha giocatori fondamentali”",
-      "url": "https://comozero.it/sport/fabregas-grande-successo-in-una-partita-trappola-ramon-e-da-cunha-giocatori-fondamentali",
-      "summary": "Il Como si lascia alle spalle il ko contro l’Inter e rialza la testa battendo al Sinigaglia il Cagliari per 2-0. I lariani cominciano alla grande una settimana complicatissima e molto dispendiosa grazie a una prova ordinata e da squadra matura. A decidere la gara ci pensano le reti di Ramon e di Da Cunha […] L'articolo Fabregas: “Grande successo in una partita trappola, Ramon e Da Cunha giocatori fondamentali” proviene da ComoZero .",
-      "published_at": "2026-11-21T17:18:08+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "ca",
         "como"
