@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:04:03.075110+00:00",
+  "generated_at": "2026-11-22T14:55:44.150157+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -28,6 +28,20 @@
   ],
   "articles": [
     {
+      "title": "Piacenza, uno-due di Mustacchio in pochi minuti sul Villa Valle (2-0) DIRETTA",
+      "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
+      "summary": "Domenica la tredicesima giornata di campionato: al Garilli il Piacenza in campo per allungare la striscia positiva The post Piacenza, uno-due di Mustacchio in pochi minuti sul Villa Valle (2-0) DIRETTA appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T14:18:14+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
       "title": "“Distacchi, sfaldamenti, perdita di colore: dopo i lavori mi aspettavo la villa simbolo di Como impeccabile. E invece…”",
       "url": "https://comozero.it/punti-di-vista/distacchi-sfaldamenti-perdita-di-colore-dopo-i-lavori-mi-aspettavo-la-villa-simbolo-di-como-impeccabile-e-invece",
       "summary": "Nel marzo scorso, i lavori di smontaggio delle impalcature attorno alla facciata di Villa Olmo hanno svelato l’aspetto della dimora dopo il lungo cantiere. Sono ancora in corso invece gli interventi di recupero delle serre storiche e degli interni della villa. In questo quadro, riceviamo e pubblichiamo la segnalazione di un lettore, con fotografie allegate […] L'articolo “Distacchi, sfaldamenti, perdita di colore: dopo i lavori mi aspettavo la villa simbolo di Como impeccabile. E invece…” proviene da ComoZero .",
@@ -39,20 +53,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Al Garilli in campo Piacenza e Villa Valle (0-0) DIRETTA",
-      "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
-      "summary": "Domenica la tredicesima giornata di campionato: al Garilli il Piacenza in campo per allungare la striscia positiva The post Al Garilli in campo Piacenza e Villa Valle (0-0) DIRETTA appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T13:30:14+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
