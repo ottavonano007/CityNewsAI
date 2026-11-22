@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-22T16:54:43.410836+00:00",
+  "generated_at": "2026-11-22T17:49:55.131487+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Al PalaBanca Perugia si prende il primo set contro Gas Sales (0-1) DIRETTA",
+      "url": "https://www.piacenzasera.it/2026/11/la-prima-della-classe-perugia-al-palabanca-gas-sales-in-campo-alle-18/671571",
+      "summary": "Supersfida per la formazione biancorossa, chiamata a misurarsi con una delle squadre di riferimento della pallavolo e prima in classifica The post Al PalaBanca Perugia si prende il primo set contro Gas Sales (0-1) DIRETTA appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T17:31:52+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pg"
+      ],
+      "territory_codes": [
+        "PG"
+      ]
+    },
+    {
+      "title": "L’Italia Chef Piacenza torna al successo superando Molinella (90-89)",
+      "url": "https://www.piacenzasera.it/2026/11/litalia-chef-piacenza-torna-al-successo-superando-molinella-90-89/671639",
+      "summary": "Nella prossima giornata Piacenza sarà attesa dalla trasferta di Medicina, sabato 28 novembre, alle ore 21 The post L’Italia Chef Piacenza torna al successo superando Molinella (90-89) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T16:42:03+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, la denuncia: “La solita disparità fiscale che favorisce la Svizzera e il Sud, qui invece promesse lettera morta”",
+      "url": "https://comozero.it/politica/como-la-denuncia-la-solita-disparita-fiscale-che-favorisce-la-svizzera-e-il-sud-qui-invece-promesse-lettera-morta",
+      "summary": "«Tagliare la burocrazia è certamente utile, ma pensare di rilanciare l’economia del Nord e fermare la concorrenza svizzera senza un solo euro di sgravio fiscale è l’ennesima illusione ottica costruita nei palazzi romani». Con queste parole la Segreteria Provinciale di Como di Patto per il Nord commenta l’annuncio del Governo relativo all’istituzione della Zona Economica […] L'articolo Como, la denuncia: “La solita disparità fiscale che favorisce la Svizzera e il Sud, qui invece promesse lettera morta” proviene da ComoZero .",
+      "published_at": "2026-11-22T16:21:08+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Filippo Carpani premiato a Londra dalla Royal Aeronautical Society",
       "url": "https://primacomo.it/attualita/filippo-carpani-premiato-a-londra-dalla-royal-aeronautical-society",
@@ -125,20 +167,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "La prima della classe Perugia al PalaBanca, Gas Sales in campo alle 18",
-      "url": "https://www.piacenzasera.it/2026/11/la-prima-della-classe-perugia-al-palabanca-gas-sales-in-campo-alle-18/671571",
-      "summary": "Una sfida di grande prestigio attende la formazione biancorossa, chiamata a misurarsi con una delle squadre di riferimento della pallavolo The post La prima della classe Perugia al PalaBanca, Gas Sales in campo alle 18 appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T11:28:52+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pg"
-      ],
-      "territory_codes": [
-        "PG"
       ]
     },
     {
@@ -366,20 +394,6 @@
       ]
     },
     {
-      "title": "Le pagelle del Como di Mario Molteni: difesa d’acciaio, Couto spinta ed assist e Ramon va anche in rete",
-      "url": "https://www.ciaocomo.it/2026/11/21/le-pagelle-di-mario-molteni-difesa-dacciaio-couto-spinta-ed-assist-e-ramon-va-anche-in-rete/348467",
-      "summary": "Bene Lahdo ed anche Nico nella ripresa. Il migliore è il capitano Da Cunha. Con lui anche ottima prova di Couto e del difensore spagnolo che ha aperto le marcature The post Le pagelle del Como di Mario Molteni: difesa d’acciaio, Couto spinta ed assist e Ramon va anche in rete appeared first on CiaoComo .",
-      "published_at": "2026-11-21T17:11:42+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Il Como torna a sorridere: 2-0 al Cagliari, decidono Ramon e Da Cunha",
       "url": "https://primacomo.it/sport/il-como-torna-a-sorridere-2-0-al-cagliari-decidono-ramon-e-da-cunha",
       "summary": "Il Como riparte con una vittoria. Dopo la sconfitta contro l’Inter e la sosta per le nazionali, la squadra di Cesc Fàbregas supera 2-0 il Cagliari al “Sinigaglia”, nella dodicesima giornata di campionato. A decidere la sfida sono due colpi di testa, firmati da Jacobo Ramon e Lucas Da Cunha, entrambi serviti da Yan Couto. […] Continua la lettura di Il Como torna a sorridere: 2-0 al Cagliari, decidono Ramon e Da Cunha sul portale Prima Como .",
@@ -434,22 +448,6 @@
         "como"
       ],
       "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il Como vince “di testa”: Ramon e Da Cunha stendono il Cagliari",
-      "url": "https://comozero.it/sport/como-cagliari-la-cronaca-in-diretta-della-partita",
-      "summary": "COMO-CAGLIARI 2-0 Al Sinigaglia torna la Serie A e, al Como, torna il sorriso. I ragazzi di Fabregas si impongono per 2-0 sul Cagliari grazie alle testate di Ramon e Da Cunha e scacciano i dubbi dopo la brutta prestazione di San Siro contro l’Inter. I lariani non giocano una prima frazione esaltante, ma sfruttano […] L'articolo Il Como vince “di testa”: Ramon e Da Cunha stendono il Cagliari proviene da ComoZero .",
-      "published_at": "2026-11-21T13:21:11+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "ca",
-        "como"
-      ],
-      "territory_codes": [
-        "CA",
         "CO"
       ]
     },
