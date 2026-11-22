@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:02:04.058991+00:00",
+  "generated_at": "2026-11-22T14:04:03.075110+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "“Distacchi, sfaldamenti, perdita di colore: dopo i lavori mi aspettavo la villa simbolo di Como impeccabile. E invece…”",
+      "url": "https://comozero.it/punti-di-vista/distacchi-sfaldamenti-perdita-di-colore-dopo-i-lavori-mi-aspettavo-la-villa-simbolo-di-como-impeccabile-e-invece",
+      "summary": "Nel marzo scorso, i lavori di smontaggio delle impalcature attorno alla facciata di Villa Olmo hanno svelato l’aspetto della dimora dopo il lungo cantiere. Sono ancora in corso invece gli interventi di recupero delle serre storiche e degli interni della villa. In questo quadro, riceviamo e pubblichiamo la segnalazione di un lettore, con fotografie allegate […] L'articolo “Distacchi, sfaldamenti, perdita di colore: dopo i lavori mi aspettavo la villa simbolo di Como impeccabile. E invece…” proviene da ComoZero .",
+      "published_at": "2026-11-22T13:57:11+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Al Garilli in campo Piacenza e Villa Valle (0-0) DIRETTA",
+      "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
+      "summary": "Domenica la tredicesima giornata di campionato: al Garilli il Piacenza in campo per allungare la striscia positiva The post Al Garilli in campo Piacenza e Villa Valle (0-0) DIRETTA appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T13:30:14+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Volontari impegnati nella pulizia del verde",
       "url": "https://primacomo.it/attualita/volontari-impegnati-nella-pulizia-del-verde",
@@ -39,20 +67,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Al Garilli il Piacenza ospita il Villa Valle (ore 14,30)",
-      "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
-      "summary": "Domenica la tredicesima giornata di campionato: al Garilli il Piacenza in campo per allungare la striscia positiva The post Al Garilli il Piacenza ospita il Villa Valle (ore 14,30) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T12:31:14+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -382,20 +396,6 @@
       ]
     },
     {
-      "title": "La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo",
-      "url": "https://www.ciaocomo.it/2026/11/21/la-liberta-delle-donne-passa-anche-dal-teatro-a-como-lopera-di-franca-rame-e-dario-fo/348286",
-      "summary": "Nel centenario della nascita di Dario Fo, il Teatro Nuovo di Rebbio a Como ospita Tutta casa, letto e chiesa, una delle opere più significative scritte insieme a Franca Rame. The post La libertà delle donne passa anche dal teatro: a Como l’opera di Franca Rame e Dario Fo appeared first on CiaoComo .",
-      "published_at": "2026-11-21T14:30:44+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Centocinquant’anni di storia del Corpo musicale olgiatese",
       "url": "https://primacomo.it/attualita/centocinquantanni-di-storia-del-corpo-musicale-olgiatese",
       "summary": "Centocinquant’anni di storia del Corpo musicale di Olgiate Comasco: week-end di eventi celebrativi. Corpo musicale in festa Sabato 21 novembre l’associazione presieduta da Enrico Cesana attende partecipazione alle iniziative che festeggiano l’anniversario. Si comincia con la mostra allestita al Medioevo e che resterà aperta per piú giorni. Il libro Nel pomeriggio odierno, con inizio alle […] Continua la lettura di Centocinquant’anni di storia del Corpo musicale olgiatese sul portale Prima Como .",
@@ -420,22 +420,6 @@
         "como"
       ],
       "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como-Cagliari 2-0: Ramon e il capitano Da Cunha stendono i sardi, continua la marcia dei lariani",
-      "url": "https://www.ciaocomo.it/2026/11/21/como-cagliari-0-a-0-parziale-p-t-segui-con-noi-la-diretta-dal-sinigaglia/348443",
-      "summary": "Una rete per tempo e gli azzurri riprendono la marcia in classifica. Sardi insidiosi nei primi 45 minuti, le reti entrambe segnate di testa. Gara poi controllata. The post Como-Cagliari 2-0: Ramon e il capitano Da Cunha stendono i sardi, continua la marcia dei lariani appeared first on CiaoComo .",
-      "published_at": "2026-11-21T13:48:34+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "ca",
-        "como"
-      ],
-      "territory_codes": [
-        "CA",
         "CO"
       ]
     },
