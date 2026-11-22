@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T10:53:54.419193+00:00",
+  "generated_at": "2026-11-22T11:51:20.629700+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 8,
-      "inserted": 8,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "La più votata di tutti e l’assessore corteggiatissimo: due ex big di Rapinese all’evento ufficiale Pd",
+      "url": "https://comozero.it/politica/la-piu-votata-di-tutti-e-lassessore-corteggiatissimo-due-ex-big-di-rapinese-allevento-ufficiale-pd",
+      "summary": "Svista giornalistica, ma chicca postuma assai gustosa quella che riferiamo oggi – domenica 22 novembre – con oggettivo ritardo. Ma tardi è sempre meglio che mai per gli appassionati (sempre meno) di retroscenismo politico comasco. E allora, torniamo per un attimo al 14 novembre scorso. Cioè alla seconda giornata organizzata dal Pd di Como per […] L'articolo La più votata di tutti e l’assessore corteggiatissimo: due ex big di Rapinese all’evento ufficiale Pd proviene da ComoZero .",
+      "published_at": "2026-11-22T11:02:02+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il giovanissimo attore piacentino Riccardo Bandiera in scena nella serie sulle figurine “Panini”",
+      "url": "https://www.piacenzasera.it/2026/11/il-giovanissimo-attore-piacentino-riccardo-bandiera-in-scena-nella-serie-sulle-figurine-panini/671524",
+      "summary": "Riccardo Bandiera, che ha solo dieci anni e quest'anno ha iniziato la prima media, continua a giocare a calcio come difensore nei pulcini 2016 del San Lazzaro The post Il giovanissimo attore piacentino Riccardo Bandiera in scena nella serie sulle figurine “Panini” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-22T10:31:04+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Sviluppo rurale, in provincia di Piacenza liquidati 6 milioni dalle aziende",
       "url": "https://www.piacenzasera.it/2026/11/sviluppo-rurale-in-provincia-di-piacenza-liquidati-6-milioni-dalle-aziende/671536",
@@ -234,20 +262,6 @@
       ]
     },
     {
-      "title": "Piacenza accende le feste: al via il Natale in centro con luminarie, albero e mercatino",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-accende-le-feste-al-via-il-natale-in-centro-con-luminarie-albero-e-mercatino/671482",
-      "summary": "Piacenza accende le luminarie e inaugura il Natale in centro The post Piacenza accende le feste: al via il Natale in centro con luminarie, albero e mercatino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-21T17:47:16+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Cesc:”Non una partita perfetta, ma di grande valore: bravi i ragazzi”. L’amarezza di Pisacane:”Qui molto difficile”",
       "url": "https://www.ciaocomo.it/2026/11/21/cescnon-una-partita-perfetta-ma-di-grande-valore-bravi-i-ragazzi-lamarezza-di-pisacanequi-molto-difficile/348470",
       "summary": "L'analisi dei due allenatori, grandi amici. Il tecnico del Como e la carenza di soluzioni, quello del Cagliari e gli infortuni:\"Calati dopo il secondo gol preso\" The post Cesc:”Non una partita perfetta, ma di grande valore: bravi i ragazzi”. L’amarezza di Pisacane:”Qui molto difficile” appeared first on CiaoComo .",
@@ -450,34 +464,6 @@
       "published_at": "2026-11-21T13:00:48+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Mitsou” opera-film per 4 voci e 7 strumenti a Chiasso",
-      "url": "https://www.ciaocomo.it/2026/11/21/mitsou-opera-film-per-4-voci-e-7-strumenti-a-chiasso/348473",
-      "summary": "A cent’anni dalla morte di Rainer Maria Rilke, il Festival A due voci di Como porta in scena al Teatro di Chiasso la storia del gatto che legò il poeta al giovane Balthus. The post “Mitsou” opera-film per 4 voci e 7 strumenti a Chiasso appeared first on CiaoComo .",
-      "published_at": "2026-11-21T12:30:20+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, regole o buonsenso? “Il chihuahua nel marsupio, 8 chili di sacchi in mano e mi ha fatta scendere dal bus”",
-      "url": "https://comozero.it/punti-di-vista/como-regole-o-buonsenso-il-chihuahua-nel-marsupio-8-chili-di-sacchi-in-mano-e-mi-ha-fatta-scendere-dal-bus",
-      "summary": "Premessa, le regole vanno rispettate. Ciò detto ci sono circostanze e contesti dove una certa flessibilità, laddove non si crei pericolo, diventa dimostrazione di comprensione delle difficoltà altrui. Mentre la rigida applicazione della norma suona un po’ come indifferenza. Ciò premesso riportiamo il racconto di una lettrice (mail firmata): Questa mattina ero con il mio […] L'articolo Como, regole o buonsenso? “Il chihuahua nel marsupio, 8 chili di sacchi in mano e mi ha fatta scendere dal bus” proviene da ComoZero .",
-      "published_at": "2026-11-21T10:50:02+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
