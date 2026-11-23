@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T05:33:21.684947+00:00",
+  "generated_at": "2026-11-23T07:44:09.107006+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,82 @@
     }
   ],
   "articles": [
+    {
+      "title": "Il Como Women perde in casa contro la Roma",
+      "url": "https://primacomo.it/sport/il-como-women-perde-in-casa-contro-la-roma",
+      "summary": "Al “Mino Favini” di Meda, nell’ottava giornata di Serie A Women Athora, il Como Women è stato sconfitto per 2-0 dalla Roma, a segno con Thøgersen al 30’ e Pilgrim all’82’. Prima del fischio d’inizio, le calciatrici del Como Women hanno voluto dedicare un pensiero ad Astrid Gilardi, esponendo la sua maglia. La giocatrice è […] Continua la lettura di Il Como Women perde in casa contro la Roma sul portale Prima Como .",
+      "published_at": "2026-11-23T07:07:30+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "RM"
+      ]
+    },
+    {
+      "title": "Settimana del Parkinson 2026: il programma completo degli eventi al CTO di Milano",
+      "url": "https://primacomo.it/sanita/settimana-del-parkinson-2026-il-programma-completo-degli-eventi-al-cto-di-milano",
+      "summary": "Dal 23 al 28 novembre il Centro Parkinson dell’Ospedale CTO di Milano ospiterà la Settimana del Parkinson 2026, promossa dalla Fondazione Pezzoli per la Malattia di Parkinson ETS in collaborazione con l’ASST Gaetano Pini-CTO. Un calendario di appuntamenti gratuiti dedicati a pazienti, caregiver e familiari per approfondire temi che spaziano dalla ricerca all’alimentazione, dal supporto […] Continua la lettura di Settimana del Parkinson 2026: il programma completo degli eventi al CTO di Milano sul portale Prima Como .",
+      "published_at": "2026-11-23T07:00:26+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "I Carabinieri rendono omaggio alla Virgo Fidelis",
+      "url": "https://primacomo.it/attualita/i-carabinieri-rendono-omaggio-alla-virgo-fidelis",
+      "summary": "Nella chiesa parrocchiale di San Giuseppe a Como, i Carabinieri del Comando Provinciale hanno celebrato la Virgo Fidelis, Patrona dell’Arma, unitamente alla commemorazione dell’85esimo anniversario della battaglia di Culqualber e alla Giornata dell’Orfano. La celebrazione La Messa, officiata da Monsignor Flavio Feroldi, ha visto la partecipazione del Prefetto di Como, del Sindaco del capoluogo e […] Continua la lettura di I Carabinieri rendono omaggio alla Virgo Fidelis sul portale Prima Como .",
+      "published_at": "2026-11-23T06:59:39+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Scatta l’allarme del braccialetto elettronico: 31enne arrestato",
+      "url": "https://primacomo.it/attualita/scatta-lallarme-del-braccialetto-elettronico-31enne-arrestato",
+      "summary": "E’ evaso dagli arresti domiciliari e per un 31enne, “tradito” dal braccialetto elettronico, è scattato l’arresto Il fermo A Cassina Rizzardi, i Carabinieri della Stazione di Fino Mornasco hanno dato esecuzione a un’ordinanza di aggravamento della misura cautelare, emessa dal Giudice per le Indagini Preliminari del Tribunale di Como, nei confronti di un 31enne del […] Continua la lettura di Scatta l’allarme del braccialetto elettronico: 31enne arrestato sul portale Prima Como .",
+      "published_at": "2026-11-23T06:54:14+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como",
+        "fm"
+      ],
+      "territory_codes": [
+        "CO",
+        "FM"
+      ]
+    },
+    {
+      "title": "La Campi Reali conquista bottino pieno contro Ciriè",
+      "url": "https://primacomo.it/sport/la-campi-reali-conquista-bottino-pieno-contro-cirie",
+      "summary": "La Campi Reali Cantù torna alla vittoria nel match valido per la sesta giornata di Regular Season del Campionato di Serie A3 Credem Banca contro la BP Termosanitari Ciriè. Una partita combattuta, ma che ha visto i ragazzi di Coach Tommaso Invernici bravi a reagire ad un secondo set negativo. La gara Coach Tommaso Invernici […] Continua la lettura di La Campi Reali conquista bottino pieno contro Ciriè sul portale Prima Como .",
+      "published_at": "2026-11-23T06:48:07+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Non ci si schioda da 0: Cantù perde ancora",
       "url": "https://primacomo.it/sport/non-ci-si-schioda-da-0-cantu-perde-ancora",
@@ -552,76 +628,6 @@
       "url": "https://primacomo.it/attualita/la-rocca-coro-appiano",
       "summary": "La Rocca, i coristi di Appiano Gentile incontrano l’assessore regionale Fermi per i 60 anni dell’associazione. Sessant’anni di coro La Rocca “Con profonda stima e riconoscenza al Coro La Rocca, che rappresenta da 60 anni una grande realtà storico culturale nel panorama del canto ‘a cappella’”. Questo l’incipit del testo che l’assessore regionale Alessandro Fermi […] Continua la lettura di La Rocca, i coristi incontrano l’assessore regionale Fermi per i 60 anni dell’associazione sul portale Prima Como .",
       "published_at": "2026-11-17T15:17:34+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Punto di ritiro automatico per spacciare droga: sequestro effettuato dalla Guardia di finanza",
-      "url": "https://primacomo.it/cronaca/punto-di-ritiro-automatico-per-spacciare-droga-sequestro-effettuato-dalla-guardia-di-finanza",
-      "summary": "I tradizionali canali dello spaccio di stupefacenti stanno cedendo il passo a metodi digitali e logistici che sfruttano la rete di distribuzione ordinaria, come dimostra l’ultimo sequestro effettuato dalla Guardia di finanza di Olgiate Comasco nei pressi di un punto di ritiro automatico. L’intervento della Guardia di finanza Le recenti indagini sul territorio confermano una […] Continua la lettura di Punto di ritiro automatico per spacciare droga: sequestro effettuato dalla Guardia di finanza sul portale Prima Como .",
-      "published_at": "2026-11-17T14:04:09+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Insulta gli agenti e danneggia la macchina di servizio: arrestato",
-      "url": "https://primacomo.it/attualita/insulta-gli-agenti-e-danneggia-la-macchina-di-servizio-arrestato",
-      "summary": "Insulta e aggredisce gli agenti e la macchina di servizio: arrestato un 34enne. L’intervento è di ieri, 16 novembre, a Como. In via Pasquale Paoli In manette è finito un uomo di 34 anni, cittadino italiano, ritenuto responsabile dei reati di violenza e resistenza a pubblico ufficiale. L’intervento delle Volanti è scattato intorno alle 16 […] Continua la lettura di Insulta gli agenti e danneggia la macchina di servizio: arrestato sul portale Prima Como .",
-      "published_at": "2026-11-17T13:56:20+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Al Limite un libro!”, rassegna di incontri a Villa del Grumello",
-      "url": "https://primacomo.it/cultura/al-limite-un-libro-rassegna-di-incontri-a-villa-del-grumello",
-      "summary": "Torna dal 26 al 29 novembre, negli spazi di Villa del Grumello a Como, “Al Limite un libro!”, la rassegna di incontri e dialoghi transdisciplinari organizzata e curata dall’Associazione Villa del Grumello. “Al Limite un libro!” L’inziiativa è organizzata nell’ambito del progetto Ecotonalità Humanities. Al centro ci sono i libri come occasioni di confronto e […] Continua la lettura di “Al Limite un libro!”, rassegna di incontri a Villa del Grumello sul portale Prima Como .",
-      "published_at": "2026-11-17T13:04:40+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Controlli dei Carabinieri, un uomo segnalato per detenzione di stupefacenti per uso personale",
-      "url": "https://primacomo.it/altro/controlli-dei-carabinieri-un-uomo-segnalato-per-detenzione-di-stupefacenti-per-uso-personale",
-      "summary": "Controlli dei Carabinieri, un uomo segnalato per detenzione di stupefacenti per uso personale. Controlli dei Carabinieri Nell’ambito dell’attività di controllo del territorio, finalizzata alla prevenzione e al contrasto degli illeciti in materia di sostanze stupefacenti e alla tutela della sicurezza pubblica, nel pomeriggio del 16 novembre i Carabinieri della Stazione di Gravedona ed Uniti hanno […] Continua la lettura di Controlli dei Carabinieri, un uomo segnalato per detenzione di stupefacenti per uso personale sul portale Prima Como .",
-      "published_at": "2026-11-17T10:05:08+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Sindacati uniti per l’eliminazione della violenza sulle donne",
-      "url": "https://primacomo.it/attualita/sindacati-uniti-per-leliminazione-della-violenza-sulle-donne",
-      "summary": "Sindacati uniti in occasione della Giornata internazionale per l’eliminazione della violenza sulle donne Cgil Como, Cisl dei Laghi e Uil del Lario promuovono cultura e solidarietà. Sindacati uniti L’impegnod elle organizzazioni sindacali muove da dati sempre più preoccupanti. “Nel 2026 secondo l’osservatorio Non una di Meno, si sono registrati 61 femminicidi di cui oltre l’80% […] Continua la lettura di Sindacati uniti per l’eliminazione della violenza sulle donne sul portale Prima Como .",
-      "published_at": "2026-11-17T08:27:51+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
