@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:10:47.626160+00:00",
+  "generated_at": "2026-11-23T20:11:06.024127+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Elezioni a Como: scintille sui nomi e doppio appuntamento tra assenze e tensioni. Maretta in Forza Italia",
+      "url": "https://comozero.it/politica/elezioni-a-como-scintille-sui-nomi-e-doppio-appuntamento-tra-assenze-e-tensioni-maretta-in-forza-italia",
+      "summary": "C’è maretta in Forza Italia a Como. La dimostrazione plastica è il doppio appuntamento a distanza di una sola settimana che le due anime del partito stanno preparando, non senza tensioni. L’incontro del 28 novembre a Villa Gallia e le tensioni interne Da un lato, il gruppo che si può definire ciellino – che da […] L'articolo Elezioni a Como: scintille sui nomi e doppio appuntamento tra assenze e tensioni. Maretta in Forza Italia proviene da ComoZero .",
+      "published_at": "2026-11-23T18:36:12+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Cazoeula, riso al persico, trippa: i piatti della tradizione lariana ora sono tutelati da una legge regionale",
       "url": "https://www.ciaocomo.it/2026/11/23/cazoeula-riso-al-persico-trippa-i-piatti-della-tradizione-ora-sono-tutelati-da-una-legge-regionale/348626",
