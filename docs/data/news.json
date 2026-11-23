@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-23T15:14:26.962432+00:00",
+  "generated_at": "2026-11-23T16:19:35.627371+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,66 @@
     }
   ],
   "articles": [
+    {
+      "title": "Autostrada A1, aggiornamento al programma delle chiusure notturne nel tratto piacentino",
+      "url": "https://www.piacenzasera.it/2026/11/autostrada-a1-aggiornamento-al-programma-delle-chiusure-notturne-nel-tratto-piacentino/671800",
+      "summary": "Annullata la deviazione obbligatoria sulla complanare di Piacenza (R49), da Milano verso Bologna, prevista nella notte tra lunedì e martedì The post Autostrada A1, aggiornamento al programma delle chiusure notturne nel tratto piacentino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T15:42:27+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "bo",
+        "mi",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "BO",
+        "MI",
+        "PC"
+      ]
+    },
+    {
+      "title": "Netta vittoria dell’U16 Emilbanca Lyons contro CUS Milano",
+      "url": "https://www.piacenzasera.it/2026/11/netta-vittoria-dellu16-emilbanca-lyons-contro-cus-milano/671791",
+      "summary": "The post Netta vittoria dell’U16 Emilbanca Lyons contro CUS Milano appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T15:23:14+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Centro di Formazione Professionale della Provincia di Como: formare i cuochi di domani tra tecnica, creatività e innovazione",
+      "url": "https://www.ciaocomo.it/2026/11/23/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione/348541",
+      "summary": "Due Open Day il 28 novembre e il 12 dicembre per conoscere i percorsi formativi del CFP dedicato a “Luigi Grisoni”, con laboratori di orientamento dedicati a cucina, pasticceria e sala bar The post Centro di Formazione Professionale della Provincia di Como: formare i cuochi di domani tra tecnica, creatività e innovazione appeared first on CiaoComo .",
+      "published_at": "2026-11-23T15:00:12+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como Acqua, l’Assemblea dei Soci approva il nuovo assetto finanziario per il subentro nella gestione dell’acquedotto di Como e Brunate",
+      "url": "https://www.ciaocomo.it/2026/11/23/como-acqua-lassemblea-dei-soci-approva-il-nuovo-assetto-finanziario-per-il-subentro-nella-gestione-dellacquedotto-di-como-e-brunate/348578",
+      "summary": "Finanziamento fino a 146 milioni di euro, comprensivo del pagamento del valore residuo a Lereti, del sostegno agli investimenti e del rifinanziamento di linee di credito esistenti. Via libera anche alla proroga del contratto di affitto del ramo idrico dei Comuni dell’ATO di Como e alla prosecuzione degli approfondimenti sulla gestione delle caditoie The post Como Acqua, l’Assemblea dei Soci approva il nuovo assetto finanziario per il subentro nella gestione dell’acquedotto di Como e Brunate appeared first on CiaoComo .",
+      "published_at": "2026-11-23T14:52:54+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Comune di Piacenza, concorso per un istruttore amministrativo contabile riservato alle persone con disabilità",
       "url": "https://www.piacenzasera.it/2026/11/comune-di-piacenza-concorso-per-un-istruttore-amministrativo-contabile-riservato-alle-persone-con-disabilita/671775",
@@ -116,6 +176,20 @@
       ]
     },
     {
+      "title": "Libri e incontri, le presentazioni tra Como e provincia",
+      "url": "https://www.ciaocomo.it/2026/11/23/libri-e-incontri-le-presentazioni-tra-como-e-provincia/348514",
+      "summary": "Libri, incontri, conferenze, presentazioni e appuntamenti letterari per grandi e piccini: tutto il programma previsto per i prossimi giorni The post Libri e incontri, le presentazioni tra Como e provincia appeared first on CiaoComo .",
+      "published_at": "2026-11-23T13:00:18+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Lago di Como, nasce la superpotenza del commercio: 12 Comuni, 116 chilometri quadrati e 20mila abitanti",
       "url": "https://comozero.it/attualita/lago-di-como-nasce-la-superpotenza-del-commercio-12-comuni-116-chilometri-quadrati-e-20mila-abitanti",
       "summary": "Presentato a Cernobbio il progetto per sostenere il commercio di prossimità. In arrivo anche una mappatura dei negozi, nuovi percorsi tra lago e borghi e un calendario condiviso degli eventi per il 2027 Dodici Comuni, oltre 116 chilometri quadrati di territorio e più di 20mila abitanti. Il Distretto Diffuso di Rilevanza Intercomunale (DID) “Primo Bacino […] L'articolo Lago di Como, nasce la superpotenza del commercio: 12 Comuni, 116 chilometri quadrati e 20mila abitanti proviene da ComoZero .",
@@ -172,34 +246,6 @@
       ]
     },
     {
-      "title": "Molestie e violenza di genere sul lavoro: da oggi a Piacenza un Punto di ascolto",
-      "url": "https://www.piacenzasera.it/2026/11/molestie-e-violenza-di-genere-sul-lavoro-da-oggi-a-piacenza-un-punto-di-ascolto/671740",
-      "summary": "Servizio gratuito promosso da Ausl e organizzazioni sindacali confederali per offrire accoglienza, sostegno e orientamento alle vittime di molestie e violenza di genere The post Molestie e violenza di genere sul lavoro: da oggi a Piacenza un Punto di ascolto appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T11:59:48+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Libri e incontri, le presentazioni tra Como e provincia",
-      "url": "https://www.ciaocomo.it/2026/11/23/libri-e-incontri-le-presentazioni-tra-como-e-provincia/348514",
-      "summary": "Libri, incontri, conferenze, presentazioni e appuntamenti letterari per grandi e piccini: tutto il programma previsto per i prossimi giorni The post Libri e incontri, le presentazioni tra Como e provincia appeared first on CiaoComo .",
-      "published_at": "2026-11-23T11:30:18+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Centro di Formazione Professionale della Provincia di Como: formare i cuochi di domani tra tecnica, creatività e innovazione",
       "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
       "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Centro di Formazione Professionale della Provincia di Como: formare i cuochi di domani tra tecnica, creatività e innovazione proviene da ComoZero .",
@@ -214,40 +260,12 @@
       ]
     },
     {
-      "title": "Cinema e Futuro, a Como la quarta edizione guarda all’industria audiovisiva: investimenti, produzioni e nuove opportunità per il territorio",
-      "url": "https://www.ciaocomo.it/2026/11/23/cinema-e-futuro-a-como-la-quarta-edizione-guarda-allindustria-audiovisiva-investimenti-produzioni-e-nuove-opportunita-per-il-territorio/348524",
-      "summary": "Il 24 novembre Villa del Grumello accoglie professionisti, produttori e rappresentanti delle Film Commission italiane e svizzere. Nasce Lake Como Film Industry, mentre il 26 novembre gli studenti incontrano chi lavora dietro le quinte del cinema The post Cinema e Futuro, a Como la quarta edizione guarda all’industria audiovisiva: investimenti, produzioni e nuove opportunità per il territorio appeared first on CiaoComo .",
-      "published_at": "2026-11-23T10:00:40+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Piano Freddo a Como, 600 volontari in campo. E intanto parte la raccolta fondi: obiettivo 30mila euro",
       "url": "https://comozero.it/attualita/piano-freddo-a-como-600-volontari-in-campo-e-intanto-parte-la-raccolta-fondi-obiettivo-30mila-euro",
       "summary": "Anche per l’inverno alle porte, la rete della solidarietà comasca si mobilita per non lasciare nessuno al freddo. Giunto alla sua sedicesima edizione consecutiva, torna in città il Piano Freddo, l’iniziativa pensata per potenziare i servizi di accoglienza e offrire un riparo notturno alle persone senza dimora che non trovano posto nelle strutture permanenti. Per […] L'articolo Piano Freddo a Como, 600 volontari in campo. E intanto parte la raccolta fondi: obiettivo 30mila euro proviene da ComoZero .",
       "published_at": "2026-11-23T09:56:30+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Meteo nel Comasco: avvio stabile, poi piogge a metà settimana e weekend più freddo",
-      "url": "https://www.ciaocomo.it/2026/11/23/meteo-como-provincia-previsioni-settimana-2/348525",
-      "summary": "Previsioni meteo per Como e provincia fino a domenica 29 Novembre: piogge a metà settimana e weekend più freddo con minime vicine allo zero. The post Meteo nel Comasco: avvio stabile, poi piogge a metà settimana e weekend più freddo appeared first on CiaoComo .",
-      "published_at": "2026-11-23T09:37:07+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -297,20 +315,6 @@
       "territory_codes": [
         "CO",
         "RM"
-      ]
-    },
-    {
-      "title": "Tutti al cinema, i film della settimana",
-      "url": "https://www.ciaocomo.it/2026/11/23/tutti-al-cinema-i-film-della-settimana-2/348513",
-      "summary": "Proiezioni, prime visioni e cineforum in programma nei cinema cittadini: cosa offre il grande schermo a Como e dintorni The post Tutti al cinema, i film della settimana appeared first on CiaoComo .",
-      "published_at": "2026-11-23T07:00:27+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
