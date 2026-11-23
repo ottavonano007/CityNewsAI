@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:11:06.024127+00:00",
+  "generated_at": "2026-11-23T20:59:12.793739+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "La spettacolare cabinovia da 23 milioni tra monti del Lago di Como è realtà (con ristorante panoramico in arrivo)",
+      "url": "https://comozero.it/attualita/monti-del-lago-di-como-ecco-la-spettacolare-cabinovia-da-23-milioni-e-ristorante-panoramico-in-arrivo",
+      "summary": "[Tutte le foto: Piani di Bobbio] L’impianto sostituisce quello in funzione dal 1993 e potrà trasportare fino a 3.400 persone all’ora. Apertura al pubblico il 28 novembre, insieme alla nuova stagione invernale. Dopo sei mesi di lavori, la nuova cabinovia Barzio-Piani di Bobbio è realtà. L’impianto è stato inaugurato questa mattina, lunedì 23 novembre, e […] L'articolo La spettacolare cabinovia da 23 milioni tra monti del Lago di Como è realtà (con ristorante panoramico in arrivo) proviene da ComoZero .",
+      "published_at": "2026-11-23T19:24:12+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Elezioni a Como: scintille sui nomi e doppio appuntamento tra assenze e tensioni. Maretta in Forza Italia",
       "url": "https://comozero.it/politica/elezioni-a-como-scintille-sui-nomi-e-doppio-appuntamento-tra-assenze-e-tensioni-maretta-in-forza-italia",
@@ -298,20 +312,6 @@
       "url": "https://comozero.it/attualita/como-aek-atene-arriva-la-champions-tutti-i-divieti-e-le-limitazioni-al-traffico",
       "summary": "In vista dell’atteso incontro di UEFA Champions League tra Como e AEK Atene, in programma martedì 24 novembre alle ore 21.00 allo stadio “Giuseppe Sinigaglia”, la Polizia Locale ha predisposto un piano straordinario per la gestione del traffico e della sosta. I provvedimenti interesseranno progressivamente tutta l’area attorno all’impianto sportivo e la zona di Lazzago, […] L'articolo Como-Aek Atene, arriva la Champions: tutti i divieti e le limitazioni al traffico proviene da ComoZero .",
       "published_at": "2026-11-23T09:19:18+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, le fiabe si toccano con mano: apre la biblioteca in Braille nata dal desiderio dei genitori",
-      "url": "https://comozero.it/attualita/como-le-fiabe-si-toccano-con-mano-apre-la-biblioteca-in-braille-nata-dal-desiderio-dei-genitori",
-      "summary": "Tutto è cominciato con una domanda semplice, ma carica di significato: come si fa a condividere la magia di una fiaba con il proprio bambino quando la vista non basta? È da questo interrogativo, maturato tra i genitori che frequentano la Sezione di Como dell’Unione Italiana dei Ciechi e degli Ipovedenti (Uici), che prende forma […] L'articolo Como, le fiabe si toccano con mano: apre la biblioteca in Braille nata dal desiderio dei genitori proviene da ComoZero .",
-      "published_at": "2026-11-23T07:43:12+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
