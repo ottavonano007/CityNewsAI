@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-23T09:32:32.907320+00:00",
+  "generated_at": "2026-11-23T11:15:39.408439+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 1,
-      "inserted": 1,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 10,
+      "inserted": 10,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cinema e Futuro, a Como la quarta edizione guarda all’industria audiovisiva: investimenti, produzioni e nuove opportunità per il territorio",
+      "url": "https://www.ciaocomo.it/2026/11/23/cinema-e-futuro-a-como-la-quarta-edizione-guarda-allindustria-audiovisiva-investimenti-produzioni-e-nuove-opportunita-per-il-territorio/348524",
+      "summary": "Il 24 novembre Villa del Grumello accoglie professionisti, produttori e rappresentanti delle Film Commission italiane e svizzere. Nasce Lake Como Film Industry, mentre il 26 novembre gli studenti incontrano chi lavora dietro le quinte del cinema The post Cinema e Futuro, a Como la quarta edizione guarda all’industria audiovisiva: investimenti, produzioni e nuove opportunità per il territorio appeared first on CiaoComo .",
+      "published_at": "2026-11-23T10:31:40+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Piano Freddo a Como, 600 volontari in campo. E intanto parte la raccolta fondi: obiettivo 30mila euro",
+      "url": "https://comozero.it/attualita/piano-freddo-a-como-600-volontari-in-campo-e-intanto-parte-la-raccolta-fondi-obiettivo-30mila-euro",
+      "summary": "Anche per l’inverno alle porte, la rete della solidarietà comasca si mobilita per non lasciare nessuno al freddo. Giunto alla sua sedicesima edizione consecutiva, torna in città il Piano Freddo, l’iniziativa pensata per potenziare i servizi di accoglienza e offrire un riparo notturno alle persone senza dimora che non trovano posto nelle strutture permanenti. Per […] L'articolo Piano Freddo a Como, 600 volontari in campo. E intanto parte la raccolta fondi: obiettivo 30mila euro proviene da ComoZero .",
+      "published_at": "2026-11-23T09:56:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Accordo Brugneto, nuovo incontro promosso dal Comitato Difesa Valtrebbia",
+      "url": "https://www.piacenzasera.it/2026/11/accordo-brugneto-nuovo-incontro-promosso-dal-comitato-difesa-valtrebbia/671696",
+      "summary": "Alla Cavallerizza, il 26 novembre, l'incontro promosso da Comitato Difesa Valtrebbia, Legambiente Piacenza e la sezione piacentina di Italia Nostra The post Accordo Brugneto, nuovo incontro promosso dal Comitato Difesa Valtrebbia appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T09:50:38+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Polo del ferro, Pd “Piacenza non può permettersi di perdere altro tempo”",
+      "url": "https://www.piacenzasera.it/2026/11/polo-del-ferro-pd-piacenza-non-puo-permettersi-di-perdere-altro-tempo/671694",
+      "summary": "The post Polo del ferro, Pd “Piacenza non può permettersi di perdere altro tempo” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T09:43:32+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Meteo nel Comasco: avvio stabile, poi piogge a metà settimana e weekend più freddo",
+      "url": "https://www.ciaocomo.it/2026/11/23/meteo-como-provincia-previsioni-settimana-2/348525",
+      "summary": "Previsioni meteo per Como e provincia fino a domenica 29 Novembre: piogge a metà settimana e weekend più freddo con minime vicine allo zero. The post Meteo nel Comasco: avvio stabile, poi piogge a metà settimana e weekend più freddo appeared first on CiaoComo .",
+      "published_at": "2026-11-23T09:37:07+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Como-Aek Atene, arriva la Champions: tutti i divieti e le limitazioni al traffico",
       "url": "https://comozero.it/attualita/como-aek-atene-arriva-la-champions-tutti-i-divieti-e-le-limitazioni-al-traffico",
@@ -39,6 +109,50 @@
       ],
       "territory_codes": [
         "CO"
+      ]
+    },
+    {
+      "title": "Le Alpi viste dai Colli Piacentini negli scatti di Cesare Barillà",
+      "url": "https://www.piacenzasera.it/2026/11/le-alpi-viste-dai-colli-piacentini-negli-scatti-di-cesare-barilla/671684",
+      "summary": "Gli scatti realizzati dal fotografo piacentino Cesare Barillà The post Le Alpi viste dai Colli Piacentini negli scatti di Cesare Barillà appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T09:16:56+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Al President torna il Festival della canzone dialettale piacentina",
+      "url": "https://www.piacenzasera.it/2026/11/al-president-torna-il-festival-della-canzone-dialettale-piacentina/671690",
+      "summary": "Martedì 1° dicembre, alle ore 21, va in scena il festival con Marilena Massarini nelle vesti di conduttrice, mentre la direzione artistica e musicale è affidata a Marcolino The post Al President torna il Festival della canzone dialettale piacentina appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T08:30:47+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "L’agricoltura del futuro è oggi: a Firenze il Manifesto al 2050 e il Food Geopolitical Index",
+      "url": "https://www.piacenzasera.it/2026/11/lagricoltura-del-futuro-e-oggi-a-firenze-il-manifesto-al-2050-e-il-food-geopolitical-index/671692",
+      "summary": "Confagricoltura Piacenza alla due giorni nazionale con il presidente Umberto Gorra e il direttore Raffaello Rossi. Gorra: \"Al centro l’impresa che produce reddito e futuro per i territori\" The post L’agricoltura del futuro è oggi: a Firenze il Manifesto al 2050 e il Food Geopolitical Index appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T08:00:59+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "fi",
+        "piacenza"
+      ],
+      "territory_codes": [
+        "FI",
+        "PC"
       ]
     },
     {
@@ -174,20 +288,6 @@
       ]
     },
     {
-      "title": "Troppo forte Perugia, al PalaBanca Gas Sales sconfitta in tre set (0-3)",
-      "url": "https://www.piacenzasera.it/2026/11/la-prima-della-classe-perugia-al-palabanca-gas-sales-in-campo-alle-18/671571",
-      "summary": "In un PalabancaSport sold out la formazione biancorossa è stata superata dagli umbri per 3-0 (22-25, 23-25, 20-25) nella gara valida per la sesta giornata di SuperLega The post Troppo forte Perugia, al PalaBanca Gas Sales sconfitta in tre set (0-3) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T18:35:52+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "pg"
-      ],
-      "territory_codes": [
-        "PG"
-      ]
-    },
-    {
       "title": "Paura in autostrada: l’auto con due donne a bordo si ribalta a pochi metri dalla galleria",
       "url": "https://comozero.it/attualita/paura-in-autostrada-lauto-con-due-donne-a-bordo-si-ribalta-a-pochi-metri-dalla-galleria",
       "summary": "Un grave incidente stradale ha paralizzato la circolazione sull’autostrada A9 nel pomeriggio di oggi. Poco prima delle 16, un’automobile si è ribaltata all’altezza di Como, poco prima dell’ingresso della galleria Monte Olimpino, provocando il ferimento di due donne e pesanti disagi alla viabilità. La dinamica dell’incidente e i soccorsi in A9 L’allarme è scattato intorno […] L'articolo Paura in autostrada: l’auto con due donne a bordo si ribalta a pochi metri dalla galleria proviene da ComoZero .",
@@ -213,20 +313,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "L’Italia Chef Piacenza torna al successo superando Molinella (90-89)",
-      "url": "https://www.piacenzasera.it/2026/11/litalia-chef-piacenza-torna-al-successo-superando-molinella-90-89/671639",
-      "summary": "Nella prossima giornata Piacenza sarà attesa dalla trasferta di Medicina, sabato 28 novembre, alle ore 21 The post L’Italia Chef Piacenza torna al successo superando Molinella (90-89) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T16:42:03+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -257,34 +343,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Pioggia di emozioni al Garilli, Piacenza supera il Villa Valle e appaia il Chievo secondo (3-2)",
-      "url": "https://www.piacenzasera.it/2026/11/al-garilli-il-piacenza-ospita-il-villa-valle-ore-1430/671574",
-      "summary": "Avanti di due reti i biancorossi si sono fatti raggiungere dagli ospiti rimasti in dieci, ma nel finale Capelli regala la vittoria The post Pioggia di emozioni al Garilli, Piacenza supera il Villa Valle e appaia il Chievo secondo (3-2) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T15:22:14+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "A Cortemaggiore la sessione provinciale del progetto Fiba “Her world, her rules”",
-      "url": "https://www.piacenzasera.it/2026/11/a-cortemaggiore-la-sessione-provinciale-del-progetto-fiba-her-world-her-rules/671624",
-      "summary": "A Piacenza l’evento si terrà a Cortemaggiore il 28 novembre The post A Cortemaggiore la sessione provinciale del progetto Fiba “Her world, her rules” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-22T15:00:15+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -356,48 +414,6 @@
       ],
       "territory_codes": [
         "BG",
-        "CO"
-      ]
-    },
-    {
-      "title": "Mercatini di Natale in Lombardia: dove sono e quando aprono tra lago, città e montagna",
-      "url": "https://comozero.it/attualita/i-mercatini-di-natale-in-lombardia-tra-lago-citta-e-montagne-sapori-e-atmosfere-delle-feste",
-      "summary": "Con l’avvicinarsi del Natale tornano anche i tradizionali mercatini, un appuntamento che ogni anno richiama migliaia di visitatori tra casette di legno, prodotti artigianali, decorazioni, idee regalo e specialità gastronomiche. Anche per il Natale 2026 la Lombardia propone numerosi mercatini, distribuiti tra città, borghi storici, località di montagna e paesi affacciati sui laghi. Da Milano […] L'articolo Mercatini di Natale in Lombardia: dove sono e quando aprono tra lago, città e montagna proviene da ComoZero .",
-      "published_at": "2026-11-22T05:33:48+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
-      ]
-    },
-    {
-      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
-      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
-      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
-      "published_at": "2026-11-21T23:27:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day",
-      "url": "https://comozero.it/pubbliredazionale/como-non-solo-grande-musica-e-grande-danza-al-liceo-giuditta-pasta-le-neuroscienze-entrano-in-classe-lopen-day",
-      "summary": "Porte aperte al Liceo Musicale e Coreutico “Giuditta Pasta” di Como, che domenica 22 novembre, dalle ore 14.30 alle 18.30, attende famiglie e studenti delle scuole medie per il suo Open Day. Un’occasione imperdibile per conoscere da vicino gli spazi, l’atmosfera e la proposta didattica della scuola con la possibilità, per chi desidera un’attenzione ancora […] L'articolo Como, non solo grande musica e grande danza: al Liceo Giuditta Pasta le neuroscienze entrano in classe, l’open day proviene da ComoZero .",
-      "published_at": "2026-11-21T23:26:54+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
         "CO"
       ]
     },
