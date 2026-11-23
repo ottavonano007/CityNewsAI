@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:59:12.793739+00:00",
+  "generated_at": "2026-11-23T21:59:01.857334+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,36 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, Domenico vede quasi niente e si infuria: “Anche spazzatura e cassonetti sono barriere architettoniche”. Dai, non è difficile fare bene",
+      "url": "https://comozero.it/punti-di-vista/como-domenico-vede-poco-e-si-infuria-anche-spazzatura-e-cassonetti-sono-barriere-architettoniche-dai-non-e-difficile-fare-bene",
+      "summary": "Domenico Cataldo è un colosso. Non si lascia abbattere da nessuno, soprattutto da niente. Non si lascia abbattere da barriere architettoniche fisse o mobili, non si lascia abbattere dallo sconforto ma viceversa (che diamine: giustamente!) si incazza. Ipovedente Domenico, non vedente totale Michela, sua moglie (qui i loro racconti passati). Hanno la loro vita come […] L'articolo Como, Domenico vede quasi niente e si infuria: “Anche spazzatura e cassonetti sono barriere architettoniche”. Dai, non è difficile fare bene proviene da ComoZero .",
+      "published_at": "2026-11-23T21:13:06+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Ciclismo, Ct Amadio ospite del Rotary “Stagione positiva, abbiamo giovani promettenti”",
+      "url": "https://www.piacenzasera.it/2026/11/ciclismo-ct-amadio-ospite-del-rotary-stagione-positiva-giovani-promettenti/671854",
+      "summary": "Un ospite speciale in occasione del Centenario del Rotary Club Piacenza celebrato il 23 novembre al Grande Albergo Roma: Roberto Amadio, il commissario tecnico della Nazionale Italiana di Ciclismo su strada The post Ciclismo, Ct Amadio ospite del Rotary “Stagione positiva, abbiamo giovani promettenti” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T20:58:01+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza",
+        "rm"
+      ],
+      "territory_codes": [
+        "PC",
+        "RM"
+      ]
+    },
     {
       "title": "La spettacolare cabinovia da 23 milioni tra monti del Lago di Como è realtà (con ristorante panoramico in arrivo)",
       "url": "https://comozero.it/attualita/monti-del-lago-di-como-ecco-la-spettacolare-cabinovia-da-23-milioni-e-ristorante-panoramico-in-arrivo",
@@ -160,24 +190,6 @@
         "piacenza"
       ],
       "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Autostrada A1, aggiornamento al programma delle chiusure notturne nel tratto piacentino",
-      "url": "https://www.piacenzasera.it/2026/11/autostrada-a1-aggiornamento-al-programma-delle-chiusure-notturne-nel-tratto-piacentino/671800",
-      "summary": "Annullata la deviazione obbligatoria sulla complanare di Piacenza (R49), da Milano verso Bologna, prevista nella notte tra lunedì e martedì The post Autostrada A1, aggiornamento al programma delle chiusure notturne nel tratto piacentino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T15:42:27+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bo",
-        "mi",
-        "piacenza"
-      ],
-      "territory_codes": [
-        "BO",
-        "MI",
         "PC"
       ]
     },
