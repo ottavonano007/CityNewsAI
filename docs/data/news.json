@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:08:00.607717+00:00",
+  "generated_at": "2026-11-23T19:10:47.626160+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 10,
-      "inserted": 10,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -28,9 +28,41 @@
   ],
   "articles": [
     {
+      "title": "Cazoeula, riso al persico, trippa: i piatti della tradizione lariana ora sono tutelati da una legge regionale",
+      "url": "https://www.ciaocomo.it/2026/11/23/cazoeula-riso-al-persico-trippa-i-piatti-della-tradizione-ora-sono-tutelati-da-una-legge-regionale/348626",
+      "summary": "Tavola rotonda oggi in Amministrazione provinciale a Como: ecco i contenuti principali. Il presidente Confesercenti:\"Definire i piatti e la loro preparazione\" The post Cazoeula, riso al persico, trippa: i piatti della tradizione lariana ora sono tutelati da una legge regionale appeared first on CiaoComo .",
+      "published_at": "2026-11-23T18:28:46+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Dieci giorni di gare, 30 sport e 12mila atleti: ecco gli Open Masters Games Como Lake",
+      "url": "https://comozero.it/attualita/dieci-giorni-di-gare-30-sport-e-12mila-atleti-ecco-gli-open-masters-games-como-lake",
+      "summary": "Dieci giorni di competizioni, 30 discipline sportive e 12.000 atleti attesi da oltre 100 Paesi. La Lombardia si prepara a ospitare gli Open Masters Games Como Lake, la manifestazione multisportiva internazionale in programma dal 17 al 26 settembre 2027 nei territori di Como, Lecco e Varese. L’evento è stato presentato oggi a Palazzo Lombardia, in […] L'articolo Dieci giorni di gare, 30 sport e 12mila atleti: ecco gli Open Masters Games Como Lake proviene da ComoZero .",
+      "published_at": "2026-11-23T18:16:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "lc",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC",
+        "VA"
+      ]
+    },
+    {
       "title": "In Serie B la Gas Sales Bluenergy lotta ma cede in trasferta a Torino",
       "url": "https://www.piacenzasera.it/2026/11/in-serie-b-la-gas-sales-bluenergy-lotta-ma-cede-in-trasferta-a-torino/671841",
-      "summary": "The post In Serie B la Gas Sales Bluenergy lotta ma cede in trasferta a Torino appeared first on piacenzasera.it .",
+      "summary": "La formazione piemontese si è imposta con il punteggio di 3-0 ed è ora prima in classifica The post In Serie B la Gas Sales Bluenergy lotta ma cede in trasferta a Torino appeared first on piacenzasera.it .",
       "published_at": "2026-11-23T17:43:29+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -87,20 +119,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini",
-      "url": "https://www.ciaocomo.it/2026/11/23/la-provincia-di-como-porta-luniversita-nelle-biblioteche-quattro-incontri-per-avvicinare-la-conoscenza-ai-cittadini/348593",
-      "summary": "Si comincia il 26 novembre a Cernobbio con la professoressa Grazia Mannozzi e un approfondimento sui legal thriller. Il progetto accompagna la nascita del nuovo sistema bibliotecario provinciale, che dal 2027 unirà 98 biblioteche The post La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini appeared first on CiaoComo .",
-      "published_at": "2026-11-23T16:30:00+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -198,20 +216,6 @@
       "published_at": "2026-11-23T13:06:44+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Libri e incontri, le presentazioni tra Como e provincia",
-      "url": "https://www.ciaocomo.it/2026/11/23/libri-e-incontri-le-presentazioni-tra-como-e-provincia/348514",
-      "summary": "Libri, incontri, conferenze, presentazioni e appuntamenti letterari per grandi e piccini: tutto il programma previsto per i prossimi giorni The post Libri e incontri, le presentazioni tra Como e provincia appeared first on CiaoComo .",
-      "published_at": "2026-11-23T13:00:18+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
