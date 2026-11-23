@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-23T13:29:22.622736+00:00",
+  "generated_at": "2026-11-23T15:14:26.962432+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 10,
-      "inserted": 10,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -28,10 +28,56 @@
   ],
   "articles": [
     {
-      "title": "Como, il ‘giustiziere delle strisce blu’ torna a colpire, questa volta con pennello e vernice bianca offerti al popolo",
-      "url": "https://comozero.it/attualita/como-il-giustiziere-delle-strisce-blu-torna-a-colpire-questa-volta-con-pennello-e-vernice-bianca-offerti-al-popolo",
-      "summary": "Il “giustiziere delle strisce blu” torna a colpire, questa volta in via Porro all’angolo con via Don Guanella dove stamattina gli operai hanno iniziato i lavori per trasformare in stalli a pagamento i parcheggi gratuiti lungo la strada. Dopo i quelli comparsi in via Don Guanella nei giorni scorsi (trovate la cronaca qui e qui) […] L'articolo Como, il ‘giustiziere delle strisce blu’ torna a colpire, questa volta con pennello e vernice bianca offerti al popolo proviene da ComoZero .",
-      "published_at": "2026-11-23T12:30:44+00:00",
+      "title": "Comune di Piacenza, concorso per un istruttore amministrativo contabile riservato alle persone con disabilità",
+      "url": "https://www.piacenzasera.it/2026/11/comune-di-piacenza-concorso-per-un-istruttore-amministrativo-contabile-riservato-alle-persone-con-disabilita/671775",
+      "summary": "Entro il 23 dicembre le domande di ammissione The post Comune di Piacenza, concorso per un istruttore amministrativo contabile riservato alle persone con disabilità appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T14:48:11+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Seta: tolleranza zero contro ogni forma di discriminazione o violenza di genere",
+      "url": "https://www.piacenzasera.it/2026/11/seta-tolleranza-zero-contro-ogni-forma-di-discriminazione-o-violenza-di-genere/671761",
+      "summary": "In coincidenza con le iniziative organizzate per il 25 Novembre, l’azienda di trasporto pubblico che opera nei territori provinciali di Modena, Reggio Emilia e Piacenza ha adottato la Policy aziendale The post Seta: tolleranza zero contro ogni forma di discriminazione o violenza di genere appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T14:17:29+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mo",
+        "piacenza",
+        "re"
+      ],
+      "territory_codes": [
+        "MO",
+        "PC",
+        "RE"
+      ]
+    },
+    {
+      "title": "Falsi finanzieri, rapine e traffico di droga: 15 misure cautelari nell’operazione “Black Car”, sequestrati 31 chili di cocaina",
+      "url": "https://www.ciaocomo.it/2026/11/23/falsi-finanzieri-rapine-e-traffico-di-droga-15-misure-cautelari-nelloperazione-black-car-sequestrati-31-chili-di-cocaina/348553",
+      "summary": "L'inchiesta è partita da un assalto a Novedrate, dove quattro uomini con pettorine della Guardia di Finanza avevano sottratto 100 chili di hashish. Due le indagini collegate, coordinate dalle Procure di Como e Monza The post Falsi finanzieri, rapine e traffico di droga: 15 misure cautelari nell’operazione “Black Car”, sequestrati 31 chili di cocaina appeared first on CiaoComo .",
+      "published_at": "2026-11-23T14:08:10+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, i finti finanzieri, i 100 chili di hashish e la banca: 15 arresti in sei province VIDEO",
+      "url": "https://comozero.it/attualita/como-finti-finanzieri-rapinano-100-chili-di-hashish-15-arresti-in-sei-province-video",
+      "summary": "Un falso posto di blocco, quattro uomini con il volto coperto da passamontagna e le pettorine della Guardia di finanza, e un bottino da cento chili di hashish. È partito da una rapina messa in scena con modalità paramilitari il blitz che all’alba di oggi ha portato in carcere 15 persone, raggiunte da un’ordinanza di […] L'articolo Como, i finti finanzieri, i 100 chili di hashish e la banca: 15 arresti in sei province VIDEO proviene da ComoZero .",
+      "published_at": "2026-11-23T13:51:33+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -42,12 +88,54 @@
       ]
     },
     {
-      "title": "Libri e incontri, le presentazioni tra Como e provincia",
-      "url": "https://www.ciaocomo.it/2026/11/23/libri-e-incontri-le-presentazioni-tra-como-e-provincia/348514",
-      "summary": "Libri, incontri, conferenze, presentazioni e appuntamenti letterari per grandi e piccini: tutto il programma previsto per i prossimi giorni The post Libri e incontri, le presentazioni tra Como e provincia appeared first on CiaoComo .",
-      "published_at": "2026-11-23T12:30:18+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
+      "title": "Vap cede in casa alla più esperta Florenzo Firenze (2-3)",
+      "url": "https://www.piacenzasera.it/2026/11/vap-cede-in-casa-alla-piu-esperta-florenzo-firenze-2-3/671755",
+      "summary": "L'esito dell'ultimo match per l'U19 di Volley Academy The post Vap cede in casa alla più esperta Florenzo Firenze (2-3) appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T13:38:56+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "fi"
+      ],
+      "territory_codes": [
+        "FI"
+      ]
+    },
+    {
+      "title": "Lago di Como, nella villa incantata quattro giorni di incontri tra filosofia, teatro e geopolitica con ‘Al Limite un libro!’",
+      "url": "https://comozero.it/cultura-e-spettacolo/lago-di-como-nella-villa-incantata-quattro-giorni-di-incontri-tra-filosofia-teatro-e-geopolitica-con-al-limite-un-libro",
+      "summary": "Dal 26 al 29 novembre torna a Como “Al Limite un libro!”: sei appuntamenti tra Dario Fo, i rapporti tra Cina e Stati Uniti, ambiente, diritti, musica e poesia. Ingresso gratuito con prenotazione obbligatoria I libri come punto di partenza per attraversare discipline diverse, mettere a confronto idee e linguaggi e leggere le trasformazioni del […] L'articolo Lago di Como, nella villa incantata quattro giorni di incontri tra filosofia, teatro e geopolitica con ‘Al Limite un libro!’ proviene da ComoZero .",
+      "published_at": "2026-11-23T13:06:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Lago di Como, nasce la superpotenza del commercio: 12 Comuni, 116 chilometri quadrati e 20mila abitanti",
+      "url": "https://comozero.it/attualita/lago-di-como-nasce-la-superpotenza-del-commercio-12-comuni-116-chilometri-quadrati-e-20mila-abitanti",
+      "summary": "Presentato a Cernobbio il progetto per sostenere il commercio di prossimità. In arrivo anche una mappatura dei negozi, nuovi percorsi tra lago e borghi e un calendario condiviso degli eventi per il 2027 Dodici Comuni, oltre 116 chilometri quadrati di territorio e più di 20mila abitanti. Il Distretto Diffuso di Rilevanza Intercomunale (DID) “Primo Bacino […] L'articolo Lago di Como, nasce la superpotenza del commercio: 12 Comuni, 116 chilometri quadrati e 20mila abitanti proviene da ComoZero .",
+      "published_at": "2026-11-23T12:38:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, il ‘giustiziere delle strisce blu’ torna a colpire, questa volta con pennello e vernice bianca offerti al popolo",
+      "url": "https://comozero.it/attualita/como-il-giustiziere-delle-strisce-blu-torna-a-colpire-questa-volta-con-pennello-e-vernice-bianca-offerti-al-popolo",
+      "summary": "Il “giustiziere delle strisce blu” torna a colpire, questa volta in via Porro all’angolo con via Don Guanella dove stamattina gli operai hanno iniziato i lavori per trasformare in stalli a pagamento i parcheggi gratuiti lungo la strada. Dopo i quelli comparsi in via Don Guanella nei giorni scorsi (trovate la cronaca qui e qui) […] L'articolo Como, il ‘giustiziere delle strisce blu’ torna a colpire, questa volta con pennello e vernice bianca offerti al popolo proviene da ComoZero .",
+      "published_at": "2026-11-23T12:30:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -98,19 +186,17 @@
       ]
     },
     {
-      "title": "Dopo la fuga lo schianto alla rotonda, convalidato l’arresto di due ventenni",
-      "url": "https://www.piacenzasera.it/2026/11/dopo-la-fuga-lo-schianto-alla-rotonda-convalidato-larresto-di-due-ventenni/671729",
-      "summary": "I colpi sarebbero stati messi a segno a Pontenure e a Premolo (Bergamo), l'auto invece sarebbe stata rubata a Boretto (Reggio Emilia) The post Dopo la fuga lo schianto alla rotonda, convalidato l’arresto di due ventenni appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T11:31:47+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
+      "title": "Libri e incontri, le presentazioni tra Como e provincia",
+      "url": "https://www.ciaocomo.it/2026/11/23/libri-e-incontri-le-presentazioni-tra-como-e-provincia/348514",
+      "summary": "Libri, incontri, conferenze, presentazioni e appuntamenti letterari per grandi e piccini: tutto il programma previsto per i prossimi giorni The post Libri e incontri, le presentazioni tra Como e provincia appeared first on CiaoComo .",
+      "published_at": "2026-11-23T11:30:18+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
-        "bg",
-        "re"
+        "como"
       ],
       "territory_codes": [
-        "BG",
-        "RE"
+        "CO"
       ]
     },
     {
@@ -128,56 +214,10 @@
       ]
     },
     {
-      "title": "Schianto a San Rocco nella serata di domenica, muore giovane piacentina di 18 anni",
-      "url": "https://www.piacenzasera.it/2026/11/schianto-a-san-rocco-nella-serata-di-domenica-muore-giovane-piacentina-di-18-anni/671727",
-      "summary": "Lo scontro tra le due vetture si è verificato poco prima delle 22 di domenica sera e il bilancio è stato di tre feriti, sul posto anche l'elisoccorso notturno The post Schianto a San Rocco nella serata di domenica, muore giovane piacentina di 18 anni appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T11:24:21+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Calcio a 5: vittoria dello Special Dream Team sul Pepo Team (4-0)",
-      "url": "https://www.piacenzasera.it/2026/11/calcio-a-5-vittoria-dello-special-dream-team-sul-pepo-team-4-0/671723",
-      "summary": "Seconda giornata del campionato paralimpico di calcio a 5 Csi (comitati di Cremona, Brescia e Mantova) The post Calcio a 5: vittoria dello Special Dream Team sul Pepo Team (4-0) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T11:11:26+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "bs",
-        "cr",
-        "mn"
-      ],
-      "territory_codes": [
-        "BS",
-        "CR",
-        "MN"
-      ]
-    },
-    {
-      "title": "Piacenza capitale cultura 2033, Tarasconi a Dresda “Lavoriamo insieme per valorizzare la Madonna Sistina”",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-capitale-cultura-2033-tarasconi-a-dresda-lavoriamo-insieme-per-valorizzare-la-madonna-sistina/671722",
-      "summary": "Con l’assessore Fiazza e il direttore dei Musei civici Iommelli, la sindaca ha incontrato le autorità locali e i responsabili della Gemäldegalerie Alte Meister. Nella primavera del 2028 Piacenza ospiterà la XIX Borsa Culturale Italo-Tedesca The post Piacenza capitale cultura 2033, Tarasconi a Dresda “Lavoriamo insieme per valorizzare la Madonna Sistina” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T11:10:33+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Cinema e Futuro, a Como la quarta edizione guarda all’industria audiovisiva: investimenti, produzioni e nuove opportunità per il territorio",
       "url": "https://www.ciaocomo.it/2026/11/23/cinema-e-futuro-a-como-la-quarta-edizione-guarda-allindustria-audiovisiva-investimenti-produzioni-e-nuove-opportunita-per-il-territorio/348524",
       "summary": "Il 24 novembre Villa del Grumello accoglie professionisti, produttori e rappresentanti delle Film Commission italiane e svizzere. Nasce Lake Como Film Industry, mentre il 26 novembre gli studenti incontrano chi lavora dietro le quinte del cinema The post Cinema e Futuro, a Como la quarta edizione guarda all’industria audiovisiva: investimenti, produzioni e nuove opportunità per il territorio appeared first on CiaoComo .",
-      "published_at": "2026-11-23T10:31:40+00:00",
+      "published_at": "2026-11-23T10:00:40+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
@@ -390,20 +430,6 @@
       ]
     },
     {
-      "title": "Como, la denuncia: “La solita disparità fiscale che favorisce la Svizzera e il Sud, qui invece promesse lettera morta”",
-      "url": "https://comozero.it/politica/como-la-denuncia-la-solita-disparita-fiscale-che-favorisce-la-svizzera-e-il-sud-qui-invece-promesse-lettera-morta",
-      "summary": "«Tagliare la burocrazia è certamente utile, ma pensare di rilanciare l’economia del Nord e fermare la concorrenza svizzera senza un solo euro di sgravio fiscale è l’ennesima illusione ottica costruita nei palazzi romani». Con queste parole la Segreteria Provinciale di Como di Patto per il Nord commenta l’annuncio del Governo relativo all’istituzione della Zona Economica […] L'articolo Como, la denuncia: “La solita disparità fiscale che favorisce la Svizzera e il Sud, qui invece promesse lettera morta” proviene da ComoZero .",
-      "published_at": "2026-11-22T16:21:08+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Filippo Carpani premiato a Londra dalla Royal Aeronautical Society",
       "url": "https://primacomo.it/attualita/filippo-carpani-premiato-a-londra-dalla-royal-aeronautical-society",
       "summary": "Ottimi risultati universitari e personali per Filippo Carpani di Pusiano, premiato a Londra dall’importante realtà della Royal Aeronautical Society. Premio speciale Filippo è un pusianese di 24 anni (classe 2002), che frequenta il corso universitario in Ingegneria Aeronautica del Politecnico di Milano. Il giovane, insieme ad altri due studenti, Alessandro Galli e Carlo Farnetani, ha […] Continua la lettura di Filippo Carpani premiato a Londra dalla Royal Aeronautical Society sul portale Prima Como .",
@@ -417,20 +443,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "“Distacchi, sfaldamenti, perdita di colore: dopo i lavori mi aspettavo la villa simbolo di Como impeccabile. E invece…”",
-      "url": "https://comozero.it/punti-di-vista/distacchi-sfaldamenti-perdita-di-colore-dopo-i-lavori-mi-aspettavo-la-villa-simbolo-di-como-impeccabile-e-invece",
-      "summary": "Nel marzo scorso, i lavori di smontaggio delle impalcature attorno alla facciata di Villa Olmo hanno svelato l’aspetto della dimora dopo il lungo cantiere. Sono ancora in corso invece gli interventi di recupero delle serre storiche e degli interni della villa. In questo quadro, riceviamo e pubblichiamo la segnalazione di un lettore, con fotografie allegate […] L'articolo “Distacchi, sfaldamenti, perdita di colore: dopo i lavori mi aspettavo la villa simbolo di Como impeccabile. E invece…” proviene da ComoZero .",
-      "published_at": "2026-11-22T13:57:11+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
