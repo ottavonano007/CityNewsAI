@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-23T16:19:35.627371+00:00",
+  "generated_at": "2026-11-23T18:08:00.607717+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
+      "parsed": 4,
+      "inserted": 4,
+      "ok": true
+    },
+    {
+      "source": "CiaoComo",
       "parsed": 5,
       "inserted": 5,
       "ok": true
     },
     {
-      "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
-      "ok": true
-    },
-    {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 10,
+      "inserted": 10,
       "ok": true
     },
     {
@@ -27,6 +27,96 @@
     }
   ],
   "articles": [
+    {
+      "title": "In Serie B la Gas Sales Bluenergy lotta ma cede in trasferta a Torino",
+      "url": "https://www.piacenzasera.it/2026/11/in-serie-b-la-gas-sales-bluenergy-lotta-ma-cede-in-trasferta-a-torino/671841",
+      "summary": "The post In Serie B la Gas Sales Bluenergy lotta ma cede in trasferta a Torino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T17:43:29+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "to"
+      ],
+      "territory_codes": [
+        "TO"
+      ]
+    },
+    {
+      "title": "Quando i ragazzi si chiudono nella stanza: a Como una serata su scuola e disagio giovanile",
+      "url": "https://comozero.it/attualita/quando-i-ragazzi-si-chiudono-nella-stanza-a-como-una-serata-su-scuola-e-disagio-giovanile",
+      "summary": "[Copertina: archivio ComoZero] Giovedì 3 dicembre alla Fondazione Castellini un appuntamento gratuito promosso nell’ambito del progetto LevelUp. A guidare il confronto sarà Francesca Taiana, esperta in ambito psico-educativo Come riconoscere i segnali di disagio nei ragazzi e intervenire prima che le difficoltà diventino più profonde? È il tema al centro di “Fuori dalla stanza – […] L'articolo Quando i ragazzi si chiudono nella stanza: a Como una serata su scuola e disagio giovanile proviene da ComoZero .",
+      "published_at": "2026-11-23T17:13:52+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
+      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
+      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
+      "published_at": "2026-11-23T17:07:10+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi",
+        "so",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI",
+        "SO",
+        "VA"
+      ]
+    },
+    {
+      "title": "MyVertical in Cattolica: la sfida della transizione energetica passa dalla competitività delle imprese",
+      "url": "https://www.piacenzasera.it/2026/11/myvertical-in-cattolica-la-sfida-della-transizione-energetica-passa-dalla-competitivita-delle-imprese/671823",
+      "summary": "Nel campus di Piacenza la terza edizione dell’iniziativa della laurea magistrale in Gestione d’azienda che ha riunito studiosi, ricercatori e protagonisti della filiera energetica The post MyVertical in Cattolica: la sfida della transizione energetica passa dalla competitività delle imprese appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T16:31:28+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini",
+      "url": "https://www.ciaocomo.it/2026/11/23/la-provincia-di-como-porta-luniversita-nelle-biblioteche-quattro-incontri-per-avvicinare-la-conoscenza-ai-cittadini/348593",
+      "summary": "Si comincia il 26 novembre a Cernobbio con la professoressa Grazia Mannozzi e un approfondimento sui legal thriller. Il progetto accompagna la nascita del nuovo sistema bibliotecario provinciale, che dal 2027 unirà 98 biblioteche The post La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini appeared first on CiaoComo .",
+      "published_at": "2026-11-23T16:30:00+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La biblioteca di Gragnano diventa presidio anti violenza: è la prima in provincia ad aderire alla rete Rifugi",
+      "url": "https://www.piacenzasera.it/2026/11/la-biblioteca-di-gragnano-diventa-presidio-anti-violenza/671815",
+      "summary": "La biblioteca di Gragnano è la prima realtà del Piacentino a entrare a far parte del progetto \"Rifugi\", una rete che ha lo scopo di trasformare biblioteche e librerie in presidi civici e attivi contro la violenza di genere The post La biblioteca di Gragnano diventa presidio anti violenza: è la prima in provincia ad aderire alla rete Rifugi appeared first on piacenzasera.it .",
+      "published_at": "2026-11-23T16:24:20+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Autostrada A1, aggiornamento al programma delle chiusure notturne nel tratto piacentino",
       "url": "https://www.piacenzasera.it/2026/11/autostrada-a1-aggiornamento-al-programma-delle-chiusure-notturne-nel-tratto-piacentino/671800",
@@ -43,20 +133,6 @@
         "BO",
         "MI",
         "PC"
-      ]
-    },
-    {
-      "title": "Netta vittoria dell’U16 Emilbanca Lyons contro CUS Milano",
-      "url": "https://www.piacenzasera.it/2026/11/netta-vittoria-dellu16-emilbanca-lyons-contro-cus-milano/671791",
-      "summary": "The post Netta vittoria dell’U16 Emilbanca Lyons contro CUS Milano appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T15:23:14+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
       ]
     },
     {
@@ -88,38 +164,6 @@
       ]
     },
     {
-      "title": "Comune di Piacenza, concorso per un istruttore amministrativo contabile riservato alle persone con disabilità",
-      "url": "https://www.piacenzasera.it/2026/11/comune-di-piacenza-concorso-per-un-istruttore-amministrativo-contabile-riservato-alle-persone-con-disabilita/671775",
-      "summary": "Entro il 23 dicembre le domande di ammissione The post Comune di Piacenza, concorso per un istruttore amministrativo contabile riservato alle persone con disabilità appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T14:48:11+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Seta: tolleranza zero contro ogni forma di discriminazione o violenza di genere",
-      "url": "https://www.piacenzasera.it/2026/11/seta-tolleranza-zero-contro-ogni-forma-di-discriminazione-o-violenza-di-genere/671761",
-      "summary": "In coincidenza con le iniziative organizzate per il 25 Novembre, l’azienda di trasporto pubblico che opera nei territori provinciali di Modena, Reggio Emilia e Piacenza ha adottato la Policy aziendale The post Seta: tolleranza zero contro ogni forma di discriminazione o violenza di genere appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T14:17:29+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "mo",
-        "piacenza",
-        "re"
-      ],
-      "territory_codes": [
-        "MO",
-        "PC",
-        "RE"
-      ]
-    },
-    {
       "title": "Falsi finanzieri, rapine e traffico di droga: 15 misure cautelari nell’operazione “Black Car”, sequestrati 31 chili di cocaina",
       "url": "https://www.ciaocomo.it/2026/11/23/falsi-finanzieri-rapine-e-traffico-di-droga-15-misure-cautelari-nelloperazione-black-car-sequestrati-31-chili-di-cocaina/348553",
       "summary": "L'inchiesta è partita da un assalto a Novedrate, dove quattro uomini con pettorine della Guardia di Finanza avevano sottratto 100 chili di hashish. Due le indagini collegate, coordinate dalle Procure di Como e Monza The post Falsi finanzieri, rapine e traffico di droga: 15 misure cautelari nell’operazione “Black Car”, sequestrati 31 chili di cocaina appeared first on CiaoComo .",
@@ -145,20 +189,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Vap cede in casa alla più esperta Florenzo Firenze (2-3)",
-      "url": "https://www.piacenzasera.it/2026/11/vap-cede-in-casa-alla-piu-esperta-florenzo-firenze-2-3/671755",
-      "summary": "L'esito dell'ultimo match per l'U19 di Volley Academy The post Vap cede in casa alla più esperta Florenzo Firenze (2-3) appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T13:38:56+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "fi"
-      ],
-      "territory_codes": [
-        "FI"
       ]
     },
     {
@@ -210,34 +240,6 @@
       "published_at": "2026-11-23T12:30:44+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, dal 24 novembre cambiano i numeri di telefono del Settore Lavoro e dei Centri per l’Impiego",
-      "url": "https://www.ciaocomo.it/2026/11/23/provincia-di-como-dal-24-novembre-cambiano-i-numeri-di-telefono-del-settore-lavoro-e-dei-centri-per-limpiego/348537",
-      "summary": "La nuova numerazione interessa i servizi dedicati ai cittadini e alle aziende, comprese le sedi di via Volta a Como e di via Leopardi a Erba The post Provincia di Como, dal 24 novembre cambiano i numeri di telefono del Settore Lavoro e dei Centri per l’Impiego appeared first on CiaoComo .",
-      "published_at": "2026-11-23T12:27:29+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Piano Freddo a Como, servono 30mila euro per accogliere le persone senza dimora: al via la campagna “C’è posto”",
-      "url": "https://www.ciaocomo.it/2026/11/23/piano-freddo-a-como-servono-30mila-euro-per-accogliere-le-persone-senza-dimora-al-via-la-campagna-ce-posto/348535",
-      "summary": "Oltre 600 volontari impegnati ogni anno per offrire un riparo alle persone senza dimora. La solidarietà dei comaschi resta fondamentale per il progetto The post Piano Freddo a Como, servono 30mila euro per accogliere le persone senza dimora: al via la campagna “C’è posto” appeared first on CiaoComo .",
-      "published_at": "2026-11-23T12:00:30+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -384,48 +386,6 @@
       "published_at": "2026-11-22T20:53:13+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Le 4 frecce, il referto medico, la multa in 190 secondi: “Ho chiesto di ragionare ma quello sguardo soddisfatto…”",
-      "url": "https://comozero.it/punti-di-vista/le-4-frecce-il-referto-medico-la-multa-in-190-secondi-ho-chiesto-di-ragionare-ma-quello-sguardo-soddisfatto",
-      "summary": "Da un nostro lettore, Fulvio Temporin, riceviamo e pubblichiamo il racconto su una multa presa a Como (foto in copertina d’archivio) che pone una questione per certi versi classica, pur nell’ammissione che “chi è in torto non ha giustificazioni”: una manciata di secondi in sosta irregolare giustificano l’inflessibilità della sanzione? Di seguito la lettera (per segnalazioni, […] L'articolo Le 4 frecce, il referto medico, la multa in 190 secondi: “Ho chiesto di ragionare ma quello sguardo soddisfatto…” proviene da ComoZero .",
-      "published_at": "2026-11-22T19:18:55+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Paura in autostrada: l’auto con due donne a bordo si ribalta a pochi metri dalla galleria",
-      "url": "https://comozero.it/attualita/paura-in-autostrada-lauto-con-due-donne-a-bordo-si-ribalta-a-pochi-metri-dalla-galleria",
-      "summary": "Un grave incidente stradale ha paralizzato la circolazione sull’autostrada A9 nel pomeriggio di oggi. Poco prima delle 16, un’automobile si è ribaltata all’altezza di Como, poco prima dell’ingresso della galleria Monte Olimpino, provocando il ferimento di due donne e pesanti disagi alla viabilità. La dinamica dell’incidente e i soccorsi in A9 L’allarme è scattato intorno […] L'articolo Paura in autostrada: l’auto con due donne a bordo si ribalta a pochi metri dalla galleria proviene da ComoZero .",
-      "published_at": "2026-11-22T18:07:10+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Germano reale impigliato nella lenza e ferito: il pescatore si intenerisce, lo segue e i Vigili del fuoco lo salvano",
-      "url": "https://comozero.it/attualita/germano-reale-impigliato-nella-lenza-e-ferito-il-pescatore-si-intenerisce-lo-segue-e-i-vigili-del-fuoco-lo-salvanp",
-      "summary": "Un pomeriggio di paura e di grande attenzione per la fauna del lago si è concluso con un lieto fine in viale Geno, a Como. Intorno alle 15 di oggi, un germano reale è rimasto accidentalmente impigliato nella lenza di un pescatore, finendo con l’amo conficcato nel becco. L’episodio è avvenuto mentre l’uomo stava pescando […] L'articolo Germano reale impigliato nella lenza e ferito: il pescatore si intenerisce, lo segue e i Vigili del fuoco lo salvano proviene da ComoZero .",
-      "published_at": "2026-11-22T18:03:30+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
