@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-24T10:24:25.119166+00:00",
+  "generated_at": "2026-11-24T12:06:23.744283+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 9,
+      "inserted": 9,
       "ok": true
     },
     {
@@ -28,6 +28,76 @@
   ],
   "articles": [
     {
+      "title": "In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto",
+      "url": "https://comozero.it/ambiente/in-provincia-di-como-la-guerra-dei-tigli-il-comune-li-vuole-sradicare-lassociazione-fa-muro-compatto",
+      "summary": "L’associazione contesta la decisione del Comune di abbattere le alberature di via San Rocco, via Turati e via Licinio. Nel mirino anche le motivazioni legate alla sicurezza dei pedoni. La Soprintendenza ha espresso perplessità sulla legittimità dell’intervento La decisione del Comune di Erba di abbattere gli alberi di via San Rocco, via Turati e via […] L'articolo In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto proviene da ComoZero .",
+      "published_at": "2026-11-24T11:40:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini",
+      "url": "https://www.ciaocomo.it/2026/11/24/la-provincia-di-como-porta-luniversita-nelle-biblioteche-quattro-incontri-per-avvicinare-la-conoscenza-ai-cittadini/348593",
+      "summary": "Si comincia il 26 novembre a Cernobbio con la professoressa Grazia Mannozzi e un approfondimento sui legal thriller. Il progetto accompagna la nascita del nuovo sistema bibliotecario provinciale, che dal 2027 unirà 98 biblioteche The post La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini appeared first on CiaoComo .",
+      "published_at": "2026-11-24T11:30:00+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Le imprese in crisi possono essere salvate dai lavoratori” La ricetta di Confcooperative",
+      "url": "https://www.piacenzasera.it/2026/11/le-imprese-in-crisi-possono-essere-salvate-dai-lavoratori-la-ricetta-di-confcooperative/671844",
+      "summary": "Sarà uno dei relatori del convegno promosso da Confcooperative Piacenza il 25 novembre presso la sala del consiglio provinciale The post “Le imprese in crisi possono essere salvate dai lavoratori” La ricetta di Confcooperative appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T11:24:59+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Parkinson, 450 pazienti seguiti a Piacenza “Dati in aumento, occorre conoscere la patologia”",
+      "url": "https://www.piacenzasera.it/2026/11/parkinson-450-pazienti-seguiti-a-piacenza-dati-in-aumento-occorre-conoscere-la-patologia/671920",
+      "summary": "Nella mattinata di sabato 28 novembre i professionisti del PDTA saranno infatti a diposizione dei cittadini per rispondere alle domande e illustrare i servizi e i percorsi di diagnosi, cura e assistenza The post Parkinson, 450 pazienti seguiti a Piacenza “Dati in aumento, occorre conoscere la patologia” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T11:14:55+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere”",
+      "url": "https://comozero.it/attualita/il-como-ha-depositato-il-progetto-del-nuovo-stadio-sinigaglia-rapinese-non-faccia-finta-di-non-sapere",
+      "summary": "“Il Como ha protocollato il 10 novembre in Comune il nuovo progetto dello Stadio Sinigaglia“. A rivelarlo a seguito di un accesso agli atti, è stato durante il consiglio comunale di lunedì 23 novembre il consigliere comunale di Svolta Civica, Vittorio Nessi. In discussione era la mozione presentata dallo stesso Nessi lo scorso 28 settembre, […] L'articolo “Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere” proviene da ComoZero .",
+      "published_at": "2026-11-24T10:30:53+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Elezioni 2027, Potere al Popolo “Anche a Piacenza nessun sostegno al campo largo”",
       "url": "https://www.piacenzasera.it/2026/11/elezioni-2027-potere-al-popolo-anche-a-piacenza-nessun-sostegno-al-campo-largo/671888",
       "summary": "The post Elezioni 2027, Potere al Popolo “Anche a Piacenza nessun sostegno al campo largo” appeared first on piacenzasera.it .",
@@ -42,9 +112,9 @@
       ]
     },
     {
-      "title": "Come trovare nuovi clienti con LinkedIn: workshop in Banca di Piacenza",
+      "title": "Come trovare nuovi clienti con Linkedin: workshop in Banca di Piacenza",
       "url": "https://www.piacenzasera.it/2026/11/come-trovare-nuovi-clienti-con-linkedin-workshop-in-banca-di-piacenza/671886",
-      "summary": "L’appuntamento è per giovedì 26 novembre, alle 17, al PalabancaEventi The post Come trovare nuovi clienti con LinkedIn: workshop in Banca di Piacenza appeared first on piacenzasera.it .",
+      "summary": "L’appuntamento è per giovedì 26 novembre, alle 17, al PalabancaEventi The post Come trovare nuovi clienti con Linkedin: workshop in Banca di Piacenza appeared first on piacenzasera.it .",
       "published_at": "2026-11-24T10:16:37+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -53,6 +123,22 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Cine Orienta, all’Astra la proiezione di “Dìdi”",
+      "url": "https://www.ciaocomo.it/2026/11/24/cine-orienta-allastra-la-proiezione-di-didi/348548",
+      "summary": "Giovedì 26 novembre alle 20.30 proiezione del film \"Dìdi\" di Sean Wang, nell'ambito dell'iniziativa della Camera di Commercio di Como-Lecco The post Cine Orienta, all’Astra la proiezione di “Dìdi” appeared first on CiaoComo .",
+      "published_at": "2026-11-24T10:00:23+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "lc"
+      ],
+      "territory_codes": [
+        "CO",
+        "LC"
       ]
     },
     {
@@ -70,19 +156,17 @@
       ]
     },
     {
-      "title": "Successo di prestigio per Karate Piacenza all’Open di Roma: oro per Michelle Rizzoli",
-      "url": "https://www.piacenzasera.it/2026/11/successo-di-prestigio-per-karate-piacenza-allopen-di-roma-oro-per-michelle-rizzoli/671869",
-      "summary": "All’Open di Roma Fijlkam gara valevole per il ranking della nazionale azzurra agli europei 2027 The post Successo di prestigio per Karate Piacenza all’Open di Roma: oro per Michelle Rizzoli appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T09:27:18+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
+      "title": "Rapinese: “Entrerete al Politeama con la musichetta di un esercizio commerciale grazie a noi”. Nessi: “Avete fallito”",
+      "url": "https://comozero.it/attualita/rapinese-entrerete-al-politeama-con-la-musichetta-di-un-esercizio-commerciale-grazie-a-noi-nessi-avete-fallito",
+      "summary": "“Se tra qualche anno qualcuno di voi entrerà al Politeama in grazia di Dio, magari con la musichetta sotto, in un esercizio commerciale di qualunque natura e tipo, l’immobile non sarà più un posto dimenticato dal Signore grazie a questa delibera”. Così il sindaco di Como Alessandro Rapinese, ieri sera in consiglio comunale, ha introdotto […] L'articolo Rapinese: “Entrerete al Politeama con la musichetta di un esercizio commerciale grazie a noi”. Nessi: “Avete fallito” proviene da ComoZero .",
+      "published_at": "2026-11-24T09:40:55+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
-        "piacenza",
-        "rm"
+        "como"
       ],
       "territory_codes": [
-        "PC",
-        "RM"
+        "CO"
       ]
     },
     {
@@ -236,6 +320,68 @@
       ]
     },
     {
+      "title": "Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria",
+      "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
+      "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
+      "published_at": "2026-11-23T23:17:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, al Ristorante Imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro",
+      "url": "https://comozero.it/pubbliredazionale/como-al-ristorante-imbarcadero-grande-cena-con-sorpresa-lopera-darte-nasce-tra-una-piatto-e-laltro",
+      "summary": "Un ospite d’eccezione, un menù d’inverno tra tradizione e ricerca e un’opera d’arte che prenderà forma sotto gli occhi dei commensali, Questa è la serata “A tavola con l’arte. Una performance live di Giuliano Grittini” pensata dal Ristorante Imbarcadero 1892 di piazza Cavour per giovedì 3 dicembre: una cena-evento a numero chiuso, unica nel suo […] L'articolo Como, al Ristorante Imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro proviene da ComoZero .",
+      "published_at": "2026-11-23T23:15:34+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp",
+      "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
+      "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
+      "published_at": "2026-11-23T23:11:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
+      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
+      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
+      "published_at": "2026-11-23T23:07:10+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi",
+        "so",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI",
+        "SO",
+        "VA"
+      ]
+    },
+    {
       "title": "Como, Domenico è quasi cieco e si infuria: “Anche spazzatura e cassonetti sono barriere architettoniche”. Dai, non è difficile fare bene",
       "url": "https://comozero.it/punti-di-vista/como-domenico-vede-poco-e-si-infuria-anche-spazzatura-e-cassonetti-sono-barriere-architettoniche-dai-non-e-difficile-fare-bene",
       "summary": "Domenico Cataldo è un colosso. Non si lascia abbattere da nessuno, soprattutto da niente. Non si lascia abbattere da barriere architettoniche fisse o mobili, non si lascia abbattere dallo sconforto ma viceversa (che diamine: giustamente!) si incazza. Ipovedente Domenico, non vedente totale Michela, sua moglie (qui i loro racconti passati). Hanno la loro vita come […] L'articolo Como, Domenico è quasi cieco e si infuria: “Anche spazzatura e cassonetti sono barriere architettoniche”. Dai, non è difficile fare bene proviene da ComoZero .",
@@ -264,120 +410,12 @@
       ]
     },
     {
-      "title": "Elezioni a Como: scintille sui nomi e doppio appuntamento tra assenze e tensioni. Maretta in Forza Italia",
-      "url": "https://comozero.it/politica/elezioni-a-como-scintille-sui-nomi-e-doppio-appuntamento-tra-assenze-e-tensioni-maretta-in-forza-italia",
-      "summary": "C’è maretta in Forza Italia a Como. La dimostrazione plastica è il doppio appuntamento a distanza di una sola settimana che le due anime del partito stanno preparando, non senza tensioni. L’incontro del 28 novembre a Villa Gallia e le tensioni interne Da un lato, il gruppo che si può definire ciellino – che da […] L'articolo Elezioni a Como: scintille sui nomi e doppio appuntamento tra assenze e tensioni. Maretta in Forza Italia proviene da ComoZero .",
-      "published_at": "2026-11-23T18:36:12+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Cazoeula, riso al persico, trippa: i piatti della tradizione lariana ora sono tutelati da una legge regionale",
       "url": "https://www.ciaocomo.it/2026/11/23/cazoeula-riso-al-persico-trippa-i-piatti-della-tradizione-ora-sono-tutelati-da-una-legge-regionale/348626",
       "summary": "Tavola rotonda oggi in Amministrazione provinciale a Como: ecco i contenuti principali. Il presidente Confesercenti:\"Definire i piatti e la loro preparazione\" The post Cazoeula, riso al persico, trippa: i piatti della tradizione lariana ora sono tutelati da una legge regionale appeared first on CiaoComo .",
       "published_at": "2026-11-23T18:28:46+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Dieci giorni di gare, 30 sport e 12mila atleti: ecco gli Open Masters Games Como Lake",
-      "url": "https://comozero.it/attualita/dieci-giorni-di-gare-30-sport-e-12mila-atleti-ecco-gli-open-masters-games-como-lake",
-      "summary": "Dieci giorni di competizioni, 30 discipline sportive e 12.000 atleti attesi da oltre 100 Paesi. La Lombardia si prepara a ospitare gli Open Masters Games Como Lake, la manifestazione multisportiva internazionale in programma dal 17 al 26 settembre 2027 nei territori di Como, Lecco e Varese. L’evento è stato presentato oggi a Palazzo Lombardia, in […] L'articolo Dieci giorni di gare, 30 sport e 12mila atleti: ecco gli Open Masters Games Como Lake proviene da ComoZero .",
-      "published_at": "2026-11-23T18:16:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "lc",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "LC",
-        "VA"
-      ]
-    },
-    {
-      "title": "Quando i ragazzi si chiudono nella stanza: a Como una serata su scuola e disagio giovanile",
-      "url": "https://comozero.it/attualita/quando-i-ragazzi-si-chiudono-nella-stanza-a-como-una-serata-su-scuola-e-disagio-giovanile",
-      "summary": "[Copertina: archivio ComoZero] Giovedì 3 dicembre alla Fondazione Castellini un appuntamento gratuito promosso nell’ambito del progetto LevelUp. A guidare il confronto sarà Francesca Taiana, esperta in ambito psico-educativo Come riconoscere i segnali di disagio nei ragazzi e intervenire prima che le difficoltà diventino più profonde? È il tema al centro di “Fuori dalla stanza – […] L'articolo Quando i ragazzi si chiudono nella stanza: a Como una serata su scuola e disagio giovanile proviene da ComoZero .",
-      "published_at": "2026-11-23T17:13:52+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
-      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
-      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
-      "published_at": "2026-11-23T17:07:10+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi",
-        "so",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI",
-        "SO",
-        "VA"
-      ]
-    },
-    {
-      "title": "Como, i finti finanzieri, i 100 chili di hashish e la banca: 15 arresti in sei province VIDEO",
-      "url": "https://comozero.it/attualita/como-finti-finanzieri-rapinano-100-chili-di-hashish-15-arresti-in-sei-province-video",
-      "summary": "Un falso posto di blocco, quattro uomini con il volto coperto da passamontagna e le pettorine della Guardia di finanza, e un bottino da cento chili di hashish. È partito da una rapina messa in scena con modalità paramilitari il blitz che all’alba di oggi ha portato in carcere 15 persone, raggiunte da un’ordinanza di […] L'articolo Como, i finti finanzieri, i 100 chili di hashish e la banca: 15 arresti in sei province VIDEO proviene da ComoZero .",
-      "published_at": "2026-11-23T13:51:33+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lago di Como, nella villa incantata quattro giorni di incontri tra filosofia, teatro e geopolitica con ‘Al Limite un libro!’",
-      "url": "https://comozero.it/cultura-e-spettacolo/lago-di-como-nella-villa-incantata-quattro-giorni-di-incontri-tra-filosofia-teatro-e-geopolitica-con-al-limite-un-libro",
-      "summary": "Dal 26 al 29 novembre torna a Como “Al Limite un libro!”: sei appuntamenti tra Dario Fo, i rapporti tra Cina e Stati Uniti, ambiente, diritti, musica e poesia. Ingresso gratuito con prenotazione obbligatoria I libri come punto di partenza per attraversare discipline diverse, mettere a confronto idee e linguaggi e leggere le trasformazioni del […] L'articolo Lago di Como, nella villa incantata quattro giorni di incontri tra filosofia, teatro e geopolitica con ‘Al Limite un libro!’ proviene da ComoZero .",
-      "published_at": "2026-11-23T13:06:44+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lago di Como, nasce la superpotenza del commercio: 12 Comuni, 116 chilometri quadrati e 20mila abitanti",
-      "url": "https://comozero.it/attualita/lago-di-como-nasce-la-superpotenza-del-commercio-12-comuni-116-chilometri-quadrati-e-20mila-abitanti",
-      "summary": "Presentato a Cernobbio il progetto per sostenere il commercio di prossimità. In arrivo anche una mappatura dei negozi, nuovi percorsi tra lago e borghi e un calendario condiviso degli eventi per il 2027 Dodici Comuni, oltre 116 chilometri quadrati di territorio e più di 20mila abitanti. Il Distretto Diffuso di Rilevanza Intercomunale (DID) “Primo Bacino […] L'articolo Lago di Como, nasce la superpotenza del commercio: 12 Comuni, 116 chilometri quadrati e 20mila abitanti proviene da ComoZero .",
-      "published_at": "2026-11-23T12:38:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
