@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T09:16:46.736513+00:00",
+  "generated_at": "2026-11-24T10:24:25.119166+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,64 @@
     }
   ],
   "articles": [
+    {
+      "title": "Elezioni 2027, Potere al Popolo “Anche a Piacenza nessun sostegno al campo largo”",
+      "url": "https://www.piacenzasera.it/2026/11/elezioni-2027-potere-al-popolo-anche-a-piacenza-nessun-sostegno-al-campo-largo/671888",
+      "summary": "The post Elezioni 2027, Potere al Popolo “Anche a Piacenza nessun sostegno al campo largo” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T10:20:30+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Come trovare nuovi clienti con LinkedIn: workshop in Banca di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/come-trovare-nuovi-clienti-con-linkedin-workshop-in-banca-di-piacenza/671886",
+      "summary": "L’appuntamento è per giovedì 26 novembre, alle 17, al PalabancaEventi The post Come trovare nuovi clienti con LinkedIn: workshop in Banca di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T10:16:37+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Donato ecografo portatile al Sant’Anna",
+      "url": "https://primacomo.it/sanita/donato-ecografo-portatile-al-santanna",
+      "summary": "Un nuovo strumento per potenziare la precisione delle cure riabilitative, ridurre il dolore e migliorare il recupero funzionale dei pazienti affetti da esiti di ictus e patologie neurologiche disabilitanti. Il dono È stato donato all’ospedale Sant’Anna un ecografo portatile alla Riabilitazione Generale e Neuromotoria di Asst Lariana, grazie all’associazione A.L.I.Ce. Como OdV (Associazione Lotta all’Ictus […] Continua la lettura di Donato ecografo portatile al Sant’Anna sul portale Prima Como .",
+      "published_at": "2026-11-24T09:45:15+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Successo di prestigio per Karate Piacenza all’Open di Roma: oro per Michelle Rizzoli",
+      "url": "https://www.piacenzasera.it/2026/11/successo-di-prestigio-per-karate-piacenza-allopen-di-roma-oro-per-michelle-rizzoli/671869",
+      "summary": "All’Open di Roma Fijlkam gara valevole per il ranking della nazionale azzurra agli europei 2027 The post Successo di prestigio per Karate Piacenza all’Open di Roma: oro per Michelle Rizzoli appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T09:27:18+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza",
+        "rm"
+      ],
+      "territory_codes": [
+        "PC",
+        "RM"
+      ]
+    },
     {
       "title": "Disabilità, il ministro Locatelli all’Ue: «Servono più risorse per i nostri Paesi e maggiore flessibilità di bilancio»",
       "url": "https://www.ciaocomo.it/2026/11/24/disabilita-il-ministro-locatelli-allue-servono-piu-risorse-per-i-nostri-paesi-e-maggiore-flessibilita-di-bilancio/348644",
@@ -140,34 +198,6 @@
       ]
     },
     {
-      "title": "Terza età, visita guidata alla chiesa della Santissima Trinità: iscrizioni dal 23 novembre",
-      "url": "https://www.piacenzasera.it/2026/11/terza-eta-visita-guidata-alla-chiesa-della-santissima-trinita-iscrizioni-dal-23-novembre/671347",
-      "summary": "Conosciuta come la “parrocchia madre” di Piacenza, perché prima chiesa costruita nell’immediato dopoguerra, la Santissima Trinità è stata progettata dall’architetto Mario Bacciocchi The post Terza età, visita guidata alla chiesa della Santissima Trinità: iscrizioni dal 23 novembre appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T06:00:47+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Cosa potrebbe fare di Piacenza una città felice? Se ne parla in un incontro a Rosso Tiziano",
-      "url": "https://www.piacenzasera.it/2026/11/cosa-potrebbe-fare-di-piacenza-una-citta-felice-se-ne-parla-in-un-incontro-a-rosso-tiziano/671782",
-      "summary": "Venerdi 27 novembre un nuovo dialogo con Claudia Gnocchi, Paola Subacchi e Stefano Bartolini The post Cosa potrebbe fare di Piacenza una città felice? Se ne parla in un incontro a Rosso Tiziano appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T06:00:27+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Rapine, furti e traffico di droga: banda smantellata",
       "url": "https://primacomo.it/cronaca/rapine-furti-e-traffico-di-droga-banda-smantellata",
       "summary": "Le Fiamme Gialle del Comando Provinciale di Como, con il supporto dei militari del Comando Provinciale di Milano, Varese, Novara, Lodi e Caserta e di un’unità aerea del Reparto Aeronavale Lombardia, hanno eseguito un’ordinanza di custodia cautelare in carcere emessa dal Giudice per le indagini preliminari di Como nei confronti di 15 persone localizzate nelle […] Continua la lettura di Rapine, furti e traffico di droga: banda smantellata sul portale Prima Como .",
@@ -217,22 +247,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Ciclismo, Ct Amadio ospite del Rotary “Stagione positiva, abbiamo giovani promettenti”",
-      "url": "https://www.piacenzasera.it/2026/11/ciclismo-ct-amadio-ospite-del-rotary-stagione-positiva-giovani-promettenti/671854",
-      "summary": "Un ospite speciale in occasione del Centenario del Rotary Club Piacenza celebrato il 23 novembre al Grande Albergo Roma: Roberto Amadio, il commissario tecnico della Nazionale Italiana di Ciclismo su strada The post Ciclismo, Ct Amadio ospite del Rotary “Stagione positiva, abbiamo giovani promettenti” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T20:58:01+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza",
-        "rm"
-      ],
-      "territory_codes": [
-        "PC",
-        "RM"
       ]
     },
     {
@@ -293,20 +307,6 @@
         "CO",
         "LC",
         "VA"
-      ]
-    },
-    {
-      "title": "In Serie B la Gas Sales Bluenergy lotta ma cede in trasferta a Torino",
-      "url": "https://www.piacenzasera.it/2026/11/in-serie-b-la-gas-sales-bluenergy-lotta-ma-cede-in-trasferta-a-torino/671841",
-      "summary": "La formazione piemontese si è imposta con il punteggio di 3-0 ed è ora prima in classifica The post In Serie B la Gas Sales Bluenergy lotta ma cede in trasferta a Torino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T17:43:29+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "to"
-      ],
-      "territory_codes": [
-        "TO"
       ]
     },
     {
@@ -376,34 +376,6 @@
       "url": "https://comozero.it/attualita/lago-di-como-nasce-la-superpotenza-del-commercio-12-comuni-116-chilometri-quadrati-e-20mila-abitanti",
       "summary": "Presentato a Cernobbio il progetto per sostenere il commercio di prossimità. In arrivo anche una mappatura dei negozi, nuovi percorsi tra lago e borghi e un calendario condiviso degli eventi per il 2027 Dodici Comuni, oltre 116 chilometri quadrati di territorio e più di 20mila abitanti. Il Distretto Diffuso di Rilevanza Intercomunale (DID) “Primo Bacino […] L'articolo Lago di Como, nasce la superpotenza del commercio: 12 Comuni, 116 chilometri quadrati e 20mila abitanti proviene da ComoZero .",
       "published_at": "2026-11-23T12:38:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, il ‘giustiziere delle strisce blu’ torna a colpire, questa volta con pennello e vernice bianca offerti al popolo",
-      "url": "https://comozero.it/attualita/como-il-giustiziere-delle-strisce-blu-torna-a-colpire-questa-volta-con-pennello-e-vernice-bianca-offerti-al-popolo",
-      "summary": "Il “giustiziere delle strisce blu” torna a colpire, questa volta in via Porro all’angolo con via Don Guanella dove stamattina gli operai hanno iniziato i lavori per trasformare in stalli a pagamento i parcheggi gratuiti lungo la strada. Dopo i quelli comparsi in via Don Guanella nei giorni scorsi (trovate la cronaca qui e qui) […] L'articolo Como, il ‘giustiziere delle strisce blu’ torna a colpire, questa volta con pennello e vernice bianca offerti al popolo proviene da ComoZero .",
-      "published_at": "2026-11-23T12:30:44+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp",
-      "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
-      "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
-      "published_at": "2026-11-23T11:28:19+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -751,24 +723,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Finto carabiniere tenta di truffare coppia di anziani",
-      "url": "https://primacomo.it/cronaca/finto-carabiniere-tenta-di-truffare-coppia-di-anziani",
-      "summary": "I Carabinieri della Stazione di Cernobbio hanno eseguito un’ordinanza di misure cautelari nei confronti di due uomini di 28 e 29 anni, dimoranti in provincia di Varese e Nuoro, ritenuti responsabili di una tentata truffa aggravata ai danni di una coppia di anziani. Le indagini L’episodio risale al 13 luglio 2026, quando una donna di […] Continua la lettura di Finto carabiniere tenta di truffare coppia di anziani sul portale Prima Como .",
-      "published_at": "2026-11-18T07:00:08+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como",
-        "nu",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "NU",
-        "VA"
       ]
     }
   ]
