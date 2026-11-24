@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-24T15:11:37.974333+00:00",
+  "generated_at": "2026-11-24T16:21:11.344897+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,70 @@
     }
   ],
   "articles": [
+    {
+      "title": "Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo",
+      "url": "https://comozero.it/attualita/case-di-lusso-como-e-la-regina-ditalia-prezzi-in-crescita-fino-al-45-ma-le-sfidanti-sono-in-arrivo",
+      "summary": "Como si conferma la piazza immobiliare di lusso più promettente in Italia (non considerando Milano e Roma). Ma la vera sorpresa delle previsioni per il quinquennio 2026-2030 arriva dal Mezzogiorno: cinque città del Sud e delle Isole conquistano infatti un posto tra le prime sette della classifica nazionale È quanto emerge dall’Osservatorio sulla Casa di […] L'articolo Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo proviene da ComoZero .",
+      "published_at": "2026-11-24T15:56:18+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI",
+        "RM"
+      ]
+    },
+    {
+      "title": "Videosorveglianza nelle stazioni, Ferrovienord apre le telecamere a 15 Questure e Polizie locali: c’è anche Como",
+      "url": "https://comozero.it/attualita/videosorveglianza-nelle-stazioni-ferrovienord-apre-le-telecamere-a-15-questure-e-polizie-locali-ce-anche-como",
+      "summary": "Quindici convenzioni già sottoscritte per consentire alle forze dell’ordine di accedere direttamente alle immagini degli impianti di videosorveglianza. Coinvolte le Questure di Como, Monza e Varese e diversi Comandi di Polizia locale. Altri Comuni hanno manifestato interesse. Le telecamere delle stazioni ferroviarie di Ferrovienord diventano direttamente accessibili anche alle Questure e alle Polizie locali. Sono […] L'articolo Videosorveglianza nelle stazioni, Ferrovienord apre le telecamere a 15 Questure e Polizie locali: c’è anche Como proviene da ComoZero .",
+      "published_at": "2026-11-24T15:43:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
+    {
+      "title": "80mila frontalieri in Svizzera, Daniela Fumarola a Como: “Non possiamo lasciarli senza tutele”",
+      "url": "https://comozero.it/attualita/80mila-frontalieri-in-svizzera-daniela-fumarola-a-como-non-possiamo-lasciarli-senza-tutele",
+      "summary": "A Villa Gallia il confronto con il segretario generale della Cisl. Magon: “Il territorio paga le conseguenze dei mancati investimenti”. Fumarola rilancia su lavoro, sicurezza e accordi per i frontalieri Ottantamila frontalieri tra Como e Varese, una sanità in difficoltà, il costo della vita sempre più alto e un mercato del lavoro segnato dalla crescita […] L'articolo 80mila frontalieri in Svizzera, Daniela Fumarola a Como: “Non possiamo lasciarli senza tutele” proviene da ComoZero .",
+      "published_at": "2026-11-24T15:26:32+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "VA"
+      ]
+    },
+    {
+      "title": "Arrivati i tifosi dell’Aek a Como: concentrazione in piazza Volta, guardati a vista dalle forze dell’ordine",
+      "url": "https://www.ciaocomo.it/2026/11/24/arrivati-i-tifosi-dellaek-a-como-concentrazione-in-piazza-volta-guardati-a-vista-dalle-forze-dellordine/348678",
+      "summary": "La situazione è seguita con attenzione dalle forze dell'ordine. Una fetta consistente arrivata in pullman. Imponente il dispositivo di controllo delle fore dell'ordine The post Arrivati i tifosi dell’Aek a Como: concentrazione in piazza Volta, guardati a vista dalle forze dell’ordine appeared first on CiaoComo .",
+      "published_at": "2026-11-24T15:05:39+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Pac, gli agricoltori europei in marcia a Bruxelles il 26 novembre",
       "url": "https://www.piacenzasera.it/2026/11/pac-gli-agricoltori-europei-in-marcia-a-bruxelles-il-26-novembre/671946",
@@ -212,20 +276,6 @@
       ]
     },
     {
-      "title": "Parkinson, 450 pazienti seguiti a Piacenza “Dati in aumento, occorre conoscere la patologia”",
-      "url": "https://www.piacenzasera.it/2026/11/parkinson-450-pazienti-seguiti-a-piacenza-dati-in-aumento-occorre-conoscere-la-patologia/671920",
-      "summary": "Nella mattinata di sabato 28 novembre i professionisti del PDTA saranno infatti a diposizione dei cittadini per rispondere alle domande e illustrare i servizi e i percorsi di diagnosi, cura e assistenza The post Parkinson, 450 pazienti seguiti a Piacenza “Dati in aumento, occorre conoscere la patologia” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T11:14:55+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "“Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere”",
       "url": "https://comozero.it/attualita/il-como-ha-depositato-il-progetto-del-nuovo-stadio-sinigaglia-rapinese-non-faccia-finta-di-non-sapere",
       "summary": "“Il Como ha protocollato il 10 novembre in Comune il nuovo progetto dello Stadio Sinigaglia“. A rivelarlo a seguito di un accesso agli atti, è stato durante il consiglio comunale di lunedì 23 novembre il consigliere comunale di Svolta Civica, Vittorio Nessi. In discussione era la mozione presentata dallo stesso Nessi lo scorso 28 settembre, […] L'articolo “Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere” proviene da ComoZero .",
@@ -276,34 +326,6 @@
       "published_at": "2026-11-24T09:40:55+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Disabilità, il ministro Locatelli all’Ue: «Servono più risorse per i nostri Paesi e maggiore flessibilità di bilancio»",
-      "url": "https://www.ciaocomo.it/2026/11/24/disabilita-il-ministro-locatelli-allue-servono-piu-risorse-per-i-nostri-paesi-e-maggiore-flessibilita-di-bilancio/348644",
-      "summary": "Alla riunione informale dei Ministri per le Pari Opportunità in Irlanda, l’esponente comasca del Governo ha illustrato il percorso di riforma italiano, ponendo l’accento sul diritto al lavoro e sulla piena inclusione The post Disabilità, il ministro Locatelli all’Ue: «Servono più risorse per i nostri Paesi e maggiore flessibilità di bilancio» appeared first on CiaoComo .",
-      "published_at": "2026-11-24T09:05:36+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "L’Ultima Cena di Leonardo da Vinci: allo Yacht Club Como un incontro per riscoprire i segreti del Cenacolo",
-      "url": "https://www.ciaocomo.it/2026/11/24/lultima-cena-di-leonardo-da-vinci-allo-yacht-club-como-un-incontro-per-riscoprire-i-segreti-del-cenacolo/348546",
-      "summary": "Giovedì 26 novembre Michele Negri guiderà il pubblico alla scoperta dell’iconografia dell’Ultima Cena, dalle rappresentazioni storiche alle innovazioni introdotte da Leonardo. The post L’Ultima Cena di Leonardo da Vinci: allo Yacht Club Como un incontro per riscoprire i segreti del Cenacolo appeared first on CiaoComo .",
-      "published_at": "2026-11-24T08:28:25+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -382,48 +404,6 @@
       "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
       "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
       "published_at": "2026-11-23T23:17:05+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, al Ristorante Imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro",
-      "url": "https://comozero.it/pubbliredazionale/como-al-ristorante-imbarcadero-grande-cena-con-sorpresa-lopera-darte-nasce-tra-una-piatto-e-laltro",
-      "summary": "Un ospite d’eccezione, un menù d’inverno tra tradizione e ricerca e un’opera d’arte che prenderà forma sotto gli occhi dei commensali, Questa è la serata “A tavola con l’arte. Una performance live di Giuliano Grittini” pensata dal Ristorante Imbarcadero 1892 di piazza Cavour per giovedì 3 dicembre: una cena-evento a numero chiuso, unica nel suo […] L'articolo Como, al Ristorante Imbarcadero grande cena con sorpresa: l’opera d’arte nasce tra una piatto e l’altro proviene da ComoZero .",
-      "published_at": "2026-11-23T23:15:34+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
-      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
-      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
-      "published_at": "2026-11-23T23:13:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp",
-      "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
-      "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
-      "published_at": "2026-11-23T23:11:19+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
