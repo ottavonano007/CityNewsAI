@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-24T16:21:11.344897+00:00",
+  "generated_at": "2026-11-24T17:59:49.046373+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -28,6 +28,76 @@
   ],
   "articles": [
     {
+      "title": "Como, tra rottami e scheletri finalmente addio ai pontili dimenticati nel lago",
+      "url": "https://comozero.it/attualita/como-tra-rottami-e-scheletri-finalmente-addio-ai-pontili-dimenticati-nel-lago",
+      "summary": "Il Comune di Como ha deciso di intervenire d’urgenza per smontare gli scheletri e i rottami dei pontili galleggianti abbandonati da mesi e la passerella davanti al civico 10 di viale Geno. L’ordinanza, firmata il 20 novembre 2026, arriva per scongiurare il rischio che le strutture, ormai a pezzi, si stacchino e vadano alla deriva […] L'articolo Como, tra rottami e scheletri finalmente addio ai pontili dimenticati nel lago proviene da ComoZero .",
+      "published_at": "2026-11-24T16:57:42+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, la giunta con un milione di euro sposta circhi e luna park in un altro quartiere",
+      "url": "https://comozero.it/attualita/como-la-giunta-con-un-milione-di-euro-sposta-circhi-e-luna-park-in-un-altro-quartiere",
+      "summary": "La giunta comunale ha approvato il documento di indirizzo alla progettazione per un’area permanente e polifunzionale da quasi 13mila metri quadrati tra via Varesina e via D’Annunzio. Como compie un passo verso una sede fissa e attrezzata alternativa a Muggiò per le attività del Luna Park e presumibilmente dei circi. Con una delibera approvata all’unanimità […] L'articolo Como, la giunta con un milione di euro sposta circhi e luna park in un altro quartiere proviene da ComoZero .",
+      "published_at": "2026-11-24T16:35:44+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Pizza Amore Mio, nove tappe alla scoperta dell’arte della pizza con CiaoComo e Molini Lario",
+      "url": "https://www.ciaocomo.it/2026/11/24/pizza-amore-mio-nove-tappe-alla-scoperta-dellarte-della-pizza-con-ciaocomo-e-molini-lario/348646",
+      "summary": "Si conclude la quarta edizione del viaggio dedicato ai maestri pizzaioli delle province di Como e Monza Brianza, realizzato grazie al prezioso sostegno di Molini Lario e Accademia Farina The post Pizza Amore Mio, nove tappe alla scoperta dell’arte della pizza con CiaoComo e Molini Lario appeared first on CiaoComo .",
+      "published_at": "2026-11-24T16:33:06+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Sicurezza nelle stazioni ferroviarie, a Como e provincia le Forze dell’ordine avranno accesso diretto alla videosorveglianza",
+      "url": "https://www.ciaocomo.it/2026/11/24/sicurezza-nelle-stazioni-ferroviarie-a-como-e-provincia-le-forze-dellordine-avranno-accesso-diretto-alla-videosorveglianza/348689",
+      "summary": "Ferrovienord ha sottoscritto 15 convenzioni in Lombardia. Nel territorio comasco coinvolte la Questura e le Polizie locali di Canzo, Locate Varesino e Mariano Comense The post Sicurezza nelle stazioni ferroviarie, a Como e provincia le Forze dell’ordine avranno accesso diretto alla videosorveglianza appeared first on CiaoComo .",
+      "published_at": "2026-11-24T16:31:40+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Musica live, i concerti della settimana",
+      "url": "https://www.ciaocomo.it/2026/11/24/musica-live-i-concerti-della-settimana-2/348512",
+      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Musica live, i concerti della settimana appeared first on CiaoComo .",
+      "published_at": "2026-11-24T16:00:07+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo",
       "url": "https://comozero.it/attualita/case-di-lusso-como-e-la-regina-ditalia-prezzi-in-crescita-fino-al-45-ma-le-sfidanti-sono-in-arrivo",
       "summary": "Como si conferma la piazza immobiliare di lusso più promettente in Italia (non considerando Milano e Roma). Ma la vera sorpresa delle previsioni per il quinquennio 2026-2030 arriva dal Mezzogiorno: cinque città del Sud e delle Isole conquistano infatti un posto tra le prime sette della classifica nazionale È quanto emerge dall’Osservatorio sulla Casa di […] L'articolo Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo proviene da ComoZero .",
@@ -43,6 +113,20 @@
         "CO",
         "MI",
         "RM"
+      ]
+    },
+    {
+      "title": "Nuoto, i Master della Vittorino sfiorano il podio a Lodi",
+      "url": "https://www.piacenzasera.it/2026/11/nuoto-i-master-della-vittorino-sfiorano-il-podio-a-lodi/671978",
+      "summary": "Nella classifica che mette in fila le settantacinque società partecipanti, la squadra biancorossa ha chiuso al quarto posto con un bottino di ventinove medaglie The post Nuoto, i Master della Vittorino sfiorano il podio a Lodi appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T15:53:00+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "lo"
+      ],
+      "territory_codes": [
+        "LO"
       ]
     },
     {
@@ -80,7 +164,7 @@
     {
       "title": "Arrivati i tifosi dell’Aek a Como: concentrazione in piazza Volta, guardati a vista dalle forze dell’ordine",
       "url": "https://www.ciaocomo.it/2026/11/24/arrivati-i-tifosi-dellaek-a-como-concentrazione-in-piazza-volta-guardati-a-vista-dalle-forze-dellordine/348678",
-      "summary": "La situazione è seguita con attenzione dalle forze dell'ordine. Una fetta consistente arrivata in pullman. Imponente il dispositivo di controllo delle fore dell'ordine The post Arrivati i tifosi dell’Aek a Como: concentrazione in piazza Volta, guardati a vista dalle forze dell’ordine appeared first on CiaoComo .",
+      "summary": "La situazione è seguita con attenzione dalle forze dell'ordine. Una fetta consistente arrivata in pullman. Imponente il dispositivo di controllo in tutto il centro. Foto e video. The post Arrivati i tifosi dell’Aek a Como: concentrazione in piazza Volta, guardati a vista dalle forze dell’ordine appeared first on CiaoComo .",
       "published_at": "2026-11-24T15:05:39+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -220,20 +304,6 @@
       ]
     },
     {
-      "title": "Allerta meteo per frane in collina e Appennino",
-      "url": "https://www.piacenzasera.it/2026/11/allerta-meteo-per-frane-in-collina-e-appennino/671938",
-      "summary": "Per la provincia di Piacenza, l'allerta meteo è di valore giallo in collina così come in Appennino The post Allerta meteo per frane in collina e Appennino appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T12:20:39+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto",
       "url": "https://comozero.it/ambiente/in-provincia-di-como-la-guerra-dei-tigli-il-comune-li-vuole-sradicare-lassociazione-fa-muro-compatto",
       "summary": "L’associazione contesta la decisione del Comune di abbattere le alberature di via San Rocco, via Turati e via Licinio. Nel mirino anche le motivazioni legate alla sicurezza dei pedoni. La Soprintendenza ha espresso perplessità sulla legittimità dell’intervento La decisione del Comune di Erba di abbattere gli alberi di via San Rocco, via Turati e via […] L'articolo In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto proviene da ComoZero .",
@@ -248,34 +318,6 @@
       ]
     },
     {
-      "title": "La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini",
-      "url": "https://www.ciaocomo.it/2026/11/24/la-provincia-di-como-porta-luniversita-nelle-biblioteche-quattro-incontri-per-avvicinare-la-conoscenza-ai-cittadini/348593",
-      "summary": "Si comincia il 26 novembre a Cernobbio con la professoressa Grazia Mannozzi e un approfondimento sui legal thriller. Il progetto accompagna la nascita del nuovo sistema bibliotecario provinciale, che dal 2027 unirà 98 biblioteche The post La Provincia di Como porta l’Università nelle biblioteche: quattro incontri per avvicinare la conoscenza ai cittadini appeared first on CiaoComo .",
-      "published_at": "2026-11-24T11:30:00+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Le imprese in crisi possono essere salvate dai lavoratori” La ricetta di Confcooperative",
-      "url": "https://www.piacenzasera.it/2026/11/le-imprese-in-crisi-possono-essere-salvate-dai-lavoratori-la-ricetta-di-confcooperative/671844",
-      "summary": "Sarà uno dei relatori del convegno promosso da Confcooperative Piacenza il 25 novembre presso la sala del consiglio provinciale The post “Le imprese in crisi possono essere salvate dai lavoratori” La ricetta di Confcooperative appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T11:24:59+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "“Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere”",
       "url": "https://comozero.it/attualita/il-como-ha-depositato-il-progetto-del-nuovo-stadio-sinigaglia-rapinese-non-faccia-finta-di-non-sapere",
       "summary": "“Il Como ha protocollato il 10 novembre in Comune il nuovo progetto dello Stadio Sinigaglia“. A rivelarlo a seguito di un accesso agli atti, è stato durante il consiglio comunale di lunedì 23 novembre il consigliere comunale di Svolta Civica, Vittorio Nessi. In discussione era la mozione presentata dallo stesso Nessi lo scorso 28 settembre, […] L'articolo “Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere” proviene da ComoZero .",
@@ -287,22 +329,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Cine Orienta, all’Astra la proiezione di “Dìdi”",
-      "url": "https://www.ciaocomo.it/2026/11/24/cine-orienta-allastra-la-proiezione-di-didi/348548",
-      "summary": "Giovedì 26 novembre alle 20.30 proiezione del film \"Dìdi\" di Sean Wang, nell'ambito dell'iniziativa della Camera di Commercio di Como-Lecco The post Cine Orienta, all’Astra la proiezione di “Dìdi” appeared first on CiaoComo .",
-      "published_at": "2026-11-24T10:00:23+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como",
-        "lc"
-      ],
-      "territory_codes": [
-        "CO",
-        "LC"
       ]
     },
     {
@@ -383,34 +409,6 @@
         "MI",
         "NO",
         "VA"
-      ]
-    },
-    {
-      "title": "Como, il Consiglio esplode: “Fregnacce, Star Trek e l’Orso Yoghi”. Che cosa è successo nella videosintesi, con mani che si sfiorano",
-      "url": "https://comozero.it/politica/como-il-consiglio-comunale-esplode-fregnacce-star-trek-e-lorso-yoghi-rapinese-nessi-e-che-cosa-e-successo-nella-videosintesi",
-      "summary": "Uno dei temi in Consiglio comunale nelle scorse ore? “Il Programma triennale delle esigenze pubbliche idonee a essere soddisfatte attraverso forme di partenariato pubblico privato”. Non è un tecnicismo, nonostante la forma. E infatti la miccia (ma basta sempre poco) è stato il futuro del capolavoro Razionalista, l’Asilo Sant’Elia di Giuseppe Terragni. Chiuso da tempo […] L'articolo Como, il Consiglio esplode: “Fregnacce, Star Trek e l’Orso Yoghi”. Che cosa è successo nella videosintesi, con mani che si sfiorano proviene da ComoZero .",
-      "published_at": "2026-11-24T00:23:52+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria",
-      "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
-      "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
-      "published_at": "2026-11-23T23:17:05+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
