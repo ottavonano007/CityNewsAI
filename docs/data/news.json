@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:02:28.626350+00:00",
+  "generated_at": "2026-11-24T22:06:18.470581+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 14,
-      "inserted": 14,
+      "parsed": 15,
+      "inserted": 15,
       "ok": true
     },
     {
@@ -28,9 +28,67 @@
   ],
   "articles": [
     {
-      "title": "Como – Aek Atene 0 a 0 (Parziale p.t.), segui con noi gli aggiornamenti in diretta dal Sinigaglia",
+      "title": "Como, dopo la goleada al Lens una vittoria di misura: il golazo di Milla stende l’AEK Atene, è 1-0",
+      "url": "https://primacomo.it/sport/live-como-aek-atene-le-probabili-formazioni-e-tutti-gli-aggiornamenti-dal-sinigaglia",
+      "summary": "Dopo la goleada di Lens, il Como torna a vincere in Champions League. Questa volta, però, deve sudare fino all’ultimo minuto: la squadra di Cesc Fàbregas supera 1-0 l’AEK Atene al Sinigaglia, grazie a una prodezza di Yangel Milla nella ripresa. Una partita complicata, contro un avversario organizzato e difficile da scardinare, che i lariani […] Continua la lettura di Como, dopo la goleada al Lens una vittoria di misura: il golazo di Milla stende l’AEK Atene, è 1-0 sul portale Prima Como .",
+      "published_at": "2026-11-24T22:00:22+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, a maggio arriva il pump track nel prato dimenticato: progetto da 190mila euro, ok della giunta",
+      "url": "https://comozero.it/attualita/como-a-maggio-arriva-il-pump-track-nel-prato-dimenticato-progetto-da-190mila-euro-ok-della-giunta",
+      "summary": "Un prato incolto davanti al piazzale Famiglia Mauri, a Tavernola, si trasformerà presto in una nuova area dedicata agli sport su ruote all’aperto. La Giunta comunale di Como ha approvato all’unanimità il progetto di fattibilità tecnico-economica per un parco pump track, un investimento complessivo da 190mila euro interamente coperto da fondi comunali, redatto internamente dagli […] L'articolo Como, a maggio arriva il pump track nel prato dimenticato: progetto da 190mila euro, ok della giunta proviene da ComoZero .",
+      "published_at": "2026-11-24T21:41:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "po"
+      ],
+      "territory_codes": [
+        "CO",
+        "PO"
+      ]
+    },
+    {
+      "title": "Como, il buio sotto le mura: black out in viale Battisti da quattro ore. Poi qualche luce offre un minimo aiuto",
+      "url": "https://comozero.it/attualita/como-il-buio-sotto-le-mura-black-out-in-viale-battisti-da-quattro-ore-poi-qualche-luce-offre-un-minimo-aiuto",
+      "summary": "La prima segnalazione poco dopo le 18. Scrive la lettrice: “Tutto il viale Battisti, lato pedonale, è al buio”. Avrebbe potuto trattarsi, e ci sta, di qualcosa di temporaneo. Così abbiamo aspettato fino alle 22 circa ma nulla è cambiato. Il lato pedonale del viale, pur graziato dalle luci che illuminano le mura e da […] L'articolo Como, il buio sotto le mura: black out in viale Battisti da quattro ore. Poi qualche luce offre un minimo aiuto proviene da ComoZero .",
+      "published_at": "2026-11-24T21:23:03+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Provincia di Como porta l’università nelle biblioteche: quattro incontri aperti a tutti",
+      "url": "https://comozero.it/cultura-e-spettacolo/la-provincia-di-como-porta-luniversita-nelle-biblioteche-quattro-incontri-aperti-a-tutti",
+      "summary": "Dalla giustizia penale al lavoro del futuro, fino ai giovani e allo sviluppo del talento: il ciclo promosso dalla Provincia di Como e dall’Università dell’Insubria partirà il 26 novembre da Cernobbio. Tutti gli appuntamenti sono gratuiti. Le biblioteche della provincia di Como diventano luoghi di incontro tra università e cittadini, con un ciclo di appuntamenti […] L'articolo La Provincia di Como porta l’università nelle biblioteche: quattro incontri aperti a tutti proviene da ComoZero .",
+      "published_at": "2026-11-24T20:32:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "È storia! È leggenda! Il Como batte 1-0 l’AEK Atene e vola nell’Olimpo della Champions League",
       "url": "https://www.ciaocomo.it/2026/11/24/como-aek-atene-segui-con-noi-gli-aggiornamenti-in-diretta-dal-sinigaglia/348720",
-      "summary": "The post Como – Aek Atene 0 a 0 (Parziale p.t.), segui con noi gli aggiornamenti in diretta dal Sinigaglia appeared first on CiaoComo .",
+      "summary": "The post È storia! È leggenda! Il Como batte 1-0 l’AEK Atene e vola nell’Olimpo della Champions League appeared first on CiaoComo .",
       "published_at": "2026-11-24T19:45:45+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -42,23 +100,9 @@
       ]
     },
     {
-      "title": "LIVE Como-AEK Atene 0-0 a fine primo tempo: Da Cunha sbaglia un rigore",
-      "url": "https://primacomo.it/sport/live-como-aek-atene-le-probabili-formazioni-e-tutti-gli-aggiornamenti-dal-sinigaglia",
-      "summary": "Il Como di Cesc Fàbregas ospita l’AEK Atene allo stadio “Giuseppe Sinigaglia”, nella quinta giornata della League Phase di Champions League. I biancoblù, reduci dalla vittoria per 9-1 contro il Lens, cercano il quarto successo europeo stagionale per consolidare la propria posizione in classifica. Calcio d’inizio alle 21, arbitra lo spagnolo Javier Alberola Rojas. Di […] Continua la lettura di LIVE Como-AEK Atene 0-0 a fine primo tempo: Da Cunha sbaglia un rigore sul portale Prima Como .",
-      "published_at": "2026-11-24T19:09:22+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "COMO-AEK ATENE La cronaca della partita di Champions in diretta",
+      "title": "Il Como batte anche l’Aek Atene con un capolavoro: la classifica Champions è da brividi",
       "url": "https://comozero.it/sport/como-aek-atene-la-cronaca-della-partita-di-champions-in-diretta",
-      "summary": "COMO-AEK ATENE 0-0 Marcatori: Como (4-2-3-1): Sanchez; Couto, Ramon, Chalobah, Alex Valle; Milla, Perrone; Da Cunha, Nico Paz, Baturina; Douvikas. Allenatore: Fabregas. A disposizione: Butez, Ginelli, Kempf, Dossena, Kaiki, Smolcic, Ricci, Papaccioli, Liberali, Mazzara. Aek Atene (4-4-2): Strakosha; Rota, Moukoudi, Relvas, Pilios; Majer, Vitalis, Marin, Kutesa; Gacinovic, Jovic. Allenatore: Nikolić. A disposizione: Brignoli, Balamotis, Vida, […] L'articolo COMO-AEK ATENE La cronaca della partita di Champions in diretta proviene da ComoZero .",
+      "summary": "COMO-AEK ATENE 1-0 Marcatori: Milla 12 pt. Como (4-2-3-1): Sanchez; Couto, Ramon, Chalobah, Alex Valle; Milla, Perrone; Da Cunha, Nico Paz, Baturina; Douvikas. Allenatore: Fabregas. A disposizione: Butez, Ginelli, Kempf, Dossena, Kaiki, Smolcic, Ricci, Papaccioli, Liberali, Mazzara. Aek Atene (4-4-2): Strakosha; Rota, Moukoudi, Relvas, Pilios; Majer, Vitalis, Marin, Kutesa; Gacinovic, Jovic. Allenatore: Nikolić. A disposizione: […] L'articolo Il Como batte anche l’Aek Atene con un capolavoro: la classifica Champions è da brividi proviene da ComoZero .",
       "published_at": "2026-11-24T19:05:06+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -348,34 +392,6 @@
       "url": "https://comozero.it/attualita/rapinese-entrerete-al-politeama-con-la-musichetta-di-un-esercizio-commerciale-grazie-a-noi-nessi-avete-fallito",
       "summary": "“Se tra qualche anno qualcuno di voi entrerà al Politeama in grazia di Dio, magari con la musichetta sotto, in un esercizio commerciale di qualunque natura e tipo, l’immobile non sarà più un posto dimenticato dal Signore grazie a questa delibera”. Così il sindaco di Como Alessandro Rapinese, ieri sera in consiglio comunale, ha introdotto […] L'articolo Rapinese: “Entrerete al Politeama con la musichetta di un esercizio commerciale grazie a noi”. Nessi: “Avete fallito” proviene da ComoZero .",
       "published_at": "2026-11-24T09:40:55+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, fermate 3 persone in stato di ebbrezza: uno aveva superato di oltre 4 volte il limite",
-      "url": "https://comozero.it/attualita/como-fermate-3-persone-in-stato-di-ebbrezza-uno-aveva-superato-di-oltre-4-volte-il-limite",
-      "summary": "Tre automobilisti denunciati per guida in stato di ebbrezza, uno dei quali dopo aver provocato un incidente stradale. È questo il bilancio dei controlli notturni effettuati nel fine settimana dai Carabinieri della Sezione Radiomobile della Compagnia di Como nell’ambito dei servizi di prevenzione e contrasto alle cosiddette “stragi del sabato sera”. L’episodio più grave ha […] L'articolo Como, fermate 3 persone in stato di ebbrezza: uno aveva superato di oltre 4 volte il limite proviene da ComoZero .",
-      "published_at": "2026-11-24T08:22:03+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Provincia di Como, circondano il bivacco nascosto nella vegetazione e bloccano 2 spacciatori",
-      "url": "https://comozero.it/attualita/provincia-di-como-circondano-il-bivacco-nascosto-nella-vegetazione-e-bloccano-2-spacciatori",
-      "summary": "Nuovo intervento contro lo spaccio nei boschi della Bassa Comasca. Nella serata di ieri, lunedì 23 novembre, i Carabinieri della Stazione di Cermenate, insieme ai militari dello Squadrone Eliportato Cacciatori “Calabria”, hanno arrestato due cittadini marocchini di 39 e 21 anni con l’accusa di detenzione di sostanze stupefacenti ai fini di spaccio in concorso. Il […] L'articolo Provincia di Como, circondano il bivacco nascosto nella vegetazione e bloccano 2 spacciatori proviene da ComoZero .",
-      "published_at": "2026-11-24T07:56:02+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
