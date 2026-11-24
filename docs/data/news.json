@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:16:34.926948+00:00",
+  "generated_at": "2026-11-24T06:12:25.990110+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Rapine, furti e traffico di droga: banda smantellata",
+      "url": "https://primacomo.it/cronaca/rapine-furti-e-traffico-di-droga-banda-smantellata",
+      "summary": "Le Fiamme Gialle del Comando Provinciale di Como, con il supporto dei militari del Comando Provinciale di Milano, Varese, Novara, Lodi e Caserta e di un’unità aerea del Reparto Aeronavale Lombardia, hanno eseguito un’ordinanza di custodia cautelare in carcere emessa dal Giudice per le indagini preliminari di Como nei confronti di 15 persone localizzate nelle […] Continua la lettura di Rapine, furti e traffico di droga: banda smantellata sul portale Prima Como .",
+      "published_at": "2026-11-24T05:48:28+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "ce",
+        "como",
+        "lo",
+        "mi",
+        "no",
+        "va"
+      ],
+      "territory_codes": [
+        "CE",
+        "CO",
+        "LO",
+        "MI",
+        "NO",
+        "VA"
+      ]
+    },
     {
       "title": "Como, il Consiglio esplode: “Fregnacce, Star Trek e l’Orso Yoghi”. Che cosa è successo nella videosintesi, con mani che si sfiorano",
       "url": "https://comozero.it/politica/como-il-consiglio-comunale-esplode-fregnacce-star-trek-e-lorso-yoghi-rapinese-nessi-e-che-cosa-e-successo-nella-videosintesi",
@@ -689,20 +713,6 @@
         "CO",
         "NU",
         "VA"
-      ]
-    },
-    {
-      "title": "La Rocca, i coristi incontrano l’assessore regionale Fermi per  i 60 anni dell’associazione",
-      "url": "https://primacomo.it/attualita/la-rocca-coro-appiano",
-      "summary": "La Rocca, i coristi di Appiano Gentile incontrano l’assessore regionale Fermi per i 60 anni dell’associazione. Sessant’anni di coro La Rocca “Con profonda stima e riconoscenza al Coro La Rocca, che rappresenta da 60 anni una grande realtà storico culturale nel panorama del canto ‘a cappella’”. Questo l’incipit del testo che l’assessore regionale Alessandro Fermi […] Continua la lettura di La Rocca, i coristi incontrano l’assessore regionale Fermi per i 60 anni dell’associazione sul portale Prima Como .",
-      "published_at": "2026-11-17T15:17:34+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     }
   ]
