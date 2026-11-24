@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-24T12:06:23.744283+00:00",
+  "generated_at": "2026-11-24T13:25:30.577259+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 9,
-      "inserted": 9,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -27,6 +27,50 @@
     }
   ],
   "articles": [
+    {
+      "title": "Quale futuro per l’Europa? In Cattolica l’incontro con Paolo Gentiloni",
+      "url": "https://www.piacenzasera.it/2026/11/quale-futuro-per-leuropa-in-cattolica-lincontro-con-paolo-gentiloni/671940",
+      "summary": "Il 26 novembre Gentiloni presenterà il suo libro Diventare una potenza. Istruzioni per una rivoluzione europea The post Quale futuro per l’Europa? In Cattolica l’incontro con Paolo Gentiloni appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T13:16:50+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pz"
+      ],
+      "territory_codes": [
+        "PZ"
+      ]
+    },
+    {
+      "title": "«Paura non abbiamo», la rete Intrecciat3 in corteo a Como contro la violenza di genere",
+      "url": "https://www.ciaocomo.it/2026/11/24/paura-non-abbiamo-la-rete-intrecciat3-in-corteo-a-como-contro-la-violenza-di-genere/348657",
+      "summary": "Mercoledì 25 novembre la mobilitazione partirà da via Milano. Al centro dell’iniziativa il tema dell’autodeterminazione e la denuncia delle forme di violenza istituzionale The post «Paura non abbiamo», la rete Intrecciat3 in corteo a Como contro la violenza di genere appeared first on CiaoComo .",
+      "published_at": "2026-11-24T12:59:46+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "Allerta meteo per frane in collina e Appennino",
+      "url": "https://www.piacenzasera.it/2026/11/allerta-meteo-per-frane-in-collina-e-appennino/671938",
+      "summary": "Per la provincia di Piacenza, l'allerta meteo è di valore giallo in collina così come in Appennino The post Allerta meteo per frane in collina e Appennino appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T12:20:39+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto",
       "url": "https://comozero.it/ambiente/in-provincia-di-como-la-guerra-dei-tigli-il-comune-li-vuole-sradicare-lassociazione-fa-muro-compatto",
@@ -254,34 +298,6 @@
       ]
     },
     {
-      "title": "Como si sveglia così: blindati della Polizia in tutte le piazze, presidi per fronteggiare i tifosi greci in arrivo",
-      "url": "https://www.ciaocomo.it/2026/11/24/como-si-sveglia-cosi-blindati-della-polizia-in-tutte-le-piazze-presidi-per-fronteggiare-i-tifosi-greci-in-arrivo/348633",
-      "summary": "Tanti mezzi ed agenti pronti a fronteggiare i sostenitori da Atena, molti di loro sono annunciati senza il biglietto. Gara ad alto rischio, in campo alle 21 al Sinigaglia. The post Como si sveglia così: blindati della Polizia in tutte le piazze, presidi per fronteggiare i tifosi greci in arrivo appeared first on CiaoComo .",
-      "published_at": "2026-11-24T07:12:06+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "BookCity Como, dai libri senza parole a Enzo Miccio e Fumettibrutti",
-      "url": "https://www.ciaocomo.it/2026/11/24/bookcity-como-dai-libri-senza-parole-a-enzo-miccio-e-fumettibrutti/348587",
-      "summary": "Alla Biblioteca Borsellino spazio alla lettura per immagini e ai più piccoli, mentre alla Feltrinelli si parla di amore, relazioni e ricerca della propria identità. The post BookCity Como, dai libri senza parole a Enzo Miccio e Fumettibrutti appeared first on CiaoComo .",
-      "published_at": "2026-11-24T07:00:55+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Rapine, furti e traffico di droga: banda smantellata",
       "url": "https://primacomo.it/cronaca/rapine-furti-e-traffico-di-droga-banda-smantellata",
       "summary": "Le Fiamme Gialle del Comando Provinciale di Como, con il supporto dei militari del Comando Provinciale di Milano, Varese, Novara, Lodi e Caserta e di un’unità aerea del Reparto Aeronavale Lombardia, hanno eseguito un’ordinanza di custodia cautelare in carcere emessa dal Giudice per le indagini preliminari di Como nei confronti di 15 persone localizzate nelle […] Continua la lettura di Rapine, furti e traffico di droga: banda smantellata sul portale Prima Como .",
@@ -348,6 +364,20 @@
       ]
     },
     {
+      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
+      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
+      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
+      "published_at": "2026-11-23T23:13:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp",
       "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
       "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
@@ -388,34 +418,6 @@
       "published_at": "2026-11-23T21:13:06+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La spettacolare cabinovia da 23 milioni tra monti del Lago di Como è realtà (con ristorante panoramico in arrivo)",
-      "url": "https://comozero.it/attualita/monti-del-lago-di-como-ecco-la-spettacolare-cabinovia-da-23-milioni-e-ristorante-panoramico-in-arrivo",
-      "summary": "[Tutte le foto: Piani di Bobbio] L’impianto sostituisce quello in funzione dal 1993 e potrà trasportare fino a 3.400 persone all’ora. Apertura al pubblico il 28 novembre, insieme alla nuova stagione invernale. Dopo sei mesi di lavori, la nuova cabinovia Barzio-Piani di Bobbio è realtà. L’impianto è stato inaugurato questa mattina, lunedì 23 novembre, e […] L'articolo La spettacolare cabinovia da 23 milioni tra monti del Lago di Como è realtà (con ristorante panoramico in arrivo) proviene da ComoZero .",
-      "published_at": "2026-11-23T19:24:12+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Cazoeula, riso al persico, trippa: i piatti della tradizione lariana ora sono tutelati da una legge regionale",
-      "url": "https://www.ciaocomo.it/2026/11/23/cazoeula-riso-al-persico-trippa-i-piatti-della-tradizione-ora-sono-tutelati-da-una-legge-regionale/348626",
-      "summary": "Tavola rotonda oggi in Amministrazione provinciale a Como: ecco i contenuti principali. Il presidente Confesercenti:\"Definire i piatti e la loro preparazione\" The post Cazoeula, riso al persico, trippa: i piatti della tradizione lariana ora sono tutelati da una legge regionale appeared first on CiaoComo .",
-      "published_at": "2026-11-23T18:28:46+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
