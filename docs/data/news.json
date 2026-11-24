@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-24T07:29:11.376572+00:00",
+  "generated_at": "2026-11-24T09:16:46.736513+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
-      "ok": true
-    },
-    {
-      "source": "CiaoComo",
       "parsed": 4,
       "inserted": 4,
       "ok": true
     },
     {
+      "source": "CiaoComo",
+      "parsed": 7,
+      "inserted": 7,
+      "ok": true
+    },
+    {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,132 @@
     }
   ],
   "articles": [
+    {
+      "title": "Disabilità, il ministro Locatelli all’Ue: «Servono più risorse per i nostri Paesi e maggiore flessibilità di bilancio»",
+      "url": "https://www.ciaocomo.it/2026/11/24/disabilita-il-ministro-locatelli-allue-servono-piu-risorse-per-i-nostri-paesi-e-maggiore-flessibilita-di-bilancio/348644",
+      "summary": "Alla riunione informale dei Ministri per le Pari Opportunità in Irlanda, l’esponente comasca del Governo ha illustrato il percorso di riforma italiano, ponendo l’accento sul diritto al lavoro e sulla piena inclusione The post Disabilità, il ministro Locatelli all’Ue: «Servono più risorse per i nostri Paesi e maggiore flessibilità di bilancio» appeared first on CiaoComo .",
+      "published_at": "2026-11-24T09:05:36+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "L’Ultima Cena di Leonardo da Vinci: allo Yacht Club Como un incontro per riscoprire i segreti del Cenacolo",
+      "url": "https://www.ciaocomo.it/2026/11/24/lultima-cena-di-leonardo-da-vinci-allo-yacht-club-como-un-incontro-per-riscoprire-i-segreti-del-cenacolo/348546",
+      "summary": "Giovedì 26 novembre Michele Negri guiderà il pubblico alla scoperta dell’iconografia dell’Ultima Cena, dalle rappresentazioni storiche alle innovazioni introdotte da Leonardo. The post L’Ultima Cena di Leonardo da Vinci: allo Yacht Club Como un incontro per riscoprire i segreti del Cenacolo appeared first on CiaoComo .",
+      "published_at": "2026-11-24T08:28:25+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, fermate 3 persone in stato di ebbrezza: uno aveva superato di oltre 4 volte il limite",
+      "url": "https://comozero.it/attualita/como-fermate-3-persone-in-stato-di-ebbrezza-uno-aveva-superato-di-oltre-4-volte-il-limite",
+      "summary": "Tre automobilisti denunciati per guida in stato di ebbrezza, uno dei quali dopo aver provocato un incidente stradale. È questo il bilancio dei controlli notturni effettuati nel fine settimana dai Carabinieri della Sezione Radiomobile della Compagnia di Como nell’ambito dei servizi di prevenzione e contrasto alle cosiddette “stragi del sabato sera”. L’episodio più grave ha […] L'articolo Como, fermate 3 persone in stato di ebbrezza: uno aveva superato di oltre 4 volte il limite proviene da ComoZero .",
+      "published_at": "2026-11-24T08:22:03+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, guida in stato di ebbrezza: tre denunciati, un 34enne provoca un incidente con un tasso alcolemico di 2,12",
+      "url": "https://www.ciaocomo.it/2026/11/24/como-guida-in-stato-di-ebbrezza-tre-denunciati-un-34enne-provoca-un-incidente-con-un-tasso-alcolemico-di-212/348639",
+      "summary": "Controlli notturni dei Carabinieri per contrastare il fenomeno delle “stragi del sabato sera”. Dall’inizio dell’anno 30 automobilisti denunciati The post Como, guida in stato di ebbrezza: tre denunciati, un 34enne provoca un incidente con un tasso alcolemico di 2,12 appeared first on CiaoComo .",
+      "published_at": "2026-11-24T08:15:37+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Spaccio nei boschi tra Bregnano e Cadorago, due arresti e oltre 168 grammi di droga sequestrati",
+      "url": "https://www.ciaocomo.it/2026/11/24/spaccio-nei-boschi-tra-bregnano-e-cadorago-due-arresti-e-oltre-168-grammi-di-droga-sequestrati/348637",
+      "summary": "Operazione dei Carabinieri di Cermenate con il supporto dei Cacciatori di Calabria. Dall’inizio dell’anno 17 arresti nell’ambito dei servizi straordinari nelle aree boschive del Comasco The post Spaccio nei boschi tra Bregnano e Cadorago, due arresti e oltre 168 grammi di droga sequestrati appeared first on CiaoComo .",
+      "published_at": "2026-11-24T08:00:09+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Provincia di Como, circondano il bivacco nascosto nella vegetazione e bloccano 2 spacciatori",
+      "url": "https://comozero.it/attualita/provincia-di-como-circondano-il-bivacco-nascosto-nella-vegetazione-e-bloccano-2-spacciatori",
+      "summary": "Nuovo intervento contro lo spaccio nei boschi della Bassa Comasca. Nella serata di ieri, lunedì 23 novembre, i Carabinieri della Stazione di Cermenate, insieme ai militari dello Squadrone Eliportato Cacciatori “Calabria”, hanno arrestato due cittadini marocchini di 39 e 21 anni con l’accusa di detenzione di sostanze stupefacenti ai fini di spaccio in concorso. Il […] L'articolo Provincia di Como, circondano il bivacco nascosto nella vegetazione e bloccano 2 spacciatori proviene da ComoZero .",
+      "published_at": "2026-11-24T07:56:02+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como si sveglia così: blindati della Polizia in tutte le piazze, presidi per fronteggiare i tifosi greci in arrivo",
+      "url": "https://www.ciaocomo.it/2026/11/24/como-si-sveglia-cosi-blindati-della-polizia-in-tutte-le-piazze-presidi-per-fronteggiare-i-tifosi-greci-in-arrivo/348633",
+      "summary": "Tanti mezzi ed agenti pronti a fronteggiare i sostenitori da Atena, molti di loro sono annunciati senza il biglietto. Gara ad alto rischio, in campo alle 21 al Sinigaglia. The post Como si sveglia così: blindati della Polizia in tutte le piazze, presidi per fronteggiare i tifosi greci in arrivo appeared first on CiaoComo .",
+      "published_at": "2026-11-24T07:12:06+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "BookCity Como, dai libri senza parole a Enzo Miccio e Fumettibrutti",
+      "url": "https://www.ciaocomo.it/2026/11/24/bookcity-como-dai-libri-senza-parole-a-enzo-miccio-e-fumettibrutti/348587",
+      "summary": "Alla Biblioteca Borsellino spazio alla lettura per immagini e ai più piccoli, mentre alla Feltrinelli si parla di amore, relazioni e ricerca della propria identità. The post BookCity Como, dai libri senza parole a Enzo Miccio e Fumettibrutti appeared first on CiaoComo .",
+      "published_at": "2026-11-24T07:00:55+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Terza età, visita guidata alla chiesa della Santissima Trinità: iscrizioni dal 23 novembre",
+      "url": "https://www.piacenzasera.it/2026/11/terza-eta-visita-guidata-alla-chiesa-della-santissima-trinita-iscrizioni-dal-23-novembre/671347",
+      "summary": "Conosciuta come la “parrocchia madre” di Piacenza, perché prima chiesa costruita nell’immediato dopoguerra, la Santissima Trinità è stata progettata dall’architetto Mario Bacciocchi The post Terza età, visita guidata alla chiesa della Santissima Trinità: iscrizioni dal 23 novembre appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T06:00:47+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Cosa potrebbe fare di Piacenza una città felice? Se ne parla in un incontro a Rosso Tiziano",
       "url": "https://www.piacenzasera.it/2026/11/cosa-potrebbe-fare-di-piacenza-una-citta-felice-se-ne-parla-in-un-incontro-a-rosso-tiziano/671782",
@@ -218,76 +344,6 @@
       ]
     },
     {
-      "title": "MyVertical in Cattolica: la sfida della transizione energetica passa dalla competitività delle imprese",
-      "url": "https://www.piacenzasera.it/2026/11/myvertical-in-cattolica-la-sfida-della-transizione-energetica-passa-dalla-competitivita-delle-imprese/671823",
-      "summary": "Nel campus di Piacenza la terza edizione dell’iniziativa della laurea magistrale in Gestione d’azienda che ha riunito studiosi, ricercatori e protagonisti della filiera energetica The post MyVertical in Cattolica: la sfida della transizione energetica passa dalla competitività delle imprese appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T16:31:28+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "La biblioteca di Gragnano diventa presidio anti violenza: è la prima in provincia ad aderire alla rete Rifugi",
-      "url": "https://www.piacenzasera.it/2026/11/la-biblioteca-di-gragnano-diventa-presidio-anti-violenza/671815",
-      "summary": "La biblioteca di Gragnano è la prima realtà del Piacentino a entrare a far parte del progetto \"Rifugi\", una rete che ha lo scopo di trasformare biblioteche e librerie in presidi civici e attivi contro la violenza di genere The post La biblioteca di Gragnano diventa presidio anti violenza: è la prima in provincia ad aderire alla rete Rifugi appeared first on piacenzasera.it .",
-      "published_at": "2026-11-23T16:24:20+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Centro di Formazione Professionale della Provincia di Como: formare i cuochi di domani tra tecnica, creatività e innovazione",
-      "url": "https://www.ciaocomo.it/2026/11/23/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione/348541",
-      "summary": "Due Open Day il 28 novembre e il 12 dicembre per conoscere i percorsi formativi del CFP dedicato a “Luigi Grisoni”, con laboratori di orientamento dedicati a cucina, pasticceria e sala bar The post Centro di Formazione Professionale della Provincia di Como: formare i cuochi di domani tra tecnica, creatività e innovazione appeared first on CiaoComo .",
-      "published_at": "2026-11-23T15:00:12+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como Acqua, l’Assemblea dei Soci approva il nuovo assetto finanziario per il subentro nella gestione dell’acquedotto di Como e Brunate",
-      "url": "https://www.ciaocomo.it/2026/11/23/como-acqua-lassemblea-dei-soci-approva-il-nuovo-assetto-finanziario-per-il-subentro-nella-gestione-dellacquedotto-di-como-e-brunate/348578",
-      "summary": "Finanziamento fino a 146 milioni di euro, comprensivo del pagamento del valore residuo a Lereti, del sostegno agli investimenti e del rifinanziamento di linee di credito esistenti. Via libera anche alla proroga del contratto di affitto del ramo idrico dei Comuni dell’ATO di Como e alla prosecuzione degli approfondimenti sulla gestione delle caditoie The post Como Acqua, l’Assemblea dei Soci approva il nuovo assetto finanziario per il subentro nella gestione dell’acquedotto di Como e Brunate appeared first on CiaoComo .",
-      "published_at": "2026-11-23T14:52:54+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Falsi finanzieri, rapine e traffico di droga: 15 misure cautelari nell’operazione “Black Car”, sequestrati 31 chili di cocaina",
-      "url": "https://www.ciaocomo.it/2026/11/23/falsi-finanzieri-rapine-e-traffico-di-droga-15-misure-cautelari-nelloperazione-black-car-sequestrati-31-chili-di-cocaina/348553",
-      "summary": "L'inchiesta è partita da un assalto a Novedrate, dove quattro uomini con pettorine della Guardia di Finanza avevano sottratto 100 chili di hashish. Due le indagini collegate, coordinate dalle Procure di Como e Monza The post Falsi finanzieri, rapine e traffico di droga: 15 misure cautelari nell’operazione “Black Car”, sequestrati 31 chili di cocaina appeared first on CiaoComo .",
-      "published_at": "2026-11-23T14:08:10+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, i finti finanzieri, i 100 chili di hashish e la banca: 15 arresti in sei province VIDEO",
       "url": "https://comozero.it/attualita/como-finti-finanzieri-rapinano-100-chili-di-hashish-15-arresti-in-sei-province-video",
       "summary": "Un falso posto di blocco, quattro uomini con il volto coperto da passamontagna e le pettorine della Guardia di finanza, e un bottino da cento chili di hashish. È partito da una rapina messa in scena con modalità paramilitari il blitz che all’alba di oggi ha portato in carcere 15 persone, raggiunte da un’ordinanza di […] L'articolo Como, i finti finanzieri, i 100 chili di hashish e la banca: 15 arresti in sei province VIDEO proviene da ComoZero .",
@@ -348,20 +404,6 @@
       "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
       "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
       "published_at": "2026-11-23T11:28:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Piano Freddo a Como, 600 volontari in campo. E intanto parte la raccolta fondi: obiettivo 30mila euro",
-      "url": "https://comozero.it/attualita/piano-freddo-a-como-600-volontari-in-campo-e-intanto-parte-la-raccolta-fondi-obiettivo-30mila-euro",
-      "summary": "Anche per l’inverno alle porte, la rete della solidarietà comasca si mobilita per non lasciare nessuno al freddo. Giunto alla sua sedicesima edizione consecutiva, torna in città il Piano Freddo, l’iniziativa pensata per potenziare i servizi di accoglienza e offrire un riparo notturno alle persone senza dimora che non trovano posto nelle strutture permanenti. Per […] L'articolo Piano Freddo a Como, 600 volontari in campo. E intanto parte la raccolta fondi: obiettivo 30mila euro proviene da ComoZero .",
-      "published_at": "2026-11-23T09:56:30+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
