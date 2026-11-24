@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-24T13:25:30.577259+00:00",
+  "generated_at": "2026-11-24T15:11:37.974333+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
-      "ok": true
-    },
-    {
-      "source": "CiaoComo",
       "parsed": 7,
       "inserted": 7,
       "ok": true
     },
     {
+      "source": "CiaoComo",
+      "parsed": 6,
+      "inserted": 6,
+      "ok": true
+    },
+    {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Pac, gli agricoltori europei in marcia a Bruxelles il 26 novembre",
+      "url": "https://www.piacenzasera.it/2026/11/pac-gli-agricoltori-europei-in-marcia-a-bruxelles-il-26-novembre/671946",
+      "summary": "Confagricoltura Piacenza alla mobilitazione di Copa e Cogeca con il presidente Umberto Gorra e il direttore Raffaello Rossi The post Pac, gli agricoltori europei in marcia a Bruxelles il 26 novembre appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T14:19:23+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Fondazione Veronesi, al Teatro Sociale di Como la Charity Dinner a sostegno dell’oncologia pediatrica",
+      "url": "https://www.ciaocomo.it/2026/11/24/fondazione-veronesi-al-teatro-sociale-di-como-la-charity-dinner-a-sostegno-delloncologia-pediatrica/348663",
+      "summary": "Il ricavato della serata contribuirà a finanziare uno studio clinico internazionale per sperimentare una nuova terapia contro il neuroblastoma ad alto rischio. Il menù sarà firmato dallo chef Niko Romito The post Fondazione Veronesi, al Teatro Sociale di Como la Charity Dinner a sostegno dell’oncologia pediatrica appeared first on CiaoComo .",
+      "published_at": "2026-11-24T14:05:12+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cade da un muretto mentre sta potando la siepe, 90enne trasportato a Parma",
+      "url": "https://www.piacenzasera.it/2026/11/cade-da-un-muretto-mentre-sta-potando-la-siepe-90enne-trasportato-a-parma/671944",
+      "summary": "E' successo a Mocomero di Vernasca, in tarda mattinata The post Cade da un muretto mentre sta potando la siepe, 90enne trasportato a Parma appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T14:02:01+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "pr"
+      ],
+      "territory_codes": [
+        "PR"
+      ]
+    },
+    {
+      "title": "Lavori sulla Complanare di Piacenza, tutte le chiusure dei prossimi giorni",
+      "url": "https://www.piacenzasera.it/2026/11/lavori-sulla-complanare-di-piacenza-tutte-le-chiusure-dei-prossimi-giorni/671942",
+      "summary": "I provvedimenti lungo l'A1 The post Lavori sulla Complanare di Piacenza, tutte le chiusure dei prossimi giorni appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T13:51:51+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, polemica sul gioiello razionalista: “Con i privati lo salviamo da anni di degrado”, “No, la proposta è zero”",
+      "url": "https://comozero.it/attualita/como-polemica-sul-gioiello-razionalista-con-i-privati-lo-salviamo-da-anni-di-degrado-no-la-proposta-e-zero",
+      "summary": "Un partenariato pubblico-privato – con il privato che è il Fai – per far rinascere l’asilo Sant’Elia di Como, capolavoro del razionalismo firmato da Giuseppe Terragni. Ad approvare questa nuova via per rilanciare il gioiello architettonico di via Alciato è stato il consiglio comunale, che ieri ha votato in merito su proposta dell’assessore Alberto Fontana. […] L'articolo Como, polemica sul gioiello razionalista: “Con i privati lo salviamo da anni di degrado”, “No, la proposta è zero” proviene da ComoZero .",
+      "published_at": "2026-11-24T13:27:37+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Quale futuro per l’Europa? In Cattolica l’incontro con Paolo Gentiloni",
       "url": "https://www.piacenzasera.it/2026/11/quale-futuro-per-leuropa-in-cattolica-lincontro-con-paolo-gentiloni/671940",
@@ -39,6 +109,20 @@
       ],
       "territory_codes": [
         "PZ"
+      ]
+    },
+    {
+      "title": "Como, l’incanto del Natale: eventi, teatro, musica, mercatino e il passaporto speciale",
+      "url": "https://comozero.it/attualita/como-arriva-lincanto-del-natale-eventi-teatro-musica-mercatino-e-il-passaporto-speciale",
+      "summary": "“Como…che incanto”: con questo titolo si presenta il fitto calendario di eventi natalizi presentati questa mattina in Comune. “Gli appuntamenti previsti saranno veramente tanti e in grado di soddisfare tutti i cittadini e chi verrà a Como per godersi lo spirito natalizio – ha detto il sindaco Alessandro Rapinese – Il modello che abbiamo costruito […] L'articolo Como, l’incanto del Natale: eventi, teatro, musica, mercatino e il passaporto speciale proviene da ComoZero .",
+      "published_at": "2026-11-24T12:59:48+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -55,6 +139,20 @@
       "territory_codes": [
         "CO",
         "MI"
+      ]
+    },
+    {
+      "title": "Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como",
+      "url": "https://comozero.it/pubbliredazionale/villa-cipressi-il-natale-incanta-varenna-luci-sapori-e-atmosfere-da-fiaba-sul-lago-di-como",
+      "summary": "Fino al 10 gennaio 2027 torna il Christmas Garden: un percorso tra migliaia di luci, installazioni scenografiche e scorci sul lago. E per vivere appieno l’atmosfera delle feste, anche un Christmas Bar, uno shop natalizio e il ristorante Il Caminetto, con proposte dedicate a Natale e Capodanno. A Varenna il Natale si accende tra le […] L'articolo Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-24T12:44:13+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -142,34 +240,6 @@
       ]
     },
     {
-      "title": "Elezioni 2027, Potere al Popolo “Anche a Piacenza nessun sostegno al campo largo”",
-      "url": "https://www.piacenzasera.it/2026/11/elezioni-2027-potere-al-popolo-anche-a-piacenza-nessun-sostegno-al-campo-largo/671888",
-      "summary": "The post Elezioni 2027, Potere al Popolo “Anche a Piacenza nessun sostegno al campo largo” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T10:20:30+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Come trovare nuovi clienti con Linkedin: workshop in Banca di Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/come-trovare-nuovi-clienti-con-linkedin-workshop-in-banca-di-piacenza/671886",
-      "summary": "L’appuntamento è per giovedì 26 novembre, alle 17, al PalabancaEventi The post Come trovare nuovi clienti con Linkedin: workshop in Banca di Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-24T10:16:37+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Cine Orienta, all’Astra la proiezione di “Dìdi”",
       "url": "https://www.ciaocomo.it/2026/11/24/cine-orienta-allastra-la-proiezione-di-didi/348548",
       "summary": "Giovedì 26 novembre alle 20.30 proiezione del film \"Dìdi\" di Sean Wang, nell'ambito dell'iniziativa della Camera di Commercio di Como-Lecco The post Cine Orienta, all’Astra la proiezione di “Dìdi” appeared first on CiaoComo .",
@@ -248,34 +318,6 @@
       "published_at": "2026-11-24T08:22:03+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, guida in stato di ebbrezza: tre denunciati, un 34enne provoca un incidente con un tasso alcolemico di 2,12",
-      "url": "https://www.ciaocomo.it/2026/11/24/como-guida-in-stato-di-ebbrezza-tre-denunciati-un-34enne-provoca-un-incidente-con-un-tasso-alcolemico-di-212/348639",
-      "summary": "Controlli notturni dei Carabinieri per contrastare il fenomeno delle “stragi del sabato sera”. Dall’inizio dell’anno 30 automobilisti denunciati The post Como, guida in stato di ebbrezza: tre denunciati, un 34enne provoca un incidente con un tasso alcolemico di 2,12 appeared first on CiaoComo .",
-      "published_at": "2026-11-24T08:15:37+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Spaccio nei boschi tra Bregnano e Cadorago, due arresti e oltre 168 grammi di droga sequestrati",
-      "url": "https://www.ciaocomo.it/2026/11/24/spaccio-nei-boschi-tra-bregnano-e-cadorago-due-arresti-e-oltre-168-grammi-di-droga-sequestrati/348637",
-      "summary": "Operazione dei Carabinieri di Cermenate con il supporto dei Cacciatori di Calabria. Dall’inizio dell’anno 17 arresti nell’ambito dei servizi straordinari nelle aree boschive del Comasco The post Spaccio nei boschi tra Bregnano e Cadorago, due arresti e oltre 168 grammi di droga sequestrati appeared first on CiaoComo .",
-      "published_at": "2026-11-24T08:00:09+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -382,40 +424,6 @@
       "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
       "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
       "published_at": "2026-11-23T23:11:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
-      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
-      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
-      "published_at": "2026-11-23T23:07:10+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi",
-        "so",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI",
-        "SO",
-        "VA"
-      ]
-    },
-    {
-      "title": "Como, Domenico è quasi cieco e si infuria: “Anche spazzatura e cassonetti sono barriere architettoniche”. Dai, non è difficile fare bene",
-      "url": "https://comozero.it/punti-di-vista/como-domenico-vede-poco-e-si-infuria-anche-spazzatura-e-cassonetti-sono-barriere-architettoniche-dai-non-e-difficile-fare-bene",
-      "summary": "Domenico Cataldo è un colosso. Non si lascia abbattere da nessuno, soprattutto da niente. Non si lascia abbattere da barriere architettoniche fisse o mobili, non si lascia abbattere dallo sconforto ma viceversa (che diamine: giustamente!) si incazza. Ipovedente Domenico, non vedente totale Michela, sua moglie (qui i loro racconti passati). Hanno la loro vita come […] L'articolo Como, Domenico è quasi cieco e si infuria: “Anche spazzatura e cassonetti sono barriere architettoniche”. Dai, non è difficile fare bene proviene da ComoZero .",
-      "published_at": "2026-11-23T21:13:06+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
