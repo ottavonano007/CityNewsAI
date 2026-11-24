@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T06:12:25.990110+00:00",
+  "generated_at": "2026-11-24T07:29:11.376572+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cosa potrebbe fare di Piacenza una città felice? Se ne parla in un incontro a Rosso Tiziano",
+      "url": "https://www.piacenzasera.it/2026/11/cosa-potrebbe-fare-di-piacenza-una-citta-felice-se-ne-parla-in-un-incontro-a-rosso-tiziano/671782",
+      "summary": "Venerdi 27 novembre un nuovo dialogo con Claudia Gnocchi, Paola Subacchi e Stefano Bartolini The post Cosa potrebbe fare di Piacenza una città felice? Se ne parla in un incontro a Rosso Tiziano appeared first on piacenzasera.it .",
+      "published_at": "2026-11-24T06:00:27+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Rapine, furti e traffico di droga: banda smantellata",
       "url": "https://primacomo.it/cronaca/rapine-furti-e-traffico-di-droga-banda-smantellata",
