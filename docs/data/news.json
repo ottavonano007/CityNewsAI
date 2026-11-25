@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:01:37.627961+00:00",
+  "generated_at": "2026-11-25T20:04:19.870869+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "La Pinacoteca di Como sempre più bella e preziosa: arrivano tre opere di Carla Badiali (due acquisti e un dono)",
+      "url": "https://comozero.it/cultura-e-spettacolo/la-pinacoteca-di-como-sempre-piu-bella-e-preziosa-arrivano-tre-opere-di-carla-badiali-due-acquisti-e-un-dono",
+      "summary": "[Copertina: Carla Badiali] La Pinacoteca civica di Como arricchisce la propria collezione dedicata agli Astrattisti comaschi con tre nuove opere di Carla Badiali, tra le protagoniste dell’Astrattismo italiano e figura centrale del cosiddetto “Gruppo Como”. Due lavori, realizzati rispettivamente nel 1939 e nel 1950, sono stati acquisiti dall’amministrazione comunale attraverso i rapporti con l’erede dell’artista, […] L'articolo La Pinacoteca di Como sempre più bella e preziosa: arrivano tre opere di Carla Badiali (due acquisti e un dono) proviene da ComoZero .",
+      "published_at": "2026-11-25T19:25:58+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Piacenza Calcio al fianco delle donne: un gesto per dire no alla violenza",
       "url": "https://www.piacenzasera.it/2026/11/piacenza-calcio-al-fianco-delle-donne-un-gesto-per-dire-no-alla-violenza/672167",
@@ -86,7 +100,7 @@
     {
       "title": "L’agriturismo famosissimo in provincia di Como incoronato dalla Guida Osterie d’Italia di Slow Food (e le grandi conferme)",
       "url": "https://comozero.it/attualita/lagriturismo-famosissimo-in-provincia-di-como-debutta-nella-guida-osterie-ditalia-di-slow-food-e-le-grandi-conferme",
-      "summary": "L’agriturismo entra per la prima volta nella pubblicazione di Slow Food. Tra i locali premiati con la Chiocciola anche l’Aquila d’Oro di Dosso del Liro, nuova entrata tra le eccellenze della guida. La cucina del territorio, i prodotti locali e il lavoro di chi li porta in tavola. Giovedì 26 novembre, alle 19, l’Agriturismo La […] L'articolo L’agriturismo famosissimo in provincia di Como incoronato dalla Guida Osterie d’Italia di Slow Food (e le grandi conferme) proviene da ComoZero .",
+      "summary": "L’agriturismo entra per la prima volta nella pubblicazione di Slow Food. Tra i locali premiati con la Chiocciola anche l’Aquila d’Oro di Dosso del Liro, nuova entrata tra le eccellenze della guida La cucina del territorio, i prodotti locali e il lavoro di chi li porta in tavola. Giovedì 26 novembre, alle 19, l’Agriturismo Cassinazza […] L'articolo L’agriturismo famosissimo in provincia di Como incoronato dalla Guida Osterie d’Italia di Slow Food (e le grandi conferme) proviene da ComoZero .",
       "published_at": "2026-11-25T16:29:35+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -260,20 +274,6 @@
       "published_at": "2026-11-25T11:17:31+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Un telo rosso e un manichino sotto la pioggia: l’installazione contro la violenza sulle donne dell’Istituto Como Centro",
-      "url": "https://comozero.it/attualita/un-telo-rosso-e-un-manichino-di-donna-sotto-la-pioggia-sulle-scale-dellistituto-como-centro-linstallazione-contro-la-violenza-sulle-donne",
-      "summary": "Un viaggio visivo ed emotivo per trasformare la memoria in consapevolezza quotidiana. In occasione della Giornata internazionale per l’eliminazione della violenza contro le donne, alunni della scuola secondaria di primo grado “Parini” (IC Como Centro Città) hanno dato vita a un’esposizione dedicata a una piaga sociale tanto antica quanto drammaticamente attuale. Il percorso espositivo accompagna […] L'articolo Un telo rosso e un manichino sotto la pioggia: l’installazione contro la violenza sulle donne dell’Istituto Como Centro proviene da ComoZero .",
-      "published_at": "2026-11-25T10:57:23+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
