@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-25T17:56:29.853684+00:00",
+  "generated_at": "2026-11-25T19:01:37.627961+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Piacenza Calcio al fianco delle donne: un gesto per dire no alla violenza",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-calcio-al-fianco-delle-donne-un-gesto-per-dire-no-alla-violenza/672167",
+      "summary": "Deposto un mazzo di rose sulla panchina rossa installata all’esterno dello stadio Leonardo Garilli The post Piacenza Calcio al fianco delle donne: un gesto per dire no alla violenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T18:05:29+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como",
       "url": "https://comozero.it/attualita/e-lhotel-migliore-deuropa-e-ora-sulla-terrazza-della-piscina-si-pattina-con-vista-mozzafiato-sul-lago-di-como",
@@ -142,20 +156,6 @@
       ]
     },
     {
-      "title": "Architettura al bancone, al Dubliners il primo incontro con Gio Tirotto",
-      "url": "https://www.piacenzasera.it/2026/11/architettura-al-bancone-al-dubliners-il-primo-incontro-con-gio-tirotto/672113",
-      "summary": "La prima data in programma è mercoledì 2 dicembre al Dubliners Irish Pub di Piacenza The post Architettura al bancone, al Dubliners il primo incontro con Gio Tirotto appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T14:23:41+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "“No, qui non c’è nessun fenomeno”. Uno dei discorsi più importanti di Fabregas parla di persone, non (solo) di calcio",
       "url": "https://comozero.it/attualita/no-qui-non-ce-nessun-fenomeno-uno-dei-discorsi-piu-importanti-di-fabregas-parla-di-persone-non-solo-di-calcio",
       "summary": "Poco prima dell’ennesima clamorosa vittoria del Como in Champions League con l’Aek Atene l’allenatore Cesc Fabregas ha fatto un discorso che è andato molto oltre tecnica, tattica e risultato. Le sue parole sono, per così dire, uscite dal puro rettangolo di gioco per affrontare gli aspetti meno glamour del pallone, quelli più pesanti, complessi e impattanti […] L'articolo “No, qui non c’è nessun fenomeno”. Uno dei discorsi più importanti di Fabregas parla di persone, non (solo) di calcio proviene da ComoZero .",
@@ -167,20 +167,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Più decoro e sicurezza al Pubblico Passeggio”, Piacenza Futura raccoglie 70 firme",
-      "url": "https://www.piacenzasera.it/2026/11/piu-decoro-e-sicurezza-al-pubblico-passeggio-piacenza-futura-raccoglie-70-firme/672109",
-      "summary": "Proseguono le iniziative sul territorio di Piacenza Futura The post “Più decoro e sicurezza al Pubblico Passeggio”, Piacenza Futura raccoglie 70 firme appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T14:01:32+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -288,20 +274,6 @@
       "published_at": "2026-11-25T10:57:23+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, violenza sulle donne: stasera la caserma dei carabinieri si illumina di arancione per dire stop agli abusi",
-      "url": "https://www.ciaocomo.it/2026/11/25/como-violenza-sulle-donne-la-caserma-dei-carabinieri-si-illumina-di-arancione/348783",
-      "summary": "L’Arma rinnova l’impegno nella prevenzione degli abusi e nella promozione della cultura della denuncia, richiamando l’attenzione sui segnali di rischio e sugli strumenti a tutela delle vittime The post Como, violenza sulle donne: stasera la caserma dei carabinieri si illumina di arancione per dire stop agli abusi appeared first on CiaoComo .",
-      "published_at": "2026-11-25T09:48:43+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
