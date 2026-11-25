@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-25T12:11:08.458406+00:00",
+  "generated_at": "2026-11-25T13:31:50.202320+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 8,
+      "inserted": 8,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Rinforzo sotto canestro per l’Assigeco: c’è la firma di Angelo Del Chiaro",
+      "url": "https://www.piacenzasera.it/2026/11/rinforzo-sotto-canestro-per-lassigeco-ce-la-firma-di-angelo-del-chiaro/672102",
+      "summary": "Classe 2001 e originario di Pietrasanta (Lucca), Angelo Del Chiaro è un pivot di 206 cm per 103 kg The post Rinforzo sotto canestro per l’Assigeco: c’è la firma di Angelo Del Chiaro appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T13:12:36+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "lu"
+      ],
+      "territory_codes": [
+        "LU"
+      ]
+    },
+    {
+      "title": "Riunito il Consiglio generale della Cisl dei Laghi",
+      "url": "https://primacomo.it/attualita/riunito-il-consiglio-generale-della-cisl-dei-laghi",
+      "summary": "Nella splendida cornice di Villa Gallia, a Como, martedì 24 novembre si è riunito il Consiglio generale della Cisl dei Laghi. Il Consiglio della Cisl dei Laghi Presenti, accanto a Daniele Magon, segretario generale della Cisl dei Laghi, e ai componenti della segreteria Albino Gentile, Paola Gilardoni e Maurizio Cappello, anche la segretaria generale della […] Continua la lettura di Riunito il Consiglio generale della Cisl dei Laghi sul portale Prima Como .",
+      "published_at": "2026-11-25T13:02:54+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Communis verso le elezioni: la Fiaccola a tre nomi che hanno segnato la storia del centrodestra a Como",
+      "url": "https://comozero.it/politica/communis-verso-le-elezioni-la-fiaccola-a-tre-nomi-che-hanno-segnato-la-storia-del-centrodestra-a-como",
+      "summary": "Tre Fiaccole per altrettanti nomi che hanno segnato la storia politica di Como. A ricevere il riconoscimento che evoca chiaramente il simbolo storico della destra lariana e nazionale e che “è dedicato a chi ha scritto la storia della nostra comunità nel segno dei valori del conservatorismo e della destra italiana” saranno Gianantonio Paganini, Nini […] L'articolo Communis verso le elezioni: la Fiaccola a tre nomi che hanno segnato la storia del centrodestra a Como proviene da ComoZero .",
+      "published_at": "2026-11-25T12:56:31+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Sotto la pioggia in ciabatte e con il cagnolino al guinzaglio, anziano in difficoltà soccorso dalla Polizia Locale",
+      "url": "https://www.piacenzasera.it/2026/11/sotto-la-pioggia-in-ciabatte-e-con-il-cagnolino-al-guinzaglio-anziano-in-difficolta-soccorso-dalla-polizia-locale/672098",
+      "summary": "L'anziano, di nazionalità straniera, aveva difficoltà a esprimersi: rintracciati i familiari grazie al supporto della Questura di Piacenza e Aisa The post Sotto la pioggia in ciabatte e con il cagnolino al guinzaglio, anziano in difficoltà soccorso dalla Polizia Locale appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T12:52:23+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, un nastrino rosso sulle auto della Polizia Locale contro la violenza sulle donne",
+      "url": "https://www.ciaocomo.it/2026/11/25/como-un-nastrino-rosso-sulle-auto-della-polizia-locale-contro-la-violenza-sulle-donne/348800",
+      "summary": "L’iniziativa di sensibilizzazione accompagnerà gli agenti per tutta la settimana, sottolineando il ruolo del Comando nella rete territoriale di ascolto, protezione e intervento The post Como, un nastrino rosso sulle auto della Polizia Locale contro la violenza sulle donne appeared first on CiaoComo .",
+      "published_at": "2026-11-25T12:41:54+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Como, un murale per Paolo Borsellino nella biblioteca che porta il suo nome: il progetto artistico agli studenti del Carcano",
       "url": "https://comozero.it/attualita/como-un-murale-per-paolo-borsellino-nella-biblioteca-che-porta-il-suo-nome-il-progetto-artistico-agli-studenti-del-carcano",
@@ -98,20 +168,6 @@
       ]
     },
     {
-      "title": "Dopo 330 anni, due monumentali capolavori del disegno barocco tornano nella Cattedrale di Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/dopo-330-anni-due-monumentali-capolavori-del-disegno-barocco-tornano-nella-cattedrale-di-piacenza/672058",
-      "summary": "Dal 4 dicembre 2026 una mostra restituisce alla città i due cartoni preparatori di Marcantonio Franceschini: si tratta dei modelli a grandezza naturale per gli affreschi della parte inferiore della cupola del Duomo The post Dopo 330 anni, due monumentali capolavori del disegno barocco tornano nella Cattedrale di Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T10:00:43+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "“Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli",
       "url": "https://www.ciaocomo.it/2026/11/25/nati-per-leggere-alla-biblioteca-di-como-due-incontri-per-scoprire-il-piacere-della-lettura-fin-da-piccoli/348556",
       "summary": "Genitori e bambini da 0 a 6 anni protagonisti di un’esperienza condivisa, guidata da bibliotecari e volontari, per avvicinarsi al mondo dei libri fin dalla prima infanzia The post “Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli appeared first on CiaoComo .",
@@ -140,17 +196,17 @@
       ]
     },
     {
-      "title": "Cip Emilia Romagna, il nuotatore piacentino Savchenko medaglia d’argento del Coni",
-      "url": "https://www.piacenzasera.it/2026/11/cip-emilia-romagna-il-nuotatore-piacentino-savchenko-medaglia-dargento-del-coni/672055",
-      "summary": "La medaglia d’argento è stata anche da Arseny Savchenko di Piacenza nella staffetta 4X100 stile libero maschile dei campionati europei FSSI, il 27 la premiazione The post Cip Emilia Romagna, il nuotatore piacentino Savchenko medaglia d’argento del Coni appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T09:23:31+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
+      "title": "Premio Campiello Junior, la scrittrice comasca Irene Rossi in finale con il romanzo “Futuro”",
+      "url": "https://www.ciaocomo.it/2026/11/25/premio-campiello-junior-la-scrittrice-comasca-irene-rossi-in-finale-con-il-romanzo-futuro/348794",
+      "summary": "L'autrice concorre nella categoria dedicata ai lettori dagli 11 ai 14 anni con una storia di guerra, speranza e solidarietà. A decretare i vincitori saranno 240 ragazze e ragazzi The post Premio Campiello Junior, la scrittrice comasca Irene Rossi in finale con il romanzo “Futuro” appeared first on CiaoComo .",
+      "published_at": "2026-11-25T09:00:28+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
-        "piacenza"
+        "como"
       ],
       "territory_codes": [
-        "PC"
+        "CO"
       ]
     },
     {
@@ -165,20 +221,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Prezzo del carburante diverso da quello applicato”, la Finanza multa due distributori",
-      "url": "https://www.piacenzasera.it/2026/11/prezzo-del-carburante-diverso-da-quello-applicato-la-finanza-multa-due-distributori/672051",
-      "summary": "Controlli della Guardia di Finanza di Piacenza in sei distributori di carburante: due distributori sanzionati con una multa fino a 2.000 euro The post “Prezzo del carburante diverso da quello applicato”, la Finanza multa due distributori appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T08:23:09+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -266,6 +308,20 @@
       ]
     },
     {
+      "title": "Villa Flori inaugura la stagione delle feste sul Lago di Como con la Christmas Fashion Night",
+      "url": "https://comozero.it/attualita/villa-flori-inaugura-la-stagione-delle-feste-sul-lago-di-como-con-la-christmas-fashion-night",
+      "summary": "Villa Flori celebra l’arrivo della stagione natalizia con Christmas Fashion Night, in programma sabato 28 novembre, a partire dalle ore 19:00. Un appuntamento che unisce moda, gusto e musica nella cornice della storica dimora affacciata sul Lago di Como. Realizzata in collaborazione con Giorgia Jenca, ideatrice del progetto Il Fascino della Moda sul Lago di […] L'articolo Villa Flori inaugura la stagione delle feste sul Lago di Como con la Christmas Fashion Night proviene da ComoZero .",
+      "published_at": "2026-11-25T05:21:01+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo",
       "url": "https://comozero.it/sport/le-pagelle-di-como-aek-atene-alex-valle-uomo-ovunque-milla-lo-fa-bellissimo",
       "summary": "Il Como batte 1-0 l’Aek Atene e continua a sognare in grande in Champions League (qui la cronaca). Il gol di Milla lancia i lariani al terzo posto in classifica e ipoteca al 99% quanto meno l’approdo ai playoff: il viaggio in Europa è solo all’inizio (leggi le parole di Fabregas qui). Ecco le pagelle […] L'articolo Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo proviene da ComoZero .",
@@ -322,20 +378,6 @@
       ]
     },
     {
-      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
-      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
-      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
-      "published_at": "2026-11-24T23:13:40+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como-AEK 1-0, Fabregas: “Questi ragazzi hanno fame. Milla? Era felicissimo, queste cose mi fanno godere”",
       "url": "https://primacomo.it/sport/como-aek-1-0-fabregas-questi-ragazzi-hanno-fame-milla-era-felicissimo-queste-cose-mi-fanno-godere",
       "summary": "Il Como vince di misura contro l’AEK Atene, decisiva la prodezza di Luis Milla: mister Cesc Fàbregas commenta il buon risultato in conferenza stampa Fàbregas: “Sono molto felice” COSI’ TANTE SODDISFAZIONI, AL PARI DEI TOP CLUB MONDIALI: “Non mi aspettavo niente. Volevo solamente vedere come la squadra reagisse contro le squadre migliori d’Europa. Siamo tutti […] Continua la lettura di Como-AEK 1-0, Fabregas: “Questi ragazzi hanno fame. Milla? Era felicissimo, queste cose mi fanno godere” sul portale Prima Como .",
@@ -347,26 +389,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
-      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
-      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
-      "published_at": "2026-11-24T23:05:10+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi",
-        "so",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI",
-        "SO",
-        "VA"
       ]
     },
     {
@@ -390,20 +412,6 @@
       "published_at": "2026-11-24T22:00:22+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "È storia: il Como batte 1-0 l’AEK Atene e vola nell’Olimpo della Champions League: imbattuto in casa!",
-      "url": "https://www.ciaocomo.it/2026/11/24/como-aek-atene-segui-con-noi-gli-aggiornamenti-in-diretta-dal-sinigaglia/348720",
-      "summary": "The post È storia: il Como batte 1-0 l’AEK Atene e vola nell’Olimpo della Champions League: imbattuto in casa! appeared first on CiaoComo .",
-      "published_at": "2026-11-24T19:45:45+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -722,20 +730,6 @@
       "url": "https://primacomo.it/attualita/ops-media-proclamato-lo-stato-di-agitazione-il-futuro-dei-giornali-e-a-rischio",
       "summary": "Cari lettori, se in queste difficili settimane i nostri settimanali e i portali del circuito “Prima” hanno continuato a informarvi puntualmente, è stato esclusivamente grazie al senso di responsabilità e alla passione di chi lavora in queste redazioni da anni. È ciò che vorremmo continuare a fare, ogni giorno, per dare voce anche in futuro […] Continua la lettura di Ops Media, proclamato lo stato di agitazione: «Il futuro dei giornali è a rischio» sul portale Prima Como .",
       "published_at": "2026-11-20T11:38:54+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata",
-      "url": "https://primacomo.it/altro/controlli-dei-carabinieri-di-cernobbio-59-persone-identificate-e-una-denunciata",
-      "summary": "Controlli straordinari dei Carabinieri di Cernobbio: 59 persone identificate e una denunciate. Controlli dei Carabinieri Nella giornata di ieri, 19 novembre, i Carabinieri della Stazione di Cernobbio hanno svolto un servizio straordinario di controllo del territorio, finalizzato alla prevenzione e al contrasto dei reati, con particolare attenzione ai furti in abitazione e agli altri reati […] Continua la lettura di Controlli dei Carabinieri di Cernobbio: 59 persone identificate e una denunciata sul portale Prima Como .",
-      "published_at": "2026-11-20T09:33:22+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
