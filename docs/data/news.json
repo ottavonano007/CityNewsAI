@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-25T09:20:48.436558+00:00",
+  "generated_at": "2026-11-25T11:06:19.835061+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
@@ -27,6 +27,104 @@
     }
   ],
   "articles": [
+    {
+      "title": "Accompagnare i figli nel percorso di crescita: incontro in Cattolica",
+      "url": "https://www.piacenzasera.it/2026/11/accompagnare-i-figli-nel-percorso-di-crescita-incontro-in-cattolica/672060",
+      "summary": "L'iniziativa, organizzata in collaborazione con Confindustria Piacenza, si terrà venerdì 27 novembre 2026, alle ore 17 e 30, presso l'Università Cattolica del Sacro Cuore. Relatore il prof Pierpaolo Triani The post Accompagnare i figli nel percorso di crescita: incontro in Cattolica appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T10:11:39+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Dopo 330 anni, due monumentali capolavori del disegno barocco tornano nella Cattedrale di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/dopo-330-anni-due-monumentali-capolavori-del-disegno-barocco-tornano-nella-cattedrale-di-piacenza/672058",
+      "summary": "Dal 4 dicembre 2026 una mostra restituisce alla città i due cartoni preparatori di Marcantonio Franceschini: si tratta dei modelli a grandezza naturale per gli affreschi della parte inferiore della cupola del Duomo The post Dopo 330 anni, due monumentali capolavori del disegno barocco tornano nella Cattedrale di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T10:00:43+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli",
+      "url": "https://www.ciaocomo.it/2026/11/25/nati-per-leggere-alla-biblioteca-di-como-due-incontri-per-scoprire-il-piacere-della-lettura-fin-da-piccoli/348556",
+      "summary": "Genitori e bambini da 0 a 6 anni protagonisti di un’esperienza condivisa, guidata da bibliotecari e volontari, per avvicinarsi al mondo dei libri fin dalla prima infanzia The post “Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli appeared first on CiaoComo .",
+      "published_at": "2026-11-25T10:00:14+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, violenza sulle donne: la caserma dei Carabinieri si illumina di arancione",
+      "url": "https://www.ciaocomo.it/2026/11/25/como-violenza-sulle-donne-la-caserma-dei-carabinieri-si-illumina-di-arancione/348783",
+      "summary": "L’Arma rinnova l’impegno nella prevenzione degli abusi e nella promozione della cultura della denuncia, richiamando l’attenzione sui segnali di rischio e sugli strumenti a tutela delle vittime The post Como, violenza sulle donne: la caserma dei Carabinieri si illumina di arancione appeared first on CiaoComo .",
+      "published_at": "2026-11-25T09:48:43+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cena nel cuore di Como a due passi dal Lago più romantico: al ristorante storico menu d’inverno (e sorpresa)",
+      "url": "https://comozero.it/pubbliredazionale/cena-nel-cuore-di-como-a-due-passi-dal-lago-piu-romantico-al-ristorante-storico-menu-dinverno-e-sorpresa",
+      "summary": "Un ospite d’eccezione, un menù d’inverno tra tradizione e ricerca e un’opera d’arte che prenderà forma sotto gli occhi dei commensali, Questa è la serata “A tavola con l’arte. Una performance live di Giuliano Grittini” pensata dal Ristorante Imbarcadero 1892 di piazza Cavour per giovedì 3 dicembre: una cena-evento a numero chiuso, unica nel suo […] L'articolo Cena nel cuore di Como a due passi dal Lago più romantico: al ristorante storico menu d’inverno (e sorpresa) proviene da ComoZero .",
+      "published_at": "2026-11-25T09:34:21+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cip Emilia Romagna, il nuotatore piacentino Savchenko medaglia d’argento del Coni",
+      "url": "https://www.piacenzasera.it/2026/11/cip-emilia-romagna-il-nuotatore-piacentino-savchenko-medaglia-dargento-del-coni/672055",
+      "summary": "La medaglia d’argento è stata anche da Arseny Savchenko di Piacenza nella staffetta 4X100 stile libero maschile dei campionati europei FSSI, il 27 la premiazione The post Cip Emilia Romagna, il nuotatore piacentino Savchenko medaglia d’argento del Coni appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T09:23:31+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Irpef a Como, approvata una delibera del tutto inutile. Anzi, Rapinese continua a favorire i ceti più abbienti”",
+      "url": "https://comozero.it/politica/irpef-a-como-approvata-una-delibera-del-tutto-inutile-anzi-rapinese-continua-a-favorire-i-ceti-piu-abbienti",
+      "summary": "I consiglieri comunali del Pd Patrizia Lissi e Stefano Legnani contestano l’utilità della delibera sull’Irpef approvata durante l’ultimo consiglio comunale di Como. «Lunedì sera è stata approvata una delibera del tutto inutile poiché si è limitata a confermare, e non era in alcun modo necessario, l’attuale aliquota dell’addizionale comunale all’Irpef – scrivono in una nota […] L'articolo “Irpef a Como, approvata una delibera del tutto inutile. Anzi, Rapinese continua a favorire i ceti più abbienti” proviene da ComoZero .",
+      "published_at": "2026-11-25T08:39:34+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "“Prezzo del carburante diverso da quello applicato”, la Finanza multa due distributori",
       "url": "https://www.piacenzasera.it/2026/11/prezzo-del-carburante-diverso-da-quello-applicato-la-finanza-multa-due-distributori/672051",
@@ -154,74 +252,26 @@
       ]
     },
     {
-      "title": "Piacenza, comprare casa per affittarla rende il 5,51% lordo: il più alto dell’Emilia-Romagna",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-comprare-casa-per-affittarla-rende-il-551-lordo-il-piu-alto-dellemilia-romagna/671966",
-      "summary": "Elaborazione iRendity sulle quotazioni OMI del 1° semestre 2026 nei 109 capoluoghi di provincia. In testa Biella (7,58%) e Alessandria (7,54%), in fondo Salerno (3,05%) The post Piacenza, comprare casa per affittarla rende il 5,51% lordo: il più alto dell’Emilia-Romagna appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T05:00:52+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "al",
-        "bi",
-        "piacenza",
-        "sa"
-      ],
-      "territory_codes": [
-        "AL",
-        "BI",
-        "PC",
-        "SA"
-      ]
-    },
-    {
-      "title": "“Docente è docente”, anche a Piacenza arriva la campagna Uil per l’equiparazione retributiva tra tutti gli insegnanti",
-      "url": "https://www.piacenzasera.it/2026/11/docente-e-docente-anche-a-piacenza-arriva-la-campagna-uil-per-lequiparazione-retributiva-tra-tutti-gli-insegnanti/672041",
-      "summary": "Parità salariale e dignità al lavoro femminile nella scuola The post “Docente è docente”, anche a Piacenza arriva la campagna Uil per l’equiparazione retributiva tra tutti gli insegnanti appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T05:00:44+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Black Friday, Confconsumatori Piacenza “Controllare con attenzione le offerte”",
-      "url": "https://www.piacenzasera.it/2026/11/black-friday-confconsumatori-piacenza-controllare-con-attenzione-le-offerte/672037",
-      "summary": "I consumatori devono prestare la massima attenzione per evitare che uno sconto apparente si trasformi in una delusione The post Black Friday, Confconsumatori Piacenza “Controllare con attenzione le offerte” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T05:00:42+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Il dj piacentino DR.Blake tra i finalisti del Tour Music Fest 2026",
-      "url": "https://www.piacenzasera.it/2026/11/il-dj-piacentino-dr-blake-tra-i-finalisti-del-tour-music-fest-2026/672043",
-      "summary": "Da Piacenza alla finale europea del Tour Music Fest: Cosimo Mosca tra i cinque DJ italiani in gara The post Il dj piacentino DR.Blake tra i finalisti del Tour Music Fest 2026 appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T05:00:41+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo",
       "url": "https://comozero.it/sport/le-pagelle-di-como-aek-atene-alex-valle-uomo-ovunque-milla-lo-fa-bellissimo",
       "summary": "Il Como batte 1-0 l’Aek Atene e continua a sognare in grande in Champions League (qui la cronaca). Il gol di Milla lancia i lariani al terzo posto in classifica e ipoteca al 99% quanto meno l’approdo ai playoff: il viaggio in Europa è solo all’inizio (leggi le parole di Fabregas qui). Ecco le pagelle […] L'articolo Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo proviene da ComoZero .",
       "published_at": "2026-11-25T01:10:26+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Felicità Fabregas:”Vittoria importante, notte speciale al Sinigaglia. Bravo Milla, amato da tutti i ragazzi…”",
+      "url": "https://www.ciaocomo.it/2026/11/25/felicita-fabregasvittoria-importante-notte-speciale-al-sinigaglia-bravo-milla-amato-da-tutti-i-ragazzi/348753",
+      "summary": "Le parole dell'allenatore del Como a fine gara. Ma anche quelle di Nico Paz e dell'autore della rete decisiva: è la sua prima in Champions League. The post Felicità Fabregas:”Vittoria importante, notte speciale al Sinigaglia. Bravo Milla, amato da tutti i ragazzi…” appeared first on CiaoComo .",
+      "published_at": "2026-11-24T23:34:52+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -386,34 +436,6 @@
       ]
     },
     {
-      "title": "Sicurezza nelle stazioni ferroviarie, a Como e provincia le Forze dell’ordine avranno accesso diretto alla videosorveglianza",
-      "url": "https://www.ciaocomo.it/2026/11/24/sicurezza-nelle-stazioni-ferroviarie-a-como-e-provincia-le-forze-dellordine-avranno-accesso-diretto-alla-videosorveglianza/348689",
-      "summary": "Ferrovienord ha sottoscritto 15 convenzioni in Lombardia. Nel territorio comasco coinvolte la Questura e le Polizie locali di Canzo, Locate Varesino e Mariano Comense The post Sicurezza nelle stazioni ferroviarie, a Como e provincia le Forze dell’ordine avranno accesso diretto alla videosorveglianza appeared first on CiaoComo .",
-      "published_at": "2026-11-24T16:31:40+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Musica live, i concerti della settimana",
-      "url": "https://www.ciaocomo.it/2026/11/24/musica-live-i-concerti-della-settimana-2/348512",
-      "summary": "Tutto quello che Como e provincia hanno da offrire: tanti i concerti e le serate di musica dal vivo in programma The post Musica live, i concerti della settimana appeared first on CiaoComo .",
-      "published_at": "2026-11-24T16:00:07+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo",
       "url": "https://comozero.it/attualita/case-di-lusso-como-e-la-regina-ditalia-prezzi-in-crescita-fino-al-45-ma-le-sfidanti-sono-in-arrivo",
       "summary": "Como si conferma la piazza immobiliare di lusso più promettente in Italia (non considerando Milano e Roma). Ma la vera sorpresa delle previsioni per il quinquennio 2026-2030 arriva dal Mezzogiorno: cinque città del Sud e delle Isole conquistano infatti un posto tra le prime sette della classifica nazionale È quanto emerge dall’Osservatorio sulla Casa di […] L'articolo Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo proviene da ComoZero .",
@@ -445,36 +467,6 @@
       "territory_codes": [
         "CO",
         "VA"
-      ]
-    },
-    {
-      "title": "80mila frontalieri in Svizzera, Daniela Fumarola a Como: “Non possiamo lasciarli senza tutele”",
-      "url": "https://comozero.it/attualita/80mila-frontalieri-in-svizzera-daniela-fumarola-a-como-non-possiamo-lasciarli-senza-tutele",
-      "summary": "A Villa Gallia il confronto con il segretario generale della Cisl. Magon: “Il territorio paga le conseguenze dei mancati investimenti”. Fumarola rilancia su lavoro, sicurezza e accordi per i frontalieri Ottantamila frontalieri tra Como e Varese, una sanità in difficoltà, il costo della vita sempre più alto e un mercato del lavoro segnato dalla crescita […] L'articolo 80mila frontalieri in Svizzera, Daniela Fumarola a Como: “Non possiamo lasciarli senza tutele” proviene da ComoZero .",
-      "published_at": "2026-11-24T15:26:32+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "VA"
-      ]
-    },
-    {
-      "title": "Como, polemica sul gioiello razionalista: “Con i privati lo salviamo da anni di degrado”, “No, la proposta è zero”",
-      "url": "https://comozero.it/attualita/como-polemica-sul-gioiello-razionalista-con-i-privati-lo-salviamo-da-anni-di-degrado-no-la-proposta-e-zero",
-      "summary": "Un partenariato pubblico-privato – con il privato che è il Fai – per far rinascere l’asilo Sant’Elia di Como, capolavoro del razionalismo firmato da Giuseppe Terragni. Ad approvare questa nuova via per rilanciare il gioiello architettonico di via Alciato è stato il consiglio comunale, che ieri ha votato in merito su proposta dell’assessore Alberto Fontana. […] L'articolo Como, polemica sul gioiello razionalista: “Con i privati lo salviamo da anni di degrado”, “No, la proposta è zero” proviene da ComoZero .",
-      "published_at": "2026-11-24T13:27:37+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
