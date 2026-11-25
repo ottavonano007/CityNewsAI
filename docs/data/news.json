@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-25T15:17:11.200595+00:00",
+  "generated_at": "2026-11-25T16:27:30.320368+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 8,
-      "inserted": 8,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Coin si trasferisce in via XX Settembre “Oltre 50 anni di storia che continuano in città”",
+      "url": "https://www.piacenzasera.it/2026/11/coin-si-trasferisce-in-via-xx-settembre-oltre-50-anni-di-storia-che-continuano-in-citta/672127",
+      "summary": "Il department store rinnova la propria presenza a Piacenza: nel pomeriggio del 25 novembre il taglio del nastro ufficiale The post Coin si trasferisce in via XX Settembre “Oltre 50 anni di storia che continuano in città” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T15:45:58+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como e il trasloco milionario del Luna Park: “Scelto un luogo tra i più trafficati, senza parcheggi e inadeguato”",
+      "url": "https://comozero.it/politica/como-e-il-trasloco-milionario-del-luna-park-scelto-un-luogo-tra-i-piu-trafficati-senza-parcheggi-e-inadeguato",
+      "summary": "È polemica sulla decisione della giunta Rapinese di investire un milione di euro per spostare dall’area di Muggiò circhi e Luna Park, trasferendoli nel quartiere cittadino a Lazzago, alle porte di Como (qui l’anticipazione di ieri). “Ci tocca ribadire che lo spazio compreso tra via Varesina, via D’Annunzio e via Venturino è del tutto inadeguato […] L'articolo Como e il trasloco milionario del Luna Park: “Scelto un luogo tra i più trafficati, senza parcheggi e inadeguato” proviene da ComoZero .",
+      "published_at": "2026-11-25T15:13:27+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il saluto di Monica Patelli “Un onore aver servito il territorio, Provincia sia punto di riferimento”",
+      "url": "https://www.piacenzasera.it/2026/11/il-saluto-di-monica-patelli-un-onore-aver-servito-il-territorio-provincia-sia-punto-di-riferimento/672119",
+      "summary": "A pochi giorni dalle elezioni provinciali, il saluto della Presidente uscente, Monica Patelli a tutta la comunità piacentina The post Il saluto di Monica Patelli “Un onore aver servito il territorio, Provincia sia punto di riferimento” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-25T14:59:37+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "“Turandot delle stelle”, al Teatro Sociale di Como l’universo di Puccini si fa musica e visione",
       "url": "https://www.ciaocomo.it/2026/11/25/turandot-delle-stelle-al-teatro-sociale-di-como-luniverso-di-puccini-si-fa-musica-e-visione/348758",
@@ -140,20 +182,6 @@
       ]
     },
     {
-      "title": "Sotto la pioggia in ciabatte e con il cagnolino al guinzaglio, anziano in difficoltà soccorso dalla Polizia Locale",
-      "url": "https://www.piacenzasera.it/2026/11/sotto-la-pioggia-in-ciabatte-e-con-il-cagnolino-al-guinzaglio-anziano-in-difficolta-soccorso-dalla-polizia-locale/672098",
-      "summary": "L'anziano, di nazionalità straniera, aveva difficoltà a esprimersi: rintracciati i familiari grazie al supporto della Questura di Piacenza e Aisa The post Sotto la pioggia in ciabatte e con il cagnolino al guinzaglio, anziano in difficoltà soccorso dalla Polizia Locale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T12:52:23+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, un nastrino rosso sulle auto della Polizia Locale contro la violenza sulle donne",
       "url": "https://www.ciaocomo.it/2026/11/25/como-un-nastrino-rosso-sulle-auto-della-polizia-locale-contro-la-violenza-sulle-donne/348800",
       "summary": "L’iniziativa di sensibilizzazione accompagnerà gli agenti per tutta la settimana, sottolineando il ruolo del Comando nella rete territoriale di ascolto, protezione e intervento The post Como, un nastrino rosso sulle auto della Polizia Locale contro la violenza sulle donne appeared first on CiaoComo .",
@@ -224,9 +252,9 @@
       ]
     },
     {
-      "title": "Como, violenza sulle donne: la caserma dei Carabinieri si illumina di arancione",
+      "title": "Como, violenza sulle donne: stasera la caserma dei carabinieri si illumina di arancione per dire stop agli abusi",
       "url": "https://www.ciaocomo.it/2026/11/25/como-violenza-sulle-donne-la-caserma-dei-carabinieri-si-illumina-di-arancione/348783",
-      "summary": "L’Arma rinnova l’impegno nella prevenzione degli abusi e nella promozione della cultura della denuncia, richiamando l’attenzione sui segnali di rischio e sugli strumenti a tutela delle vittime The post Como, violenza sulle donne: la caserma dei Carabinieri si illumina di arancione appeared first on CiaoComo .",
+      "summary": "L’Arma rinnova l’impegno nella prevenzione degli abusi e nella promozione della cultura della denuncia, richiamando l’attenzione sui segnali di rischio e sugli strumenti a tutela delle vittime The post Como, violenza sulle donne: stasera la caserma dei carabinieri si illumina di arancione per dire stop agli abusi appeared first on CiaoComo .",
       "published_at": "2026-11-25T09:48:43+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -356,20 +384,6 @@
       "published_at": "2026-11-25T05:21:01+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Felicità Fabregas:”Vittoria importante, notte speciale al Sinigaglia. Bravo Milla, amato da tutti i ragazzi…”",
-      "url": "https://www.ciaocomo.it/2026/11/25/felicita-fabregasvittoria-importante-notte-speciale-al-sinigaglia-bravo-milla-amato-da-tutti-i-ragazzi/348753",
-      "summary": "Le parole dell'allenatore del Como a fine gara. Ma anche quelle di Nico Paz e dell'autore della rete decisiva: è la sua prima in Champions League. The post Felicità Fabregas:”Vittoria importante, notte speciale al Sinigaglia. Bravo Milla, amato da tutti i ragazzi…” appeared first on CiaoComo .",
-      "published_at": "2026-11-24T23:34:52+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
