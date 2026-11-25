@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:04:19.870869+00:00",
+  "generated_at": "2026-11-25T21:04:40.561235+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 9,
-      "inserted": 9,
+      "parsed": 10,
+      "inserted": 10,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "La battaglia per il Faro Voltiano, Como vince al Tar. I giudici bocciano duramente le pretese di Brunate",
+      "url": "https://comozero.it/attualita/il-caso-del-faro-voltiano-como-vince-al-tar-i-giudici-bocciano-duramente-le-pretese-di-brunate",
+      "summary": "Per i giudici il Comune di Como non era obbligato a rinnovare l’accordo per affidare la gestione del monumento a Brunate. La convenzione scaduta nel 2020 aveva una durata di cinque anni e non prevedeva rinnovi automatici. Quattromila euro di spese legali a carico del Comune di Brunate Il Comune di Como non era tenuto […] L'articolo La battaglia per il Faro Voltiano, Como vince al Tar. I giudici bocciano duramente le pretese di Brunate proviene da ComoZero .",
+      "published_at": "2026-11-25T20:14:53+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "La Pinacoteca di Como sempre più bella e preziosa: arrivano tre opere di Carla Badiali (due acquisti e un dono)",
       "url": "https://comozero.it/cultura-e-spettacolo/la-pinacoteca-di-como-sempre-piu-bella-e-preziosa-arrivano-tre-opere-di-carla-badiali-due-acquisti-e-un-dono",
