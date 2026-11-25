@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:56:25.696057+00:00",
+  "generated_at": "2026-11-25T01:26:06.995770+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo",
+      "url": "https://comozero.it/sport/le-pagelle-di-como-aek-atene-alex-valle-uomo-ovunque-milla-lo-fa-bellissimo",
+      "summary": "Il Como batte 1-0 l’Aek Atene e continua a sognare in grande in Champions League (qui la cronaca). Il gol di Milla lancia i lariani al terzo posto in classifica e ipoteca al 99% quanto meno l’approdo ai playoff: il viaggio in Europa è solo all’inizio (leggi le parole di Fabregas qui). Ecco le pagelle […] L'articolo Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo proviene da ComoZero .",
+      "published_at": "2026-11-25T01:10:26+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Champions, il canto di Fabregas dopo Aek: “Tre anni fa inimmaginabile. Non sogno altro, voglio la famiglia Como”",
       "url": "https://comozero.it/sport/champions-il-canto-di-fabregas-dopo-aek-tre-anni-fa-inimmaginabile-non-sogno-altro-voglio-la-famiglia-como",
@@ -406,20 +420,6 @@
       "url": "https://comozero.it/ambiente/in-provincia-di-como-la-guerra-dei-tigli-il-comune-li-vuole-sradicare-lassociazione-fa-muro-compatto",
       "summary": "L’associazione contesta la decisione del Comune di abbattere le alberature di via San Rocco, via Turati e via Licinio. Nel mirino anche le motivazioni legate alla sicurezza dei pedoni. La Soprintendenza ha espresso perplessità sulla legittimità dell’intervento La decisione del Comune di Erba di abbattere gli alberi di via San Rocco, via Turati e via […] L'articolo In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto proviene da ComoZero .",
       "published_at": "2026-11-24T11:40:30+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere”",
-      "url": "https://comozero.it/attualita/il-como-ha-depositato-il-progetto-del-nuovo-stadio-sinigaglia-rapinese-non-faccia-finta-di-non-sapere",
-      "summary": "“Il Como ha protocollato il 10 novembre in Comune il nuovo progetto dello Stadio Sinigaglia“. A rivelarlo a seguito di un accesso agli atti, è stato durante il consiglio comunale di lunedì 23 novembre il consigliere comunale di Svolta Civica, Vittorio Nessi. In discussione era la mozione presentata dallo stesso Nessi lo scorso 28 settembre, […] L'articolo “Il Como ha depositato il progetto del nuovo stadio Sinigaglia. Rapinese non faccia finta di non sapere” proviene da ComoZero .",
-      "published_at": "2026-11-24T10:30:53+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
