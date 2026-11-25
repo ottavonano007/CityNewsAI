@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:04:36.619646+00:00",
+  "generated_at": "2026-11-25T23:02:23.715742+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Le vasche che salvano due paesi dalle alluvioni: 376mila euro per il Lago di Como",
+      "url": "https://comozero.it/ambiente/le-vasche-che-salvano-due-paesi-dalle-alluvioni-376mila-euro-per-il-lago-di-como",
+      "summary": "[Copertina: Domaso, archivio] Le opere serviranno a raccogliere le acque superficiali del valletto che interferisce con la SP3, mettendo in sicurezza il territorio e un collegamento importante per residenti, attività economiche e turismo Due Comuni dell’Alto Lago, Vercana e Domaso, potranno contare su nuove opere per prevenire il rischio di dissesto idrogeologico. La Provincia di […] L'articolo Le vasche che salvano due paesi dalle alluvioni: 376mila euro per il Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-25T21:54:35+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "La battaglia per il Faro Voltiano, Como vince al Tar. I giudici bocciano duramente le pretese di Brunate",
       "url": "https://comozero.it/attualita/il-caso-del-faro-voltiano-como-vince-al-tar-i-giudici-bocciano-duramente-le-pretese-di-brunate",
@@ -258,20 +272,6 @@
       "url": "https://comozero.it/attualita/como-un-murale-per-paolo-borsellino-nella-biblioteca-che-porta-il-suo-nome-il-progetto-artistico-agli-studenti-del-carcano",
       "summary": "L’opera sarà realizzata nell’androne della biblioteca comunale. La proposta grafica nascerà da un concorso rivolto agli studenti. Il Comune ha approvato il progetto Un murale dedicato a Paolo Borsellino nell’androne della biblioteca comunale di Como che porta il suo nome. A idearlo saranno gli studenti del Paolo Carcano, coinvolti in un concorso per elaborare la […] L'articolo Como, un murale per Paolo Borsellino nella biblioteca che porta il suo nome: il progetto artistico agli studenti del Carcano proviene da ComoZero .",
       "published_at": "2026-11-25T12:09:38+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, quasi 3 milioni per il commercio di vicinato in 7 Distretti: “Fondamentali per città e borghi”",
-      "url": "https://comozero.it/attualita/como-quasi-3-milioni-per-il-commercio-di-vicinato-in-7-distretti-fondamentali-per-citta-e-borghi",
-      "summary": "[Copertina: AI] Da Cernobbio a Dongo, passando per Como e Mariano Comense: cinque Comuni ottengono il contributo massimo di 520mila euro. Fermi: “Un presidio fondamentale per la vitalità delle nostre città e dei borghi” Quasi 3 milioni di euro per sostenere il commercio di vicinato in provincia di Como. Regione Lombardia ha assegnato 2.984.311 euro […] L'articolo Como, quasi 3 milioni per il commercio di vicinato in 7 Distretti: “Fondamentali per città e borghi” proviene da ComoZero .",
-      "published_at": "2026-11-25T11:46:53+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
