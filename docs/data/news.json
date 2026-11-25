@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-25T16:27:30.320368+00:00",
+  "generated_at": "2026-11-25T17:56:29.853684+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 9,
+      "inserted": 9,
       "ok": true
     },
     {
@@ -28,9 +28,67 @@
   ],
   "articles": [
     {
-      "title": "Coin si trasferisce in via XX Settembre “Oltre 50 anni di storia che continuano in città”",
+      "title": "E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como",
+      "url": "https://comozero.it/attualita/e-lhotel-migliore-deuropa-e-ora-sulla-terrazza-della-piscina-si-pattina-con-vista-mozzafiato-sul-lago-di-como",
+      "summary": "Per la stagione invernale, Passalacqua – miglior hotel d’Europa secondo The 50 (già The World’s 50 Best Hotels) – prolunga l’apertura fino al 3 gennaio 2027, introducendo una novità assoluta: la prima pista di pattinaggio galleggiante dell’hotel. La struttura è accessibile sia a chi soggiorna nella villa di Moltrasio sia agli ospiti esterni che desiderano […] L'articolo E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-25T17:14:58+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, finalmente apre la favolosa Sala del Tesoro: gli orari dal 4 dicembre",
+      "url": "https://comozero.it/cultura-e-spettacolo/como-finalmente-apre-la-favolosa-sala-del-tesoro-gli-orari-dal-4-dicembre",
+      "summary": "Manca pochissimo poi dopo l’attesa di questi anni il tesoro di Como, le monete di valore inestimabile trovate durante gli scavi all’ex cineteatro Cressoni, sarà visitabile. L’esposizione permanente è allestita nell’Oratorio delle Orfanelle del Museo archeologico Paolo Giovio in via Balestra. Il Comune infatti fa sapere che da venerdì 4 dicembre, la sala del Tesoro […] L'articolo Como, finalmente apre la favolosa Sala del Tesoro: gli orari dal 4 dicembre proviene da ComoZero .",
+      "published_at": "2026-11-25T16:57:35+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Monday Gospel in concerto a Como, oltre 50 voci per la mensa di Casa Nazareth",
+      "url": "https://www.ciaocomo.it/2026/11/25/monday-gospel-in-concerto-a-como-oltre-50-voci-per-la-mensa-di-casa-nazareth/348756",
+      "summary": "Sabato 28 novembre nella chiesa di San Giuseppe prende il via la campagna natalizia a sostegno del servizio che, nei primi dieci mesi del 2026, ha distribuito oltre 72mila pasti The post Monday Gospel in concerto a Como, oltre 50 voci per la mensa di Casa Nazareth appeared first on CiaoComo .",
+      "published_at": "2026-11-25T16:30:56+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "L’agriturismo famosissimo in provincia di Como incoronato dalla Guida Osterie d’Italia di Slow Food (e le grandi conferme)",
+      "url": "https://comozero.it/attualita/lagriturismo-famosissimo-in-provincia-di-como-debutta-nella-guida-osterie-ditalia-di-slow-food-e-le-grandi-conferme",
+      "summary": "L’agriturismo entra per la prima volta nella pubblicazione di Slow Food. Tra i locali premiati con la Chiocciola anche l’Aquila d’Oro di Dosso del Liro, nuova entrata tra le eccellenze della guida. La cucina del territorio, i prodotti locali e il lavoro di chi li porta in tavola. Giovedì 26 novembre, alle 19, l’Agriturismo La […] L'articolo L’agriturismo famosissimo in provincia di Como incoronato dalla Guida Osterie d’Italia di Slow Food (e le grandi conferme) proviene da ComoZero .",
+      "published_at": "2026-11-25T16:29:35+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "aq"
+      ],
+      "territory_codes": [
+        "CO",
+        "AQ"
+      ]
+    },
+    {
+      "title": "“Questo è un nuovo inizio per Coin: la nostra storia di oltre 50 anni continua”",
       "url": "https://www.piacenzasera.it/2026/11/coin-si-trasferisce-in-via-xx-settembre-oltre-50-anni-di-storia-che-continuano-in-citta/672127",
-      "summary": "Il department store rinnova la propria presenza a Piacenza: nel pomeriggio del 25 novembre il taglio del nastro ufficiale The post Coin si trasferisce in via XX Settembre “Oltre 50 anni di storia che continuano in città” appeared first on piacenzasera.it .",
+      "summary": "Il department store rinnova la propria presenza a Piacenza: nel pomeriggio del 25 novembre il taglio del nastro ufficiale The post “Questo è un nuovo inizio per Coin: la nostra storia di oltre 50 anni continua” appeared first on piacenzasera.it .",
       "published_at": "2026-11-25T15:45:58+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -58,7 +116,7 @@
     {
       "title": "Il saluto di Monica Patelli “Un onore aver servito il territorio, Provincia sia punto di riferimento”",
       "url": "https://www.piacenzasera.it/2026/11/il-saluto-di-monica-patelli-un-onore-aver-servito-il-territorio-provincia-sia-punto-di-riferimento/672119",
-      "summary": "A pochi giorni dalle elezioni provinciali, il saluto della Presidente uscente, Monica Patelli a tutta la comunità piacentina The post Il saluto di Monica Patelli “Un onore aver servito il territorio, Provincia sia punto di riferimento” appeared first on piacenzasera.it .",
+      "summary": "A pochi giorni dalle elezioni provinciali, il saluto della Presidente uscente a tutta la comunità piacentina The post Il saluto di Monica Patelli “Un onore aver servito il territorio, Provincia sia punto di riferimento” appeared first on piacenzasera.it .",
       "published_at": "2026-11-25T14:59:37+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -123,20 +181,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "Rinforzo sotto canestro per l’Assigeco: c’è la firma di Angelo Del Chiaro",
-      "url": "https://www.piacenzasera.it/2026/11/rinforzo-sotto-canestro-per-lassigeco-ce-la-firma-di-angelo-del-chiaro/672102",
-      "summary": "Classe 2001 e originario di Pietrasanta (Lucca), Angelo Del Chiaro è un pivot di 206 cm per 103 kg The post Rinforzo sotto canestro per l’Assigeco: c’è la firma di Angelo Del Chiaro appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T13:12:36+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "lu"
-      ],
-      "territory_codes": [
-        "LU"
       ]
     },
     {
@@ -266,124 +310,12 @@
       ]
     },
     {
-      "title": "“Irpef a Como, approvata una delibera del tutto inutile. Anzi, Rapinese continua a favorire i ceti più abbienti”",
-      "url": "https://comozero.it/politica/irpef-a-como-approvata-una-delibera-del-tutto-inutile-anzi-rapinese-continua-a-favorire-i-ceti-piu-abbienti",
-      "summary": "I consiglieri comunali del Pd Patrizia Lissi e Stefano Legnani contestano l’utilità della delibera sull’Irpef approvata durante l’ultimo consiglio comunale di Como. «Lunedì sera è stata approvata una delibera del tutto inutile poiché si è limitata a confermare, e non era in alcun modo necessario, l’attuale aliquota dell’addizionale comunale all’Irpef – scrivono in una nota […] L'articolo “Irpef a Como, approvata una delibera del tutto inutile. Anzi, Rapinese continua a favorire i ceti più abbienti” proviene da ComoZero .",
-      "published_at": "2026-11-25T08:39:34+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Premio Campiello Junior, la scrittrice comasca Irene Rossi in finale con il romanzo “Futuro”",
-      "url": "https://www.ciaocomo.it/2026/11/25/premio-campiello-junior-la-scrittrice-comasca-irene-rossi-in-finale-con-il-romanzo-futuro/348794",
-      "summary": "L'autrice concorre nella categoria dedicata ai lettori dagli 11 ai 14 anni con una storia di guerra, speranza e solidarietà. A decretare i vincitori saranno 240 ragazze e ragazzi The post Premio Campiello Junior, la scrittrice comasca Irene Rossi in finale con il romanzo “Futuro” appeared first on CiaoComo .",
-      "published_at": "2026-11-25T08:30:28+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Cerchi lavoro nel turismo? A Como il job day in vista della prossima stagione",
-      "url": "https://comozero.it/attualita/cerchi-lavoro-nel-turismo-a-como-il-job-day-in-vista-della-prossima-stagione",
-      "summary": "Il turismo lariano cerca personale e incontra chi vuole lavorare nel settore. Mercoledì 2 dicembre, dalle 9.30 alle 13.00, il Settore Lavoro della Provincia di Como, attraverso i suoi Centri per l’Impiego, organizza il Touristic Job Day, una mattinata dedicata all’incontro diretto tra aziende e persone in cerca di occupazione. L’appuntamento si terrà nella sede […] L'articolo Cerchi lavoro nel turismo? A Como il job day in vista della prossima stagione proviene da ComoZero .",
-      "published_at": "2026-11-25T08:10:32+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "C’è una comasca in finale al Premio Campiello Junior: chi è la scrittrice e di cosa parla il suo libro",
-      "url": "https://comozero.it/cultura-e-spettacolo/giovanissima-e-bravissima-chi-e-la-comasca-che-ha-scritto-il-libro-in-finale-al-premio-campiello-junior",
-      "summary": "C’è anche una firma comasca tra i protagonisti della letteratura per ragazzi italiana. La scrittrice comasca Irene Rossi è entrata ufficialmente nella terna finalista della 6^ edizione del Premio Campiello Junior (in copertina la giuria) con il suo libro Futuro (edito da Edizioni EL / Einaudi Ragazzi / Emme Edizioni). La selezione è avvenuta oggi […] L'articolo C’è una comasca in finale al Premio Campiello Junior: chi è la scrittrice e di cosa parla il suo libro proviene da ComoZero .",
-      "published_at": "2026-11-25T07:49:47+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Pallacanestro Cantù esonera coach Vitucci",
       "url": "https://primacomo.it/sport/pallacanestro-cantu-esonera-coach-vitucci",
       "summary": "Cinque righe per chiudere una parentesi (sportivamente parlando) disastrosa e sperare di invertire la rotta: coach Vitucci non è più l’allenatore di Cantù Il comunicato Fatale è stata la sconfitta di domenica contro Scafati, la nona di questo inizio di stagione che vede desolatamente Cantù inchiodata a 0 in classifica, ultima “Acqua S.Bernardo Pallacanestro Cantù […] Continua la lettura di Pallacanestro Cantù esonera coach Vitucci sul portale Prima Como .",
       "published_at": "2026-11-25T07:40:56+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "BookCity Como, l’intelligenza artificiale sotto esame: Martina Pennisi racconta il grande inganno dell’AI",
-      "url": "https://www.ciaocomo.it/2026/11/25/bookcity-como-lintelligenza-artificiale-sotto-esame-martina-pennisi-racconta-il-grande-inganno-dellai/348589",
-      "summary": "Alla Libreria Feltrinelli un incontro per comprendere opportunità, limiti e rischi delle nuove tecnologie, senza rinunciare al pensiero critico The post BookCity Como, l’intelligenza artificiale sotto esame: Martina Pennisi racconta il grande inganno dell’AI appeared first on CiaoComo .",
-      "published_at": "2026-11-25T07:00:20+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, giardini a lago: 100mila euro per i nuovissimi lampioni-lanterna. Pagano i ristorni dei frontalieri",
-      "url": "https://comozero.it/attualita/como-giardini-a-lago-100mila-euro-per-i-nuovissimi-lampioni-lanterna-pagano-i-ristorni-dei-frontalieri",
-      "summary": "Nuova illuminazione in arrivo per viale Guglielmo Marconi. La Giunta del sindaco Rapinese ha approvato all’unanimità il progetto esecutivo per il rinnovo completo dei lampioni (che evocano nella forma un molto gradevole effetto lanterna) lungo il viale dei giardini a lago che porta al Tempio Voltiano, stanziando una cifra complessiva di 100 mila euro. Il […] L'articolo Como, giardini a lago: 100mila euro per i nuovissimi lampioni-lanterna. Pagano i ristorni dei frontalieri proviene da ComoZero .",
-      "published_at": "2026-11-25T06:10:45+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Fabregas: “In 5 partite di Champions mai sentito inferiore a nessuno. Nessuno sa cosa succede nella nostra bolla”",
-      "url": "https://comozero.it/sport/champions-il-canto-di-fabregas-dopo-aek-tre-anni-fa-inimmaginabile-non-sogno-altro-voglio-la-famiglia-como",
-      "summary": "[Copertina: foto Como1907] Terza partita europea casalinga per il Como e terza vittoria (qui la cronaca completa). Stavolta i lariani non esagerano e si impongono di “corto muso” grazie alla gemma di Milla che risolve una gara molto bloccata in cui Da Cunha aveva anche sbagliato un rigore. 12 punti in 5 gare era un […] L'articolo Fabregas: “In 5 partite di Champions mai sentito inferiore a nessuno. Nessuno sa cosa succede nella nostra bolla” proviene da ComoZero .",
-      "published_at": "2026-11-25T06:01:29+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Villa Flori inaugura la stagione delle feste sul Lago di Como con la Christmas Fashion Night",
-      "url": "https://comozero.it/attualita/villa-flori-inaugura-la-stagione-delle-feste-sul-lago-di-como-con-la-christmas-fashion-night",
-      "summary": "Villa Flori celebra l’arrivo della stagione natalizia con Christmas Fashion Night, in programma sabato 28 novembre, a partire dalle ore 19:00. Un appuntamento che unisce moda, gusto e musica nella cornice della storica dimora affacciata sul Lago di Como. Realizzata in collaborazione con Giorgia Jenca, ideatrice del progetto Il Fascino della Moda sul Lago di […] L'articolo Villa Flori inaugura la stagione delle feste sul Lago di Como con la Christmas Fashion Night proviene da ComoZero .",
-      "published_at": "2026-11-25T05:21:01+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
