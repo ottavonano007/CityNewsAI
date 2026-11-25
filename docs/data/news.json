@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T11:06:19.835061+00:00",
+  "generated_at": "2026-11-25T12:11:08.458406+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 15,
-      "inserted": 15,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, un murale per Paolo Borsellino nella biblioteca che porta il suo nome: il progetto artistico agli studenti del Carcano",
+      "url": "https://comozero.it/attualita/como-un-murale-per-paolo-borsellino-nella-biblioteca-che-porta-il-suo-nome-il-progetto-artistico-agli-studenti-del-carcano",
+      "summary": "L’opera sarà realizzata nell’androne della biblioteca comunale. La proposta grafica nascerà da un concorso rivolto agli studenti. Il Comune ha approvato il progetto Un murale dedicato a Paolo Borsellino nell’androne della biblioteca comunale di Como che porta il suo nome. A idearlo saranno gli studenti del Paolo Carcano, coinvolti in un concorso per elaborare la […] L'articolo Como, un murale per Paolo Borsellino nella biblioteca che porta il suo nome: il progetto artistico agli studenti del Carcano proviene da ComoZero .",
+      "published_at": "2026-11-25T12:09:38+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, quasi 3 milioni per il commercio di vicinato in 7 Distretti: “Fondamentali per città e borghi”",
+      "url": "https://comozero.it/attualita/como-quasi-3-milioni-per-il-commercio-di-vicinato-in-7-distretti-fondamentali-per-citta-e-borghi",
+      "summary": "[Copertina: AI] Da Cernobbio a Dongo, passando per Como e Mariano Comense: cinque Comuni ottengono il contributo massimo di 520mila euro. Fermi: “Un presidio fondamentale per la vitalità delle nostre città e dei borghi” Quasi 3 milioni di euro per sostenere il commercio di vicinato in provincia di Como. Regione Lombardia ha assegnato 2.984.311 euro […] L'articolo Como, quasi 3 milioni per il commercio di vicinato in 7 Distretti: “Fondamentali per città e borghi” proviene da ComoZero .",
+      "published_at": "2026-11-25T11:46:53+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, ASF Autolinee e Soroptimist insieme contro la violenza di genere: un bus per sensibilizzare la città",
+      "url": "https://www.ciaocomo.it/2026/11/25/como-asf-autolinee-e-soroptimist-insieme-contro-la-violenza-di-genere-un-bus-per-sensibilizzare-la-citta/348791",
+      "summary": "Fino al 17 dicembre un autobus con una speciale livrea circolerà sulle linee urbane 7, 8 e 2, invitando a riconoscere i segnali degli abusi, con particolare attenzione alla violenza digitale The post Como, ASF Autolinee e Soroptimist insieme contro la violenza di genere: un bus per sensibilizzare la città appeared first on CiaoComo .",
+      "published_at": "2026-11-25T11:17:31+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Un telo rosso e un manichino sotto la pioggia: l’installazione contro la violenza sulle donne dell’Istituto Como Centro",
+      "url": "https://comozero.it/attualita/un-telo-rosso-e-un-manichino-di-donna-sotto-la-pioggia-sulle-scale-dellistituto-como-centro-linstallazione-contro-la-violenza-sulle-donne",
+      "summary": "Un viaggio visivo ed emotivo per trasformare la memoria in consapevolezza quotidiana. In occasione della Giornata internazionale per l’eliminazione della violenza contro le donne, alunni della scuola secondaria di primo grado “Parini” (IC Como Centro Città) hanno dato vita a un’esposizione dedicata a una piaga sociale tanto antica quanto drammaticamente attuale. Il percorso espositivo accompagna […] L'articolo Un telo rosso e un manichino sotto la pioggia: l’installazione contro la violenza sulle donne dell’Istituto Como Centro proviene da ComoZero .",
+      "published_at": "2026-11-25T10:57:23+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Accompagnare i figli nel percorso di crescita: incontro in Cattolica",
       "url": "https://www.piacenzasera.it/2026/11/accompagnare-i-figli-nel-percorso-di-crescita-incontro-in-cattolica/672060",
@@ -76,20 +132,6 @@
       "published_at": "2026-11-25T09:48:43+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Cena nel cuore di Como a due passi dal Lago più romantico: al ristorante storico menu d’inverno (e sorpresa)",
-      "url": "https://comozero.it/pubbliredazionale/cena-nel-cuore-di-como-a-due-passi-dal-lago-piu-romantico-al-ristorante-storico-menu-dinverno-e-sorpresa",
-      "summary": "Un ospite d’eccezione, un menù d’inverno tra tradizione e ricerca e un’opera d’arte che prenderà forma sotto gli occhi dei commensali, Questa è la serata “A tavola con l’arte. Una performance live di Giuliano Grittini” pensata dal Ristorante Imbarcadero 1892 di piazza Cavour per giovedì 3 dicembre: una cena-evento a numero chiuso, unica nel suo […] L'articolo Cena nel cuore di Como a due passi dal Lago più romantico: al ristorante storico menu d’inverno (e sorpresa) proviene da ComoZero .",
-      "published_at": "2026-11-25T09:34:21+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -151,20 +193,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Vorrei una storia alla Disney”. “Faccio ancora fatica ad amare”. Ma non giudicate",
-      "url": "https://www.piacenzasera.it/2026/11/vorrei-una-storia-alla-disney-faccio-ancora-fatica-ad-amare-ma-non-giudicateci/671848",
-      "summary": "In collaborazione con il Centro Tice di Piacenza abbiamo parlato con due giovanissimi di amore e sentimenti, del giudizio degli altri, della difficile ricerca di un posto nel mondo, del rapporto fra i sessi e anche del film su Giulia Cecchettin The post “Vorrei una storia alla Disney”. “Faccio ancora fatica ad amare”. Ma non giudicate appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T08:10:23+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -238,20 +266,6 @@
       ]
     },
     {
-      "title": "Eventi, brindisi e comunità: si accende il Natale di Welcome Val Tidone",
-      "url": "https://www.piacenzasera.it/2026/11/eventi-brindisi-e-comunita-si-accende-il-natale-di-welcome-val-tidone/671995",
-      "summary": "Sarà Castel San Giovanni, sabato 28 novembre, ad aprire ufficialmente il programma di Welcome Natale in Piazza XX Settembre The post Eventi, brindisi e comunità: si accende il Natale di Welcome Val Tidone appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T05:00:54+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "br"
-      ],
-      "territory_codes": [
-        "BR"
-      ]
-    },
-    {
       "title": "Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo",
       "url": "https://comozero.it/sport/le-pagelle-di-como-aek-atene-alex-valle-uomo-ovunque-milla-lo-fa-bellissimo",
       "summary": "Il Como batte 1-0 l’Aek Atene e continua a sognare in grande in Champions League (qui la cronaca). Il gol di Milla lancia i lariani al terzo posto in classifica e ipoteca al 99% quanto meno l’approdo ai playoff: il viaggio in Europa è solo all’inizio (leggi le parole di Fabregas qui). Ecco le pagelle […] L'articolo Le pagelle di Como-Aek Atene: Alex Valle uomo ovunque, Milla lo fa bellissimo proviene da ComoZero .",
@@ -280,6 +294,48 @@
       ]
     },
     {
+      "title": "Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria",
+      "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
+      "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
+      "published_at": "2026-11-24T23:25:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp",
+      "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
+      "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
+      "published_at": "2026-11-24T23:21:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo”",
+      "url": "https://comozero.it/pubbliredazionale/a-como-i-grandi-incontri-di-confindustria-bellezza-e-salute-coltivare-il-bello-per-vivere-meglio-piu-felici-e-piu-a-lungo",
+      "summary": "Coltivare il bello non solo come puro esercizio estetico, ma come vera e propria leva per il benessere psicofisico, la felicità e la longevità. Sarà questo il filo conduttore di “Bellezza e Salute – Coltivare il bello per vivere meglio, più felici e più a lungo”, il nuovo incontro pubblico in programma mercoledì 25 novembre […] L'articolo A Como i grandi incontri di Confindustria: “Bellezza e Salute. Coltivare il bello per vivere meglio, più felici e più a lungo” proviene da ComoZero .",
+      "published_at": "2026-11-24T23:13:40+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Como-AEK 1-0, Fabregas: “Questi ragazzi hanno fame. Milla? Era felicissimo, queste cose mi fanno godere”",
       "url": "https://primacomo.it/sport/como-aek-1-0-fabregas-questi-ragazzi-hanno-fame-milla-era-felicissimo-queste-cose-mi-fanno-godere",
       "summary": "Il Como vince di misura contro l’AEK Atene, decisiva la prodezza di Luis Milla: mister Cesc Fàbregas commenta il buon risultato in conferenza stampa Fàbregas: “Sono molto felice” COSI’ TANTE SODDISFAZIONI, AL PARI DEI TOP CLUB MONDIALI: “Non mi aspettavo niente. Volevo solamente vedere come la squadra reagisse contro le squadre migliori d’Europa. Siamo tutti […] Continua la lettura di Como-AEK 1-0, Fabregas: “Questi ragazzi hanno fame. Milla? Era felicissimo, queste cose mi fanno godere” sul portale Prima Como .",
@@ -291,6 +347,26 @@
       ],
       "territory_codes": [
         "CO"
+      ]
+    },
+    {
+      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
+      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
+      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
+      "published_at": "2026-11-24T23:05:10+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi",
+        "so",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI",
+        "SO",
+        "VA"
       ]
     },
     {
@@ -322,50 +398,6 @@
       ]
     },
     {
-      "title": "Como, a maggio arriva il pump track nel prato dimenticato: progetto da 190mila euro, ok della giunta",
-      "url": "https://comozero.it/attualita/como-a-maggio-arriva-il-pump-track-nel-prato-dimenticato-progetto-da-190mila-euro-ok-della-giunta",
-      "summary": "Un prato incolto davanti al piazzale Famiglia Mauri, a Tavernola, si trasformerà presto in una nuova area dedicata agli sport su ruote all’aperto. La Giunta comunale di Como ha approvato all’unanimità il progetto di fattibilità tecnico-economica per un parco pump track, un investimento complessivo da 190mila euro interamente coperto da fondi comunali, redatto internamente dagli […] L'articolo Como, a maggio arriva il pump track nel prato dimenticato: progetto da 190mila euro, ok della giunta proviene da ComoZero .",
-      "published_at": "2026-11-24T21:41:05+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "po"
-      ],
-      "territory_codes": [
-        "CO",
-        "PO"
-      ]
-    },
-    {
-      "title": "Como, black out in viale Battisti. Poi qualche luce offre un minimo aiuto",
-      "url": "https://comozero.it/attualita/como-black-out-in-viale-battisti-da-quattro-ore-poi-qualche-luce-offre-un-minimo-aiuto",
-      "summary": "La prima segnalazione poco dopo le 18. Scrive la lettrice: “Tutto il viale Battisti, lato pedonale, è al buio”. Avrebbe potuto trattarsi, e ci sta, di qualcosa di temporaneo. Così abbiamo aspettato fino alle 22 circa ma nulla è cambiato. Il lato pedonale del viale, pur graziato dalle luci che illuminano le mura e da […] L'articolo Como, black out in viale Battisti. Poi qualche luce offre un minimo aiuto proviene da ComoZero .",
-      "published_at": "2026-11-24T21:23:03+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La Provincia di Como porta l’università nelle biblioteche: quattro incontri aperti a tutti",
-      "url": "https://comozero.it/cultura-e-spettacolo/la-provincia-di-como-porta-luniversita-nelle-biblioteche-quattro-incontri-aperti-a-tutti",
-      "summary": "Dalla giustizia penale al lavoro del futuro, fino ai giovani e allo sviluppo del talento: il ciclo promosso dalla Provincia di Como e dall’Università dell’Insubria partirà il 26 novembre da Cernobbio. Tutti gli appuntamenti sono gratuiti. Le biblioteche della provincia di Como diventano luoghi di incontro tra università e cittadini, con un ciclo di appuntamenti […] L'articolo La Provincia di Como porta l’università nelle biblioteche: quattro incontri aperti a tutti proviene da ComoZero .",
-      "published_at": "2026-11-24T20:32:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "È storia: il Como batte 1-0 l’AEK Atene e vola nell’Olimpo della Champions League: imbattuto in casa!",
       "url": "https://www.ciaocomo.it/2026/11/24/como-aek-atene-segui-con-noi-gli-aggiornamenti-in-diretta-dal-sinigaglia/348720",
       "summary": "The post È storia: il Como batte 1-0 l’AEK Atene e vola nell’Olimpo della Champions League: imbattuto in casa! appeared first on CiaoComo .",
@@ -377,96 +409,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Il Como batte anche l’Aek Atene con un capolavoro: la classifica Champions è da brividi",
-      "url": "https://comozero.it/sport/como-aek-atene-la-cronaca-della-partita-di-champions-in-diretta",
-      "summary": "COMO-AEK ATENE 1-0 Altro colpo da 90 del Como che continua la propria corsa inarrestabile in Champions League. L’Aek Atene rende molto dura la vita ai lariani che si impongono solo grazie al capolavoro di Milla nella ripresa. Questi tre punti fanno volare i ragazzi di Fabregas al terzo posto della graduatoria, quota 12 e […] L'articolo Il Como batte anche l’Aek Atene con un capolavoro: la classifica Champions è da brividi proviene da ComoZero .",
-      "published_at": "2026-11-24T19:05:06+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, tra rottami e scheletri finalmente addio ai pontili dimenticati nel lago",
-      "url": "https://comozero.it/attualita/como-tra-rottami-e-scheletri-finalmente-addio-ai-pontili-dimenticati-nel-lago",
-      "summary": "Il Comune di Como ha deciso di intervenire d’urgenza per smontare gli scheletri e i rottami dei pontili galleggianti abbandonati da mesi e la passerella davanti al civico 10 di viale Geno. L’ordinanza, firmata il 20 novembre 2026, arriva per scongiurare il rischio che le strutture, ormai a pezzi, si stacchino e vadano alla deriva […] L'articolo Como, tra rottami e scheletri finalmente addio ai pontili dimenticati nel lago proviene da ComoZero .",
-      "published_at": "2026-11-24T16:57:42+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, la giunta con un milione di euro sposta circhi e luna park in un altro quartiere",
-      "url": "https://comozero.it/attualita/como-la-giunta-con-un-milione-di-euro-sposta-circhi-e-luna-park-in-un-altro-quartiere",
-      "summary": "La giunta comunale ha approvato il documento di indirizzo alla progettazione per un’area permanente e polifunzionale da quasi 13mila metri quadrati tra via Varesina e via D’Annunzio. Como compie un passo verso una sede fissa e attrezzata alternativa a Muggiò per le attività del Luna Park e presumibilmente dei circhi. Con una delibera approvata all’unanimità […] L'articolo Como, la giunta con un milione di euro sposta circhi e luna park in un altro quartiere proviene da ComoZero .",
-      "published_at": "2026-11-24T16:35:44+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Pizza Amore Mio, nove tappe alla scoperta dell’arte della pizza con CiaoComo e Molini Lario",
-      "url": "https://www.ciaocomo.it/2026/11/24/pizza-amore-mio-nove-tappe-alla-scoperta-dellarte-della-pizza-con-ciaocomo-e-molini-lario/348646",
-      "summary": "Si conclude la quarta edizione del viaggio dedicato ai maestri pizzaioli delle province di Como e Monza Brianza, realizzato grazie al prezioso sostegno di Molini Lario e Accademia Farina The post Pizza Amore Mio, nove tappe alla scoperta dell’arte della pizza con CiaoComo e Molini Lario appeared first on CiaoComo .",
-      "published_at": "2026-11-24T16:33:06+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo",
-      "url": "https://comozero.it/attualita/case-di-lusso-como-e-la-regina-ditalia-prezzi-in-crescita-fino-al-45-ma-le-sfidanti-sono-in-arrivo",
-      "summary": "Como si conferma la piazza immobiliare di lusso più promettente in Italia (non considerando Milano e Roma). Ma la vera sorpresa delle previsioni per il quinquennio 2026-2030 arriva dal Mezzogiorno: cinque città del Sud e delle Isole conquistano infatti un posto tra le prime sette della classifica nazionale È quanto emerge dall’Osservatorio sulla Casa di […] L'articolo Case di lusso, Como è la regina d’Italia: prezzi in crescita fino al 45%. Ma le sfidanti sono in arrivo proviene da ComoZero .",
-      "published_at": "2026-11-24T15:56:18+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi",
-        "rm"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI",
-        "RM"
-      ]
-    },
-    {
-      "title": "Videosorveglianza nelle stazioni, Ferrovienord apre le telecamere a 15 Questure e Polizie locali: c’è anche Como",
-      "url": "https://comozero.it/attualita/videosorveglianza-nelle-stazioni-ferrovienord-apre-le-telecamere-a-15-questure-e-polizie-locali-ce-anche-como",
-      "summary": "Quindici convenzioni già sottoscritte per consentire alle forze dell’ordine di accedere direttamente alle immagini degli impianti di videosorveglianza. Coinvolte le Questure di Como, Monza e Varese e diversi Comandi di Polizia locale. Altri Comuni hanno manifestato interesse. Le telecamere delle stazioni ferroviarie di Ferrovienord diventano direttamente accessibili anche alle Questure e alle Polizie locali. Sono […] L'articolo Videosorveglianza nelle stazioni, Ferrovienord apre le telecamere a 15 Questure e Polizie locali: c’è anche Como proviene da ComoZero .",
-      "published_at": "2026-11-24T15:43:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "VA"
       ]
     },
     {
