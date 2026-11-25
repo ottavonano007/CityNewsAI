@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T23:02:23.715742+00:00",
+  "generated_at": "2026-11-25T23:56:48.127017+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 10,
-      "inserted": 10,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -28,10 +28,44 @@
   ],
   "articles": [
     {
+      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
+      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
+      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
+      "published_at": "2026-11-25T23:05:10+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi",
+        "so",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI",
+        "SO",
+        "VA"
+      ]
+    },
+    {
       "title": "Le vasche che salvano due paesi dalle alluvioni: 376mila euro per il Lago di Como",
       "url": "https://comozero.it/ambiente/le-vasche-che-salvano-due-paesi-dalle-alluvioni-376mila-euro-per-il-lago-di-como",
       "summary": "[Copertina: Domaso, archivio] Le opere serviranno a raccogliere le acque superficiali del valletto che interferisce con la SP3, mettendo in sicurezza il territorio e un collegamento importante per residenti, attività economiche e turismo Due Comuni dell’Alto Lago, Vercana e Domaso, potranno contare su nuove opere per prevenire il rischio di dissesto idrogeologico. La Provincia di […] L'articolo Le vasche che salvano due paesi dalle alluvioni: 376mila euro per il Lago di Como proviene da ComoZero .",
       "published_at": "2026-11-25T21:54:35+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Villa Monastero a Varenna: il Natale illumina la storia, tra scenografie, eventi e attività per famiglie sul Lago di Como",
+      "url": "https://comozero.it/pubbliredazionale/villa-monastero-a-varenna-il-natale-illumina-la-storia-tra-scenografie-eventi-e-attivita-per-famiglie-sul-lago-di-como",
+      "summary": "Villa Monastero di Varenna celebra per la prima volta il Natale con un percorso luminoso tra la Casa Museo e il Giardino botanico. Fino al 10 gennaio 2027, installazioni scenografiche e iniziative speciali offriranno ai visitatori un’occasione unica per scoprire la storica dimora in un’atmosfera di festa Fino al 10 gennaio 2027, uno dei luoghi […] L'articolo Villa Monastero a Varenna: il Natale illumina la storia, tra scenografie, eventi e attività per famiglie sul Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-25T21:01:04+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -70,6 +104,62 @@
       ]
     },
     {
+      "title": "Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como",
+      "url": "https://comozero.it/pubbliredazionale/villa-cipressi-il-natale-incanta-varenna-luci-sapori-e-atmosfere-da-fiaba-sul-lago-di-como",
+      "summary": "Fino al 10 gennaio 2027 torna il Christmas Garden: un percorso tra migliaia di luci, installazioni scenografiche e scorci sul lago. E per vivere appieno l’atmosfera delle feste, anche un Christmas Bar, uno shop natalizio e il ristorante Il Caminetto, con proposte dedicate a Natale e Capodanno. A Varenna il Natale si accende tra le […] L'articolo Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-25T19:03:13+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como",
+      "url": "https://comozero.it/attualita/e-lhotel-migliore-deuropa-e-ora-sulla-terrazza-della-piscina-si-pattina-con-vista-mozzafiato-sul-lago-di-como",
+      "summary": "Per la stagione invernale, Passalacqua – miglior hotel d’Europa secondo The 50 (già The World’s 50 Best Hotels) – prolunga l’apertura fino al 3 gennaio 2027, introducendo una novità assoluta: la prima pista di pattinaggio galleggiante dell’hotel. La struttura è accessibile sia a chi soggiorna nella villa di Moltrasio sia agli ospiti esterni che desiderano […] L'articolo E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-25T18:14:58+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria",
+      "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
+      "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
+      "published_at": "2026-11-25T18:09:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp",
+      "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
+      "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
+      "published_at": "2026-11-25T18:07:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Piacenza Calcio al fianco delle donne: un gesto per dire no alla violenza",
       "url": "https://www.piacenzasera.it/2026/11/piacenza-calcio-al-fianco-delle-donne-un-gesto-per-dire-no-alla-violenza/672167",
       "summary": "Deposto un mazzo di rose sulla panchina rossa installata all’esterno dello stadio Leonardo Garilli The post Piacenza Calcio al fianco delle donne: un gesto per dire no alla violenza appeared first on piacenzasera.it .",
@@ -81,20 +171,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como",
-      "url": "https://comozero.it/attualita/e-lhotel-migliore-deuropa-e-ora-sulla-terrazza-della-piscina-si-pattina-con-vista-mozzafiato-sul-lago-di-como",
-      "summary": "Per la stagione invernale, Passalacqua – miglior hotel d’Europa secondo The 50 (già The World’s 50 Best Hotels) – prolunga l’apertura fino al 3 gennaio 2027, introducendo una novità assoluta: la prima pista di pattinaggio galleggiante dell’hotel. La struttura è accessibile sia a chi soggiorna nella villa di Moltrasio sia agli ospiti esterni che desiderano […] L'articolo E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como proviene da ComoZero .",
-      "published_at": "2026-11-25T17:14:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -198,20 +274,6 @@
       ]
     },
     {
-      "title": "“No, qui non c’è nessun fenomeno”. Uno dei discorsi più importanti di Fabregas parla di persone, non (solo) di calcio",
-      "url": "https://comozero.it/attualita/no-qui-non-ce-nessun-fenomeno-uno-dei-discorsi-piu-importanti-di-fabregas-parla-di-persone-non-solo-di-calcio",
-      "summary": "Poco prima dell’ennesima clamorosa vittoria del Como in Champions League con l’Aek Atene l’allenatore Cesc Fabregas ha fatto un discorso che è andato molto oltre tecnica, tattica e risultato. Le sue parole sono, per così dire, uscite dal puro rettangolo di gioco per affrontare gli aspetti meno glamour del pallone, quelli più pesanti, complessi e impattanti […] L'articolo “No, qui non c’è nessun fenomeno”. Uno dei discorsi più importanti di Fabregas parla di persone, non (solo) di calcio proviene da ComoZero .",
-      "published_at": "2026-11-25T14:22:56+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Riunito il Consiglio generale della Cisl dei Laghi",
       "url": "https://primacomo.it/attualita/riunito-il-consiglio-generale-della-cisl-dei-laghi",
       "summary": "Nella splendida cornice di Villa Gallia, a Como, martedì 24 novembre si è riunito il Consiglio generale della Cisl dei Laghi. Il Consiglio della Cisl dei Laghi Presenti, accanto a Daniele Magon, segretario generale della Cisl dei Laghi, e ai componenti della segreteria Albino Gentile, Paola Gilardoni e Maurizio Cappello, anche la segretaria generale della […] Continua la lettura di Riunito il Consiglio generale della Cisl dei Laghi sul portale Prima Como .",
@@ -240,40 +302,12 @@
       ]
     },
     {
-      "title": "Communis verso le elezioni: la Fiaccola a tre nomi che hanno segnato la storia del centrodestra a Como",
-      "url": "https://comozero.it/politica/communis-verso-le-elezioni-la-fiaccola-a-tre-nomi-che-hanno-segnato-la-storia-del-centrodestra-a-como",
-      "summary": "Tre Fiaccole per altrettanti nomi che hanno segnato la storia politica di Como. A ricevere il riconoscimento che evoca chiaramente il simbolo storico della destra lariana e nazionale e che “è dedicato a chi ha scritto la storia della nostra comunità nel segno dei valori del conservatorismo e della destra italiana” saranno Gianantonio Paganini, Nini […] L'articolo Communis verso le elezioni: la Fiaccola a tre nomi che hanno segnato la storia del centrodestra a Como proviene da ComoZero .",
-      "published_at": "2026-11-25T12:56:31+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, un nastrino rosso sulle auto della Polizia Locale contro la violenza sulle donne",
       "url": "https://www.ciaocomo.it/2026/11/25/como-un-nastrino-rosso-sulle-auto-della-polizia-locale-contro-la-violenza-sulle-donne/348800",
       "summary": "L’iniziativa di sensibilizzazione accompagnerà gli agenti per tutta la settimana, sottolineando il ruolo del Comando nella rete territoriale di ascolto, protezione e intervento The post Como, un nastrino rosso sulle auto della Polizia Locale contro la violenza sulle donne appeared first on CiaoComo .",
       "published_at": "2026-11-25T12:41:54+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, un murale per Paolo Borsellino nella biblioteca che porta il suo nome: il progetto artistico agli studenti del Carcano",
-      "url": "https://comozero.it/attualita/como-un-murale-per-paolo-borsellino-nella-biblioteca-che-porta-il-suo-nome-il-progetto-artistico-agli-studenti-del-carcano",
-      "summary": "L’opera sarà realizzata nell’androne della biblioteca comunale. La proposta grafica nascerà da un concorso rivolto agli studenti. Il Comune ha approvato il progetto Un murale dedicato a Paolo Borsellino nell’androne della biblioteca comunale di Como che porta il suo nome. A idearlo saranno gli studenti del Paolo Carcano, coinvolti in un concorso per elaborare la […] L'articolo Como, un murale per Paolo Borsellino nella biblioteca che porta il suo nome: il progetto artistico agli studenti del Carcano proviene da ComoZero .",
-      "published_at": "2026-11-25T12:09:38+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
