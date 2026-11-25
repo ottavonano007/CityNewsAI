@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:26:06.995770+00:00",
+  "generated_at": "2026-11-25T03:04:28.894784+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 16,
-      "inserted": 16,
+      "parsed": 15,
+      "inserted": 15,
       "ok": true
     },
     {
@@ -406,20 +406,6 @@
       "url": "https://comozero.it/pubbliredazionale/villa-cipressi-il-natale-incanta-varenna-luci-sapori-e-atmosfere-da-fiaba-sul-lago-di-como",
       "summary": "Fino al 10 gennaio 2027 torna il Christmas Garden: un percorso tra migliaia di luci, installazioni scenografiche e scorci sul lago. E per vivere appieno l’atmosfera delle feste, anche un Christmas Bar, uno shop natalizio e il ristorante Il Caminetto, con proposte dedicate a Natale e Capodanno. A Varenna il Natale si accende tra le […] L'articolo Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como proviene da ComoZero .",
       "published_at": "2026-11-24T12:44:13+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto",
-      "url": "https://comozero.it/ambiente/in-provincia-di-como-la-guerra-dei-tigli-il-comune-li-vuole-sradicare-lassociazione-fa-muro-compatto",
-      "summary": "L’associazione contesta la decisione del Comune di abbattere le alberature di via San Rocco, via Turati e via Licinio. Nel mirino anche le motivazioni legate alla sicurezza dei pedoni. La Soprintendenza ha espresso perplessità sulla legittimità dell’intervento La decisione del Comune di Erba di abbattere gli alberi di via San Rocco, via Turati e via […] L'articolo In provincia di Como la guerra dei tigli: il Comune li vuole sradicare, l’associazione fa muro compatto proviene da ComoZero .",
-      "published_at": "2026-11-24T11:40:30+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
