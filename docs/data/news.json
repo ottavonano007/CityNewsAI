@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-26T16:15:08.365982+00:00",
+  "generated_at": "2026-11-26T17:20:39.065126+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 10,
+      "inserted": 10,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e respinge la richiesta di stop al cantiere",
+      "url": "https://comozero.it/attualita/como-la-battaglia-dei-tavolini-vista-lago-il-tar-da-ragione-al-comune-e-respinge-la-richiesta-di-stop",
+      "summary": "La società Como Lake Food contestava la fine della concessione per 80,75 metri quadrati e il progetto che prevede di spostare i tavoli all’aperto dal centro della piazza. Per i giudici prevale l’interesse pubblico a realizzare i lavori: il ristorante può proseguire l’attività all’interno dei propri locali Il Tar della Lombardia non blocca il progetto […] L'articolo Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e respinge la richiesta di stop al cantiere proviene da ComoZero .",
+      "published_at": "2026-11-26T16:42:52+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Campionato nazionale CSEN, Karate Piacenza ai vertici",
+      "url": "https://www.piacenzasera.it/2026/11/campionato-nazionale-csen-karate-piacenza-ai-vertici/672310",
+      "summary": "The post Campionato nazionale CSEN, Karate Piacenza ai vertici appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T16:28:24+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Il Piacenza Baseball riconferma in panchina Andrea D’Auria",
+      "url": "https://www.piacenzasera.it/2026/11/il-piacenza-baseball-riconferma-in-panchina-andrea-dauria/672305",
+      "summary": "Il tecnico piacentino è stato confermato per il quarto anno consecutivo alla guida della squadra biancorossa The post Il Piacenza Baseball riconferma in panchina Andrea D’Auria appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T16:21:47+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Tra pezzi da collezione, creazioni Disney e a tema Harry Potter torna Piace Mattoncini",
       "url": "https://www.piacenzasera.it/2026/11/tra-pezzi-da-collezione-creazioni-disney-e-a-tema-harry-potter-torna-piace-mattoncini/672292",
@@ -60,20 +102,6 @@
       "url": "https://www.piacenzasera.it/2026/11/pac-confagricoltura-piacenza-a-bruxelles-gorra-no-ai-tagli/672270",
       "summary": "Il presidente Umberto Gorra e il direttore Raffaello Rossi hanno partecipato alla marcia simbolica di Copa e Cogeca The post Pac, Confagricoltura Piacenza a Bruxelles. Gorra “No ai tagli” appeared first on piacenzasera.it .",
       "published_at": "2026-11-26T14:54:57+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "MyMentor, al via nuova edizione con 100 ‘coppie’ di studenti e imprenditori",
-      "url": "https://www.piacenzasera.it/2026/11/mymentor-al-via-nuova-edizione-con-100-coppie-di-studenti-e-imprenditori/672262",
-      "summary": "In Università Cattolica del Sacro Cuore a Piacenza il Kick Off dell’edizione 2026/2027 del progetto che abbina laureandi a manager e imprenditori The post MyMentor, al via nuova edizione con 100 ‘coppie’ di studenti e imprenditori appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T14:40:17+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -214,20 +242,6 @@
       ]
     },
     {
-      "title": "Idroelettrico, oltre 376mila euro al Comasco per la messa in sicurezza del territorio",
-      "url": "https://www.ciaocomo.it/2026/11/26/idroelettrico-oltre-376mila-euro-al-comasco-per-la-messa-in-sicurezza-del-territorio/348860",
-      "summary": "Le risorse derivanti dai canoni delle concessioni idroelettriche del 2025 finanzieranno un intervento di regimazione delle acque nei Comuni di Vercana e Domaso, a tutela della viabilità lungo la SP3 The post Idroelettrico, oltre 376mila euro al Comasco per la messa in sicurezza del territorio appeared first on CiaoComo .",
-      "published_at": "2026-11-26T10:25:52+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna",
       "url": "https://comozero.it/attualita/como-comprare-casa-per-affittarla-in-quali-zone-conviene-e-quanto-si-guadagna",
       "summary": "Chi compra una casa per affittarla otterrebbe ogni anno il 6,71% di quanto l’ha pagata a Breccia, Rebbio e Prestino, fuori città; il 2,99% tra viale Innocenzo, via Grandi e Sant’Abbondio. Su 100.000 euro sono 6.710 euro lordi l’anno contro 2.990, prima di tasse e spese. La media della città è il 4,85%. Sono le […] L'articolo Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna proviene da ComoZero .",
@@ -289,34 +303,6 @@
         "MI",
         "SO",
         "VA"
-      ]
-    },
-    {
-      "title": "Le vasche che salvano due paesi dalle alluvioni: 376mila euro per il Lago di Como",
-      "url": "https://comozero.it/ambiente/le-vasche-che-salvano-due-paesi-dalle-alluvioni-376mila-euro-per-il-lago-di-como",
-      "summary": "[Copertina: Domaso, archivio] Le opere serviranno a raccogliere le acque superficiali del valletto che interferisce con la SP3, mettendo in sicurezza il territorio e un collegamento importante per residenti, attività economiche e turismo Due Comuni dell’Alto Lago, Vercana e Domaso, potranno contare su nuove opere per prevenire il rischio di dissesto idrogeologico. La Provincia di […] L'articolo Le vasche che salvano due paesi dalle alluvioni: 376mila euro per il Lago di Como proviene da ComoZero .",
-      "published_at": "2026-11-25T21:54:35+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Villa Monastero a Varenna: il Natale illumina la storia, tra scenografie, eventi e attività per famiglie sul Lago di Como",
-      "url": "https://comozero.it/pubbliredazionale/villa-monastero-a-varenna-il-natale-illumina-la-storia-tra-scenografie-eventi-e-attivita-per-famiglie-sul-lago-di-como",
-      "summary": "Villa Monastero di Varenna celebra per la prima volta il Natale con un percorso luminoso tra la Casa Museo e il Giardino botanico. Fino al 10 gennaio 2027, installazioni scenografiche e iniziative speciali offriranno ai visitatori un’occasione unica per scoprire la storica dimora in un’atmosfera di festa Fino al 10 gennaio 2027, uno dei luoghi […] L'articolo Villa Monastero a Varenna: il Natale illumina la storia, tra scenografie, eventi e attività per famiglie sul Lago di Como proviene da ComoZero .",
-      "published_at": "2026-11-25T21:01:04+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
