@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-26T13:29:59.135924+00:00",
+  "generated_at": "2026-11-26T15:12:37.987195+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 10,
-      "inserted": 10,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -27,6 +27,52 @@
     }
   ],
   "articles": [
+    {
+      "title": "MyMentor, al via nuova edizione con 100 ‘coppie’ di studenti e imprenditori",
+      "url": "https://www.piacenzasera.it/2026/11/mymentor-al-via-nuova-edizione-con-100-coppie-di-studenti-e-imprenditori/672262",
+      "summary": "In Università Cattolica del Sacro Cuore a Piacenza il Kick Off dell’edizione 2026/2027 del progetto che abbina laureandi a manager e imprenditori The post MyMentor, al via nuova edizione con 100 ‘coppie’ di studenti e imprenditori appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T14:40:17+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Hotel, ristoranti e campeggio: premiati i magnifici otto del turismo sul Lago di Como, ecco chi sono",
+      "url": "https://comozero.it/turismo/turismo-hotel-ristoranti-e-campeggio-premiati-i-magnifici-otto-del-lago-di-como-ecco-chi-sono",
+      "summary": "Dall’Hotel Belvedere di Bellagio (nella foto di copertina) all’Albergo Ristorante Vapore di Torno, passando per le strutture di Dongo, Menaggio, Lezzeno e Carlazzo. Sono otto le attività della provincia di Como entrate nell’elenco delle nuove strutture ricettive storiche e di qualità riconosciute da Regione Lombardia Il riconoscimento è riservato alle attività che possono vantare almeno […] L'articolo Hotel, ristoranti e campeggio: premiati i magnifici otto del turismo sul Lago di Como, ecco chi sono proviene da ComoZero .",
+      "published_at": "2026-11-26T13:25:18+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Elezioni a Como, Rapinese irride e insulta il centrodestra: “Marionette ammaestrate e zerbini di Roma e Milano”",
+      "url": "https://comozero.it/politica/elezioni-a-como-rapinese-irride-e-insulta-il-centrodestra-marionette-ammaestrate-e-zerbini-di-roma-e-milano",
+      "summary": "Dopo il turbolento consiglio comunale di lunedì scorso, il sindaco di Como Alessandro Rapinese torna all’attacco. Lo fa con toni pesantissimi – da ‘zerbini’ a ‘scappati di casa’ fino a marionette ben ammaestrate’ – in particolare verso il centrodestra che è ancora alla ricerca di un candidato sindaco da schierare per le elezioni comunali di […] L'articolo Elezioni a Como, Rapinese irride e insulta il centrodestra: “Marionette ammaestrate e zerbini di Roma e Milano” proviene da ComoZero .",
+      "published_at": "2026-11-26T13:05:58+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI",
+        "RM"
+      ]
+    },
     {
       "title": "Sant’Elia, passeggiata creativa nel cuore dell’arte",
       "url": "https://www.ciaocomo.it/2026/11/26/santelia-passeggiata-creativa-nel-cuore-dellarte/348768",
@@ -112,20 +158,6 @@
       ]
     },
     {
-      "title": "Fisioterapia domiciliare, logopedia, yoga: la Fondazione a fianco dell’Unione Parkinsoniani",
-      "url": "https://www.piacenzasera.it/2026/11/fisioterapia-domiciliare-logopedia-yoga-la-fondazione-a-fianco-dellunione-parkinsoniani/672232",
-      "summary": "La Fondazione di Piacenza e Vigevano sostiene il progetto dell'Unione Parkinsoniani, mirato a promuovere percorsi di accompagnamento, riabilitazione e socializzazione per i malati e i loro caregiver The post Fisioterapia domiciliare, logopedia, yoga: la Fondazione a fianco dell’Unione Parkinsoniani appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T11:18:44+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, allo Spazio Diaz arriva “Di quadro in quadro”: 4 giorni d’arte con gli artisti di Latelier",
       "url": "https://comozero.it/cultura-e-spettacolo/como-allo-spazio-diaz-arriva-di-quadro-in-quadro-quattro-giorni-darte-con-gli-artisti-di-latelier",
       "summary": "Dal 26 al 29 novembre una mostra che riunisce sensibilità e linguaggi artistici differenti. Inaugurazione venerdì 27 novembre alle 17.30, con la presentazione di Sergio Gaddi. Ogni quadro racchiude una storia, uno sguardo personale sulla realtà, un’emozione che prende forma sulla tela. Ed è proprio dall’incontro di queste diverse sensibilità che nasce “Di quadro in […] L'articolo Como, allo Spazio Diaz arriva “Di quadro in quadro”: 4 giorni d’arte con gli artisti di Latelier proviene da ComoZero .",
@@ -151,20 +183,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Cantiere Santa Chiara, 800 tonnellate rimosse “Ora inizia il restauro e il recupero”",
-      "url": "https://www.piacenzasera.it/2026/11/cantiere-santa-chiara-800-tonnellate-rimosse-ora-inizia-il-restauro-e-il-recupero/672217",
-      "summary": "Mercoledì 25 novembre il sopralluogo con il presidente della Fondazione di Piacenza e Vigevano Roberto Reggi e il Responsabile dei lavori Ingegner Paolo Milani The post Cantiere Santa Chiara, 800 tonnellate rimosse “Ora inizia il restauro e il recupero” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T10:49:22+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -224,26 +242,12 @@
       ]
     },
     {
-      "title": "Antonio Levoni entra in Forza Italia “Una decisione per il futuro di Piacenza”",
-      "url": "https://www.piacenzasera.it/2026/11/antonio-levoni-entra-in-forza-italia-una-decisione-per-il-futuro-di-piacenza/672200",
-      "summary": "\"Il ruolo di Maurizio Gasparri - viene spiegato - è stato fondamentale per l’adesione di Levoni agli azzurri\" The post Antonio Levoni entra in Forza Italia “Una decisione per il futuro di Piacenza” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T09:54:26+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Como, violenza sulle donne: dalla Polizia di Stato una giornata di ascolto e prevenzione",
-      "url": "https://www.ciaocomo.it/2026/11/26/como-violenza-sulle-donne-dalla-polizia-di-stato-una-giornata-di-ascolto-e-prevenzione/348850",
-      "summary": "In largo Miglio l'incontro con i cittadini e gli studenti del liceo Volta. Da Soroptimist Como un nuovo kit portatile per raccogliere le testimonianze delle vittime vulnerabili The post Como, violenza sulle donne: dalla Polizia di Stato una giornata di ascolto e prevenzione appeared first on CiaoComo .",
-      "published_at": "2026-11-26T09:26:01+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
+      "title": "Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna",
+      "url": "https://comozero.it/attualita/como-comprare-casa-per-affittarla-in-quali-zone-conviene-e-quanto-si-guadagna",
+      "summary": "Chi compra una casa per affittarla otterrebbe ogni anno il 6,71% di quanto l’ha pagata a Breccia, Rebbio e Prestino, fuori città; il 2,99% tra viale Innocenzo, via Grandi e Sant’Abbondio. Su 100.000 euro sono 6.710 euro lordi l’anno contro 2.990, prima di tasse e spese. La media della città è il 4,85%. Sono le […] L'articolo Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna proviene da ComoZero .",
+      "published_at": "2026-11-26T09:06:15+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
@@ -252,12 +256,12 @@
       ]
     },
     {
-      "title": "Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna",
-      "url": "https://comozero.it/attualita/como-comprare-casa-per-affittarla-in-quali-zone-conviene-e-quanto-si-guadagna",
-      "summary": "Chi compra una casa per affittarla otterrebbe ogni anno il 6,71% di quanto l’ha pagata a Breccia, Rebbio e Prestino, fuori città; il 2,99% tra viale Innocenzo, via Grandi e Sant’Abbondio. Su 100.000 euro sono 6.710 euro lordi l’anno contro 2.990, prima di tasse e spese. La media della città è il 4,85%. Sono le […] L'articolo Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna proviene da ComoZero .",
-      "published_at": "2026-11-26T09:06:15+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
+      "title": "Gli studenti dell’IPA della San Vincenzo sul podio alla Fiera Zootecnica di Codogno",
+      "url": "https://primacomo.it/attualita/gli-studenti-dellipa-della-san-vincenzo-sul-podio-alla-fiera-zootecnica-di-codogno",
+      "summary": "Tra le bovine della storica Fiera Zootecnica di Codogno, gli studenti dell’Istituto Agrario San Vincenzo di Albese hanno messo in campo competenza, entusiasmo e spirito di squadra. Mercoledì 18 novembre, accompagnato dai docenti di zootecnia, il gruppo ha partecipato alla competizione riservata agli istituti agrari e ha conquistato un posto sul podio. Una prova tecnica […] Continua la lettura di Gli studenti dell’IPA della San Vincenzo sul podio alla Fiera Zootecnica di Codogno sul portale Prima Como .",
+      "published_at": "2026-11-26T08:29:41+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
       "territory_ids": [
         "como"
       ],
@@ -320,20 +324,6 @@
       "url": "https://comozero.it/pubbliredazionale/villa-monastero-a-varenna-il-natale-illumina-la-storia-tra-scenografie-eventi-e-attivita-per-famiglie-sul-lago-di-como",
       "summary": "Villa Monastero di Varenna celebra per la prima volta il Natale con un percorso luminoso tra la Casa Museo e il Giardino botanico. Fino al 10 gennaio 2027, installazioni scenografiche e iniziative speciali offriranno ai visitatori un’occasione unica per scoprire la storica dimora in un’atmosfera di festa Fino al 10 gennaio 2027, uno dei luoghi […] L'articolo Villa Monastero a Varenna: il Natale illumina la storia, tra scenografie, eventi e attività per famiglie sul Lago di Como proviene da ComoZero .",
       "published_at": "2026-11-25T21:01:04+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La battaglia per il Faro Voltiano, Como vince al Tar. I giudici bocciano duramente le pretese di Brunate",
-      "url": "https://comozero.it/attualita/il-caso-del-faro-voltiano-como-vince-al-tar-i-giudici-bocciano-duramente-le-pretese-di-brunate",
-      "summary": "Per i giudici il Comune di Como non era obbligato a rinnovare l’accordo per affidare la gestione del monumento a Brunate. La convenzione scaduta nel 2020 aveva una durata di cinque anni e non prevedeva rinnovi automatici. Quattromila euro di spese legali a carico del Comune di Brunate Il Comune di Como non era tenuto […] L'articolo La battaglia per il Faro Voltiano, Como vince al Tar. I giudici bocciano duramente le pretese di Brunate proviene da ComoZero .",
-      "published_at": "2026-11-25T20:14:53+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -696,20 +686,6 @@
       "url": "https://primacomo.it/attualita/mercatini-luminarie-laboratori-spettacoli-saccende-di-eventi-il-finale-di-anno-della-val-seriana",
       "summary": "Mercatini di artigianato e prodotti locali, accensioni delle luminarie, laboratori per bambini, letture e spettacoli: “Territori in Luce: tra artigianato, tradizioni e devozioni popolari” si avvia alla conclusione con una serie di appuntamenti dedicati al Natale. Da Castione della Presolana a Fiorano al Serio, passando per Cazzano Sant’Andrea, Vertova e Casnigo, piazze, biblioteche e spazi […] Continua la lettura di Mercatini, luminarie, laboratori, spettacoli: s’accende di eventi il finale di anno della Val Seriana sul portale Prima Como .",
       "published_at": "2026-11-20T13:30:16+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Ops Media, proclamato lo stato di agitazione: «Il futuro dei giornali è a rischio»",
-      "url": "https://primacomo.it/attualita/ops-media-proclamato-lo-stato-di-agitazione-il-futuro-dei-giornali-e-a-rischio",
-      "summary": "Cari lettori, se in queste difficili settimane i nostri settimanali e i portali del circuito “Prima” hanno continuato a informarvi puntualmente, è stato esclusivamente grazie al senso di responsabilità e alla passione di chi lavora in queste redazioni da anni. È ciò che vorremmo continuare a fare, ogni giorno, per dare voce anche in futuro […] Continua la lettura di Ops Media, proclamato lo stato di agitazione: «Il futuro dei giornali è a rischio» sul portale Prima Como .",
-      "published_at": "2026-11-20T11:38:54+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
