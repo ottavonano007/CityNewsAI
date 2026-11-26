@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T21:04:41.454069+00:00",
+  "generated_at": "2026-11-26T22:03:00.081932+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 13,
+      "inserted": 13,
       "ok": true
     },
     {
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "Straordinario, oltre mille piante nei fondali dei laghi di Como e Lugano: si prova a riportare la vita sott’acqua (video)",
+      "url": "https://comozero.it/ambiente/straordinario-oltre-mille-piante-nei-fondali-dei-laghi-di-como-e-lugano-si-prova-a-riportare-la-vita-sottacqua-video",
+      "summary": "Il progetto transfrontaliero ECHO ha presentato alla Fondazione Minoprio i primi risultati. I campionamenti rivelano differenze significative tra i due bacini: nel lago di Lugano la presenza di carbonio nei sedimenti è molto più elevata rispetto alle aree studiate nel Lario Riportare la vegetazione sui fondali, favorire il ritorno della biodiversità e studiare quanto carbonio […] L'articolo Straordinario, oltre mille piante nei fondali dei laghi di Como e Lugano: si prova a riportare la vita sott’acqua (video) proviene da ComoZero .",
+      "published_at": "2026-11-26T20:35:59+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Da Rapinese toni rozzi e irricevibili ma il centrodestra che passeggia e tentenna gli ha lasciato praterie",
+      "url": "https://comozero.it/politica/da-rapinese-toni-rozzi-e-irricevibili-ma-il-centrodestra-che-passeggia-e-tentenna-gli-ha-lasciato-praterie",
+      "summary": "Due parole è forse giusto dirle dopo la pesantissima uscita di oggi del sindaco di Como Alessandro Rapinese. Senza ambiguità: i termini usati dal primo cittadino contro il centrodestra sono offensivi, volgari, scomposti e ancor più irricevibili perché affidati ai social a freddo, con calcolo e chirurgica scelta, senza nemmeno la scusa di uno scontro […] L'articolo Da Rapinese toni rozzi e irricevibili ma il centrodestra che passeggia e tentenna gli ha lasciato praterie proviene da ComoZero .",
+      "published_at": "2026-11-26T20:04:06+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Il Lago di Como è uno spettacolo d’inverno: ville, monasteri e dimore storiche si vestono a festa. Tutti gli appuntamenti",
       "url": "https://comozero.it/cultura-e-spettacolo/il-lago-di-como-e-uno-spettacolo-dinverno-ville-monasteri-e-dimore-storiche-si-vestono-a-festa-tutti-gli-appuntamenti",
@@ -170,20 +198,6 @@
       ]
     },
     {
-      "title": "Tra pezzi da collezione, creazioni Disney e a tema Harry Potter torna Piace Mattoncini",
-      "url": "https://www.piacenzasera.it/2026/11/tra-pezzi-da-collezione-creazioni-disney-e-a-tema-harry-potter-torna-piace-mattoncini/672292",
-      "summary": "Quasi 200 espositori alla due giorni in programma nel weekend a Piacenza Expo The post Tra pezzi da collezione, creazioni Disney e a tema Harry Potter torna Piace Mattoncini appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T15:53:29+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Hotel, ristoranti e campeggio: premiati i magnifici otto del turismo sul Lago di Como, ecco chi sono",
       "url": "https://comozero.it/turismo/turismo-hotel-ristoranti-e-campeggio-premiati-i-magnifici-otto-del-lago-di-como-ecco-chi-sono",
       "summary": "Dall’Hotel Belvedere di Bellagio (nella foto di copertina) all’Albergo Ristorante Vapore di Torno, passando per le strutture di Dongo, Menaggio, Lezzeno e Carlazzo. Sono otto le attività della provincia di Como entrate nell’elenco delle nuove strutture ricettive storiche e di qualità riconosciute da Regione Lombardia Il riconoscimento è riservato alle attività che possono vantare almeno […] L'articolo Hotel, ristoranti e campeggio: premiati i magnifici otto del turismo sul Lago di Como, ecco chi sono proviene da ComoZero .",
@@ -290,20 +304,6 @@
       "url": "https://comozero.it/attualita/la-magia-del-natale-accende-villa-deste-le-luci-la-cerimonia-e-tutto-lo-splendore-nelle-foto",
       "summary": "Per il quinto anno consecutivo, Villa d’Este ha inaugurato la stagione natalizia con la cerimonia di accensione delle luci, riunendo autorità, stampa e ospiti nella storica dimora di Cernobbio affacciata sul Lago di Como. L’appuntamento segna l’avvio ufficiale del calendario invernale in uno dei simboli dell’hotellerie italiana. Ad accogliere i partecipanti, gli allestimenti natalizi disposti […] L'articolo La magia del Natale accende Villa d’Este: le luci, la cerimonia e tutto lo splendore nelle foto proviene da ComoZero .",
       "published_at": "2026-11-26T10:42:56+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna",
-      "url": "https://comozero.it/attualita/como-comprare-casa-per-affittarla-in-quali-zone-conviene-e-quanto-si-guadagna",
-      "summary": "Chi compra una casa per affittarla otterrebbe ogni anno il 6,71% di quanto l’ha pagata a Breccia, Rebbio e Prestino, fuori città; il 2,99% tra viale Innocenzo, via Grandi e Sant’Abbondio. Su 100.000 euro sono 6.710 euro lordi l’anno contro 2.990, prima di tasse e spese. La media della città è il 4,85%. Sono le […] L'articolo Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna proviene da ComoZero .",
-      "published_at": "2026-11-26T09:06:15+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
