@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T11:05:13.276254+00:00",
+  "generated_at": "2026-11-26T12:10:13.678951+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 2,
-      "inserted": 2,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Il piacentino Daniel Negri nominato presidente di Confcooperative Consumo e Utenza ER",
+      "url": "https://www.piacenzasera.it/2026/11/il-daniel-negri-nominato-presidente-di-confcooperative-consumo-e-utenza-er/672235",
+      "summary": "Già presidente di Confcooperative Piacenza e vicepresidente di Power Energia, Negri succede a Roberto Savini alla guida della Federazione regionale che riunisce 39 cooperative, oltre 63 mila soci e 1.330 addetti The post Il piacentino Daniel Negri nominato presidente di Confcooperative Consumo e Utenza ER appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T11:41:04+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Fisioterapia domiciliare, logopedia, yoga: la Fondazione a fianco dell’Unione Parkinsoniani",
+      "url": "https://www.piacenzasera.it/2026/11/fisioterapia-domiciliare-logopedia-yoga-la-fondazione-a-fianco-dellunione-parkinsoniani/672232",
+      "summary": "La Fondazione di Piacenza e Vigevano sostiene il progetto dell'Unione Parkinsoniani, mirato a promuovere percorsi di accompagnamento, riabilitazione e socializzazione per i malati e i loro caregiver The post Fisioterapia domiciliare, logopedia, yoga: la Fondazione a fianco dell’Unione Parkinsoniani appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T11:18:44+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Lotta allo spreco alimentare, gli studenti del Casnati e della Fondazione Minoprio incontrano i cittadini",
+      "url": "https://www.ciaocomo.it/2026/11/26/lotta-allo-spreco-alimentare-gli-studenti-del-casnati-e-della-fondazione-minoprio-incontrano-i-cittadini/348862",
+      "summary": "Dopo i laboratori rivolti alle scuole primarie e secondarie di primo grado, venerdì 27 novembre appuntamento all’Iper di Grandate e domenica 29 all’open day dell’istituto comasco The post Lotta allo spreco alimentare, gli studenti del Casnati e della Fondazione Minoprio incontrano i cittadini appeared first on CiaoComo .",
+      "published_at": "2026-11-26T11:00:39+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Cantiere Santa Chiara, 800 tonnellate rimosse “Ora inizia il restauro e il recupero”",
+      "url": "https://www.piacenzasera.it/2026/11/cantiere-santa-chiara-800-tonnellate-rimosse-ora-inizia-il-restauro-e-il-recupero/672217",
+      "summary": "Mercoledì 25 novembre il sopralluogo con il presidente della Fondazione di Piacenza e Vigevano Roberto Reggi e il Responsabile dei lavori Ingegner Paolo Milani The post Cantiere Santa Chiara, 800 tonnellate rimosse “Ora inizia il restauro e il recupero” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T10:49:22+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "La magia del Natale accende Villa d’Este: le luci, la cerimonia e tutto lo splendore nelle foto",
       "url": "https://comozero.it/attualita/la-magia-del-natale-accende-villa-deste-le-luci-la-cerimonia-e-tutto-lo-splendore-nelle-foto",
@@ -188,20 +244,6 @@
       "url": "https://www.ciaocomo.it/2026/11/26/commercio-regione-lombardia-finanzia-sette-distretti-del-comasco-con-quasi-3-milioni-di-euro/348840",
       "summary": "Gli interventi riguarderanno la riqualificazione delle aree commerciali, la promozione del territorio e la sicurezza degli spazi urbani. Previsti anche bandi comunali a sostegno delle imprese The post Commercio, Regione Lombardia finanzia sette distretti del comasco con quasi 3 milioni di euro appeared first on CiaoComo .",
       "published_at": "2026-11-26T08:00:51+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "BookCity Como, dalla scienza alla geopolitica: una giornata con Amalia Ercoli Finzi, Simone Pieranni e l’omaggio a Dario Fo",
-      "url": "https://www.ciaocomo.it/2026/11/26/bookcity-como-dalla-scienza-alla-geopolitica-una-giornata-con-amalia-ercoli-finzi-simone-pieranni-e-lomaggio-a-dario-fo/348596",
-      "summary": "Cinque appuntamenti fra fotografia, lingua italiana, conoscenza scientifica e teatro civile, con un confronto sui rapporti tra Cina e Stati Uniti a Villa del Grumello The post BookCity Como, dalla scienza alla geopolitica: una giornata con Amalia Ercoli Finzi, Simone Pieranni e l’omaggio a Dario Fo appeared first on CiaoComo .",
-      "published_at": "2026-11-26T07:00:17+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
