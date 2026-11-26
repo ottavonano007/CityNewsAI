@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-26T09:18:05.327302+00:00",
+  "generated_at": "2026-11-26T11:05:13.276254+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 1,
-      "inserted": 1,
+      "parsed": 2,
+      "inserted": 2,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 8,
+      "inserted": 8,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 9,
+      "inserted": 9,
       "ok": true
     },
     {
@@ -27,6 +27,104 @@
     }
   ],
   "articles": [
+    {
+      "title": "La magia del Natale accende Villa d’Este: le luci, la cerimonia e tutto lo splendore nelle foto",
+      "url": "https://comozero.it/attualita/la-magia-del-natale-accende-villa-deste-le-luci-la-cerimonia-e-tutto-lo-splendore-nelle-foto",
+      "summary": "Per il quinto anno consecutivo, Villa d’Este ha inaugurato la stagione natalizia con la cerimonia di accensione delle luci, riunendo autorità, stampa e ospiti nella storica dimora di Cernobbio affacciata sul Lago di Como. L’appuntamento segna l’avvio ufficiale del calendario invernale in uno dei simboli dell’hotellerie italiana. Ad accogliere i partecipanti, gli allestimenti natalizi disposti […] L'articolo La magia del Natale accende Villa d’Este: le luci, la cerimonia e tutto lo splendore nelle foto proviene da ComoZero .",
+      "published_at": "2026-11-26T10:42:56+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Idroelettrico, oltre 376mila euro al Comasco per la messa in sicurezza del territorio",
+      "url": "https://www.ciaocomo.it/2026/11/26/idroelettrico-oltre-376mila-euro-al-comasco-per-la-messa-in-sicurezza-del-territorio/348860",
+      "summary": "Le risorse derivanti dai canoni delle concessioni idroelettriche del 2025 finanzieranno un intervento di regimazione delle acque nei Comuni di Vercana e Domaso, a tutela della viabilità lungo la SP3 The post Idroelettrico, oltre 376mila euro al Comasco per la messa in sicurezza del territorio appeared first on CiaoComo .",
+      "published_at": "2026-11-26T10:25:52+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Tassa di soggiorno a Como, Confindustria chiede un confronto con l’amministrazione comunale",
+      "url": "https://www.ciaocomo.it/2026/11/26/tassa-di-soggiorno-a-como-confindustria-chiede-un-confronto-con-lamministrazione-comunale/348853",
+      "summary": "Nel 2025 l’imposta ha generato un gettito di circa 4,8 milioni di euro nel solo capoluogo. Le imprese chiedono di condividere le priorità di investimento delle risorse The post Tassa di soggiorno a Como, Confindustria chiede un confronto con l’amministrazione comunale appeared first on CiaoComo .",
+      "published_at": "2026-11-26T10:12:01+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Como nella Città dei Pinocchi”, tre giorni di eventi per celebrare i 200 anni dalla nascita di Carlo Collodi",
+      "url": "https://www.ciaocomo.it/2026/11/26/como-nella-citta-dei-pinocchi-tre-giorni-di-eventi-per-celebrare-i-200-anni-dalla-nascita-di-carlo-collodi/348673",
+      "summary": "Dal 28 al 30 novembre, Como e Cernobbio rendono omaggio al burattino più famoso della letteratura mondiale con una rassegna diffusa dedicata a grandi e piccoli The post “Como nella Città dei Pinocchi”, tre giorni di eventi per celebrare i 200 anni dalla nascita di Carlo Collodi appeared first on CiaoComo .",
+      "published_at": "2026-11-26T10:00:59+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Antonio Levoni entra in Forza Italia “Una decisione per il futuro di Piacenza”",
+      "url": "https://www.piacenzasera.it/2026/11/antonio-levoni-entra-in-forza-italia-una-decisione-per-il-futuro-di-piacenza/672200",
+      "summary": "\"Il ruolo di Maurizio Gasparri - viene spiegato - è stato fondamentale per l’adesione di Levoni agli azzurri\" The post Antonio Levoni entra in Forza Italia “Una decisione per il futuro di Piacenza” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T09:54:26+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, violenza sulle donne: dalla Polizia di Stato una giornata di ascolto e prevenzione",
+      "url": "https://www.ciaocomo.it/2026/11/26/como-violenza-sulle-donne-dalla-polizia-di-stato-una-giornata-di-ascolto-e-prevenzione/348850",
+      "summary": "In largo Miglio l'incontro con i cittadini e gli studenti del liceo Volta. Da Soroptimist Como un nuovo kit portatile per raccogliere le testimonianze delle vittime vulnerabili The post Como, violenza sulle donne: dalla Polizia di Stato una giornata di ascolto e prevenzione appeared first on CiaoComo .",
+      "published_at": "2026-11-26T09:26:01+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Willy e Mila salvati da Oipa dopo le sofferenze cercano una famiglia",
+      "url": "https://www.piacenzasera.it/2026/11/willy-e-mila-salvati-da-oipa-dopo-le-sofferenze-cercano-una-famiglia/672196",
+      "summary": "Due cani di razza Bodeguero Español, un maschio e una femmina rispettivamente di 9 e 10 anni, sono stati sequestrati in Val Nure dalle Guardie Zoofile dell’Oipa di Piacenza The post Willy e Mila salvati da Oipa dopo le sofferenze cercano una famiglia appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T09:25:03+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna",
       "url": "https://comozero.it/attualita/como-comprare-casa-per-affittarla-in-quali-zone-conviene-e-quanto-si-guadagna",
@@ -45,21 +143,7 @@
       "title": "Como, la Pinacoteca civica si arricchisce di tre opere dell’astrattista Carla Badiali",
       "url": "https://www.ciaocomo.it/2026/11/26/como-la-pinacoteca-civica-si-arricchisce-di-tre-opere-dellastrattista-carla-badiali/348842",
       "summary": "L’amministrazione comunale ha acquistato dall’erede dell’artista due dipinti del 1939 e del 1950. A questi si aggiungerà un collage donato alle collezioni civiche The post Como, la Pinacoteca civica si arricchisce di tre opere dell’astrattista Carla Badiali appeared first on CiaoComo .",
-      "published_at": "2026-11-26T09:00:52+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Como nella Città dei Pinocchi”, tre giorni di eventi per celebrare i 200 anni dalla nascita di Carlo Collodi",
-      "url": "https://www.ciaocomo.it/2026/11/26/como-nella-citta-dei-pinocchi-tre-giorni-di-eventi-per-celebrare-i-200-anni-dalla-nascita-di-carlo-collodi/348673",
-      "summary": "Dal 28 al 30 novembre, Como e Cernobbio rendono omaggio al burattino più famoso della letteratura mondiale con una rassegna diffusa dedicata a grandi e piccoli The post “Como nella Città dei Pinocchi”, tre giorni di eventi per celebrare i 200 anni dalla nascita di Carlo Collodi appeared first on CiaoComo .",
-      "published_at": "2026-11-26T08:30:59+00:00",
+      "published_at": "2026-11-26T08:30:52+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
@@ -210,76 +294,6 @@
       "published_at": "2026-11-25T19:03:13+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como",
-      "url": "https://comozero.it/attualita/e-lhotel-migliore-deuropa-e-ora-sulla-terrazza-della-piscina-si-pattina-con-vista-mozzafiato-sul-lago-di-como",
-      "summary": "Per la stagione invernale, Passalacqua – miglior hotel d’Europa secondo The 50 (già The World’s 50 Best Hotels) – prolunga l’apertura fino al 3 gennaio 2027, introducendo una novità assoluta: la prima pista di pattinaggio galleggiante dell’hotel. La struttura è accessibile sia a chi soggiorna nella villa di Moltrasio sia agli ospiti esterni che desiderano […] L'articolo E’ l’hotel migliore d’Europa e ora sulla terrazza della piscina si pattina con vista mozzafiato sul Lago di Como proviene da ComoZero .",
-      "published_at": "2026-11-25T18:14:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria",
-      "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
-      "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
-      "published_at": "2026-11-25T18:09:05+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp",
-      "url": "https://comozero.it/pubbliredazionale/centro-di-formazione-professionale-della-provincia-di-como-formare-i-cuochi-di-domani-tra-tecnica-creativita-e-innovazione",
-      "summary": "Dietro ogni piatto c’è molto più di una ricetta: ci sono competenze, organizzazione, creatività e capacità di innovare. Quella del cuoco è una professione che, nel tempo, si è evoluta profondamente, diventando un mestiere complesso e dinamico, nel quale la passione per la cucina deve necessariamente incontrare preparazione tecnica, conoscenza delle materie prime e spirito […] L'articolo Como, i cuochi di domani tra tecnica, creatività e innovazione. Solo con il Cfp proviene da ComoZero .",
-      "published_at": "2026-11-25T18:07:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Piacenza Calcio al fianco delle donne: un gesto per dire no alla violenza",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-calcio-al-fianco-delle-donne-un-gesto-per-dire-no-alla-violenza/672167",
-      "summary": "Deposto un mazzo di rose sulla panchina rossa installata all’esterno dello stadio Leonardo Garilli The post Piacenza Calcio al fianco delle donne: un gesto per dire no alla violenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-25T18:05:29+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Monday Gospel in concerto a Como, oltre 50 voci per la mensa di Casa Nazareth",
-      "url": "https://www.ciaocomo.it/2026/11/25/monday-gospel-in-concerto-a-como-oltre-50-voci-per-la-mensa-di-casa-nazareth/348756",
-      "summary": "Sabato 28 novembre nella chiesa di San Giuseppe prende il via la campagna natalizia a sostegno del servizio che, nei primi dieci mesi del 2026, ha distribuito oltre 72mila pasti The post Monday Gospel in concerto a Como, oltre 50 voci per la mensa di Casa Nazareth appeared first on CiaoComo .",
-      "published_at": "2026-11-25T16:30:56+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
