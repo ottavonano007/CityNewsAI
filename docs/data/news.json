@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:08:22.909635+00:00",
+  "generated_at": "2026-11-26T20:14:05.674025+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Il Lago di Como è uno spettacolo d’inverno: ville, monasteri e dimore storiche si vestono a festa. Tutti gli appuntamenti",
+      "url": "https://comozero.it/cultura-e-spettacolo/il-lago-di-como-e-uno-spettacolo-dinverno-ville-monasteri-e-dimore-storiche-si-vestono-a-festa-tutti-gli-appuntamenti",
+      "summary": "Presepi, visite guidate, degustazioni, laboratori creativi e attività per famiglie: fino al 6 gennaio 2027 un calendario di iniziative coinvolge sette luoghi del FAI in Lombardia. In provincia di Como appuntamenti a Villa del Balbianello e Villa Fogazzaro Roi Il Natale entra nei luoghi storici del FAI in Lombardia, con un calendario di iniziative che […] L'articolo Il Lago di Como è uno spettacolo d’inverno: ville, monasteri e dimore storiche si vestono a festa. Tutti gli appuntamenti proviene da ComoZero .",
+      "published_at": "2026-11-26T19:40:09+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Como, dura denuncia: “La Coop da due anni in ritardo con gli stipendi, i lavoratori hanno affitti e bollette da pagare”",
       "url": "https://comozero.it/attualita/como-dura-denuncia-la-coop-con-due-anni-di-stipendi-in-ritardo-i-lavoratori-hanno-affitti-e-bollette-da-pagare",
@@ -311,22 +325,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "L’albero di Natale cambia nome in ‘albero del dono’, ira di Casartelli (Confesercenti Como): “Stiamo degenerando”",
-      "url": "https://comozero.it/attualita/lalbero-di-natale-cambia-nome-in-albero-del-dono-ira-di-casartelli-confesercenti-como-stiamo-degenerando",
-      "summary": "Divampa la polemica a Milano per l’albero di Natale in piazza Duomo che però, nel post di presentazione ufficiale del Comune di Milano guidato da Beppe Sala, è stato ribattezzato – con tanto di grafica – “albero del dono”. “In piazza del Duomo è arrivato l’Albero del Dono – recita il testo dell’amministrazione – L’abete […] L'articolo L’albero di Natale cambia nome in ‘albero del dono’, ira di Casartelli (Confesercenti Como): “Stiamo degenerando” proviene da ComoZero .",
-      "published_at": "2026-11-26T08:20:53+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     },
     {
