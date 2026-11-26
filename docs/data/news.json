@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-26T17:20:39.065126+00:00",
+  "generated_at": "2026-11-26T19:08:22.909635+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 5,
-      "inserted": 5,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 10,
-      "inserted": 10,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -28,9 +28,95 @@
   ],
   "articles": [
     {
-      "title": "Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e respinge la richiesta di stop al cantiere",
+      "title": "Como, dura denuncia: “La Coop da due anni in ritardo con gli stipendi, i lavoratori hanno affitti e bollette da pagare”",
+      "url": "https://comozero.it/attualita/como-dura-denuncia-la-coop-con-due-anni-di-stipendi-in-ritardo-i-lavoratori-hanno-affitti-e-bollette-da-pagare",
+      "summary": "[Copertina: Cgil archivio] Oltre due anni di retribuzioni corrisposte in ritardo o mancanti, incertezza sui versamenti previdenziali e interrogativi sul futuro degli appalti pubblici. È la denuncia lanciata dalla segreteria della Fp Cgil di Como in merito alla situazione delle lavoratrici e dei lavoratori di Oasi Cooperativa Sociale di Guanzate. Secondo l’organizzazione sindacale, quella che […] L'articolo Como, dura denuncia: “La Coop da due anni in ritardo con gli stipendi, i lavoratori hanno affitti e bollette da pagare” proviene da ComoZero .",
+      "published_at": "2026-11-26T17:56:06+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Musei del tessile, Como e Biella unite: Brenna sostiene con grande entusiasmo la proposta di Butti e Pella",
+      "url": "https://comozero.it/attualita/musei-del-tessile-como-e-biella-unite-brenna-sostiene-con-grande-entusiasmo-la-proposta-butti-e-pella",
+      "summary": "Confindustria Como accoglie con favore la proposta del sottosegretario Alessio Butti e dell’onorevole Roberto Pella per sostenere il Sistema Museale Nazionale del Tessile Italiano d’Eccellenza, con i poli museali di Como e Biella. L’iniziativa punta a valorizzare due realtà che hanno un elemento in comune: entrambe le città sono riconosciute come Città Creative Unesco. La […] L'articolo Musei del tessile, Como e Biella unite: Brenna sostiene con grande entusiasmo la proposta di Butti e Pella proviene da ComoZero .",
+      "published_at": "2026-11-26T17:30:01+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "bi",
+        "como"
+      ],
+      "territory_codes": [
+        "BI",
+        "CO"
+      ]
+    },
+    {
+      "title": "Un luogo, una storia, un grande architetto: Como ricorda Mario Di Salvo. Appuntamento alla scuola di Salita Cappuccini",
+      "url": "https://comozero.it/attualita/un-luogo-una-storia-un-grande-architetto-como-ricorda-mario-di-salvo-appuntamento-alla-scuola-di-salita-cappuccini",
+      "summary": "[In copertina: Mario di Salvo, foto di Attilio Terragni] Sabato 28 novembre i genitori della scuola e la famiglia dell’architetto scomparso a settembre invitano a un appuntamento aperto alla città. In programma una visita guidata, gli interventi di tre professionisti e un aperitivo finale Un pomeriggio per ricordare Mario Di Salvo, architetto e urbanista comasco […] L'articolo Un luogo, una storia, un grande architetto: Como ricorda Mario Di Salvo. Appuntamento alla scuola di Salita Cappuccini proviene da ComoZero .",
+      "published_at": "2026-11-26T17:20:45+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "“Due destini”, a Como il teatro racconta la nascita e il valore della cura",
+      "url": "https://www.ciaocomo.it/2026/11/26/due-destini-a-como-il-teatro-racconta-la-nascita-e-il-valore-della-cura/348885",
+      "summary": "Il Dipartimento Materno Infantile dell’Ospedale Valduce propone un nuovo appuntamento aperto alla cittadinanza, seguito da una tavola rotonda con professionisti del mondo sanitario e sociale The post “Due destini”, a Como il teatro racconta la nascita e il valore della cura appeared first on CiaoComo .",
+      "published_at": "2026-11-26T17:15:57+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "L’anteprima di CiaoComo: ecco le prove di accensione dell’albero in piazza Duomo, sabato anche le proiezioni",
+      "url": "https://www.ciaocomo.it/2026/11/26/lanteprima-di-ciaocomo-ecco-le-prove-di-accensione-dellalbero-in-piazza-duomo-sabato-anche-le-proiezioni/348905",
+      "summary": "Una grande bellezza, un colpo d'occhio notevole. Iniziativa d'intesa tra Comune e Consorzio Como Turistica: sabato si parte con un programma molto ricco. The post L’anteprima di CiaoComo: ecco le prove di accensione dell’albero in piazza Duomo, sabato anche le proiezioni appeared first on CiaoComo .",
+      "published_at": "2026-11-26T17:07:57+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Murelli “Investire nella cultura della donazione significa salvare vite”",
+      "url": "https://www.piacenzasera.it/2026/11/murelli-investire-nella-cultura-della-donazione-significa-salvare-vite/672324",
+      "summary": "La senatrice piacentina della Lega \"Serve fare informazione già al momento della prenotazione della carta d’identità\" The post Murelli “Investire nella cultura della donazione significa salvare vite” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T16:58:45+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e il cantiere non si ferma",
       "url": "https://comozero.it/attualita/como-la-battaglia-dei-tavolini-vista-lago-il-tar-da-ragione-al-comune-e-respinge-la-richiesta-di-stop",
-      "summary": "La società Como Lake Food contestava la fine della concessione per 80,75 metri quadrati e il progetto che prevede di spostare i tavoli all’aperto dal centro della piazza. Per i giudici prevale l’interesse pubblico a realizzare i lavori: il ristorante può proseguire l’attività all’interno dei propri locali Il Tar della Lombardia non blocca il progetto […] L'articolo Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e respinge la richiesta di stop al cantiere proviene da ComoZero .",
+      "summary": "La società Como Lake Food contestava la fine della concessione per 80,75 metri quadrati e il progetto che prevede di spostare i tavoli all’aperto dal centro della piazza. Per i giudici prevale l’interesse pubblico a realizzare i lavori: il ristorante può proseguire l’attività all’interno dei propri locali Il Tar della Lombardia non blocca il progetto […] L'articolo Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e il cantiere non si ferma proviene da ComoZero .",
       "published_at": "2026-11-26T16:42:52+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -74,34 +160,6 @@
       "url": "https://www.piacenzasera.it/2026/11/tra-pezzi-da-collezione-creazioni-disney-e-a-tema-harry-potter-torna-piace-mattoncini/672292",
       "summary": "Quasi 200 espositori alla due giorni in programma nel weekend a Piacenza Expo The post Tra pezzi da collezione, creazioni Disney e a tema Harry Potter torna Piace Mattoncini appeared first on piacenzasera.it .",
       "published_at": "2026-11-26T15:53:29+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Con il Centro per le Famiglie Piacenza scopre “Tanti modi di dire auguri”",
-      "url": "https://www.piacenzasera.it/2026/11/con-il-centro-per-le-famiglie-pappa-e-pero-piacenza-scopre-tanti-modi-di-dire-auguri/672279",
-      "summary": "L'iniziativa durante le festività natalizie The post Con il Centro per le Famiglie Piacenza scopre “Tanti modi di dire auguri” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T15:47:13+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Pac, Confagricoltura Piacenza a Bruxelles. Gorra “No ai tagli”",
-      "url": "https://www.piacenzasera.it/2026/11/pac-confagricoltura-piacenza-a-bruxelles-gorra-no-ai-tagli/672270",
-      "summary": "Il presidente Umberto Gorra e il direttore Raffaello Rossi hanno partecipato alla marcia simbolica di Copa e Cogeca The post Pac, Confagricoltura Piacenza a Bruxelles. Gorra “No ai tagli” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T14:54:57+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
       "territory_ids": [
@@ -214,20 +272,6 @@
       ]
     },
     {
-      "title": "Lotta allo spreco alimentare, gli studenti del Casnati e della Fondazione Minoprio incontrano i cittadini",
-      "url": "https://www.ciaocomo.it/2026/11/26/lotta-allo-spreco-alimentare-gli-studenti-del-casnati-e-della-fondazione-minoprio-incontrano-i-cittadini/348862",
-      "summary": "Dopo i laboratori rivolti alle scuole primarie e secondarie di primo grado, venerdì 27 novembre appuntamento all’Iper di Grandate e domenica 29 all’open day dell’istituto comasco The post Lotta allo spreco alimentare, gli studenti del Casnati e della Fondazione Minoprio incontrano i cittadini appeared first on CiaoComo .",
-      "published_at": "2026-11-26T11:00:39+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "La magia del Natale accende Villa d’Este: le luci, la cerimonia e tutto lo splendore nelle foto",
       "url": "https://comozero.it/attualita/la-magia-del-natale-accende-villa-deste-le-luci-la-cerimonia-e-tutto-lo-splendore-nelle-foto",
       "summary": "Per il quinto anno consecutivo, Villa d’Este ha inaugurato la stagione natalizia con la cerimonia di accensione delle luci, riunendo autorità, stampa e ospiti nella storica dimora di Cernobbio affacciata sul Lago di Como. L’appuntamento segna l’avvio ufficiale del calendario invernale in uno dei simboli dell’hotellerie italiana. Ad accogliere i partecipanti, gli allestimenti natalizi disposti […] L'articolo La magia del Natale accende Villa d’Este: le luci, la cerimonia e tutto lo splendore nelle foto proviene da ComoZero .",
@@ -283,26 +327,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
-      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
-      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
-      "published_at": "2026-11-25T23:05:10+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi",
-        "so",
-        "va"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI",
-        "SO",
-        "VA"
       ]
     },
     {
