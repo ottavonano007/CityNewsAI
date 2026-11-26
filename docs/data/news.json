@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:10:13.678951+00:00",
+  "generated_at": "2026-11-26T13:29:59.135924+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,14 +9,14 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 8,
-      "inserted": 8,
+      "parsed": 7,
+      "inserted": 7,
       "ok": true
     },
     {
       "source": "ComoZero",
-      "parsed": 9,
-      "inserted": 9,
+      "parsed": 10,
+      "inserted": 10,
       "ok": true
     },
     {
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Sant’Elia, passeggiata creativa nel cuore dell’arte",
+      "url": "https://www.ciaocomo.it/2026/11/26/santelia-passeggiata-creativa-nel-cuore-dellarte/348768",
+      "summary": "Sabato 28 novembre, Sentiero dei Sogni organizza la passeggiata \"Da Sant'Elia a Radice: gli anni Trenta a Como\" The post Sant’Elia, passeggiata creativa nel cuore dell’arte appeared first on CiaoComo .",
+      "published_at": "2026-11-26T13:00:58+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Turismo, otto strutture ricettive storiche del Comasco premiate da Regione Lombardia",
+      "url": "https://www.ciaocomo.it/2026/11/26/turismo-otto-strutture-ricettive-storiche-del-comasco-premiate-da-regione-lombardia/348877",
+      "summary": "Il riconoscimento è riservato alle realtà che vantano almeno cinquant’anni di continuità della gestione o dell’insegna. La cerimonia a Palazzo Lombardia con l’assessore Debora Massari The post Turismo, otto strutture ricettive storiche del Comasco premiate da Regione Lombardia appeared first on CiaoComo .",
+      "published_at": "2026-11-26T12:58:26+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Alberi caduti e pericolanti a Piacenza e a Castello, diversi interventi dei vigili del fuoco",
+      "url": "https://www.piacenzasera.it/2026/11/alberi-caduti-e-pericolanti-a-piacenza-e-a-castello-diversi-interventi-dei-vigili-del-fuoco/672247",
+      "summary": "Il forte vento e la pioggia hanno creato situazioni di pericolo e in alcuni casi le piante sono crollate su spazi pubblici The post Alberi caduti e pericolanti a Piacenza e a Castello, diversi interventi dei vigili del fuoco appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T12:51:46+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, ex piscina olimpionica scandalo assoluto, ormai è un immondezzaio: “C’è spazio solo per la vergogna” (Video)",
+      "url": "https://comozero.it/attualita/como-ex-piscina-olimpionica-scandalo-assoluto-ormai-e-un-immondezzaio-ce-spazio-solo-per-la-vergogna-video",
+      "summary": "Il video (lo trovate in fondo) fa veramente impressione, testimonia degrado, abbandono e indifferenza assoluta. Per quanto chiusa, per quanto il suo destino sia decisamente incerto (ricordiamo il fiasco totale del progetto Quartiere dello Sport), la storica piscina olimpionica di Muggiò meriterebbe decisamente più rispetto e cura, per quello che è stata, per quello che […] L'articolo Como, ex piscina olimpionica scandalo assoluto, ormai è un immondezzaio: “C’è spazio solo per la vergogna” (Video) proviene da ComoZero .",
+      "published_at": "2026-11-26T11:52:05+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Il piacentino Daniel Negri nominato presidente di Confcooperative Consumo e Utenza ER",
       "url": "https://www.piacenzasera.it/2026/11/il-daniel-negri-nominato-presidente-di-confcooperative-consumo-e-utenza-er/672235",
@@ -42,6 +98,20 @@
       ]
     },
     {
+      "title": "Turismo, il Comune di Como dice addio al tavolo con gli operatori e si muove addirittura Confindustria: “Bisogna rafforzare e non ridurre il dialogo”",
+      "url": "https://comozero.it/attualita/turismo-il-comune-di-como-dice-addio-al-tavolo-con-gli-operatori-e-si-muove-addirittura-confindustria-bisogna-rafforzare-e-non-ridurre-il-dialogo",
+      "summary": "Della rivoluzione in arrivo raccontavamo il 18 novembre scorso: Più giorni da pagare, stangata multe e addio tavolo con gli operatori: tassa di soggiorno a Como, rivoluzione. Sono grosse le novità volute dall’amministrazione e contenute nella bozza della nuova versione del regolamento comunale – destinata prima alla Commissione e poi al consiglio comunale – introduce […] L'articolo Turismo, il Comune di Como dice addio al tavolo con gli operatori e si muove addirittura Confindustria: “Bisogna rafforzare e non ridurre il dialogo” proviene da ComoZero .",
+      "published_at": "2026-11-26T11:30:22+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Fisioterapia domiciliare, logopedia, yoga: la Fondazione a fianco dell’Unione Parkinsoniani",
       "url": "https://www.piacenzasera.it/2026/11/fisioterapia-domiciliare-logopedia-yoga-la-fondazione-a-fianco-dellunione-parkinsoniani/672232",
       "summary": "La Fondazione di Piacenza e Vigevano sostiene il progetto dell'Unione Parkinsoniani, mirato a promuovere percorsi di accompagnamento, riabilitazione e socializzazione per i malati e i loro caregiver The post Fisioterapia domiciliare, logopedia, yoga: la Fondazione a fianco dell’Unione Parkinsoniani appeared first on piacenzasera.it .",
@@ -53,6 +123,20 @@
       ],
       "territory_codes": [
         "PC"
+      ]
+    },
+    {
+      "title": "Como, allo Spazio Diaz arriva “Di quadro in quadro”: 4 giorni d’arte con gli artisti di Latelier",
+      "url": "https://comozero.it/cultura-e-spettacolo/como-allo-spazio-diaz-arriva-di-quadro-in-quadro-quattro-giorni-darte-con-gli-artisti-di-latelier",
+      "summary": "Dal 26 al 29 novembre una mostra che riunisce sensibilità e linguaggi artistici differenti. Inaugurazione venerdì 27 novembre alle 17.30, con la presentazione di Sergio Gaddi. Ogni quadro racchiude una storia, uno sguardo personale sulla realtà, un’emozione che prende forma sulla tela. Ed è proprio dall’incontro di queste diverse sensibilità che nasce “Di quadro in […] L'articolo Como, allo Spazio Diaz arriva “Di quadro in quadro”: 4 giorni d’arte con gli artisti di Latelier proviene da ComoZero .",
+      "published_at": "2026-11-26T11:18:13+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -168,40 +252,12 @@
       ]
     },
     {
-      "title": "Willy e Mila salvati da Oipa dopo le sofferenze cercano una famiglia",
-      "url": "https://www.piacenzasera.it/2026/11/willy-e-mila-salvati-da-oipa-dopo-le-sofferenze-cercano-una-famiglia/672196",
-      "summary": "Due cani di razza Bodeguero Español, un maschio e una femmina rispettivamente di 9 e 10 anni, sono stati sequestrati in Val Nure dalle Guardie Zoofile dell’Oipa di Piacenza The post Willy e Mila salvati da Oipa dopo le sofferenze cercano una famiglia appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T09:25:03+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna",
       "url": "https://comozero.it/attualita/como-comprare-casa-per-affittarla-in-quali-zone-conviene-e-quanto-si-guadagna",
       "summary": "Chi compra una casa per affittarla otterrebbe ogni anno il 6,71% di quanto l’ha pagata a Breccia, Rebbio e Prestino, fuori città; il 2,99% tra viale Innocenzo, via Grandi e Sant’Abbondio. Su 100.000 euro sono 6.710 euro lordi l’anno contro 2.990, prima di tasse e spese. La media della città è il 4,85%. Sono le […] L'articolo Como, comprare casa per affittarla: in quali zone conviene e quanto si guadagna proviene da ComoZero .",
       "published_at": "2026-11-26T09:06:15+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, la Pinacoteca civica si arricchisce di tre opere dell’astrattista Carla Badiali",
-      "url": "https://www.ciaocomo.it/2026/11/26/como-la-pinacoteca-civica-si-arricchisce-di-tre-opere-dellastrattista-carla-badiali/348842",
-      "summary": "L’amministrazione comunale ha acquistato dall’erede dell’artista due dipinti del 1939 e del 1950. A questi si aggiungerà un collage donato alle collezioni civiche The post Como, la Pinacoteca civica si arricchisce di tre opere dell’astrattista Carla Badiali appeared first on CiaoComo .",
-      "published_at": "2026-11-26T08:30:52+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -223,34 +279,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Cinque giornate di Champions, il Como resta lassu’ in alto con le big dell’Europa: che classifica!",
-      "url": "https://www.ciaocomo.it/2026/11/26/cinque-giornate-di-champions-il-como-resta-lassu-in-alto-con-le-big-delleuropa-che-classifica/348838",
-      "summary": "Vola la squadra di Fabregas: appaiata a Bercellona e Liverpool, ha gli stessi punti del Real Betis, prossima avversaria a dicembre. Davanto solo Real e Psg. The post Cinque giornate di Champions, il Como resta lassu’ in alto con le big dell’Europa: che classifica! appeared first on CiaoComo .",
-      "published_at": "2026-11-26T08:13:23+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Commercio, Regione Lombardia finanzia sette distretti del comasco con quasi 3 milioni di euro",
-      "url": "https://www.ciaocomo.it/2026/11/26/commercio-regione-lombardia-finanzia-sette-distretti-del-comasco-con-quasi-3-milioni-di-euro/348840",
-      "summary": "Gli interventi riguarderanno la riqualificazione delle aree commerciali, la promozione del territorio e la sicurezza degli spazi urbani. Previsti anche bandi comunali a sostegno delle imprese The post Commercio, Regione Lombardia finanzia sette distretti del comasco con quasi 3 milioni di euro appeared first on CiaoComo .",
-      "published_at": "2026-11-26T08:00:51+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -306,34 +334,6 @@
       "url": "https://comozero.it/attualita/il-caso-del-faro-voltiano-como-vince-al-tar-i-giudici-bocciano-duramente-le-pretese-di-brunate",
       "summary": "Per i giudici il Comune di Como non era obbligato a rinnovare l’accordo per affidare la gestione del monumento a Brunate. La convenzione scaduta nel 2020 aveva una durata di cinque anni e non prevedeva rinnovi automatici. Quattromila euro di spese legali a carico del Comune di Brunate Il Comune di Como non era tenuto […] L'articolo La battaglia per il Faro Voltiano, Como vince al Tar. I giudici bocciano duramente le pretese di Brunate proviene da ComoZero .",
       "published_at": "2026-11-25T20:14:53+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "La Pinacoteca di Como sempre più bella e preziosa: arrivano tre opere di Carla Badiali (due acquisti e un dono)",
-      "url": "https://comozero.it/cultura-e-spettacolo/la-pinacoteca-di-como-sempre-piu-bella-e-preziosa-arrivano-tre-opere-di-carla-badiali-due-acquisti-e-un-dono",
-      "summary": "[Copertina: Carla Badiali] La Pinacoteca civica di Como arricchisce la propria collezione dedicata agli Astrattisti comaschi con tre nuove opere di Carla Badiali, tra le protagoniste dell’Astrattismo italiano e figura centrale del cosiddetto “Gruppo Como”. Due lavori, realizzati rispettivamente nel 1939 e nel 1950, sono stati acquisiti dall’amministrazione comunale attraverso i rapporti con l’erede dell’artista, […] L'articolo La Pinacoteca di Como sempre più bella e preziosa: arrivano tre opere di Carla Badiali (due acquisti e un dono) proviene da ComoZero .",
-      "published_at": "2026-11-25T19:25:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como",
-      "url": "https://comozero.it/pubbliredazionale/villa-cipressi-il-natale-incanta-varenna-luci-sapori-e-atmosfere-da-fiaba-sul-lago-di-como",
-      "summary": "Fino al 10 gennaio 2027 torna il Christmas Garden: un percorso tra migliaia di luci, installazioni scenografiche e scorci sul lago. E per vivere appieno l’atmosfera delle feste, anche un Christmas Bar, uno shop natalizio e il ristorante Il Caminetto, con proposte dedicate a Natale e Capodanno. A Varenna il Natale si accende tra le […] L'articolo Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como proviene da ComoZero .",
-      "published_at": "2026-11-25T19:03:13+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
