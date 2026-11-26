@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-26T15:12:37.987195+00:00",
+  "generated_at": "2026-11-26T16:15:08.365982+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tra pezzi da collezione, creazioni Disney e a tema Harry Potter torna Piace Mattoncini",
+      "url": "https://www.piacenzasera.it/2026/11/tra-pezzi-da-collezione-creazioni-disney-e-a-tema-harry-potter-torna-piace-mattoncini/672292",
+      "summary": "Quasi 200 espositori alla due giorni in programma nel weekend a Piacenza Expo The post Tra pezzi da collezione, creazioni Disney e a tema Harry Potter torna Piace Mattoncini appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T15:53:29+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Con il Centro per le Famiglie Piacenza scopre “Tanti modi di dire auguri”",
+      "url": "https://www.piacenzasera.it/2026/11/con-il-centro-per-le-famiglie-pappa-e-pero-piacenza-scopre-tanti-modi-di-dire-auguri/672279",
+      "summary": "L'iniziativa durante le festività natalizie The post Con il Centro per le Famiglie Piacenza scopre “Tanti modi di dire auguri” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T15:47:13+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Pac, Confagricoltura Piacenza a Bruxelles. Gorra “No ai tagli”",
+      "url": "https://www.piacenzasera.it/2026/11/pac-confagricoltura-piacenza-a-bruxelles-gorra-no-ai-tagli/672270",
+      "summary": "Il presidente Umberto Gorra e il direttore Raffaello Rossi hanno partecipato alla marcia simbolica di Copa e Cogeca The post Pac, Confagricoltura Piacenza a Bruxelles. Gorra “No ai tagli” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-26T14:54:57+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "MyMentor, al via nuova edizione con 100 ‘coppie’ di studenti e imprenditori",
       "url": "https://www.piacenzasera.it/2026/11/mymentor-al-via-nuova-edizione-con-100-coppie-di-studenti-e-imprenditori/672262",
@@ -102,20 +144,6 @@
       ]
     },
     {
-      "title": "Alberi caduti e pericolanti a Piacenza e a Castello, diversi interventi dei vigili del fuoco",
-      "url": "https://www.piacenzasera.it/2026/11/alberi-caduti-e-pericolanti-a-piacenza-e-a-castello-diversi-interventi-dei-vigili-del-fuoco/672247",
-      "summary": "Il forte vento e la pioggia hanno creato situazioni di pericolo e in alcuni casi le piante sono crollate su spazi pubblici The post Alberi caduti e pericolanti a Piacenza e a Castello, diversi interventi dei vigili del fuoco appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T12:51:46+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, ex piscina olimpionica scandalo assoluto, ormai è un immondezzaio: “C’è spazio solo per la vergogna” (Video)",
       "url": "https://comozero.it/attualita/como-ex-piscina-olimpionica-scandalo-assoluto-ormai-e-un-immondezzaio-ce-spazio-solo-per-la-vergogna-video",
       "summary": "Il video (lo trovate in fondo) fa veramente impressione, testimonia degrado, abbandono e indifferenza assoluta. Per quanto chiusa, per quanto il suo destino sia decisamente incerto (ricordiamo il fiasco totale del progetto Quartiere dello Sport), la storica piscina olimpionica di Muggiò meriterebbe decisamente più rispetto e cura, per quello che è stata, per quello che […] L'articolo Como, ex piscina olimpionica scandalo assoluto, ormai è un immondezzaio: “C’è spazio solo per la vergogna” (Video) proviene da ComoZero .",
@@ -127,20 +155,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Il piacentino Daniel Negri nominato presidente di Confcooperative Consumo e Utenza ER",
-      "url": "https://www.piacenzasera.it/2026/11/il-daniel-negri-nominato-presidente-di-confcooperative-consumo-e-utenza-er/672235",
-      "summary": "Già presidente di Confcooperative Piacenza e vicepresidente di Power Energia, Negri succede a Roberto Savini alla guida della Federazione regionale che riunisce 39 cooperative, oltre 63 mila soci e 1.330 addetti The post Il piacentino Daniel Negri nominato presidente di Confcooperative Consumo e Utenza ER appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T11:41:04+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -204,34 +218,6 @@
       "url": "https://www.ciaocomo.it/2026/11/26/idroelettrico-oltre-376mila-euro-al-comasco-per-la-messa-in-sicurezza-del-territorio/348860",
       "summary": "Le risorse derivanti dai canoni delle concessioni idroelettriche del 2025 finanzieranno un intervento di regimazione delle acque nei Comuni di Vercana e Domaso, a tutela della viabilità lungo la SP3 The post Idroelettrico, oltre 376mila euro al Comasco per la messa in sicurezza del territorio appeared first on CiaoComo .",
       "published_at": "2026-11-26T10:25:52+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Tassa di soggiorno a Como, Confindustria chiede un confronto con l’amministrazione comunale",
-      "url": "https://www.ciaocomo.it/2026/11/26/tassa-di-soggiorno-a-como-confindustria-chiede-un-confronto-con-lamministrazione-comunale/348853",
-      "summary": "Nel 2025 l’imposta ha generato un gettito di circa 4,8 milioni di euro nel solo capoluogo. Le imprese chiedono di condividere le priorità di investimento delle risorse The post Tassa di soggiorno a Como, Confindustria chiede un confronto con l’amministrazione comunale appeared first on CiaoComo .",
-      "published_at": "2026-11-26T10:12:01+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Como nella Città dei Pinocchi”, tre giorni di eventi per celebrare i 200 anni dalla nascita di Carlo Collodi",
-      "url": "https://www.ciaocomo.it/2026/11/26/como-nella-citta-dei-pinocchi-tre-giorni-di-eventi-per-celebrare-i-200-anni-dalla-nascita-di-carlo-collodi/348673",
-      "summary": "Dal 28 al 30 novembre, Como e Cernobbio rendono omaggio al burattino più famoso della letteratura mondiale con una rassegna diffusa dedicata a grandi e piccoli The post “Como nella Città dei Pinocchi”, tre giorni di eventi per celebrare i 200 anni dalla nascita di Carlo Collodi appeared first on CiaoComo .",
-      "published_at": "2026-11-26T10:00:59+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
