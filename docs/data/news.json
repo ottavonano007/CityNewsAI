@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:20:56.152596+00:00",
+  "generated_at": "2026-11-26T07:30:04.853610+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "BookCity Como, dalla scienza alla geopolitica: una giornata con Amalia Ercoli Finzi, Simone Pieranni e l’omaggio a Dario Fo",
+      "url": "https://www.ciaocomo.it/2026/11/26/bookcity-como-dalla-scienza-alla-geopolitica-una-giornata-con-amalia-ercoli-finzi-simone-pieranni-e-lomaggio-a-dario-fo/348596",
+      "summary": "Cinque appuntamenti fra fotografia, lingua italiana, conoscenza scientifica e teatro civile, con un confronto sui rapporti tra Cina e Stati Uniti a Villa del Grumello The post BookCity Como, dalla scienza alla geopolitica: una giornata con Amalia Ercoli Finzi, Simone Pieranni e l’omaggio a Dario Fo appeared first on CiaoComo .",
+      "published_at": "2026-11-26T07:00:17+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
       "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
@@ -232,20 +246,6 @@
       ]
     },
     {
-      "title": "Como e il trasloco milionario del Luna Park: “Scelto un luogo tra i più trafficati, senza parcheggi e inadeguato”",
-      "url": "https://comozero.it/politica/como-e-il-trasloco-milionario-del-luna-park-scelto-un-luogo-tra-i-piu-trafficati-senza-parcheggi-e-inadeguato",
-      "summary": "È polemica sulla decisione della giunta Rapinese di investire un milione di euro per spostare dall’area di Muggiò circhi e Luna Park, trasferendoli nel quartiere cittadino a Lazzago, alle porte di Como (qui l’anticipazione di ieri). “Ci tocca ribadire che lo spazio compreso tra via Varesina, via D’Annunzio e via Venturino è del tutto inadeguato […] L'articolo Como e il trasloco milionario del Luna Park: “Scelto un luogo tra i più trafficati, senza parcheggi e inadeguato” proviene da ComoZero .",
-      "published_at": "2026-11-25T15:13:27+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "Il saluto di Monica Patelli “Un onore aver servito il territorio, Provincia sia punto di riferimento”",
       "url": "https://www.piacenzasera.it/2026/11/il-saluto-di-monica-patelli-un-onore-aver-servito-il-territorio-provincia-sia-punto-di-riferimento/672119",
       "summary": "A pochi giorni dalle elezioni provinciali, il saluto della Presidente uscente a tutta la comunità piacentina The post Il saluto di Monica Patelli “Un onore aver servito il territorio, Provincia sia punto di riferimento” appeared first on piacenzasera.it .",
@@ -306,20 +306,6 @@
       "url": "https://www.ciaocomo.it/2026/11/25/como-un-nastrino-rosso-sulle-auto-della-polizia-locale-contro-la-violenza-sulle-donne/348800",
       "summary": "L’iniziativa di sensibilizzazione accompagnerà gli agenti per tutta la settimana, sottolineando il ruolo del Comando nella rete territoriale di ascolto, protezione e intervento The post Como, un nastrino rosso sulle auto della Polizia Locale contro la violenza sulle donne appeared first on CiaoComo .",
       "published_at": "2026-11-25T12:41:54+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, Asf Autolinee ed il Soroptimist insieme contro la violenza di genere: un pullman per sensibilizzare la città",
-      "url": "https://www.ciaocomo.it/2026/11/25/como-asf-autolinee-e-soroptimist-insieme-contro-la-violenza-di-genere-un-bus-per-sensibilizzare-la-citta/348791",
-      "summary": "Fino al 17 dicembre un autobus con una speciale livrea circolerà sulle linee urbane 7, 8 e 2, invitando a riconoscere i segnali degli abusi, con particolare attenzione alla violenza digitale. Con invito a denunciare subito. The post Como, Asf Autolinee ed il Soroptimist insieme contro la violenza di genere: un pullman per sensibilizzare la città appeared first on CiaoComo .",
-      "published_at": "2026-11-25T11:17:31+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
       "territory_ids": [
