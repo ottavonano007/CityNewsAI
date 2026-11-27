@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-27T12:04:49.361203+00:00",
+  "generated_at": "2026-11-27T13:26:02.435808+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 7,
-      "inserted": 7,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,92 @@
     }
   ],
   "articles": [
+    {
+      "title": "Escape game, visori di realtà virtuale e avatar: la Passerini entra nel futuro con Digit@Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/escape-game-visori-di-realta-virtuale-e-avatar-la-passerini-entra-nel-futuro-con-digitpiacenza/672428",
+      "summary": "Digit@Piacenza, alla Passerini Landi un viaggio tra realtà virtuale e nuove risorse multimediali: la presentazione sabato 28 novembre The post Escape game, visori di realtà virtuale e avatar: la Passerini entra nel futuro con Digit@Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T13:00:02+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Como, notte folle in pronto soccorso: infermiere aggredito e reparto danneggiato, arrestata una donna",
+      "url": "https://comozero.it/cronaca/como-notte-folle-in-pronto-soccorso-infermiere-aggredito-e-reparto-danneggiato-arrestata-una-donna",
+      "summary": "Un infermiere aggredito, una porta del reparto danneggiata e l’intervento dei Carabinieri. È successo nella notte al Pronto soccorso dell’ospedale Sant’Anna di San Fermo della Battaglia, dove una donna di nazionalità argentina è stata arrestata in flagranza di reato La donna, senza fissa dimora sul territorio nazionale e già gravata da precedenti di polizia, si […] L'articolo Como, notte folle in pronto soccorso: infermiere aggredito e reparto danneggiato, arrestata una donna proviene da ComoZero .",
+      "published_at": "2026-11-27T12:44:48+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "fm"
+      ],
+      "territory_codes": [
+        "CO",
+        "FM"
+      ]
+    },
+    {
+      "title": "Natale 2026 a Como. Quale momento di benessere metterai sotto l’albero?",
+      "url": "https://comozero.it/attualita/natale-2026-a-como-quale-momento-di-benessere-metterai-sotto-lalbero",
+      "summary": "C’è chi, durante un trattamento viso, spera che il massaggio duri ancora un po’. E c’è chi, dopo una passeggiata sul lungolago a dicembre, cerca subito il tepore di una coperta. Se hai riconosciuto qualcuno, hai già un indizio per scegliere il suo regalo. Per il Natale 2026 da ReveZone, a Como, abbiamo pensato proprio […] L'articolo Natale 2026 a Como. Quale momento di benessere metterai sotto l’albero? proviene da ComoZero .",
+      "published_at": "2026-11-27T12:29:06+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, il Battello di Babbo Natale festeggia la quinta edizione e approda anche sul lago di Garda",
+      "url": "https://www.ciaocomo.it/2026/11/27/como-il-battello-di-babbo-natale-festeggia-la-quinta-edizione-e-approda-anche-sul-lago-di-garda/348951",
+      "summary": "La Motonave Orione sarà addobbata per la prima volta anche all’esterno. L’iniziativa coinvolgerà Menaggio e punta a raggiungere il lago Maggiore nel 2027 The post Como, il Battello di Babbo Natale festeggia la quinta edizione e approda anche sul lago di Garda appeared first on CiaoComo .",
+      "published_at": "2026-11-27T12:15:33+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, il pacco in cortile con marijuana e hashish, la mamma: “Ordinate per mio figlio”",
+      "url": "https://comozero.it/cronaca/como-il-pacco-in-cortile-con-marijuana-e-hashish-la-mamma-ordinate-per-mio-figlio",
+      "summary": "Una spedizione contenente marijuana, hashish e concentrati di THC è stata intercettata dopo che una residente ha consegnato ai Carabinieri un pacco trovato aperto nel cortile del condominio. In casa sequestrati anche un bilancino e un grinder Servizio straordinario di controllo del territorio nella serata del 26 novembre per i Carabinieri della Tenenza di Mariano […] L'articolo Como, il pacco in cortile con marijuana e hashish, la mamma: “Ordinate per mio figlio” proviene da ComoZero .",
+      "published_at": "2026-11-27T12:07:14+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il CFP della Provincia di Como “Luigi Grisoni” protagonista in Lettonia per la Settimana della Cucina Italiana nel Mondo",
+      "url": "https://www.ciaocomo.it/2026/11/27/il-cfp-della-provincia-di-como-luigi-grisoni-protagonista-in-lettonia-per-la-settimana-della-cucina-italiana-nel-mondo/348942",
+      "summary": "Tradizione, creatività e valorizzazione delle eccellenze gastronomiche del territorio al centro di due masterclass dedicate al risotto, realizzate a Jelgava da due chef comaschi. Un'iniziativa che rafforza il legame tra formazione, cultura gastronomica e cooperazione europea, culminata in un pranzo di Gala promosso dall'Ambasciata italiana a Riga The post Il CFP della Provincia di Como “Luigi Grisoni” protagonista in Lettonia per la Settimana della Cucina Italiana nel Mondo appeared first on CiaoComo .",
+      "published_at": "2026-11-27T11:58:20+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "‘Ndrangheta a Erba e Canzo, sequestrati beni per oltre un milione di euro: immobili e conti nel mirino",
       "url": "https://primacomo.it/cronaca/ndrangheta-a-erba-e-canzo-sequestrati-beni-per-oltre-un-milione-di-euro-immobili-e-conti-nel-mirino",
@@ -130,9 +216,9 @@
       ]
     },
     {
-      "title": "Como, arriva la navetta elettrica gratuita natalizia: corse ogni 20 minuti attorno alle mura per oltre un mese",
+      "title": "Natale a Como: arriva la navetta elettrica gratuita, corse ogni 20 minuti attorno alle mura",
       "url": "https://comozero.it/attualita/como-arriva-la-navetta-elettrica-gratuita-natalizia-corse-ogni-20-minuti-attorno-alle-mura-per-oltre-un-mese",
-      "summary": "Dal 28 novembre al 6 gennaio torna ASF 4 XMAS: servizio hop on hop off nei weekend e nei giorni festivi, con luci, musica natalizia e piccoli regali per i bambini A Como il Natale viaggia anche in autobus. Dal 28 novembre 2026 al 6 gennaio 2027 torna ASF 4 XMAS, la navetta natalizia gratuita […] L'articolo Como, arriva la navetta elettrica gratuita natalizia: corse ogni 20 minuti attorno alle mura per oltre un mese proviene da ComoZero .",
+      "summary": "Dal 28 novembre al 6 gennaio torna ASF 4 XMAS: servizio hop on hop off nei weekend e nei giorni festivi, con luci, musica natalizia e piccoli regali per i bambini A Como il Natale viaggia anche in autobus. Dal 28 novembre 2026 al 6 gennaio 2027 torna ASF 4 XMAS, la navetta natalizia gratuita […] L'articolo Natale a Como: arriva la navetta elettrica gratuita, corse ogni 20 minuti attorno alle mura proviene da ComoZero .",
       "published_at": "2026-11-27T10:20:52+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -197,48 +283,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "I Grandi Maestri del Presepio, l’arte della Val Gardena in mostra sul lago di Como",
-      "url": "https://www.ciaocomo.it/2026/11/27/i-grandi-maestri-del-presepio-larte-della-val-gardena-in-mostra-sul-lago-di-como/348917",
-      "summary": "Protagonista della quinta edizione la famiglia Heide, custode di un’antica tradizione di scultura e lavorazione del legno The post I Grandi Maestri del Presepio, l’arte della Val Gardena in mostra sul lago di Como appeared first on CiaoComo .",
-      "published_at": "2026-11-27T09:30:54+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, oltre 400mila euro per la ricerca sui tumori pediatrici grazie alla Charity Dinner di Fondazione Veronesi",
-      "url": "https://www.ciaocomo.it/2026/11/27/como-oltre-400mila-euro-per-la-ricerca-sui-tumori-pediatrici-grazie-alla-charity-dinner-di-fondazione-veronesi/348868",
-      "summary": "Più di 400 ospiti al Teatro Sociale per sostenere uno studio clinico internazionale dedicato a una nuova terapia per i bambini affetti da neuroblastoma ad alto rischio The post Como, oltre 400mila euro per la ricerca sui tumori pediatrici grazie alla Charity Dinner di Fondazione Veronesi appeared first on CiaoComo .",
-      "published_at": "2026-11-27T09:00:09+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "“Due destini”, a Como il teatro racconta la nascita e il valore della cura",
-      "url": "https://www.ciaocomo.it/2026/11/27/due-destini-a-como-il-teatro-racconta-la-nascita-e-il-valore-della-cura/348885",
-      "summary": "Il Dipartimento Materno Infantile dell’Ospedale Valduce propone un nuovo appuntamento aperto alla cittadinanza, seguito da una tavola rotonda con professionisti del mondo sanitario e sociale The post “Due destini”, a Como il teatro racconta la nascita e il valore della cura appeared first on CiaoComo .",
-      "published_at": "2026-11-27T08:30:57+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -374,52 +418,6 @@
       "url": "https://comozero.it/attualita/como-la-battaglia-dei-tavolini-vista-lago-il-tar-da-ragione-al-comune-e-respinge-la-richiesta-di-stop",
       "summary": "La società Como Lake Food contestava la fine della concessione per 80,75 metri quadrati e il progetto che prevede di spostare i tavoli all’aperto dal centro della piazza. Per i giudici prevale l’interesse pubblico a realizzare i lavori: il ristorante può proseguire l’attività all’interno dei propri locali Il Tar della Lombardia non blocca il progetto […] L'articolo Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e il cantiere non si ferma proviene da ComoZero .",
       "published_at": "2026-11-26T16:42:52+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Hotel, ristoranti e campeggio: premiati i magnifici otto del turismo sul Lago di Como, ecco chi sono",
-      "url": "https://comozero.it/turismo/turismo-hotel-ristoranti-e-campeggio-premiati-i-magnifici-otto-del-lago-di-como-ecco-chi-sono",
-      "summary": "Dall’Hotel Belvedere di Bellagio (nella foto di copertina) all’Albergo Ristorante Vapore di Torno, passando per le strutture di Dongo, Menaggio, Lezzeno e Carlazzo. Sono otto le attività della provincia di Como entrate nell’elenco delle nuove strutture ricettive storiche e di qualità riconosciute da Regione Lombardia Il riconoscimento è riservato alle attività che possono vantare almeno […] L'articolo Hotel, ristoranti e campeggio: premiati i magnifici otto del turismo sul Lago di Como, ecco chi sono proviene da ComoZero .",
-      "published_at": "2026-11-26T13:25:18+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Elezioni a Como, Rapinese irride e insulta il centrodestra: “Marionette ammaestrate e zerbini di Roma e Milano”",
-      "url": "https://comozero.it/politica/elezioni-a-como-rapinese-irride-e-insulta-il-centrodestra-marionette-ammaestrate-e-zerbini-di-roma-e-milano",
-      "summary": "Dopo il turbolento consiglio comunale di lunedì scorso, il sindaco di Como Alessandro Rapinese torna all’attacco. Lo fa con toni pesantissimi – da ‘zerbini’ a ‘scappati di casa’ fino a marionette ben ammaestrate’ – in particolare verso il centrodestra che è ancora alla ricerca di un candidato sindaco da schierare per le elezioni comunali di […] L'articolo Elezioni a Como, Rapinese irride e insulta il centrodestra: “Marionette ammaestrate e zerbini di Roma e Milano” proviene da ComoZero .",
-      "published_at": "2026-11-26T13:05:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi",
-        "rm"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI",
-        "RM"
-      ]
-    },
-    {
-      "title": "Como, ex piscina olimpionica scandalo assoluto, ormai è un immondezzaio: “C’è spazio solo per la vergogna” (Video)",
-      "url": "https://comozero.it/attualita/como-ex-piscina-olimpionica-scandalo-assoluto-ormai-e-un-immondezzaio-ce-spazio-solo-per-la-vergogna-video",
-      "summary": "Il video (lo trovate in fondo) fa veramente impressione, testimonia degrado, abbandono e indifferenza assoluta. Per quanto chiusa, per quanto il suo destino sia decisamente incerto (ricordiamo il fiasco totale del progetto Quartiere dello Sport), la storica piscina olimpionica di Muggiò meriterebbe decisamente più rispetto e cura, per quello che è stata, per quello che […] L'articolo Como, ex piscina olimpionica scandalo assoluto, ormai è un immondezzaio: “C’è spazio solo per la vergogna” (Video) proviene da ComoZero .",
-      "published_at": "2026-11-26T11:52:05+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
