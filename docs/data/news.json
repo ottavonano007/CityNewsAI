@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T16:13:35.603555+00:00",
+  "generated_at": "2026-11-27T17:20:10.719921+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 15,
-      "inserted": 15,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como e provincia, le iniziative del primo weekend natalizio",
+      "url": "https://www.ciaocomo.it/2026/11/27/como-e-provincia-le-iniziative-del-primo-weekend-natalizio/348909",
+      "summary": "Piste del ghiaccio da tutte le parti, eventi collaterali tra città e provincia. Leggete qui il dettaglio aggiornato The post Como e provincia, le iniziative del primo weekend natalizio appeared first on CiaoComo .",
+      "published_at": "2026-11-27T17:00:43+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, inaugurato Palazzo ULI dopo il restauro: 850mila euro per tutelare il patrimonio architettonico della città",
+      "url": "https://www.ciaocomo.it/2026/11/27/como-inaugurato-palazzo-uli-dopo-il-restauro-850mila-euro-per-tutelare-il-patrimonio-architettonico-della-citta/348990",
+      "summary": "L’edificio di ATS Insubria, testimonianza dell’architettura moderna comasca, potrà diventare un caso di studio per gli studenti del Politecnico di Milano The post Como, inaugurato Palazzo ULI dopo il restauro: 850mila euro per tutelare il patrimonio architettonico della città appeared first on CiaoComo .",
+      "published_at": "2026-11-27T16:30:29+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como",
+        "mi"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI"
+      ]
+    },
+    {
+      "title": "“Qui non comandate voi. Tolleranza zero!”. Como, dopo la maxi operazione contro la ‘Ndrangheta il deputato attacca",
+      "url": "https://comozero.it/attualita/qui-non-comandate-voi-tolleranza-zero-como-dopo-la-maxi-operazione-contro-la-ndrangheta-il-deputato-attacca",
+      "summary": "Il deputato comasco della Lega interviene dopo l’operazione della Polizia di Stato che ha portato al sequestro di immobili, quote societarie e disponibilità finanziarie riconducibili a tre presunti esponenti della locale di ’ndrangheta di Erba e Canzo “Lo Stato c’è e non arretra”. È il messaggio lanciato dal deputato comasco della Lega Eugenio Zoffili dopo […] L'articolo “Qui non comandate voi. Tolleranza zero!”. Como, dopo la maxi operazione contro la ‘Ndrangheta il deputato attacca proviene da ComoZero .",
+      "published_at": "2026-11-27T16:22:30+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "La Canottieri Ongina torna in campo contro il fanalino di coda Garlasco",
+      "url": "https://www.piacenzasera.it/2026/11/la-canottieri-ongina-torna-in-campo-contro-il-fanalino-di-coda-garlasco/672481",
+      "summary": "I gialloneri sono passati al secondo posto in classifica a quota 14 in compagnia di Albisola e Cremona, mentre in vetta c'è il Sant'Anna Tomcar (15) The post La Canottieri Ongina torna in campo contro il fanalino di coda Garlasco appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T16:21:39+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "cr"
+      ],
+      "territory_codes": [
+        "CR"
+      ]
+    },
+    {
+      "title": "L’Assigeco vuole ritrovare il sorriso: domenica la sfida con Reggio Calabria",
+      "url": "https://www.piacenzasera.it/2026/11/lassigeco-vuole-ritrovare-il-sorriso-domenica-la-sfida-con-reggio-calabria/672472",
+      "summary": "L’assistente allenatore Ariele Zanella: \"Servirà una prestazione solida per conquistare i due punti” The post L’Assigeco vuole ritrovare il sorriso: domenica la sfida con Reggio Calabria appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T15:53:46+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "rc"
+      ],
+      "territory_codes": [
+        "RC"
+      ]
+    },
     {
       "title": "Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani”",
       "url": "https://www.piacenzasera.it/2026/11/piacenza-talenti-si-rafforza-il-lavoro-di-squadra-citta-sempre-piu-attrattiva-per-i-giovani/672446",
@@ -56,62 +128,6 @@
       ]
     },
     {
-      "title": "Piacenza Sud, dopo la posa delle barriere a nord dello svincolo proseguono i lavori sul tratto a sud",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-sud-dopo-la-posa-delle-barriere-a-nord-dello-svincolo-proseguono-i-lavori-sul-tratto-a-sud/672436",
-      "summary": "Avviato a fine ottobre il secondo lotto del piano di Autostrade per l’Italia. Il cantiere occupa la corsia di emergenza e il traffico continua a scorrere su tre corsie di larghezza ridotta The post Piacenza Sud, dopo la posa delle barriere a nord dello svincolo proseguono i lavori sul tratto a sud appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T13:57:21+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Trattare la sclerosi multipla: dalla patologia allo stile di vita convegno in Confindustria",
-      "url": "https://www.piacenzasera.it/2026/11/trattare-la-sclerosi-multipla-dalla-patologia-allo-stile-di-vita-convegno-in-confindustria/672434",
-      "summary": "Il convegno è organizzato dalla sezione provinciale Aism di Piacenza con il patrocinio del Comune di Piacenza e dell’Ausl di Piacenz The post Trattare la sclerosi multipla: dalla patologia allo stile di vita convegno in Confindustria appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T13:41:24+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Nek festeggia i 30 anni del successo di Laura non c’è: concerto a Piacenza il 4 dicembre 2027",
-      "url": "https://www.piacenzasera.it/2026/11/nek-festeggia-i-30-anni-del-successo-di-laura-non-ce-concerto-a-piacenza-il-4-dicembre-2027/672432",
-      "summary": "I biglietti per “Laura 30th e tutto il resto Live” sono già disponibili in pre-sale per il Filgood Social Club, fanclub ufficiale di Nek, mentre dalle ore 11:00 di domani, sabato 28 novembre, saranno disponibili su Ticketone The post Nek festeggia i 30 anni del successo di Laura non c’è: concerto a Piacenza il 4 dicembre 2027 appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T13:35:12+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Escape game, visori di realtà virtuale e avatar: la Passerini entra nel futuro con Digit@Piacenza",
-      "url": "https://www.piacenzasera.it/2026/11/escape-game-visori-di-realta-virtuale-e-avatar-la-passerini-entra-nel-futuro-con-digitpiacenza/672428",
-      "summary": "Digit@Piacenza, alla Passerini Landi un viaggio tra realtà virtuale e nuove risorse multimediali: la presentazione sabato 28 novembre The post Escape game, visori di realtà virtuale e avatar: la Passerini entra nel futuro con Digit@Piacenza appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T13:00:02+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, notte folle in pronto soccorso: infermiere aggredito e reparto danneggiato, arrestata una donna",
       "url": "https://comozero.it/cronaca/como-notte-folle-in-pronto-soccorso-infermiere-aggredito-e-reparto-danneggiato-arrestata-una-donna",
       "summary": "Un infermiere aggredito, una porta del reparto danneggiata e l’intervento dei Carabinieri. È successo nella notte al Pronto soccorso dell’ospedale Sant’Anna di San Fermo della Battaglia, dove una donna di nazionalità argentina è stata arrestata in flagranza di reato La donna, senza fissa dimora sul territorio nazionale e già gravata da precedenti di polizia, si […] L'articolo Como, notte folle in pronto soccorso: infermiere aggredito e reparto danneggiato, arrestata una donna proviene da ComoZero .",
@@ -128,23 +144,9 @@
       ]
     },
     {
-      "title": "Natale 2026 a Como. Quale momento di benessere metterai sotto l’albero?",
-      "url": "https://comozero.it/pubbliredazionale/natale-2026-a-como-quale-momento-di-benessere-metterai-sotto-lalbero",
-      "summary": "C’è chi, durante un trattamento viso, spera che il massaggio duri ancora un po’. E c’è chi, dopo una passeggiata sul lungolago a dicembre, cerca subito il tepore di una coperta. Se hai riconosciuto qualcuno, hai già un indizio per scegliere il suo regalo. Per il Natale 2026 da ReveZone, a Como, abbiamo pensato proprio […] L'articolo Natale 2026 a Como. Quale momento di benessere metterai sotto l’albero? proviene da ComoZero .",
-      "published_at": "2026-11-27T12:29:06+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, il Battello di Babbo Natale festeggia la quinta edizione e approda anche sul lago di Garda",
+      "title": "Como, il Battello di Babbo Natale festeggia la quinta edizione e approda anche sul lago di Garda: salpa a dicembre",
       "url": "https://www.ciaocomo.it/2026/11/27/como-il-battello-di-babbo-natale-festeggia-la-quinta-edizione-e-approda-anche-sul-lago-di-garda/348951",
-      "summary": "La Motonave Orione sarà addobbata per la prima volta anche all’esterno. L’iniziativa coinvolgerà Menaggio e punta a raggiungere il lago Maggiore nel 2027 The post Como, il Battello di Babbo Natale festeggia la quinta edizione e approda anche sul lago di Garda appeared first on CiaoComo .",
+      "summary": "La Motonave Orione sarà addobbata per la prima volta anche all’esterno. L’iniziativa coinvolgerà Menaggio e punta a raggiungere il lago Maggiore nel 2027 The post Como, il Battello di Babbo Natale festeggia la quinta edizione e approda anche sul lago di Garda: salpa a dicembre appeared first on CiaoComo .",
       "published_at": "2026-11-27T12:15:33+00:00",
       "source_id": "ciaocomo",
       "source_name": "CiaoComo",
@@ -170,40 +172,12 @@
       ]
     },
     {
-      "title": "Il CFP della Provincia di Como “Luigi Grisoni” protagonista in Lettonia per la Settimana della Cucina Italiana nel Mondo",
-      "url": "https://www.ciaocomo.it/2026/11/27/il-cfp-della-provincia-di-como-luigi-grisoni-protagonista-in-lettonia-per-la-settimana-della-cucina-italiana-nel-mondo/348942",
-      "summary": "Tradizione, creatività e valorizzazione delle eccellenze gastronomiche del territorio al centro di due masterclass dedicate al risotto, realizzate a Jelgava da due chef comaschi. Un'iniziativa che rafforza il legame tra formazione, cultura gastronomica e cooperazione europea, culminata in un pranzo di Gala promosso dall'Ambasciata italiana a Riga The post Il CFP della Provincia di Como “Luigi Grisoni” protagonista in Lettonia per la Settimana della Cucina Italiana nel Mondo appeared first on CiaoComo .",
-      "published_at": "2026-11-27T11:58:20+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
       "title": "‘Ndrangheta a Erba e Canzo, sequestrati beni per oltre un milione di euro: immobili e conti nel mirino",
       "url": "https://primacomo.it/cronaca/ndrangheta-a-erba-e-canzo-sequestrati-beni-per-oltre-un-milione-di-euro-immobili-e-conti-nel-mirino",
       "summary": "Maxi sequestro patrimoniale nell’ambito delle indagini sulla locale di ‘ndrangheta di Erba e Canzo. La Polizia di Stato ha eseguito un provvedimento finalizzato alla confisca di beni per oltre un milione di euro nei confronti di tre italiani di 51, 55 e 59 anni, ritenuti esponenti di spicco dell’organizzazione. Il provvedimento è stato emesso dal […] Continua la lettura di ‘Ndrangheta a Erba e Canzo, sequestrati beni per oltre un milione di euro: immobili e conti nel mirino sul portale Prima Como .",
       "published_at": "2026-11-27T11:40:31+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, delibere e atti comunali spiegati dall’intelligenza artificiale: al via un nuovo servizio gratuito",
-      "url": "https://www.ciaocomo.it/2026/11/27/como-delibere-e-atti-comunali-spiegati-dallintelligenza-artificiale-al-via-un-nuovo-servizio-gratuito/348947",
-      "summary": "Con “Osservatorio Civico” i cittadini potranno ricevere ogni giorno una mail con le decisioni dell’amministrazione che incidono sulla vita quotidiana, dai tributi ai trasporti, fino ai servizi scolastici The post Como, delibere e atti comunali spiegati dall’intelligenza artificiale: al via un nuovo servizio gratuito appeared first on CiaoComo .",
-      "published_at": "2026-11-27T11:34:54+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
@@ -312,10 +286,10 @@
       ]
     },
     {
-      "title": "Straordinario, oltre mille piante nei fondali dei laghi di Como e Lugano: si prova a riportare la vita sott’acqua (video)",
-      "url": "https://comozero.it/ambiente/straordinario-oltre-mille-piante-nei-fondali-dei-laghi-di-como-e-lugano-si-prova-a-riportare-la-vita-sottacqua-video",
-      "summary": "Il progetto transfrontaliero ECHO ha presentato alla Fondazione Minoprio i primi risultati. I campionamenti rivelano differenze significative tra i due bacini: nel lago di Lugano la presenza di carbonio nei sedimenti è molto più elevata rispetto alle aree studiate nel Lario Riportare la vegetazione sui fondali, favorire il ritorno della biodiversità e studiare quanto carbonio […] L'articolo Straordinario, oltre mille piante nei fondali dei laghi di Como e Lugano: si prova a riportare la vita sott’acqua (video) proviene da ComoZero .",
-      "published_at": "2026-11-26T20:35:59+00:00",
+      "title": "Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria",
+      "url": "https://comozero.it/pubbliredazionale/il-como-1907-le-fabbriche-di-seta-e-un-campetto-la-storia-nascosta-nel-quadro-di-radice-con-apertura-straordinaria-in-confindustria",
+      "summary": "Dopo lo straordinario successo di pubblico, Confindustria apre eccezionalmente le porte della sua sede di via Raimondi sabato 28 novembre dalle 9 alle 18 per permettere, a chi lo volesse, di ammirare il capolavoro del maestro comasco Mario Radice “Partita di pallone” (1933). L’esposizione, che proseguirà dal lunedì al venerdì fino al 18 dicembre, è […] L'articolo Il Como 1907, le fabbriche di seta e un campetto: la storia nascosta nel quadro di Radice con apertura straordinaria in Confindustria proviene da ComoZero .",
+      "published_at": "2026-11-26T23:15:05+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -326,10 +300,30 @@
       ]
     },
     {
-      "title": "Da Rapinese toni rozzi e irricevibili ma il centrodestra che passeggia e tentenna gli ha lasciato praterie",
-      "url": "https://comozero.it/politica/da-rapinese-toni-rozzi-e-irricevibili-ma-il-centrodestra-che-passeggia-e-tentenna-gli-ha-lasciato-praterie",
-      "summary": "Due parole è forse giusto dirle dopo la pesantissima uscita di oggi del sindaco di Como Alessandro Rapinese. Senza ambiguità: i termini usati dal primo cittadino contro il centrodestra sono offensivi, volgari, scomposti e ancor più irricevibili perché affidati ai social a freddo, con calcolo e chirurgica scelta, senza nemmeno la scusa di uno scontro […] L'articolo Da Rapinese toni rozzi e irricevibili ma il centrodestra che passeggia e tentenna gli ha lasciato praterie proviene da ComoZero .",
-      "published_at": "2026-11-26T20:04:06+00:00",
+      "title": "Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente",
+      "url": "https://comozero.it/pubbliredazionale/dallofficina-del-1969-al-colosso-con-15-sedi-gioiello-in-lombardia-clerici-auto-grandi-marchi-e-attenzione-al-cliente",
+      "summary": "Dall’officina aperta da Roberto Clerici a Lurate Caccivio nel 1969 a un gruppo con quindici sedi tra Como, Varese, Milano, Monza e Sondrio. Quella di Clerici Auto è una lunga storia profondamente legata al territorio lombardo, come raccontano bene due delle sue sedi, Tavernerio e Induno Olona, che hanno segnato tappe importanti nella crescita del […] L'articolo Dall’officina del 1969 al colosso con 15 sedi gioiello in Lombardia: Clerici Auto, grandi marchi e attenzione al cliente proviene da ComoZero .",
+      "published_at": "2026-11-26T23:11:10+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "mi",
+        "so",
+        "va"
+      ],
+      "territory_codes": [
+        "CO",
+        "MI",
+        "SO",
+        "VA"
+      ]
+    },
+    {
+      "title": "Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como",
+      "url": "https://comozero.it/pubbliredazionale/villa-cipressi-il-natale-incanta-varenna-luci-sapori-e-atmosfere-da-fiaba-sul-lago-di-como",
+      "summary": "Fino al 10 gennaio 2027 torna il Christmas Garden: un percorso tra migliaia di luci, installazioni scenografiche e scorci sul lago. E per vivere appieno l’atmosfera delle feste, anche un Christmas Bar, uno shop natalizio e il ristorante Il Caminetto, con proposte dedicate a Natale e Capodanno. A Varenna il Natale si accende tra le […] L'articolo Villa Cipressi, il Natale incanta Varenna: luci, sapori e atmosfere da fiaba sul Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-26T23:07:13+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -340,68 +334,10 @@
       ]
     },
     {
-      "title": "Il Lago di Como è uno spettacolo d’inverno: ville, monasteri e dimore storiche si vestono a festa. Tutti gli appuntamenti",
-      "url": "https://comozero.it/cultura-e-spettacolo/il-lago-di-como-e-uno-spettacolo-dinverno-ville-monasteri-e-dimore-storiche-si-vestono-a-festa-tutti-gli-appuntamenti",
-      "summary": "Presepi, visite guidate, degustazioni, laboratori creativi e attività per famiglie: fino al 6 gennaio 2027 un calendario di iniziative coinvolge sette luoghi del FAI in Lombardia. In provincia di Como appuntamenti a Villa del Balbianello e Villa Fogazzaro Roi Il Natale entra nei luoghi storici del FAI in Lombardia, con un calendario di iniziative che […] L'articolo Il Lago di Como è uno spettacolo d’inverno: ville, monasteri e dimore storiche si vestono a festa. Tutti gli appuntamenti proviene da ComoZero .",
-      "published_at": "2026-11-26T19:40:09+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, dura denuncia: “La Coop da due anni in ritardo con gli stipendi, i lavoratori hanno affitti e bollette da pagare”",
-      "url": "https://comozero.it/attualita/como-dura-denuncia-la-coop-con-due-anni-di-stipendi-in-ritardo-i-lavoratori-hanno-affitti-e-bollette-da-pagare",
-      "summary": "[Copertina: Cgil archivio] Oltre due anni di retribuzioni corrisposte in ritardo o mancanti, incertezza sui versamenti previdenziali e interrogativi sul futuro degli appalti pubblici. È la denuncia lanciata dalla segreteria della Fp Cgil di Como in merito alla situazione delle lavoratrici e dei lavoratori di Oasi Cooperativa Sociale di Guanzate. Secondo l’organizzazione sindacale, quella che […] L'articolo Como, dura denuncia: “La Coop da due anni in ritardo con gli stipendi, i lavoratori hanno affitti e bollette da pagare” proviene da ComoZero .",
-      "published_at": "2026-11-26T17:56:06+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Musei del tessile, Como e Biella unite: Brenna sostiene con grande entusiasmo la proposta di Butti e Pella",
-      "url": "https://comozero.it/attualita/musei-del-tessile-como-e-biella-unite-brenna-sostiene-con-grande-entusiasmo-la-proposta-butti-e-pella",
-      "summary": "Confindustria Como accoglie con favore la proposta del sottosegretario Alessio Butti e dell’onorevole Roberto Pella per sostenere il Sistema Museale Nazionale del Tessile Italiano d’Eccellenza, con i poli museali di Como e Biella. L’iniziativa punta a valorizzare due realtà che hanno un elemento in comune: entrambe le città sono riconosciute come Città Creative Unesco. La […] L'articolo Musei del tessile, Como e Biella unite: Brenna sostiene con grande entusiasmo la proposta di Butti e Pella proviene da ComoZero .",
-      "published_at": "2026-11-26T17:30:01+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "bi",
-        "como"
-      ],
-      "territory_codes": [
-        "BI",
-        "CO"
-      ]
-    },
-    {
-      "title": "Un luogo, una storia, un grande architetto: Como ricorda Mario Di Salvo. Appuntamento alla scuola di Salita Cappuccini",
-      "url": "https://comozero.it/attualita/un-luogo-una-storia-un-grande-architetto-como-ricorda-mario-di-salvo-appuntamento-alla-scuola-di-salita-cappuccini",
-      "summary": "[In copertina: Mario di Salvo, foto di Attilio Terragni] Sabato 28 novembre i genitori della scuola e la famiglia dell’architetto scomparso a settembre invitano a un appuntamento aperto alla città. In programma una visita guidata, gli interventi di tre professionisti e un aperitivo finale Un pomeriggio per ricordare Mario Di Salvo, architetto e urbanista comasco […] L'articolo Un luogo, una storia, un grande architetto: Como ricorda Mario Di Salvo. Appuntamento alla scuola di Salita Cappuccini proviene da ComoZero .",
-      "published_at": "2026-11-26T17:20:45+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e il cantiere non si ferma",
-      "url": "https://comozero.it/attualita/como-la-battaglia-dei-tavolini-vista-lago-il-tar-da-ragione-al-comune-e-respinge-la-richiesta-di-stop",
-      "summary": "La società Como Lake Food contestava la fine della concessione per 80,75 metri quadrati e il progetto che prevede di spostare i tavoli all’aperto dal centro della piazza. Per i giudici prevale l’interesse pubblico a realizzare i lavori: il ristorante può proseguire l’attività all’interno dei propri locali Il Tar della Lombardia non blocca il progetto […] L'articolo Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e il cantiere non si ferma proviene da ComoZero .",
-      "published_at": "2026-11-26T16:42:52+00:00",
+      "title": "Villa Monastero a Varenna: il Natale illumina la storia, tra scenografie, eventi e attività per famiglie sul Lago di Como",
+      "url": "https://comozero.it/pubbliredazionale/villa-monastero-a-varenna-il-natale-illumina-la-storia-tra-scenografie-eventi-e-attivita-per-famiglie-sul-lago-di-como",
+      "summary": "Villa Monastero di Varenna celebra per la prima volta il Natale con un percorso luminoso tra la Casa Museo e il Giardino botanico. Fino al 10 gennaio 2027, installazioni scenografiche e iniziative speciali offriranno ai visitatori un’occasione unica per scoprire la storica dimora in un’atmosfera di festa Fino al 10 gennaio 2027, uno dei luoghi […] L'articolo Villa Monastero a Varenna: il Natale illumina la storia, tra scenografie, eventi e attività per famiglie sul Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-26T23:03:04+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
