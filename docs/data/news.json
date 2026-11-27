@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:05:29.516886+00:00",
+  "generated_at": "2026-11-27T23:58:32.865505+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -28,9 +28,51 @@
   ],
   "articles": [
     {
+      "title": "Il profumo dei biscotti appena sfornati, la musica, l’arte: ‘Aspettando il Natale a Villa Carlotta’",
+      "url": "https://comozero.it/cultura-e-spettacolo/il-profumo-dei-biscotti-appena-sfornati-la-musica-larte-aspettando-il-natale-a-villa-carlotta",
+      "summary": "Il profumo dei biscotti appena sfornati, la musica del Concerto di Natale e il profumo del té caldo e dei biscotti appena sfornati accompagnano l’attesa delle feste a Villa Carlotta. Da sabato 5 a martedì 8 dicembre 2026, il museo e il giardino botanico sul Lago di Como sono aperti per «Aspettando il Natale», quattro […] L'articolo Il profumo dei biscotti appena sfornati, la musica, l’arte: ‘Aspettando il Natale a Villa Carlotta’ proviene da ComoZero .",
+      "published_at": "2026-11-27T23:19:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, con 850mila euro è rinato l’ex Uli, sede di Ats: nuova vita per un simbolo del “Laboratorio del Moderno”",
+      "url": "https://comozero.it/attualita/como-con-850mila-euro-e-rinato-lex-uli-sede-di-ats-nuova-vita-per-un-simbolo-del-laboratorio-del-moderno",
+      "summary": "[In copertina l’ex Uli prima del restauro] Inaugurato il recupero dell’immobile di Ats Insubria, finanziato da Regione Lombardia con 850mila euro. Scoperta anche una targa dedicata alla storia del palazzo, dal concorso del 1938 alla restituzione alla comunità nel 2026 Un edificio storico da conservare, ma anche da rendere riconoscibile e fruibile, perché continui a […] L'articolo Como, con 850mila euro è rinato l’ex Uli, sede di Ats: nuova vita per un simbolo del “Laboratorio del Moderno” proviene da ComoZero .",
+      "published_at": "2026-11-27T23:13:02+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Como, con il grande Albero si accende il Natale: luminarie, proiezioni, pista, mercatini e musica. La maxi guida agli appuntamenti",
+      "url": "https://comozero.it/attualita/como-con-il-grande-albero-si-accende-il-natale-luminarie-proiezioni-pista-mercatini-e-musica-la-maxi-guida-agli-appuntamenti",
+      "summary": "[Tutte le immagini, precedenti edizioni] Da sabato 28 novembre prende ufficialmente il via “Como… che incanto!”, il programma delle iniziative natalizie che accompagnerà la città fino all’Epifania. Si accendono l’albero in piazza Duomo e le proiezioni sui monumenti, mentre tornano gli appuntamenti musicali, gli spettacoli, la pista di pattinaggio e la navetta gratuita attorno alle […] L'articolo Como, con il grande Albero si accende il Natale: luminarie, proiezioni, pista, mercatini e musica. La maxi guida agli appuntamenti proviene da ComoZero .",
+      "published_at": "2026-11-27T21:22:12+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
       "title": "Il Battello di Babbo Natale torna sul lago di Como: quinta edizione, quest’anno arriva anche a Menaggio",
       "url": "https://comozero.it/attualita/il-battello-di-babbo-natale-torna-sul-lago-di-como-quinta-edizione-questanno-arriva-anche-a-menaggio",
-      "summary": "La Motonave Orione si veste a festa anche all’esterno e accompagnerà i bambini delle scuole in speciali crociere natalizie. Il progetto della Navigazione Laghi si allarga: il 4 dicembre il debutto sul Garda, nel 2027 l’obiettivo è raggiungere il lago Maggiore Babbo Natale torna a navigare sul lago di Como e quest’anno allarga il suo […] L'articolo Il Battello di Babbo Natale torna sul lago di Como: quinta edizione, quest’anno arriva anche a Menaggio proviene da ComoZero .",
+      "summary": "La quinta edizione del Battello di Babbo Natale della Navigazione Laghi è stata presentata oggi a Como con i saluti del prefetto Corrado Conforto Galli, confermando un appuntamento ormai consolidato sul Lago di Como e pronto ad allargare il proprio raggio d’azione. L’iniziativa, nata come esperimento e cresciuta anno dopo anno, quest’anno raggiunge anche Menaggio […] L'articolo Il Battello di Babbo Natale torna sul lago di Como: quinta edizione, quest’anno arriva anche a Menaggio proviene da ComoZero .",
       "published_at": "2026-11-27T21:21:55+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -46,20 +88,6 @@
       "url": "https://comozero.it/attualita/il-colosso-da-168-miliardi-apre-a-un-passo-dal-lago-in-provincia-di-como-nuovo-super-da-1-300-metri-quadri-con-sorprese",
       "summary": "Penny Italia (1,68 miliardi di euro nel 2025, amplia la propria presenza sul Lago Ceresio con un nuovo punto vendita a Porlezza. Il supermercato ha aperto in via Ceresio, lungo la Statale 340 Regina, al piano terra di un moderno complesso commerciale destinato ad accogliere anche altre attività nei prossimi mesi L’apertura arriva al termine […] L'articolo Il colosso da 1,68 miliardi apre a un passo dal lago in provincia di Como: nuovo Super da 1.300 metri quadri con sorprese proviene da ComoZero .",
       "published_at": "2026-11-27T21:03:00+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Como, con il grande Albero si accende il Natale: luminarie, proiezioni, pista, mercatini e musica. La maxi guida agli appuntamenti",
-      "url": "https://comozero.it/attualita/como-con-il-grande-albero-si-accende-il-natale-luminarie-proiezioni-pista-mercatini-e-musica-la-maxi-guida-agli-appuntamenti",
-      "summary": "[Tutte le immagini, precedenti edizioni] Da sabato 28 novembre prende ufficialmente il via “Como… che incanto!”, il programma delle iniziative natalizie che accompagnerà la città fino all’Epifania. Si accendono l’albero in piazza Duomo e le proiezioni sui monumenti, mentre tornano gli appuntamenti musicali, gli spettacoli, la pista di pattinaggio e la navetta gratuita attorno alle […] L'articolo Como, con il grande Albero si accende il Natale: luminarie, proiezioni, pista, mercatini e musica. La maxi guida agli appuntamenti proviene da ComoZero .",
-      "published_at": "2026-11-27T19:44:12+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
       "territory_ids": [
@@ -139,20 +167,6 @@
       "territory_codes": [
         "CO",
         "TS"
-      ]
-    },
-    {
-      "title": "Como, con 850mila euro è rinato l’ex Uli, sede di Ats: nuova vita per un simbolo del “Laboratorio del Moderno”",
-      "url": "https://comozero.it/attualita/como-con-850mila-euro-e-rinato-lex-uli-sede-di-ats-nuova-vita-per-un-simbolo-del-laboratorio-del-moderno",
-      "summary": "[In copertina l’ex Uli prima del restauro] Inaugurato il recupero dell’immobile di Ats Insubria, finanziato da Regione Lombardia con 850mila euro. Scoperta anche una targa dedicata alla storia del palazzo, dal concorso del 1938 alla restituzione alla comunità nel 2026 Un edificio storico da conservare, ma anche da rendere riconoscibile e fruibile, perché continui a […] L'articolo Como, con 850mila euro è rinato l’ex Uli, sede di Ats: nuova vita per un simbolo del “Laboratorio del Moderno” proviene da ComoZero .",
-      "published_at": "2026-11-27T16:45:02+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -278,36 +292,6 @@
       "published_at": "2026-11-27T11:40:31+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "‘Ndrangheta tra Como ed Erba, sequestri per oltre un milione di euro: immobili, società e conti correnti",
-      "url": "https://comozero.it/cronaca/ndrangheta-tra-como-ed-erba-sequestri-per-oltre-un-milione-di-euro-immobili-societa-e-conti-correnti",
-      "summary": "Provvedimento del Tribunale di Milano nei confronti di tre presunti esponenti della criminalità organizzata. Le misure patrimoniali riguardano anche immobili a Turate e in altre località lombarde e calabresi Un patrimonio stimato in oltre un milione di euro, tra immobili, quote societarie e disponibilità finanziarie, è stato sequestrato dalla Polizia di Stato a tre cittadini […] L'articolo ‘Ndrangheta tra Como ed Erba, sequestri per oltre un milione di euro: immobili, società e conti correnti proviene da ComoZero .",
-      "published_at": "2026-11-27T10:33:38+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
-      ]
-    },
-    {
-      "title": "Natale a Como: arriva la navetta elettrica gratuita, corse ogni 20 minuti attorno alle mura",
-      "url": "https://comozero.it/attualita/como-arriva-la-navetta-elettrica-gratuita-natalizia-corse-ogni-20-minuti-attorno-alle-mura-per-oltre-un-mese",
-      "summary": "Dal 28 novembre al 6 gennaio torna ASF 4 XMAS: servizio hop on hop off nei weekend e nei giorni festivi, con luci, musica natalizia e piccoli regali per i bambini A Como il Natale viaggia anche in autobus. Dal 28 novembre 2026 al 6 gennaio 2027 torna ASF 4 XMAS, la navetta natalizia gratuita […] L'articolo Natale a Como: arriva la navetta elettrica gratuita, corse ogni 20 minuti attorno alle mura proviene da ComoZero .",
-      "published_at": "2026-11-27T10:20:52+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
       "territory_ids": [
         "como"
       ],
