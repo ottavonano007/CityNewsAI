@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:06:00.913601+00:00",
+  "generated_at": "2026-11-27T16:13:35.603555+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 3,
+      "inserted": 3,
       "ok": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "title": "Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani”",
       "url": "https://www.piacenzasera.it/2026/11/piacenza-talenti-si-rafforza-il-lavoro-di-squadra-citta-sempre-piu-attrattiva-per-i-giovani/672446",
-      "summary": "The post Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani” appeared first on piacenzasera.it .",
+      "summary": "Riunione per fare il punto sul progetto che dal 2023 promuove e supporta iniziative per favorire la permanenza sul territorio di figure di elevata professionalità The post Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani” appeared first on piacenzasera.it .",
       "published_at": "2026-11-27T14:58:05+00:00",
       "source_id": "piacenzasera",
       "source_name": "PiacenzaSera",
@@ -209,22 +209,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "’Ndrangheta, sequestrati beni per oltre un milione di euro a tre presunti esponenti della locale di Erba e Canzo",
-      "url": "https://www.ciaocomo.it/2026/11/27/ndrangheta-sequestrati-beni-per-oltre-un-milione-di-euro-a-tre-presunti-esponenti-della-locale-di-erba-e-canzo/348937",
-      "summary": "Operazione congiunta delle Questure di Milano e Como: nel mirino immobili, quote societarie e conti correnti riconducibili a tre uomini di 51, 55 e 59 anni The post ’Ndrangheta, sequestrati beni per oltre un milione di euro a tre presunti esponenti della locale di Erba e Canzo appeared first on CiaoComo .",
-      "published_at": "2026-11-27T10:39:19+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     },
     {
