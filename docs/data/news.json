@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-27T13:26:02.435808+00:00",
+  "generated_at": "2026-11-27T15:06:00.913601+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani”",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-talenti-si-rafforza-il-lavoro-di-squadra-citta-sempre-piu-attrattiva-per-i-giovani/672446",
+      "summary": "The post Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T14:58:05+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Giocattolo sospeso, a Piacenza aderisce il negozio Città del Sole",
+      "url": "https://www.piacenzasera.it/2026/11/giocattolo-sospeso-a-piacenza-aderisce-il-negozio-citta-del-sole/672440",
+      "summary": "The post Giocattolo sospeso, a Piacenza aderisce il negozio Città del Sole appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T14:34:57+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Piacenza Sud, dopo la posa delle barriere a nord dello svincolo proseguono i lavori sul tratto a sud",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-sud-dopo-la-posa-delle-barriere-a-nord-dello-svincolo-proseguono-i-lavori-sul-tratto-a-sud/672436",
+      "summary": "Avviato a fine ottobre il secondo lotto del piano di Autostrade per l’Italia. Il cantiere occupa la corsia di emergenza e il traffico continua a scorrere su tre corsie di larghezza ridotta The post Piacenza Sud, dopo la posa delle barriere a nord dello svincolo proseguono i lavori sul tratto a sud appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T13:57:21+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Trattare la sclerosi multipla: dalla patologia allo stile di vita convegno in Confindustria",
+      "url": "https://www.piacenzasera.it/2026/11/trattare-la-sclerosi-multipla-dalla-patologia-allo-stile-di-vita-convegno-in-confindustria/672434",
+      "summary": "Il convegno è organizzato dalla sezione provinciale Aism di Piacenza con il patrocinio del Comune di Piacenza e dell’Ausl di Piacenz The post Trattare la sclerosi multipla: dalla patologia allo stile di vita convegno in Confindustria appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T13:41:24+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Nek festeggia i 30 anni del successo di Laura non c’è: concerto a Piacenza il 4 dicembre 2027",
+      "url": "https://www.piacenzasera.it/2026/11/nek-festeggia-i-30-anni-del-successo-di-laura-non-ce-concerto-a-piacenza-il-4-dicembre-2027/672432",
+      "summary": "I biglietti per “Laura 30th e tutto il resto Live” sono già disponibili in pre-sale per il Filgood Social Club, fanclub ufficiale di Nek, mentre dalle ore 11:00 di domani, sabato 28 novembre, saranno disponibili su Ticketone The post Nek festeggia i 30 anni del successo di Laura non c’è: concerto a Piacenza il 4 dicembre 2027 appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T13:35:12+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Escape game, visori di realtà virtuale e avatar: la Passerini entra nel futuro con Digit@Piacenza",
       "url": "https://www.piacenzasera.it/2026/11/escape-game-visori-di-realta-virtuale-e-avatar-la-passerini-entra-nel-futuro-con-digitpiacenza/672428",
@@ -59,7 +129,7 @@
     },
     {
       "title": "Natale 2026 a Como. Quale momento di benessere metterai sotto l’albero?",
-      "url": "https://comozero.it/attualita/natale-2026-a-como-quale-momento-di-benessere-metterai-sotto-lalbero",
+      "url": "https://comozero.it/pubbliredazionale/natale-2026-a-como-quale-momento-di-benessere-metterai-sotto-lalbero",
       "summary": "C’è chi, durante un trattamento viso, spera che il massaggio duri ancora un po’. E c’è chi, dopo una passeggiata sul lungolago a dicembre, cerca subito il tepore di una coperta. Se hai riconosciuto qualcuno, hai già un indizio per scegliere il suo regalo. Per il Natale 2026 da ReveZone, a Como, abbiamo pensato proprio […] L'articolo Natale 2026 a Como. Quale momento di benessere metterai sotto l’albero? proviene da ComoZero .",
       "published_at": "2026-11-27T12:29:06+00:00",
       "source_id": "comozero",
@@ -142,34 +212,6 @@
       ]
     },
     {
-      "title": "Riparte dal “Battaglini” di Rovigo il cammino dei Lyons in serie A Elite",
-      "url": "https://www.piacenzasera.it/2026/11/riparte-dala-battaglini-di-rovigo-il-cammino-dei-lyons-in-serie-a-elite/672413",
-      "summary": "Una settimana di libertà concessa ai ragazzi da Coach Paoletti ha permesso di ricaricare le batterie dopo un tour de force importante The post Riparte dal “Battaglini” di Rovigo il cammino dei Lyons in serie A Elite appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T11:14:27+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "ro"
-      ],
-      "territory_codes": [
-        "RO"
-      ]
-    },
-    {
-      "title": "Lavoratori che si comprano l’impresa in crisi “Si può fare grazie al sostegno di Confcooperative”",
-      "url": "https://www.piacenzasera.it/2026/11/lavoratori-che-si-comprano-limpresa-in-crisi-si-puo-fare-grazie-al-sostegno-di-confcooperative/672158",
-      "summary": "Il convegno organizzato da Confcooperative Piacenza nella sede della Provincia sul tema delle \"imprese recuperate\" dai lavoratori The post Lavoratori che si comprano l’impresa in crisi “Si può fare grazie al sostegno di Confcooperative” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T10:54:24+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "’Ndrangheta, sequestrati beni per oltre un milione di euro a tre presunti esponenti della locale di Erba e Canzo",
       "url": "https://www.ciaocomo.it/2026/11/27/ndrangheta-sequestrati-beni-per-oltre-un-milione-di-euro-a-tre-presunti-esponenti-della-locale-di-erba-e-canzo/348937",
       "summary": "Operazione congiunta delle Questure di Milano e Como: nel mirino immobili, quote societarie e conti correnti riconducibili a tre uomini di 51, 55 e 59 anni The post ’Ndrangheta, sequestrati beni per oltre un milione di euro a tre presunti esponenti della locale di Erba e Canzo appeared first on CiaoComo .",
@@ -199,20 +241,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Natale a Como, dal 28 novembre in servizio la navetta elettrica gratuita di ASF Autolinee",
-      "url": "https://www.ciaocomo.it/2026/11/27/natale-a-como-dal-28-novembre-in-servizio-la-navetta-elettrica-gratuita-di-asf-autolinee/348932",
-      "summary": "Partenze ogni 20 minuti lungo il circuito delle mura cittadine, con la possibilità di salire e scendere liberamente alle fermate del percorso The post Natale a Como, dal 28 novembre in servizio la navetta elettrica gratuita di ASF Autolinee appeared first on CiaoComo .",
-      "published_at": "2026-11-27T10:26:13+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
@@ -255,34 +283,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "“Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli",
-      "url": "https://www.ciaocomo.it/2026/11/27/nati-per-leggere-alla-biblioteca-di-como-due-incontri-per-scoprire-il-piacere-della-lettura-fin-da-piccoli/348556",
-      "summary": "Genitori e bambini da 0 a 6 anni protagonisti di un’esperienza condivisa, guidata da bibliotecari e volontari, per avvicinarsi al mondo dei libri fin dalla prima infanzia The post “Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli appeared first on CiaoComo .",
-      "published_at": "2026-11-27T10:00:14+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Il mercatino A/Mano compie 15 anni, doppio appuntamento per Natale",
-      "url": "https://www.piacenzasera.it/2026/11/il-mercatino-a-mano-compie-15-anni-doppio-appuntamento-per-natale/672390",
-      "summary": "Il tradizionale mercatino dell'handmade a Piacenza torna con un doppio appuntamento natalizio: il 28 e il 29 novembre in Sant'Ilario, il 13 dicembre sotto ai portici di Palazzo Gotico The post Il mercatino A/Mano compie 15 anni, doppio appuntamento per Natale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T09:32:12+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
