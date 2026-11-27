@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:24:44.015457+00:00",
+  "generated_at": "2026-11-27T07:29:44.558875+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,48 @@
     }
   ],
   "articles": [
+    {
+      "title": "Mattoncini Lego, la Sinfonica di Milano, mercatini di Natale: cosa fare nel week end",
+      "url": "https://www.piacenzasera.it/2026/11/mattoncini-lego-la-sinfonica-di-milano-mercatini-di-natale-cosa-fare-nel-week-end/672340",
+      "summary": "The post Mattoncini Lego, la Sinfonica di Milano, mercatini di Natale: cosa fare nel week end appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T06:00:53+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Piacenza porta a Remodula Expo Italia il suo modello di città media",
+      "url": "https://www.piacenzasera.it/2026/11/piacenza-porta-a-remodula-expo-italia-il-suo-modello-di-citta-media/672336",
+      "summary": "L'assessora Adriana Fantini ha partecipato ad un confronto sul ruolo della pianificazione urbanistica The post Piacenza porta a Remodula Expo Italia il suo modello di città media appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T06:00:12+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Fiorenzuola, Parco Lucca diventa interamente di proprietà comunale",
+      "url": "https://www.piacenzasera.it/2026/11/fiorenzuola-parco-lucca-diventa-interamente-di-proprieta-comunale/672354",
+      "summary": "L'acquisizione di ulteriori 10.850 metri quadrati consentirà all'Amministrazione comunale di avviare un organico programma di riqualificazione. Già individuate risorse per 500 mila euro, a fronte di un progetto complessivo del valore di un milione di euro The post Fiorenzuola, Parco Lucca diventa interamente di proprietà comunale appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T05:00:22+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "lu"
+      ],
+      "territory_codes": [
+        "LU"
+      ]
+    },
     {
       "title": "Treni in Lombardia, Trenord: “Puntuale l’84,4% delle corse”. Ok, ma c’è qualcosa che ancora non va",
       "url": "https://comozero.it/attualita/treni-in-lombardia-trenord-puntuale-l844-delle-corse-ok-ma-ce-qualcosa-che-ancora-non-va",
@@ -156,20 +198,6 @@
       ]
     },
     {
-      "title": "Murelli “Investire nella cultura della donazione significa salvare vite”",
-      "url": "https://www.piacenzasera.it/2026/11/murelli-investire-nella-cultura-della-donazione-significa-salvare-vite/672324",
-      "summary": "La senatrice piacentina della Lega \"Serve fare informazione già al momento della prenotazione della carta d’identità\" The post Murelli “Investire nella cultura della donazione significa salvare vite” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T16:58:45+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
       "title": "Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e il cantiere non si ferma",
       "url": "https://comozero.it/attualita/como-la-battaglia-dei-tavolini-vista-lago-il-tar-da-ragione-al-comune-e-respinge-la-richiesta-di-stop",
       "summary": "La società Como Lake Food contestava la fine della concessione per 80,75 metri quadrati e il progetto che prevede di spostare i tavoli all’aperto dal centro della piazza. Per i giudici prevale l’interesse pubblico a realizzare i lavori: il ristorante può proseguire l’attività all’interno dei propri locali Il Tar della Lombardia non blocca il progetto […] L'articolo Como, la battaglia dei tavolini vista lago: il Tar dà ragione al Comune e il cantiere non si ferma proviene da ComoZero .",
@@ -181,34 +209,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Campionato nazionale CSEN, Karate Piacenza ai vertici",
-      "url": "https://www.piacenzasera.it/2026/11/campionato-nazionale-csen-karate-piacenza-ai-vertici/672310",
-      "summary": "The post Campionato nazionale CSEN, Karate Piacenza ai vertici appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T16:28:24+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Il Piacenza Baseball riconferma in panchina Andrea D’Auria",
-      "url": "https://www.piacenzasera.it/2026/11/il-piacenza-baseball-riconferma-in-panchina-andrea-dauria/672305",
-      "summary": "Il tecnico piacentino è stato confermato per il quarto anno consecutivo alla guida della squadra biancorossa The post Il Piacenza Baseball riconferma in panchina Andrea D’Auria appeared first on piacenzasera.it .",
-      "published_at": "2026-11-26T16:21:47+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
