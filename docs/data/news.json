@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-27T09:17:51.760033+00:00",
+  "generated_at": "2026-11-27T11:01:18.104294+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 4,
+      "inserted": 4,
       "ok": true
     },
     {
       "source": "CiaoComo",
-      "parsed": 4,
-      "inserted": 4,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Lavoratori che si comprano l’impresa in crisi “Si può fare grazie al sostegno di Confcooperative”",
+      "url": "https://www.piacenzasera.it/2026/11/lavoratori-che-si-comprano-limpresa-in-crisi-si-puo-fare-grazie-al-sostegno-di-confcooperative/672158",
+      "summary": "Il convegno organizzato da Confcooperative Piacenza nella sede della Provincia sul tema delle \"imprese recuperate\" dai lavoratori The post Lavoratori che si comprano l’impresa in crisi “Si può fare grazie al sostegno di Confcooperative” appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T10:54:24+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "“Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli",
+      "url": "https://www.ciaocomo.it/2026/11/27/nati-per-leggere-alla-biblioteca-di-como-due-incontri-per-scoprire-il-piacere-della-lettura-fin-da-piccoli/348556",
+      "summary": "Genitori e bambini da 0 a 6 anni protagonisti di un’esperienza condivisa, guidata da bibliotecari e volontari, per avvicinarsi al mondo dei libri fin dalla prima infanzia The post “Nati per Leggere”, alla Biblioteca di Como due incontri per scoprire il piacere della lettura fin da piccoli appeared first on CiaoComo .",
+      "published_at": "2026-11-27T10:00:14+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Il mercatino A/Mano compie 15 anni, doppio appuntamento per Natale",
+      "url": "https://www.piacenzasera.it/2026/11/il-mercatino-a-mano-compie-15-anni-doppio-appuntamento-per-natale/672390",
+      "summary": "Il tradizionale mercatino dell'handmade a Piacenza torna con un doppio appuntamento natalizio: il 28 e il 29 novembre in Sant'Ilario, il 13 dicembre sotto ai portici di Palazzo Gotico The post Il mercatino A/Mano compie 15 anni, doppio appuntamento per Natale appeared first on piacenzasera.it .",
+      "published_at": "2026-11-27T09:32:12+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "I Grandi Maestri del Presepio, l’arte della Val Gardena in mostra sul lago di Como",
+      "url": "https://www.ciaocomo.it/2026/11/27/i-grandi-maestri-del-presepio-larte-della-val-gardena-in-mostra-sul-lago-di-como/348917",
+      "summary": "Protagonista della quinta edizione la famiglia Heide, custode di un’antica tradizione di scultura e lavorazione del legno The post I Grandi Maestri del Presepio, l’arte della Val Gardena in mostra sul lago di Como appeared first on CiaoComo .",
+      "published_at": "2026-11-27T09:30:54+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Como, oltre 400mila euro per la ricerca sui tumori pediatrici grazie alla Charity Dinner di Fondazione Veronesi",
       "url": "https://www.ciaocomo.it/2026/11/27/como-oltre-400mila-euro-per-la-ricerca-sui-tumori-pediatrici-grazie-alla-charity-dinner-di-fondazione-veronesi/348868",
@@ -123,20 +179,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "Fiorenzuola, Parco Lucca diventa interamente di proprietà comunale",
-      "url": "https://www.piacenzasera.it/2026/11/fiorenzuola-parco-lucca-diventa-interamente-di-proprieta-comunale/672354",
-      "summary": "L'acquisizione di ulteriori 10.850 metri quadrati consentirà all'Amministrazione comunale di avviare un organico programma di riqualificazione. Già individuate risorse per 500 mila euro, a fronte di un progetto complessivo del valore di un milione di euro The post Fiorenzuola, Parco Lucca diventa interamente di proprietà comunale appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T05:00:22+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "lu"
-      ],
-      "territory_codes": [
-        "LU"
       ]
     },
     {
