@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:06:41.479334+00:00",
+  "generated_at": "2026-11-27T20:07:34.842431+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Como, con il grande Albero si accende il Natale: luminarie, proiezioni, pista, mercatini e musica. La maxi guida agli appuntamenti",
+      "url": "https://comozero.it/attualita/como-con-il-grande-albero-si-accende-il-natale-luminarie-proiezioni-pista-mercatini-e-musica-la-maxi-guida-agli-appuntamenti",
+      "summary": "[Tutte le immagini, precedenti edizioni] Da sabato 28 novembre prende ufficialmente il via “Como… che incanto!”, il programma delle iniziative natalizie che accompagnerà la città fino all’Epifania. Si accendono l’albero in piazza Duomo e le proiezioni sui monumenti, mentre tornano gli appuntamenti musicali, gli spettacoli, la pista di pattinaggio e la navetta gratuita attorno alle […] L'articolo Como, con il grande Albero si accende il Natale: luminarie, proiezioni, pista, mercatini e musica. La maxi guida agli appuntamenti proviene da ComoZero .",
+      "published_at": "2026-11-27T19:44:12+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Lago di Como, l’orrido più amato al mondo si veste di ghiaccio e luce per un Natale con vista mozzafiato",
       "url": "https://comozero.it/attualita/lago-di-como-lorrido-piu-amato-al-mondo-si-veste-di-ghiaccio-e-luce-per-un-natale-con-vista-mozzafiato",
@@ -327,20 +341,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Treni in Lombardia, Trenord: “Puntuale l’84,4% delle corse”. Ok, ma c’è qualcosa che ancora non va",
-      "url": "https://comozero.it/attualita/treni-in-lombardia-trenord-puntuale-l844-delle-corse-ok-ma-ce-qualcosa-che-ancora-non-va",
-      "summary": "In Commissione Territorio di Regione Lombardia l’audizione di Trenord, RFI e Ferrovie Nord sul servizio ferroviario e sui cantieri. Rassicurazioni sui fondi PNRR per Bergamo-Montello e il collegamento con Orio al Serio, ma restano da chiarire tempi e modalità di conclusione dei lavori La puntualità dei treni migliora, ma restano criticità importanti sulle linee lombarde […] L'articolo Treni in Lombardia, Trenord: “Puntuale l’84,4% delle corse”. Ok, ma c’è qualcosa che ancora non va proviene da ComoZero .",
-      "published_at": "2026-11-26T23:31:19+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "bg"
-      ],
-      "territory_codes": [
-        "BG"
       ]
     },
     {
