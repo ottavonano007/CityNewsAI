@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:04:04.476163+00:00",
+  "generated_at": "2026-11-27T01:28:40.101637+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 13,
-      "inserted": 13,
+      "parsed": 14,
+      "inserted": 14,
       "ok": true
     },
     {
@@ -27,6 +27,20 @@
     }
   ],
   "articles": [
+    {
+      "title": "Treni in Lombardia, Trenord: “Puntuale l’84,4% delle corse”. Ok, ma c’è qualcosa che ancora non va",
+      "url": "https://comozero.it/attualita/treni-in-lombardia-trenord-puntuale-l844-delle-corse-ok-ma-ce-qualcosa-che-ancora-non-va",
+      "summary": "In Commissione Territorio di Regione Lombardia l’audizione di Trenord, RFI e Ferrovie Nord sul servizio ferroviario e sui cantieri. Rassicurazioni sui fondi PNRR per Bergamo-Montello e il collegamento con Orio al Serio, ma restano da chiarire tempi e modalità di conclusione dei lavori La puntualità dei treni migliora, ma restano criticità importanti sulle linee lombarde […] L'articolo Treni in Lombardia, Trenord: “Puntuale l’84,4% delle corse”. Ok, ma c’è qualcosa che ancora non va proviene da ComoZero .",
+      "published_at": "2026-11-26T23:31:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "bg"
+      ],
+      "territory_codes": [
+        "BG"
+      ]
+    },
     {
       "title": "Straordinario, oltre mille piante nei fondali dei laghi di Como e Lugano: si prova a riportare la vita sott’acqua (video)",
       "url": "https://comozero.it/ambiente/straordinario-oltre-mille-piante-nei-fondali-dei-laghi-di-como-e-lugano-si-prova-a-riportare-la-vita-sottacqua-video",
