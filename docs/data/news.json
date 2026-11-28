@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-28T13:08:34.535155+00:00",
+  "generated_at": "2026-11-28T14:12:05.662340+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
+      "parsed": 2,
+      "inserted": 2,
+      "ok": true
+    },
+    {
+      "source": "CiaoComo",
       "parsed": 5,
       "inserted": 5,
       "ok": true
     },
     {
-      "source": "CiaoComo",
-      "parsed": 6,
-      "inserted": 6,
-      "ok": true
-    },
-    {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -28,9 +28,37 @@
   ],
   "articles": [
     {
+      "title": "Le telecamere non autorizzate in pizzeria, denunciato il titolare del locale in provincia di Como",
+      "url": "https://comozero.it/attualita/le-telecamere-non-autorizzate-in-pizzeria-denunciato-il-titolare-del-locale-in-provincia-di-como",
+      "summary": "Nella serata del 27 novembre, i Carabinieri di Fino Mornasco, insieme ai militari del Nucleo Ispettorato del Lavoro di Como, hanno svolto controlli sulla sicurezza sul lavoro in due locali della zona. Le verifiche hanno riguardato due attività tra Luisago e Fino Mornasco, dove sono state identificate in totale 21 persone presenti. Durante gli accertamenti […] L'articolo Le telecamere non autorizzate in pizzeria, denunciato il titolare del locale in provincia di Como proviene da ComoZero .",
+      "published_at": "2026-11-28T13:42:24+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Nuove nomine nella Diocesi di Piacenza Bobbio",
+      "url": "https://www.piacenzasera.it/2026/11/nuove-nomine-nella-diocesi-di-piacenza-bobbio/672564",
+      "summary": "I provvedimenti adottati in questi giorni The post Nuove nomine nella Diocesi di Piacenza Bobbio appeared first on piacenzasera.it .",
+      "published_at": "2026-11-28T13:40:17+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
       "title": "Quel che non accade a Roma, succede a Como: Azione riunisce tutto il campo, non largo ma larghissimo",
       "url": "https://comozero.it/politica/quel-che-non-accade-a-roma-succede-a-como-azione-riunisce-tutto-il-campo-non-largo-ma-larghissimo",
-      "summary": "Nel giorno in cui il Pd di Como formalizza la designazione di Giuseppe Cosenza candidato sindaco, ecco un’altra novità sul fronte del centrosinistra. Sabato 5 dicembre, a partire dalle ore 16.30, Azione organizza a Villa Gallia l’evento “Sfide e prospettive: in Azione per il futuro di Como”. L’appuntamento consiste in un pomeriggio di confronto tra […] L'articolo Quel che non accade a Roma, succede a Como: Azione riunisce tutto il campo, non largo ma larghissimo proviene da ComoZero .",
+      "summary": "Nel giorno in cui il Pd di Como formalizza la designazione di Giuseppe Cosenza candidato sindaco, ecco un’altra novità sul fronte del centrosinistra. Sabato 5 dicembre, a partire dalle ore 16.30, Azione, il partito di Carlo Calenda, organizza a Villa Gallia l’evento “Sfide e prospettive: in Azione per il futuro di Como”. L’appuntamento consiste in […] L'articolo Quel che non accade a Roma, succede a Como: Azione riunisce tutto il campo, non largo ma larghissimo proviene da ComoZero .",
       "published_at": "2026-11-28T12:55:19+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -43,6 +71,20 @@
         "CO",
         "CS",
         "RM"
+      ]
+    },
+    {
+      "title": "Stranieri irregolari a Piacenza, due espulsioni della Questura di Piacenza",
+      "url": "https://www.piacenzasera.it/2026/11/stranieri-irregolari-a-piacenza-due-espulsioni-della-questura-di-piacenza/672561",
+      "summary": "The post Stranieri irregolari a Piacenza, due espulsioni della Questura di Piacenza appeared first on piacenzasera.it .",
+      "published_at": "2026-11-28T12:15:17+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
       ]
     },
     {
@@ -59,6 +101,20 @@
       "territory_codes": [
         "CO",
         "CS"
+      ]
+    },
+    {
+      "title": "Verso il voto di Como, da Forza Italia la disponibilità di Tambini. Gaddi:”Generosità disinteressata e da apprezzare”",
+      "url": "https://www.ciaocomo.it/2026/11/28/verso-il-voto-di-como-da-forza-italia-la-disponibilita-di-tambini-gaddigenerosita-disinteressata-e-da-apprezzare/349022",
+      "summary": "The post Verso il voto di Como, da Forza Italia la disponibilità di Tambini. Gaddi:”Generosità disinteressata e da apprezzare” appeared first on CiaoComo .",
+      "published_at": "2026-11-28T12:03:45+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
       ]
     },
     {
@@ -87,76 +143,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Rotary Piacenza Farnese: una cena al buio a fianco dell’Unione Ciechi",
-      "url": "https://www.piacenzasera.it/2026/11/rotary-piacenza-farnese-una-cena-al-buio-a-fianco-dellunione-ciechi/672483",
-      "summary": "Privati dei consueti punti di riferimento visivi, i commensali hanno dovuto affidarsi completamente all’udito, al tatto, all’olfatto e al gusto per orientarsi nello spazio The post Rotary Piacenza Farnese: una cena al buio a fianco dell’Unione Ciechi appeared first on piacenzasera.it .",
-      "published_at": "2026-11-28T08:50:26+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Un dono di solidarietà con la box natalizia a sostegno di Piacenza in Blu",
-      "url": "https://www.piacenzasera.it/2026/11/un-dono-di-solidarieta-con-la-box-natalizia-a-sostegno-di-piacenza-in-blu/672491",
-      "summary": "Il Natale di Piacenza in Blu nelle sorprese della \"BluBox\" The post Un dono di solidarietà con la box natalizia a sostegno di Piacenza in Blu appeared first on piacenzasera.it .",
-      "published_at": "2026-11-28T08:49:30+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Serie D: Piace sul campo del Club Milano, impegni in trasferta anche per Nibbiano e Fiorenzuola",
-      "url": "https://www.piacenzasera.it/2026/11/serie-d-piace-sul-campo-del-club-milano-impegni-in-trasferta-anche-per-nibbiano-e-fiorenzuola/672513",
-      "summary": "Dopo il filotto di vittorie nell'ultimo turno, le formazioni piacentine vogliono continuare a correre The post Serie D: Piace sul campo del Club Milano, impegni in trasferta anche per Nibbiano e Fiorenzuola appeared first on piacenzasera.it .",
-      "published_at": "2026-11-28T08:48:37+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "mi"
-      ],
-      "territory_codes": [
-        "MI"
-      ]
-    },
-    {
-      "title": "Musei e biblioteche come rifugi dalla Babele dell’informazione: Giorgio Milani al Rotary Fiorenzuola",
-      "url": "https://www.piacenzasera.it/2026/11/musei-e-biblioteche-come-rifugi-dalla-babele-dellinformazione-giorgio-milani-al-rotary-fiorenzuola/672521",
-      "summary": "L'artista piacentino ha ripercorso la nascita dei Poetari e anticipato un progetto per indicare i luoghi della cultura come protezione simbolica dal bombardamento mediatico The post Musei e biblioteche come rifugi dalla Babele dell’informazione: Giorgio Milani al Rotary Fiorenzuola appeared first on piacenzasera.it .",
-      "published_at": "2026-11-28T08:46:55+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
-      ]
-    },
-    {
-      "title": "Si rinnova il Consiglio Provinciale, domenica al voto 577 amministratori",
-      "url": "https://www.piacenzasera.it/2026/11/si-rinnova-il-consiglio-provinciale-domenica-al-voto-577-amministratori/672471",
-      "summary": "Sfida tra Franco Albertini e Roberta Valla. Le elezioni si terranno dalle 8 alle 20, al Campus Agroalimentare di Piacenza: al seggio sindaci e consiglieri comunali The post Si rinnova il Consiglio Provinciale, domenica al voto 577 amministratori appeared first on piacenzasera.it .",
-      "published_at": "2026-11-28T08:46:13+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
@@ -306,62 +292,6 @@
       "published_at": "2026-11-27T21:03:00+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Lago di Como, l’orrido più amato al mondo si veste di ghiaccio e luce per un Natale con vista mozzafiato",
-      "url": "https://comozero.it/attualita/lago-di-como-lorrido-piu-amato-al-mondo-si-veste-di-ghiaccio-e-luce-per-un-natale-con-vista-mozzafiato",
-      "summary": "La settima edizione dell’evento invernale sarà visitabile fino al 28 febbraio 2027. Luci, installazioni scenografiche e ambientazioni ispirate a “L’era glaciale” trasformeranno la gola naturale del Pioverna. L’Orrido di Bellano si prepara a trasformarsi in un paesaggio di ghiaccio e luci per il ritorno di Orrido Ice Christmas, l’appuntamento invernale che quest’anno raggiunge la settima […] L'articolo Lago di Como, l’orrido più amato al mondo si veste di ghiaccio e luce per un Natale con vista mozzafiato proviene da ComoZero .",
-      "published_at": "2026-11-27T18:45:06+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Due storie, un incontro, l’ospedale Valduce: a Como il teatro racconta il viaggio della nascita",
-      "url": "https://comozero.it/cultura-e-spettacolo/due-storie-un-incontro-lospedale-valduce-a-como-il-teatro-racconta-il-viaggio-della-nascita",
-      "summary": "Il Dipartimento Materno-Infantile dell’Ospedale Valduce di Como porta il tema della nascita fuori dalle corsie ospedaliere e lo trasforma in un’occasione di incontro e riflessione aperta alla cittadinanza. Il prossimo appuntamento del percorso “Manteniamo il Contatto” sarà sabato 28 novembre, alle 16, alla Biblioteca comunale Paolo Borsellino, con lo spettacolo teatrale “Due destini”. L’ingresso è […] L'articolo Due storie, un incontro, l’ospedale Valduce: a Como il teatro racconta il viaggio della nascita proviene da ComoZero .",
-      "published_at": "2026-11-27T18:10:58+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Erba, “Sabato Italiano”: Parma Brass in concerto con le melodie degli anni Cinquanta e Sessanta",
-      "url": "https://www.ciaocomo.it/2026/11/27/erba-sabato-italiano-parma-brass-in-concerto-con-le-melodie-degli-anni-cinquanta-e-sessanta/348929",
-      "summary": "Un viaggio musicale sulle note delle canzoni che hanno conquistato anche il cinema e gli artisti internazionali, nell’ambito della rassegna “Intrecci di arte, musica e parole” The post Erba, “Sabato Italiano”: Parma Brass in concerto con le melodie degli anni Cinquanta e Sessanta appeared first on CiaoComo .",
-      "published_at": "2026-11-27T18:00:37+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "pr"
-      ],
-      "territory_codes": [
-        "PR"
-      ]
-    },
-    {
-      "title": "Como e provincia, le iniziative del primo weekend natalizio",
-      "url": "https://www.ciaocomo.it/2026/11/27/como-e-provincia-le-iniziative-del-primo-weekend-natalizio/348909",
-      "summary": "Piste del ghiaccio da tutte le parti, eventi collaterali tra città e provincia. Leggete qui il dettaglio aggiornato The post Como e provincia, le iniziative del primo weekend natalizio appeared first on CiaoComo .",
-      "published_at": "2026-11-27T17:00:43+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
       "territory_ids": [
         "como"
       ],
