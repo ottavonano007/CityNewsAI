@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:57:28.620629+00:00",
+  "generated_at": "2026-11-28T11:56:08.173190+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 12,
-      "inserted": 12,
+      "parsed": 11,
+      "inserted": 11,
       "ok": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "title": "Elezioni a Como, clamoroso in Forza Italia: Patrizio Tambini si candida sindaco, il video e le sue parole",
       "url": "https://comozero.it/politica/elezioni-a-como-clamoroso-in-forza-italia-patrizio-tambini-si-candida-sindaco-il-video-e-le-sue-parole",
-      "summary": "Patrizio Tambini, ex assessore provinciale ed ex vicesegretario del Pdl oltre che storico esponente ciellino, è ufficialmente un candidato sindaco nella rosa del centrodestra lariano. Clamorosa svolta nel centrodestra comasco in vista delle elezioni comunali a Como: la corrente di Forza Italia che – con la polemica assenza del segretario provinciale Sergio Gaddi – si […] L'articolo Elezioni a Como, clamoroso in Forza Italia: Patrizio Tambini si candida sindaco, il video e le sue parole proviene da ComoZero .",
+      "summary": "Patrizio Tambini, ex assessore provinciale ed ex vicesegretario del Pdl oltre che storico esponente ciellino, è ufficialmente un candidato sindaco nella rosa del centrodestra lariano. Clamorosa svolta in vista delle elezioni comunali a Como: la corrente di Forza Italia che – con la polemica assenza del segretario provinciale Sergio Gaddi – si è riunita oggi […] L'articolo Elezioni a Como, clamoroso in Forza Italia: Patrizio Tambini si candida sindaco, il video e le sue parole proviene da ComoZero .",
       "published_at": "2026-11-28T10:02:51+00:00",
       "source_id": "comozero",
       "source_name": "ComoZero",
@@ -351,20 +351,6 @@
       "territory_codes": [
         "CO",
         "MI"
-      ]
-    },
-    {
-      "title": "Provincia di Como, nella nuovissima sede delle Poste si può fare il passaporto senza andare in questura",
-      "url": "https://comozero.it/attualita/provincia-di-como-nella-nuovissima-sede-delle-poste-si-puo-fare-il-passaporto-senza-andare-in-questura",
-      "summary": "Ha riaperto oggi al pubblico l’ufficio postale di Carimate, completamente ristrutturato nell’ambito del progetto Polis: l’iniziativa di Poste Italiane che coinvolge circa 7mila uffici postali dei comuni con meno di 15mila abitanti in Italia e punta a promuovere la coesione economica, sociale e territoriale fornendo i servizi della Pubblica Amministrazione ai cittadini. La sede di Via […] L'articolo Provincia di Como, nella nuovissima sede delle Poste si può fare il passaporto senza andare in questura proviene da ComoZero .",
-      "published_at": "2026-11-27T16:24:25+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
