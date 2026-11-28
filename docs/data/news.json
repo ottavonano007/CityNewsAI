@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T11:56:08.173190+00:00",
+  "generated_at": "2026-11-28T13:08:34.535155+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -15,8 +15,8 @@
     },
     {
       "source": "ComoZero",
-      "parsed": 11,
-      "inserted": 11,
+      "parsed": 12,
+      "inserted": 12,
       "ok": true
     },
     {
@@ -27,6 +27,54 @@
     }
   ],
   "articles": [
+    {
+      "title": "Quel che non accade a Roma, succede a Como: Azione riunisce tutto il campo, non largo ma larghissimo",
+      "url": "https://comozero.it/politica/quel-che-non-accade-a-roma-succede-a-como-azione-riunisce-tutto-il-campo-non-largo-ma-larghissimo",
+      "summary": "Nel giorno in cui il Pd di Como formalizza la designazione di Giuseppe Cosenza candidato sindaco, ecco un’altra novità sul fronte del centrosinistra. Sabato 5 dicembre, a partire dalle ore 16.30, Azione organizza a Villa Gallia l’evento “Sfide e prospettive: in Azione per il futuro di Como”. L’appuntamento consiste in un pomeriggio di confronto tra […] L'articolo Quel che non accade a Roma, succede a Como: Azione riunisce tutto il campo, non largo ma larghissimo proviene da ComoZero .",
+      "published_at": "2026-11-28T12:55:19+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "cs",
+        "rm"
+      ],
+      "territory_codes": [
+        "CO",
+        "CS",
+        "RM"
+      ]
+    },
+    {
+      "title": "Como, il Pd ha scelto il candidato sindaco: è Giuseppe Cosenza, oggi l’ok. Ora confronto con gli alleati",
+      "url": "https://comozero.it/politica/como-il-pd-ha-scelto-il-candidato-sindaco-e-giuseppe-cosenza-oggi-lok-ora-confronto-con-gli-alleati",
+      "summary": "A Como è un weekend di scossoni politici, questo. Dopo le turbolenze in Forza Italia, un’altra novità di peso arriva dal Pd: l’assemblea cittadina del Partito Democratico ha ufficialmente designato questa mattina Giuseppe Cosenza come candidato sindaco del partito. Al termine del confronto, a quanto si apprende, il consenso verso Cosenza è stato ampio, forse […] L'articolo Como, il Pd ha scelto il candidato sindaco: è Giuseppe Cosenza, oggi l’ok. Ora confronto con gli alleati proviene da ComoZero .",
+      "published_at": "2026-11-28T12:09:43+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como",
+        "cs"
+      ],
+      "territory_codes": [
+        "CO",
+        "CS"
+      ]
+    },
+    {
+      "title": "Teatro Sociale di Como, con Opera meno9 la musica accompagna le famiglie in dolce attesa",
+      "url": "https://www.ciaocomo.it/2026/11/28/teatro-sociale-di-como-con-opera-meno9-la-musica-accompagna-le-famiglie-in-dolce-attesa/348944",
+      "summary": "Giunto all’undicesima edizione, il progetto propone laboratori di canto, movimento e ascolto dal vivo sulle note del Barbiere di Siviglia di Gioachino Rossini The post Teatro Sociale di Como, con Opera meno9 la musica accompagna le famiglie in dolce attesa appeared first on CiaoComo .",
+      "published_at": "2026-11-28T11:30:31+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Elezioni a Como, clamoroso in Forza Italia: Patrizio Tambini si candida sindaco, il video e le sue parole",
       "url": "https://comozero.it/politica/elezioni-a-como-clamoroso-in-forza-italia-patrizio-tambini-si-candida-sindaco-il-video-e-le-sue-parole",
@@ -319,38 +367,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "Bella novità per genitori, coppie e caregiver: ecco dove trovare ascolto e sostegno a Como e Fino Mornasco",
-      "url": "https://comozero.it/attualita/bella-novita-per-genitori-coppie-e-caregiver-ecco-dove-trovare-ascolto-e-sostegno-a-como-e-fino-mornasco",
-      "summary": "Ascolto, informazione e orientamento per genitori, coppie, nonni e caregiver. I nuovi punti di accesso dei Centri per la Famiglia sono attivi in via Napoleona a Como e in via Trieste a Fino Mornasco: ecco orari e contatti I consultori di Como e Fino Mornasco diventano due nuovi punti di accesso dei Centri per la […] L'articolo Bella novità per genitori, coppie e caregiver: ecco dove trovare ascolto e sostegno a Como e Fino Mornasco proviene da ComoZero .",
-      "published_at": "2026-11-27T16:57:56+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "ts"
-      ],
-      "territory_codes": [
-        "CO",
-        "TS"
-      ]
-    },
-    {
-      "title": "Como, inaugurato Palazzo ULI dopo il restauro: 850mila euro per tutelare il patrimonio architettonico della città",
-      "url": "https://www.ciaocomo.it/2026/11/27/como-inaugurato-palazzo-uli-dopo-il-restauro-850mila-euro-per-tutelare-il-patrimonio-architettonico-della-citta/348990",
-      "summary": "L’edificio di ATS Insubria, testimonianza dell’architettura moderna comasca, potrà diventare un caso di studio per gli studenti del Politecnico di Milano The post Como, inaugurato Palazzo ULI dopo il restauro: 850mila euro per tutelare il patrimonio architettonico della città appeared first on CiaoComo .",
-      "published_at": "2026-11-27T16:30:29+00:00",
-      "source_id": "ciaocomo",
-      "source_name": "CiaoComo",
-      "territory_ids": [
-        "como",
-        "mi"
-      ],
-      "territory_codes": [
-        "CO",
-        "MI"
       ]
     },
     {
