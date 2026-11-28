@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T07:24:49.448974+00:00",
+  "generated_at": "2026-11-28T08:59:23.910477+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -9,8 +9,8 @@
     },
     {
       "source": "CiaoComo",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 6,
+      "inserted": 6,
       "ok": true
     },
     {
@@ -27,6 +27,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Mystery Concert di due opere senza firma, sarà il pubblico a votare la preferita",
+      "url": "https://www.ciaocomo.it/2026/11/28/mystery-concert-di-due-opere-senza-firma-sara-il-pubblico-a-votare-la-preferita/348854",
+      "summary": "Quanto conta la fama di un autore nel giudicare le sue opere? Il concerto di Como Classica non svela il programma in anticipo, saranno gli spettatori a scegliere la migliore The post Mystery Concert di due opere senza firma, sarà il pubblico a votare la preferita appeared first on CiaoComo .",
+      "published_at": "2026-11-28T08:30:29+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Asst Lariana, due nuovi sportelli per le famiglie nei Consultori di Como e Fino Mornasco",
+      "url": "https://www.ciaocomo.it/2026/11/28/asst-lariana-due-nuovi-sportelli-per-le-famiglie-nei-consultori-di-como-e-fino-mornasco/349010",
+      "summary": "Personale qualificato a disposizione di genitori, coppie, nonni e caregiver per individuare percorsi di sostegno personalizzati e facilitare l’accesso ai servizi del territorio The post Asst Lariana, due nuovi sportelli per le famiglie nei Consultori di Como e Fino Mornasco appeared first on CiaoComo .",
+      "published_at": "2026-11-28T08:00:47+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Scontro tra due auto con a bordo 4 giovani, muore un 29enne",
+      "url": "https://primacomo.it/cronaca/scontro-tra-due-auto-con-a-bordo-4-giovani-muore-un-29enne",
+      "summary": "Dramma nella notte a Lurago D’Erba dove a causa dello scontro tra due veicoli è morto un 29enne. La tragedia Alle 4 di questa mattina, le squadre dei Vigili del Fuoco dei distaccamenti di Cantù ed Erba sono intervenute nel Comune di Lurago d’Erba per l’incidente stradale che ha coinvolto due autovetture. A bordo dei […] Continua la lettura di Scontro tra due auto con a bordo 4 giovani, muore un 29enne sul portale Prima Como .",
+      "published_at": "2026-11-28T07:52:51+00:00",
+      "source_id": "primacomo",
+      "source_name": "Prima Como",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "BookCity Como, un sabato di libri, poesia e teatro: otto appuntamenti",
+      "url": "https://www.ciaocomo.it/2026/11/28/bookcity-como-un-sabato-di-libri-poesia-e-teatro-otto-appuntamenti/348603",
+      "summary": "Laboratori con Bimba Landmann, letture dall'Orlando Furioso, filosofia e narrativa; a Villa del Grumello una riflessione sulla biodiversità e il ricordo del disastro di Seveso. The post BookCity Como, un sabato di libri, poesia e teatro: otto appuntamenti appeared first on CiaoComo .",
+      "published_at": "2026-11-28T07:00:33+00:00",
+      "source_id": "ciaocomo",
+      "source_name": "CiaoComo",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "L’hotel per il lusso del futuro: un’isola artificiale e galleggiante in mezzo al Lago di Como",
       "url": "https://comozero.it/attualita/lhotel-per-il-turismo-del-futuro-unisola-artificiale-e-galleggiante-in-mezzo-al-lago-di-como",
@@ -634,20 +690,6 @@
       "url": "https://primacomo.it/attualita/mercatino-di-natale-solidale-servira-per-riqualificare-la-moquette-dellaltare",
       "summary": "Valbrona, nella frazione di Visino torna il mercatino natalizio della parrocchia Beata Vergine Assunta a cura de “Le befane di Visino”, gruppo di volontarie molto attive nella frazione. Il mercatino “Da alcuni anni organizziamo nell’ex salone del cinema il mercatino del riuso il terzo sabato di ogni mese, ad eccezione di giugno perché in quel […] Continua la lettura di Mercatino di Natale solidale: servirà per riqualificare la moquette dell’altare sul portale Prima Como .",
       "published_at": "2026-11-21T13:00:48+00:00",
-      "source_id": "primacomo",
-      "source_name": "Prima Como",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
-      ]
-    },
-    {
-      "title": "Oltre 60 elaborati per il concorso «100 torri e 1.000 canestri»",
-      "url": "https://primacomo.it/attualita/oltre-60-elaborati-per-il-concorso-100-torri-e-1-000-canestri",
-      "summary": "Il 12 novembre si è conclusa la prima fase del concorso letterario organizzato dall’associazione Charturium, con il patrocinio del Comune di Cantù e della Pallacanestro Cantù. Il risultato Alla sede dell’associazione e nei negozi canturini, che hanno aderito all’evento, sono giunti 66 elaborati, suddivisi in ugual numero tra narrativa e poesia. «Il titolo del concorso, […] Continua la lettura di Oltre 60 elaborati per il concorso «100 torri e 1.000 canestri» sul portale Prima Como .",
-      "published_at": "2026-11-21T08:13:30+00:00",
       "source_id": "primacomo",
       "source_name": "Prima Como",
       "territory_ids": [
