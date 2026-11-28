@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-28T08:59:23.910477+00:00",
+  "generated_at": "2026-11-28T09:58:49.876867+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
-      "parsed": 3,
-      "inserted": 3,
+      "parsed": 5,
+      "inserted": 5,
       "ok": true
     },
     {
@@ -27,6 +27,76 @@
     }
   ],
   "articles": [
+    {
+      "title": "Rotary Piacenza Farnese: una cena al buio a fianco dell’Unione Ciechi",
+      "url": "https://www.piacenzasera.it/2026/11/rotary-piacenza-farnese-una-cena-al-buio-a-fianco-dellunione-ciechi/672483",
+      "summary": "Privati dei consueti punti di riferimento visivi, i commensali hanno dovuto affidarsi completamente all’udito, al tatto, all’olfatto e al gusto per orientarsi nello spazio The post Rotary Piacenza Farnese: una cena al buio a fianco dell’Unione Ciechi appeared first on piacenzasera.it .",
+      "published_at": "2026-11-28T08:50:26+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Un dono di solidarietà con la box natalizia a sostegno di Piacenza in Blu",
+      "url": "https://www.piacenzasera.it/2026/11/un-dono-di-solidarieta-con-la-box-natalizia-a-sostegno-di-piacenza-in-blu/672491",
+      "summary": "Il Natale di Piacenza in Blu nelle sorprese della \"BluBox\" The post Un dono di solidarietà con la box natalizia a sostegno di Piacenza in Blu appeared first on piacenzasera.it .",
+      "published_at": "2026-11-28T08:49:30+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Serie D: Piace sul campo del Club Milano, impegni in trasferta anche per Nibbiano e Fiorenzuola",
+      "url": "https://www.piacenzasera.it/2026/11/serie-d-piace-sul-campo-del-club-milano-impegni-in-trasferta-anche-per-nibbiano-e-fiorenzuola/672513",
+      "summary": "Dopo il filotto di vittorie nell'ultimo turno, le formazioni piacentine vogliono continuare a correre The post Serie D: Piace sul campo del Club Milano, impegni in trasferta anche per Nibbiano e Fiorenzuola appeared first on piacenzasera.it .",
+      "published_at": "2026-11-28T08:48:37+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "mi"
+      ],
+      "territory_codes": [
+        "MI"
+      ]
+    },
+    {
+      "title": "Musei e biblioteche come rifugi dalla Babele dell’informazione: Giorgio Milani al Rotary Fiorenzuola",
+      "url": "https://www.piacenzasera.it/2026/11/musei-e-biblioteche-come-rifugi-dalla-babele-dellinformazione-giorgio-milani-al-rotary-fiorenzuola/672521",
+      "summary": "L'artista piacentino ha ripercorso la nascita dei Poetari e anticipato un progetto per indicare i luoghi della cultura come protezione simbolica dal bombardamento mediatico The post Musei e biblioteche come rifugi dalla Babele dell’informazione: Giorgio Milani al Rotary Fiorenzuola appeared first on piacenzasera.it .",
+      "published_at": "2026-11-28T08:46:55+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
+    {
+      "title": "Si rinnova il Consiglio Provinciale, domenica al voto 577 amministratori",
+      "url": "https://www.piacenzasera.it/2026/11/si-rinnova-il-consiglio-provinciale-domenica-al-voto-577-amministratori/672471",
+      "summary": "Sfida tra Franco Albertini e Roberta Valla. Le elezioni si terranno dalle 8 alle 20, al Campus Agroalimentare di Piacenza: al seggio sindaci e consiglieri comunali The post Si rinnova il Consiglio Provinciale, domenica al voto 577 amministratori appeared first on piacenzasera.it .",
+      "published_at": "2026-11-28T08:46:13+00:00",
+      "source_id": "piacenzasera",
+      "source_name": "PiacenzaSera",
+      "territory_ids": [
+        "piacenza"
+      ],
+      "territory_codes": [
+        "PC"
+      ]
+    },
     {
       "title": "Mystery Concert di due opere senza firma, sarà il pubblico a votare la preferita",
       "url": "https://www.ciaocomo.it/2026/11/28/mystery-concert-di-due-opere-senza-firma-sara-il-pubblico-a-votare-la-preferita/348854",
@@ -295,48 +365,6 @@
       ],
       "territory_codes": [
         "CO"
-      ]
-    },
-    {
-      "title": "La Canottieri Ongina torna in campo contro il fanalino di coda Garlasco",
-      "url": "https://www.piacenzasera.it/2026/11/la-canottieri-ongina-torna-in-campo-contro-il-fanalino-di-coda-garlasco/672481",
-      "summary": "I gialloneri sono passati al secondo posto in classifica a quota 14 in compagnia di Albisola e Cremona, mentre in vetta c'è il Sant'Anna Tomcar (15) The post La Canottieri Ongina torna in campo contro il fanalino di coda Garlasco appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T16:21:39+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "cr"
-      ],
-      "territory_codes": [
-        "CR"
-      ]
-    },
-    {
-      "title": "L’Assigeco vuole ritrovare il sorriso: domenica la sfida con Reggio Calabria",
-      "url": "https://www.piacenzasera.it/2026/11/lassigeco-vuole-ritrovare-il-sorriso-domenica-la-sfida-con-reggio-calabria/672472",
-      "summary": "L’assistente allenatore Ariele Zanella: \"Servirà una prestazione solida per conquistare i due punti” The post L’Assigeco vuole ritrovare il sorriso: domenica la sfida con Reggio Calabria appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T15:53:46+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "rc"
-      ],
-      "territory_codes": [
-        "RC"
-      ]
-    },
-    {
-      "title": "Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani”",
-      "url": "https://www.piacenzasera.it/2026/11/piacenza-talenti-si-rafforza-il-lavoro-di-squadra-citta-sempre-piu-attrattiva-per-i-giovani/672446",
-      "summary": "Riunione per fare il punto sul progetto che dal 2023 promuove e supporta iniziative per favorire la permanenza sul territorio di figure di elevata professionalità The post Piacenza Talenti, si rafforza il lavoro di squadra “Città sempre più attrattiva per i giovani” appeared first on piacenzasera.it .",
-      "published_at": "2026-11-27T14:58:05+00:00",
-      "source_id": "piacenzasera",
-      "source_name": "PiacenzaSera",
-      "territory_ids": [
-        "piacenza"
-      ],
-      "territory_codes": [
-        "PC"
       ]
     },
     {
