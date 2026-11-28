@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T04:04:05.285556+00:00",
+  "generated_at": "2026-11-28T05:09:35.755724+00:00",
   "source_status": [
     {
       "source": "PiacenzaSera",
@@ -27,6 +27,34 @@
     }
   ],
   "articles": [
+    {
+      "title": "L’hotel per il lusso del futuro: un’isola artificiale e galleggiante in mezzo al Lago di Como",
+      "url": "https://comozero.it/attualita/lhotel-per-il-turismo-del-futuro-unisola-artificiale-e-galleggiante-in-mezzo-al-lago-di-como",
+      "summary": "Si chiama Hidden Hotel on Lake Como il suggestivo concept firmato dallo studio Dyatlov (di cui sono tutte le immagini che vedete), un progetto che immagina una struttura ricettiva disposta ad anfiteatro intorno a un giardino interno ed interamente circondata dall’acqua. I volumi in terra rossa dialogano con il profilo del Lago di Como, puntando […] L'articolo L’hotel per il lusso del futuro: un’isola artificiale e galleggiante in mezzo al Lago di Como proviene da ComoZero .",
+      "published_at": "2026-11-28T04:53:28+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
+    {
+      "title": "Una storia d’arte e di famiglia lunga 120 anni: sul Lago di Como apre al pubblico un atelier magico",
+      "url": "https://comozero.it/cultura-e-spettacolo/una-storia-darte-e-di-famiglia-tramandata-per-120-anni-sul-lago-di-como-apre-al-pubblico-un-atelier-magico",
+      "summary": "Da una storia d’arte, ma forse ancora più di famiglia, lunga quasi 120 anni, nasce sul Lago di Como una nuova sinergia tra l’Ecomuseo del Sasso di Moltrasio e l’Atelier Clerici. Un’occasione per visitare il luogo in cui creava lo scultore e disegnatore Massimo Clerici (1945-2025), artista rinomato nel territorio comasco e non solo, ricordato […] L'articolo Una storia d’arte e di famiglia lunga 120 anni: sul Lago di Como apre al pubblico un atelier magico proviene da ComoZero .",
+      "published_at": "2026-11-28T04:33:37+00:00",
+      "source_id": "comozero",
+      "source_name": "ComoZero",
+      "territory_ids": [
+        "como"
+      ],
+      "territory_codes": [
+        "CO"
+      ]
+    },
     {
       "title": "Il profumo dei biscotti appena sfornati, la musica, l’arte: ‘Aspettando il Natale a Villa Carlotta’",
       "url": "https://comozero.it/cultura-e-spettacolo/il-profumo-dei-biscotti-appena-sfornati-la-musica-larte-aspettando-il-natale-a-villa-carlotta",
@@ -253,36 +281,6 @@
       ],
       "territory_codes": [
         "PC"
-      ]
-    },
-    {
-      "title": "Como, notte folle in pronto soccorso: infermiere aggredito e reparto danneggiato, arrestata una donna",
-      "url": "https://comozero.it/cronaca/como-notte-folle-in-pronto-soccorso-infermiere-aggredito-e-reparto-danneggiato-arrestata-una-donna",
-      "summary": "Un infermiere aggredito, una porta del reparto danneggiata e l’intervento dei Carabinieri. È successo nella notte al Pronto soccorso dell’ospedale Sant’Anna di San Fermo della Battaglia, dove una donna di nazionalità argentina è stata arrestata in flagranza di reato La donna, senza fissa dimora sul territorio nazionale e già gravata da precedenti di polizia, si […] L'articolo Como, notte folle in pronto soccorso: infermiere aggredito e reparto danneggiato, arrestata una donna proviene da ComoZero .",
-      "published_at": "2026-11-27T12:44:48+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como",
-        "fm"
-      ],
-      "territory_codes": [
-        "CO",
-        "FM"
-      ]
-    },
-    {
-      "title": "Como, il pacco in cortile con marijuana e hashish, la mamma: “Ordinate per mio figlio”",
-      "url": "https://comozero.it/cronaca/como-il-pacco-in-cortile-con-marijuana-e-hashish-la-mamma-ordinate-per-mio-figlio",
-      "summary": "Una spedizione contenente marijuana, hashish e concentrati di THC è stata intercettata dopo che una residente ha consegnato ai Carabinieri un pacco trovato aperto nel cortile del condominio. In casa sequestrati anche un bilancino e un grinder Servizio straordinario di controllo del territorio nella serata del 26 novembre per i Carabinieri della Tenenza di Mariano […] L'articolo Como, il pacco in cortile con marijuana e hashish, la mamma: “Ordinate per mio figlio” proviene da ComoZero .",
-      "published_at": "2026-11-27T12:07:14+00:00",
-      "source_id": "comozero",
-      "source_name": "ComoZero",
-      "territory_ids": [
-        "como"
-      ],
-      "territory_codes": [
-        "CO"
       ]
     },
     {
